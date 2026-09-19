@@ -1,0 +1,1093 @@
+#!/usr/bin/env python3
+"""CANLI v5 — IKI KOLLU A/B DENEYI. Tek bot, pencereler ONCEDEN rastgele atanir.
+
+NEDEN A/B: iki ayri bot ayni hesapta/pazarda kosamaz (mutabakat birbirinin
+dolumlarini kendi sanar). Ayri zamanlarda kosturmak da rejim farkiyla kirlenir.
+Tek cozum: ayni saatte, pencere pencere rastgele atama.
+
+KOL A (SABIT)  = mevcut v4. Merdiven t=5'te kurulur, bir daha kipirdamaz.
+KOL B (TAKIPLI)= merdiven fiyati TAKIP EDER. Genis fiyat izgarasi + periyodik
+                 yenileme: piyasa kayinca yeni uygun seviyeler eklenir.
+
+B'NIN GEREKCESI (olculdu, 09-18 son 6 saat, ayni 63 pencere):
+  essiz bacagin KAZANAN pay orani:  biz %7,90  |  bosona %28,51
+  (yapisal taban %0 — simetrik+sabit merdivende essiz taraf hep kaybeder)
+  fiyat dagilimi 0,45 USTU:         biz %0     |  bosona %36
+  => Sabit merdiven TANIM GEREGI yalniz COKEN tarafta dolabilir; fazlalik hep
+     kaybedende birikir. Fiyati takip eden merdiven bazen KAZANANI tutar.
+  bosona ayni pencerelerde +2,18 kr/pay, biz +0,54.
+
+--- v4 gerekcesi (korunuyor) ------------------------------------------------
+bosona'nin mekanizmasi: Up+Down her zaman $1,00 oder; o paketi her tarafi
+O TARAF UCUZKEN alarak topluyor.
+
+NEDEN (09-18, kamu veriyle cozuldu): bosona'nin kari YON DEGIL. Yon kenari
+-0,7 puan = SIFIR (0,3489'dan alip %34,2 kazaniyor, adil %34,9). Kari TAMAMEN
+ciftten geliyor (+7,71 kr/pay); tek tarafli bacaklari ZARARDA (-2,78).
+
+TEK FARK CIFT MALIYETI:
+  bosona 41 pazarda cifti $0,847'ye topluyor  -> +15,3 kr/cift
+  biz (v3, dokunus) $0,976'ya                 -> + 2,4 kr/cift
+  fark 6,48 kr/pay = uc aydir aradigimiz bosluk.
+
+MEKANIZMA: Up+Down HER ZAMAN $1,00 oder. bosona o paketi HER TARAFI O TARAF
+UCUZKEN alarak topluyor. Pencere ici fiyat savruluyor; defterin DERINLIGINDE
+iki tarafta da bekleyen alislar savrulmanin IKI ucunu da yakaliyor ve iki
+"ucuz an"in toplami 1,00'in cok altinda kaliyor.
+Ornek (btc-updown-5m-1789676700, ayni pencerede ikimiz de vardik):
+  BIZ    : ilk 30 sn dokunustan 20 pay, cift 0,97,  kar +$0,30
+  BOSONA : Up 763 @0,107 (hepsi son 60 sn) + Down 924 @0,261, cift 0,368,
+           harcama $323, garanti odeme $763 -> KAR $602.
+
+BU BOTUN OLCTUGU TEK SEY: ULASTIGIMIZ CIFT MALIYETI. Hedef <0,976.
+BASARI OLCUTU "cok dolum" DEGIL. Derin emirlerin cogu DOLMAYACAK; normal.
+
+UYARI: simulasyon bu fikri 6 kez olduren seydi ("merdiven -6,9...-9,9,
+genislik cevap degil"). Kuyruk modeli derin emirlerin dolmayacagini soyluyordu;
+gercekte SAVRULMA aninda doluyorlar. Bu yuzden yalniz CANLI olculur.
+(RESEARCH_DISCIPLINE_PLAYBOOK #38)
+
+--- v3'ten devralinan muhasebe (dis denetim duzeltmeleri) --------------------
+
+NEDEN v3 (dis denetim 09-17): v1/v2'nin UC baslik bulgusu da OLCUM HATASIYDI.
+  (a) 11 tek-tarafli pencerenin 9'u BASTAN tek tarafliydi — karsi taraf
+      post-only reddedilmisti. "-22,6 puan ters secim" buyuk olcude
+      kendi kotasyon kurulum hatamiz.
+  (b) Seviye tablosu YANLIS siralanmisti (yalniz kabul edilenler uzerinden).
+      Dogrusu: dokunus +0,11 / bir tik alt -6,04 — v2'nin tum gerekcesi tersti.
+  (c) "Iki taraf da doldu" != "eslesti": eslesen 340 pay +1,08, eslesmeyen
+      145 pay -12,78.
+  NUANS: redli pencereler -2,46, redsiz pencereler -3,40. Yani redleri
+  duzeltmek OLCUMU temizler, kari GARANTI ETMEZ. v3'un isi budur.
+
+v3'TE DEGISEN (hepsi MUHASEBE, strateji degil):
+  1. Iki-tarafli kabul durum makinesi: bir taraf kabul edilmezse kabul
+     edilenler TEYITLI geri cekilir. Ciplak yon alinmaz.
+  2. Post-only reddinde bir tik daha derine tek tekrar; HEDEF ve GERCEK
+     seviye AYRI kaydedilir (mis-ranking bir daha olmasin).
+  3. Teyitli iptal: cancel yanitindaki canceled/not_canceled OKUNUR.
+  4. POST yaniti kaybolursa BILINMEYEN — acik emirlerden mutabakat yapilir,
+     cozulemezse pencere komple geri cekilir.
+  5. Yerel gerceklesmis PnL ile borsa mutabakatinin KOTUMSERI kullanilir
+     (eski surumde risk cozulunce dusuyor ama PnL 120 sn sonra geliyordu).
+  6. STATE yuklenir (eskiden yaziliyor ama okunmuyordu).
+  7. Her emir icin oid + snapshot/ack/dolum zamanlari + o andaki defter.
+  8. Markout icin pencere boyunca defter goruntuleri.
+  9. Gercek tick_size API'den; tek-yazici kilidi bu KLASORDEKI her betigi görur.
+
+GUVENLIK: zarar kesici (feedback_live_trading_discipline_20260819),
+fail-closed acilis, borsadan mutabakat, STOP dosyasi, tek-yazici kilidi.
+"""
+import os, sys, json, time, re, glob, urllib.request
+
+LIVE='--live' in sys.argv; TEST='--test' in sys.argv
+RED_TEST='--red-test' in sys.argv     # kuru modda tek-taraf reddini taklit et
+D=os.path.dirname(os.path.abspath(__file__))
+CRED='/home/taygun/Masaüstü/polymarket/.env.live'
+ET=''
+for i,a in enumerate(sys.argv):
+    if a=='--etiket' and i+1<len(sys.argv): ET='_'+sys.argv[i+1]
+STOP=f'{D}/STOP'; LOG=f'{D}/LOG_ab{ET}.jsonl'; STATE=f'{D}/STATE_ab{ET}.json'
+GAMMA="https://gamma-api.polymarket.com/events?slug={}-updown-5m-{}"
+BOOK="https://clob.polymarket.com/book?token_id={}"
+TICK="https://clob.polymarket.com/tick-size?token_id={}"
+# 09-18 10:21: Cloudflare SAHTE Chrome UA'sini 403 ile engelledi; durust
+# python-urllib UA'si geciyor. Tarayici taklidi yapma.
+UA={'User-Agent':'python-urllib/3'}
+
+PAZAR=[('btc',300)]
+T_POST=5.0; GERI_IPTAL=3.0
+KLIP=5.0                  # gamma orderMinSize=5 -> tam minimum
+TIK_VARSAYILAN=0.01
+# DERIN MERDIVEN — MUTLAK FIYAT NOKTALARI (sabit tik ofseti DEGIL).
+# HATA (09-18 22:00, canlida gorulmus): sabit tik ofseti fiyat seviyesine gore
+# tamamen farkli sey yapiyor. bb=0,76'da "5 tik asagi" = 0,71, yani sadece %7
+# indirim ve HIC UCUZ DEGIL; bb=0,20'de ayni 5 tik %25 indirim. Sonuc: bb=0,76
+# olan bir pencerede merdiven 0,71/0,66/0,58/0,48/0,36'ya kuruldu, tek taraf
+# maruziyeti $13,95 oldu (benim $7,50 tahminimin iki kati) ve dolumlar
+# ort 0,608'den geldi - tezimizin tam tersi.
+# bosona'nin GERCEK dolum araligi 0,05-0,44 = MUTLAK ucuz fiyatlar.
+# Mutlak noktalarla tek taraf tavani fiyattan BAGIMSIZ: 5 pay x 1,26 = $6,30.
+FIYATLAR=[0.40,0.30,0.22,0.15,0.10,0.06,0.03]          # KOL A (sabit) izgarasi
+# KOL B: genis izgara — piyasa yukari kayinca ustteki seviyeler devreye girer
+# KOL B (09-18 11:30 YENIDEN TANIMLANDI): "mid'e yakin, SUREKLI YENILENEN kotasyon"
+# ESKI B (genis mutlak izgara 0.75..0.03) 5 pencerede eslesme oranini ARTIRMADI
+# (%56 vs A'nin %57) ama cift kenarini +21,7'den +6,2'ye dusurdu -> hipotez zayif.
+# YENI GEREKCE (dis denetim, bosona 22 gun/1.258 pazar): onun maker dolumlari
+# "onceki MID'in 2,10 kurus ALTINDA" gerceklesiyor, 5 sn'de 0,69 kurus aleyhe
+# hareket -> net ~1,4 kurus pasif yakalama. Yani SABIT DERIN seviye degil,
+# MID'I TAKIP EDEN DAR kotasyon. Bizim dolum medyanimiz 0,300 iken mid ~0,50:
+# mid'den 20 KURUS uzaktayiz.
+# ARITMETIK: defter aynali, mid_up + mid_down = 1,00. Iki tarafa da mid-2tik
+# koyarsak cift maliyeti 1,00-0,04 = 0,96 -> cift basina 4 kurus (makas yakalama).
+DELTA_TIK_B=[2,4]         # KOL B: mid'in kac TIK altina
+# 09-18 16:10: 20 -> 8 sn. GEREKCE (markout olcumu, 275 dolum, kayitli tape):
+#   dolum etrafinda mid yorungesi: t-10 +9,13 / t-3 +4,65 / t-1 +0,84 / t0 -1,44
+#   => fiyat DUSEREK emrimize geliyor, degip DUSMEYE DEVAM ediyor = ters secim.
+#   giris +1,23 kr, markout -2,39 -> NET -1,16 kr/dolum
+#   bosona: giris +2,10, markout -0,69 -> NET +1,41. Fark 2,6 kurus/dolum.
+#   Emrimiz BAYATKEN vuruluyor; 20 sn'de fiyat birkac kurus kayabiliyor.
+# RISK: daha sik yeniden koyma KUYRUK SIRASI kaybettirir; dolumlar daha derin
+#   harekete kayabilir ve markout DAHA KOTU olabilir. Iki yonlu, olculecek.
+# 09-18 16:55 GERI ALINDI: 8 sn DENENDI ve BOZDU.
+#   B-1 (20 sn): 19 pen +15,83$ | essiz +1,3 | essiz KAZ %32,1
+#   B-2 ( 8 sn):  5 pen -10,35$ | essiz -38,1 | essiz KAZ %0,0  GA95[-16,-6]
+#   Onceden yazdigim risk gerceklesti: daha sik yeniden koyma KUYRUK SIRASI
+#   kaybettiriyor; emir sira sonuna gecince ancak fiyat DAHA DERINE gidince
+#   doluyor -> ters secim kotulesiyor. Bayat emri korumak icin odedigimiz
+#   kuyruk bedeli, kazandigimizdan buyuk. n=5 kucuk AMA GA sifiri disliyor
+#   ve mekanizma anlasilir, o yuzden geri aliniyor.
+YENILEME_ARA=20.0         # B kolu: kac saniyede bir mid'e gore yeniden konumlanir
+TARAF_TAVAN=10.0          # B kolu: taraf basina azami toplam alis maliyeti ($)
+import random as _rnd
+AB_TOHUM=20260918         # atama TEKRARLANABILIR olsun
+# ASGARI INDIRIM: mutlak merdiven, piyasa ZATEN ucuzken dokunusa yapisiyor.
+# Gozlem (09-18 23:02): bb=0,31 iken ust seviyemiz 0,30 = 1 TIK alti -> v3'un
+# yaptigi sey, yani ADIL fiyattan alim. Tezin tamami "adil degerin ALTINDA al";
+# dokunusun bir tik alti tanim geregi adil deger. Esik yargi isi, %15 olcut
+# 9 pencerelik veride 37 dolumun 5'ini eliyor (en kotusu %3 indirimliydi).
+MIN_INDIRIM_ORAN=0.85     # px <= 0,85*bb
+MIN_INDIRIM_MUTLAK=0.05   # ve px <= bb-0,05
+RED_DERINLES=1            # derinde post-only reddi beklenmiyor; yine de dursun
+# --- GEC+UCUZ KESME (09-18, kamu veri + kendi logumuzla dogrulandi) ---------
+# BULGU: pencerenin son dakikasinda TWAP kilidi yuzunden sonuc neredeyse belli.
+# O anda OLEN tarafi 0,03-0,22'den almak, AYNALI defterde karsi tarafa favoriyi
+# 0,78-0,97'den satmak demektir. Karsi taraf kazanir, biz kaybederiz.
+#   BIZIM geç+ucuz dolumlarimiz : 7 dolum, 7'si de kaybetti, -14,86 kr/pay
+#   bosona'nin ayna islemi      : 12 islem, 12'si de kazandi, +6,27 kr/pay
+#   kendi 19 gunluk arsivimiz   : t>=260 & fiyat>=0,65 alim +9,3 kr/pay, 19/19 gun
+# AYRISMA (kendi logumuz, t>=200):
+#   fiyat <=0,25 -> kazanan %0,  -14,86 kr/pay   (KESILECEK)
+#   fiyat > 0,25 -> kazanan %60, +26,00 kr/pay   (DOKUNULMAYACAK)
+GEC_KES=200.0             # bu saniyeden sonra
+UCUZ_ESIK=0.25            # bu fiyatin ALTINDAKI acik emirler iptal edilir
+GEC_ESIK=180.0            # bu saniyeden SONRA denge toleransi SIFIR olur.
+                          # OLCUM (09-18, 13 pencere): eslesmeyen bacak ort 0,2660'tan
+                          # alinmis ve 12/12 KAYBETMIS (adil %26,6, ters secim -26,6 puan;
+                          # bosona -0,7). Sebep: derin merdiven ancak fiyat O SEVIYEYE
+                          # COKERSE doluyor; gec cokus TWAP kilidi (t>=240) yuzunden
+                          # genelde olumcul. Yani GEC dolum, diger taraf elde YOKSA,
+                          # olu para. Geç donemde yalniz HAFIF tarafta emir tutulur ->
+                          # gec dolumlar cifti TAMAMLAR, ciplak pozisyon YARATMAZ.
+                          # Eslesen +22,90 kr/pay, eslesmeyen -26,60 -> kaldirac burada.
+DENGE_SINIR=10.0          # bir taraf digerinden bu kadar pay ONE GECERSE o tarafin
+                          # KALAN seviyeleri iptal edilir. Gozlem (21:40 penceresi):
+                          # fiyat tek yone cokunce merdivenin O TARAFI bastan sona
+                          # doluyor (5/5 seviye, 0,44 -> 0,09), diger taraf hic
+                          # dolmuyor -> ucuz ama ESSIZ envanter. O pencerede ucuz
+                          # cift kurmak da IMKANSIZ (Up 0,09 ise Down 0,91).
+                          # Cozum: cifti zorlamak degil, tek yone birikimi SINIRLAMAK.
+TAMAMLA_ACIK=False        # cift tamamlama KAPALI: v3'te olculdu, kenar getirmiyor
+                          # (bosona 79 pazar: ters secim -0,7 puan = ~0).
+KESICI=-48.0              # 09-18 14:47 YENIDEN AYARLANDI: STATE kayboldu, sayac SIFIRLANDI.
+                          # Kesici -82 idi ve sifirdan sayinca $82 daha kayba izin
+                          # verecekti. Gercek bakiye $248,89, taban $200 -> sadece
+                          # $48,89 alan var. KESICI=-48 ile taban korunuyor.
+                          # (onceki gerekce: operator "pUSD $200 kalana kadar")
+                          # O an bakiye $261,41, v4 sayaci -21,16 -> -82'de
+                          # 60,84$ daha kayip = taban ~$200,57. Kesici ACIK RISKI
+                          # de sayar, yani o rakama ULASMADAN durur.
+                          # Pencere basina EN KOTU hal = tek tarafin tamami dolar:
+                          # 5 pay x (0,45+0,40+0,32+0,22+0,10) ~ $7,5 -> ~8 kotu pencere.
+MAX_SAAT=12.0
+if "--dk" in sys.argv: MAX_SAAT=float(sys.argv[sys.argv.index("--dk")+1])/60.0
+if "--dk" in sys.argv: MAX_SAAT=float(sys.argv[sys.argv.index("--dk")+1])/60.0
+PX_MIN,PX_MAX=0.02,0.98   # derin seviyeler icin genisletildi
+MUTABAKAT_ARA=260.0       # 120 -> 180 -> 300 -> 260. 300 PENCERE PERIYODUYLA AYNIYDI: faz kotu tutarsa
+                          # mutabakat her seferinde pencere acilisina denk gelip HEPSINI
+                          # atlatabilirdi. 260 ile faz doner (gcd=20, 15 konum).
+SNAP_ARA=60.0             # markout icin defter goruntusu araligi (sn)
+# --- CIFT TAMAMLAMA (09-18, operator onayi) -------------------------------
+# GEREKCE: 12 pencerede eslesen cift 6/6 artida (+1,12 kr/pay), tek taraf kalan
+# 2/2 zararda (-50 kr/pay). Defter AYNALI oldugu icin tek taraf dolar dolmaz
+# karsi tarafin ASK'i ~ (1 - bizim fiyat) -> cifti hemen kapatmak ~$1,00 tutar,
+# maliyet neredeyse yalniz taker ucreti. Olculen karsi-olgusal: iki pencere
+# -10,10$ yerine -0,25$ olurdu. ZAMAN KRITIK: t=7sn -0,12$, t=67sn -3,66$.
+T_TAMAMLA=15.0            # ilk dolumdan sonra karsi tarafa taninan sure (sn)
+TAMAMLA_TAVAN=1.02        # cift basina azami toplam maliyet (ucret DAHIL)
+FEE_TAKER=0.07            # kripto taker ucret orani (resmi feeSchedule)
+
+st={'pnl':0.0,'pnl_yerel':0.0,'pencere':0,'emir':0,'dolum':0,'pay':0.0,'durdu':None,
+    'pencereler':[],'gorulen_tx':[],'resmi_sonuclar':{},'mutabakat_pencere':0,
+    'geri_cekilen':0,'red':0,'bilinmeyen':0}
+pen={}; TOK={}; TICKS={}; DIS_RISK=0.0; MUTABAKAT_OK=False
+
+def log(k,**kw):
+    r={'t':time.strftime('%H:%M:%S',time.gmtime()),'utc_ms':round(time.time()*1000),'k':k,**kw}
+    with open(LOG,'a') as f: f.write(json.dumps(r)+'\n')
+    print(f"  [{r['t']}] {k}: "+" ".join(f"{a}={b}" for a,b in kw.items()), flush=True)
+
+def jget(u,t=8):
+    with urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=t) as r:
+        return json.loads(r.read())
+
+# ---------------------------------------------------------------- risk / pnl
+def pencere_risk(w):
+    """EN KOTU HAL. Cift pozisyon RISKI AZALTIR: 1 Up + 1 Down = $1,00."""
+    if w.get('cozuldu'): return 0.0
+    dolan={0:0.0,1:0.0}; kalan_mal={0:0.0,1:0.0}; mal=0.0
+    for r in w['emir']:
+        oi=r['oi']; d=max(0.0,r.get('pay',0.0))
+        dolan[oi]+=d; mal+=d*r['p']+r.get('ucret',0.0)
+        if r.get('durum')=='acik':
+            kalan_mal[oi]+=max(0.0,KLIP-d)*r['p']
+    return max(0.0, max(mal-dolan[kaz]+kalan_mal[1-kaz] for kaz in (0,1)))
+
+def toplam_risk(): return DIS_RISK + sum(pencere_risk(w) for w in pen.values())
+
+def etkin_pnl():
+    """KOTUMSER: borsa mutabakati ile yerel gerceklesmisin dusugu.
+
+    ESKI HATA: pencere cozulunce riski 0'a duserdi ama st['pnl'] ancak
+    120 sn sonraki mutabakatta guncellenirdi -> kesici o aralikta kordu.
+    Yerel PnL cozulme aninda yazildigi icin bosluk kapaniyor."""
+    return min(st['pnl'], st['pnl_yerel'])
+
+def kesici_asilir(ek=0.0): return (etkin_pnl()-toplam_risk()-ek) < KESICI
+
+def kabul_karari(kabul):
+    """kabul: {0:n,1:n} taraf basina KABUL EDILEN emir sayisi -> (devam, sebep)."""
+    if kabul[0]>0 and kabul[1]>0: return True,'iki_taraf'
+    if kabul[0]==0 and kabul[1]==0: return False,'hic_kabul_yok'
+    return False,'tek_taraf'
+
+def tamamla_karari(ort,ask,tavan=None):
+    """(yap, cift_maliyeti). ort=dolan tarafin ort fiyati, ask=eksik tarafin ask'i.
+
+    Cift $1,00 oder. Maliyet = ort + ask + taker ucreti. Tavan DAR tutuluyor:
+    gevsek tavan 'ters secim gercekten kotu' varsayimina bahis olur, o rakama
+    henuz guvenmiyoruz. Reddedilen kararlar da maliyetiyle loglanir ki daha
+    gevsek bir tavanin ne yapacagi sonradan PARA HARCAMADAN olculebilsin."""
+    if tavan is None: tavan=TAMAMLA_TAVAN
+    ucret=FEE_TAKER*ask*(1.0-ask)
+    mal=ort+ask+ucret
+    return mal<=tavan, round(mal,5)
+
+def iptal_yorumla(oid,r):
+    """cancel yanitini ICERIGINE bakarak yorumla -> (iptal_oldu, sebep)."""
+    if not isinstance(r,dict): return False,'yanit_dict_degil'
+    if oid in (r.get('canceled') or []): return True,'iptal'
+    nc=r.get('not_canceled') or {}
+    if oid in nc:
+        # "already canceled or matched" = emir ZATEN YOK, iptal BASARILI sayilir.
+        # Eski kod bunu basarisizlik sayip 'belirsiz' damgaliyordu; 8 sn'lik
+        # yenilemeye gecince oran %7'den %43'e cikti ve hem gurultu hem yanlis
+        # risk muhasebesi uretti. Borsada takipsiz emir OLMADIGI dogrulandi.
+        m=str(nc[oid]).lower()
+        if any(x in m for x in ('already','not found','does not exist','matched')):
+            return True,'zaten_yok'
+        return False,str(nc[oid])[:60]
+    if not r.get('canceled') and not nc: return False,'bos_yanit'
+    return False,'listede_yok'
+
+# ---------------------------------------------------------------------- test
+if TEST:
+    def mk(oi,p,pay,durum='dolu'): return {'oi':oi,'p':p,'pay':pay,'durum':durum}
+    ok=[]
+    pen['a']={'cozuldu':False,'emir':[mk(0,0.33,5),mk(0,0.31,5),mk(1,0.59,5),mk(1,0.57,5)]}
+    ok.append(('tam cift riski 0', abs(toplam_risk())<1e-9, toplam_risk())); pen.clear()
+    pen['b']={'cozuldu':False,'emir':[mk(0,0.33,5),mk(0,0.31,5)]}
+    ok.append(('tek taraf riski 3,20', abs(toplam_risk()-3.20)<1e-9, toplam_risk())); pen.clear()
+    pen['c']={'cozuldu':False,'emir':[mk(0,0.40,5),mk(0,0.40,5),mk(1,0.55,5)]}
+    ok.append(('dengesiz riski 1,75', abs(toplam_risk()-1.75)<1e-9, toplam_risk())); pen.clear()
+    pen['d']={'cozuldu':False,'emir':[mk(0,0.40,5),mk(1,0.55,0,'acik')]}
+    ok.append(('acik emirli risk >=0', toplam_risk()>=0, toplam_risk())); pen.clear()
+    # KESICI'ye GORELI yaz - sabit rakam yazilirsa taban degisince test bayatlar
+    pen['e']={'cozuldu':False,'emir':[mk(0,0.50,5),mk(0,0.50,5)]}   # risk 5,00
+    st['pnl']=st['pnl_yerel']=KESICI+4.9            # -> pnl-risk = KESICI-0,1 : ATAR
+    ok.append((f'esik alti (KESICI={KESICI}) -> kesici ATAR', kesici_asilir(), round(etkin_pnl()-toplam_risk(),2)))
+    st['pnl']=st['pnl_yerel']=KESICI+5.1            # -> pnl-risk = KESICI+0,1 : ATMAZ
+    ok.append((f'esik ustu (KESICI={KESICI}) -> ATMAZ', not kesici_asilir(), round(etkin_pnl()-toplam_risk(),2)))
+    pen.clear()
+    # YENI: PnL bosluğu. Borsa henuz -5 diyor ama yerel -30'u gormus.
+    st['pnl']=-5.0; st['pnl_yerel']=-30.0
+    ok.append(('pnl boslugu: kotumser secilir', abs(etkin_pnl()+30.0)<1e-9, etkin_pnl()))
+    st['pnl']=KESICI+10.0; st['pnl_yerel']=KESICI-0.1   # borsa iyi gorunuyor, yerel kotu
+    ok.append(('pnl boslugu: KOTUMSER ile kesici ATAR', kesici_asilir(), etkin_pnl()))
+    st['pnl']=st['pnl_yerel']=0.0
+    # YENI: iki-tarafli kabul durum makinesi
+    ok.append(('iki taraf -> devam', kabul_karari({0:2,1:2})==(True,'iki_taraf'),1))
+    ok.append(('tek taraf -> GERI CEK', kabul_karari({0:2,1:0})==(False,'tek_taraf'),1))
+    ok.append(('tek taraf (ters) -> GERI CEK', kabul_karari({0:0,1:1})==(False,'tek_taraf'),1))
+    ok.append(('hic kabul yok -> GERI CEK', kabul_karari({0:0,1:0})==(False,'hic_kabul_yok'),1))
+    # YENI: teyitli iptal yorumu
+    ok.append(('canceled listesi -> basarili', iptal_yorumla('x',{'canceled':['x']})[0],1))
+    ok.append(('not_canceled GERCEK hata -> BASARISIZ',
+               not iptal_yorumla('x',{'canceled':[],'not_canceled':{'x':'insufficient balance'}})[0],1))
+    ok.append(('not_canceled "already matched" -> BASARILI (emir zaten yok)',
+               iptal_yorumla('x',{'canceled':[],'not_canceled':{'x':'already canceled or matched'}})[0],1))
+    ok.append(('bos yanit -> BASARISIZ', not iptal_yorumla('x',{})[0],1))
+    ok.append(('baska oid -> BASARISIZ', not iptal_yorumla('x',{'canceled':['y']})[0],1))
+    # YENI: cift tamamlama karari
+    y,m=tamamla_karari(0.555,0.44)
+    ok.append(('tamamla: t=7sn olcumu (0,555+0,44) -> YAP', y and abs(m-1.01225)<1e-5, m))
+    y,m=tamamla_karari(0.555,0.80)
+    ok.append(('tamamla: t=67sn olcumu (ask 0,80) -> YAPMA', not y, m))
+    y,m=tamamla_karari(0.455,0.54)
+    ok.append(('tamamla: ikinci pencere (0,455+0,54) -> YAP', y, m))
+    y,m=tamamla_karari(0.50,0.52)
+    ok.append(('tamamla: tavani 0,1 kr asan -> YAPMA', not y, m))
+    for ad,gecti,deger in ok:
+        print(f"  {'GECTI' if gecti else 'KALDI'}  {ad}  (deger={deger})")
+    print("SONUC:", "TUMU GECTI" if all(x[1] for x in ok) else "BASARISIZ")
+    sys.exit(0 if all(x[1] for x in ok) else 1)
+
+# -------------------------------------------------------------------- client
+client=None
+if LIVE:
+    me=str(os.getpid()); mepp=str(os.getppid())
+    for pth in glob.glob('/proc/[0-9]*/cmdline'):
+        pid=pth.split('/')[2]
+        if pid in (me,mepp): continue
+        try: parca=open(pth,'rb').read().decode('utf8','ignore').split('\x00')
+        except Exception: continue
+        if not parca or 'python' not in (parca[0] or ''): continue
+        # BU KLASORDEKI herhangi bir betik yaziyorsa dur (eskiden yalniz 'ladder.py')
+        if any(y.startswith(D) and y.endswith('.py') for y in parca if y):
+            print(f"BASKA YAZICI pid={pid}",flush=True); sys.exit(1)
+    env={}
+    for line in open(CRED):
+        if re.match(r'^\s*[A-Za-z_][A-Za-z_0-9]*=',line):
+            k,v=line.split('=',1); env[k.strip()]=v.strip().strip('"').strip("'")
+    from py_clob_client_v2.client import ClobClient
+    from py_clob_client_v2.clob_types import OrderArgs,OrderType,OrderPayload,PostOrdersV2Args
+    from py_clob_client_v2.order_builder.constants import BUY
+    client=ClobClient(env.get('PM_CLOB_HOST','https://clob.polymarket.com'),chain_id=137,
+                      key=env['PM_PRIVATE_KEY'],signature_type=2,funder=env['PM_FUNDER'])
+    client.set_api_creds(client.derive_api_key())
+
+def adres():
+    a=getattr(client,'funder','') if client else ''
+    if a: return str(a).lower()
+    e={}
+    for line in open(CRED):
+        if re.match(r'^\s*[A-Za-z_][A-Za-z_0-9]*=',line):
+            k,v=line.split('=',1); e[k.strip()]=v.strip().strip('"').strip("'")
+    return e['PM_FUNDER'].lower()
+
+# ------------------------------------------------------------------ piyasa io
+def tokens(sym,S):
+    if (sym,S) in TOK: return TOK[(sym,S)]
+    try:
+        for e in jget(GAMMA.format(sym,S)):
+            for m in e.get('markets',[]):
+                t=dict(zip(json.loads(m['outcomes']),json.loads(m['clobTokenIds'])))
+                TOK[(sym,S)]={0:str(t['Up']),1:str(t['Down'])}; return TOK[(sym,S)]
+    except Exception as ex: log('gamma_err',sym=sym,S=S,err=str(ex)[:60])
+    return None
+
+def tick(tid):
+    """Gercek tick_size — eskiden 0,01 VARSAYILIYORDU."""
+    if tid in TICKS: return TICKS[tid]
+    try: v=float((jget(TICK.format(tid),6) or {}).get('minimum_tick_size') or TIK_VARSAYILAN)
+    except Exception: v=TIK_VARSAYILAN
+    TICKS[tid]=v; return v
+
+def defter(tid,n=3):
+    """(bids, asks) — ikisi de en iyiden kotuye. Markout icin ask da lazim."""
+    for i in range(n):
+        try:
+            b=jget(BOOK.format(tid),6)
+            bid=sorted([(float(x['price']),float(x['size'])) for x in b.get('bids',[])],key=lambda z:-z[0])
+            ask=sorted([(float(x['price']),float(x['size'])) for x in b.get('asks',[])],key=lambda z:z[0])
+            return bid,ask
+        except Exception as ex:
+            if i==n-1: log('kitap_hata',tid=tid[:10],err=str(ex)[:50])
+        time.sleep(0.15)
+    return None,None
+
+def resmi_sonuc(sym,S):
+    try:
+        for e in jget(GAMMA.format(sym,S),10):
+            for m in e.get('markets',[]):
+                if m.get('slug')!=f'{sym}-updown-5m-{S}' or not m.get('closed'): continue
+                op=json.loads(m.get('outcomePrices') or '[]')
+                if len(op)==2:
+                    p=[float(x) for x in op]
+                    if p==[1.0,0.0]: return 0
+                    if p==[0.0,1.0]: return 1
+    except Exception: pass
+    return None
+
+# ------------------------------------------------------------------- mutabakat
+def mutabakat():
+    global MUTABAKAT_OK
+    if not LIVE: MUTABAKAT_OK=True; return st['pnl_yerel']
+    MUTABAKAT_OK=False
+    # data-api ARD ARDA cagrida 999 veriyor. acilis_maruziyeti() hemen oncesinde
+    # pozisyon cekiyor; aralarina nefes payi sart (09-18 23:26-23:30, 3 kez).
+    time.sleep(2.0)
+    try:
+        A=adres(); tr=[]; off=0
+        # 09-18 08:38: oturum buyudu, islem sayisi 500 TAVANINA dayandi ->
+        # gor.issubset(mev) basarisiz -> mutabakat_EKSIK -> pencere acilmiyor.
+        # Sayfalar arasi 0,6 sn gecikme + 300 sn aralik oldugu icin 4 sayfa guvenli.
+        while off<2000:
+            # data-api ard arda hizli sayfa cagrisinda 999 (hiz siniri) donuyor.
+            # Sayfalar arasi nefes payi + sinirda geri cekilerek yeniden deneme.
+            b=None
+            for deneme in range(3):
+                try:
+                    b=jget(f"https://data-api.polymarket.com/trades?user={A}&limit=500&offset={off}&takerOnly=false",20); break
+                except Exception as ex:
+                    if deneme==2: raise
+                    time.sleep(4*(deneme+1))
+            if not b: break
+            tr+=b; off+=len(b)
+            if len(b)<500: break
+            time.sleep(0.6)
+        tum=set(tuple(x) for x in st.get('pencereler',[])) | {(k[0],k[1]) for k in pen}
+        st['pencereler']=[list(x) for x in tum]
+        harita={f"{s}-updown-5m-{S}":(s,S) for s,S in tum}
+        gor=set(st.setdefault('gorulen_tx',[]))
+        mev={f"{x.get('transactionHash','')}|{x.get('outcomeIndex')}|{x.get('side')}|{x.get('size')}"
+             for x in tr if x.get('slug') in harita}
+        # data-api bazen son islemleri GECICI olarak eksik donduruyor (tutarlilik
+        # gecikmesi). Eski kural "1 islem bile eksikse reddet" idi -> 09-18 10:38'de
+        # 3 islem eksik cikti, MUTABAKAT_OK 5 dk False kaldi ve bir pencere atlandi.
+        # Kucuk ve gecici eksige TOLERANS, buyuk eksige HALA RED.
+        eks=gor-mev
+        if eks:
+            if len(eks)>max(10,0.02*len(gor)):
+                log('mutabakat_EKSIK',eksik=len(eks),toplam=len(gor),karar='RED'); return None
+            log('mutabakat_eksik_tolere',eksik=len(eks),toplam=len(gor))
+        agg={}
+        for x in tr:
+            k=harita.get(x.get('slug'))
+            if not k: continue
+            gor.add(f"{x.get('transactionHash','')}|{x.get('outcomeIndex')}|{x.get('side')}|{x.get('size')}")
+            oi=int(x['outcomeIndex']); q=float(x['size']); px=float(x['price'])
+            if x['side']!='BUY': q=-q
+            a=agg.setdefault(k,{'q':{0:0.0,1:0.0},'c':0.0}); a['q'][oi]+=q; a['c']+=q*px
+        top=0.0; n=0; son=dict(st.get('resmi_sonuclar',{}))
+        for k,a in agg.items():
+            sk=f'{k[0]}|{k[1]}'; kz=son.get(sk)
+            if kz is None: kz=resmi_sonuc(k[0],k[1])
+            if kz is None: continue
+            son[sk]=kz; top+=a['q'][kz]-a['c']; n+=1
+        if n<st.get('mutabakat_pencere',0):
+            log('mutabakat_EKSIK',onceki=st['mutabakat_pencere'],simdi=n); return None
+        st['pnl']=round(top,4); st['mutabakat_pencere']=n; st['resmi_sonuclar']=son
+        st['gorulen_tx']=sorted(gor)[-4000:]; MUTABAKAT_OK=True; return top
+    except Exception as ex:
+        m=str(ex)
+        log('mutabakat_hata',err=m[:80])
+        if '999' in m or '429' in m: time.sleep(20)   # hiz sinirinda geri cekil
+        return None
+
+def acilis_maruziyeti():
+    global DIS_RISK
+    if not LIVE: DIS_RISK=0.0; return 0.0
+    try:
+        ps=jget(f"https://data-api.polymarket.com/positions?user={adres()}&limit=500",20) or []
+    except Exception as ex:
+        log('acilis_maruziyeti_OKUNAMADI',err=str(ex)[:80],karar='FAIL_CLOSED'); return None
+    # CIFT SAYIM DUZELTMESI (dis denetim 09-18): pen[] icinde TAKIP ETTIGIMIZ
+    # pencerelerin dolumlari borsada da acik pozisyon olarak gorunuyor ve
+    # toplam_risk() = DIS_RISK + sum(pencere_risk) onlari IKI KEZ sayiyordu.
+    # (canli log 00:38: dis_risk=3,50 + pencere_risk=3,95 -> risk=7,45, oysa
+    #  gercek maruziyet 3,95.) Kesiciyi ~2x kotumser yapip kosuyu erken
+    # durdurabilirdi. Takip edilen pazarlar DIS_RISK'ten cikariliyor.
+    izlenen={f"{sym}-updown-5m-{S}" for (sym,S) in pen.keys() if not pen[(sym,S)].get('cozuldu')}
+    acik=[x for x in ps if float(x.get('size') or 0)>0 and not x.get('redeemable')
+          and x.get('slug') not in izlenen]
+    # AYNI pazardaki Up+Down eslesen kismi RISK DEGIL: 1 Up + 1 Down = $1,00.
+    paz={}
+    for x in acik:
+        k=x.get('conditionId') or x.get('slug')
+        q=float(x['size']); c=q*float(x.get('avgPrice') or 0)
+        oi=1 if str(x.get('outcome','')).lower().startswith('d') else 0
+        a=paz.setdefault(k,{'q':{0:0.0,1:0.0},'c':{0:0.0,1:0.0}})
+        a['q'][oi]+=q; a['c'][oi]+=c
+    DIS_RISK=0.0
+    for k,a in paz.items():
+        m=min(a['q'][0],a['q'][1]); mal=a['c'][0]+a['c'][1]
+        # en kotu hal: bir taraf kazanir; eslesen cift her halukarda $1 oder
+        DIS_RISK+=max(0.0,max(mal-(m+ (a['q'][kz]-m)) for kz in (0,1)) if m else mal)
+    DIS_RISK=round(max(0.0,DIS_RISK),4)
+    log('maruziyet',acik_pozisyon=len(acik),pazar=len(paz),dis_risk=DIS_RISK)
+    return DIS_RISK
+
+# ----------------------------------------------------------------- state io
+def state_kaydet():
+    # GUVENLIK (09-18 14:44, gercek kayip): bir test betigi modulu import edip
+    # yenile() cagirdi; icindeki state_kaydet() CANLI STATE dosyasini bos
+    # sayaclarla EZDI (pnl -31 ve 158 pencerelik gecmis silindi). Testler
+    # LOG'u yonlendiriyordu ama STATE'i degil. Artik canli mod disinda yazmaz.
+    if not LIVE:
+        return
+    try:
+        tmp=STATE+'.tmp'
+        with open(tmp,'w') as f:
+            json.dump({'st':st,'pen':{f"{k[0]}|{k[1]}":v for k,v in pen.items()}},f)
+        os.replace(tmp,STATE)
+    except Exception as ex: log('state_hata',err=str(ex)[:70])
+
+def state_yukle():
+    """Eskiden YAZILIYOR ama HIC OKUNMUYORDU -> her restart butceyi sifirliyordu.
+
+    Acilista borsada acik emir OLMADIGI dogrulandigi icin yuklenen tum
+    emirler 'kapali' isaretlenir."""
+    if not os.path.exists(STATE): return 0
+    try: d=json.load(open(STATE))
+    except Exception as ex: log('state_yukle_HATA',err=str(ex)[:70]); return 0
+    st.update({k:v for k,v in (d.get('st') or {}).items() if k in st})
+    n=0
+    for sk,w in (d.get('pen') or {}).items():
+        sym,S=sk.split('|'); 
+        for r in w.get('emir',[]):
+            if r.get('durum')=='acik': r['durum']='kapali'
+        pen[(sym,int(S))]=w; n+=1
+    log('state_yuklendi',pencere=n,pnl=round(st['pnl'],2),pnl_yerel=round(st['pnl_yerel'],2),
+        emir=st['emir'],dolum=st['dolum'])
+    return n
+
+# ------------------------------------------------------------------ emir yolu
+def koy_toplu(istek):
+    """istek: [(oi,tid,px)] -> [(oi,px,oid,durum)]. durum: KABUL|RED|BILINMEYEN.
+
+    NEDEN TOPLU (PM dokumani, 'Submit and Maintain Orders'): ilgili fiyat
+    seviyeleri TEK istekte gonderilir. Bizim post-only redlerimizin sebebi
+    buyuk olasilikla SIRALI gonderimdi: Up'i koyarken defter kayiyor, Down'a
+    sira geldiginde fiyat capraza dusuyor ve post-only reddediyor. Tek istek
+    bu araligi kapatir. Dokuman ayrica 'her emir BAGIMSIZ degerlendirilir,
+    batch'i tek basari/basarisizlik gibi ele alma' diyor -> her yanit ayri
+    okunur."""
+    if not LIVE:
+        out=[]
+        for oi,tid,px in istek:
+            if RED_TEST and px<0.5: out.append((oi,px,'','RED'))
+            else: out.append((oi,px,f'KURU-{round(px*100)}-{round(time.time()*1000)%100000}','KABUL'))
+        return out
+    args=[]; sira=[]
+    out=[None]*len(istek)
+    for i,(oi,tid,px) in enumerate(istek):
+        try:
+            od=client.create_order(OrderArgs(token_id=tid,price=px,size=KLIP,side=BUY))
+        except Exception:
+            out[i]=(oi,px,'','RED'); continue      # yerel insa: borsaya hic gitmedi
+        args.append(PostOrdersV2Args(order=od,orderType=OrderType.GTC)); sira.append(i)
+    if not args: return out
+    try:
+        res=client.post_orders(args,post_only=True)
+    except Exception as ex:
+        m=str(ex).lower()
+        kesin=('post only','post-only','would cross','marketable','crossing',
+               'not enough balance','insufficient','invalid','min size','tick size')
+        d='RED' if any(x in m for x in kesin) else 'BILINMEYEN'
+        log('toplu_emir_hata',durum=d,err=str(ex)[:120])
+        for i in sira: out[i]=(istek[i][0],istek[i][2],'',d)
+        return out
+    if not isinstance(res,list) or len(res)!=len(args):
+        log('toplu_yanit_BOZUK',tip=type(res).__name__,uzunluk=(len(res) if isinstance(res,list) else None))
+        for i in sira: out[i]=(istek[i][0],istek[i][2],'','BILINMEYEN')
+        return out
+    for j,i in enumerate(sira):
+        r=res[j] if isinstance(res[j],dict) else {}
+        oi,tid,px=istek[i]
+        oid=r.get('orderID') or r.get('orderId') or ''
+        if oid: out[i]=(oi,px,str(oid),'KABUL'); continue
+        # RED'i yanit ICERIGINDEN tani: batch yaniti tek-emir yanitindan farkli
+        # sekilde geliyor (basarisizligi 'success:false' ile bildirmiyor olabilir).
+        metin=json.dumps(r).lower() if r else ''
+        kesin=('post only','post-only','would cross','marketable','crossing','crossed',
+               'not enough balance','insufficient','invalid','min size','tick size',
+               'unmatched','rejected','error')
+        if r.get('success') is False or any(x in metin for x in kesin):
+            out[i]=(oi,px,'','RED')
+        else:
+            out[i]=(oi,px,'','BILINMEYEN')
+            log('toplu_yanit_TANINMADI',oi=oi,p=px,yanit=json.dumps(r)[:240])
+    return out
+
+def acik_emirler():
+    if not LIVE: return []
+    try:
+        a=client.get_open_orders()
+        return a if isinstance(a,list) else []
+    except Exception as ex:
+        log('acik_emir_okunamadi',err=str(ex)[:60]); return None
+
+def bilinmeyen_coz(tid,p):
+    """BILINMEYEN POST sonrasi: borsadaki acik emirlerde ayni token+fiyati ara."""
+    a=acik_emirler()
+    if a is None: return None
+    for o in a:
+        try:
+            if str(o.get('asset_id') or o.get('token_id'))==str(tid) and abs(float(o.get('price'))-p)<1e-9:
+                return str(o.get('id') or o.get('orderID') or '')
+        except Exception: continue
+    return ''
+
+def dolum_oku(oid):
+    if not LIVE or not oid or oid.startswith('KURU'): return 0.0,'KURU'
+    try:
+        o=client.get_order(oid) or {}
+        return float(o.get('size_matched',0) or 0),(o.get('status') or '').upper()
+    except Exception: return None,''
+
+def iptal(oid):
+    """(iptal_oldu, sebep). Yanitin ICERIGINE bakar; eskiden korlemesine True donuyordu."""
+    if not LIVE or not oid or oid.startswith('KURU'): return True,'kuru'
+    try: r=client.cancel_order(OrderPayload(orderID=oid))
+    except Exception as ex:
+        m=str(ex).lower()
+        if any(x in m for x in ('not found','does not exist','already')): return True,'zaten_yok'
+        return False,str(ex)[:60]
+    return iptal_yorumla(oid,r)
+
+def iptal_toplu(oidler):
+    """{oid: (iptal_oldu, sebep)} — tek istekte, yanitin ICERIGINE bakarak."""
+    ger=[o for o in oidler if o and not str(o).startswith('KURU')]
+    if not LIVE or not ger: return {o:(True,'kuru') for o in oidler}
+    try: r=client.cancel_orders(ger)
+    except Exception as ex:
+        m=str(ex).lower()
+        t=(True,'zaten_yok') if any(x in m for x in ('not found','does not exist','already')) else (False,str(ex)[:60])
+        return {o:t for o in oidler}
+    return {o:(iptal_yorumla(o,r) if o in ger else (True,'kuru')) for o in oidler}
+
+def kapat(r,sebep):
+    """Emri TEYITLI kapat: iptal et, olmadiysa borsadan durumu dogrula."""
+    tamam,nd=iptal(r['oid'])
+    d,dur=dolum_oku(r['oid'])
+    if d is not None: r['pay']=max(r.get('pay',0.0),d)
+    if not tamam and dur not in ('MATCHED','CANCELED'):
+        log('IPTAL_TEYITSIZ',oid=str(r['oid'])[:12],p=r['p'],neden=nd,borsa=dur)
+        r['durum']='belirsiz'; return False
+    r['durum']='kapali'; r['kapanis']=sebep; r['iptal_neden']=nd; r['borsa_durum']=dur
+    return True
+
+# ------------------------------------------------------------------- pencere
+A_ORAN=0.25   # 09-18 17:00: %50 -> %25. A KONTROL grubu ve gerekli (bugun iki kez
+              # belirleyici oldu: yapisal tabani gosterdi %8 vs %32, ve trend
+              # rejimini stratejiden ayirdi). AMA rejim kaymasini yakalamak icin
+              # %25 yeterli; A'nin kendi kenarini hassas olcmeye gerek yok.
+              # Kazanc: A maliyeti yariya iner, B ornekemi 3 kat hizli buyur.
+
+def kol_ata(sym,S):
+    """Pencereyi ONCEDEN ve TEKRARLANABILIR sekilde bir kola ata.
+    Ayni saatte iki politika yarisir -> rejim/zaman farki karismaz."""
+    r=_rnd.Random(f"{AB_TOHUM}|{sym}|{S}")
+    return 'A' if r.random()<A_ORAN else 'B'
+
+def taraf_maliyet(w,oi,haric=None):
+    """O tarafta BAGLANAN toplam para: dolan + acik emirlerin en kotu hali.
+
+    `haric`: iptal edilmek UZERE olan emirler sayilmaz. Yoksa bayat emirler
+    tavani yiyip, tam yeniden konumlanmamiz gereken anda bizi kisitliyor."""
+    hs={id(x) for x in (haric or [])}
+    t=0.0
+    for r in w['emir']:
+        if r['oi']!=oi or id(r) in hs: continue
+        d=max(0.0,r.get('pay',0.0)); t+=d*r['p']
+        if r['durum']=='acik': t+=max(0.0,KLIP-d)*r['p']
+    return t
+
+def uygun_seviyeler(bb,izgara):
+    """Asgari indirim sartini gecen seviyeler (canli botla ayni kural)."""
+    return [round(f,2) for f in izgara
+            if f<=bb*MIN_INDIRIM_ORAN and f<=bb-MIN_INDIRIM_MUTLAK and PX_MIN<=f<=PX_MAX]
+
+def mid_hedef(bid,ask,tik):
+    """Mid'in DELTA_TIK_B kadar altindaki hedef fiyatlar."""
+    if not bid or not ask: return []
+    mid=(bid[0][0]+ask[0][0])/2.0
+    out=[]
+    for d in DELTA_TIK_B:
+        px=round(mid-d*tik,2)
+        if PX_MIN<=px<=PX_MAX and px<ask[0][0]: out.append(px)
+    return out
+
+def yenile(k,w):
+    """KOL B: mid'i TAKIP ET. Bayat emirleri iptal et, mid'e gore yenilerini koy.
+
+    Sabit merdiven mid'den uzaklastikca olu kalir; bu kol mid'e yapisik durur."""
+    if w.get('kol')!='B' or w.get('cozuldu') or w.get('geri_cekildi'): return
+    yas=time.time()-k[1]
+    if yas>=w.get('per',300)-GERI_IPTAL-5: return
+    if time.time()-w.get('son_yenileme',0) < YENILEME_ARA: return
+    w['son_yenileme']=time.time()
+    tk=TOK.get(k)
+    if not tk: return
+    # DENGE ile CAKISMA DUZELTMESI (09-18 14:45): yenile, zaten DENGE_SINIR
+    # kadar onde olan tarafa emir ekliyordu; denge_koru 1 sn sonra siliyordu.
+    # Olculdu: eklenen 208 emrin 79'u (%38) bosa gitti, 15 pencerede.
+    # Artik yenile o tarafa hic dokunmuyor.
+    dq={0:0.0,1:0.0}
+    for r in w['emir']:
+        if r.get('pay',0)>0: dq[r['oi']]+=r['pay']
+    istek=[]; bayat=[]
+    for oi in (0,1):
+        if dq[oi]-dq[1-oi] >= DENGE_SINIR-0.5: continue   # bu taraf zaten agir
+        bid,ask=defter(tk[oi],1)
+        if not bid or not ask: continue
+        hedef=mid_hedef(bid,ask,tick(tk[oi]))
+        if yas>=GEC_KES: hedef=[p for p in hedef if p>UCUZ_ESIK]
+        hs=set(hedef)
+        acik=[r for r in w['emir'] if r['durum']=='acik' and r['oi']==oi]
+        # hedefte olmayan ACIK emirler BAYAT -> iptal
+        bayat+=[r for r in acik if round(r['p'],2) not in hs]
+        var={round(r['p'],2) for r in acik if round(r['p'],2) in hs}
+        mal=taraf_maliyet(w,oi,haric=[r for r in acik if round(r['p'],2) not in hs])
+        for px in hedef:
+            if px in var: continue
+            if mal+KLIP*px>TARAF_TAVAN: continue
+            istek.append((oi,tk[oi],px)); var.add(px); mal+=KLIP*px
+    if bayat:
+        yanit=iptal_toplu([r['oid'] for r in bayat])
+        for r in bayat:
+            tamam,nd=yanit.get(r['oid'],(False,'yanit_yok'))
+            d,bd=dolum_oku(r['oid'])
+            if d is not None: r['pay']=max(r['pay'],d)
+            if tamam or bd in ('MATCHED','CANCELED'):
+                r['durum']='kapali'; r['kapanis']='bayat_mid'
+            else:
+                r['durum']='belirsiz'
+                log('IPTAL_TEYITSIZ',oid=str(r['oid'])[:12],p=r['p'],neden=nd,borsa=bd)
+    if not istek:
+        if bayat: state_kaydet()
+        return
+    ek=max(sum(KLIP*px for oi,_,px in istek if oi==o) for o in (0,1))
+    if kesici_asilir(ek):
+        log('ZARAR_KESICI',yer='yenile',pnl=round(etkin_pnl(),2),risk=round(toplam_risk(),2))
+        return
+    sonuc=koy_toplu(istek); ack=round(time.time()*1000); eklendi=[]
+    for (oi,_,px),(o2,p2,oid,dur) in zip(istek,sonuc):
+        if dur!='KABUL' or not oid:
+            if dur=='RED': st['red']+=1
+            continue
+        st['emir']+=1; eklendi.append((oi,px))
+        w['emir'].append({'oi':oi,'p':px,'ofset':px,'hedef_ofset':px,'hedef_p':px,
+                          'bb':None,'oid':oid,'pay':0.0,'durum':'acik','ack_ms':ack,
+                          'snap_ms':None,'dolum_ms':None,'yenileme':round(yas,1)})
+    if eklendi or bayat:
+        log('YENILENDI',sym=k[0],S=k[1],yas=round(yas,1),
+            iptal=len(bayat),eklenen=[(('Up' if o==0 else 'Down'),p) for o,p in eklendi],
+            toplam_emir=len(w['emir']))
+        state_kaydet()
+
+def pencere_ac(sym,S,per):
+    """Iki-tarafli kabul durum makinesi. Tek taraf kabul edilirse GERI CEKER."""
+    kol=kol_ata(sym,S)
+    tk=tokens(sym,S)
+    if not tk: return
+    tik={oi:tick(tk[oi]) for oi in (0,1)}
+    plan=[]; snap={}
+    for oi in (0,1):
+        bid,ask=defter(tk[oi])
+        if bid is None: log('defter_yok',sym=sym,S=S,oi=oi); return
+        bb=bid[0][0] if bid else 0.0
+        snap[oi]={'ms':round(time.time()*1000),'bb':bb,'bid':bid[:5],'ask':(ask or [])[:5]}
+        if bb<=0: log('bos_defter',sym=sym,S=S,oi=oi,karar='pencere atlanir'); return
+        if kol=='B':
+            for px in mid_hedef(bid,ask,tik[oi]):
+                plan.append({'oi':oi,'hedef_ofset':px,'hedef_p':px})
+        else:
+            for px in uygun_seviyeler(bb,FIYATLAR):
+                plan.append({'oi':oi,'hedef_ofset':px,'hedef_p':px})
+    if not plan: return
+    if not (any(x['oi']==0 for x in plan) and any(x['oi']==1 for x in plan)):
+        log('plan_tek_tarafli',sym=sym,S=S,karar='pencere atlanir'); return
+
+    ek=max(sum(KLIP*x['hedef_p'] for x in plan if x['oi']==oi) for oi in (0,1))
+    if kesici_asilir(ek):
+        log('ZARAR_KESICI',pnl=round(etkin_pnl(),2),risk=round(toplam_risk(),2),ek=round(ek,2))
+        st['durdu']='kesici'; return 'kesici'
+
+    w={'cozuldu':False,'emir':[],'per':per,'snap0':snap,'snap':[],'kol':kol,'son_yenileme':time.time()}
+    kabul={0:0,1:0}; belirsiz=0
+    # TUM seviyeler TEK istekte (sirali gonderim defterin kaymasina firsat veriyordu)
+    bekleyen=[dict(x,p=x['hedef_p'],ofset=x['hedef_ofset']) for x in plan]
+    for tur in range(2):            # 1. tur hedef fiyat, 2. tur redlerin bir tik altı
+        if not bekleyen: break
+        t0b=time.time()
+        sonuc=koy_toplu([(x['oi'],tk[x['oi']],x['p']) for x in bekleyen])
+        ack=round(time.time()*1000); sure=round((time.time()-t0b)*1000)
+        yeni_bekleyen=[]
+        for x,(oi,px,oid,dur) in zip(bekleyen,sonuc):
+            if dur=='BILINMEYEN':
+                st['bilinmeyen']+=1
+                oid2=bilinmeyen_coz(tk[oi],px)
+                log('POST_BILINMEYEN',sym=sym,S=S,oi=oi,p=px,bulundu=bool(oid2))
+                if not oid2: belirsiz+=1; continue
+                oid,dur=oid2,'KABUL'
+            if dur=='RED':
+                st['red']+=1
+                log('emir_RED',sym=sym,S=S,oi=oi,p=px,ofset=x['ofset'],tur=tur)
+                if tur==0:
+                    np=round(px-tik[oi],2)           # mutlak fiyatta red nadirdir
+                    if PX_MIN<=np<=PX_MAX:
+                        yeni_bekleyen.append(dict(x,p=np,ofset=np))
+                continue
+            if not oid: continue
+            kabul[oi]+=1; st['emir']+=1
+            w['emir'].append({'oi':oi,'p':px,'ofset':x['ofset'],'hedef_ofset':x['hedef_ofset'],
+                              'hedef_p':x['hedef_p'],'bb':snap[oi]['bb'],'oid':oid,'pay':0.0,
+                              'durum':'acik','ack_ms':ack,'toplu_ms':sure,
+                              'snap_ms':snap[oi]['ms'],'dolum_ms':None})
+        bekleyen=yeni_bekleyen
+
+    devam,sebep=kabul_karari(kabul)
+    if belirsiz: devam,sebep=False,'belirsiz_emir'
+    pen[(sym,S)]=w; st['pencere']+=1; st.setdefault('pencereler',[]).append([sym,S])
+    if not devam:
+        # CIPLAK YON ALMA YOK: kabul edilen tarafi TEK istekte teyitli geri cek.
+        acik=[r for r in w['emir'] if r['durum']=='acik']
+        yanit=iptal_toplu([r['oid'] for r in acik])
+        for r in acik:
+            tamam,nd=yanit.get(r['oid'],(False,'yanit_yok'))
+            d,bd=dolum_oku(r['oid'])
+            if d is not None: r['pay']=max(r['pay'],d)
+            if not tamam and bd not in ('MATCHED','CANCELED'):
+                log('IPTAL_TEYITSIZ',oid=str(r['oid'])[:12],p=r['p'],neden=nd,borsa=bd)
+                r['durum']='belirsiz'
+            else:
+                r['durum']='kapali'; r['kapanis']='geri_cekildi'; r['iptal_neden']=nd
+        w['geri_cekildi']=sebep; st['geri_cekilen']+=1
+        log('GERI_CEKILDI',sym=sym,S=S,kol=kol,sebep=sebep,kabul=[kabul[0],kabul[1]],
+            dolan=round(sum(r['pay'] for r in w['emir']),2))
+    else:
+        log('pencere',sym=sym,S=S,kol=kol,emir=len(w['emir']),kabul=[kabul[0],kabul[1]],
+            fiyatlar=[(r['oi'],r['p'],r['ofset'],r['hedef_ofset']) for r in w['emir']])
+    state_kaydet()
+
+def gec_ucuz_kes(k,w):
+    """t>=GEC_KES sonrasi UCUZ_ESIK altindaki acik emirleri teyitli iptal et.
+
+    Gerekce yukarida. Ozet: gec+ucuz dolum, aynali defterde karsi tarafa
+    favoriyi satmaktir; TWAP kilidi yuzunden o taraf neredeyse kesin kaybeder."""
+    if w.get('cozuldu') or w.get('geri_cekildi') or w.get('gec_kesildi'): return
+    if time.time()-k[1] < GEC_KES: return
+    acik=[r for r in w['emir'] if r['durum']=='acik' and r['p']<=UCUZ_ESIK]
+    if not acik:
+        w['gec_kesildi']='gerek yok'; return
+    yanit=iptal_toplu([r['oid'] for r in acik]); kes=0
+    for r in acik:
+        tamam,nd=yanit.get(r['oid'],(False,'yanit_yok'))
+        d,bd=dolum_oku(r['oid'])
+        if d is not None: r['pay']=max(r['pay'],d)
+        if tamam or bd in ('MATCHED','CANCELED'):
+            r['durum']='kapali'; r['kapanis']='gec_ucuz'; kes+=1
+        else:
+            r['durum']='belirsiz'
+            log('IPTAL_TEYITSIZ',oid=str(r['oid'])[:12],p=r['p'],neden=nd,borsa=bd)
+    w['gec_kesildi']='evet'
+    log('GEC_UCUZ_KESILDI',sym=k[0],S=k[1],iptal=kes,
+        fiyatlar=sorted({r['p'] for r in acik}),
+        kalan_acik=sum(1 for r in w['emir'] if r['durum']=='acik'))
+    state_kaydet()
+
+def denge_koru(k,w):
+    """Bir taraf DENGE_SINIR kadar one gectiyse O TARAFIN kalan seviyelerini iptal et.
+
+    Hafif tarafin emirleri ACIK KALIR - hala dengeye gelebilir."""
+    if w.get('cozuldu') or w.get('geri_cekildi'): return
+    q={0:0.0,1:0.0}
+    for r in w['emir']:
+        if r.get('pay',0)>0: q[r['oi']]+=r['pay']
+    # KISMI DOLUM TOLERANSI: 4,995 paylik kismi dolum farki 9,995'te birakip
+    # esigi binde besle atlatti (09-18 22:44). Tam klip beklemeden tetikle.
+    yas=time.time()-k[1]
+    sinir = 0.01 if yas>=GEC_ESIK else DENGE_SINIR-0.5   # gec donemde tolerans SIFIR
+    if abs(q[0]-q[1])<sinir: return
+    agir=0 if q[0]>q[1] else 1
+    acik=[r for r in w['emir'] if r['durum']=='acik' and r['oi']==agir]
+    if not acik: return
+    yanit=iptal_toplu([r['oid'] for r in acik])
+    kes=0
+    for r in acik:
+        tamam,nd=yanit.get(r['oid'],(False,'yanit_yok'))
+        d,bd=dolum_oku(r['oid'])
+        if d is not None: r['pay']=max(r['pay'],d)
+        if tamam or bd in ('MATCHED','CANCELED'):
+            r['durum']='kapali'; r['kapanis']='denge_siniri'; kes+=1
+        else:
+            r['durum']='belirsiz'
+            log('IPTAL_TEYITSIZ',oid=str(r['oid'])[:12],p=r['p'],neden=nd,borsa=bd)
+    log('DENGE_SINIRI',sym=k[0],S=k[1],agir=('Up' if agir==0 else 'Down'),
+        up=round(q[0],1),down=round(q[1],1),iptal=kes,
+        kalan_hafif=sum(1 for r in w['emir'] if r['durum']=='acik'))
+    state_kaydet()
+
+def tamamla(k,w):
+    """Tek taraf dolduysa EKSIK tarafi ASK'tan alarak cifti kapat (taker, FAK).
+
+    Once penceredeki TUM acik emirler iptal edilir (yoksa sonraki dolumlar
+    dengeyi tekrar bozar), sonra eksik miktar alinir."""
+    if not TAMAMLA_ACIK: return
+    if w.get('tamamlandi') or w.get('geri_cekildi'): return
+    q={0:0.0,1:0.0}; c={0:0.0,1:0.0}; ilk=None
+    for r in w['emir']:
+        if r.get('pay',0)>0:
+            q[r['oi']]+=r['pay']; c[r['oi']]+=r['pay']*r['p']
+            if r.get('dolum_ms'): ilk=r['dolum_ms'] if ilk is None else min(ilk,r['dolum_ms'])
+    if ilk is None: return
+    fazla=0 if q[0]>q[1] else 1
+    eksik=round(abs(q[0]-q[1]),4)
+    if eksik<KLIP: return                       # min emir boyu 5 pay
+    if (time.time()*1000-ilk)/1000.0 < T_TAMAMLA: return
+    tk=TOK.get(k)
+    if not tk: return
+    eks=1-fazla
+    bid,ask=defter(tk[eks],1)
+    if not ask:
+        if not w.get('tamamla_log'): log('tamamla_ASK_YOK',sym=k[0],S=k[1]); w['tamamla_log']=1
+        return
+    px=ask[0][0]; derin=ask[0][1]
+    ort=c[fazla]/q[fazla]
+    yap,mal=tamamla_karari(ort,px)
+    w['tamamla_son']={'ms':round(time.time()*1000),'ask':px,'derinlik':derin,
+                      'ort':round(ort,4),'cift_mal':mal,'yap':yap,'eksik':eksik}
+    if not yap:
+        if not w.get('tamamla_log'):
+            log('tamamla_PAHALI',sym=k[0],S=k[1],ort=round(ort,3),ask=px,
+                cift_mal=mal,tavan=TAMAMLA_TAVAN,karar='beklenecek')
+            w['tamamla_log']=1
+        return                                   # fiyat geri gelirse sonraki turda tekrar bakilir
+    if derin<eksik:
+        log('tamamla_DERINLIK_YETMEZ',sym=k[0],S=k[1],ask=px,derin=derin,eksik=eksik)
+        return
+    # 1) penceredeki TUM acik emirleri kapat - yoksa denge tekrar bozulur
+    acik=[r for r in w['emir'] if r['durum']=='acik']
+    if acik:
+        yanit=iptal_toplu([r['oid'] for r in acik])
+        for r in acik:
+            tamam,nd=yanit.get(r['oid'],(False,'yanit_yok'))
+            dd,bd=dolum_oku(r['oid'])
+            if dd is not None: r['pay']=max(r['pay'],dd)
+            r['durum']='kapali' if (tamam or bd in ('MATCHED','CANCELED')) else 'belirsiz'
+            r['kapanis']='tamamlama_oncesi'
+        # iptal sirasinda dolum olduysa eksigi yeniden hesapla
+        q2={0:0.0,1:0.0}
+        for r in w['emir']:
+            if r.get('pay',0)>0: q2[r['oi']]+=r['pay']
+        eksik=round(abs(q2[0]-q2[1]),4)
+        if eksik<KLIP:
+            log('tamamla_GEREKSIZ',sym=k[0],S=k[1],sebep='iptal sirasinda dengelendi')
+            w['tamamlandi']='gereksiz'; state_kaydet(); return
+    # 2) eksik tarafi ASK'tan al
+    if not LIVE:
+        log('KURU_TAMAMLA',sym=k[0],S=k[1],oi=eks,px=px,adet=eksik,cift_mal=mal)
+        w['tamamlandi']='kuru'; state_kaydet(); return
+    try:
+        od=client.create_order(OrderArgs(token_id=tk[eks],price=px,size=eksik,side=BUY))
+        resp=client.post_order(od,OrderType.FAK) or {}
+    except Exception as ex:
+        log('tamamla_HATA',sym=k[0],S=k[1],err=str(ex)[:120]); w['tamamlandi']='hata'
+        state_kaydet(); return
+    oid=resp.get('orderID') or resp.get('orderId') or ''
+    alinan,_=dolum_oku(oid) if oid else (0.0,'')
+    alinan=alinan or 0.0
+    ucret=FEE_TAKER*px*(1.0-px)*alinan
+    if alinan>0:
+        w['emir'].append({'oi':eks,'p':px,'ofset':None,'hedef_ofset':None,'bb':None,
+                          'oid':oid,'pay':alinan,'durum':'kapali','tamamlama':True,
+                          'ucret':round(ucret,5),'ack_ms':round(time.time()*1000),
+                          'snap_ms':None,'dolum_ms':round(time.time()*1000)})
+    w['tamamlandi']='evet' if alinan>0 else 'dolmadi'
+    log('TAMAMLANDI',sym=k[0],S=k[1],oi=eks,ask=px,istenen=eksik,alinan=round(alinan,2),
+        ucret=round(ucret,4),cift_mal=mal,gecen_sn=round((time.time()*1000-ilk)/1000,1))
+    state_kaydet()
+
+def pencere_bakim(k,w):
+    per=w.get('per',300); yas=time.time()-k[1]; tk=TOK.get(k)
+    for r in w['emir']:
+        if r['durum']!='acik': continue
+        d,dur=dolum_oku(r['oid'])
+        if d is not None and d>r['pay']:
+            r['dolum_ms']=round(time.time()*1000)
+            log('dolum',sym=k[0],S=k[1],oi=r['oi'],p=r['p'],ofset=r['ofset'],
+                yeni=round(d-r['pay'],3),toplam=round(d,3),borsa=dur,
+                gecen_sn=round(time.time()-k[1],1))
+            r['pay']=d; state_kaydet()   # dolum aninda yaz: restart olcumu kaybetmesin
+        if yas>=per-GERI_IPTAL: kapat(r,'pencere_sonu')
+    if yas<per-GERI_IPTAL:
+        yenile(k,w)
+        gec_ucuz_kes(k,w)
+        denge_koru(k,w)
+        tamamla(k,w)
+    # markout icin defter goruntusu
+    if tk and yas<per and time.time()-w.get('son_snap',0)>SNAP_ARA:
+        w['son_snap']=time.time(); g={'yas':round(yas,1),'ms':round(time.time()*1000)}
+        for oi in (0,1):
+            bid,ask=defter(tk[oi],1)
+            g[oi]={'bb':bid[0][0] if bid else None,'ba':ask[0][0] if ask else None}
+        w.setdefault('snap',[]).append(g)
+    if yas>per+45: cozumle(k,w)
+
+def cozumle(k,w):
+    if w.get('cozuldu'): return
+    kz=resmi_sonuc(k[0],k[1])
+    if kz is None: return
+    w['cozuldu']=True; w['kazanan']=kz
+    mal=sum(r['pay']*r['p']+r.get('ucret',0.0) for r in w['emir'] if r.get('pay',0)>0)
+    ode=sum(r['pay'] for r in w['emir'] if r.get('pay',0)>0 and r['oi']==kz)
+    pay=sum(r.get('pay',0) for r in w['emir'])
+    if pay>0: st['dolum']+=1; st['pay']+=pay
+    st['pnl_yerel']=round(st['pnl_yerel']+(ode-mal),4)   # riski AYNI ANDA serbest birakiyoruz
+    # emir bazli kapanis kaydi: dolum orani paydasi EMIR sayisi olsun (olay degil)
+    log('COZULDU',sym=k[0],S=k[1],kol=w.get('kol'),kazanan=kz,pay=round(pay,2),maliyet=round(mal,2),
+        pnl=round(ode-mal,2),geri_cekildi=w.get('geri_cekildi'),
+        emirler=[{'oi':r['oi'],'p':r['p'],'ofs':r['ofset'],'hedef_ofs':r['hedef_ofset'],
+                  'bb':r['bb'],'pay':round(r.get('pay',0),2),'durum':r['durum'],
+                  'gecikme_ms':(r['dolum_ms']-r['ack_ms']) if r.get('dolum_ms') else None}
+                 for r in w['emir']])
+    state_kaydet()
+
+# ---------------------------------------------------------------------- main
+def main():
+    t0=time.time()
+    log('hazir',mod=('LIVE' if LIVE else 'KURU'),klip=KLIP,fiyatlar=FIYATLAR,
+        kesici=KESICI,denge_siniri=DENGE_SINIR,
+        amac='DERIN MERDIVEN v4 - mutlak fiyat noktalari')
+    if LIVE:
+        a=acik_emirler()
+        if a is None or a:
+            log('BASLAMIYOR',sebep='acik emir var/okunamadi'); return
+    if acilis_maruziyeti() is None:
+        log('BASLAMIYOR',sebep='acilis maruziyeti okunamadi (fail-closed)'); return
+    state_yukle()
+    gorulen=set((s,int(S)) for s,S in st.get('pencereler',[]))
+    t=mutabakat()
+    if LIVE and t is None:
+        log('BASLAMIYOR',sebep='baslangic mutabakati eksik'); return
+    if '--onkontrol' in sys.argv:
+        log('ONKONTROL_OK',pnl=round(etkin_pnl(),4),risk=round(toplam_risk(),4),kesici=KESICI); return
+    log('basladi',mod=('LIVE' if LIVE else 'KURU'),gorulen_pencere=len(gorulen))
+    sebep='sure'; son_mut=0.0
+    while True:
+        if os.path.exists(STOP): sebep='STOP'; break
+        if (time.time()-t0)/3600>MAX_SAAT: sebep='sure'; break
+        now=time.time(); yeni=False
+        for sym,per in PAZAR:
+            S=int(now//per*per); k=(sym,S)
+            if k in gorulen or not (S+T_POST<=now<=S+T_POST+8): continue
+            gorulen.add(k); yeni=True
+            if LIVE and not MUTABAKAT_OK: log('atla_mutabakat',S=S); continue
+            if pencere_ac(sym,S,per)=='kesici': sebep='kesici'; break
+        if sebep=='kesici': break
+        if yeni: continue
+        for k,w in list(pen.items()):
+            if not w.get('cozuldu'): pencere_bakim(k,w)
+        if time.time()-son_mut>MUTABAKAT_ARA:
+            son_mut=time.time(); acilis_maruziyeti(); rr=mutabakat()
+            if rr is not None:
+                log('mutabakat',pnl=round(rr,2),yerel=round(st['pnl_yerel'],2),
+                    etkin=round(etkin_pnl(),2),pencere=st.get('mutabakat_pencere',0),
+                    risk=round(toplam_risk(),2),emir=st['emir'],dolum=st['dolum'],
+                    pay=round(st['pay'],1),geri_cekilen=st['geri_cekilen'],red=st['red'])
+        for kk in [kk for kk,v in pen.items() if v.get('cozuldu') and kk[1]<time.time()-3600]:
+            pen.pop(kk,None)
+        time.sleep(0.5)
+    for k,w in list(pen.items()):
+        for r in w['emir']:
+            if r['durum']=='acik': kapat(r,'kapanis')
+        cozumle(k,w)
+    mutabakat(); state_kaydet()
+    log('bitti',sebep=sebep,pnl=round(st['pnl'],4),yerel=round(st['pnl_yerel'],4),
+        pencere=st['pencere'],emir=st['emir'],dolum=st['dolum'],pay=round(st['pay'],2),
+        geri_cekilen=st['geri_cekilen'],red=st['red'],bilinmeyen=st['bilinmeyen'],
+        risk=round(toplam_risk(),2))
+
+if __name__=='__main__': main()

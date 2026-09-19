@@ -1,0 +1,58 @@
+{"t": "15:01:26", "utc_ms": 1789830086129, "k": "SURUM", "kaynak_sha": "6442a58affac", "oturum": "3390720", "kapi": false, "esik_bps": 16.4, "boy_testi": false, "klip_buyuk": 25.0, "tamamla_acik": false, "tamamla_tavan": 1.02, "px_tavan_maker": 0.4, "a_uyum": false, "a_cift_tavan": 0.8, "a_uyum_ara": 20.0, "a_oran": 1.0, "tohum": 20260918, "delta_tik_b": [2, 4], "yenileme_ara": 20.0, "taraf_tavan": 10.0, "gec_kes": 200.0, "gec_ust": 0.1, "gec_esik": 180.0}
+{"t": "15:01:26", "utc_ms": 1789830086129, "k": "hazir", "mod": "KURU", "klip": 5.0, "fiyatlar": [0.2, 0.16, 0.12, 0.09, 0.06, 0.03], "kesici": -100.0, "denge_siniri": 10.0, "amac": "DERIN MERDIVEN v4 - mutlak fiyat noktalari"}
+{"t": "15:01:26", "utc_ms": 1789830086129, "k": "basladi", "mod": "KURU", "gorulen_pencere": 0}
+{"t": "15:01:26", "utc_ms": 1789830086129, "k": "mutabakat", "pnl": 0.0, "yerel": 0.0, "etkin": 0.0, "pencere": 0, "risk": 0.0, "emir": 0, "dolum": 0, "pay": 0.0, "geri_cekilen": 0, "red": 0}
+{"t": "15:04:51", "utc_ms": 1789830291295, "k": "toplu_yanit_TANINMADI", "oi": 0, "p": 0.15, "yanit": "{\"foo\": \"bar\"}"}
+{"t": "15:04:51", "utc_ms": 1789830291295, "k": "toplu_emir_hata", "durum": "RED", "err": "post only: would cross"}
+{"t": "15:04:51", "utc_ms": 1789830291295, "k": "toplu_emir_hata", "durum": "BILINMEYEN", "err": "timeout okuma hatasi"}
+{"t": "15:04:51", "utc_ms": 1789830291295, "k": "toplu_yanit_BOZUK", "tip": "list", "uzunluk": 1}
+{"t": "15:16:19", "utc_ms": 1789830979100, "k": "toplu_yanit_TANINMADI", "oi": 0, "p": 0.15, "yanit": "{\"foo\": \"bar\"}"}
+{"t": "15:16:19", "utc_ms": 1789830979100, "k": "toplu_emir_hata", "durum": "RED", "err": "post only: would cross"}
+{"t": "15:16:19", "utc_ms": 1789830979100, "k": "toplu_emir_hata", "durum": "BILINMEYEN", "err": "timeout okuma hatasi"}
+{"t": "15:16:19", "utc_ms": 1789830979100, "k": "toplu_yanit_BOZUK", "tip": "list", "uzunluk": 1}
+{"t": "15:16:31", "utc_ms": 1789830991242, "k": "toplu_yanit_TANINMADI", "oi": 0, "p": 0.15, "yanit": "{\"foo\": \"bar\"}"}
+{"t": "15:16:31", "utc_ms": 1789830991242, "k": "toplu_emir_hata", "durum": "RED", "err": "post only: would cross"}
+{"t": "15:16:31", "utc_ms": 1789830991242, "k": "toplu_emir_hata", "durum": "BILINMEYEN", "err": "timeout okuma hatasi"}
+{"t": "15:16:31", "utc_ms": 1789830991242, "k": "toplu_yanit_BOZUK", "tip": "list", "uzunluk": 1}
+{"t": "15:25:29", "utc_ms": 1789831529376, "k": "toplu_yanit_TANINMADI", "oi": 0, "p": 0.15, "yanit": "{\"foo\": \"bar\"}"}
+{"t": "15:25:29", "utc_ms": 1789831529376, "k": "toplu_emir_hata", "durum": "RED", "err": "post only: would cross"}
+{"t": "15:25:29", "utc_ms": 1789831529377, "k": "toplu_emir_hata", "durum": "BILINMEYEN", "err": "timeout okuma hatasi"}
+{"t": "15:25:29", "utc_ms": 1789831529377, "k": "toplu_yanit_BOZUK", "tip": "list", "uzunluk": 1}
+{"t": "15:42:01", "utc_ms": 1789832521495, "k": "toplu_yanit_TANINMADI", "oi": 0, "p": 0.15, "yanit": "{\"foo\": \"bar\"}"}
+{"t": "15:42:01", "utc_ms": 1789832521495, "k": "toplu_emir_hata", "durum": "RED", "err": "post only: would cross"}
+{"t": "15:42:01", "utc_ms": 1789832521495, "k": "toplu_emir_hata", "durum": "BILINMEYEN", "err": "timeout okuma hatasi"}
+{"t": "15:42:01", "utc_ms": 1789832521495, "k": "toplu_yanit_BOZUK", "tip": "list", "uzunluk": 1}
+{"t": "15:46:38", "utc_ms": 1789832798574, "k": "toplu_yanit_TANINMADI", "oi": 0, "p": 0.15, "yanit": "{\"foo\": \"bar\"}"}
+{"t": "15:46:38", "utc_ms": 1789832798575, "k": "toplu_emir_hata", "durum": "RED", "err": "post only: would cross"}
+{"t": "15:46:38", "utc_ms": 1789832798575, "k": "toplu_emir_hata", "durum": "BILINMEYEN", "err": "timeout okuma hatasi"}
+{"t": "15:46:38", "utc_ms": 1789832798575, "k": "toplu_yanit_BOZUK", "tip": "list", "uzunluk": 1}
+{"t": "19:09:36", "utc_ms": 1789844976817, "k": "toplu_yanit_TANINMADI", "oi": 0, "p": 0.15, "yanit": "{\"foo\": \"bar\"}"}
+{"t": "19:09:36", "utc_ms": 1789844976818, "k": "toplu_emir_hata", "durum": "RED", "err": "post only: would cross"}
+{"t": "19:09:36", "utc_ms": 1789844976818, "k": "toplu_emir_hata", "durum": "BILINMEYEN", "err": "timeout okuma hatasi"}
+{"t": "19:09:36", "utc_ms": 1789844976818, "k": "toplu_yanit_BOZUK", "tip": "list", "uzunluk": 1}
+{"t": "20:28:47", "utc_ms": 1789849727197, "k": "toplu_yanit_TANINMADI", "oi": 0, "p": 0.15, "yanit": "{\"foo\": \"bar\"}"}
+{"t": "20:28:47", "utc_ms": 1789849727200, "k": "toplu_emir_hata", "durum": "RED", "err": "post only: would cross"}
+{"t": "20:28:47", "utc_ms": 1789849727200, "k": "toplu_emir_hata", "durum": "BILINMEYEN", "err": "timeout okuma hatasi"}
+{"t": "20:28:47", "utc_ms": 1789849727200, "k": "toplu_yanit_BOZUK", "tip": "list", "uzunluk": 1}
+{"t": "20:39:37", "utc_ms": 1789850377685, "k": "toplu_yanit_TANINMADI", "oi": 0, "p": 0.15, "yanit": "{\"foo\": \"bar\"}"}
+{"t": "20:39:37", "utc_ms": 1789850377685, "k": "toplu_emir_hata", "durum": "RED", "err": "post only: would cross"}
+{"t": "20:39:37", "utc_ms": 1789850377686, "k": "toplu_emir_hata", "durum": "BILINMEYEN", "err": "timeout okuma hatasi"}
+{"t": "20:39:37", "utc_ms": 1789850377686, "k": "toplu_yanit_BOZUK", "tip": "list", "uzunluk": 1}
+{"t": "20:53:28", "utc_ms": 1789851208828, "k": "toplu_yanit_TANINMADI", "oi": 0, "p": 0.15, "yanit": "{\"foo\": \"bar\"}"}
+{"t": "20:53:28", "utc_ms": 1789851208828, "k": "toplu_emir_hata", "durum": "RED", "err": "post only: would cross"}
+{"t": "20:53:28", "utc_ms": 1789851208828, "k": "toplu_emir_hata", "durum": "BILINMEYEN", "err": "timeout okuma hatasi"}
+{"t": "20:53:28", "utc_ms": 1789851208828, "k": "toplu_yanit_BOZUK", "tip": "list", "uzunluk": 1}
+{"t": "20:53:43", "utc_ms": 1789851223586, "k": "toplu_yanit_TANINMADI", "oi": 0, "p": 0.15, "yanit": "{\"foo\": \"bar\"}"}
+{"t": "20:53:43", "utc_ms": 1789851223587, "k": "toplu_emir_hata", "durum": "RED", "err": "post only: would cross"}
+{"t": "20:53:43", "utc_ms": 1789851223587, "k": "toplu_emir_hata", "durum": "BILINMEYEN", "err": "timeout okuma hatasi"}
+{"t": "20:53:43", "utc_ms": 1789851223587, "k": "toplu_yanit_BOZUK", "tip": "list", "uzunluk": 1}
+{"t": "21:58:51", "utc_ms": 1789855131351, "k": "RED_NEDEN", "oi": 1, "p": 0.22, "yanit": "{\"success\": false, \"errorMsg\": \"post only rejected\"}"}
+{"t": "21:58:51", "utc_ms": 1789855131351, "k": "toplu_yanit_TANINMADI", "oi": 0, "p": 0.15, "yanit": "{\"foo\": \"bar\"}"}
+{"t": "21:58:51", "utc_ms": 1789855131351, "k": "toplu_emir_hata", "durum": "RED", "err": "post only: would cross"}
+{"t": "21:58:51", "utc_ms": 1789855131351, "k": "toplu_emir_hata", "durum": "BILINMEYEN", "err": "timeout okuma hatasi"}
+{"t": "21:58:51", "utc_ms": 1789855131351, "k": "toplu_yanit_BOZUK", "tip": "list", "uzunluk": 1}
+{"t": "22:56:30", "utc_ms": 1789858590614, "k": "RED_NEDEN", "oi": 1, "p": 0.22, "yanit": "{\"success\": false, \"errorMsg\": \"post only rejected\"}"}
+{"t": "22:56:30", "utc_ms": 1789858590615, "k": "toplu_yanit_TANINMADI", "oi": 0, "p": 0.15, "yanit": "{\"foo\": \"bar\"}"}
+{"t": "22:56:30", "utc_ms": 1789858590615, "k": "toplu_emir_hata", "durum": "RED", "err": "post only: would cross"}
+{"t": "22:56:30", "utc_ms": 1789858590615, "k": "toplu_emir_hata", "durum": "BILINMEYEN", "err": "timeout okuma hatasi"}
+{"t": "22:56:30", "utc_ms": 1789858590615, "k": "toplu_yanit_BOZUK", "tip": "list", "uzunluk": 1}

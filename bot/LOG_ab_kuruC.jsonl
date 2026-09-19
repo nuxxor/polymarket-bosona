@@ -1,0 +1,53 @@
+{"t": "20:29:06", "utc_ms": 1789849746962, "k": "SURUM", "kaynak_sha": "fa026fdc7fc6", "oturum": "3711795", "kapi": false, "esik_bps": 16.4, "boy_testi": false, "klip_buyuk": 25.0, "tamamla_acik": false, "tamamla_tavan": 1.02, "px_tavan_maker": 0.4, "a_uyum": false, "a_cift_tavan": 0.8, "a_uyum_ara": 20.0, "vol_kapisi": false, "vol_esik": 15.0, "a_oran": 0.5, "tohum": 20260918, "delta_tik_b": [2, 4], "yenileme_ara": 20.0, "taraf_tavan": 10.0, "gec_kes": 200.0, "ucuz_esik": 0.25, "gec_ust": 0.1, "gec_esik": 180.0, "c_oran": 0.5, "c_px": [0.15, 0.6], "c_t": [3.0, 200.0], "c_taze_max": 30.0, "c_max_islem": 40}
+{"t": "20:29:06", "utc_ms": 1789849746963, "k": "hazir", "mod": "KURU", "klip": 5.0, "fiyatlar": [0.34, 0.3, 0.26, 0.22, 0.2, 0.16], "fiyatlar_b": [0.2, 0.16, 0.12, 0.09, 0.06, 0.03], "kesici": -100.0, "denge_siniri": 10.0, "amac": "DERIN MERDIVEN v4 - mutlak fiyat noktalari"}
+{"t": "20:29:06", "utc_ms": 1789849746963, "k": "basladi", "mod": "KURU", "gorulen_pencere": 0}
+{"t": "20:29:06", "utc_ms": 1789849746963, "k": "mutabakat", "pnl": 0.0, "yerel": 0.0, "etkin": 0.0, "pencere": 0, "risk": 0.0, "emir": 0, "dolum": 0, "pay": 0.0, "geri_cekilen": 0, "red": 0}
+{"t": "20:30:06", "utc_ms": 1789849806166, "k": "BOY", "S": 1789849800, "klip": 5.0, "kol": "A"}
+{"t": "20:30:06", "utc_ms": 1789849806166, "k": "pencere", "sym": "btc", "S": 1789849800, "kol": "A", "vol": null, "tokens": ["43497087774996937622263826458812121179731917653822481075294257073298202085165", "79579206357252790323827435766883256600975174749708920133428646223710271732535"], "emir": 11, "kabul": [5, 6], "fiyatlar": [[0, 0.3, 0.3, 0.3], [0, 0.26, 0.26, 0.26], [0, 0.22, 0.22, 0.22], [0, 0.2, 0.2, 0.2], [0, 0.16, 0.16, 0.16], [1, 0.34, 0.34, 0.34], [1, 0.3, 0.3, 0.3], [1, 0.26, 0.26, 0.26], [1, 0.22, 0.22, 0.22], [1, 0.2, 0.2, 0.2], [1, 0.16, 0.16, 0.16]]}
+{"t": "20:33:20", "utc_ms": 1789850000371, "k": "GEC_UCUZ_KESILDI", "sym": "btc", "S": 1789849800, "iptal": 6, "fiyatlar": [0.16, 0.2, 0.22], "kalan_acik": 5}
+{"t": "20:33:27", "utc_ms": 1789850007375, "k": "mutabakat", "pnl": 0.0, "yerel": 0.0, "etkin": 0.0, "pencere": 0, "risk": 4.5, "emir": 11, "dolum": 0, "pay": 0.0, "geri_cekilen": 0, "red": 0}
+{"t": "20:35:05", "utc_ms": 1789850105900, "k": "BOY", "S": 1789850100, "klip": 5.0, "kol": "C"}
+{"t": "20:35:05", "utc_ms": 1789850105900, "k": "pencere", "sym": "btc", "S": 1789850100, "kol": "C", "vol": null, "tokens": ["84533828549318886255927954270513470640312357984279361902267699468341471336776", "44737096320238773387596093087382701333621811175416050834047375938739371765392"], "emir": 0, "kabul": [0, 0], "fiyatlar": [], "taze": true}
+{"t": 9.6, "utc_ms": 1789850109561, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 1, "p": 0.47, "bb": 0.47, "ba": 0.48, "bb_boy": 20.7, "ms": 0}
+{"t": 12.5, "utc_ms": 1789850112531, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 1, "p": 0.47, "bb": 0.47, "ba": 0.48, "bb_boy": 28.7, "ms": 0}
+{"t": 15.3, "utc_ms": 1789850115253, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.52, "bb": 0.52, "ba": 0.53, "bb_boy": 7.4, "ms": 0}
+{"t": 22.1, "utc_ms": 1789850122082, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 1, "p": 0.5, "bb": 0.49, "ba": 0.51, "bb_boy": 586.3, "ms": 0}
+{"t": 22.1, "utc_ms": 1789850122083, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.5, "bb": 0.49, "ba": 0.51, "bb_boy": 4.8, "ms": 0}
+{"t": 25.6, "utc_ms": 1789850125622, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.48, "bb": 0.48, "ba": 0.49, "bb_boy": 30.0, "ms": 0}
+{"t": 25.7, "utc_ms": 1789850125663, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 1, "p": 0.52, "bb": 0.51, "ba": 0.53, "bb_boy": 249.2, "ms": 0}
+{"t": 33.3, "utc_ms": 1789850133307, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.49, "bb": 0.49, "ba": 0.5, "bb_boy": 28.6, "ms": 0}
+{"t": 40.0, "utc_ms": 1789850140039, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.5, "bb": 0.49, "ba": 0.51, "bb_boy": 317.4, "ms": 0}
+{"t": 40.0, "utc_ms": 1789850140040, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 1, "p": 0.5, "bb": 0.49, "ba": 0.51, "bb_boy": 94.1, "ms": 0}
+{"t": 44.4, "utc_ms": 1789850144383, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.5, "bb": 0.5, "ba": 0.51, "bb_boy": 20.6, "ms": 0}
+{"t": 47.4, "utc_ms": 1789850147433, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.5, "bb": 0.5, "ba": 0.51, "bb_boy": 15.6, "ms": 0}
+{"t": 49.0, "utc_ms": 1789850149003, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 1, "p": 0.49, "bb": 0.48, "ba": 0.5, "bb_boy": 43.8, "ms": 0}
+{"t": 50.0, "utc_ms": 1789850150012, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 1, "p": 0.47, "bb": 0.47, "ba": 0.48, "bb_boy": 10.0, "ms": 0}
+{"t": 51.5, "utc_ms": 1789850151484, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.53, "bb": 0.52, "ba": 0.54, "bb_boy": 287.7, "ms": 0}
+{"t": 53.7, "utc_ms": 1789850153661, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.51, "bb": 0.51, "ba": 0.52, "bb_boy": 28.1, "ms": 0}
+{"t": 56.2, "utc_ms": 1789850156241, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 1, "p": 0.49, "bb": 0.48, "ba": 0.5, "bb_boy": 316.0, "ms": 0}
+{"t": 57.3, "utc_ms": 1789850157296, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.5, "bb": 0.5, "ba": 0.51, "bb_boy": 20.0, "ms": 0}
+{"t": 58.9, "utc_ms": 1789850158884, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 1, "p": 0.5, "bb": 0.49, "ba": 0.52, "bb_boy": 243.0, "ms": 0}
+{"t": 60.1, "utc_ms": 1789850160114, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.48, "bb": 0.48, "ba": 0.49, "bb_boy": 21.8, "ms": 0}
+{"t": 62.1, "utc_ms": 1789850162138, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.48, "bb": 0.48, "ba": 0.49, "bb_boy": 19.7, "ms": 0}
+{"t": 64.5, "utc_ms": 1789850164464, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.48, "bb": 0.48, "ba": 0.49, "bb_boy": 26.6, "ms": 0}
+{"t": 67.7, "utc_ms": 1789850167732, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 1, "p": 0.51, "bb": 0.51, "ba": 0.52, "bb_boy": 23.8, "ms": 0}
+{"t": 69.3, "utc_ms": 1789850169281, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.48, "bb": 0.48, "ba": 0.49, "bb_boy": 25.3, "ms": 0}
+{"t": 71.7, "utc_ms": 1789850171730, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 1, "p": 0.52, "bb": 0.52, "ba": 0.53, "bb_boy": 28.5, "ms": 0}
+{"t": 73.7, "utc_ms": 1789850173668, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.47, "bb": 0.47, "ba": 0.48, "bb_boy": 7.6, "ms": 0}
+{"t": 74.3, "utc_ms": 1789850174288, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 1, "p": 0.52, "bb": 0.52, "ba": 0.53, "bb_boy": 15.0, "ms": 0}
+{"t": 75.7, "utc_ms": 1789850175685, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.47, "bb": 0.47, "ba": 0.48, "bb_boy": 10.0, "ms": 0}
+{"t": 77.1, "utc_ms": 1789850177130, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 1, "p": 0.53, "bb": 0.53, "ba": 0.54, "bb_boy": 30.0, "ms": 0}
+{"t": 77.8, "utc_ms": 1789850177802, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.47, "bb": 0.46, "ba": 0.48, "bb_boy": 304.7, "ms": 0}
+{"t": 79.3, "utc_ms": 1789850179288, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 1, "p": 0.53, "bb": 0.53, "ba": 0.54, "bb_boy": 15.0, "ms": 0}
+{"t": 79.8, "utc_ms": 1789850179807, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.47, "bb": 0.47, "ba": 0.48, "bb_boy": 25.0, "ms": 0}
+{"t": 83.8, "utc_ms": 1789850183772, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 1, "p": 0.53, "bb": 0.53, "ba": 0.54, "bb_boy": 28.7, "ms": 0}
+{"t": 91.2, "utc_ms": 1789850191182, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.46, "bb": 0.46, "ba": 0.47, "bb_boy": 27.8, "ms": 0}
+{"t": 92.4, "utc_ms": 1789850192408, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 1, "p": 0.54, "bb": 0.53, "ba": 0.55, "bb_boy": 562.2, "ms": 0}
+{"t": 94.7, "utc_ms": 1789850194677, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.44, "bb": 0.44, "ba": 0.45, "bb_boy": 15.4, "ms": 0}
+{"t": 94.7, "utc_ms": 1789850194678, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 1, "p": 0.56, "bb": 0.55, "ba": 0.57, "bb_boy": 398.8, "ms": 0}
+{"t": 102.0, "utc_ms": 1789850202042, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 0, "p": 0.43, "bb": 0.42, "ba": 0.44, "bb_boy": 422.4, "ms": 0}
+{"t": 102.0, "utc_ms": 1789850202043, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 1, "p": 0.57, "bb": 0.56, "ba": 0.58, "bb_boy": 10.0, "ms": 0}
+{"t": 103.0, "utc_ms": 1789850203047, "k": "taze_koy", "sym": "btc", "S": 1789850100, "oi": 1, "p": 0.54, "bb": 0.54, "ba": 0.55, "bb_boy": 20.0, "ms": 0}
+{"t": "20:37:47", "utc_ms": 1789850267902, "k": "mutabakat", "pnl": 0.0, "yerel": 0.0, "etkin": 0.0, "pencere": 0, "risk": 0.0, "emir": 51, "dolum": 0, "pay": 0.0, "geri_cekilen": 0, "red": 0}
+{"t": "20:38:00", "utc_ms": 1789850280989, "k": "COZULDU", "sym": "btc", "S": 1789849800, "kol": "A", "kazanan": 1, "pay": 0.0, "maliyet": 0, "pnl": 0, "geri_cekildi": null, "emirler": [{"oi": 0, "p": 0.3, "ofs": 0.3, "hedef_ofs": 0.3, "bb": 0.37, "pay": 0.0, "durum": "kapali", "gecikme_ms": null}, {"oi": 0, "p": 0.26, "ofs": 0.26, "hedef_ofs": 0.26, "bb": 0.37, "pay": 0.0, "durum": "kapali", "gecikme_ms": null}, {"oi": 0, "p": 0.22, "ofs": 0.22, "hedef_ofs": 0.22, "bb": 0.37, "pay": 0.0, "durum": "kapali", "gecikme_ms": null}, {"oi": 0, "p": 0.2, "ofs": 0.2, "hedef_ofs": 0.2, "bb": 0.37, "pay": 0.0, "durum": "kapali", "gecikme_ms": null}, {"oi": 0, "p": 0.16, "ofs": 0.16, "hedef_ofs": 0.16, "bb": 0.37, "pay": 0.0, "durum": "kapali", "gecikme_ms": null}, {"oi": 1, "p": 0.34, "ofs": 0.34, "hedef_ofs": 0.34, "bb": 0.63, "pay": 0.0, "durum": "kapali", "gecikme_ms": null}, {"oi": 1, "p": 0.3, "ofs": 0.3, "hedef_ofs": 0.3, "bb": 0.63, "pay": 0.0, "durum": "kapali", "gecikme_ms": null}, {"oi": 1, "p": 0.26, "ofs": 0.26, "hedef_ofs": 0.26, "bb": 0.63, "pay": 0.0, "durum": "kapali", "gecikme_ms": null}, {"oi": 1, "p": 0.22, "ofs": 0.22, "hedef_ofs": 0.22, "bb": 0.63, "pay": 0.0, "durum": "kapali", "gecikme_ms": null}, {"oi": 1, "p": 0.2, "ofs": 0.2, "hedef_ofs": 0.2, "bb": 0.63, "pay": 0.0, "durum": "kapali", "gecikme_ms": null}, {"oi": 1, "p": 0.16, "ofs": 0.16, "hedef_ofs": 0.16, "bb": 0.63, "pay": 0.0, "durum": "kapali", "gecikme_ms": null}]}
+{"t": "20:38:22", "utc_ms": 1789850302001, "k": "taze_bitti", "sym": "btc", "S": 1789850100, "koy": 40, "iptal": 40, "ws_hata": 0, "durdur": false, "dolan": 0.0}

@@ -1,0 +1,867 @@
+  [15:11:36] SURUM: kaynak_sha=3b3c0f543356 oturum=3401042 kapi=False esik_bps=16.4 boy_testi=False klip_buyuk=25.0 tamamla_acik=False tamamla_tavan=1.02 px_tavan_maker=0.4 a_uyum=False a_cift_tavan=0.8 a_uyum_ara=20.0 a_oran=0.5 tohum=20260918 delta_tik_b=[2, 4] yenileme_ara=20.0 taraf_tavan=10.0 gec_kes=200.0 ucuz_esik=0.25 gec_ust=0.1 gec_esik=180.0
+  [15:11:36] hazir: mod=LIVE klip=5.0 fiyatlar=[0.34, 0.3, 0.26, 0.22, 0.2, 0.16] fiyatlar_b=[0.2, 0.16, 0.12, 0.09, 0.06, 0.03] kesici=-100.0 denge_siniri=10.0 amac=DERIN MERDIVEN v4 - mutlak fiyat noktalari
+  [15:11:37] maruziyet: acik_pozisyon=1 pazar=1 dis_risk=3.2
+  [15:11:37] state_yuklendi: pencere=11 pnl=23.5 pnl_yerel=23.5 emir=194 dolum=13
+  [15:11:39] basladi: mod=LIVE gorulen_pencere=18
+  [15:11:40] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [15:11:42] mutabakat: pnl=23.5 yerel=23.5 etkin=23.5 pencere=13 risk=5.3 emir=194 dolum=13 pay=225.0 geri_cekilen=0 red=0
+  [15:14:05] COZULDU: sym=btc S=1789830300 kol=A kazanan=0 pay=10.0 maliyet=2.1 pnl=-2.1 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.67, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.67, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.67, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.67, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.67, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.67, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.29, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 21462}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.29, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 21552}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.29, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [15:15:06] BOY: S=1789830900 klip=5.0 kol=B
+  [15:15:08] pencere: sym=btc S=1789830900 kol=B tokens=['26741947974830730057006070800688857507407392137573138585799141286395297113373', '10852502187359921167227228616032344324044377683345351166054688692182014728183'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [15:15:28] YENILENDI: sym=btc S=1789830900 yas=26.6 iptal=12 eklenen=[('Down', 0.4)] toplam_emir=13
+  [15:15:38] dolum: sym=btc S=1789830900 oi=1 p=0.4 ofset=0.4 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=38.2
+  [15:15:47] YENILENDI: sym=btc S=1789830900 yas=46.7 iptal=1 eklenen=[('Down', 0.34), ('Down', 0.33)] toplam_emir=15
+  [15:15:58] dolum: sym=btc S=1789830900 oi=1 p=0.34 ofset=0.34 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=58.8
+  [15:15:58] dolum: sym=btc S=1789830900 oi=1 p=0.33 ofset=0.33 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=58.9
+  [15:15:59] DENGE_SINIRI: sym=btc S=1789830900 agir=Down up=0.0 down=15.0 iptal=2 kalan_hafif=0
+  [15:16:01] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [15:16:03] mutabakat_hata: err=999
+  [15:17:01] mutabakat_hata: err=999
+  [15:17:21] bitti: sebep=STOP pnl=23.5026 yerel=21.4026 pencere=19 emir=209 dolum=14 pay=234.96 geri_cekilen=0 red=0 bilinmeyen=0 risk=8.55
+  [15:19:08] SURUM: kaynak_sha=b56a3b3853c4 oturum=3408906 kapi=False esik_bps=16.4 boy_testi=False klip_buyuk=25.0 tamamla_acik=False tamamla_tavan=1.02 px_tavan_maker=0.4 a_uyum=False a_cift_tavan=0.8 a_uyum_ara=20.0 a_oran=0.5 tohum=20260918 delta_tik_b=[2, 4] yenileme_ara=20.0 taraf_tavan=10.0 gec_kes=200.0 ucuz_esik=0.25 gec_ust=0.1 gec_esik=180.0
+  [15:19:08] hazir: mod=LIVE klip=5.0 fiyatlar=[0.34, 0.3, 0.26, 0.22, 0.2, 0.16] fiyatlar_b=[0.2, 0.16, 0.12, 0.09, 0.06, 0.03] kesici=-100.0 denge_siniri=10.0 amac=DERIN MERDIVEN v4 - mutlak fiyat noktalari
+  [15:19:09] maruziyet: acik_pozisyon=1 pazar=1 dis_risk=5.349
+  [15:19:09] state_yuklendi: pencere=11 pnl=23.5 pnl_yerel=21.4 emir=209 dolum=14
+  [15:19:11] mutabakat_hata: err=999
+  [15:19:31] BASLAMIYOR: sebep=baslangic mutabakati eksik
+  [15:23:16] SURUM: kaynak_sha=b56a3b3853c4 oturum=3413017 kapi=False esik_bps=16.4 boy_testi=False klip_buyuk=25.0 tamamla_acik=False tamamla_tavan=1.02 px_tavan_maker=0.4 a_uyum=False a_cift_tavan=0.8 a_uyum_ara=20.0 a_oran=0.5 tohum=20260918 delta_tik_b=[2, 4] yenileme_ara=20.0 taraf_tavan=10.0 gec_kes=200.0 ucuz_esik=0.25 gec_ust=0.1 gec_esik=180.0
+  [15:23:16] hazir: mod=LIVE klip=5.0 fiyatlar=[0.34, 0.3, 0.26, 0.22, 0.2, 0.16] fiyatlar_b=[0.2, 0.16, 0.12, 0.09, 0.06, 0.03] kesici=-100.0 denge_siniri=10.0 amac=DERIN MERDIVEN v4 - mutlak fiyat noktalari
+  [15:23:17] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [15:23:17] state_yuklendi: pencere=11 pnl=23.5 pnl_yerel=21.4 emir=209 dolum=14
+  [15:23:20] basladi: mod=LIVE gorulen_pencere=19
+  [15:23:20] COZULDU: sym=btc S=1789830600 kol=A kazanan=0 pay=10.0 maliyet=3.2 pnl=-3.2 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.42, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.42, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.42, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.42, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.42, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.42, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.57, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 22736}, {'oi': 1, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.57, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 22830}, {'oi': 1, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.57, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.57, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.57, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.57, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [15:23:20] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [15:23:23] mutabakat: pnl=18.2 yerel=18.2 etkin=18.2 pencere=15 risk=5.35 emir=209 dolum=15 pay=245.0 geri_cekilen=0 red=0
+  [15:24:25] COZULDU: sym=btc S=1789830900 kol=B kazanan=1 pay=15.0 maliyet=5.35 pnl=9.65 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.47, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.47, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.47, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.47, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.47, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.47, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.4, 'ofs': 0.4, 'hedef_ofs': 0.4, 'bb': None, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 10005}, {'oi': 1, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': None, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 11432}, {'oi': 1, 'p': 0.33, 'ofs': 0.33, 'hedef_ofs': 0.33, 'bb': None, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 11532}]
+  [15:25:05] BOY: S=1789831500 klip=5.0 kol=B
+  [15:25:06] pencere: sym=btc S=1789831500 kol=B tokens=['29690376369051638397493224661133380273302843558591577923663224231018242124411', '84156184522838754669136121756288477856774636811286869554770073980886012615459'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [15:25:41] bitti: sebep=STOP pnl=27.8526 yerel=27.8526 pencere=20 emir=221 dolum=16 pay=259.96 geri_cekilen=0 red=0 bilinmeyen=0 risk=0.0
+  [15:25:45] SURUM: kaynak_sha=02127ae22be1 oturum=3415431 kapi=False esik_bps=16.4 boy_testi=False klip_buyuk=25.0 tamamla_acik=False tamamla_tavan=1.02 px_tavan_maker=0.4 a_uyum=False a_cift_tavan=0.8 a_uyum_ara=20.0 a_oran=0.5 tohum=20260918 delta_tik_b=[2, 4] yenileme_ara=20.0 taraf_tavan=10.0 gec_kes=200.0 ucuz_esik=0.25 gec_ust=0.1 gec_esik=180.0
+  [15:25:45] hazir: mod=LIVE klip=5.0 fiyatlar=[0.34, 0.3, 0.26, 0.22, 0.2, 0.16] fiyatlar_b=[0.2, 0.16, 0.12, 0.09, 0.06, 0.03] kesici=-100.0 denge_siniri=10.0 amac=DERIN MERDIVEN v4 - mutlak fiyat noktalari
+  [15:25:45] acilis_tekrar: kapi=acik emir var/okunamadi deneme=1 bekle=5.0
+  [15:25:51] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [15:25:51] state_yuklendi: pencere=10 pnl=27.85 pnl_yerel=27.85 emir=221 dolum=16
+  [15:25:53] basladi: mod=LIVE gorulen_pencere=20
+  [15:25:54] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [15:25:56] mutabakat: pnl=27.85 yerel=27.85 etkin=27.85 pencere=16 risk=0.0 emir=221 dolum=16 pay=260.0 geri_cekilen=0 red=0
+  [15:30:06] BOY: S=1789831800 klip=5.0 kol=B
+  [15:30:07] pencere: sym=btc S=1789831800 kol=B tokens=['39183006377156364936631272521050769133578578076967962116562423709945765074648', '63881430738426356965556007421757901379200040054846003830808207000347457441284'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [15:30:15] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [15:30:17] mutabakat: pnl=27.85 yerel=27.85 etkin=27.85 pencere=16 risk=3.3 emir=233 dolum=16 pay=260.0 geri_cekilen=0 red=0
+  [15:30:51] dolum: sym=btc S=1789831800 oi=1 p=0.2 ofset=0.2 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=51.2
+  [15:31:41] dolum: sym=btc S=1789831800 oi=1 p=0.16 ofset=0.16 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=101.7
+  [15:31:42] DENGE_SINIRI: sym=btc S=1789831800 agir=Down up=0.0 down=10.0 iptal=6 kalan_hafif=6
+  [15:33:21] GEC_UCUZ_KESILDI: sym=btc S=1789831800 iptal=3 fiyatlar=[0.12, 0.16, 0.2] kalan_acik=3
+  [15:33:38] COZULDU: sym=btc S=1789831500 kol=B kazanan=1 pay=0.0 maliyet=0 pnl=0 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.54, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.54, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.54, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.54, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.54, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.54, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.45, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.45, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.45, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.45, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.45, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.45, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [15:34:35] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [15:34:37] mutabakat: pnl=27.85 yerel=27.85 etkin=27.85 pencere=16 risk=1.8 emir=233 dolum=16 pay=260.0 geri_cekilen=0 red=0
+  [15:35:05] BOY: S=1789832100 klip=5.0 kol=A
+  [15:35:06] pencere: sym=btc S=1789832100 kol=A tokens=['21648910241667027684795002190838149217325146293646498713780467136862346553312', '41255707451953073216093430386290389949997290943665883159004637505503584611151'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.34, 0.34, 0.34), (0, 0.3, 0.3, 0.3), (0, 0.26, 0.26, 0.26), (0, 0.22, 0.22, 0.22), (0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (1, 0.34, 0.34, 0.34), (1, 0.3, 0.3, 0.3), (1, 0.26, 0.26, 0.26), (1, 0.22, 0.22, 0.22), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16)]
+  [15:36:15] dolum: sym=btc S=1789832100 oi=1 p=0.34 ofset=0.34 yeni=1.515 toplam=1.515 kaynak=yoklama gecen_sn=75.8
+  [15:36:17] dolum: sym=btc S=1789832100 oi=1 p=0.34 ofset=0.34 yeni=2.61 toplam=4.125 kaynak=yoklama gecen_sn=77.4
+  [15:36:31] dolum: sym=btc S=1789832100 oi=1 p=0.34 ofset=0.34 yeni=0.87 toplam=4.995 kaynak=yoklama gecen_sn=91.8
+  [15:36:39] dolum: sym=btc S=1789832100 oi=1 p=0.3 ofset=0.3 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=99.9
+  [15:36:40] DENGE_SINIRI: sym=btc S=1789832100 agir=Down up=0.0 down=10.0 iptal=6 kalan_hafif=6
+  [15:38:20] GEC_UCUZ_KESILDI: sym=btc S=1789832100 iptal=3 fiyatlar=[0.16, 0.2, 0.22] kalan_acik=3
+  [15:38:56] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [15:38:58] mutabakat: pnl=27.85 yerel=27.85 etkin=27.85 pencere=16 risk=5.0 emir=245 dolum=16 pay=260.0 geri_cekilen=0 red=0
+  [15:39:03] COZULDU: sym=btc S=1789831800 kol=B kazanan=0 pay=10.0 maliyet=1.8 pnl=-1.8 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.47, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 44103}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.47, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 94627}, {'oi': 1, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.47, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.47, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.47, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.47, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [15:40:07] BOY: S=1789832400 klip=5.0 kol=A
+  [15:40:07] pencere: sym=btc S=1789832400 kol=A tokens=['9498946851488349963586450294371545162326391527053991074387070945767902100532', '31170001519459516994481271838171138143607172983920511637906529534658326013959'] emir=9 kabul=[6, 3] fiyatlar=[(0, 0.34, 0.34, 0.34), (0, 0.3, 0.3, 0.3), (0, 0.26, 0.26, 0.26), (0, 0.22, 0.22, 0.22), (0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (1, 0.22, 0.22, 0.22), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16)]
+  [15:40:54] dolum: sym=btc S=1789832400 oi=1 p=0.22 ofset=0.22 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=54.4
+  [15:40:55] dolum: sym=btc S=1789832400 oi=1 p=0.2 ofset=0.2 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=55.9
+  [15:40:56] DENGE_SINIRI: sym=btc S=1789832400 agir=Down up=0.0 down=10.0 iptal=3 kalan_hafif=6
+  [15:42:12] bitti: sebep=STOP pnl=26.0526 yerel=26.0526 pencere=23 emir=254 dolum=17 pay=269.96 geri_cekilen=0 red=0 bilinmeyen=0 risk=5.3
+  [15:42:17] SURUM: kaynak_sha=7df20165e057 oturum=3432253 kapi=False esik_bps=16.4 boy_testi=False klip_buyuk=25.0 tamamla_acik=False tamamla_tavan=1.02 px_tavan_maker=0.4 a_uyum=False a_cift_tavan=0.8 a_uyum_ara=20.0 vol_kapisi=True vol_esik=15.0 a_oran=0.5 tohum=20260918 delta_tik_b=[2, 4] yenileme_ara=20.0 taraf_tavan=10.0 gec_kes=200.0 ucuz_esik=0.25 gec_ust=0.1 gec_esik=180.0
+  [15:42:17] hazir: mod=LIVE klip=5.0 fiyatlar=[0.34, 0.3, 0.26, 0.22, 0.2, 0.16] fiyatlar_b=[0.2, 0.16, 0.12, 0.09, 0.06, 0.03] kesici=-100.0 denge_siniri=10.0 amac=DERIN MERDIVEN v4 - mutlak fiyat noktalari
+  [15:42:18] maruziyet: acik_pozisyon=1 pazar=1 dis_risk=2.1
+  [15:42:18] state_yuklendi: pencere=11 pnl=26.05 pnl_yerel=26.05 emir=254 dolum=17
+  [15:42:21] basladi: mod=LIVE gorulen_pencere=23
+  [15:42:21] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [15:42:23] mutabakat: pnl=26.05 yerel=26.05 etkin=26.05 pencere=17 risk=5.3 emir=254 dolum=17 pay=270.0 geri_cekilen=0 red=0
+  [15:44:52] COZULDU: sym=btc S=1789832100 kol=A kazanan=0 pay=10.0 maliyet=3.2 pnl=-3.2 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.47, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 69431}, {'oi': 1, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.47, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 93547}, {'oi': 1, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.47, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.47, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.47, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.47, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [15:45:06] BOY: S=1789832700 klip=5.0 kol=B
+  [15:45:07] pencere: sym=btc S=1789832700 kol=B tokens=['63724602019269445714663643058037241799261474334743762294461947810137158454943', '41444568905492200858358740171931670017188029312576339731315550186220045636448'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [15:45:31] dolum: sym=btc S=1789832700 oi=0 p=0.2 ofset=0.2 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=32.0
+  [15:45:44] dolum: sym=btc S=1789832700 oi=0 p=0.16 ofset=0.16 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=44.1
+  [15:45:45] DENGE_SINIRI: sym=btc S=1789832700 agir=Up up=10.0 down=0.0 iptal=6 kalan_hafif=6
+  [15:46:42] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [15:46:44] mutabakat: pnl=22.85 yerel=22.85 etkin=22.85 pencere=18 risk=3.9 emir=266 dolum=18 pay=280.0 geri_cekilen=0 red=0
+  [15:46:49] bitti: sebep=STOP pnl=22.8542 yerel=22.8542 pencere=24 emir=266 dolum=18 pay=279.95 geri_cekilen=0 red=0 bilinmeyen=0 risk=3.9
+  [15:46:52] SURUM: kaynak_sha=be84f831cb2b oturum=3436703 kapi=False esik_bps=16.4 boy_testi=False klip_buyuk=25.0 tamamla_acik=False tamamla_tavan=1.02 px_tavan_maker=0.4 a_uyum=False a_cift_tavan=0.8 a_uyum_ara=20.0 vol_kapisi=True vol_esik=15.0 a_oran=0.5 tohum=20260918 delta_tik_b=[2, 4] yenileme_ara=20.0 taraf_tavan=10.0 gec_kes=200.0 ucuz_esik=0.25 gec_ust=0.1 gec_esik=180.0
+  [15:46:52] hazir: mod=LIVE klip=5.0 fiyatlar=[0.34, 0.3, 0.26, 0.22, 0.2, 0.16] fiyatlar_b=[0.2, 0.16, 0.12, 0.09, 0.06, 0.03] kesici=-100.0 denge_siniri=10.0 amac=DERIN MERDIVEN v4 - mutlak fiyat noktalari
+  [15:46:52] acilis_tekrar: kapi=acik emir var/okunamadi deneme=1 bekle=5.0
+  [15:46:58] maruziyet: acik_pozisyon=1 pazar=1 dis_risk=1.8
+  [15:46:58] state_yuklendi: pencere=11 pnl=22.85 pnl_yerel=22.85 emir=266 dolum=18
+  [15:47:01] basladi: mod=LIVE gorulen_pencere=24
+  [15:47:01] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [15:47:03] mutabakat: pnl=22.85 yerel=22.85 etkin=22.85 pencere=18 risk=3.9 emir=266 dolum=18 pay=280.0 geri_cekilen=0 red=0
+  [15:49:53] COZULDU: sym=btc S=1789832400 kol=A kazanan=0 pay=10.0 maliyet=2.1 pnl=-2.1 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.67, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.67, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.67, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.67, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.67, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.67, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.3, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 46463}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.3, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 47922}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.3, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [15:50:10] BOY: S=1789833000 klip=5.0 kol=B
+  [15:50:11] pencere: sym=btc S=1789833000 kol=B vol=29.5 tokens=['31179012729503076080950078216496431266518316666319259772661990277726179705784', '60792374917591193506622811561039232002820246629771526468251527509580585979878'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [15:51:24] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [15:51:26] mutabakat: pnl=20.75 yerel=20.75 etkin=20.75 pencere=19 risk=5.1 emir=278 dolum=19 pay=290.0 geri_cekilen=0 red=0
+  [15:53:21] GEC_UCUZ_KESILDI: sym=btc S=1789833000 iptal=6 fiyatlar=[0.12, 0.16, 0.2] kalan_acik=6
+  [15:53:58] dolum: sym=btc S=1789833000 oi=1 p=0.09 ofset=0.09 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=238.1
+  [15:53:58] DENGE_SINIRI: sym=btc S=1789833000 agir=Down up=0.0 down=5.0 iptal=3 kalan_hafif=3
+  [15:54:59] COZULDU: sym=btc S=1789832700 kol=B kazanan=1 pay=10.0 maliyet=1.8 pnl=-1.8 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.51, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 24638}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.51, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 36794}, {'oi': 0, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.51, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.51, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.51, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.51, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.48, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.48, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.48, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.48, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.48, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.48, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [15:55:05] vol_atla: sym=btc S=1789833300 vol=6.7 esik=15.0 kol=B karar=pencere ATLANDI
+  [15:55:44] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [15:55:46] mutabakat: pnl=18.95 yerel=18.95 etkin=18.95 pencere=20 risk=0.45 emir=278 dolum=20 pay=300.0 geri_cekilen=0 red=0
+  [15:58:59] COZULDU: sym=btc S=1789833000 kol=B kazanan=0 pay=5.0 maliyet=0.45 pnl=-0.45 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.43, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.43, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.43, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.43, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.43, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.43, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.56, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.56, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.56, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.56, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 226670}, {'oi': 1, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.56, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.56, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [16:00:05] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [16:00:07] mutabakat: pnl=18.5 yerel=18.5 etkin=18.5 pencere=21 risk=0.0 emir=278 dolum=21 pay=305.0 geri_cekilen=0 red=0
+  [16:00:08] vol_atla: sym=btc S=1789833600 vol=10.1 esik=15.0 kol=A karar=pencere ATLANDI
+  [16:04:25] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [16:04:27] mutabakat: pnl=18.5 yerel=18.5 etkin=18.5 pencere=21 risk=0.0 emir=278 dolum=21 pay=305.0 geri_cekilen=0 red=0
+  [16:05:06] BOY: S=1789833900 klip=5.0 kol=B
+  [16:05:07] pencere: sym=btc S=1789833900 kol=B vol=21.4 tokens=['32928177288657488441258027770232396450846294611807418201380281142703111737685', '23734254944505142468739119376262678373965983294860473323610449344903829920975'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [16:06:38] dolum: sym=btc S=1789833900 oi=1 p=0.2 ofset=0.2 yeni=4.992 toplam=4.992 kaynak=yoklama gecen_sn=98.9
+  [16:06:38] dolum: sym=btc S=1789833900 oi=1 p=0.16 ofset=0.16 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=99.0
+  [16:06:40] DENGE_SINIRI: sym=btc S=1789833900 agir=Down up=0.0 down=10.0 iptal=6 kalan_hafif=6
+  [16:08:20] GEC_UCUZ_KESILDI: sym=btc S=1789833900 iptal=3 fiyatlar=[0.12, 0.16, 0.2] kalan_acik=3
+  [16:08:45] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [16:08:48] mutabakat: pnl=18.5 yerel=18.5 etkin=18.5 pencere=21 risk=1.8 emir=290 dolum=21 pay=305.0 geri_cekilen=0 red=0
+  [16:10:06] BOY: S=1789834200 klip=5.0 kol=A
+  [16:10:06] pencere: sym=btc S=1789834200 kol=A vol=27.0 tokens=['94754771575129394791088144049552380203601549229386134596604823349195677822499', '28743951800584448031134281136480190251257552793258986889206548258205982968897'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.34, 0.34, 0.34), (0, 0.3, 0.3, 0.3), (0, 0.26, 0.26, 0.26), (0, 0.22, 0.22, 0.22), (0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (1, 0.34, 0.34, 0.34), (1, 0.3, 0.3, 0.3), (1, 0.26, 0.26, 0.26), (1, 0.22, 0.22, 0.22), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16)]
+  [16:10:13] dolum: sym=btc S=1789834200 oi=1 p=0.34 ofset=0.34 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=14.0
+  [16:10:14] dolum: sym=btc S=1789834200 oi=1 p=0.3 ofset=0.3 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=14.1
+  [16:10:14] dolum: sym=btc S=1789834200 oi=1 p=0.26 ofset=0.26 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=14.2
+  [16:10:15] DENGE_SINIRI: sym=btc S=1789834200 agir=Down up=0.0 down=15.0 iptal=6 kalan_hafif=6
+  [16:13:06] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [16:13:08] mutabakat: pnl=18.5 yerel=18.5 etkin=18.5 pencere=21 risk=6.3 emir=302 dolum=21 pay=305.0 geri_cekilen=0 red=0
+  [16:13:20] GEC_UCUZ_KESILDI: sym=btc S=1789834200 iptal=3 fiyatlar=[0.16, 0.2, 0.22] kalan_acik=3
+  [16:15:06] BOY: S=1789834500 klip=5.0 kol=B
+  [16:15:07] pencere: sym=btc S=1789834500 kol=B vol=22.9 tokens=['5765778749039361897816928716432120593514275848388600538032413209292344801603', '82909927913266871450667487682557755337497158694958495743332443065838947568702'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [16:16:35] COZULDU: sym=btc S=1789833900 kol=B kazanan=0 pay=9.99 maliyet=1.8 pnl=-1.8 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.27, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.27, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.27, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.27, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.27, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.27, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.72, 'pay': 4.99, 'durum': 'kapali', 'gecikme_ms': 91563}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.72, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 91692}, {'oi': 1, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.72, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.72, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.72, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.72, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [16:17:27] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [16:17:29] mutabakat: pnl=16.11 yerel=16.71 etkin=16.11 pencere=22 risk=7.8 emir=314 dolum=22 pay=314.9 geri_cekilen=0 red=0
+  [16:17:37] dolum: sym=btc S=1789834500 oi=1 p=0.2 ofset=0.2 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=158.0
+  [16:17:51] dolum: sym=btc S=1789834500 oi=1 p=0.16 ofset=0.16 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=171.9
+  [16:17:52] dolum: sym=btc S=1789834500 oi=1 p=0.12 ofset=0.12 yeni=5.0 toplam=5.0 kaynak=iptal gecen_sn=172.7
+  [16:17:53] dolum: sym=btc S=1789834500 oi=1 p=0.09 ofset=0.09 yeni=4.995 toplam=4.995 kaynak=iptal gecen_sn=173.2
+  [16:17:53] DENGE_SINIRI: sym=btc S=1789834500 agir=Down up=0.0 down=10.0 iptal=6 kalan_hafif=6
+  [16:18:20] GEC_UCUZ_KESILDI: sym=btc S=1789834500 iptal=3 fiyatlar=[0.12, 0.16, 0.2] kalan_acik=3
+  [16:19:29] COZULDU: sym=btc S=1789834200 kol=A kazanan=0 pay=15.0 maliyet=4.5 pnl=-4.5 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.47, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 7086}, {'oi': 1, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.47, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 7175}, {'oi': 1, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.47, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 7258}, {'oi': 1, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.47, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.47, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.47, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [16:20:05] vol_atla: sym=btc S=1789834800 vol=10.1 esik=15.0 kol=B karar=pencere ATLANDI
+  [16:21:47] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [16:21:50] mutabakat: pnl=11.61 yerel=12.21 etkin=11.61 pencere=23 risk=2.85 emir=314 dolum=23 pay=329.9 geri_cekilen=0 red=0
+  [16:24:20] COZULDU: sym=btc S=1789834500 kol=B kazanan=0 pay=19.99 maliyet=2.85 pnl=-2.85 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.68, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.68, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.68, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.68, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.68, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.68, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.31, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 150449}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.31, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 164396}, {'oi': 1, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.31, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 165228}, {'oi': 1, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.31, 'pay': 4.99, 'durum': 'kapali', 'gecikme_ms': 165707}, {'oi': 1, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.31, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.31, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [16:25:05] vol_atla: sym=btc S=1789835100 vol=6.4 esik=15.0 kol=B karar=pencere ATLANDI
+  [16:26:08] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [16:26:10] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=0 red=0
+  [16:30:05] vol_atla: sym=btc S=1789835400 vol=8.7 esik=15.0 kol=A karar=pencere ATLANDI
+  [16:30:28] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [16:30:30] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=0 red=0
+  [16:34:48] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [16:34:51] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=0 red=0
+  [16:35:05] vol_atla: sym=btc S=1789835700 vol=12.3 esik=15.0 kol=B karar=pencere ATLANDI
+  [16:39:09] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [16:39:11] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=0 red=0
+  [16:40:05] vol_atla: sym=btc S=1789836000 vol=8.2 esik=15.0 kol=B karar=pencere ATLANDI
+  [16:43:29] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [16:43:31] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=0 red=0
+  [16:45:05] vol_atla: sym=btc S=1789836300 vol=7.9 esik=15.0 kol=A karar=pencere ATLANDI
+  [16:47:49] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [16:47:51] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=0 red=0
+  [16:50:05] vol_atla: sym=btc S=1789836600 vol=4.6 esik=15.0 kol=A karar=pencere ATLANDI
+  [16:52:09] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [16:52:12] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=0 red=0
+  [16:55:05] vol_atla: sym=btc S=1789836900 vol=2.5 esik=15.0 kol=A karar=pencere ATLANDI
+  [16:56:29] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [16:56:32] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=0 red=0
+  [17:00:05] vol_atla: sym=btc S=1789837200 vol=2.9 esik=15.0 kol=A karar=pencere ATLANDI
+  [17:00:50] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [17:00:52] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=0 red=0
+  [17:05:05] vol_atla: sym=btc S=1789837500 vol=7.1 esik=15.0 kol=B karar=pencere ATLANDI
+  [17:05:10] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [17:05:12] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=0 red=0
+  [17:09:30] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [17:09:32] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=0 red=0
+  [17:10:05] vol_atla: sym=btc S=1789837800 vol=6.8 esik=15.0 kol=A karar=pencere ATLANDI
+  [17:13:50] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [17:13:53] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=0 red=0
+  [17:15:06] vol_atla: sym=btc S=1789838100 vol=13.4 esik=15.0 kol=B karar=pencere ATLANDI
+  [17:18:11] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [17:18:13] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=0 red=0
+  [17:20:06] BOY: S=1789838400 klip=5.0 kol=A
+[py_clob_client_v2] request error status=503 url=https://clob.polymarket.com/orders body={"error":"trading is disabled"}
+  [17:20:07] toplu_emir_hata: durum=BILINMEYEN err=PolyApiException[status_code=503, error_message={'error': 'trading is disabled'}]
+  [17:20:07] POST_BILINMEYEN: sym=btc S=1789838400 oi=0 p=0.34 bulundu=False
+[py_clob_client_v2] request error: The read operation timed out
+  [17:20:12] acik_emir_okunamadi: err=PolyApiException[status_code=None, error_message=Request exc
+  [17:20:12] POST_BILINMEYEN: sym=btc S=1789838400 oi=0 p=0.3 bulundu=False
+[py_clob_client_v2] request error: The read operation timed out
+  [17:20:17] acik_emir_okunamadi: err=PolyApiException[status_code=None, error_message=Request exc
+  [17:20:17] POST_BILINMEYEN: sym=btc S=1789838400 oi=0 p=0.26 bulundu=False
+[py_clob_client_v2] request error: The read operation timed out
+  [17:20:23] acik_emir_okunamadi: err=PolyApiException[status_code=None, error_message=Request exc
+  [17:20:23] POST_BILINMEYEN: sym=btc S=1789838400 oi=0 p=0.22 bulundu=False
+  [17:20:23] POST_BILINMEYEN: sym=btc S=1789838400 oi=0 p=0.2 bulundu=False
+  [17:20:23] POST_BILINMEYEN: sym=btc S=1789838400 oi=0 p=0.16 bulundu=False
+  [17:20:27] POST_BILINMEYEN: sym=btc S=1789838400 oi=1 p=0.34 bulundu=False
+  [17:20:27] POST_BILINMEYEN: sym=btc S=1789838400 oi=1 p=0.3 bulundu=False
+[py_clob_client_v2] request error: The read operation timed out
+  [17:20:32] acik_emir_okunamadi: err=PolyApiException[status_code=None, error_message=Request exc
+  [17:20:32] POST_BILINMEYEN: sym=btc S=1789838400 oi=1 p=0.26 bulundu=False
+  [17:20:32] POST_BILINMEYEN: sym=btc S=1789838400 oi=1 p=0.22 bulundu=False
+  [17:20:32] POST_BILINMEYEN: sym=btc S=1789838400 oi=1 p=0.2 bulundu=False
+  [17:20:32] POST_BILINMEYEN: sym=btc S=1789838400 oi=1 p=0.16 bulundu=False
+  [17:20:32] GERI_CEKILDI: sym=btc S=1789838400 kol=A sebep=belirsiz_emir kabul=[0, 0] dolan=0
+  [17:22:31] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [17:22:33] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=1 red=0
+  [17:25:06] BOY: S=1789838700 klip=5.0 kol=B
+[py_clob_client_v2] request error status=503 url=https://clob.polymarket.com/orders body={"error":"trading is disabled"}
+  [17:25:06] toplu_emir_hata: durum=BILINMEYEN err=PolyApiException[status_code=503, error_message={'error': 'trading is disabled'}]
+  [17:25:06] POST_BILINMEYEN: sym=btc S=1789838700 oi=0 p=0.2 bulundu=False
+  [17:25:07] POST_BILINMEYEN: sym=btc S=1789838700 oi=0 p=0.16 bulundu=False
+  [17:25:07] POST_BILINMEYEN: sym=btc S=1789838700 oi=0 p=0.12 bulundu=False
+  [17:25:07] POST_BILINMEYEN: sym=btc S=1789838700 oi=0 p=0.09 bulundu=False
+  [17:25:07] POST_BILINMEYEN: sym=btc S=1789838700 oi=0 p=0.06 bulundu=False
+[py_clob_client_v2] request error: The read operation timed out
+  [17:25:12] acik_emir_okunamadi: err=PolyApiException[status_code=None, error_message=Request exc
+  [17:25:12] POST_BILINMEYEN: sym=btc S=1789838700 oi=0 p=0.03 bulundu=False
+[py_clob_client_v2] request error: The read operation timed out
+  [17:25:17] acik_emir_okunamadi: err=PolyApiException[status_code=None, error_message=Request exc
+  [17:25:17] POST_BILINMEYEN: sym=btc S=1789838700 oi=1 p=0.2 bulundu=False
+  [17:25:17] POST_BILINMEYEN: sym=btc S=1789838700 oi=1 p=0.16 bulundu=False
+[py_clob_client_v2] request error: The read operation timed out
+  [17:25:22] acik_emir_okunamadi: err=PolyApiException[status_code=None, error_message=Request exc
+  [17:25:22] POST_BILINMEYEN: sym=btc S=1789838700 oi=1 p=0.12 bulundu=False
+  [17:25:22] POST_BILINMEYEN: sym=btc S=1789838700 oi=1 p=0.09 bulundu=False
+  [17:25:22] POST_BILINMEYEN: sym=btc S=1789838700 oi=1 p=0.06 bulundu=False
+  [17:25:22] POST_BILINMEYEN: sym=btc S=1789838700 oi=1 p=0.03 bulundu=False
+  [17:25:22] GERI_CEKILDI: sym=btc S=1789838700 kol=B sebep=belirsiz_emir kabul=[0, 0] dolan=0
+  [17:26:51] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [17:26:54] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=2 red=0
+  [17:30:06] BOY: S=1789839000 klip=5.0 kol=A
+[py_clob_client_v2] request error status=503 url=https://clob.polymarket.com/orders body={"error":"trading is disabled"}
+  [17:30:07] toplu_emir_hata: durum=BILINMEYEN err=PolyApiException[status_code=503, error_message={'error': 'trading is disabled'}]
+  [17:30:07] POST_BILINMEYEN: sym=btc S=1789839000 oi=0 p=0.34 bulundu=False
+[py_clob_client_v2] request error: The read operation timed out
+  [17:30:12] acik_emir_okunamadi: err=PolyApiException[status_code=None, error_message=Request exc
+  [17:30:12] POST_BILINMEYEN: sym=btc S=1789839000 oi=0 p=0.3 bulundu=False
+[py_clob_client_v2] request error: The read operation timed out
+  [17:30:17] acik_emir_okunamadi: err=PolyApiException[status_code=None, error_message=Request exc
+  [17:30:17] POST_BILINMEYEN: sym=btc S=1789839000 oi=0 p=0.26 bulundu=False
+  [17:30:17] POST_BILINMEYEN: sym=btc S=1789839000 oi=0 p=0.22 bulundu=False
+  [17:30:18] POST_BILINMEYEN: sym=btc S=1789839000 oi=0 p=0.2 bulundu=False
+  [17:30:18] POST_BILINMEYEN: sym=btc S=1789839000 oi=0 p=0.16 bulundu=False
+  [17:30:18] POST_BILINMEYEN: sym=btc S=1789839000 oi=1 p=0.34 bulundu=False
+[py_clob_client_v2] request error: The read operation timed out
+  [17:30:23] acik_emir_okunamadi: err=PolyApiException[status_code=None, error_message=Request exc
+  [17:30:23] POST_BILINMEYEN: sym=btc S=1789839000 oi=1 p=0.3 bulundu=False
+  [17:30:23] POST_BILINMEYEN: sym=btc S=1789839000 oi=1 p=0.26 bulundu=False
+  [17:30:23] POST_BILINMEYEN: sym=btc S=1789839000 oi=1 p=0.22 bulundu=False
+  [17:30:23] POST_BILINMEYEN: sym=btc S=1789839000 oi=1 p=0.2 bulundu=False
+  [17:30:23] POST_BILINMEYEN: sym=btc S=1789839000 oi=1 p=0.16 bulundu=False
+  [17:30:23] GERI_CEKILDI: sym=btc S=1789839000 kol=A sebep=belirsiz_emir kabul=[0, 0] dolan=0
+  [17:31:11] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [17:31:14] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=3 red=0
+  [17:31:40] COZULDU: sym=btc S=1789838400 kol=A kazanan=1 pay=0 maliyet=0 pnl=0 geri_cekildi=belirsiz_emir emirler=[]
+  [17:35:05] vol_atla: sym=btc S=1789839300 vol=11.0 esik=15.0 kol=A karar=pencere ATLANDI
+  [17:35:32] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [17:35:34] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=3 red=0
+  [17:36:41] COZULDU: sym=btc S=1789838700 kol=B kazanan=1 pay=0 maliyet=0 pnl=0 geri_cekildi=belirsiz_emir emirler=[]
+  [17:39:52] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [17:39:55] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=3 red=0
+  [17:40:05] vol_atla: sym=btc S=1789839600 vol=10.8 esik=15.0 kol=B karar=pencere ATLANDI
+  [17:41:43] COZULDU: sym=btc S=1789839000 kol=A kazanan=0 pay=0 maliyet=0 pnl=0 geri_cekildi=belirsiz_emir emirler=[]
+  [17:44:12] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [17:44:16] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=3 red=0
+  [17:45:05] vol_atla: sym=btc S=1789839900 vol=6.1 esik=15.0 kol=B karar=pencere ATLANDI
+  [17:48:33] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [17:48:35] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=3 red=0
+  [17:50:05] vol_atla: sym=btc S=1789840200 vol=6.1 esik=15.0 kol=A karar=pencere ATLANDI
+  [17:52:53] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [17:52:55] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=3 red=0
+  [17:55:05] vol_atla: sym=btc S=1789840500 vol=6.4 esik=15.0 kol=A karar=pencere ATLANDI
+  [17:57:14] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [17:57:16] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=3 red=0
+  [18:00:05] vol_atla: sym=btc S=1789840800 vol=5.0 esik=15.0 kol=B karar=pencere ATLANDI
+  [18:01:34] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [18:01:36] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=3 red=0
+  [18:05:05] vol_atla: sym=btc S=1789841100 vol=8.6 esik=15.0 kol=B karar=pencere ATLANDI
+  [18:05:54] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [18:05:56] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=3 red=0
+  [18:10:07] BOY: S=1789841400 klip=5.0 kol=A
+[py_clob_client_v2] request error status=503 url=https://clob.polymarket.com/orders body={"error":"trading is disabled"}
+  [18:10:07] toplu_emir_hata: durum=BILINMEYEN err=PolyApiException[status_code=503, error_message={'error': 'trading is disabled'}]
+  [18:10:07] POST_BILINMEYEN: sym=btc S=1789841400 oi=0 p=0.2 bulundu=False
+  [18:10:08] POST_BILINMEYEN: sym=btc S=1789841400 oi=0 p=0.16 bulundu=False
+  [18:10:08] POST_BILINMEYEN: sym=btc S=1789841400 oi=1 p=0.2 bulundu=False
+  [18:10:08] POST_BILINMEYEN: sym=btc S=1789841400 oi=1 p=0.16 bulundu=False
+  [18:10:08] GERI_CEKILDI: sym=btc S=1789841400 kol=A sebep=belirsiz_emir kabul=[0, 0] dolan=0
+  [18:10:14] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [18:10:17] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=4 red=0
+  [18:14:34] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [18:14:37] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=4 red=0
+  [18:15:06] BOY: S=1789841700 klip=5.0 kol=B
+[py_clob_client_v2] request error status=503 url=https://clob.polymarket.com/orders body={"error":"trading is disabled"}
+  [18:15:07] toplu_emir_hata: durum=BILINMEYEN err=PolyApiException[status_code=503, error_message={'error': 'trading is disabled'}]
+  [18:15:07] POST_BILINMEYEN: sym=btc S=1789841700 oi=0 p=0.2 bulundu=False
+  [18:15:07] POST_BILINMEYEN: sym=btc S=1789841700 oi=0 p=0.16 bulundu=False
+  [18:15:07] POST_BILINMEYEN: sym=btc S=1789841700 oi=0 p=0.12 bulundu=False
+  [18:15:07] POST_BILINMEYEN: sym=btc S=1789841700 oi=0 p=0.09 bulundu=False
+  [18:15:07] POST_BILINMEYEN: sym=btc S=1789841700 oi=0 p=0.06 bulundu=False
+  [18:15:07] POST_BILINMEYEN: sym=btc S=1789841700 oi=0 p=0.03 bulundu=False
+  [18:15:07] POST_BILINMEYEN: sym=btc S=1789841700 oi=1 p=0.2 bulundu=False
+  [18:15:08] POST_BILINMEYEN: sym=btc S=1789841700 oi=1 p=0.16 bulundu=False
+  [18:15:08] POST_BILINMEYEN: sym=btc S=1789841700 oi=1 p=0.12 bulundu=False
+  [18:15:08] POST_BILINMEYEN: sym=btc S=1789841700 oi=1 p=0.09 bulundu=False
+  [18:15:08] POST_BILINMEYEN: sym=btc S=1789841700 oi=1 p=0.06 bulundu=False
+  [18:15:08] POST_BILINMEYEN: sym=btc S=1789841700 oi=1 p=0.03 bulundu=False
+  [18:15:08] GERI_CEKILDI: sym=btc S=1789841700 kol=B sebep=belirsiz_emir kabul=[0, 0] dolan=0
+  [18:18:55] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [18:18:58] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=5 red=0
+  [18:19:35] COZULDU: sym=btc S=1789841400 kol=A kazanan=1 pay=0 maliyet=0 pnl=0 geri_cekildi=belirsiz_emir emirler=[]
+  [18:20:05] vol_atla: sym=btc S=1789842000 vol=12.0 esik=15.0 kol=B karar=pencere ATLANDI
+  [18:23:15] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [18:23:17] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=5 red=0
+  [18:24:40] COZULDU: sym=btc S=1789841700 kol=B kazanan=0 pay=0 maliyet=0 pnl=0 geri_cekildi=belirsiz_emir emirler=[]
+  [18:25:05] vol_atla: sym=btc S=1789842300 vol=8.8 esik=15.0 kol=B karar=pencere ATLANDI
+  [18:27:35] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [18:27:37] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=5 red=0
+  [18:30:05] vol_atla: sym=btc S=1789842600 vol=4.9 esik=15.0 kol=A karar=pencere ATLANDI
+  [18:31:55] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [18:31:58] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=5 red=0
+  [18:35:05] vol_atla: sym=btc S=1789842900 vol=12.1 esik=15.0 kol=B karar=pencere ATLANDI
+  [18:36:16] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [18:36:18] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=5 red=0
+  [18:40:05] vol_atla: sym=btc S=1789843200 vol=8.7 esik=15.0 kol=A karar=pencere ATLANDI
+  [18:40:36] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [18:40:38] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=5 red=0
+  [18:44:57] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [18:45:01] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=5 red=0
+  [18:45:05] vol_atla: sym=btc S=1789843500 vol=4.2 esik=15.0 kol=B karar=pencere ATLANDI
+  [18:49:16] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [18:49:18] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=5 red=0
+  [18:50:06] vol_atla: sym=btc S=1789843800 vol=5.4 esik=15.0 kol=A karar=pencere ATLANDI
+  [18:53:36] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [18:53:39] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=5 red=0
+  [18:55:06] vol_atla: sym=btc S=1789844100 vol=6.9 esik=15.0 kol=A karar=pencere ATLANDI
+  [18:57:57] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [18:57:59] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=5 red=0
+  [19:00:05] vol_atla: sym=btc S=1789844400 vol=5.4 esik=15.0 kol=B karar=pencere ATLANDI
+  [19:02:17] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [19:02:20] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=5 red=0
+  [19:05:05] vol_atla: sym=btc S=1789844700 vol=3.9 esik=15.0 kol=B karar=pencere ATLANDI
+  [19:06:37] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [19:06:40] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=5 red=0
+  [19:09:39] bitti: sebep=STOP pnl=8.7562 yerel=9.3562 pencere=33 emir=314 dolum=24 pay=349.94 geri_cekilen=5 red=0 bilinmeyen=52 risk=0.0
+  [19:09:51] SURUM: kaynak_sha=c3ecc93d10c3 oturum=3633200 kapi=False esik_bps=16.4 boy_testi=False klip_buyuk=25.0 tamamla_acik=False tamamla_tavan=1.02 px_tavan_maker=0.4 a_uyum=False a_cift_tavan=0.8 a_uyum_ara=20.0 vol_kapisi=False vol_esik=15.0 a_oran=0.5 tohum=20260918 delta_tik_b=[2, 4] yenileme_ara=20.0 taraf_tavan=10.0 gec_kes=200.0 ucuz_esik=0.25 gec_ust=0.1 gec_esik=180.0
+  [19:09:51] hazir: mod=LIVE klip=5.0 fiyatlar=[0.34, 0.3, 0.26, 0.22, 0.2, 0.16] fiyatlar_b=[0.2, 0.16, 0.12, 0.09, 0.06, 0.03] kesici=-100.0 denge_siniri=10.0 amac=DERIN MERDIVEN v4 - mutlak fiyat noktalari
+  [19:09:53] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [19:09:53] state_yuklendi: pencere=2 pnl=8.76 pnl_yerel=9.36 emir=314 dolum=24
+  [19:09:55] basladi: mod=LIVE gorulen_pencere=33
+  [19:09:55] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [19:09:57] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=0.0 emir=314 dolum=24 pay=349.9 geri_cekilen=5 red=0
+  [19:10:05] BOY: S=1789845000 klip=5.0 kol=B
+  [19:10:06] pencere: sym=btc S=1789845000 kol=B vol=None tokens=['110998220345580688216611172150691610192977689083435915065577837280177632759855', '31680753294524113452768844422329582320931679624124154280457612536505180200353'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [19:12:48] dolum: sym=btc S=1789845000 oi=0 p=0.16 ofset=0.16 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=168.8
+  [19:12:50] dolum: sym=btc S=1789845000 oi=0 p=0.2 ofset=0.2 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=170.3
+  [19:12:51] DENGE_SINIRI: sym=btc S=1789845000 agir=Up up=10.0 down=0.0 iptal=6 kalan_hafif=6
+  [19:13:20] GEC_UCUZ_KESILDI: sym=btc S=1789845000 iptal=3 fiyatlar=[0.12, 0.16, 0.2] kalan_acik=3
+  [19:14:16] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [19:14:18] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=1.8 emir=326 dolum=24 pay=349.9 geri_cekilen=5 red=0
+  [19:15:06] BOY: S=1789845300 klip=5.0 kol=B
+  [19:15:06] pencere: sym=btc S=1789845300 kol=B vol=None tokens=['16333332500504605073672477337183301723344866465002275056529798779319933169046', '21530472905912184545860863562358628046198080356718502219185731545135882860005'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [19:18:16] dolum: sym=btc S=1789845300 oi=0 p=0.2 ofset=0.2 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=196.8
+  [19:18:18] dolum: sym=btc S=1789845300 oi=0 p=0.16 ofset=0.16 yeni=5.0 toplam=5.0 kaynak=iptal gecen_sn=198.1
+  [19:18:18] DENGE_SINIRI: sym=btc S=1789845300 agir=Up up=5.0 down=0.0 iptal=6 kalan_hafif=6
+  [19:18:20] GEC_UCUZ_KESILDI: sym=btc S=1789845300 iptal=3 fiyatlar=[0.12, 0.16, 0.2] kalan_acik=3
+  [19:18:37] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [19:18:39] mutabakat: pnl=8.76 yerel=9.36 etkin=8.76 pencere=24 risk=3.6 emir=338 dolum=24 pay=349.9 geri_cekilen=5 red=0
+  [19:20:05] BOY: S=1789845600 klip=5.0 kol=A
+  [19:20:06] pencere: sym=btc S=1789845600 kol=A vol=None tokens=['89554605452774880774260648214160959832711701155760526717830613911469003815971', '30613025857501667732835291250713128030185639928750105616026272261778305901139'] emir=10 kabul=[6, 4] fiyatlar=[(0, 0.34, 0.34, 0.34), (0, 0.3, 0.3, 0.3), (0, 0.26, 0.26, 0.26), (0, 0.22, 0.22, 0.22), (0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (1, 0.26, 0.26, 0.26), (1, 0.22, 0.22, 0.22), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16)]
+  [19:20:06] COZULDU: sym=btc S=1789845000 kol=B kazanan=1 pay=10.0 maliyet=1.8 pnl=-1.8 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.46, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 163715}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.46, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 162186}, {'oi': 0, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.46, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.46, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.46, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.46, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [19:20:17] dolum: sym=btc S=1789845600 oi=1 p=0.26 ofset=0.26 yeni=4.994 toplam=4.994 kaynak=yoklama gecen_sn=18.0
+  [19:20:23] dolum: sym=btc S=1789845600 oi=1 p=0.22 ofset=0.22 yeni=4.992 toplam=4.992 kaynak=yoklama gecen_sn=23.3
+  [19:20:23] DENGE_SINIRI: sym=btc S=1789845600 agir=Down up=0.0 down=10.0 iptal=4 kalan_hafif=6
+  [19:22:58] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [19:23:00] mutabakat: pnl=6.96 yerel=7.56 etkin=6.96 pencere=25 risk=4.2 emir=348 dolum=25 pay=359.9 geri_cekilen=5 red=0
+  [19:23:21] GEC_UCUZ_KESILDI: sym=btc S=1789845600 iptal=3 fiyatlar=[0.16, 0.2, 0.22] kalan_acik=3
+  [19:25:06] BOY: S=1789845900 klip=5.0 kol=B
+  [19:25:06] pencere: sym=btc S=1789845900 kol=B vol=None tokens=['86739102480339292799599023713509734878282660534126586465826373732486051332553', '91471884052638753989565962474520886356187646911119817640815353378562107297031'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [19:27:18] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [19:27:21] mutabakat: pnl=6.96 yerel=7.56 etkin=6.96 pencere=25 risk=7.5 emir=360 dolum=25 pay=359.9 geri_cekilen=5 red=0
+  [19:28:04] dolum: sym=btc S=1789845900 oi=0 p=0.2 ofset=0.2 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=184.3
+  [19:28:04] dolum: sym=btc S=1789845900 oi=0 p=0.16 ofset=0.16 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=184.4
+  [19:28:05] DENGE_SINIRI: sym=btc S=1789845900 agir=Up up=10.0 down=0.0 iptal=6 kalan_hafif=6
+  [19:28:20] GEC_UCUZ_KESILDI: sym=btc S=1789845900 iptal=3 fiyatlar=[0.12, 0.16, 0.2] kalan_acik=3
+  [19:30:05] BOY: S=1789846200 klip=5.0 kol=A
+  [19:30:06] pencere: sym=btc S=1789846200 kol=A vol=None tokens=['30314543465229395395759363616835644699896390635720096080532628980131121514986', '57017190874194553319828511961481384274691654435897405779234523537852192837925'] emir=11 kabul=[5, 6] fiyatlar=[(0, 0.3, 0.3, 0.3), (0, 0.26, 0.26, 0.26), (0, 0.22, 0.22, 0.22), (0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (1, 0.34, 0.34, 0.34), (1, 0.3, 0.3, 0.3), (1, 0.26, 0.26, 0.26), (1, 0.22, 0.22, 0.22), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16)]
+  [19:30:23] dolum: sym=btc S=1789846200 oi=0 p=0.3 ofset=0.3 yeni=2.42 toplam=2.42 kaynak=yoklama gecen_sn=23.1
+  [19:30:26] dolum: sym=btc S=1789846200 oi=0 p=0.3 ofset=0.3 yeni=2.58 toplam=5.0 kaynak=yoklama gecen_sn=26.4
+  [19:30:28] dolum: sym=btc S=1789846200 oi=0 p=0.26 ofset=0.26 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=28.0
+  [19:30:29] DENGE_SINIRI: sym=btc S=1789846200 agir=Up up=10.0 down=0.0 iptal=5 kalan_hafif=6
+  [19:31:38] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [19:31:40] mutabakat: pnl=6.96 yerel=7.56 etkin=6.96 pencere=25 risk=8.8 emir=371 dolum=25 pay=359.9 geri_cekilen=5 red=0
+  [19:33:21] GEC_UCUZ_KESILDI: sym=btc S=1789846200 iptal=3 fiyatlar=[0.16, 0.2, 0.22] kalan_acik=3
+  [19:35:06] BOY: S=1789846500 klip=5.0 kol=A
+[py_clob_client_v2] request error status=503 url=https://clob.polymarket.com/orders body={"error":"trading is disabled"}
+  [19:35:06] toplu_emir_hata: durum=BILINMEYEN err=PolyApiException[status_code=503, error_message={'error': 'trading is disabled'}]
+  [19:35:06] POST_BILINMEYEN: sym=btc S=1789846500 oi=0 p=0.34 bulundu=False
+  [19:35:06] POST_BILINMEYEN: sym=btc S=1789846500 oi=0 p=0.3 bulundu=False
+  [19:35:06] POST_BILINMEYEN: sym=btc S=1789846500 oi=0 p=0.26 bulundu=False
+  [19:35:07] POST_BILINMEYEN: sym=btc S=1789846500 oi=0 p=0.22 bulundu=False
+  [19:35:07] POST_BILINMEYEN: sym=btc S=1789846500 oi=0 p=0.2 bulundu=False
+  [19:35:07] POST_BILINMEYEN: sym=btc S=1789846500 oi=0 p=0.16 bulundu=False
+  [19:35:07] POST_BILINMEYEN: sym=btc S=1789846500 oi=1 p=0.34 bulundu=False
+  [19:35:07] POST_BILINMEYEN: sym=btc S=1789846500 oi=1 p=0.3 bulundu=False
+  [19:35:07] POST_BILINMEYEN: sym=btc S=1789846500 oi=1 p=0.26 bulundu=False
+  [19:35:07] POST_BILINMEYEN: sym=btc S=1789846500 oi=1 p=0.22 bulundu=False
+  [19:35:07] POST_BILINMEYEN: sym=btc S=1789846500 oi=1 p=0.2 bulundu=False
+  [19:35:07] POST_BILINMEYEN: sym=btc S=1789846500 oi=1 p=0.16 bulundu=False
+  [19:35:07] GERI_CEKILDI: sym=btc S=1789846500 kol=A sebep=belirsiz_emir kabul=[0, 0] dolan=0
+  [19:35:12] COZULDU: sym=btc S=1789845300 kol=B kazanan=1 pay=10.0 maliyet=1.8 pnl=-1.8 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.4, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 190072}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.4, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 191334}, {'oi': 0, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.4, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.4, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.4, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.4, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.59, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.59, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.59, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.59, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.59, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.59, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [19:35:22] COZULDU: sym=btc S=1789845600 kol=A kazanan=0 pay=9.99 maliyet=2.4 pnl=-2.4 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.65, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.65, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.65, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.65, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.65, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.65, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.34, 'pay': 4.99, 'durum': 'kapali', 'gecikme_ms': 11591}, {'oi': 1, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.34, 'pay': 4.99, 'durum': 'kapali', 'gecikme_ms': 16956}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.34, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.34, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [19:35:59] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [19:36:01] mutabakat: pnl=6.96 yerel=3.36 etkin=3.36 pencere=25 risk=4.6 emir=371 dolum=27 pay=379.9 geri_cekilen=6 red=0
+  [19:40:05] BOY: S=1789846800 klip=5.0 kol=A
+[py_clob_client_v2] request error status=503 url=https://clob.polymarket.com/orders body={"error":"trading is disabled"}
+  [19:40:06] toplu_emir_hata: durum=BILINMEYEN err=PolyApiException[status_code=503, error_message={'error': 'trading is disabled'}]
+  [19:40:06] POST_BILINMEYEN: sym=btc S=1789846800 oi=0 p=0.34 bulundu=False
+  [19:40:06] POST_BILINMEYEN: sym=btc S=1789846800 oi=0 p=0.3 bulundu=False
+  [19:40:06] POST_BILINMEYEN: sym=btc S=1789846800 oi=0 p=0.26 bulundu=False
+  [19:40:06] POST_BILINMEYEN: sym=btc S=1789846800 oi=0 p=0.22 bulundu=False
+  [19:40:06] POST_BILINMEYEN: sym=btc S=1789846800 oi=0 p=0.2 bulundu=False
+  [19:40:07] POST_BILINMEYEN: sym=btc S=1789846800 oi=0 p=0.16 bulundu=False
+  [19:40:07] POST_BILINMEYEN: sym=btc S=1789846800 oi=1 p=0.2 bulundu=False
+  [19:40:07] POST_BILINMEYEN: sym=btc S=1789846800 oi=1 p=0.16 bulundu=False
+  [19:40:07] GERI_CEKILDI: sym=btc S=1789846800 kol=A sebep=belirsiz_emir kabul=[0, 0] dolan=0
+  [19:40:18] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [19:40:21] mutabakat: pnl=6.96 yerel=3.36 etkin=3.36 pencere=25 risk=4.6 emir=371 dolum=27 pay=379.9 geri_cekilen=7 red=0
+  [19:42:03] COZULDU: sym=btc S=1789845900 kol=B kazanan=1 pay=10.0 maliyet=1.8 pnl=-1.8 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.44, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 177479}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.44, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 177561}, {'oi': 0, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.44, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.44, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.44, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.44, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.55, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.55, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.55, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.55, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.55, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.55, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [19:44:38] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [19:44:41] mutabakat: pnl=6.96 yerel=1.56 etkin=1.56 pencere=25 risk=2.8 emir=371 dolum=28 pay=389.9 geri_cekilen=7 red=0
+  [19:45:06] BOY: S=1789847100 klip=5.0 kol=A
+[py_clob_client_v2] request error status=503 url=https://clob.polymarket.com/orders body={"error":"trading is disabled"}
+  [19:45:06] toplu_emir_hata: durum=BILINMEYEN err=PolyApiException[status_code=503, error_message={'error': 'trading is disabled'}]
+  [19:45:06] POST_BILINMEYEN: sym=btc S=1789847100 oi=0 p=0.2 bulundu=False
+  [19:45:06] POST_BILINMEYEN: sym=btc S=1789847100 oi=0 p=0.16 bulundu=False
+  [19:45:07] POST_BILINMEYEN: sym=btc S=1789847100 oi=1 p=0.2 bulundu=False
+  [19:45:07] POST_BILINMEYEN: sym=btc S=1789847100 oi=1 p=0.16 bulundu=False
+  [19:45:07] GERI_CEKILDI: sym=btc S=1789847100 kol=A sebep=belirsiz_emir kabul=[0, 0] dolan=0
+  [19:46:07] COZULDU: sym=btc S=1789846500 kol=A kazanan=1 pay=0 maliyet=0 pnl=0 geri_cekildi=belirsiz_emir emirler=[]
+  [19:46:16] COZULDU: sym=btc S=1789846200 kol=A kazanan=1 pay=10.0 maliyet=2.8 pnl=-2.8 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.37, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 16800}, {'oi': 0, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.37, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 21700}, {'oi': 0, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.37, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.37, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.37, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.62, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.62, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.62, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.62, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.62, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.62, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [19:48:59] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [19:49:01] mutabakat: pnl=6.96 yerel=-1.24 etkin=-1.24 pencere=25 risk=0.0 emir=371 dolum=29 pay=399.9 geri_cekilen=8 red=0
+  [19:50:05] BOY: S=1789847400 klip=5.0 kol=B
+[py_clob_client_v2] request error status=503 url=https://clob.polymarket.com/orders body={"error":"trading is disabled"}
+  [19:50:06] toplu_emir_hata: durum=BILINMEYEN err=PolyApiException[status_code=503, error_message={'error': 'trading is disabled'}]
+  [19:50:06] POST_BILINMEYEN: sym=btc S=1789847400 oi=0 p=0.2 bulundu=False
+  [19:50:06] POST_BILINMEYEN: sym=btc S=1789847400 oi=0 p=0.16 bulundu=False
+  [19:50:06] POST_BILINMEYEN: sym=btc S=1789847400 oi=0 p=0.12 bulundu=False
+  [19:50:06] POST_BILINMEYEN: sym=btc S=1789847400 oi=0 p=0.09 bulundu=False
+  [19:50:06] POST_BILINMEYEN: sym=btc S=1789847400 oi=0 p=0.06 bulundu=False
+  [19:50:06] POST_BILINMEYEN: sym=btc S=1789847400 oi=0 p=0.03 bulundu=False
+  [19:50:06] POST_BILINMEYEN: sym=btc S=1789847400 oi=1 p=0.2 bulundu=False
+  [19:50:06] POST_BILINMEYEN: sym=btc S=1789847400 oi=1 p=0.16 bulundu=False
+  [19:50:06] POST_BILINMEYEN: sym=btc S=1789847400 oi=1 p=0.12 bulundu=False
+  [19:50:07] POST_BILINMEYEN: sym=btc S=1789847400 oi=1 p=0.09 bulundu=False
+  [19:50:07] POST_BILINMEYEN: sym=btc S=1789847400 oi=1 p=0.06 bulundu=False
+  [19:50:07] POST_BILINMEYEN: sym=btc S=1789847400 oi=1 p=0.03 bulundu=False
+  [19:50:07] GERI_CEKILDI: sym=btc S=1789847400 kol=B sebep=belirsiz_emir kabul=[0, 0] dolan=0
+  [19:51:09] COZULDU: sym=btc S=1789846800 kol=A kazanan=1 pay=0 maliyet=0 pnl=0 geri_cekildi=belirsiz_emir emirler=[]
+  [19:52:05] COZULDU: sym=btc S=1789847100 kol=A kazanan=0 pay=0 maliyet=0 pnl=0 geri_cekildi=belirsiz_emir emirler=[]
+  [19:53:19] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [19:53:21] mutabakat: pnl=6.96 yerel=-1.24 etkin=-1.24 pencere=25 risk=0.0 emir=371 dolum=29 pay=399.9 geri_cekilen=9 red=0
+  [19:55:05] BOY: S=1789847700 klip=5.0 kol=B
+[py_clob_client_v2] request error status=503 url=https://clob.polymarket.com/orders body={"error":"trading is disabled"}
+  [19:55:06] toplu_emir_hata: durum=BILINMEYEN err=PolyApiException[status_code=503, error_message={'error': 'trading is disabled'}]
+  [19:55:06] POST_BILINMEYEN: sym=btc S=1789847700 oi=0 p=0.2 bulundu=False
+  [19:55:06] POST_BILINMEYEN: sym=btc S=1789847700 oi=0 p=0.16 bulundu=False
+  [19:55:06] POST_BILINMEYEN: sym=btc S=1789847700 oi=0 p=0.12 bulundu=False
+  [19:55:06] POST_BILINMEYEN: sym=btc S=1789847700 oi=0 p=0.09 bulundu=False
+  [19:55:06] POST_BILINMEYEN: sym=btc S=1789847700 oi=0 p=0.06 bulundu=False
+  [19:55:07] POST_BILINMEYEN: sym=btc S=1789847700 oi=0 p=0.03 bulundu=False
+  [19:55:07] POST_BILINMEYEN: sym=btc S=1789847700 oi=1 p=0.2 bulundu=False
+  [19:55:07] POST_BILINMEYEN: sym=btc S=1789847700 oi=1 p=0.16 bulundu=False
+  [19:55:07] POST_BILINMEYEN: sym=btc S=1789847700 oi=1 p=0.12 bulundu=False
+  [19:55:07] POST_BILINMEYEN: sym=btc S=1789847700 oi=1 p=0.09 bulundu=False
+  [19:55:07] POST_BILINMEYEN: sym=btc S=1789847700 oi=1 p=0.06 bulundu=False
+  [19:55:07] POST_BILINMEYEN: sym=btc S=1789847700 oi=1 p=0.03 bulundu=False
+  [19:55:07] GERI_CEKILDI: sym=btc S=1789847700 kol=B sebep=belirsiz_emir kabul=[0, 0] dolan=0
+  [19:57:40] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [19:57:42] mutabakat: pnl=6.96 yerel=-1.24 etkin=-1.24 pencere=25 risk=0.0 emir=371 dolum=29 pay=399.9 geri_cekilen=10 red=0
+  [20:00:05] BOY: S=1789848000 klip=5.0 kol=B
+[py_clob_client_v2] request error status=503 url=https://clob.polymarket.com/orders body={"error":"trading is disabled"}
+  [20:00:06] toplu_emir_hata: durum=BILINMEYEN err=PolyApiException[status_code=503, error_message={'error': 'trading is disabled'}]
+  [20:00:06] POST_BILINMEYEN: sym=btc S=1789848000 oi=0 p=0.2 bulundu=False
+  [20:00:06] POST_BILINMEYEN: sym=btc S=1789848000 oi=0 p=0.16 bulundu=False
+  [20:00:06] POST_BILINMEYEN: sym=btc S=1789848000 oi=0 p=0.12 bulundu=False
+  [20:00:06] POST_BILINMEYEN: sym=btc S=1789848000 oi=0 p=0.09 bulundu=False
+  [20:00:06] POST_BILINMEYEN: sym=btc S=1789848000 oi=0 p=0.06 bulundu=False
+  [20:00:07] POST_BILINMEYEN: sym=btc S=1789848000 oi=0 p=0.03 bulundu=False
+  [20:00:07] POST_BILINMEYEN: sym=btc S=1789848000 oi=1 p=0.2 bulundu=False
+  [20:00:07] POST_BILINMEYEN: sym=btc S=1789848000 oi=1 p=0.16 bulundu=False
+  [20:00:07] POST_BILINMEYEN: sym=btc S=1789848000 oi=1 p=0.12 bulundu=False
+  [20:00:07] POST_BILINMEYEN: sym=btc S=1789848000 oi=1 p=0.09 bulundu=False
+  [20:00:07] POST_BILINMEYEN: sym=btc S=1789848000 oi=1 p=0.06 bulundu=False
+  [20:00:07] POST_BILINMEYEN: sym=btc S=1789848000 oi=1 p=0.03 bulundu=False
+  [20:00:07] GERI_CEKILDI: sym=btc S=1789848000 kol=B sebep=belirsiz_emir kabul=[0, 0] dolan=0
+  [20:01:20] COZULDU: sym=btc S=1789847400 kol=B kazanan=0 pay=0 maliyet=0 pnl=0 geri_cekildi=belirsiz_emir emirler=[]
+  [20:02:00] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [20:02:03] mutabakat: pnl=-0.84 yerel=-1.24 etkin=-1.24 pencere=29 risk=0.0 emir=371 dolum=29 pay=399.9 geri_cekilen=11 red=0
+  [20:05:06] BOY: S=1789848300 klip=5.0 kol=A
+[py_clob_client_v2] request error status=503 url=https://clob.polymarket.com/orders body={"error":"trading is disabled"}
+  [20:05:06] toplu_emir_hata: durum=BILINMEYEN err=PolyApiException[status_code=503, error_message={'error': 'trading is disabled'}]
+  [20:05:06] POST_BILINMEYEN: sym=btc S=1789848300 oi=0 p=0.2 bulundu=False
+  [20:05:06] POST_BILINMEYEN: sym=btc S=1789848300 oi=0 p=0.16 bulundu=False
+  [20:05:07] POST_BILINMEYEN: sym=btc S=1789848300 oi=1 p=0.2 bulundu=False
+  [20:05:07] POST_BILINMEYEN: sym=btc S=1789848300 oi=1 p=0.16 bulundu=False
+  [20:05:07] GERI_CEKILDI: sym=btc S=1789848300 kol=A sebep=belirsiz_emir kabul=[0, 0] dolan=0
+  [20:06:20] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [20:06:22] mutabakat: pnl=-0.84 yerel=-1.24 etkin=-1.24 pencere=29 risk=0.0 emir=371 dolum=29 pay=399.9 geri_cekilen=12 red=0
+  [20:06:23] COZULDU: sym=btc S=1789847700 kol=B kazanan=1 pay=0 maliyet=0 pnl=0 geri_cekildi=belirsiz_emir emirler=[]
+  [20:10:06] BOY: S=1789848600 klip=5.0 kol=B
+[py_clob_client_v2] request error status=503 url=https://clob.polymarket.com/orders body={"error":"trading is disabled"}
+  [20:10:07] toplu_emir_hata: durum=BILINMEYEN err=PolyApiException[status_code=503, error_message={'error': 'trading is disabled'}]
+  [20:10:07] POST_BILINMEYEN: sym=btc S=1789848600 oi=0 p=0.2 bulundu=False
+  [20:10:07] POST_BILINMEYEN: sym=btc S=1789848600 oi=0 p=0.16 bulundu=False
+  [20:10:07] POST_BILINMEYEN: sym=btc S=1789848600 oi=0 p=0.12 bulundu=False
+  [20:10:07] POST_BILINMEYEN: sym=btc S=1789848600 oi=0 p=0.09 bulundu=False
+  [20:10:07] POST_BILINMEYEN: sym=btc S=1789848600 oi=0 p=0.06 bulundu=False
+  [20:10:07] POST_BILINMEYEN: sym=btc S=1789848600 oi=0 p=0.03 bulundu=False
+  [20:10:07] POST_BILINMEYEN: sym=btc S=1789848600 oi=1 p=0.2 bulundu=False
+  [20:10:07] POST_BILINMEYEN: sym=btc S=1789848600 oi=1 p=0.16 bulundu=False
+  [20:10:07] POST_BILINMEYEN: sym=btc S=1789848600 oi=1 p=0.12 bulundu=False
+  [20:10:07] POST_BILINMEYEN: sym=btc S=1789848600 oi=1 p=0.09 bulundu=False
+  [20:10:07] POST_BILINMEYEN: sym=btc S=1789848600 oi=1 p=0.06 bulundu=False
+  [20:10:08] POST_BILINMEYEN: sym=btc S=1789848600 oi=1 p=0.03 bulundu=False
+  [20:10:08] GERI_CEKILDI: sym=btc S=1789848600 kol=B sebep=belirsiz_emir kabul=[0, 0] dolan=0
+  [20:10:40] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [20:10:43] mutabakat: pnl=-0.84 yerel=-1.24 etkin=-1.24 pencere=29 risk=0.0 emir=371 dolum=29 pay=399.9 geri_cekilen=13 red=0
+  [20:11:33] COZULDU: sym=btc S=1789848000 kol=B kazanan=0 pay=0 maliyet=0 pnl=0 geri_cekildi=belirsiz_emir emirler=[]
+  [20:15:01] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [20:15:03] mutabakat: pnl=-0.84 yerel=-1.24 etkin=-1.24 pencere=29 risk=0.0 emir=371 dolum=29 pay=399.9 geri_cekilen=13 red=0
+  [20:15:06] BOY: S=1789848900 klip=5.0 kol=B
+  [20:15:06] pencere: sym=btc S=1789848900 kol=B vol=None tokens=['92998290411609136259037201173492534322265965099205169638114208120051240996967', '51571132192322675051619059740107412721740340556913202641346462238201749272435'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [20:15:37] dolum: sym=btc S=1789848900 oi=0 p=0.2 ofset=0.2 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=37.8
+  [20:15:52] dolum: sym=btc S=1789848900 oi=0 p=0.16 ofset=0.16 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=52.9
+  [20:15:54] DENGE_SINIRI: sym=btc S=1789848900 agir=Up up=10.0 down=0.0 iptal=6 kalan_hafif=6
+  [20:16:33] COZULDU: sym=btc S=1789848300 kol=A kazanan=0 pay=0 maliyet=0 pnl=0 geri_cekildi=belirsiz_emir emirler=[]
+  [20:17:55] COZULDU: sym=btc S=1789848600 kol=B kazanan=1 pay=0 maliyet=0 pnl=0 geri_cekildi=belirsiz_emir emirler=[]
+  [20:18:21] GEC_UCUZ_KESILDI: sym=btc S=1789848900 iptal=3 fiyatlar=[0.12, 0.16, 0.2] kalan_acik=3
+  [20:19:21] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [20:19:23] mutabakat: pnl=-0.84 yerel=-1.24 etkin=-1.24 pencere=29 risk=1.8 emir=383 dolum=29 pay=399.9 geri_cekilen=13 red=0
+  [20:20:06] BOY: S=1789849200 klip=5.0 kol=A
+  [20:20:06] pencere: sym=btc S=1789849200 kol=A vol=None tokens=['4675596183495081123026600521645485787801479310230350934500931146045879143670', '80840439327108844016455213789728574669589248097745749091838075482920153770210'] emir=9 kabul=[6, 3] fiyatlar=[(0, 0.34, 0.34, 0.34), (0, 0.3, 0.3, 0.3), (0, 0.26, 0.26, 0.26), (0, 0.22, 0.22, 0.22), (0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (1, 0.22, 0.22, 0.22), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16)]
+  [20:20:11] dolum: sym=btc S=1789849200 oi=1 p=0.22 ofset=0.22 yeni=2.077 toplam=2.077 kaynak=yoklama gecen_sn=11.4
+  [20:20:43] dolum: sym=btc S=1789849200 oi=1 p=0.22 ofset=0.22 yeni=2.92 toplam=4.997 kaynak=yoklama gecen_sn=43.6
+  [20:20:46] dolum: sym=btc S=1789849200 oi=1 p=0.2 ofset=0.2 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=46.2
+  [20:20:46] DENGE_SINIRI: sym=btc S=1789849200 agir=Down up=0.0 down=10.0 iptal=3 kalan_hafif=6
+  [20:23:21] GEC_UCUZ_KESILDI: sym=btc S=1789849200 iptal=3 fiyatlar=[0.16, 0.2, 0.22] kalan_acik=3
+  [20:23:41] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [20:23:44] mutabakat: pnl=-0.84 yerel=-1.24 etkin=-1.24 pencere=29 risk=3.9 emir=392 dolum=29 pay=399.9 geri_cekilen=13 red=0
+  [20:25:06] BOY: S=1789849500 klip=5.0 kol=B
+  [20:25:06] pencere: sym=btc S=1789849500 kol=B vol=None tokens=['100403165634523120535954143433722737482701828201096587749941110625640421413644', '54707577384566097935253288120000098902860413608376959548389691431807379893105'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [20:26:41] COZULDU: sym=btc S=1789848900 kol=B kazanan=1 pay=10.0 maliyet=1.8 pnl=-1.8 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.25, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 31152}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.25, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 46205}, {'oi': 0, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.25, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.25, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.25, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.25, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.74, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.74, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.74, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.74, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.74, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.74, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [20:27:11] dolum: sym=btc S=1789849500 oi=0 p=0.2 ofset=0.2 yeni=4.997 toplam=4.997 kaynak=yoklama gecen_sn=131.2
+  [20:27:17] dolum: sym=btc S=1789849500 oi=0 p=0.16 ofset=0.16 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=137.5
+  [20:27:18] DENGE_SINIRI: sym=btc S=1789849500 agir=Up up=10.0 down=0.0 iptal=6 kalan_hafif=6
+  [20:28:01] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [20:28:04] mutabakat: pnl=-2.64 yerel=-3.04 etkin=-3.04 pencere=30 risk=3.9 emir=404 dolum=30 pay=409.9 geri_cekilen=13 red=0
+  [20:28:21] GEC_UCUZ_KESILDI: sym=btc S=1789849500 iptal=3 fiyatlar=[0.12, 0.16, 0.2] kalan_acik=3
+  [20:30:06] BOY: S=1789849800 klip=5.0 kol=B
+  [20:30:06] pencere: sym=btc S=1789849800 kol=B vol=None tokens=['43497087774996937622263826458812121179731917653822481075294257073298202085165', '79579206357252790323827435766883256600975174749708920133428646223710271732535'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [20:31:51] COZULDU: sym=btc S=1789849200 kol=A kazanan=0 pay=10.0 maliyet=2.1 pnl=-2.1 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.69, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.69, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.69, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.69, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.69, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.69, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.3, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 4684}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.3, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 39478}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.3, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [20:32:22] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [20:32:25] mutabakat: pnl=-4.74 yerel=-5.14 etkin=-5.14 pencere=31 risk=5.1 emir=416 dolum=31 pay=419.9 geri_cekilen=13 red=0
+  [20:33:00] dolum: sym=btc S=1789849800 oi=0 p=0.2 ofset=0.2 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=180.9
+  [20:33:02] DENGE_SINIRI: sym=btc S=1789849800 agir=Up up=5.0 down=0.0 iptal=6 kalan_hafif=6
+  [20:33:20] GEC_UCUZ_KESILDI: sym=btc S=1789849800 iptal=3 fiyatlar=[0.12, 0.16, 0.2] kalan_acik=3
+  [20:35:06] BOY: S=1789850100 klip=5.0 kol=A
+  [20:35:06] pencere: sym=btc S=1789850100 kol=A vol=None tokens=['84533828549318886255927954270513470640312357984279361902267699468341471336776', '44737096320238773387596093087382701333621811175416050834047375938739371765392'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.34, 0.34, 0.34), (0, 0.3, 0.3, 0.3), (0, 0.26, 0.26, 0.26), (0, 0.22, 0.22, 0.22), (0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (1, 0.34, 0.34, 0.34), (1, 0.3, 0.3, 0.3), (1, 0.26, 0.26, 0.26), (1, 0.22, 0.22, 0.22), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16)]
+  [20:36:41] COZULDU: sym=btc S=1789849500 kol=B kazanan=1 pay=10.0 maliyet=1.8 pnl=-1.8 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.46, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 124348}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.46, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 130683}, {'oi': 0, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.46, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.46, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.46, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.46, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [20:36:43] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [20:36:45] mutabakat: pnl=-6.54 yerel=-6.94 etkin=-6.94 pencere=32 risk=8.4 emir=428 dolum=32 pay=429.9 geri_cekilen=13 red=0
+  [20:37:01] dolum: sym=btc S=1789850100 oi=1 p=0.34 ofset=0.34 yeni=4.995 toplam=4.995 kaynak=yoklama gecen_sn=121.1
+  [20:37:01] dolum: sym=btc S=1789850100 oi=1 p=0.3 ofset=0.3 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=121.2
+  [20:37:01] dolum: sym=btc S=1789850100 oi=1 p=0.26 ofset=0.26 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=121.3
+  [20:37:01] dolum: sym=btc S=1789850100 oi=1 p=0.22 ofset=0.22 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=121.3
+  [20:37:01] dolum: sym=btc S=1789850100 oi=1 p=0.2 ofset=0.2 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=121.4
+  [20:37:02] DENGE_SINIRI: sym=btc S=1789850100 agir=Down up=0.0 down=25.0 iptal=6 kalan_hafif=6
+  [20:38:00] COZULDU: sym=btc S=1789849800 kol=B kazanan=1 pay=5.0 maliyet=1.0 pnl=-1.0 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.37, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 174102}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.37, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.37, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.37, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.37, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.37, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.62, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.62, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.62, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.62, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.62, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.62, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [20:38:21] GEC_UCUZ_KESILDI: sym=btc S=1789850100 iptal=3 fiyatlar=[0.16, 0.2, 0.22] kalan_acik=3
+  [20:40:05] BOY: S=1789850400 klip=5.0 kol=B
+  [20:40:06] pencere: sym=btc S=1789850400 kol=B vol=None tokens=['106762898887070712285716192377878989772955458954866443488386318284901851823416', '64168890051892902243096493128194299452286991127480780528837387630807599685463'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [20:41:04] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [20:41:06] mutabakat: pnl=-7.54 yerel=-7.94 etkin=-7.94 pencere=33 risk=9.9 emir=440 dolum=33 pay=434.9 geri_cekilen=13 red=0
+  [20:43:03] COZULDU: sym=btc S=1789850100 kol=A kazanan=0 pay=25.0 maliyet=6.6 pnl=-6.6 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.52, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.47, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 114314}, {'oi': 1, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.47, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 114400}, {'oi': 1, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.47, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 114488}, {'oi': 1, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.47, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 114571}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.47, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 114659}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.47, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [20:43:21] GEC_UCUZ_KESILDI: sym=btc S=1789850400 iptal=6 fiyatlar=[0.12, 0.16, 0.2] kalan_acik=6
+  [20:44:22] dolum: sym=btc S=1789850400 oi=0 p=0.09 ofset=0.09 yeni=4.995 toplam=4.995 kaynak=yoklama gecen_sn=262.5
+  [20:44:23] DENGE_SINIRI: sym=btc S=1789850400 agir=Up up=5.0 down=0.0 iptal=3 kalan_hafif=3
+  [20:44:26] dolum: sym=btc S=1789850400 oi=1 p=0.09 ofset=0.09 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=266.2
+  [20:44:26] dolum: sym=btc S=1789850400 oi=1 p=0.06 ofset=0.06 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=266.3
+  [20:44:26] DENGE_SINIRI: sym=btc S=1789850400 agir=Down up=5.0 down=10.0 iptal=3 kalan_hafif=0
+  [20:45:05] BOY: S=1789850700 klip=5.0 kol=B
+  [20:45:06] pencere: sym=btc S=1789850700 kol=B vol=None tokens=['88263013343235964785214998182235740577152493520784244594002786066631026488681', '74268240786370014180307693249627791428569550958563526029374890484499628550573'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [20:45:25] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [20:45:27] mutabakat: pnl=-14.14 yerel=-14.54 etkin=-14.54 pencere=34 risk=3.3 emir=452 dolum=34 pay=459.9 geri_cekilen=13 red=0
+  [20:46:32] dolum: sym=btc S=1789850700 oi=0 p=0.2 ofset=0.2 yeni=4.998 toplam=4.998 kaynak=yoklama gecen_sn=92.9
+  [20:46:32] dolum: sym=btc S=1789850700 oi=0 p=0.16 ofset=0.16 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=93.0
+  [20:46:34] DENGE_SINIRI: sym=btc S=1789850700 agir=Up up=10.0 down=0.0 iptal=6 kalan_hafif=6
+  [20:48:05] COZULDU: sym=btc S=1789850400 kol=B kazanan=0 pay=14.99 maliyet=1.2 pnl=3.8 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.53, 'pay': 4.99, 'durum': 'kapali', 'gecikme_ms': 256077}, {'oi': 0, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.46, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.46, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.46, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.46, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 259748}, {'oi': 1, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.46, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 259835}, {'oi': 1, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.46, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [20:48:20] GEC_UCUZ_KESILDI: sym=btc S=1789850700 iptal=3 fiyatlar=[0.12, 0.16, 0.2] kalan_acik=3
+  [20:49:45] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [20:49:47] mutabakat: pnl=-10.34 yerel=-10.74 etkin=-10.74 pencere=35 risk=1.8 emir=452 dolum=35 pay=474.9 geri_cekilen=13 red=0
+  [20:50:05] BOY: S=1789851000 klip=5.0 kol=A
+  [20:50:06] pencere: sym=btc S=1789851000 kol=A vol=None tokens=['35106213697074487065768756722494090375378640518003667759203478517182506089866', '84461294101416605329380268461961736270744386728999993221116315195515972627063'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.34, 0.34, 0.34), (0, 0.3, 0.3, 0.3), (0, 0.26, 0.26, 0.26), (0, 0.22, 0.22, 0.22), (0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (1, 0.34, 0.34, 0.34), (1, 0.3, 0.3, 0.3), (1, 0.26, 0.26, 0.26), (1, 0.22, 0.22, 0.22), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16)]
+  [20:50:43] dolum: sym=btc S=1789851000 oi=0 p=0.34 ofset=0.34 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=43.7
+  [20:50:58] dolum: sym=btc S=1789851000 oi=0 p=0.3 ofset=0.3 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=58.1
+  [20:50:59] DENGE_SINIRI: sym=btc S=1789851000 agir=Up up=10.0 down=0.0 iptal=6 kalan_hafif=6
+  [20:53:14] COZULDU: sym=btc S=1789850700 kol=B kazanan=1 pay=10.0 maliyet=1.8 pnl=-1.8 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.5, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 86414}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.5, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 86504}, {'oi': 0, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.5, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.5, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.5, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.5, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.49, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.49, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.49, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.49, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.49, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.49, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [20:53:20] GEC_UCUZ_KESILDI: sym=btc S=1789851000 iptal=3 fiyatlar=[0.16, 0.2, 0.22] kalan_acik=3
+  [20:54:05] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [20:54:07] mutabakat: pnl=-12.14 yerel=-12.54 etkin=-12.54 pencere=36 risk=3.2 emir=464 dolum=36 pay=484.9 geri_cekilen=13 red=0
+  [20:55:05] BOY: S=1789851300 klip=5.0 kol=A
+  [20:55:06] pencere: sym=btc S=1789851300 kol=A vol=None tokens=['9960898980063415001413821800025599469064237150245936514501048237911314700072', '90810109506655619944214149105303514838468488852051704742774205552563364700030'] emir=11 kabul=[6, 5] fiyatlar=[(0, 0.34, 0.34, 0.34), (0, 0.3, 0.3, 0.3), (0, 0.26, 0.26, 0.26), (0, 0.22, 0.22, 0.22), (0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (1, 0.3, 0.3, 0.3), (1, 0.26, 0.26, 0.26), (1, 0.22, 0.22, 0.22), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16)]
+  [20:55:43] dolum: sym=btc S=1789851300 oi=0 p=0.34 ofset=0.34 yeni=2.197 toplam=2.197 kaynak=yoklama gecen_sn=43.8
+  [20:55:45] dolum: sym=btc S=1789851300 oi=0 p=0.34 ofset=0.34 yeni=2.8 toplam=4.997 kaynak=yoklama gecen_sn=45.4
+  [20:55:46] dolum: sym=btc S=1789851300 oi=0 p=0.3 ofset=0.3 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=46.9
+  [20:55:48] DENGE_SINIRI: sym=btc S=1789851300 agir=Up up=10.0 down=0.0 iptal=6 kalan_hafif=5
+  [20:58:15] COZULDU: sym=btc S=1789851000 kol=A kazanan=1 pay=10.0 maliyet=3.2 pnl=-3.2 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.5, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 37411}, {'oi': 0, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.5, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 51791}, {'oi': 0, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.5, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.5, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.5, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.5, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.49, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.49, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.49, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.49, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.49, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.49, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [20:58:21] GEC_UCUZ_KESILDI: sym=btc S=1789851300 iptal=3 fiyatlar=[0.16, 0.2, 0.22] kalan_acik=2
+  [20:58:25] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [20:58:27] mutabakat: pnl=-15.34 yerel=-15.74 etkin=-15.74 pencere=37 risk=3.2 emir=475 dolum=37 pay=494.9 geri_cekilen=13 red=0
+  [20:58:52] bitti: sebep=STOP pnl=-15.342 yerel=-15.742 pencere=55 emir=475 dolum=37 pay=494.91 geri_cekilen=13 red=0 bilinmeyen=128 risk=3.2
+  [21:00:13] SURUM: kaynak_sha=0459eae11d1a oturum=3743104 kapi=False esik_bps=16.4 boy_testi=False klip_buyuk=25.0 tamamla_acik=False tamamla_tavan=1.02 px_tavan_maker=0.4 a_uyum=False a_cift_tavan=0.8 a_uyum_ara=20.0 vol_kapisi=False vol_esik=15.0 a_oran=0.5 tohum=20260918 delta_tik_b=[2, 4] yenileme_ara=20.0 taraf_tavan=10.0 gec_kes=200.0 ucuz_esik=0.25 gec_ust=0.1 gec_esik=180.0 c_oran=0.5 c_px=[0.15, 0.6] c_t=[3.0, 200.0] c_taze_max=30.0 c_max_islem=60
+  [21:00:13] hazir: mod=LIVE klip=5.0 fiyatlar=[0.34, 0.3, 0.26, 0.22, 0.2, 0.16] fiyatlar_b=[0.2, 0.16, 0.12, 0.09, 0.06, 0.03] kesici=-100.0 denge_siniri=10.0 amac=DERIN MERDIVEN v4 - mutlak fiyat noktalari
+  [21:00:14] maruziyet: acik_pozisyon=1 pazar=1 dis_risk=3.198
+  [21:00:14] state_yuklendi: pencere=12 pnl=-15.34 pnl_yerel=-15.74 emir=475 dolum=37
+  [21:00:16] basladi: mod=LIVE gorulen_pencere=55
+  [21:00:16] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [21:00:19] mutabakat: pnl=-15.34 yerel=-15.74 etkin=-15.74 pencere=37 risk=3.2 emir=475 dolum=37 pay=494.9 geri_cekilen=13 red=0
+  [21:03:04] COZULDU: sym=btc S=1789851300 kol=A kazanan=0 pay=10.0 maliyet=3.2 pnl=6.8 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.62, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 37489}, {'oi': 0, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.62, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 40596}, {'oi': 0, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.62, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.62, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.62, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.62, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.37, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.37, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.37, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.37, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.37, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [21:04:37] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [21:04:40] mutabakat: pnl=-8.54 yerel=-8.94 etkin=-8.94 pencere=38 risk=0.0 emir=475 dolum=38 pay=504.9 geri_cekilen=13 red=0
+  [21:05:05] BOY: S=1789851900 klip=5.0 kol=A
+  [21:05:07] pencere: sym=btc S=1789851900 kol=A vol=None tokens=['60557997743742011804100496436619416206929920286986681259175096917942944674790', '69176612304292818051946220941340823331911469283095627771313624805806378271675'] emir=11 kabul=[5, 6] fiyatlar=[(0, 0.3, 0.3, 0.3), (0, 0.26, 0.26, 0.26), (0, 0.22, 0.22, 0.22), (0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (1, 0.34, 0.34, 0.34), (1, 0.3, 0.3, 0.3), (1, 0.26, 0.26, 0.26), (1, 0.22, 0.22, 0.22), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16)]
+  [21:05:48] dolum: sym=btc S=1789851900 oi=0 p=0.26 ofset=0.26 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=48.7
+  [21:05:50] dolum: sym=btc S=1789851900 oi=0 p=0.3 ofset=0.3 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=50.1
+  [21:05:50] dolum: sym=btc S=1789851900 oi=0 p=0.22 ofset=0.22 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=50.2
+  [21:05:50] dolum: sym=btc S=1789851900 oi=0 p=0.2 ofset=0.2 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=50.3
+  [21:05:51] DENGE_SINIRI: sym=btc S=1789851900 agir=Up up=20.0 down=0.0 iptal=5 kalan_hafif=6
+  [21:08:21] GEC_UCUZ_KESILDI: sym=btc S=1789851900 iptal=3 fiyatlar=[0.16, 0.2, 0.22] kalan_acik=3
+  [21:08:57] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [21:09:00] mutabakat: pnl=-8.54 yerel=-8.94 etkin=-8.94 pencere=38 risk=4.9 emir=486 dolum=38 pay=504.9 geri_cekilen=13 red=0
+  [21:10:05] BOY: S=1789852200 klip=5.0 kol=C
+  [21:10:05] pencere: sym=btc S=1789852200 kol=C vol=None tokens=['40125763413353680774967942331739978290228174418542431106418004079473452986505', '107263163667178333834958036987751044418592471698838625925044184338890883394606'] emir=0 kabul=[0, 0] fiyatlar=[] taze=True
+  [21:10:09] emir_RED: sym=btc S=1789852200 oi=0 p=0.32 ofset=0.32 tur=taze
+  [21:10:16] taze_koy: sym=btc S=1789852200 oi=0 p=0.3 bb=0.3 ba=0.31 bb_boy=22.0 tp=16.6 ms=156
+[py_clob_client_v2] request error: Server disconnected
+[py_clob_client_v2] request error: Server disconnected
+  [21:10:17] DOLUM_TEYIT_EDILEMEDI: oid=0x2cdb8c2b54 p=0.3 neden=zaten_yok karar=belirsiz - risk saymaya devam
+  [21:10:23] taze_koy: sym=btc S=1789852200 oi=0 p=0.31 bb=0.31 ba=0.32 bb_boy=9.6 tp=23.4 ms=167
+  [21:10:24] dolum: sym=btc S=1789852200 oi=0 p=0.31 ofset=0.31 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=24.3
+  [21:10:27] emir_RED: sym=btc S=1789852200 oi=0 p=0.26 ofset=0.26 tur=taze
+  [21:10:31] taze_koy: sym=btc S=1789852200 oi=0 p=0.28 bb=0.28 ba=0.29 bb_boy=23.1 tp=31.4 ms=108
+  [21:10:31] dolum: sym=btc S=1789852200 oi=0 p=0.28 ofset=0.28 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=31.9
+  [21:10:32] DENGE_SINIRI: sym=btc S=1789852200 agir=Up up=10.0 down=0.0 iptal=1 kalan_hafif=0
+  [21:13:08] COZULDU: sym=btc S=1789851900 kol=A kazanan=1 pay=20.0 maliyet=4.9 pnl=-4.9 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.38, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 42936}, {'oi': 0, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.38, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 41576}, {'oi': 0, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.38, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 43110}, {'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.38, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 43205}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.38, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.61, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.61, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.61, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.61, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.61, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.61, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [21:13:18] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [21:13:20] taze_bitti: sym=btc S=1789852200 koy=5 iptal=2 ws_hata=0 durdur=False dolan=10.0
+  [21:13:20] mutabakat: pnl=-13.44 yerel=-13.84 etkin=-13.84 pencere=39 risk=4.45 emir=489 dolum=39 pay=524.9 geri_cekilen=13 red=2
+  [21:15:05] BOY: S=1789852500 klip=5.0 kol=B
+  [21:15:06] pencere: sym=btc S=1789852500 kol=B vol=None tokens=['77089427783503734411777392976317676669551207374486176279374199209265036005553', '105723145443344284865871862850398860681641961704830792251387509866848415219320'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [21:17:29] dolum: sym=btc S=1789852500 oi=1 p=0.2 ofset=0.2 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=149.1
+  [21:17:32] dolum: sym=btc S=1789852500 oi=1 p=0.16 ofset=0.16 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=152.3
+  [21:17:33] DENGE_SINIRI: sym=btc S=1789852500 agir=Down up=0.0 down=10.0 iptal=6 kalan_hafif=6
+  [21:17:38] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [21:17:41] mutabakat: pnl=-13.44 yerel=-13.84 etkin=-13.84 pencere=39 risk=6.25 emir=501 dolum=39 pay=524.9 geri_cekilen=13 red=2
+  [21:17:53] COZULDU: sym=btc S=1789852200 kol=C kazanan=1 pay=10.0 maliyet=2.95 pnl=-2.95 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.3, 'pay': 0.0, 'durum': 'belirsiz', 'gecikme_ms': None}, {'oi': 0, 'p': 0.31, 'ofs': 0.31, 'hedef_ofs': 0.31, 'bb': 0.31, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 893}, {'oi': 0, 'p': 0.28, 'ofs': 0.28, 'hedef_ofs': 0.28, 'bb': 0.28, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 484}]
+  [21:18:20] GEC_UCUZ_KESILDI: sym=btc S=1789852500 iptal=3 fiyatlar=[0.12, 0.16, 0.2] kalan_acik=3
+  [21:19:07] dolum: sym=btc S=1789852500 oi=0 p=0.09 ofset=0.09 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=247.2
+  [21:19:07] dolum: sym=btc S=1789852500 oi=0 p=0.06 ofset=0.06 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=247.3
+  [21:19:10] dolum: sym=btc S=1789852500 oi=0 p=0.03 ofset=0.03 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=250.7
+  [21:19:11] DENGE_SINIRI: sym=btc S=1789852500 agir=Up up=15.0 down=10.0 iptal=3 kalan_hafif=0
+  [21:20:05] BOY: S=1789852800 klip=5.0 kol=C
+  [21:20:05] pencere: sym=btc S=1789852800 kol=C vol=None tokens=['32261864831480734436216027295335900230083507221939910479437226815355226962414', '49346533177888458470803386859277143038015536366863762736664477649755749824765'] emir=0 kabul=[0, 0] fiyatlar=[] taze=True
+  [21:20:09] taze_koy: sym=btc S=1789852800 oi=0 p=0.43 bb=0.42 ba=0.47 bb_boy=212.3 tp=9.4 ms=411
+  [21:20:12] emir_RED: sym=btc S=1789852800 oi=1 p=0.55 ofset=0.55 tur=taze
+  [21:20:15] taze_koy: sym=btc S=1789852800 oi=0 p=0.45 bb=0.45 ba=0.46 bb_boy=20.9 tp=15.8 ms=102
+  [21:20:16] dolum: sym=btc S=1789852800 oi=0 p=0.45 ofset=0.45 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=16.3
+  [21:20:21] emir_RED: sym=btc S=1789852800 oi=0 p=0.41 ofset=0.41 tur=taze
+  [21:20:29] taze_koy: sym=btc S=1789852800 oi=0 p=0.34 bb=0.34 ba=0.35 bb_boy=10.6 tp=29.1 ms=172
+  [21:20:29] dolum: sym=btc S=1789852800 oi=0 p=0.34 ofset=0.34 yeni=3.905 toplam=3.905 kaynak=yoklama gecen_sn=29.6
+  [21:20:30] dolum: sym=btc S=1789852800 oi=0 p=0.34 ofset=0.34 yeni=1.09 toplam=4.995 kaynak=yoklama gecen_sn=30.8
+  [21:20:30] DENGE_SINIRI: sym=btc S=1789852800 agir=Up up=10.0 down=0.0 iptal=1 kalan_hafif=0
+  [21:21:58] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [21:22:00] mutabakat: pnl=-17.89 yerel=-16.79 etkin=-17.89 pencere=40 risk=3.95 emir=504 dolum=40 pay=534.9 geri_cekilen=13 red=4
+  [21:23:11] COZULDU: sym=btc S=1789852500 kol=B kazanan=1 pay=25.0 maliyet=2.7 pnl=7.3 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.3, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.3, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.3, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.3, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 240731}, {'oi': 0, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.3, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 240828}, {'oi': 0, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.3, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 244210}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.69, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 142592}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.69, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 145857}, {'oi': 1, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.69, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.69, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.69, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.69, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [21:23:20] taze_bitti: sym=btc S=1789852800 koy=5 iptal=3 ws_hata=0 durdur=False dolan=10.0
+  [21:25:06] BOY: S=1789853100 klip=5.0 kol=C
+  [21:25:06] pencere: sym=btc S=1789853100 kol=C vol=None tokens=['5528963085500843485288812387250190614907814603160841061882124251614899846227', '62025959092218593907642094274721701779900016775831074661052691796461219816064'] emir=0 kabul=[0, 0] fiyatlar=[] taze=True
+  [21:25:07] taze_koy: sym=btc S=1789853100 oi=1 p=0.33 bb=0.33 ba=0.34 bb_boy=16.6 tp=7.1 ms=382
+  [21:25:08] dolum: sym=btc S=1789853100 oi=1 p=0.33 ofset=0.33 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=8.9
+  [21:25:13] taze_koy: sym=btc S=1789853100 oi=1 p=0.34 bb=0.34 ba=0.35 bb_boy=16.0 tp=13.3 ms=211
+  [21:25:14] dolum: sym=btc S=1789853100 oi=1 p=0.34 ofset=0.34 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=14.4
+  [21:25:14] DENGE_SINIRI: sym=btc S=1789853100 agir=Down up=0.0 down=10.0 iptal=1 kalan_hafif=0
+  [21:25:29] taze_koy: sym=btc S=1789853100 oi=0 p=0.59 bb=0.59 ba=0.6 bb_boy=10.0 tp=29.1 ms=346
+  [21:25:32] dolum: sym=btc S=1789853100 oi=0 p=0.59 ofset=0.59 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=32.1
+  [21:25:32] emir_RED: sym=btc S=1789853100 oi=1 p=0.39 ofset=0.39 tur=taze
+  [21:25:35] emir_RED: sym=btc S=1789853100 oi=1 p=0.39 ofset=0.39 tur=taze
+  [21:25:38] emir_RED: sym=btc S=1789853100 oi=1 p=0.38 ofset=0.38 tur=taze
+  [21:25:42] taze_koy: sym=btc S=1789853100 oi=1 p=0.38 bb=0.38 ba=0.39 bb_boy=10.8 tp=42.3 ms=108
+  [21:25:45] dolum: sym=btc S=1789853100 oi=1 p=0.38 ofset=0.38 yeni=5.0 toplam=5.0 kaynak=kapat:taze_yenile gecen_sn=45.3
+  [21:26:18] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [21:26:21] mutabakat: pnl=-10.59 yerel=-9.49 etkin=-10.59 pencere=41 risk=7.15 emir=508 dolum=41 pay=559.9 geri_cekilen=13 red=7
+  [21:28:20] taze_bitti: sym=btc S=1789853100 koy=7 iptal=3 ws_hata=0 durdur=False dolan=20.0
+  [21:29:04] COZULDU: sym=btc S=1789852800 kol=C kazanan=0 pay=10.0 maliyet=3.95 pnl=6.05 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.43, 'ofs': 0.43, 'hedef_ofs': 0.43, 'bb': 0.42, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.45, 'ofs': 0.45, 'hedef_ofs': 0.45, 'bb': 0.45, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 531}, {'oi': 0, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.34, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 505}]
+  [21:30:06] BOY: S=1789853400 klip=5.0 kol=C
+  [21:30:06] pencere: sym=btc S=1789853400 kol=C vol=None tokens=['48731852216143717353618839860775339644408066496125361183767848914757944315620', '13637077162034583942141969159543183488182227376438016804757758904370105566116'] emir=0 kabul=[0, 0] fiyatlar=[] taze=True
+  [21:30:12] emir_RED: sym=btc S=1789853400 oi=1 p=0.56 ofset=0.56 tur=taze
+  [21:30:14] emir_RED: sym=btc S=1789853400 oi=0 p=0.43 ofset=0.43 tur=taze
+  [21:30:19] taze_koy: sym=btc S=1789853400 oi=0 p=0.37 bb=0.37 ba=0.38 bb_boy=27.0 tp=19.6 ms=107
+  [21:30:20] dolum: sym=btc S=1789853400 oi=0 p=0.37 ofset=0.37 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=20.7
+  [21:30:23] taze_koy: sym=btc S=1789853400 oi=0 p=0.37 bb=0.37 ba=0.38 bb_boy=15.0 tp=23.1 ms=107
+  [21:30:23] dolum: sym=btc S=1789853400 oi=0 p=0.37 ofset=0.37 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=23.8
+  [21:30:24] DENGE_SINIRI: sym=btc S=1789853400 agir=Up up=10.0 down=0.0 iptal=1 kalan_hafif=0
+  [21:30:38] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [21:30:41] mutabakat: pnl=-4.55 yerel=-3.45 etkin=-4.55 pencere=42 risk=6.9 emir=510 dolum=42 pay=569.9 geri_cekilen=13 red=9
+  [21:31:05] emir_RED: sym=btc S=1789853400 oi=1 p=0.54 ofset=0.54 tur=taze
+  [21:31:06] emir_RED: sym=btc S=1789853400 oi=1 p=0.59 ofset=0.59 tur=taze
+  [21:31:10] taze_koy: sym=btc S=1789853400 oi=1 p=0.6 bb=0.6 ba=0.61 bb_boy=21.3 tp=70.3 ms=124
+  [21:31:14] dolum: sym=btc S=1789853400 oi=1 p=0.6 ofset=0.6 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=74.0
+  [21:31:15] emir_RED: sym=btc S=1789853400 oi=0 p=0.38 ofset=0.38 tur=taze
+  [21:31:16] emir_RED: sym=btc S=1789853400 oi=0 p=0.32 ofset=0.32 tur=taze
+  [21:31:17] taze_koy: sym=btc S=1789853400 oi=0 p=0.31 bb=0.31 ba=0.32 bb_boy=27.0 tp=77.8 ms=117
+  [21:31:18] dolum: sym=btc S=1789853400 oi=0 p=0.31 ofset=0.31 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=78.4
+  [21:31:18] DENGE_SINIRI: sym=btc S=1789853400 agir=Up up=15.0 down=5.0 iptal=1 kalan_hafif=0
+  [21:33:20] taze_bitti: sym=btc S=1789853400 koy=10 iptal=2 ws_hata=0 durdur=False dolan=20.0
+  [21:34:05] COZULDU: sym=btc S=1789853100 kol=C kazanan=0 pay=20.0 maliyet=8.2 pnl=-3.2 geri_cekildi=None emirler=[{'oi': 1, 'p': 0.33, 'ofs': 0.33, 'hedef_ofs': 0.33, 'bb': 0.33, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 1858}, {'oi': 1, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.34, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 1058}, {'oi': 0, 'p': 0.59, 'ofs': 0.59, 'hedef_ofs': 0.59, 'bb': 0.59, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 3029}, {'oi': 1, 'p': 0.38, 'ofs': 0.38, 'hedef_ofs': 0.38, 'bb': 0.38, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 2982}]
+  [21:34:59] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [21:35:01] mutabakat: pnl=-7.75 yerel=-6.65 etkin=-7.75 pencere=43 risk=3.25 emir=512 dolum=43 pay=589.9 geri_cekilen=13 red=13
+  [21:35:06] BOY: S=1789853700 klip=5.0 kol=C
+  [21:35:06] pencere: sym=btc S=1789853700 kol=C vol=None tokens=['78972495283453094396270933264951191044181915387846666205703465213836979651727', '63153493647466461116073486746831080424489135895131888020256477546388790355529'] emir=0 kabul=[0, 0] fiyatlar=[] taze=True
+  [21:35:09] emir_RED: sym=btc S=1789853700 oi=0 p=0.15 ofset=0.15 tur=taze
+  [21:35:16] taze_koy: sym=btc S=1789853700 oi=0 p=0.19 bb=0.18 ba=0.2 bb_boy=34.0 tp=16.7 ms=188
+  [21:35:21] taze_koy: sym=btc S=1789853700 oi=0 p=0.22 bb=0.22 ba=0.23 bb_boy=15.0 tp=21.0 ms=102
+  [21:35:24] taze_koy: sym=btc S=1789853700 oi=0 p=0.21 bb=0.21 ba=0.22 bb_boy=25.0 tp=24.1 ms=106
+  [21:35:26] dolum: sym=btc S=1789853700 oi=0 p=0.21 ofset=0.21 yeni=1.266 toplam=1.266 kaynak=yoklama gecen_sn=26.9
+  [21:35:27] dolum: sym=btc S=1789853700 oi=0 p=0.21 ofset=0.21 yeni=1.266 toplam=2.532 kaynak=yoklama gecen_sn=27.5
+  [21:35:28] dolum: sym=btc S=1789853700 oi=0 p=0.21 ofset=0.21 yeni=0.99 toplam=3.522 kaynak=yoklama gecen_sn=28.1
+  [21:35:28] dolum: sym=btc S=1789853700 oi=0 p=0.21 ofset=0.21 yeni=1.47 toplam=4.992 kaynak=yoklama gecen_sn=28.7
+  [21:35:37] emir_RED: sym=btc S=1789853700 oi=0 p=0.19 ofset=0.19 tur=taze
+  [21:35:39] taze_koy: sym=btc S=1789853700 oi=0 p=0.16 bb=0.16 ba=0.17 bb_boy=10.0 tp=39.7 ms=192
+  [21:35:40] dolum: sym=btc S=1789853700 oi=0 p=0.16 ofset=0.16 yeni=4.991 toplam=4.991 kaynak=yoklama gecen_sn=40.6
+  [21:35:40] DENGE_SINIRI: sym=btc S=1789853700 agir=Up up=10.0 down=0.0 iptal=1 kalan_hafif=0
+  [21:38:20] taze_bitti: sym=btc S=1789853700 koy=6 iptal=4 ws_hata=0 durdur=False dolan=9.98
+  [21:39:00] COZULDU: sym=btc S=1789853400 kol=C kazanan=1 pay=20.0 maliyet=8.25 pnl=-3.25 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.37, 'ofs': 0.37, 'hedef_ofs': 0.37, 'bb': 0.37, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 1027}, {'oi': 0, 'p': 0.37, 'ofs': 0.37, 'hedef_ofs': 0.37, 'bb': 0.37, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 714}, {'oi': 1, 'p': 0.6, 'ofs': 0.6, 'hedef_ofs': 0.6, 'bb': 0.6, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 3736}, {'oi': 0, 'p': 0.31, 'ofs': 0.31, 'hedef_ofs': 0.31, 'bb': 0.31, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 608}]
+  [21:39:19] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [21:39:22] mutabakat: pnl=-11.0 yerel=-9.9 etkin=-11.0 pencere=44 risk=1.85 emir=516 dolum=44 pay=609.9 geri_cekilen=13 red=15
+  [21:40:05] BOY: S=1789854000 klip=5.0 kol=C
+  [21:40:05] pencere: sym=btc S=1789854000 kol=C vol=None tokens=['110384791167753784238626337372210653204286969425183336608898557296627593907448', '76399820048860947186923949575161407245309860337572723426203211102941545943383'] emir=0 kabul=[0, 0] fiyatlar=[] taze=True
+  [21:40:12] emir_RED: sym=btc S=1789854000 oi=0 p=0.5 ofset=0.5 tur=taze
+  [21:40:16] taze_koy: sym=btc S=1789854000 oi=0 p=0.45 bb=0.45 ba=0.46 bb_boy=28.0 tp=16.9 ms=101
+  [21:40:17] dolum: sym=btc S=1789854000 oi=0 p=0.45 ofset=0.45 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=17.3
+  [21:40:26] emir_RED: sym=btc S=1789854000 oi=0 p=0.43 ofset=0.43 tur=taze
+  [21:40:28] emir_RED: sym=btc S=1789854000 oi=0 p=0.4 ofset=0.4 tur=taze
+  [21:40:37] taze_koy: sym=btc S=1789854000 oi=0 p=0.39 bb=0.38 ba=0.4 bb_boy=510.3 tp=37.6 ms=311
+  [21:40:37] emir_RED: sym=btc S=1789854000 oi=1 p=0.6 ofset=0.6 tur=taze
+  [21:40:43] emir_RED: sym=btc S=1789854000 oi=1 p=0.57 ofset=0.57 tur=taze
+  [21:40:52] emir_RED: sym=btc S=1789854000 oi=0 p=0.46 ofset=0.46 tur=taze
+  [21:40:54] taze_koy: sym=btc S=1789854000 oi=0 p=0.45 bb=0.45 ba=0.46 bb_boy=25.0 tp=54.6 ms=108
+  [21:41:01] emir_RED: sym=btc S=1789854000 oi=0 p=0.47 ofset=0.47 tur=taze
+  [21:41:02] taze_koy: sym=btc S=1789854000 oi=0 p=0.45 bb=0.45 ba=0.46 bb_boy=22.1 tp=62.1 ms=114
+  [21:41:03] dolum: sym=btc S=1789854000 oi=0 p=0.45 ofset=0.45 yeni=1.818 toplam=1.818 kaynak=yoklama gecen_sn=63.1
+  [21:41:03] dolum: sym=btc S=1789854000 oi=0 p=0.45 ofset=0.45 yeni=3.18 toplam=4.998 kaynak=kapat:taze_yenile gecen_sn=63.5
+  [21:42:52] COZULDU: sym=btc S=1789853700 kol=C kazanan=0 pay=9.98 maliyet=1.85 pnl=8.14 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.19, 'ofs': 0.19, 'hedef_ofs': 0.19, 'bb': 0.18, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.22, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.21, 'ofs': 0.21, 'hedef_ofs': 0.21, 'bb': 0.21, 'pay': 4.99, 'durum': 'kapali', 'gecikme_ms': 2827}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.16, 'pay': 4.99, 'durum': 'kapali', 'gecikme_ms': 894}]
+  [21:43:20] taze_bitti: sym=btc S=1789854000 koy=11 iptal=4 ws_hata=0 durdur=False dolan=10.0
+  [21:43:40] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [21:43:42] mutabakat: pnl=1.04 yerel=-1.76 etkin=-1.76 pencere=45 risk=4.5 emir=520 dolum=45 pay=619.9 geri_cekilen=13 red=22
+  [21:45:06] BOY: S=1789854300 klip=5.0 kol=A
+  [21:45:06] pencere: sym=btc S=1789854300 kol=A vol=None tokens=['70799122165303488503925727677708743600439506926464622131609675023848651676826', '56457399826926718267707046993551901249871873101805366555615739197580706946764'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.34, 0.34, 0.34), (0, 0.3, 0.3, 0.3), (0, 0.26, 0.26, 0.26), (0, 0.22, 0.22, 0.22), (0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (1, 0.34, 0.34, 0.34), (1, 0.3, 0.3, 0.3), (1, 0.26, 0.26, 0.26), (1, 0.22, 0.22, 0.22), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16)]
+  [21:45:15] dolum: sym=btc S=1789854300 oi=1 p=0.34 ofset=0.34 yeni=4.995 toplam=4.995 kaynak=yoklama gecen_sn=15.2
+  [21:45:16] dolum: sym=btc S=1789854300 oi=1 p=0.3 ofset=0.3 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=16.8
+  [21:45:17] DENGE_SINIRI: sym=btc S=1789854300 agir=Down up=0.0 down=10.0 iptal=6 kalan_hafif=6
+  [21:47:59] COZULDU: sym=btc S=1789854000 kol=C kazanan=1 pay=10.0 maliyet=4.5 pnl=-4.5 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.45, 'ofs': 0.45, 'hedef_ofs': 0.45, 'bb': 0.45, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 324}, {'oi': 0, 'p': 0.39, 'ofs': 0.39, 'hedef_ofs': 0.39, 'bb': 0.38, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.45, 'ofs': 0.45, 'hedef_ofs': 0.45, 'bb': 0.45, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.45, 'ofs': 0.45, 'hedef_ofs': 0.45, 'bb': 0.45, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 994}]
+  [21:48:01] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [21:48:03] mutabakat: pnl=-3.46 yerel=-6.26 etkin=-6.26 pencere=46 risk=3.2 emir=532 dolum=46 pay=629.9 geri_cekilen=13 red=22
+  [21:48:20] GEC_UCUZ_KESILDI: sym=btc S=1789854300 iptal=3 fiyatlar=[0.16, 0.2, 0.22] kalan_acik=3
+  [21:50:06] BOY: S=1789854600 klip=5.0 kol=B
+  [21:50:06] pencere: sym=btc S=1789854600 kol=B vol=None tokens=['11550925331311838307008798595092873089107400817807534029135433425309002903909', '43535783628935619515477773235966797886840541502169953011135200309574949634320'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [21:52:21] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [21:52:23] mutabakat: pnl=-3.46 yerel=-6.26 etkin=-6.26 pencere=46 risk=6.5 emir=544 dolum=46 pay=629.9 geri_cekilen=13 red=22
+  [21:52:51] dolum: sym=btc S=1789854600 oi=1 p=0.2 ofset=0.2 yeni=4.997 toplam=4.997 kaynak=yoklama gecen_sn=171.2
+  [21:52:59] dolum: sym=btc S=1789854600 oi=1 p=0.16 ofset=0.16 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=179.4
+  [21:53:00] DENGE_SINIRI: sym=btc S=1789854600 agir=Down up=0.0 down=10.0 iptal=6 kalan_hafif=6
+  [21:53:21] GEC_UCUZ_KESILDI: sym=btc S=1789854600 iptal=3 fiyatlar=[0.12, 0.16, 0.2] kalan_acik=3
+  [21:54:15] COZULDU: sym=btc S=1789854300 kol=A kazanan=0 pay=10.0 maliyet=3.2 pnl=-3.2 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.51, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.51, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.51, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.51, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.51, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.51, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.48, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 8638}, {'oi': 1, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.48, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 10224}, {'oi': 1, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.48, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.48, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.48, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.48, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [21:55:06] BOY: S=1789854900 klip=5.0 kol=A
+  [21:55:06] pencere: sym=btc S=1789854900 kol=A vol=None tokens=['29819667410980448238225977849972361441201390638519952991293618546420798276625', '75263144955511942819066361807416558708060477892585142262732222788401578162491'] emir=11 kabul=[6, 5] fiyatlar=[(0, 0.34, 0.34, 0.34), (0, 0.3, 0.3, 0.3), (0, 0.26, 0.26, 0.26), (0, 0.22, 0.22, 0.22), (0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (1, 0.3, 0.3, 0.3), (1, 0.26, 0.26, 0.26), (1, 0.22, 0.22, 0.22), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16)]
+  [21:55:14] dolum: sym=btc S=1789854900 oi=1 p=0.3 ofset=0.3 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=14.7
+  [21:55:17] dolum: sym=btc S=1789854900 oi=1 p=0.26 ofset=0.26 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=17.6
+  [21:55:18] DENGE_SINIRI: sym=btc S=1789854900 agir=Down up=0.0 down=10.0 iptal=5 kalan_hafif=6
+  [21:56:41] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [21:56:44] mutabakat: pnl=-6.66 yerel=-9.46 etkin=-9.46 pencere=47 risk=4.6 emir=555 dolum=47 pay=639.9 geri_cekilen=13 red=22
+  [21:57:13] dolum: sym=btc S=1789854900 oi=0 p=0.34 ofset=0.34 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=133.2
+  [21:57:23] dolum: sym=btc S=1789854900 oi=0 p=0.3 ofset=0.3 yeni=4.986 toplam=4.986 kaynak=yoklama gecen_sn=143.1
+  [21:58:20] GEC_UCUZ_KESILDI: sym=btc S=1789854900 iptal=3 fiyatlar=[0.16, 0.2, 0.22] kalan_acik=3
+  [21:59:04] bitti: sebep=STOP pnl=-6.659 yerel=-9.459 pencere=66 emir=555 dolum=47 pay=639.87 geri_cekilen=13 red=22 bilinmeyen=128 risk=1.8
+  [21:59:07] SURUM: kaynak_sha=f3afef305874 oturum=3800626 kapi=False esik_bps=16.4 boy_testi=False klip_buyuk=25.0 tamamla_acik=False tamamla_tavan=1.02 px_tavan_maker=0.4 a_uyum=False a_cift_tavan=0.8 a_uyum_ara=20.0 vol_kapisi=False vol_esik=15.0 a_oran=0.5 tohum=20260918 delta_tik_b=[2, 4] yenileme_ara=20.0 taraf_tavan=10.0 gec_kes=200.0 ucuz_esik=0.25 gec_ust=0.1 gec_esik=180.0 c_oran=0.5 c_px=[0.15, 0.6] c_t=[3.0, 200.0] c_taze_max=30.0 c_max_islem=60
+  [21:59:07] hazir: mod=LIVE klip=5.0 fiyatlar=[0.34, 0.3, 0.26, 0.22, 0.2, 0.16] fiyatlar_b=[0.2, 0.16, 0.12, 0.09, 0.06, 0.03] kesici=-100.0 denge_siniri=10.0 amac=DERIN MERDIVEN v4 - mutlak fiyat noktalari
+  [21:59:08] maruziyet: acik_pozisyon=2 pazar=1 dis_risk=0.0
+  [21:59:08] state_yuklendi: pencere=11 pnl=-6.66 pnl_yerel=-9.46 emir=555 dolum=47
+  [21:59:10] basladi: mod=LIVE gorulen_pencere=66
+  [21:59:10] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [21:59:13] mutabakat: pnl=-6.66 yerel=-9.46 etkin=-9.46 pencere=47 risk=1.8 emir=555 dolum=47 pay=639.9 geri_cekilen=13 red=22
+  [21:59:16] COZULDU: sym=btc S=1789854600 kol=B kazanan=0 pay=10.0 maliyet=1.8 pnl=-1.8 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.53, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.46, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 164228}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.46, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 172471}, {'oi': 1, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.46, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.46, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.46, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.46, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [22:00:06] BOY: S=1789855200 klip=5.0 kol=B
+  [22:00:06] pencere: sym=btc S=1789855200 kol=B vol=None tokens=['77621171421687859987098085736749028008271831335273225094255103369705350327571', '3135136770761277791076329066144669175497535139072209034455757896077803878341'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [22:00:31] dolum: sym=btc S=1789855200 oi=0 p=0.2 ofset=0.2 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=31.5
+  [22:00:43] dolum: sym=btc S=1789855200 oi=0 p=0.16 ofset=0.16 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=43.7
+  [22:00:45] DENGE_SINIRI: sym=btc S=1789855200 agir=Up up=10.0 down=0.0 iptal=6 kalan_hafif=6
+  [22:03:20] GEC_UCUZ_KESILDI: sym=btc S=1789855200 iptal=3 fiyatlar=[0.12, 0.16, 0.2] kalan_acik=3
+  [22:03:32] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [22:03:34] mutabakat: pnl=-8.46 yerel=-11.26 etkin=-11.26 pencere=48 risk=1.8 emir=567 dolum=48 pay=649.9 geri_cekilen=13 red=22
+  [22:04:15] COZULDU: sym=btc S=1789854900 kol=A kazanan=1 pay=19.99 maliyet=6.0 pnl=4.0 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.63, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 126400}, {'oi': 0, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.63, 'pay': 4.99, 'durum': 'kapali', 'gecikme_ms': 136241}, {'oi': 0, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.63, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.63, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.63, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.63, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.36, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 7861}, {'oi': 1, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.36, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 10752}, {'oi': 1, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.36, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.36, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.36, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [22:05:06] BOY: S=1789855500 klip=5.0 kol=C
+  [22:05:06] pencere: sym=btc S=1789855500 kol=C vol=None tokens=['24236205643014724677974356405017771305719173142861273214781963020459218945183', '81726621948273513728408940605373655342271408012399426260120456008700239382000'] emir=0 kabul=[0, 0] fiyatlar=[] taze=True
+  [22:05:11] RED_NEDEN: oi=1 p=0.35 yanit={"errorMsg": "invalid post-only order: order crosses book", "orderID": "", "takingAmount": "", "makingAmount": "", "status": "", "success": true}
+  [22:05:11] emir_RED: sym=btc S=1789855500 oi=1 p=0.35 ofset=0.35 tur=taze
+  [22:05:12] RED_NEDEN: oi=1 p=0.34 yanit={"errorMsg": "invalid post-only order: order crosses book", "orderID": "", "takingAmount": "", "makingAmount": "", "status": "", "success": true}
+  [22:05:12] emir_RED: sym=btc S=1789855500 oi=1 p=0.34 ofset=0.34 tur=taze
+  [22:05:14] RED_NEDEN: oi=1 p=0.23 yanit={"errorMsg": "invalid post-only order: order crosses book", "orderID": "", "takingAmount": "", "makingAmount": "", "status": "", "success": true}
+  [22:05:14] emir_RED: sym=btc S=1789855500 oi=1 p=0.23 ofset=0.23 tur=taze
+  [22:05:16] taze_koy: sym=btc S=1789855500 oi=1 p=0.22 bb=0.22 ba=0.23 bb_boy=19.4 tp=16.6 ms=99
+  [22:05:29] RED_NEDEN: oi=1 p=0.19 yanit={"errorMsg": "invalid amount for a marketable BUY order ($0.95), min size: $1", "orderID": "", "takingAmount": "", "makingAmount": "", "status": "", "success": true}
+  [22:05:29] emir_RED: sym=btc S=1789855500 oi=1 p=0.19 ofset=0.19 tur=taze
+  [22:05:32] taze_koy: sym=btc S=1789855500 oi=1 p=0.17 bb=0.17 ba=0.18 bb_boy=9.0 tp=32.3 ms=108
+  [22:05:32] dolum: sym=btc S=1789855500 oi=1 p=0.17 ofset=0.17 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=32.8
+  [22:07:52] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [22:07:55] mutabakat: pnl=-4.45 yerel=-7.25 etkin=-7.25 pencere=49 risk=2.65 emir=569 dolum=49 pay=669.9 geri_cekilen=13 red=26
+  [22:08:20] taze_bitti: sym=btc S=1789855500 koy=6 iptal=2 ws_hata=0 durdur=False dolan=5.0
+  [22:09:34] COZULDU: sym=btc S=1789855200 kol=B kazanan=1 pay=10.0 maliyet=1.8 pnl=-1.8 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.45, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 24728}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.45, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 36972}, {'oi': 0, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.45, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.45, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.45, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.45, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.54, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.54, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.54, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.54, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.54, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.54, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [22:10:05] BOY: S=1789855800 klip=5.0 kol=B
+  [22:10:06] pencere: sym=btc S=1789855800 kol=B vol=None tokens=['81030224032620648761362298324990425731083998007370653527197731069940787145992', '33820643568813158804591543750646594579948441100232970154396069096242348892636'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [22:10:26] dolum: sym=btc S=1789855800 oi=0 p=0.2 ofset=0.2 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=26.5
+  [22:10:26] dolum: sym=btc S=1789855800 oi=0 p=0.16 ofset=0.16 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=26.6
+  [22:10:27] dolum: sym=btc S=1789855800 oi=0 p=0.12 ofset=0.12 yeni=5.0 toplam=5.0 kaynak=iptal gecen_sn=27.8
+  [22:10:28] DENGE_SINIRI: sym=btc S=1789855800 agir=Up up=10.0 down=0.0 iptal=6 kalan_hafif=6
+  [22:12:12] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [22:12:15] mutabakat: pnl=-6.25 yerel=-9.05 etkin=-9.05 pencere=50 risk=3.25 emir=581 dolum=50 pay=679.9 geri_cekilen=13 red=26
+  [22:13:20] GEC_UCUZ_KESILDI: sym=btc S=1789855800 iptal=3 fiyatlar=[0.12, 0.16, 0.2] kalan_acik=3
+  [22:14:28] COZULDU: sym=btc S=1789855500 kol=C kazanan=0 pay=5.0 maliyet=0.85 pnl=-0.85 geri_cekildi=None emirler=[{'oi': 1, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.22, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.17, 'ofs': 0.17, 'hedef_ofs': 0.17, 'bb': 0.17, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 534}]
+  [22:15:05] BOY: S=1789856100 klip=5.0 kol=B
+  [22:15:06] pencere: sym=btc S=1789856100 kol=B vol=None tokens=['33438967486571820738186487962771553048411858858447884827958678261270610370230', '80468249574908194593849113921416519008836139415354850399247962295495789606982'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [22:15:51] dolum: sym=btc S=1789856100 oi=1 p=0.2 ofset=0.2 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=51.4
+  [22:16:13] dolum: sym=btc S=1789856100 oi=1 p=0.16 ofset=0.16 yeni=4.999 toplam=4.999 kaynak=yoklama gecen_sn=73.9
+  [22:16:14] dolum: sym=btc S=1789856100 oi=1 p=0.12 ofset=0.12 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=74.0
+  [22:16:14] dolum: sym=btc S=1789856100 oi=1 p=0.09 ofset=0.09 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=74.1
+  [22:16:15] DENGE_SINIRI: sym=btc S=1789856100 agir=Down up=0.0 down=20.0 iptal=6 kalan_hafif=6
+  [22:16:33] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [22:16:35] mutabakat: pnl=-7.1 yerel=-9.9 etkin=-9.9 pencere=51 risk=5.25 emir=593 dolum=51 pay=684.9 geri_cekilen=13 red=26
+  [22:18:21] GEC_UCUZ_KESILDI: sym=btc S=1789856100 iptal=3 fiyatlar=[0.12, 0.16, 0.2] kalan_acik=3
+  [22:19:47] COZULDU: sym=btc S=1789855800 kol=B kazanan=1 pay=15.0 maliyet=2.4 pnl=-2.4 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.27, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 19888}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.27, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 19982}, {'oi': 0, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.27, 'pay': 5.0, 'durum': 'kapali', 'gecikme_ms': 21191}, {'oi': 0, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.27, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.27, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.27, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.7, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.7, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.12, 'ofs': 0.12, 'hedef_ofs': 0.12, 'bb': 0.7, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.09, 'ofs': 0.09, 'hedef_ofs': 0.09, 'bb': 0.7, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.06, 'ofs': 0.06, 'hedef_ofs': 0.06, 'bb': 0.7, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.03, 'ofs': 0.03, 'hedef_ofs': 0.03, 'bb': 0.7, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [22:20:06] BOY: S=1789856400 klip=5.0 kol=B
+  [22:20:06] pencere: sym=btc S=1789856400 kol=B vol=None tokens=['61256458248739031611053940739345876396970204366797946705358743247667482978621', '106704835748308543450172402834215514982357699826153598089134979411316293958265'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (0, 0.12, 0.12, 0.12), (0, 0.09, 0.09, 0.09), (0, 0.06, 0.06, 0.06), (0, 0.03, 0.03, 0.03), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16), (1, 0.12, 0.12, 0.12), (1, 0.09, 0.09, 0.09), (1, 0.06, 0.06, 0.06), (1, 0.03, 0.03, 0.03)]
+  [22:20:54] maruziyet: acik_pozisyon=0 pazar=0 dis_risk=0.0
+  [22:20:56] mutabakat: pnl=-9.5 yerel=-12.3 etkin=-12.3 pencere=52 risk=6.15 emir=605 dolum=52 pay=699.9 geri_cekilen=13 red=26
+  [22:22:03] dolum: sym=btc S=1789856400 oi=0 p=0.2 ofset=0.2 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=123.1
+  [22:22:09] dolum: sym=btc S=1789856400 oi=0 p=0.16 ofset=0.16 yeni=5.0 toplam=5.0 kaynak=yoklama gecen_sn=129.7
+  [22:22:10] dolum: sym=btc S=1789856400 oi=0 p=0.12 ofset=0.12 yeni=5.0 toplam=5.0 kaynak=iptal gecen_sn=131.0
+  [22:22:11] DENGE_SINIRI: sym=btc S=1789856400 agir=Up up=10.0 down=0.0 iptal=6 kalan_hafif=6
+  [22:22:26] bitti: sebep=STOP pnl=-9.5042 yerel=-12.3042 pencere=71 emir=605 dolum=52 pay=699.86 geri_cekilen=13 red=26 bilinmeyen=128 risk=5.25

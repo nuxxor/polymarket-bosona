@@ -1,0 +1,15 @@
+# kimlik / gizli — ASLA
+.env
+.env.*
+*.pem
+*.key
+creds*
+*secret*
+*.session
+# buyuk / turetilebilir
+*.db-wal
+*.db-shm
+__pycache__/
+*.pyc
+polymarket_orderbook.db
+FILL_PARTY_LEDGER/
