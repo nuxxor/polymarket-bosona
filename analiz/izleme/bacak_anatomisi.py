@@ -33,18 +33,32 @@ for f in glob.glob(TAPE):
         k=key(a)
         if k in seen: continue
         seen.add(k); T[a['transactionHash']].append(a)
-makers=[]; n_tx=0; n_tak=0
+con0=sqlite3.connect(f'file:{DB}?mode=ro',uri=True)
+LTP={}   # tx hash -> (asset_id, side)  (v2: taker kimligi defterin last_trade_price olayindan; boy kurali yedek)
+for rj, in con0.execute("select raw_json from market_events where event_type='last_trade_price' and ts_ms>=?",(BASLA-60000,)):
+    try: d=json.loads(rj); h=d.get('transaction_hash')
+    except: continue
+    if h and h not in LTP: LTP[h]=(str(d.get('asset_id')),(d.get('side') or '').upper())
+makers=[]; n_tx=0; n_belirsiz=0
 for tx,rows in T.items():
     if len(rows)<2: continue
-    tot=sum(float(r['size']) for r in rows); big=max(rows,key=lambda r:float(r['size']))
-    if abs(2*float(big['size'])-tot)>0.02*tot+0.5: continue   # taker tanimlanamadi
+    big=None
+    if tx in LTP:
+        a,sd=LTP[tx]; cand=[r for r in rows if str(r['asset'])==a and (r.get('side') or '').upper()==sd]
+        if len(cand)==1: big=cand[0]
+        elif cand: big=max(cand,key=lambda r:float(r['size']))
+    if big is None:
+        tot=sum(float(r['size']) for r in rows); sz=sorted((float(r['size']) for r in rows),reverse=True)
+        if len(sz)>=2 and abs(sz[0]-sz[1])<1e-6: n_belirsiz+=1; continue     # esit boy: rol belirsiz, atla
+        big=max(rows,key=lambda r:float(r['size']))
+        if abs(2*float(big['size'])-tot)>0.02*tot+0.5: continue
     n_tx+=1
     for r in rows:
         if r is big: continue
         if r['side']!='BUY': continue   # maker BID dolumlari (bizim oyun)
         makers.append(dict(tx=tx,w=r['proxyWallet'].lower(),tok=r['asset'],p=round(float(r['price']),3),pay=float(r['size']),
                            ts=r['timestamp'],S=int(r['slug'].split('-')[-1]),outcome=r['outcome'],taker=big['proxyWallet'].lower()))
-print(f"tx {n_tx} | maker BID dolumu {len(makers)} | pencere {len({m['S'] for m in makers})} | baslangic {time.strftime('%H:%MZ',time.gmtime(BASLA/1000))}")
+print(f"tx {n_tx} (rol belirsiz atlanan {n_belirsiz}) | maker BID dolumu {len(makers)} | pencere {len({m['S'] for m in makers})} | baslangic {time.strftime('%H:%MZ',time.gmtime(BASLA/1000))}")
 if not makers: sys.exit(0)
 
 # ---- 2) defter: her token icin seviye tarihcesi (BID) ----
@@ -62,7 +76,9 @@ def tarihce(tok):
     if tok in HIST: return HIST[tok]
     H=collections.defaultdict(list)
     cur={}
-    for ts,et,rj in con.execute("select ts_ms,event_type,raw_json from market_events where asset_id=? and event_type in ('book','price_change') order by ts_ms,id",(tok,)):
+    # v2: price_change tek mesajda IKI token'in degisimini tasir ama kaydedici asset_id kolonuna yalniz ilkini yazar;
+    # bu yuzden raw_json icinde token'i ariyoruz (ikinci token'in guncellemeleri kacmasin).
+    for ts,et,rj in con.execute("select ts_ms,event_type,raw_json from market_events where ((event_type='book' and asset_id=?) or (event_type='price_change' and raw_json like ?)) and ts_ms>=? order by ts_ms,id",(tok,'%'+tok+'%',BASLA-900000)):
         try: d=json.loads(rj)
         except: continue
         if et=='book':

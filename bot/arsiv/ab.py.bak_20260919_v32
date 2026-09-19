@@ -80,7 +80,6 @@ fail-closed acilis, borsadan mutabakat, STOP dosyasi, tek-yazici kilidi.
 """
 import os, sys, json, time, re, glob, urllib.request
 import threading   # 09-19: KOL C websocket is parcacigi
-import math
 
 LIVE='--live' in sys.argv; TEST='--test' in sys.argv
 RED_TEST='--red-test' in sys.argv     # kuru modda tek-taraf reddini taklit et
@@ -724,10 +723,7 @@ def iptal_toplu(oidler):
         return {o:t for o in oidler}
     return {o:(iptal_yorumla(o,r) if o in ger else (True,'kuru')) for o in oidler}
 
-_PAY_KILIT=threading.Lock()   # v4: es zamanli (ana dongu + C) kontrol-ve-yaz yarisi
 def pay_ekle(r,d,kaynak,k=None):
-    with _PAY_KILIT: return _pay_ekle(r,d,kaynak,k)
-def _pay_ekle(r,d,kaynak,k=None):
     """Dolum miktarini guncelle VE olay uret.
 
     DUZELTME (09-18 PRO denetimi): iptal/kapanis sirasinda ogrenilen dolumlar
@@ -757,12 +753,9 @@ def kapat(r,sebep,k=None):
         log('DOLUM_TEYIT_EDILEMEDI',oid=str(r['oid'])[:12],p=r['p'],
             neden=nd,karar='belirsiz - risk saymaya devam')
         return False
-    # v4 (dis denetim 09-19): iptal yaniti "already canceled or matched" derken borsa durumu LIVE
-    # olabiliyor (21:35Z Up@0,22 boyle kapatildi, sonra doldu, defterde yok). Borsa MATCHED/CANCELED
-    # (ya da KURU) demedikce emir KAPALI SAYILMAZ; 'belirsiz' kalir ve bakimda yoklanmaya devam eder.
-    if dur not in ('MATCHED','CANCELED','KURU'):
+    if not tamam and dur not in ('MATCHED','CANCELED'):
         log('IPTAL_TEYITSIZ',oid=str(r['oid'])[:12],p=r['p'],neden=nd,borsa=dur)
-        r['durum']='belirsiz'; r['kapanis']=sebep; r['iptal_neden']=nd; r['borsa_durum']=dur; return False
+        r['durum']='belirsiz'; return False
     r['durum']='kapali'; r['kapanis']=sebep; r['iptal_neden']=nd; r['borsa_durum']=dur
     return True
 
@@ -794,7 +787,6 @@ C_DENGE=5.0                # v2 (22:00Z): CIFT ONCELIK — ilk taraf 1 klip; kar
 C_CIFT_TAVAN=0.98          # v3: ikinci bacak, cift toplami (ort ilk bacak + hedef) bu tavani asmayacak fiyattan konur
 C_WS="wss://ws-subscriptions-clob.polymarket.com/ws/market"
 TAZE_IS={}                 # k -> Thread (state'e YAZILMAZ)
-DURDUR=False               # v4: kapanis bayragi (STOP/kesici) -> C is parcaciklari yeni emir koymaz
 
 _AID_RE=re.compile(r'"asset_id"\s*:\s*"([^"]+)"')
 def taze_book_aid(raw):
@@ -817,8 +809,7 @@ def taze_hedef(bb,ba,tik,bb_boy,dolan_ben,dolan_diger,sinir=None,ort_diger=None)
     px=round(px,3 if tik<0.01 else 2)
     # v3: karsi taraf dolduysa bu bacak "tamamlayici" -> cift toplami <= C_CIFT_TAVAN olacak fiyata indir
     if ort_diger and dolan_diger>dolan_ben:
-        tavan=math.floor((C_CIFT_TAVAN-ort_diger)/tik+1e-9)*tik            # v4: tik'e ASAGI yuvarla (yukari yuvarlama tavani asiyordu)
-        tavan=round(tavan,3 if tik<0.01 else 2)
+        tavan=round(C_CIFT_TAVAN-ort_diger,3 if tik<0.01 else 2)
         if px>tavan: px=tavan
     if not (C_PX_MIN-1e-9<=px<=C_PX_MAX+1e-9) or px>=ba-1e-9: return None
     return px
@@ -1025,7 +1016,6 @@ def taze_izle(k,w,tk):
     lv={0:{},1:{}}                                   # BID seviyeleri: fiyat -> pay
     ask={0:None,1:None}
     kilit=threading.Lock()                           # v1.2: okuyucu ayri is parcacigi
-    son_defter={}                                    # v4: oi -> son defter guncelleme zamani (bayatlik)
     son={0:0.0,1:0.0}; n_koy=0; n_iptal=0; ws_hata=0; durdur=False
     def bb_of(oi):
         with kilit:
@@ -1037,7 +1027,6 @@ def taze_izle(k,w,tk):
         if et=='book':
             oi=tid2oi.get(str(m.get('asset_id')))
             if oi is None: return
-            son_defter[oi]=time.time()
             lv[oi]={}
             for x in m.get('bids') or []:
                 try: lv[oi][round(float(x['price']),3)]=float(x['size'])
@@ -1048,7 +1037,6 @@ def taze_izle(k,w,tk):
             for c in m.get('price_changes') or []:
                 oi=tid2oi.get(str(c.get('asset_id')))
                 if oi is None: continue
-                son_defter[oi]=time.time()
                 try: p=round(float(c['price']),3); q=float(c['size'])
                 except Exception: continue
                 if (c.get('side') or '').upper()=='BUY': lv[oi][p]=q
@@ -1056,7 +1044,6 @@ def taze_izle(k,w,tk):
                     if c.get('best_ask'): ask[oi]=float(c['best_ask'])
                 except Exception: pass
     def acik(oi): return [r for r in list(w['emir']) if r['durum']=='acik' and r['oi']==oi]
-    def mesgul(oi): return any(r['durum']=='belirsiz' and r['oi']==oi for r in list(w['emir']))   # v4
     def dolan(oi): return sum(r.get('pay',0.0) for r in list(w['emir']) if r['oi']==oi)
     def ort(oi):
         rs=[r for r in list(w['emir']) if r['oi']==oi and r.get('pay',0.0)>0]
@@ -1064,8 +1051,6 @@ def taze_izle(k,w,tk):
     def karar(oi):
         nonlocal n_koy,n_iptal,durdur
         if time.time()-son[oi]<C_MIN_ARA: return
-        if mesgul(oi): return                               # v4: cozulmemis (belirsiz) emir varken ayni tarafa yeni emir yok
-        if time.time()-son_defter.get(oi,0)>3.0: return     # v4: defter 3 sn'den bayatsa emir uretme (kopma/yeniden baglanma)
         bb,bb_boy,ba=bb_of(oi)
         hedef=taze_hedef(bb,ba,tik[oi],bb_boy,dolan(oi),dolan(1-oi),ort_diger=ort(1-oi))
         ac=acik(oi)
@@ -1074,8 +1059,7 @@ def taze_izle(k,w,tk):
             # (kuyrugun onundeyiz; her tikte yenilemek 100 sn'de 40 postu bitiriyordu).
             p=ac[0]['p']
             if hedef is not None and abs(p-hedef)<1e-9: return              # v3.1: hedefle ayni fiyattaysa (tavanli derin emir dahil) YERINDE KAL
-            if hedef is not None and p>hedef+1e-9: pass                     # v4: acik emir izin verilen tavandan PAHALI -> iptal (asagida)
-            elif bb is None or (p>=bb-tik[oi]-1e-9 and (ba is None or p<ba-1e-9)): return
+            if bb is None or (p>=bb-tik[oi]-1e-9 and (ba is None or p<ba-1e-9)): return
             for r in ac:
                 kapat(r,'taze_yenile',k); n_iptal+=1
             son[oi]=time.time(); return
@@ -1094,12 +1078,7 @@ def taze_izle(k,w,tk):
             st['bilinmeyen']+=1
             oid2=bilinmeyen_coz(tk[oi],px)
             log('POST_BILINMEYEN',sym=sym,S=S,oi=oi,p=px,bulundu=bool(oid2))
-            if not oid2:
-                # v4: gonderilen niyet kayda ve REZERVE girer (oid yok; mutabakat gercek dolumu yakalar)
-                w['emir'].append({'oi':oi,'p':px,'ofset':px,'hedef_ofset':px,'hedef_p':px,'bb':bb,'oid':'',
-                                  'pay':0.0,'durum':'belirsiz','ack_ms':ackm,'toplu_ms':sure,'snap_ms':ackm,
-                                  'dolum_ms':None,'kapanis':'post_bilinmeyen','taze':{'ba':ba,'bb_boy':round(bb_boy,1)}})
-                durdur=True; return           # belirsizlikte C durur (fail-closed)
+            if not oid2: durdur=True; return           # belirsizlikte C durur (fail-closed)
             oid,dur=oid2,'KABUL'
         if dur=='RED':
             st['red']+=1; log('emir_RED',sym=sym,S=S,oi=oi,p=px,ofset=px,tur='taze'); return
@@ -1124,7 +1103,7 @@ def taze_izle(k,w,tk):
             try:
                 with connect(C_WS,open_timeout=8,close_timeout=2,max_queue=4096) as ws:
                     ws.send(json.dumps({"type":"subscribe","channel":"market","assets_ids":[str(tk[0]),str(tk[1])]}))
-                    while time.time()<bitis and not w.get('cozuldu') and not durdur and not DURDUR:
+                    while time.time()<bitis and not w.get('cozuldu') and not durdur:
                         try: raw=ws.recv(timeout=1.0)
                         except TimeoutError: continue
                         # v3: 'book' anlik goruntuleri asset basina en fazla 1/sn islenir (sunucu 15 sn'de 100+ basiyor;
@@ -1140,19 +1119,16 @@ def taze_izle(k,w,tk):
                         with kilit:
                             for m in ms: guncelle(m)
             except Exception as ex:
-                ws_hata+=1; log('taze_ws_hata',S=S,err=str(ex)[:80],deneme=ws_hata)
-                with kilit: lv[0]={}; lv[1]={}; ask[0]=None; ask[1]=None; son_defter.clear()   # v4: bayat defterle emir yok
-                time.sleep(1.0)
+                ws_hata+=1; log('taze_ws_hata',S=S,err=str(ex)[:80],deneme=ws_hata); time.sleep(1.0)
     son_book={}
     okur=threading.Thread(target=okuyucu,daemon=True,name=f"taze-ws-{S}"); okur.start()
-    while time.time()<bitis and not w.get('cozuldu') and not durdur and not DURDUR:
+    while time.time()<bitis and not w.get('cozuldu') and not durdur:
         if not okur.is_alive() and ws_hata>=5: break
         if time.time()-S>=C_T_MIN:
             for oi in (0,1): karar(oi)
         time.sleep(0.2)
-    if not DURDUR:                                   # kapanista ana dongu iptal eder (cift iptal yok)
-        for oi in (0,1):
-            for r in acik(oi): kapat(r,'taze_bitti',k); n_iptal+=1
+    for oi in (0,1):
+        for r in acik(oi): kapat(r,'taze_bitti',k); n_iptal+=1
     w['taze']={'koy':n_koy,'iptal':n_iptal,'ws_hata':ws_hata,'durdur':durdur}
     log('taze_bitti',sym=sym,S=S,koy=n_koy,iptal=n_iptal,ws_hata=ws_hata,durdur=durdur,
         dolan=round(sum(r.get('pay',0.0) for r in list(w['emir'])),2))
@@ -1511,15 +1487,6 @@ def tamamla(k,w):
 def pencere_bakim(k,w):
     per=w.get('per',300); yas=time.time()-k[1]; tk=TOK.get(k)
     for r in w['emir']:
-        if r['durum']=='belirsiz' and r.get('oid'):
-            # v4: belirsiz emir HER bakimda yoklanir; borsa kapandi diyorsa kapanir, LIVE ise yeniden iptal denenir
-            d,dur=dolum_oku(r['oid'])
-            if pay_ekle(r,d,'belirsiz_yoklama',k): state_kaydet()
-            if dur in ('MATCHED','CANCELED','KURU'):
-                r['durum']='kapali'; r['borsa_durum']=dur; log('BELIRSIZ_COZULDU',oid=str(r['oid'])[:12],p=r['p'],borsa=dur,pay=round(r.get('pay',0),3))
-            elif time.time()-r.get('son_iptal_deneme',0)>5.0:
-                r['son_iptal_deneme']=time.time(); kapat(r,r.get('kapanis') or 'belirsiz_tekrar',k)
-            continue
         if r['durum']!='acik': continue
         d,dur=dolum_oku(r['oid'])
         if pay_ekle(r,d,'yoklama',k): state_kaydet()   # dolum aninda yaz
@@ -1626,14 +1593,9 @@ def main():
         for kk in [kk for kk,v in pen.items() if v.get('cozuldu') and kk[1]<time.time()-3600]:
             pen.pop(kk,None)
         time.sleep(0.5)
-    # v4: once C is parcaciklarina DUR de ve bekle; yoksa ana dongu iptal ederken C yeni emir koyabiliyordu
-    globals()['DURDUR']=True
-    for th in list(TAZE_IS.values()):
-        try: th.join(timeout=4.0)
-        except Exception: pass
     for k,w in list(pen.items()):
         for r in w['emir']:
-            if r['durum'] in ('acik','belirsiz') and r.get('oid'): kapat(r,'kapanis',k)
+            if r['durum']=='acik': kapat(r,'kapanis',k)
         cozumle(k,w)
     mutabakat(); state_kaydet()
     log('bitti',sebep=sebep,pnl=round(st['pnl'],4),yerel=round(st['pnl_yerel'],4),
@@ -1865,23 +1827,6 @@ if TEST:
     ok.append(('C v3: karsi taraf 0,38 doldu, hedef 0,56 -> 0,56 (tavan 0,60 asilmiyor)', taze_hedef(0.55,0.57,0.01,10,0.0,5.0,ort_diger=0.38)==0.56, taze_hedef(0.55,0.57,0.01,10,0.0,5.0,ort_diger=0.38)))
     ok.append(('C v3: karsi taraf 0,90 doldu -> tavan 0,08 < bant -> yok', taze_hedef(0.12,0.14,0.01,10,0.0,5.0,ort_diger=0.90) is None, taze_hedef(0.12,0.14,0.01,10,0.0,5.0,ort_diger=0.90)))
     ok.append(('C v3: dengedeyken tavan uygulanmaz', taze_hedef(0.55,0.57,0.01,10,5.0,5.0,ort_diger=0.51)==0.56, taze_hedef(0.55,0.57,0.01,10,5.0,5.0,ort_diger=0.51)))
-    # --- v4 (dis denetim 09-19) ---
-    _r={'oi':0,'p':0.22,'pay':0.0,'durum':'acik','oid':'X1'}
-    _g=globals(); _eski=(_g['iptal'],_g['dolum_oku'],_g['log'])
-    _g['iptal']=lambda oid:(True,'zaten_yok'); _g['dolum_oku']=lambda oid:(0.0,'LIVE'); _g['log']=lambda kk,**kw:None
-    _t=kapat(_r,'test'); _g['iptal'],_g['dolum_oku'],_g['log']=_eski
-    ok.append(('v4 kapat: iptal "zaten_yok" + borsa LIVE -> KAPALI DEGIL, belirsiz', (not _t) and _r['durum']=='belirsiz', _r['durum']))
-    _r2={'oi':0,'p':0.22,'pay':0.0,'durum':'acik','oid':'X2'}
-    _g['iptal']=lambda oid:(True,'zaten_yok'); _g['dolum_oku']=lambda oid:(5.0,'MATCHED'); _g['log']=lambda kk,**kw:None
-    _t2=kapat(_r2,'test'); _g['iptal'],_g['dolum_oku'],_g['log']=_eski
-    ok.append(('v4 kapat: borsa MATCHED + 5 pay -> kapali ve pay 5', _t2 and _r2['durum']=='kapali' and _r2['pay']==5.0, (_r2['durum'],_r2['pay'])))
-    ok.append(('v4 tavan asagi yuvarlar: 0,98-0,515=0,465 -> 0,46', taze_hedef(0.55,0.57,0.01,10,0.0,5.0,ort_diger=0.515)==0.46, taze_hedef(0.55,0.57,0.01,10,0.0,5.0,ort_diger=0.515)))
-    ok.append(('v4 bakim: belirsiz emir yoklanir ve yeniden iptal denenir', "r['durum']=='belirsiz' and r.get('oid')" in _src and "belirsiz_tekrar" in _src, 'kaynakta var'))
-    ok.append(('v4 kapanis: DURDUR bayragi + C join + belirsiz de iptal', "globals()['DURDUR']=True" in _src and "th.join(timeout=4.0)" in _src and "r['durum'] in ('acik','belirsiz') and r.get('oid')" in _src, 'kaynakta var'))
-    ok.append(('v4 C: belirsiz varken ayni tarafa emir yok; bayat defterle emir yok', "if mesgul(oi): return" in _src and "son_defter.get(oi,0)>3.0" in _src, 'kaynakta var'))
-    ok.append(('v4 C: tavandan pahali acik emir iptal', "p>hedef+1e-9: pass" in _src, 'kaynakta var'))
-    ok.append(('v4 C: bilinmeyen POST rezerve girer', "'kapanis':'post_bilinmeyen'" in _src, 'kaynakta var'))
-    ok.append(('v4 pay_ekle kilitli', "_PAY_KILIT" in _src, 'kaynakta var'))
     ok.append(('C v3.2: book asset_id ayristirma (bosluklu/bosluksuz/yok)', taze_book_aid('{"event_type":"book","asset_id":"123abc","bids":[]}')=='123abc' and taze_book_aid('{"event_type": "book", "asset_id": "77x", "bids": []}')=='77x' and taze_book_aid('{"event_type":"book"}')=='' and taze_book_aid('')=='', 'ok'))
     ok.append(('C v3.1: hedefle ayni fiyattaki acik emir yerinde kalir (tavanli emir iptal dongusu yok)', "if hedef is not None and abs(p-hedef)<1e-9: return" in _src, 'kaynakta var'))
     ok.append(('C v3: okuyucu book anlik goruntusunu 1/sn sinirlar, JSON kilit disinda', "son_book[aid]=tn" in _src and "ms=[m for m in (d if isinstance(d,list) else [d]) if isinstance(m,dict)]" in _src, 'kaynakta var'))

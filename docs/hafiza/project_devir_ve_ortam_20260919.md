@@ -44,10 +44,16 @@ Kural: "yazıyor" ≠ "tam" — kaydediciyi bağımsız tam çekimle satır say�
 Kimlik `~/.config/chainlink_streams/creds.env` (var; `ls | head` kesmişti, "boş" sanma). Eski CLD.log'daki "no close frame"
 satırları 09-15 tarihli, yeni koşuda hata yok. Toplam 7 süreç: bot + defter + dolum kasedi + BTC tape + bosona + RTDS + Streams.
 
-**BOT LONDRA'DA (09-19 22:24Z):** AWS eu-west-2 `ubuntu@<LONDRA-SUNUCU-IP>`, anahtar `<SSH-ANAHTARI>`,
+**BOT LONDRA'DA (09-19 22:24Z):** AWS eu-west-2 `ubuntu@<LONDRA-SUNUCU-IP>`, anahtar <SSH-ANAHTARI>`,
 venv `~/polymarket/venv` (Python 3.14; py-clob-client 0.34.6 + **py-clob-client-v2 1.1.0** — canlı mod bunu ister, `--test` istemez;
 ilk başlatma bu yüzden çöktü), dizin yolu yerelle birebir (`/home/taygun/Masaüstü/polymarket/...`), `.env.live` orada (600).
 Gecikme: CLOB TCP 2-3 ms, WS ilk mesaj 34 ms (TR: TCP 26 ms, emir gönderim 124 ms). Yerel `LOG_ab.jsonl` sunucudan
 15 sn'de bir eklenerek senkronlanır (prefix özelliği: sunucudaki dosya yerelin kopyası + eklemeler) → yerel monitör/raporlar aynen çalışır.
 **Kural:** aynı hesapta iki canlı bot asla; yerelde `ab.py --live` başlatma. Durdurmak: sunucuda `touch STOP`.
 Kayıtçılar (7 süreç) yerelde kalmaya devam ediyor.
+
+**Ayrı depo (09-19 23:05Z):** `~/Masaüstü/polymarket-bosona` → https://github.com/nuxxor/polymarket-bosona (PUBLIC 09-19 23:10Z; sunucu IP ve SSH anahtar yolu depoda maskeli, 318 dosya, 42 MB).
+İçerik: bot (v3 aday + Londra'daki v2 + tüm arşiv sürümleri + loglar), kaydediciler + polymarket_bot paketi, analiz betikleri
+(izleme, bu oturum, eski oturum), veri (bosona activity, fills tape gz, Chainlink tape+backfill, BTC tape, RTDS db, kazananlar),
+docs (HANDOVER, playbook, günün dersleri/todo, 23 hafıza notu, analiz paketlerinin kod+md'si). HARİÇ: .env/.pem/creds,
+5,4 GB defter db, 1,1 GB FILL_PARTY_LEDGER (README'de yolları var). Güncelleme: klasöre kopyala + commit + push.

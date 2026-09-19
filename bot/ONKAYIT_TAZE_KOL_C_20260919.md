@@ -67,3 +67,23 @@ bosona zincir verisi: cift <0,85 +10,0 kr/pay, 0,85-0,95 +2,45, 0,95-1,00 +0,83,
   (Londra'da da her pencere basinda "1013 slow consumer" kopmasi oluyordu: 1-2 sn kor nokta).
 - Degismeyen: bant 0,15-0,60, C_DENGE 5, post tavani, KILL kosulu.
 Beklenti: cift kurulma sikligi DUSER, kurulan ciftlerin toplami <=0,98 olur; tek tarafli maruziyet ayni kalir.
+
+## v3.1 (23:15Z) — altyapi: tavanli ikinci-bacak emri her saniye iptal/yeniden konuluyordu (25 post/23 iptal,
+kuyruk sirasi kayboluyordu). Acik emir fiyati mevcut hedefe esitse yerinde kalir. Kural degismedi.
+
+## v3.2 (23:17Z) — altyapi: book asset_id dilimleme IndexError -> 5 deneme -> C is parcacigi kapandi (23:15Z C penceresi bos).
+Regex ile saglam ayristirma + test. Kural degismedi.
+
+## v4 (23:35Z) — DIS DENETIM DUZELTMELERI + YENI DENEY KIMLIGI "C-v4"
+Denetim (GPT PRO, depo 2caf660) dogrulandi: 3 gercek dolum (21:10Z Up@0,30, 21:35Z Up@0,22, 22:25Z Down@0,56; 15 pay)
+bot defterine girmemis. Kok neden: iptal yaniti "already canceled or matched" derken borsa durumu LIVE olan emir
+'kapali' sayildi (21:35Z), 'belirsiz' emirler bir daha yoklanmadi (21:10Z). Sonuc: C PnL yerel +0,18 vs kamu-kaset -0,22;
+22:25Z Londra penceresi yerel +0,75 vs gercek -2,05; Down maliyeti $12,50 (taraf tavani $10 asildi).
+Duzeltmeler (kural degil, altyapi): (1) borsa MATCHED/CANCELED demedikce emir kapali sayilmaz; (2) belirsiz emirler
+her bakimda yoklanir + 5 sn'de bir yeniden iptal; (3) kapanista DURDUR bayragi, C is parcaciklari join, belirsizler de
+iptal; (4) bilinmeyen POST rezerve girer; (5) pay_ekle kilitli; (6) defter 3 sn'den bayatsa / yeniden baglanmada emir yok;
+(7) belirsiz emir varken ayni tarafa yeni emir yok; (8) tavandan pahali acik emir iptal, tavan tik'e ASAGI yuvarlanir.
+Duzeltme notu: ON KOSUL (kismi >= %80) SAGLANMADI (%57); "mekanizma calisiyor" demek yanlisti -> "erisim var, on kosul acik".
+YENI DENEY: C-v4, 23:40Z'den itibaren AYRI sayac. Birincil olcut: NET $ / ATANAN PENCERE (sifir dolumlu dahil),
+kamu kasetle dogrulanmis dolumlarla (c_rapor kaset satiri). Ikincil: kr/pay. KILL: 60 atanan C-v4 penceresinde
+net $/pencere <= 0 VEYA A+B'den kotu -> C kapanir. Politika bu deney boyunca DEGISMEZ (altyapi hatasi haric).
