@@ -45,6 +45,6 @@ hiçbir şey atlanmadı.
   `polymarket/data/analysis/btc5m_top_actor_hunt_20260902_v1/`.
 
 ## Canlı durum (20 Eyl 2026 ~23:00Z)
-Bot Londra'da (`ubuntu@18.135.99.14`, `~/polymarket/venv`, aynı dizin yolu), sürüm v2; v3 (tamamlayıcı bacak
+Bot Londra'da (`ubuntu@<LONDRA-SUNUCU-IP>`, `~/polymarket/venv`, aynı dizin yolu), sürüm v2; v3 (tamamlayıcı bacak
 tavanı 0,98 + websocket okuyucu hafifletme) yerelde hazır, 105/105 test, canlıya alınmayı bekliyor.
 Kural: aynı hesapta iki canlı bot asla aynı anda çalışmaz.

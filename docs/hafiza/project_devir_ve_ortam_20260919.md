@@ -44,7 +44,7 @@ Kural: "yazıyor" ≠ "tam" — kaydediciyi bağımsız tam çekimle satır say�
 Kimlik `~/.config/chainlink_streams/creds.env` (var; `ls | head` kesmişti, "boş" sanma). Eski CLD.log'daki "no close frame"
 satırları 09-15 tarihli, yeni koşuda hata yok. Toplam 7 süreç: bot + defter + dolum kasedi + BTC tape + bosona + RTDS + Streams.
 
-**BOT LONDRA'DA (09-19 22:24Z):** AWS eu-west-2 `ubuntu@18.135.99.14`, anahtar `~/İndirilenler/polymarket-test-key2.pem`,
+**BOT LONDRA'DA (09-19 22:24Z):** AWS eu-west-2 `ubuntu@<LONDRA-SUNUCU-IP>`, anahtar `<SSH-ANAHTARI>`,
 venv `~/polymarket/venv` (Python 3.14; py-clob-client 0.34.6 + **py-clob-client-v2 1.1.0** — canlı mod bunu ister, `--test` istemez;
 ilk başlatma bu yüzden çöktü), dizin yolu yerelle birebir (`/home/taygun/Masaüstü/polymarket/...`), `.env.live` orada (600).
 Gecikme: CLOB TCP 2-3 ms, WS ilk mesaj 34 ms (TR: TCP 26 ms, emir gönderim 124 ms). Yerel `LOG_ab.jsonl` sunucudan

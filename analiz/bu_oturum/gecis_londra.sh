@@ -1,7 +1,7 @@
 #!/bin/bash
 # TR -> LONDRA GECIS: yerel botu STOP ile kapat, state+log'u tasi, sunucuda baslat.
 set -u
-K=~/İndirilenler/polymarket-test-key2.pem; H=ubuntu@18.135.99.14
+K=<SSH-ANAHTARI>; H=ubuntu@<LONDRA-SUNUCU-IP>
 L=/home/taygun/Masaüstü/polymarket/data/analysis/pm_merdiven_ab_20260918_v5
 R=/home/taygun/Masaüstü/polymarket/data/analysis/pm_merdiven_ab_20260918_v5
 P=$(ps -eo pid,args | grep "python3 ab.py --live" | grep -v grep | awk '{print $1}')
