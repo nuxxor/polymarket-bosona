@@ -70,3 +70,23 @@ E, D'nin tamamlayici fiyat bandina ek olarak gecerli tamamlayici emri
 giris filtresi degistigi icin iptal etmez. Kabul olcutleri ve dogrulama
 E worktree'inin `plan.md` dosyasinda. D'nin kaynagi ve canli sureci korunur;
 E `STOP_E` ile park edilir, bu gorev E'yi canli baslatmaz.
+
+## Salt okunur D/E ve Bosona karsilastirmasi — 20 Eylul 18:04 UTC
+Operator kisa yanit istedi: E/D farki, Up/Down pay oraninin gerekcesi ve
+D baslangicindan bu yana Bosona'nin ayni donemdeki gorunur performansi.
+Kabul: koddan gercek pay/tamamlama kurali; yerel pilot ve Londra baslangici
+ayri; ortak piyasalar, kapanmis PnL ve acik pozisyon ayrimi; kamudan
+iptal/kuyruk/gorunmeyen emir cikarilamaz. Emir/kaynak/runtime degistirilmez.
+
+Sonuc: D emir boyu tum kapanmis ornekte 5 pay; miktar farki yon tahmininden
+uretilmiyor. E, D'nin gecerli tamamlayici emrini korur; canli ustunluk
+olculmedi. 15:10–17:55 UTC BTC5m kohortu: 220 kamu trade/activity kimligi
+eslesti, 32 Gamma sonucu ve MERGE/REDEEM odemeleri pay bazinda eslesti.
+Bosona 32 pencerede brüt +153.238745, API USDC maliyetiyle +107.607915;
+25 ortak pencerede D +1.31920351, Bosona +620.574078 (brüt +652.430298).
+Yalniz Londra 21 ortak pencerede D +2.82000343, Bosona +679.921506.
+Iadeler/sabit giderler ve sonraki acik pencereler haric; tum hesap sonucu
+degil. Bosona 10420.87, D 412.68 pay; 0.60 ustu pay orani %73.53 / %16.96.
+Gorunmeyen iptal/kuyruk davranisi tahmin edilmedi. Emir/kod degistirilmedi.
+Kanit: data/referans/d_bosona_20260920_1808.json. Sonuc/kimlik/odeme/miktar
+assert kontrolleri gecti; dosya JSON olarak tekrar okundu.
