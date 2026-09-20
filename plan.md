@@ -61,3 +61,12 @@ Guncel D ve son muhasebe /home/ubuntu/polymarket-bosona-d yoluyla Londra
 eu-west-2a'ya tasindi. Londra 240dk baslatma komutu D worktree'indeki
 londra_d_baslat.sh; canli baslatmayi operator yapacak. $10 butce ve teyitsiz
 emir kaydi korundu; yeni acilis kapisi eski emirler dogrulanmadan ilerlemez.
+
+## Yeni kapsam: E lane, Londra'da park edilmis hazirlik
+Operator D calisirken deney 2'yi ayri E olarak hazirlayip Londra'ya kurmayi,
+baslatmadan bekletmeyi istedi. Izole worktree:
+`/home/taygun/Masaüstü/polymarket-bosona-e` (`lane-e` dali).
+E, D'nin tamamlayici fiyat bandina ek olarak gecerli tamamlayici emri
+giris filtresi degistigi icin iptal etmez. Kabul olcutleri ve dogrulama
+E worktree'inin `plan.md` dosyasinda. D'nin kaynagi ve canli sureci korunur;
+E `STOP_E` ile park edilir, bu gorev E'yi canli baslatmaz.
