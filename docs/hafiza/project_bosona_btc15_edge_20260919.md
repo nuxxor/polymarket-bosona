@@ -25,6 +25,14 @@ bid−0,02 → **−8,66 kr/pay, ters secim −28,4 puan**, dolum %54,6. Fark ye
 bizim simulasyonda emir hic iptal edilmiyor, fiyat degince hep doluyoruz; o 285 pazarda 109 dolum
 aliyor ve zehirli olanlari almiyor. Kill list zaten "icra avantaji olmadan acma" diyordu.
 
+**09-20 16:10 TSI — ILK TAKIP OKUMASI (live_mirror3, 00:45-09:43 UTC, 565 settle pazar):**
+bosona **−$65 (−0,27 kr/pay)** · mirror_15m **−$165 (−0,45)** · mirror_btc15 −$520 (−3,03) ·
+notaker −$400 · single −$184. **Isaret uyumu 0,56-0,70, korelasyon 0,39-0,43** (30-61 ortak pencere).
+→ O kaybetti, biz de kaybettik: YON TAKIBI CALISIYOR; BUYUKLUK 2-12x sapiyor (onun kr/pay'i cok daha kucuk).
+Operatorun olcutune gore dogru yoldayiz. Sistem: makine 12:48 UTC reboot, surecler 09:44'te olmus
+(3,3 saat bosluk); capture v1 KAPALI birakildi (disk 492 GB, ~85 GB/gun → ~5,8 gun). CANLI: `live_mirror4`
+(13:15 UTC aktivasyon, 4 ayna dunyasi).
+
 **09-20 03:30 TSI — O BTC15'E KAYDI, UCUZ CIFT TAMAMLAMA AYNAYA EKLENDI:** son 90 dk hacminin
 %84'u btc-updown-15m (3 saat once %34, BTC5m sifir). Olculdu: 0,20 alti alimlarin **83/94'u elinde
 karsi taraf varken** (cift tamamlama), medyan t=746 sn, medyan fiyat 0,07, medyan 22 pay.

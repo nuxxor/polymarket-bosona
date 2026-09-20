@@ -1,0 +1,4308 @@
+{
+  "kapsam_baslangic": 1789824960,
+  "log_son_utc_ms": 1789863935850,
+  "kaynak_sha256": "f313f1d2cc2f40e2b31d7629819a6ca6b23539ec6f80ea7422d48ffff5fea9a1",
+  "cuzdan_sha256": "26788a7ebe13e00ac57a30ed9f08fbdba0ab62c7e7eea0024890ae24f9a4dc6a",
+  "api_okundu": true,
+  "api_sadece_kayit": 77,
+  "kaset_sadece_kayit": 0,
+  "state_pencere": 71,
+  "log_pencere": 96,
+  "kapsam": "Islem PnL: alis/satis + sonuc odemesi; rebate, taker ucreti ve sabit gider HARIC.",
+  "durumlar": {
+    "SIFIR_DOLUM": 18,
+    "UYUMLU": 45,
+    "YUVARLAMA": 24,
+    "FARK": 6,
+    "YEREL_SONUC_YOK": 3
+  },
+  "kollar": {
+    "A": {
+      "atanan": 45,
+      "sonucu_bilinen": 45,
+      "islem_pnl": -16.086042999872127,
+      "usd_atanan_pencere": -0.3574676222193806
+    },
+    "B": {
+      "atanan": 36,
+      "sonucu_bilinen": 36,
+      "islem_pnl": 3.452660999850243,
+      "usd_atanan_pencere": 0.09590724999584008
+    },
+    "C": {
+      "atanan": 15,
+      "sonucu_bilinen": 15,
+      "islem_pnl": -2.5610509998653006,
+      "usd_atanan_pencere": -0.17073673332435338
+    }
+  },
+  "pencereler": [
+    {
+      "S": 1789825200,
+      "kol": "A",
+      "kaynak_sha": "9d1c2ba1cdc6",
+      "durum": "SIFIR_DOLUM",
+      "kazanan": 1,
+      "yerel_pnl": 0,
+      "yerel_q": [
+        0.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      }
+    },
+    {
+      "S": 1789825500,
+      "kol": "A",
+      "kaynak_sha": "9d1c2ba1cdc6",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": -1.5,
+      "yerel_q": [
+        0.0,
+        5.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          5.0
+        ],
+        "maliyet": 1.5,
+        "pnl": -1.5,
+        "seviyeler": {
+          "1|0.3": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789825800,
+      "kol": "A",
+      "kaynak_sha": "9d1c2ba1cdc6",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": 18.4,
+      "yerel_q": [
+        25.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          25.0,
+          0.0
+        ],
+        "maliyet": 6.6,
+        "pnl": 18.4,
+        "seviyeler": {
+          "0|0.2": 5.0,
+          "0|0.22": 5.0,
+          "0|0.26": 5.0,
+          "0|0.3": 5.0,
+          "0|0.34": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789826100,
+      "kol": "A",
+      "kaynak_sha": "9d1c2ba1cdc6",
+      "durum": "SIFIR_DOLUM",
+      "kazanan": 0,
+      "yerel_pnl": 0,
+      "yerel_q": [
+        0.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      }
+    },
+    {
+      "S": 1789826400,
+      "kol": "A",
+      "kaynak_sha": "9d1c2ba1cdc6",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": 3.7,
+      "yerel_q": [
+        5.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          5.0,
+          0.0
+        ],
+        "maliyet": 1.3,
+        "pnl": 3.7,
+        "seviyeler": {
+          "0|0.26": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789826700,
+      "kol": "A",
+      "kaynak_sha": "9d1c2ba1cdc6",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": -2.1,
+      "yerel_q": [
+        0.0,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          10.0
+        ],
+        "maliyet": 2.1,
+        "pnl": -2.1,
+        "seviyeler": {
+          "1|0.2": 5.0,
+          "1|0.22": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789827000,
+      "kol": "A",
+      "kaynak_sha": "9d1c2ba1cdc6",
+      "durum": "SIFIR_DOLUM",
+      "kazanan": 1,
+      "yerel_pnl": 0,
+      "yerel_q": [
+        0.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      }
+    },
+    {
+      "S": 1789827300,
+      "kol": "A",
+      "kaynak_sha": "d3d67e32b018",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": -2.4,
+      "yerel_q": [
+        0.0,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          10.0
+        ],
+        "maliyet": 2.4,
+        "pnl": -2.4,
+        "seviyeler": {
+          "1|0.22": 5.0,
+          "1|0.26": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789827600,
+      "kol": "A",
+      "kaynak_sha": "d3d67e32b018",
+      "durum": "YUVARLAMA",
+      "kazanan": 0,
+      "yerel_pnl": -2.8,
+      "yerel_q": [
+        0.0,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          -0.00027000000000043656
+        ],
+        "maliyet": -7.00000459019634e-05,
+        "pnl": 7.00000459019634e-05
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          9.99973
+        ],
+        "maliyet": 2.799929999954098,
+        "pnl": -2.799929999954098,
+        "seviyeler": {
+          "1|0.26": 4.99973,
+          "1|0.3": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789827900,
+      "kol": "A",
+      "kaynak_sha": "d3d67e32b018",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": -2.8,
+      "yerel_q": [
+        0.0,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          10.0
+        ],
+        "maliyet": 2.8,
+        "pnl": -2.8,
+        "seviyeler": {
+          "1|0.26": 5.0,
+          "1|0.3": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789828200,
+      "kol": "A",
+      "kaynak_sha": "d3d67e32b018",
+      "durum": "YUVARLAMA",
+      "kazanan": 1,
+      "yerel_pnl": 3.7,
+      "yerel_q": [
+        14.99,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          1.699999999971169e-05,
+          0.0
+        ],
+        "maliyet": -0.0029829997862727,
+        "pnl": 0.002982999786273144
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          14.990017,
+          10.0
+        ],
+        "maliyet": 6.297017000213727,
+        "pnl": 3.7029829997862733,
+        "seviyeler": {
+          "0|0.26": 4.994865,
+          "0|0.3": 5.0,
+          "0|0.34": 4.995152,
+          "1|0.16": 5.0,
+          "1|0.2": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789828500,
+      "kol": "A",
+      "kaynak_sha": "d3d67e32b018",
+      "durum": "YUVARLAMA",
+      "kazanan": 1,
+      "yerel_pnl": 1.2,
+      "yerel_q": [
+        19.98,
+        9.99
+      ],
+      "fark": {
+        "q": [
+          0.008385999999998006,
+          -4.000000000559112e-06
+        ],
+        "maliyet": 0.003986999995539975,
+        "pnl": -0.003990999995539646
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          19.988386,
+          9.989996
+        ],
+        "maliyet": 8.79398699999554,
+        "pnl": 1.1960090000044603,
+        "seviyeler": {
+          "0|0.22": 4.9941,
+          "0|0.26": 5.0,
+          "0|0.3": 4.994286,
+          "0|0.34": 5.0,
+          "1|0.3": 4.989996,
+          "1|0.34": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789829100,
+      "kol": "A",
+      "kaynak_sha": "d3d67e32b018",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": 5.0,
+      "yerel_q": [
+        25.0,
+        15.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          25.0,
+          15.0
+        ],
+        "maliyet": 10.0,
+        "pnl": 5.0,
+        "seviyeler": {
+          "0|0.2": 5.0,
+          "0|0.22": 5.0,
+          "0|0.26": 5.0,
+          "0|0.3": 5.0,
+          "0|0.34": 5.0,
+          "1|0.2": 5.0,
+          "1|0.22": 5.0,
+          "1|0.26": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789829400,
+      "kol": "A",
+      "kaynak_sha": "d3d67e32b018",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": 7.3,
+      "yerel_q": [
+        10.0,
+        15.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          10.0,
+          15.0
+        ],
+        "maliyet": 7.7,
+        "pnl": 7.3,
+        "seviyeler": {
+          "0|0.3": 5.0,
+          "0|0.34": 5.0,
+          "1|0.26": 5.0,
+          "1|0.3": 5.0,
+          "1|0.34": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789829700,
+      "kol": "A",
+      "kaynak_sha": "d3d67e32b018",
+      "durum": "YUVARLAMA",
+      "kazanan": 0,
+      "yerel_pnl": -1.0,
+      "yerel_q": [
+        5.0,
+        14.99
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          -0.0029370000000010776
+        ],
+        "maliyet": -0.003535000000449706,
+        "pnl": 0.0035350000004500393
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          5.0,
+          14.987063
+        ],
+        "maliyet": 5.99646499999955,
+        "pnl": -0.99646499999955,
+        "seviyeler": {
+          "0|0.3": 5.0,
+          "1|0.26": 4.99135,
+          "1|0.3": 4.995713,
+          "1|0.34": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789830000,
+      "kol": "A",
+      "kaynak_sha": "d3d67e32b018",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": -3.2,
+      "yerel_q": [
+        0.0,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          10.0
+        ],
+        "maliyet": 3.2,
+        "pnl": -3.2,
+        "seviyeler": {
+          "1|0.3": 5.0,
+          "1|0.34": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789830300,
+      "kol": "A",
+      "kaynak_sha": "d3d67e32b018",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": -2.1,
+      "yerel_q": [
+        0.0,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          10.0
+        ],
+        "maliyet": 2.1,
+        "pnl": -2.1,
+        "seviyeler": {
+          "1|0.2": 5.0,
+          "1|0.22": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789830600,
+      "kol": "A",
+      "kaynak_sha": "d3d67e32b018",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": -3.2,
+      "yerel_q": [
+        0.0,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          10.0
+        ],
+        "maliyet": 3.2,
+        "pnl": -3.2,
+        "seviyeler": {
+          "1|0.3": 5.0,
+          "1|0.34": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789830900,
+      "kol": "B",
+      "kaynak_sha": "3b3c0f543356",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": 9.65,
+      "yerel_q": [
+        0.0,
+        15.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          15.0
+        ],
+        "maliyet": 5.35,
+        "pnl": 9.65,
+        "seviyeler": {
+          "1|0.33": 5.0,
+          "1|0.34": 5.0,
+          "1|0.4": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          15.0
+        ],
+        "maliyet": 5.35,
+        "pnl": 9.65,
+        "seviyeler": {
+          "1|0.33": 5.0,
+          "1|0.34": 5.0,
+          "1|0.4": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789831500,
+      "kol": "B",
+      "kaynak_sha": "b56a3b3853c4",
+      "durum": "SIFIR_DOLUM",
+      "kazanan": 1,
+      "yerel_pnl": 0,
+      "yerel_q": [
+        0.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      }
+    },
+    {
+      "S": 1789831800,
+      "kol": "B",
+      "kaynak_sha": "02127ae22be1",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": -1.8,
+      "yerel_q": [
+        0.0,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          10.0
+        ],
+        "maliyet": 1.8,
+        "pnl": -1.8,
+        "seviyeler": {
+          "1|0.16": 5.0,
+          "1|0.2": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          10.0
+        ],
+        "maliyet": 1.8,
+        "pnl": -1.8,
+        "seviyeler": {
+          "1|0.16": 5.0,
+          "1|0.2": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789832100,
+      "kol": "A",
+      "kaynak_sha": "02127ae22be1",
+      "durum": "YUVARLAMA",
+      "kazanan": 0,
+      "yerel_pnl": -3.2,
+      "yerel_q": [
+        0.0,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          -0.004848000000000852
+        ],
+        "maliyet": -0.0016479999998977313,
+        "pnl": 0.0016479999998977313
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          9.995152
+        ],
+        "maliyet": 3.1983520000001024,
+        "pnl": -3.1983520000001024,
+        "seviyeler": {
+          "1|0.3": 5.0,
+          "1|0.34": 4.995152
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          9.995152
+        ],
+        "maliyet": 3.1983520000001024,
+        "pnl": -3.1983520000001024,
+        "seviyeler": {
+          "1|0.3": 5.0,
+          "1|0.34": 4.995152
+        }
+      }
+    },
+    {
+      "S": 1789832400,
+      "kol": "A",
+      "kaynak_sha": "02127ae22be1",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": -2.1,
+      "yerel_q": [
+        0.0,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          10.0
+        ],
+        "maliyet": 2.1,
+        "pnl": -2.1,
+        "seviyeler": {
+          "1|0.2": 5.0,
+          "1|0.22": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          10.0
+        ],
+        "maliyet": 2.1,
+        "pnl": -2.1,
+        "seviyeler": {
+          "1|0.2": 5.0,
+          "1|0.22": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789832700,
+      "kol": "B",
+      "kaynak_sha": "7df20165e057",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": -1.8,
+      "yerel_q": [
+        10.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          10.0,
+          0.0
+        ],
+        "maliyet": 1.8,
+        "pnl": -1.8,
+        "seviyeler": {
+          "0|0.16": 5.0,
+          "0|0.2": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          10.0,
+          0.0
+        ],
+        "maliyet": 1.8,
+        "pnl": -1.8,
+        "seviyeler": {
+          "0|0.16": 5.0,
+          "0|0.2": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789833000,
+      "kol": "B",
+      "kaynak_sha": "be84f831cb2b",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": -0.45,
+      "yerel_q": [
+        0.0,
+        5.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          5.0
+        ],
+        "maliyet": 0.45,
+        "pnl": -0.45,
+        "seviyeler": {
+          "1|0.09": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          5.0
+        ],
+        "maliyet": 0.45,
+        "pnl": -0.45,
+        "seviyeler": {
+          "1|0.09": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789833900,
+      "kol": "B",
+      "kaynak_sha": "be84f831cb2b",
+      "durum": "FARK",
+      "kazanan": 0,
+      "yerel_pnl": -1.8,
+      "yerel_q": [
+        0.0,
+        9.99
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          5.0024999999999995
+        ],
+        "maliyet": 0.5984999999999998,
+        "pnl": -0.5984999999999998
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          14.9925
+        ],
+        "maliyet": 2.3985,
+        "pnl": -2.3985,
+        "seviyeler": {
+          "1|0.12": 5.0,
+          "1|0.16": 5.0,
+          "1|0.2": 4.9925
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          14.9925
+        ],
+        "maliyet": 2.3985,
+        "pnl": -2.3985,
+        "seviyeler": {
+          "1|0.12": 5.0,
+          "1|0.16": 5.0,
+          "1|0.2": 4.9925
+        }
+      }
+    },
+    {
+      "S": 1789834200,
+      "kol": "A",
+      "kaynak_sha": "be84f831cb2b",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": -4.5,
+      "yerel_q": [
+        0.0,
+        15.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          15.0
+        ],
+        "maliyet": 4.5,
+        "pnl": -4.5,
+        "seviyeler": {
+          "1|0.26": 5.0,
+          "1|0.3": 5.0,
+          "1|0.34": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          15.0
+        ],
+        "maliyet": 4.5,
+        "pnl": -4.5,
+        "seviyeler": {
+          "1|0.26": 5.0,
+          "1|0.3": 5.0,
+          "1|0.34": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789834500,
+      "kol": "B",
+      "kaynak_sha": "be84f831cb2b",
+      "durum": "YUVARLAMA",
+      "kazanan": 0,
+      "yerel_pnl": -2.85,
+      "yerel_q": [
+        0.0,
+        19.990000000000002
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.004832999999997867
+        ],
+        "maliyet": -0.00046499996662108245,
+        "pnl": 0.00046499996662108245
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          19.994833
+        ],
+        "maliyet": 2.849535000033379,
+        "pnl": -2.849535000033379,
+        "seviyeler": {
+          "1|0.09": 4.994833,
+          "1|0.12": 5.0,
+          "1|0.16": 5.0,
+          "1|0.2": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          19.994833
+        ],
+        "maliyet": 2.849535000033379,
+        "pnl": -2.849535000033379,
+        "seviyeler": {
+          "1|0.09": 4.994833,
+          "1|0.12": 5.0,
+          "1|0.16": 5.0,
+          "1|0.2": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789838400,
+      "kol": "A",
+      "kaynak_sha": "be84f831cb2b",
+      "durum": "SIFIR_DOLUM",
+      "kazanan": 1,
+      "yerel_pnl": 0,
+      "yerel_q": [
+        0,
+        0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": true,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      }
+    },
+    {
+      "S": 1789838700,
+      "kol": "B",
+      "kaynak_sha": "be84f831cb2b",
+      "durum": "SIFIR_DOLUM",
+      "kazanan": 1,
+      "yerel_pnl": 0,
+      "yerel_q": [
+        0,
+        0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": true,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      }
+    },
+    {
+      "S": 1789839000,
+      "kol": "A",
+      "kaynak_sha": "be84f831cb2b",
+      "durum": "SIFIR_DOLUM",
+      "kazanan": 0,
+      "yerel_pnl": 0,
+      "yerel_q": [
+        0,
+        0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": true,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      }
+    },
+    {
+      "S": 1789841400,
+      "kol": "A",
+      "kaynak_sha": "be84f831cb2b",
+      "durum": "SIFIR_DOLUM",
+      "kazanan": 1,
+      "yerel_pnl": 0,
+      "yerel_q": [
+        0,
+        0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": true,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      }
+    },
+    {
+      "S": 1789841700,
+      "kol": "B",
+      "kaynak_sha": "be84f831cb2b",
+      "durum": "SIFIR_DOLUM",
+      "kazanan": 0,
+      "yerel_pnl": 0,
+      "yerel_q": [
+        0,
+        0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": true,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      }
+    },
+    {
+      "S": 1789845000,
+      "kol": "B",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": -1.8,
+      "yerel_q": [
+        10.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          10.0,
+          0.0
+        ],
+        "maliyet": 1.8,
+        "pnl": -1.8,
+        "seviyeler": {
+          "0|0.16": 5.0,
+          "0|0.2": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          10.0,
+          0.0
+        ],
+        "maliyet": 1.8,
+        "pnl": -1.8,
+        "seviyeler": {
+          "0|0.16": 5.0,
+          "0|0.2": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789845300,
+      "kol": "B",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "FARK",
+      "kazanan": 1,
+      "yerel_pnl": -1.8,
+      "yerel_q": [
+        10.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          -5.0,
+          0.0
+        ],
+        "maliyet": -1.0,
+        "pnl": 1.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          5.0,
+          0.0
+        ],
+        "maliyet": 0.8,
+        "pnl": -0.8,
+        "seviyeler": {
+          "0|0.16": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789845600,
+      "kol": "A",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "YUVARLAMA",
+      "kazanan": 0,
+      "yerel_pnl": -2.4,
+      "yerel_q": [
+        0.0,
+        9.98
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0056960000000003674
+        ],
+        "maliyet": -0.00340099985577913,
+        "pnl": 0.00340099985577913
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          9.985696
+        ],
+        "maliyet": 2.396599000144221,
+        "pnl": -2.396599000144221,
+        "seviyeler": {
+          "1|0.22": 4.99205,
+          "1|0.26": 4.993646
+        }
+      }
+    },
+    {
+      "S": 1789845900,
+      "kol": "B",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": -1.8,
+      "yerel_q": [
+        10.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          10.0,
+          0.0
+        ],
+        "maliyet": 1.8,
+        "pnl": -1.8,
+        "seviyeler": {
+          "0|0.16": 5.0,
+          "0|0.2": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789846200,
+      "kol": "A",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": -2.8,
+      "yerel_q": [
+        10.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          10.0,
+          0.0
+        ],
+        "maliyet": 2.8,
+        "pnl": -2.8,
+        "seviyeler": {
+          "0|0.26": 5.0,
+          "0|0.3": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789846500,
+      "kol": "A",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "SIFIR_DOLUM",
+      "kazanan": 1,
+      "yerel_pnl": 0,
+      "yerel_q": [
+        0,
+        0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": true,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      }
+    },
+    {
+      "S": 1789846800,
+      "kol": "A",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "SIFIR_DOLUM",
+      "kazanan": 1,
+      "yerel_pnl": 0,
+      "yerel_q": [
+        0,
+        0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": true,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      }
+    },
+    {
+      "S": 1789847100,
+      "kol": "A",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "SIFIR_DOLUM",
+      "kazanan": 0,
+      "yerel_pnl": 0,
+      "yerel_q": [
+        0,
+        0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": true,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      }
+    },
+    {
+      "S": 1789847400,
+      "kol": "B",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "SIFIR_DOLUM",
+      "kazanan": 0,
+      "yerel_pnl": 0,
+      "yerel_q": [
+        0,
+        0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": true,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      }
+    },
+    {
+      "S": 1789847700,
+      "kol": "B",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "SIFIR_DOLUM",
+      "kazanan": 1,
+      "yerel_pnl": 0,
+      "yerel_q": [
+        0,
+        0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": true,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      }
+    },
+    {
+      "S": 1789848000,
+      "kol": "B",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "SIFIR_DOLUM",
+      "kazanan": 0,
+      "yerel_pnl": 0,
+      "yerel_q": [
+        0,
+        0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": true,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      }
+    },
+    {
+      "S": 1789848300,
+      "kol": "A",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "SIFIR_DOLUM",
+      "kazanan": 0,
+      "yerel_pnl": 0,
+      "yerel_q": [
+        0,
+        0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": true,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      }
+    },
+    {
+      "S": 1789848600,
+      "kol": "B",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "SIFIR_DOLUM",
+      "kazanan": 1,
+      "yerel_pnl": 0,
+      "yerel_q": [
+        0,
+        0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": true,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      }
+    },
+    {
+      "S": 1789848900,
+      "kol": "B",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": -1.8,
+      "yerel_q": [
+        10.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          10.0,
+          0.0
+        ],
+        "maliyet": 1.8,
+        "pnl": -1.8,
+        "seviyeler": {
+          "0|0.16": 5.0,
+          "0|0.2": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          10.0,
+          0.0
+        ],
+        "maliyet": 1.8,
+        "pnl": -1.8,
+        "seviyeler": {
+          "0|0.16": 5.0,
+          "0|0.2": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789849200,
+      "kol": "A",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "YUVARLAMA",
+      "kazanan": 0,
+      "yerel_pnl": -2.1,
+      "yerel_q": [
+        0.0,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          -0.0030780000000003582
+        ],
+        "maliyet": -0.0006770000770059958,
+        "pnl": 0.0006770000770059958
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          9.996922
+        ],
+        "maliyet": 2.099322999922994,
+        "pnl": -2.099322999922994,
+        "seviyeler": {
+          "1|0.2": 5.0,
+          "1|0.22": 4.996922
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          9.996922
+        ],
+        "maliyet": 2.099322999922994,
+        "pnl": -2.099322999922994,
+        "seviyeler": {
+          "1|0.2": 5.0,
+          "1|0.22": 4.996922
+        }
+      }
+    },
+    {
+      "S": 1789849500,
+      "kol": "B",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "YUVARLAMA",
+      "kazanan": 1,
+      "yerel_pnl": -1.8,
+      "yerel_q": [
+        10.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          -0.0024999999999995026,
+          0.0
+        ],
+        "maliyet": -0.0004999999999999449,
+        "pnl": 0.0004999999999999449
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          9.9975,
+          0.0
+        ],
+        "maliyet": 1.7995,
+        "pnl": -1.7995,
+        "seviyeler": {
+          "0|0.16": 5.0,
+          "0|0.2": 4.9975
+        }
+      },
+      "api": {
+        "q": [
+          9.9975,
+          0.0
+        ],
+        "maliyet": 1.7995,
+        "pnl": -1.7995,
+        "seviyeler": {
+          "0|0.16": 5.0,
+          "0|0.2": 4.9975
+        }
+      }
+    },
+    {
+      "S": 1789849800,
+      "kol": "B",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": -1.0,
+      "yerel_q": [
+        5.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          5.0,
+          0.0
+        ],
+        "maliyet": 1.0,
+        "pnl": -1.0,
+        "seviyeler": {
+          "0|0.2": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          5.0,
+          0.0
+        ],
+        "maliyet": 1.0,
+        "pnl": -1.0,
+        "seviyeler": {
+          "0|0.2": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789850100,
+      "kol": "A",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "YUVARLAMA",
+      "kazanan": 0,
+      "yerel_pnl": -6.6,
+      "yerel_q": [
+        0.0,
+        25.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          -0.004847999999999075
+        ],
+        "maliyet": -0.0016480000235183923,
+        "pnl": 0.0016480000235183923
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          24.995152
+        ],
+        "maliyet": 6.598351999976481,
+        "pnl": -6.598351999976481,
+        "seviyeler": {
+          "1|0.2": 5.0,
+          "1|0.22": 5.0,
+          "1|0.26": 5.0,
+          "1|0.3": 5.0,
+          "1|0.34": 4.995152
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          24.995152
+        ],
+        "maliyet": 6.598351999976481,
+        "pnl": -6.598351999976481,
+        "seviyeler": {
+          "1|0.2": 5.0,
+          "1|0.22": 5.0,
+          "1|0.26": 5.0,
+          "1|0.3": 5.0,
+          "1|0.34": 4.995152
+        }
+      }
+    },
+    {
+      "S": 1789850400,
+      "kol": "B",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "YUVARLAMA",
+      "kazanan": 0,
+      "yerel_pnl": 3.8,
+      "yerel_q": [
+        4.99,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.004610999999999699,
+          0.0
+        ],
+        "maliyet": -0.00048500003080076404,
+        "pnl": -0.004903999969199102
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          4.994611,
+          10.0
+        ],
+        "maliyet": 1.1995149999691992,
+        "pnl": 3.7950960000308007,
+        "seviyeler": {
+          "0|0.09": 4.994611,
+          "1|0.06": 5.0,
+          "1|0.09": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          4.994611,
+          10.0
+        ],
+        "maliyet": 1.1995149999691992,
+        "pnl": 3.7950960000308007,
+        "seviyeler": {
+          "0|0.09": 4.994611,
+          "1|0.06": 5.0,
+          "1|0.09": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789850700,
+      "kol": "B",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "YUVARLAMA",
+      "kazanan": 1,
+      "yerel_pnl": -1.8,
+      "yerel_q": [
+        10.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          -0.001875000000000071,
+          0.0
+        ],
+        "maliyet": -0.0003750000000000142,
+        "pnl": 0.0003750000000000142
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          9.998125,
+          0.0
+        ],
+        "maliyet": 1.799625,
+        "pnl": -1.799625,
+        "seviyeler": {
+          "0|0.16": 5.0,
+          "0|0.2": 4.998125
+        }
+      },
+      "api": {
+        "q": [
+          9.998125,
+          0.0
+        ],
+        "maliyet": 1.799625,
+        "pnl": -1.799625,
+        "seviyeler": {
+          "0|0.16": 5.0,
+          "0|0.2": 4.998125
+        }
+      }
+    },
+    {
+      "S": 1789851000,
+      "kol": "A",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "YUVARLAMA",
+      "kazanan": 1,
+      "yerel_pnl": -3.2,
+      "yerel_q": [
+        10.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          -0.00015299999999918157,
+          0.0
+        ],
+        "maliyet": -5.2000218642600515e-05,
+        "pnl": 5.2000218642600515e-05
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          9.999847,
+          0.0
+        ],
+        "maliyet": 3.1999479997813576,
+        "pnl": -3.1999479997813576,
+        "seviyeler": {
+          "0|0.3": 5.0,
+          "0|0.34": 4.999847
+        }
+      },
+      "api": {
+        "q": [
+          9.999847,
+          0.0
+        ],
+        "maliyet": 3.1999479997813576,
+        "pnl": -3.1999479997813576,
+        "seviyeler": {
+          "0|0.3": 5.0,
+          "0|0.34": 4.999847
+        }
+      }
+    },
+    {
+      "S": 1789851300,
+      "kol": "A",
+      "kaynak_sha": "c3ecc93d10c3",
+      "durum": "YUVARLAMA",
+      "kazanan": 0,
+      "yerel_pnl": 6.8,
+      "yerel_q": [
+        10.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          -0.0030300000000007543,
+          0.0
+        ],
+        "maliyet": -0.0010300000757301753,
+        "pnl": -0.001999999924270135
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          9.99697,
+          0.0
+        ],
+        "maliyet": 3.19896999992427,
+        "pnl": 6.79800000007573,
+        "seviyeler": {
+          "0|0.3": 5.0,
+          "0|0.34": 4.99697
+        }
+      },
+      "api": {
+        "q": [
+          9.99697,
+          0.0
+        ],
+        "maliyet": 3.19896999992427,
+        "pnl": 6.79800000007573,
+        "seviyeler": {
+          "0|0.3": 5.0,
+          "0|0.34": 4.99697
+        }
+      }
+    },
+    {
+      "S": 1789851900,
+      "kol": "A",
+      "kaynak_sha": "0459eae11d1a",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": -4.9,
+      "yerel_q": [
+        20.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          20.0,
+          0.0
+        ],
+        "maliyet": 4.9,
+        "pnl": -4.9,
+        "seviyeler": {
+          "0|0.2": 5.0,
+          "0|0.22": 5.0,
+          "0|0.26": 5.0,
+          "0|0.3": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          20.0,
+          0.0
+        ],
+        "maliyet": 4.9,
+        "pnl": -4.9,
+        "seviyeler": {
+          "0|0.2": 5.0,
+          "0|0.22": 5.0,
+          "0|0.26": 5.0,
+          "0|0.3": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789852200,
+      "kol": "C",
+      "kaynak_sha": "0459eae11d1a",
+      "durum": "FARK",
+      "kazanan": 1,
+      "yerel_pnl": -2.95,
+      "yerel_q": [
+        10.0,
+        0
+      ],
+      "fark": {
+        "q": [
+          5.0,
+          0.0
+        ],
+        "maliyet": 1.5,
+        "pnl": -1.5
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          15.0,
+          0.0
+        ],
+        "maliyet": 4.45,
+        "pnl": -4.45,
+        "seviyeler": {
+          "0|0.28": 5.0,
+          "0|0.3": 5.0,
+          "0|0.31": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          15.0,
+          0.0
+        ],
+        "maliyet": 4.45,
+        "pnl": -4.45,
+        "seviyeler": {
+          "0|0.28": 5.0,
+          "0|0.3": 5.0,
+          "0|0.31": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789852500,
+      "kol": "B",
+      "kaynak_sha": "0459eae11d1a",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": 7.3,
+      "yerel_q": [
+        15.0,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          15.0,
+          10.0
+        ],
+        "maliyet": 2.7,
+        "pnl": 7.3,
+        "seviyeler": {
+          "0|0.03": 5.0,
+          "0|0.06": 5.0,
+          "0|0.09": 5.0,
+          "1|0.16": 5.0,
+          "1|0.2": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          15.0,
+          10.0
+        ],
+        "maliyet": 2.7,
+        "pnl": 7.3,
+        "seviyeler": {
+          "0|0.03": 5.0,
+          "0|0.06": 5.0,
+          "0|0.09": 5.0,
+          "1|0.16": 5.0,
+          "1|0.2": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789852800,
+      "kol": "C",
+      "kaynak_sha": "0459eae11d1a",
+      "durum": "YUVARLAMA",
+      "kazanan": 0,
+      "yerel_pnl": 6.05,
+      "yerel_q": [
+        10.0,
+        0
+      ],
+      "fark": {
+        "q": [
+          -0.004848000000000852,
+          0.0
+        ],
+        "maliyet": -0.0016480001680512224,
+        "pnl": -0.003199999831948297
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          9.995152,
+          0.0
+        ],
+        "maliyet": 3.948351999831949,
+        "pnl": 6.0468000001680515,
+        "seviyeler": {
+          "0|0.34": 4.995152,
+          "0|0.45": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          9.995152,
+          0.0
+        ],
+        "maliyet": 3.948351999831949,
+        "pnl": 6.0468000001680515,
+        "seviyeler": {
+          "0|0.34": 4.995152,
+          "0|0.45": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789853100,
+      "kol": "C",
+      "kaynak_sha": "0459eae11d1a",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": -3.2,
+      "yerel_q": [
+        5.0,
+        15.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          5.0,
+          15.0
+        ],
+        "maliyet": 8.2,
+        "pnl": -3.2,
+        "seviyeler": {
+          "0|0.59": 5.0,
+          "1|0.33": 5.0,
+          "1|0.34": 5.0,
+          "1|0.38": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          5.0,
+          15.0
+        ],
+        "maliyet": 8.2,
+        "pnl": -3.2,
+        "seviyeler": {
+          "0|0.59": 5.0,
+          "1|0.33": 5.0,
+          "1|0.34": 5.0,
+          "1|0.38": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789853400,
+      "kol": "C",
+      "kaynak_sha": "0459eae11d1a",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": -3.25,
+      "yerel_q": [
+        15.0,
+        5.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          15.0,
+          5.0
+        ],
+        "maliyet": 8.25,
+        "pnl": -3.25,
+        "seviyeler": {
+          "0|0.31": 5.0,
+          "0|0.37": 10.0,
+          "1|0.6": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          15.0,
+          5.0
+        ],
+        "maliyet": 8.25,
+        "pnl": -3.25,
+        "seviyeler": {
+          "0|0.31": 5.0,
+          "0|0.37": 10.0,
+          "1|0.6": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789853700,
+      "kol": "C",
+      "kaynak_sha": "0459eae11d1a",
+      "durum": "FARK",
+      "kazanan": 0,
+      "yerel_pnl": 8.14,
+      "yerel_q": [
+        9.98,
+        0
+      ],
+      "fark": {
+        "q": [
+          5.002595999999999,
+          0.0
+        ],
+        "maliyet": 1.096798000000058,
+        "pnl": 3.8957979999999424
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          14.982596,
+          0.0
+        ],
+        "maliyet": 2.946798000000058,
+        "pnl": 12.035797999999943,
+        "seviyeler": {
+          "0|0.16": 4.99095,
+          "0|0.21": 4.991646,
+          "0|0.22": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          14.982596,
+          0.0
+        ],
+        "maliyet": 2.946798000000058,
+        "pnl": 12.035797999999943,
+        "seviyeler": {
+          "0|0.16": 4.99095,
+          "0|0.21": 4.991646,
+          "0|0.22": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789854000,
+      "kol": "C",
+      "kaynak_sha": "0459eae11d1a",
+      "durum": "YUVARLAMA",
+      "kazanan": 1,
+      "yerel_pnl": -4.5,
+      "yerel_q": [
+        10.0,
+        0
+      ],
+      "fark": {
+        "q": [
+          -0.0018180000000000973,
+          0.0
+        ],
+        "maliyet": -0.0008179999999899934,
+        "pnl": 0.0008179999999899934
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          9.998182,
+          0.0
+        ],
+        "maliyet": 4.49918200000001,
+        "pnl": -4.49918200000001,
+        "seviyeler": {
+          "0|0.45": 9.998182
+        }
+      },
+      "api": {
+        "q": [
+          9.998182,
+          0.0
+        ],
+        "maliyet": 4.49918200000001,
+        "pnl": -4.49918200000001,
+        "seviyeler": {
+          "0|0.45": 9.998182
+        }
+      }
+    },
+    {
+      "S": 1789854300,
+      "kol": "A",
+      "kaynak_sha": "0459eae11d1a",
+      "durum": "YUVARLAMA",
+      "kazanan": 0,
+      "yerel_pnl": -3.2,
+      "yerel_q": [
+        0.0,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          -0.004848000000000852
+        ],
+        "maliyet": -0.0016479999998977313,
+        "pnl": 0.0016479999998977313
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          9.995152
+        ],
+        "maliyet": 3.1983520000001024,
+        "pnl": -3.1983520000001024,
+        "seviyeler": {
+          "1|0.3": 5.0,
+          "1|0.34": 4.995152
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          9.995152
+        ],
+        "maliyet": 3.1983520000001024,
+        "pnl": -3.1983520000001024,
+        "seviyeler": {
+          "1|0.3": 5.0,
+          "1|0.34": 4.995152
+        }
+      }
+    },
+    {
+      "S": 1789854600,
+      "kol": "B",
+      "kaynak_sha": "0459eae11d1a",
+      "durum": "YUVARLAMA",
+      "kazanan": 0,
+      "yerel_pnl": -1.8,
+      "yerel_q": [
+        0.0,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          -0.0024999999999995026
+        ],
+        "maliyet": -0.0004999999999999449,
+        "pnl": 0.0004999999999999449
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          9.9975
+        ],
+        "maliyet": 1.7995,
+        "pnl": -1.7995,
+        "seviyeler": {
+          "1|0.16": 5.0,
+          "1|0.2": 4.9975
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          9.9975
+        ],
+        "maliyet": 1.7995,
+        "pnl": -1.7995,
+        "seviyeler": {
+          "1|0.16": 5.0,
+          "1|0.2": 4.9975
+        }
+      }
+    },
+    {
+      "S": 1789854900,
+      "kol": "A",
+      "kaynak_sha": "0459eae11d1a",
+      "durum": "YUVARLAMA",
+      "kazanan": 1,
+      "yerel_pnl": 4.0,
+      "yerel_q": [
+        9.99,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          -0.004288000000000736,
+          0.0
+        ],
+        "maliyet": -0.004286000040316651,
+        "pnl": 0.004286000040316651
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          9.985712,
+          10.0
+        ],
+        "maliyet": 5.995713999959683,
+        "pnl": 4.004286000040317,
+        "seviyeler": {
+          "0|0.3": 4.985712,
+          "0|0.34": 5.0,
+          "1|0.26": 5.0,
+          "1|0.3": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          9.985712,
+          10.0
+        ],
+        "maliyet": 5.995713999959683,
+        "pnl": 4.004286000040317,
+        "seviyeler": {
+          "0|0.3": 4.985712,
+          "0|0.34": 5.0,
+          "1|0.26": 5.0,
+          "1|0.3": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789855200,
+      "kol": "B",
+      "kaynak_sha": "f3afef305874",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": -1.8,
+      "yerel_q": [
+        10.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          10.0,
+          0.0
+        ],
+        "maliyet": 1.8,
+        "pnl": -1.8,
+        "seviyeler": {
+          "0|0.16": 5.0,
+          "0|0.2": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          10.0,
+          0.0
+        ],
+        "maliyet": 1.8,
+        "pnl": -1.8,
+        "seviyeler": {
+          "0|0.16": 5.0,
+          "0|0.2": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789855500,
+      "kol": "C",
+      "kaynak_sha": "f3afef305874",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": -0.85,
+      "yerel_q": [
+        0,
+        5.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          5.0
+        ],
+        "maliyet": 0.85,
+        "pnl": -0.85,
+        "seviyeler": {
+          "1|0.17": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          5.0
+        ],
+        "maliyet": 0.85,
+        "pnl": -0.85,
+        "seviyeler": {
+          "1|0.17": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789855800,
+      "kol": "B",
+      "kaynak_sha": "f3afef305874",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": -2.4,
+      "yerel_q": [
+        15.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          15.0,
+          0.0
+        ],
+        "maliyet": 2.4,
+        "pnl": -2.4,
+        "seviyeler": {
+          "0|0.12": 5.0,
+          "0|0.16": 5.0,
+          "0|0.2": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          15.0,
+          0.0
+        ],
+        "maliyet": 2.4,
+        "pnl": -2.4,
+        "seviyeler": {
+          "0|0.12": 5.0,
+          "0|0.16": 5.0,
+          "0|0.2": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789856100,
+      "kol": "B",
+      "kaynak_sha": "f3afef305874",
+      "durum": "YUVARLAMA",
+      "kazanan": 0,
+      "yerel_pnl": -2.85,
+      "yerel_q": [
+        0.0,
+        20.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          -0.00143200000000121
+        ],
+        "maliyet": -0.00022899985282176516,
+        "pnl": 0.00022899985282176516
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          19.998568
+        ],
+        "maliyet": 2.8497710001471783,
+        "pnl": -2.8497710001471783,
+        "seviyeler": {
+          "1|0.09": 5.0,
+          "1|0.12": 5.0,
+          "1|0.16": 4.998568,
+          "1|0.2": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          19.998568
+        ],
+        "maliyet": 2.8497710001471783,
+        "pnl": -2.8497710001471783,
+        "seviyeler": {
+          "1|0.09": 5.0,
+          "1|0.12": 5.0,
+          "1|0.16": 4.998568,
+          "1|0.2": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789856400,
+      "kol": "B",
+      "kaynak_sha": "f3afef305874",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": 12.6,
+      "yerel_q": [
+        15.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          15.0,
+          0.0
+        ],
+        "maliyet": 2.4,
+        "pnl": 12.6,
+        "seviyeler": {
+          "0|0.12": 5.0,
+          "0|0.16": 5.0,
+          "0|0.2": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          15.0,
+          0.0
+        ],
+        "maliyet": 2.4,
+        "pnl": 12.6,
+        "seviyeler": {
+          "0|0.12": 5.0,
+          "0|0.16": 5.0,
+          "0|0.2": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789856700,
+      "kol": "C",
+      "kaynak_sha": "f3afef305874",
+      "durum": "FARK",
+      "kazanan": 0,
+      "yerel_pnl": 0.75,
+      "yerel_q": [
+        20.0,
+        20.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          5.0
+        ],
+        "maliyet": 2.8000000000000007,
+        "pnl": -2.8
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          20.0,
+          25.0
+        ],
+        "maliyet": 22.05,
+        "pnl": -2.05,
+        "seviyeler": {
+          "0|0.39": 5.0,
+          "0|0.42": 5.0,
+          "0|0.54": 5.0,
+          "0|0.56": 5.0,
+          "1|0.26": 5.0,
+          "1|0.51": 5.0,
+          "1|0.56": 5.0,
+          "1|0.58": 5.0,
+          "1|0.59": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          20.0,
+          25.0
+        ],
+        "maliyet": 22.05,
+        "pnl": -2.05,
+        "seviyeler": {
+          "0|0.39": 5.0,
+          "0|0.42": 5.0,
+          "0|0.54": 5.0,
+          "0|0.56": 5.0,
+          "1|0.26": 5.0,
+          "1|0.51": 5.0,
+          "1|0.56": 5.0,
+          "1|0.58": 5.0,
+          "1|0.59": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789857000,
+      "kol": "B",
+      "kaynak_sha": "f3afef305874",
+      "durum": "YUVARLAMA",
+      "kazanan": 0,
+      "yerel_pnl": -1.8,
+      "yerel_q": [
+        0.0,
+        9.99
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0024999999999995026
+        ],
+        "maliyet": -0.0015000000000000568,
+        "pnl": 0.0015000000000000568
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          9.9925
+        ],
+        "maliyet": 1.7985,
+        "pnl": -1.7985,
+        "seviyeler": {
+          "1|0.16": 5.0,
+          "1|0.2": 4.9925
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          9.9925
+        ],
+        "maliyet": 1.7985,
+        "pnl": -1.7985,
+        "seviyeler": {
+          "1|0.16": 5.0,
+          "1|0.2": 4.9925
+        }
+      }
+    },
+    {
+      "S": 1789857300,
+      "kol": "B",
+      "kaynak_sha": "f3afef305874",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": -1.8,
+      "yerel_q": [
+        0.0,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          10.0
+        ],
+        "maliyet": 1.8,
+        "pnl": -1.8,
+        "seviyeler": {
+          "1|0.16": 5.0,
+          "1|0.2": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          10.0
+        ],
+        "maliyet": 1.8,
+        "pnl": -1.8,
+        "seviyeler": {
+          "1|0.16": 5.0,
+          "1|0.2": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789857600,
+      "kol": "B",
+      "kaynak_sha": "f3afef305874",
+      "durum": "YUVARLAMA",
+      "kazanan": 0,
+      "yerel_pnl": -0.75,
+      "yerel_q": [
+        0.0,
+        9.99
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0008499999999997954
+        ],
+        "maliyet": -0.0005490000000000217,
+        "pnl": 0.0005490000000000217
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          9.99085
+        ],
+        "maliyet": 0.749451,
+        "pnl": -0.749451,
+        "seviyeler": {
+          "1|0.06": 4.99085,
+          "1|0.09": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          9.99085
+        ],
+        "maliyet": 0.749451,
+        "pnl": -0.749451,
+        "seviyeler": {
+          "1|0.06": 4.99085,
+          "1|0.09": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789857900,
+      "kol": "A",
+      "kaynak_sha": "f3afef305874",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": -2.8,
+      "yerel_q": [
+        10.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          10.0,
+          0.0
+        ],
+        "maliyet": 2.8,
+        "pnl": -2.8,
+        "seviyeler": {
+          "0|0.26": 5.0,
+          "0|0.3": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          10.0,
+          0.0
+        ],
+        "maliyet": 2.8,
+        "pnl": -2.8,
+        "seviyeler": {
+          "0|0.26": 5.0,
+          "0|0.3": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789858200,
+      "kol": "B",
+      "kaynak_sha": "f3afef305874",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": -1.0,
+      "yerel_q": [
+        0.0,
+        5.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          5.0
+        ],
+        "maliyet": 1.0,
+        "pnl": -1.0,
+        "seviyeler": {
+          "1|0.2": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          5.0
+        ],
+        "maliyet": 1.0,
+        "pnl": -1.0,
+        "seviyeler": {
+          "1|0.2": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789858500,
+      "kol": "C",
+      "kaynak_sha": "f3afef305874",
+      "durum": "YUVARLAMA",
+      "kazanan": 0,
+      "yerel_pnl": 4.0,
+      "yerel_q": [
+        20.0,
+        15.0
+      ],
+      "fark": {
+        "q": [
+          -0.004999999999999005,
+          0.0
+        ],
+        "maliyet": -0.0030000000000001137,
+        "pnl": -0.0019999999999997797
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          19.995,
+          15.0
+        ],
+        "maliyet": 15.997,
+        "pnl": 3.998,
+        "seviyeler": {
+          "0|0.23": 5.0,
+          "0|0.57": 5.0,
+          "0|0.59": 5.0,
+          "0|0.6": 4.995,
+          "1|0.38": 5.0,
+          "1|0.4": 5.0,
+          "1|0.43": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          19.995,
+          15.0
+        ],
+        "maliyet": 15.997,
+        "pnl": 3.998,
+        "seviyeler": {
+          "0|0.23": 5.0,
+          "0|0.57": 5.0,
+          "0|0.59": 5.0,
+          "0|0.6": 4.995,
+          "1|0.38": 5.0,
+          "1|0.4": 5.0,
+          "1|0.43": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789858800,
+      "kol": "B",
+      "kaynak_sha": "f3afef305874",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": -0.45,
+      "yerel_q": [
+        5.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          5.0,
+          0.0
+        ],
+        "maliyet": 0.45,
+        "pnl": -0.45,
+        "seviyeler": {
+          "0|0.09": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          5.0,
+          0.0
+        ],
+        "maliyet": 0.45,
+        "pnl": -0.45,
+        "seviyeler": {
+          "0|0.09": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789859100,
+      "kol": "A",
+      "kaynak_sha": "f3afef305874",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": 4.0,
+      "yerel_q": [
+        10.0,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          10.0,
+          10.0
+        ],
+        "maliyet": 6.0,
+        "pnl": 4.0,
+        "seviyeler": {
+          "0|0.26": 5.0,
+          "0|0.3": 5.0,
+          "1|0.3": 5.0,
+          "1|0.34": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          10.0,
+          10.0
+        ],
+        "maliyet": 6.0,
+        "pnl": 4.0,
+        "seviyeler": {
+          "0|0.26": 5.0,
+          "0|0.3": 5.0,
+          "1|0.3": 5.0,
+          "1|0.34": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789859400,
+      "kol": "C",
+      "kaynak_sha": "6f1ca26dccdd",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": -2.7,
+      "yerel_q": [
+        0.0,
+        5.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          5.0
+        ],
+        "maliyet": 2.7,
+        "pnl": -2.7,
+        "seviyeler": {
+          "1|0.54": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          5.0
+        ],
+        "maliyet": 2.7,
+        "pnl": -2.7,
+        "seviyeler": {
+          "1|0.54": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789859700,
+      "kol": "C",
+      "kaynak_sha": "618a0b24cb25",
+      "durum": "SIFIR_DOLUM",
+      "kazanan": 1,
+      "yerel_pnl": 0,
+      "yerel_q": [
+        0,
+        0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      },
+      "api": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0,
+        "seviyeler": {}
+      }
+    },
+    {
+      "S": 1789860000,
+      "kol": "A",
+      "kaynak_sha": "2aee42a995b9",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": 1.2,
+      "yerel_q": [
+        20.0,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          20.0,
+          10.0
+        ],
+        "maliyet": 8.8,
+        "pnl": 1.2,
+        "seviyeler": {
+          "0|0.22": 5.0,
+          "0|0.26": 5.0,
+          "0|0.3": 5.0,
+          "0|0.34": 5.0,
+          "1|0.3": 5.0,
+          "1|0.34": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          20.0,
+          10.0
+        ],
+        "maliyet": 8.8,
+        "pnl": 1.2,
+        "seviyeler": {
+          "0|0.22": 5.0,
+          "0|0.26": 5.0,
+          "0|0.3": 5.0,
+          "0|0.34": 5.0,
+          "1|0.3": 5.0,
+          "1|0.34": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789860300,
+      "kol": "B",
+      "kaynak_sha": "2aee42a995b9",
+      "durum": "YUVARLAMA",
+      "kazanan": 0,
+      "yerel_pnl": 5.05,
+      "yerel_q": [
+        10.0,
+        24.990000000000002
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.002549999999999386
+        ],
+        "maliyet": -0.00044700000000030826,
+        "pnl": 0.00044700000000030826
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          10.0,
+          24.99255
+        ],
+        "maliyet": 4.949553,
+        "pnl": 5.050447,
+        "seviyeler": {
+          "0|0.16": 5.0,
+          "0|0.2": 5.0,
+          "1|0.06": 4.99255,
+          "1|0.09": 5.0,
+          "1|0.12": 5.0,
+          "1|0.16": 5.0,
+          "1|0.2": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          10.0,
+          24.99255
+        ],
+        "maliyet": 4.949553,
+        "pnl": 5.050447,
+        "seviyeler": {
+          "0|0.16": 5.0,
+          "0|0.2": 5.0,
+          "1|0.06": 4.99255,
+          "1|0.09": 5.0,
+          "1|0.12": 5.0,
+          "1|0.16": 5.0,
+          "1|0.2": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789860600,
+      "kol": "C",
+      "kaynak_sha": "2aee42a995b9",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": 1.85,
+      "yerel_q": [
+        20.0,
+        20.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          20.0,
+          20.0
+        ],
+        "maliyet": 18.15,
+        "pnl": 1.85,
+        "seviyeler": {
+          "0|0.37": 5.0,
+          "0|0.39": 5.0,
+          "0|0.52": 5.0,
+          "0|0.57": 5.0,
+          "1|0.42": 5.0,
+          "1|0.43": 5.0,
+          "1|0.46": 5.0,
+          "1|0.47": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          20.0,
+          20.0
+        ],
+        "maliyet": 18.15,
+        "pnl": 1.85,
+        "seviyeler": {
+          "0|0.37": 5.0,
+          "0|0.39": 5.0,
+          "0|0.52": 5.0,
+          "0|0.57": 5.0,
+          "1|0.42": 5.0,
+          "1|0.43": 5.0,
+          "1|0.46": 5.0,
+          "1|0.47": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789860900,
+      "kol": "A",
+      "kaynak_sha": "2aee42a995b9",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": 0.2,
+      "yerel_q": [
+        25.0,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          25.0,
+          10.0
+        ],
+        "maliyet": 9.8,
+        "pnl": 0.2,
+        "seviyeler": {
+          "0|0.2": 5.0,
+          "0|0.22": 5.0,
+          "0|0.26": 5.0,
+          "0|0.3": 5.0,
+          "0|0.34": 5.0,
+          "1|0.3": 5.0,
+          "1|0.34": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          25.0,
+          10.0
+        ],
+        "maliyet": 9.8,
+        "pnl": 0.2,
+        "seviyeler": {
+          "0|0.2": 5.0,
+          "0|0.22": 5.0,
+          "0|0.26": 5.0,
+          "0|0.3": 5.0,
+          "0|0.34": 5.0,
+          "1|0.3": 5.0,
+          "1|0.34": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789861200,
+      "kol": "A",
+      "kaynak_sha": "2aee42a995b9",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": -3.2,
+      "yerel_q": [
+        10.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          10.0,
+          0.0
+        ],
+        "maliyet": 3.2,
+        "pnl": -3.2,
+        "seviyeler": {
+          "0|0.3": 5.0,
+          "0|0.34": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          10.0,
+          0.0
+        ],
+        "maliyet": 3.2,
+        "pnl": -3.2,
+        "seviyeler": {
+          "0|0.3": 5.0,
+          "0|0.34": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789861500,
+      "kol": "C",
+      "kaynak_sha": "2aee42a995b9",
+      "durum": "FARK",
+      "kazanan": 0,
+      "yerel_pnl": -0.37,
+      "yerel_q": [
+        10.0,
+        13.370000000000001
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          11.614867
+        ],
+        "maliyet": 2.772467000033286,
+        "pnl": -2.7724670000332847
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          10.0,
+          24.984867
+        ],
+        "maliyet": 13.142467000033285,
+        "pnl": -3.142467000033285,
+        "seviyeler": {
+          "0|0.47": 5.0,
+          "0|0.51": 5.0,
+          "1|0.18": 5.0,
+          "1|0.21": 5.0,
+          "1|0.26": 5.0,
+          "1|0.49": 4.990785,
+          "1|0.51": 4.994082
+        }
+      },
+      "api": {
+        "q": [
+          10.0,
+          24.984867
+        ],
+        "maliyet": 13.142467000033285,
+        "pnl": -3.142467000033285,
+        "seviyeler": {
+          "0|0.47": 5.0,
+          "0|0.51": 5.0,
+          "1|0.18": 5.0,
+          "1|0.21": 5.0,
+          "1|0.26": 5.0,
+          "1|0.49": 4.990785,
+          "1|0.51": 4.994082
+        }
+      }
+    },
+    {
+      "S": 1789861800,
+      "kol": "A",
+      "kaynak_sha": "5a9ef109e48f",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": -3.2,
+      "yerel_q": [
+        0.0,
+        10.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          10.0
+        ],
+        "maliyet": 3.2,
+        "pnl": -3.2,
+        "seviyeler": {
+          "1|0.3": 5.0,
+          "1|0.34": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          10.0
+        ],
+        "maliyet": 3.2,
+        "pnl": -3.2,
+        "seviyeler": {
+          "1|0.3": 5.0,
+          "1|0.34": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789862100,
+      "kol": "A",
+      "kaynak_sha": "5a9ef109e48f",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": -3.1,
+      "yerel_q": [
+        25.0,
+        5.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          25.0,
+          5.0
+        ],
+        "maliyet": 8.1,
+        "pnl": -3.1,
+        "seviyeler": {
+          "0|0.2": 5.0,
+          "0|0.22": 5.0,
+          "0|0.26": 5.0,
+          "0|0.3": 5.0,
+          "0|0.34": 5.0,
+          "1|0.3": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          25.0,
+          5.0
+        ],
+        "maliyet": 8.1,
+        "pnl": -3.1,
+        "seviyeler": {
+          "0|0.2": 5.0,
+          "0|0.22": 5.0,
+          "0|0.26": 5.0,
+          "0|0.3": 5.0,
+          "0|0.34": 5.0,
+          "1|0.3": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789862400,
+      "kol": "A",
+      "kaynak_sha": "5a9ef109e48f",
+      "durum": "UYUMLU",
+      "kazanan": 1,
+      "yerel_pnl": -3.2,
+      "yerel_q": [
+        10.0,
+        0.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          10.0,
+          0.0
+        ],
+        "maliyet": 3.2,
+        "pnl": -3.2,
+        "seviyeler": {
+          "0|0.3": 5.0,
+          "0|0.34": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          10.0,
+          0.0
+        ],
+        "maliyet": 3.2,
+        "pnl": -3.2,
+        "seviyeler": {
+          "0|0.3": 5.0,
+          "0|0.34": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789862700,
+      "kol": "B",
+      "kaynak_sha": "5a9ef109e48f",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": 3.65,
+      "yerel_q": [
+        5.0,
+        15.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          5.0,
+          15.0
+        ],
+        "maliyet": 1.35,
+        "pnl": 3.65,
+        "seviyeler": {
+          "0|0.09": 5.0,
+          "1|0.03": 5.0,
+          "1|0.06": 5.0,
+          "1|0.09": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          5.0,
+          15.0
+        ],
+        "maliyet": 1.35,
+        "pnl": 3.65,
+        "seviyeler": {
+          "0|0.09": 5.0,
+          "1|0.03": 5.0,
+          "1|0.06": 5.0,
+          "1|0.09": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789863000,
+      "kol": "C",
+      "kaynak_sha": "5a9ef109e48f",
+      "durum": "UYUMLU",
+      "kazanan": 0,
+      "yerel_pnl": -0.85,
+      "yerel_q": [
+        0,
+        5.0
+      ],
+      "fark": {
+        "q": [
+          0.0,
+          0.0
+        ],
+        "maliyet": 0.0,
+        "pnl": 0.0
+      },
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          5.0
+        ],
+        "maliyet": 0.85,
+        "pnl": -0.85,
+        "seviyeler": {
+          "1|0.17": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          5.0
+        ],
+        "maliyet": 0.85,
+        "pnl": -0.85,
+        "seviyeler": {
+          "1|0.17": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789863300,
+      "kol": "B",
+      "kaynak_sha": "5a9ef109e48f",
+      "durum": "YEREL_SONUC_YOK",
+      "kazanan": 1,
+      "yerel_pnl": null,
+      "yerel_q": null,
+      "fark": null,
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          20.0,
+          0.0
+        ],
+        "maliyet": 2.85,
+        "pnl": -2.85,
+        "seviyeler": {
+          "0|0.09": 5.0,
+          "0|0.12": 5.0,
+          "0|0.16": 5.0,
+          "0|0.2": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          20.0,
+          0.0
+        ],
+        "maliyet": 2.85,
+        "pnl": -2.85,
+        "seviyeler": {
+          "0|0.09": 5.0,
+          "0|0.12": 5.0,
+          "0|0.16": 5.0,
+          "0|0.2": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789863600,
+      "kol": "C",
+      "kaynak_sha": "5a9ef109e48f",
+      "durum": "YEREL_SONUC_YOK",
+      "kazanan": 1,
+      "yerel_pnl": null,
+      "yerel_q": null,
+      "fark": null,
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          5.0,
+          0.0
+        ],
+        "maliyet": 1.5,
+        "pnl": -1.5,
+        "seviyeler": {
+          "0|0.3": 5.0
+        }
+      },
+      "api": {
+        "q": [
+          5.0,
+          0.0
+        ],
+        "maliyet": 1.5,
+        "pnl": -1.5,
+        "seviyeler": {
+          "0|0.3": 5.0
+        }
+      }
+    },
+    {
+      "S": 1789863900,
+      "kol": "B",
+      "kaynak_sha": "feb06e86e4c0",
+      "durum": "YEREL_SONUC_YOK",
+      "kazanan": 0,
+      "yerel_pnl": null,
+      "yerel_q": null,
+      "fark": null,
+      "geri_cekildi": false,
+      "kaset": {
+        "q": [
+          0.0,
+          4.9925
+        ],
+        "maliyet": 0.9985,
+        "pnl": -0.9985,
+        "seviyeler": {
+          "1|0.2": 4.9925
+        }
+      },
+      "api": {
+        "q": [
+          0.0,
+          4.9925
+        ],
+        "maliyet": 0.9985,
+        "pnl": -0.9985,
+        "seviyeler": {
+          "1|0.2": 4.9925
+        }
+      }
+    }
+  ]
+}

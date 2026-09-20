@@ -5,6 +5,11 @@ Bu depo, Polymarket BTC 5 dakikalık Up/Down pazarında en kârlı cüzdanlardan
 kurulan canlı botun **tam** kopyasıdır (19-20 Eylül 2026 oturumu). Kimlik dosyaları hariç
 hiçbir şey atlanmadı.
 
+**20 Eylül muhasebe kontrolü:** 96 atanmış pencerenin kamu işlemleri ve resmî
+sonuçlarla toplamı **−15,19 USD**, C'nin 15 penceresi **−2,56 USD** (ücret/iadeler
+hariç). Eski özetlerin yerine [muhasebe raporunu](docs/MUHASEBE_20260920.md)
+ve yeniden üretme komutunu kullanın. Altı tarihsel yerel kayıt farkı korunuyor.
+
 ## Ana bulgular (özet; ayrıntı `docs/hafiza/`)
 - bosona yön tahmini yapmıyor. İki tarafa da alış yazan bir maker; kârı **çift maliyeti** belirliyor
   (Up+Down < $1). Zincir defterinde 19/19 gün artı, +2,27 kr/pay, günde ~110k pay; rebate günde $663.
@@ -14,9 +19,9 @@ hiçbir şey atlanmadı.
 - Londra (AWS eu-west-2) gecikme 43 ms vs Türkiye 116 ms; post-only red oranı %52 → %25.
 
 ## Dizinler
-- `bot/` — `ab.py` (v3 aday, yerel), `ab_v2_LONDRA_CANLI.py` (Londra'da çalışan sürüm), ön kayıtlar,
+- `bot/` — `ab.py` (v4.1 + muhasebe yaması, yerel), `ab_v2_LONDRA_CANLI.py` (eski Londra sürümü), ön kayıtlar,
   `STATE_ab.json`, `LOG_ab.jsonl` (canlı olay logu), kuru koşu logları, `arsiv/` (tüm eski sürümler).
-  Çalıştırma: `python3 ab.py --test` (öz-test, 105 test), `python3 ab.py --etiket kuru --dk 12` (kuru koşu),
+  Çalıştırma: `python3 ab.py --test` (öz-test, 121 test), `python3 ab.py --etiket kuru --dk 12` (kuru koşu),
   `python3 ab.py --live` (canlı; `.env.live` ister — bu depoda YOK).
 - `kaydediciler/` — `record_polymarket_orderbook.py` (CLOB websocket defter → sqlite),
   `record_fills_tape.py` (cüzdan etiketli TÜM dolumlar, sayfalı), `record_btc_tape.py` (Binance spot),
@@ -44,7 +49,9 @@ hiçbir şey atlanmadı.
 - `FILL_PARTY_LEDGER/{maker,taker}.parquet` (1,1 GB, 14 Ağu–1 Eyl zincir-kesin dolumlar) —
   `polymarket/data/analysis/btc5m_top_actor_hunt_20260902_v1/`.
 
-## Canlı durum (20 Eyl 2026 ~23:00Z)
-Bot Londra'da (`ubuntu@<LONDRA-SUNUCU-IP>`, `~/polymarket/venv`, aynı dizin yolu), sürüm v2; v3 (tamamlayıcı bacak
-tavanı 0,98 + websocket okuyucu hafifletme) yerelde hazır, 105/105 test, canlıya alınmayı bekliyor.
+## Canlı durum (20 Eyl 2026 kontrolü)
+Operatöre göre bot bilerek durdurulmuş durumda. Bu depodaki muhasebe yaması
+canlıya dağıtılmadı; kaynak doğrulaması kuru koşu ve sahte borsa testleriyle yapıldı.
+Depodaki state 71, son log 96 pencere içeriyor; eski state ile canlı başlangıç
+engelleniyor. Sunucunun güncel state'i bu incelemede alınmadı.
 Kural: aynı hesapta iki canlı bot asla aynı anda çalışmaz.
