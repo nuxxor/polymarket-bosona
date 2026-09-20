@@ -4712,3 +4712,15 @@
 {"t": "00:23:57", "utc_ms": 1789863837387, "k": "basladi", "mod": "LIVE", "gorulen_pencere": 95}
 {"t": "00:23:57", "utc_ms": 1789863837431, "k": "maruziyet", "acik_pozisyon": 0, "pazar": 0, "dis_risk": 0.0}
 {"t": "00:23:59", "utc_ms": 1789863839477, "k": "mutabakat", "pnl": -9.85, "yerel": -7.08, "etkin": -9.85, "pencere": 75, "risk": 4.35, "emir": 875, "dolum": 75, "pay": 1133.2, "geri_cekilen": 13, "red": 50}
+{"t": "00:25:05", "utc_ms": 1789863905414, "k": "BOY", "S": 1789863900, "klip": 5.0, "kol": "B"}
+{"t": "00:25:05", "utc_ms": 1789863905581, "k": "pencere", "sym": "btc", "S": 1789863900, "kol": "B", "vol": null, "tokens": ["9487845828740965699806150834335544148283714820457534368476239219329119722835", "45030453362087552977528052104107569358204862142029934082538792671046518433209"], "emir": 12, "kabul": [6, 6], "fiyatlar": [[0, 0.2, 0.2, 0.2], [0, 0.16, 0.16, 0.16], [0, 0.12, 0.12, 0.12], [0, 0.09, 0.09, 0.09], [0, 0.06, 0.06, 0.06], [0, 0.03, 0.03, 0.03], [1, 0.2, 0.2, 0.2], [1, 0.16, 0.16, 0.16], [1, 0.12, 0.12, 0.12], [1, 0.09, 0.09, 0.09], [1, 0.06, 0.06, 0.06], [1, 0.03, 0.03, 0.03]]}
+{"t": "00:25:29", "utc_ms": 1789863929521, "k": "dolum", "sym": "btc", "S": 1789863900, "oi": 1, "p": 0.2, "ofset": 0.2, "yeni": 3.913, "toplam": 3.913, "kaynak": "yoklama", "gecen_sn": 29.5}
+{"t": "00:25:30", "utc_ms": 1789863930223, "k": "dolum", "sym": "btc", "S": 1789863900, "oi": 1, "p": 0.2, "ofset": 0.2, "yeni": 1.08, "toplam": 4.992, "kaynak": "yoklama", "gecen_sn": 30.2}
+{"t": "00:25:33", "utc_ms": 1789863933409, "k": "IPTAL_TEYITSIZ", "oid": "0xdc73e11084", "p": 0.12, "neden": "iptal", "borsa": "LIVE"}
+{"t": "00:25:33", "utc_ms": 1789863933477, "k": "IPTAL_TEYITSIZ", "oid": "0xbf26fae967", "p": 0.06, "neden": "iptal", "borsa": "LIVE"}
+{"t": "00:25:33", "utc_ms": 1789863933515, "k": "IPTAL_TEYITSIZ", "oid": "0x70e4747c91", "p": 0.03, "neden": "iptal", "borsa": "LIVE"}
+{"t": "00:25:33", "utc_ms": 1789863933549, "k": "IPTAL_TEYITSIZ", "oid": "0xb7d9c06ab4", "p": 0.16, "neden": "iptal", "borsa": "LIVE"}
+{"t": "00:25:33", "utc_ms": 1789863933587, "k": "IPTAL_TEYITSIZ", "oid": "0x9d805f1e2e", "p": 0.12, "neden": "iptal", "borsa": "LIVE"}
+{"t": "00:25:33", "utc_ms": 1789863933624, "k": "IPTAL_TEYITSIZ", "oid": "0xb60c65a1c8", "p": 0.09, "neden": "iptal", "borsa": "LIVE"}
+{"t": "00:25:33", "utc_ms": 1789863933658, "k": "IPTAL_TEYITSIZ", "oid": "0xa9329f2c49", "p": 0.06, "neden": "iptal", "borsa": "LIVE"}
+{"t": "00:25:35", "utc_ms": 1789863935850, "k": "bitti", "sebep": "STOP", "pnl": -9.8459, "yerel": -7.075, "pencere": 96, "emir": 887, "dolum": 75, "pay": 1133.2, "geri_cekilen": 13, "red": 50, "bilinmeyen": 128, "risk": 7.5}
