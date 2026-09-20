@@ -55,3 +55,9 @@ D hazirlik/test asamasi tamamlandi; 121/121 + D/muhasebe regresyonlari gecti.
 Son kuru D: 56 niyet / 56 iptal; bir WS kopusu sonrasi toparlandi, gercek
 emir yok. Deney 4'un salt-okunur fiyat kaydedicisi D worktree'inde calisiyor.
 Operator komutlari: ../polymarket-bosona-d/docs/D_LANE.md. Canli baslatilmadi.
+
+Sonraki operator pilotu: D yerelde 15:06–15:26 UTC calisti; operator durdurdu.
+Guncel D ve son muhasebe /home/ubuntu/polymarket-bosona-d yoluyla Londra
+eu-west-2a'ya tasindi. Londra 240dk baslatma komutu D worktree'indeki
+londra_d_baslat.sh; canli baslatmayi operator yapacak. $10 butce ve teyitsiz
+emir kaydi korundu; yeni acilis kapisi eski emirler dogrulanmadan ilerlemez.
