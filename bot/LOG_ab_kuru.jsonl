@@ -76,3 +76,13 @@
 {"t": "23:32:19", "utc_ms": 1789860739618, "k": "toplu_emir_hata", "durum": "RED", "err": "post only: would cross"}
 {"t": "23:32:19", "utc_ms": 1789860739618, "k": "toplu_emir_hata", "durum": "BILINMEYEN", "err": "timeout okuma hatasi"}
 {"t": "23:32:19", "utc_ms": 1789860739618, "k": "toplu_yanit_BOZUK", "tip": "list", "uzunluk": 1}
+{"t": "00:14:37", "utc_ms": 1789863277967, "k": "RED_NEDEN", "oi": 1, "p": 0.22, "yanit": "{\"success\": false, \"errorMsg\": \"post only rejected\"}"}
+{"t": "00:14:37", "utc_ms": 1789863277970, "k": "toplu_yanit_TANINMADI", "oi": 0, "p": 0.15, "yanit": "{\"foo\": \"bar\"}"}
+{"t": "00:14:37", "utc_ms": 1789863277970, "k": "toplu_emir_hata", "durum": "RED", "err": "post only: would cross"}
+{"t": "00:14:37", "utc_ms": 1789863277970, "k": "toplu_emir_hata", "durum": "BILINMEYEN", "err": "timeout okuma hatasi"}
+{"t": "00:14:37", "utc_ms": 1789863277970, "k": "toplu_yanit_BOZUK", "tip": "list", "uzunluk": 1}
+{"t": "00:14:49", "utc_ms": 1789863289882, "k": "RED_NEDEN", "oi": 1, "p": 0.22, "yanit": "{\"success\": false, \"errorMsg\": \"post only rejected\"}"}
+{"t": "00:14:49", "utc_ms": 1789863289882, "k": "toplu_yanit_TANINMADI", "oi": 0, "p": 0.15, "yanit": "{\"foo\": \"bar\"}"}
+{"t": "00:14:49", "utc_ms": 1789863289882, "k": "toplu_emir_hata", "durum": "RED", "err": "post only: would cross"}
+{"t": "00:14:49", "utc_ms": 1789863289882, "k": "toplu_emir_hata", "durum": "BILINMEYEN", "err": "timeout okuma hatasi"}
+{"t": "00:14:49", "utc_ms": 1789863289883, "k": "toplu_yanit_BOZUK", "tip": "list", "uzunluk": 1}

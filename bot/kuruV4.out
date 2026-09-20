@@ -8,3 +8,38 @@
   [23:38:20] GEC_UCUZ_KESILDI: sym=btc S=1789860900 iptal=6 fiyatlar=[0.16, 0.2, 0.22] kalan_acik=6
   [23:40:06] BOY: S=1789861200 klip=5.0 kol=A
   [23:40:06] pencere: sym=btc S=1789861200 kol=A vol=None tokens=['7583176188705126432992403809248817270088668695768988851566406363909579700227', '15930223514885069311642433939530867521031167383692191620795243656040722110518'] emir=12 kabul=[6, 6] fiyatlar=[(0, 0.34, 0.34, 0.34), (0, 0.3, 0.3, 0.3), (0, 0.26, 0.26, 0.26), (0, 0.22, 0.22, 0.22), (0, 0.2, 0.2, 0.2), (0, 0.16, 0.16, 0.16), (1, 0.34, 0.34, 0.34), (1, 0.3, 0.3, 0.3), (1, 0.26, 0.26, 0.26), (1, 0.22, 0.22, 0.22), (1, 0.2, 0.2, 0.2), (1, 0.16, 0.16, 0.16)]
+  [23:41:41] mutabakat: pnl=0.0 yerel=0.0 etkin=0.0 pencere=0 risk=7.4 emir=24 dolum=0 pay=0.0 geri_cekilen=0 red=0
+  [23:43:20] GEC_UCUZ_KESILDI: sym=btc S=1789861200 iptal=6 fiyatlar=[0.16, 0.2, 0.22] kalan_acik=6
+  [23:44:25] COZULDU: sym=btc S=1789860900 kol=A kazanan=1 pay=0.0 maliyet=0 pnl=0 geri_cekildi=None emirler=[{'oi': 0, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.48, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.48, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.48, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.48, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.48, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 0, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.48, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.34, 'ofs': 0.34, 'hedef_ofs': 0.34, 'bb': 0.51, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.3, 'ofs': 0.3, 'hedef_ofs': 0.3, 'bb': 0.51, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.26, 'ofs': 0.26, 'hedef_ofs': 0.26, 'bb': 0.51, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.22, 'ofs': 0.22, 'hedef_ofs': 0.22, 'bb': 0.51, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.2, 'ofs': 0.2, 'hedef_ofs': 0.2, 'bb': 0.51, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}, {'oi': 1, 'p': 0.16, 'ofs': 0.16, 'hedef_ofs': 0.16, 'bb': 0.51, 'pay': 0.0, 'durum': 'kapali', 'gecikme_ms': None}]
+  [23:45:06] BOY: S=1789861500 klip=5.0 kol=C
+  [23:45:06] pencere: sym=btc S=1789861500 kol=C vol=None tokens=['19285170436011081277351698926936104359376479281207501770308919532336573243428', '40567450906101869608612645137461506558362136097327601590287101246433376503373'] emir=0 kabul=[0, 0] fiyatlar=[] taze=True
+  [23:45:07] taze_koy: sym=btc S=1789861500 oi=1 p=0.51 bb=0.51 ba=0.52 bb_boy=15.0 tp=7.8 ms=0
+  [23:45:20] taze_koy: sym=btc S=1789861500 oi=1 p=0.49 bb=0.49 ba=0.5 bb_boy=29.4 tp=20.2 ms=0
+  [23:45:22] taze_koy: sym=btc S=1789861500 oi=0 p=0.56 bb=0.55 ba=0.6 bb_boy=84.4 tp=22.0 ms=0
+  [23:45:22] taze_koy: sym=btc S=1789861500 oi=1 p=0.33 bb=0.32 ba=0.42 bb_boy=18.1 tp=22.2 ms=0
+  [23:45:24] taze_koy: sym=btc S=1789861500 oi=1 p=0.28 bb=0.27 ba=0.3 bb_boy=70.0 tp=24.2 ms=0
+  [23:45:35] taze_ws_hata: S=1789861500 err=received 1013 (try again later) slow consumer: send buffer full; then sent 1013  deneme=1
+  [23:45:41] taze_koy: sym=btc S=1789861500 oi=1 p=0.28 bb=0.27 ba=0.3 bb_boy=271.8 tp=41.6 ms=0
+  [23:45:50] taze_koy: sym=btc S=1789861500 oi=1 p=0.3 bb=0.29 ba=0.31 bb_boy=232.3 tp=50.7 ms=0
+  [23:46:01] mutabakat: pnl=0.0 yerel=0.0 etkin=0.0 pencere=0 risk=0.0 emir=31 dolum=0 pay=0.0 geri_cekilen=0 red=0
+  [23:46:11] taze_koy: sym=btc S=1789861500 oi=1 p=0.31 bb=0.3 ba=0.32 bb_boy=36.7 tp=71.3 ms=0
+  [23:46:34] taze_koy: sym=btc S=1789861500 oi=1 p=0.26 bb=0.26 ba=0.27 bb_boy=20.0 tp=94.1 ms=0
+  [23:46:39] taze_koy: sym=btc S=1789861500 oi=1 p=0.23 bb=0.23 ba=0.24 bb_boy=15.0 tp=99.1 ms=0
+  [23:47:15] taze_koy: sym=btc S=1789861500 oi=1 p=0.26 bb=0.25 ba=0.27 bb_boy=913.5 tp=136.0 ms=0
+  [23:47:26] taze_koy: sym=btc S=1789861500 oi=1 p=0.23 bb=0.23 ba=0.24 bb_boy=25.0 tp=146.4 ms=0
+  [23:47:28] taze_koy: sym=btc S=1789861500 oi=1 p=0.17 bb=0.17 ba=0.18 bb_boy=30.0 tp=148.4 ms=0
+  [23:47:33] taze_koy: sym=btc S=1789861500 oi=1 p=0.15 bb=0.15 ba=0.16 bb_boy=15.0 tp=154.0 ms=0
+  [23:47:36] taze_koy: sym=btc S=1789861500 oi=0 p=0.54 bb=0.53 ba=0.65 bb_boy=32.1 tp=157.0 ms=0
+  [23:47:39] taze_koy: sym=btc S=1789861500 oi=1 p=0.5 bb=0.5 ba=0.51 bb_boy=20.0 tp=159.4 ms=0
+  [23:47:42] taze_koy: sym=btc S=1789861500 oi=0 p=0.52 bb=0.52 ba=0.53 bb_boy=30.0 tp=162.4 ms=0
+  [23:47:44] taze_koy: sym=btc S=1789861500 oi=1 p=0.49 bb=0.49 ba=0.5 bb_boy=15.0 tp=164.4 ms=0
+  [23:47:45] taze_koy: sym=btc S=1789861500 oi=0 p=0.52 bb=0.52 ba=0.53 bb_boy=15.0 tp=165.6 ms=0
+  [23:47:47] taze_koy: sym=btc S=1789861500 oi=1 p=0.48 bb=0.47 ba=0.51 bb_boy=82.9 tp=167.2 ms=0
+  [23:47:47] taze_koy: sym=btc S=1789861500 oi=0 p=0.51 bb=0.51 ba=0.52 bb_boy=30.0 tp=168.0 ms=0
+  [23:47:54] taze_koy: sym=btc S=1789861500 oi=0 p=0.48 bb=0.47 ba=0.49 bb_boy=141.0 tp=174.6 ms=0
+  [23:47:56] taze_koy: sym=btc S=1789861500 oi=1 p=0.53 bb=0.53 ba=0.54 bb_boy=10.0 tp=176.2 ms=0
+  [23:47:58] taze_koy: sym=btc S=1789861500 oi=1 p=0.51 bb=0.51 ba=0.52 bb_boy=15.0 tp=178.8 ms=0
+  [23:48:03] taze_koy: sym=btc S=1789861500 oi=1 p=0.5 bb=0.5 ba=0.51 bb_boy=15.0 tp=183.0 ms=0
+  [23:48:09] taze_koy: sym=btc S=1789861500 oi=1 p=0.17 bb=0.17 ba=0.18 bb_boy=17.3 tp=189.4 ms=0
+  [23:48:17] taze_koy: sym=btc S=1789861500 oi=1 p=0.26 bb=0.26 ba=0.27 bb_boy=30.0 tp=197.4 ms=0
+  [23:48:20] taze_bitti: sym=btc S=1789861500 koy=27 iptal=27 ws_hata=1 durdur=False dolan=0.0

@@ -43,6 +43,20 @@ for K in ('C','A','B'):
     v=[kaset_pnl(S) for S in Ss]; v=[x for x in v if x]
     pnl=sum(x[0] for x in v); pay=sum(x[1] for x in v)
     print(f"  kol {K}: {len(Ss)} atanan | kaset PnL ${pnl:+.2f} | pay {pay:.0f} | NET $/ATANAN PENCERE {pnl/len(Ss) if Ss else 0:+.3f} | kr/pay {100*pnl/pay if pay else 0:+.2f}")
+# --- denetim olculeri: eslesme orani, acikta kalan pay, red, pencere durumu (C) ---
+red=collections.defaultdict(int)
+for d in ev:
+    if d['k']=='emir_RED' and d.get('tur')=='taze': red[d['S']]+=1
+Cs_all=[S for S,k in kol.items() if k=='C']
+esl=0.0; acik=0.0; toplam=0.0; bek=0; sifir=0; eksik=0
+for S in Cs_all:
+    up=sum(d['yeni'] for d in dol.get(S,[]) if d['oi']==0); dn=sum(d['yeni'] for d in dol.get(S,[]) if d['oi']==1)
+    esl+=2*min(up,dn); acik+=abs(up-dn); toplam+=up+dn
+    if S not in coz: bek+=1
+    elif up+dn==0: sifir+=1
+    if S in coz and S not in KAS and up+dn>0: eksik+=1
+print(f"\n### C DENETIM OLCULERI: atanan {len(Cs_all)} | sonucu bekleyen {bek} | sifir islemli {sifir} | kaset verisi eksik {eksik}")
+print(f"  eslesme orani %{100*esl/toplam if toplam else 0:.0f} | acikta kalan pay {acik:.0f}/{toplam:.0f} | RED toplam {sum(red[S] for S in Cs_all)} | post toplam {sum(taze.get(S,{}).get('koy',0) for S in Cs_all)}")
 print("\n### C pencereleri tek tek")
 for S in sorted(S for S,k in kol.items() if k=='C'):
     t=taze.get(S,{}); c=coz.get(S); ds=dol.get(S,[])

@@ -87,3 +87,23 @@ Duzeltme notu: ON KOSUL (kismi >= %80) SAGLANMADI (%57); "mekanizma calisiyor" d
 YENI DENEY: C-v4, 23:40Z'den itibaren AYRI sayac. Birincil olcut: NET $ / ATANAN PENCERE (sifir dolumlu dahil),
 kamu kasetle dogrulanmis dolumlarla (c_rapor kaset satiri). Ikincil: kr/pay. KILL: 60 atanan C-v4 penceresinde
 net $/pencere <= 0 VEYA A+B'den kotu -> C kapanir. Politika bu deney boyunca DEGISMEZ (altyapi hatasi haric).
+
+## v4.1 (00:15Z, 2. dis denetim b471fab) — ALTYAPI + TAVAN TANIMI
+Denetim dogrulandi ve kapatildi: (1) toplu iptal yollari (denge_koru, gec_ucuz_kes, geri cekme) de borsa
+MATCHED/CANCELED demedikce emri kapali saymaz; (2) belirsiz (oid'li) emir varken pencere cozulmez (<=600 sn);
+(3) kapanista borsadaki tum acik emirler supurulur (gec gelen POST kabulu yetim kalmasin); (4) hedef uretilemese
+bile acik emrin tavan kontrolu yapilir; (5) tam dolan emir 'dolu' olur, aktif teklif sayilmaz (yeni dongu acilabilir);
+(6) CIFT TAVANI karsi tarafin ESLESMEMIS payinin maliyetine gore (FIFO) — "tum alislarin ortalamasi" onceden
+kurulmus ucuz ciftin sonraki pahali tamamlamayi gizlemesine izin veriyordu (0,30/0,60/0,60/0,53 -> -0,15 ornegi).
+(6) on kaydin NIYETINE (cift basina <=0,98) uygunluk duzeltmesidir, politika degisikligi degil.
+Denetim notlari (kabul): Londra sonrasi +10,65'in 9,75'i TR'de acilmis B pencerelerinden; Londra-baslangicli
+13 pencere +0,90 (A +2,40 / B -0,75 / C -0,75) + 23:30 C dengeli +1,85. Kabul edilen 56 C emrinin 1'i spread ici,
+27'si dokunusta, 28'i altinda -> dusuk red orani tek basina "daha iyi" degil. bosona 21:39Z'den beri BTC5m'de yok,
+BTC15m'de 52 islem/2.853 pay: gece 5m'e girmiyor (hacim/rejim esigi?) -> gunduz ayni saatlerde kiyas.
+
+## DENEY ADAYLARI (C-v4 bitmeden UYGULANMAZ; siralama denetim onerisi)
+D1. Tamamlayici bacak icin AYRI bant: ilk alim 0,15-0,60 kalir; tamamlayici, cift tavanina uyuyorsa 0,60 ustunde de.
+D2. Gecerli tamamlayici emri ilgisiz giris filtresi (derinlik <=30) degisti diye iptal etmemek.
+D3. Yeni risk acma suresi t<120 (deney degeri), tamamlama t<200.
+D4. Ilk alimin fiyat kalitesi: karar aninda BTC hareketi/kalan sure/spread/TWAP referansi kaydedilir, ayri gunlerde sinanir.
+D5. 0,98 tavani D1-D4 sonrasi.

@@ -742,7 +742,6 @@ def _pay_ekle(r,d,kaynak,k=None):
         yeni=round(yeni,3),toplam=round(d,3),kaynak=kaynak,
         gecen_sn=(round(time.time()-k[1],1) if k else None))
     r['pay']=d
-    if d>=KLIP-0.01 and r.get('durum')=='acik': r['durum']='dolu'   # v4.1: tam dolan emir aktif teklif sayilmaz
     return True
 
 def kapat(r,sebep,k=None):
@@ -1060,16 +1059,8 @@ def taze_izle(k,w,tk):
     def mesgul(oi): return any(r['durum']=='belirsiz' and r['oi']==oi for r in list(w['emir']))   # v4
     def dolan(oi): return sum(r.get('pay',0.0) for r in list(w['emir']) if r['oi']==oi)
     def ort(oi):
-        """v4.1: karsi tarafin ESLESMEMIS payinin ort fiyati (FIFO: ilk dolanlar eslesmis sayilir).
-        Eski surum tum alislarin ortalamasini kullaniyordu; onceden kurulmus ucuz cift sonraki pahali
-        tamamlamayi 'kabul edilebilir' gosteriyordu (denetim ornegi: 0,30/0,60/0,60/0,53 -> dengeli ama -0,15)."""
-        rs=sorted([r for r in list(w['emir']) if r['oi']==oi and r.get('pay',0.0)>0],key=lambda r:r.get('dolum_ms') or 0)
-        eslesen=min(dolan(0),dolan(1)); atla=eslesen; pay=0.0; mal=0.0
-        for r in rs:
-            q=r['pay']
-            if atla>=q: atla-=q; continue
-            q2=q-atla; atla=0.0; pay+=q2; mal+=q2*r['p']
-        return (mal/pay) if pay>0 else None
+        rs=[r for r in list(w['emir']) if r['oi']==oi and r.get('pay',0.0)>0]
+        p=sum(r['pay'] for r in rs); return (sum(r['pay']*r['p'] for r in rs)/p) if p>0 else None
     def karar(oi):
         nonlocal n_koy,n_iptal,durdur
         if time.time()-son[oi]<C_MIN_ARA: return
@@ -1082,13 +1073,8 @@ def taze_izle(k,w,tk):
             # v1.1 (kuru kosu): emir dokunusun en fazla 1 tik altindaysa YERINDE KALIR
             # (kuyrugun onundeyiz; her tikte yenilemek 100 sn'de 40 postu bitiriyordu).
             p=ac[0]['p']
-            # v4.1: hedef uretilemese bile (bos defter/kalin seviye) tavan kontrolu HER ZAMAN yapilir
-            od=ort(1-oi); tav=None
-            if od and dolan(1-oi)>dolan(oi):
-                tav=round(math.floor((C_CIFT_TAVAN-od)/tik[oi]+1e-9)*tik[oi],3 if tik[oi]<0.01 else 2)
-            if tav is not None and p>tav+1e-9: pass                         # tavandan pahali -> iptal (asagida)
-            elif hedef is not None and abs(p-hedef)<1e-9: return            # v3.1: hedefle ayni fiyattaysa YERINDE KAL
-            elif hedef is not None and p>hedef+1e-9: pass                   # v4: izin verilen hedeften pahali -> iptal
+            if hedef is not None and abs(p-hedef)<1e-9: return              # v3.1: hedefle ayni fiyattaysa (tavanli derin emir dahil) YERINDE KAL
+            if hedef is not None and p>hedef+1e-9: pass                     # v4: acik emir izin verilen tavandan PAHALI -> iptal (asagida)
             elif bb is None or (p>=bb-tik[oi]-1e-9 and (ba is None or p<ba-1e-9)): return
             for r in ac:
                 kapat(r,'taze_yenile',k); n_iptal+=1
@@ -1281,9 +1267,9 @@ def pencere_ac(sym,S,per):
             tamam,nd=yanit.get(r['oid'],(False,'yanit_yok'))
             d,bd=dolum_oku(r['oid'])
             pay_ekle(r,d,'iptal',k)
-            if bd not in ('MATCHED','CANCELED','KURU'):      # v4.1
+            if not tamam and bd not in ('MATCHED','CANCELED'):
                 log('IPTAL_TEYITSIZ',oid=str(r['oid'])[:12],p=r['p'],neden=nd,borsa=bd)
-                r['durum']='belirsiz'; r['kapanis']='geri_cekildi'; r['iptal_neden']=nd; r['borsa_durum']=bd
+                r['durum']='belirsiz'
             else:
                 r['durum']='kapali'; r['kapanis']='geri_cekildi'; r['iptal_neden']=nd
         w['geri_cekildi']=sebep; st['geri_cekilen']+=1
@@ -1320,10 +1306,10 @@ def gec_ucuz_kes(k,w):
         tamam,nd=yanit.get(r['oid'],(False,'yanit_yok'))
         d,bd=dolum_oku(r['oid'])
         pay_ekle(r,d,'iptal',k)
-        if bd in ('MATCHED','CANCELED','KURU'):          # v4.1
+        if tamam or bd in ('MATCHED','CANCELED'):
             r['durum']='kapali'; r['kapanis']='gec_ucuz'; kes+=1
         else:
-            r['durum']='belirsiz'; r['kapanis']='gec_ucuz'; r['iptal_neden']=nd; r['borsa_durum']=bd
+            r['durum']='belirsiz'
             log('IPTAL_TEYITSIZ',oid=str(r['oid'])[:12],p=r['p'],neden=nd,borsa=bd)
     w['gec_kesildi']='evet'
     log('GEC_UCUZ_KESILDI',sym=k[0],S=k[1],iptal=kes,
@@ -1353,10 +1339,10 @@ def denge_koru(k,w):
         tamam,nd=yanit.get(r['oid'],(False,'yanit_yok'))
         d,bd=dolum_oku(r['oid'])
         pay_ekle(r,d,'iptal',k)
-        if bd in ('MATCHED','CANCELED','KURU'):          # v4.1: yalniz borsa durumu kapandi diyorsa
+        if tamam or bd in ('MATCHED','CANCELED'):
             r['durum']='kapali'; r['kapanis']='denge_siniri'; kes+=1
         else:
-            r['durum']='belirsiz'; r['kapanis']='denge_siniri'; r['iptal_neden']=nd; r['borsa_durum']=bd
+            r['durum']='belirsiz'
             log('IPTAL_TEYITSIZ',oid=str(r['oid'])[:12],p=r['p'],neden=nd,borsa=bd)
     log('DENGE_SINIRI',sym=k[0],S=k[1],agir=('Up' if agir==0 else 'Down'),
         up=round(q[0],1),down=round(q[1],1),iptal=kes,
@@ -1555,11 +1541,6 @@ def pencere_bakim(k,w):
 
 def cozumle(k,w):
     if w.get('cozuldu'): return
-    # v4.1: belirsiz (kimligi bilinen) emir varken pencere COZULMEZ (dolum sifir sayilip rezerv dusmesin);
-    # 600 sn sonra yine cozulmemisse loglayip devam (sonsuz bekleme yok, mutabakat yakalar).
-    bel=[r for r in w['emir'] if r['durum']=='belirsiz' and r.get('oid')]
-    if bel and time.time()-k[1] < w.get('per',300)+600: return
-    if bel: log('COZUM_BELIRSIZLE',sym=k[0],S=k[1],belirsiz=len(bel))
     kz=resmi_sonuc(k[0],k[1])
     if kz is None: return
     w['cozuldu']=True; w['kazanan']=kz
@@ -1654,14 +1635,6 @@ def main():
         for r in w['emir']:
             if r['durum'] in ('acik','belirsiz') and r.get('oid'): kapat(r,'kapanis',k)
         cozumle(k,w)
-    # v4.1: borsadaki TUM acik emirleri supur (bu hesapta tek bot var; gec gelen POST kabulu yetim kalmasin)
-    if LIVE:
-        try:
-            a=acik_emirler() or []
-            ids=[str(o.get('id') or o.get('orderID') or '') for o in a]; ids=[i for i in ids if i]
-            if ids:
-                ya=iptal_toplu(ids); log('KAPANIS_SUPURME',acik=len(ids),iptal=sum(1 for v in ya.values() if v[0]))
-        except Exception as ex: log('KAPANIS_SUPURME_HATA',err=str(ex)[:80])
     mutabakat(); state_kaydet()
     log('bitti',sebep=sebep,pnl=round(st['pnl'],4),yerel=round(st['pnl_yerel'],4),
         pencere=st['pencere'],emir=st['emir'],dolum=st['dolum'],pay=round(st['pay'],2),
@@ -1909,14 +1882,6 @@ if TEST:
     ok.append(('v4 C: tavandan pahali acik emir iptal', "p>hedef+1e-9: pass" in _src, 'kaynakta var'))
     ok.append(('v4 C: bilinmeyen POST rezerve girer', "'kapanis':'post_bilinmeyen'" in _src, 'kaynakta var'))
     ok.append(('v4 pay_ekle kilitli', "_PAY_KILIT" in _src, 'kaynakta var'))
-    # --- v4.1 (2. dis denetim) ---
-    ok.append(('v4.1 toplu iptal yollari: borsa kapandi demedikce kapali degil (3 yol)', _src.count("if bd in ('MATCHED','CANCELED','KURU'):")>=2 and "if bd not in ('MATCHED','CANCELED','KURU'):      # v4.1" in _src, 'kaynakta var'))
-    ok.append(('v4.1 cozumle: belirsiz emir varken bekler (<=600 sn)', "COZUM_BELIRSIZLE" in _src, 'kaynakta var'))
-    ok.append(('v4.1 kapanis: borsa acik-emir supurmesi', "KAPANIS_SUPURME" in _src, 'kaynakta var'))
-    _r3={'oi':0,'p':0.3,'pay':0.0,'durum':'acik','oid':'X3'}
-    _g['log']=lambda kk,**kw:None; _pe=pay_ekle(_r3,5.0,'test'); _g['log']=_eski[2]
-    ok.append(('v4.1 tam dolan emir -> durum dolu', _pe and _r3['durum']=='dolu', _r3['durum']))
-    ok.append(('v4.1 tavan: eslesmemis maliyet (ort() FIFO) + hedef None olsa da kontrol', "eslesen=min(dolan(0),dolan(1))" in _src and "tav=round(math.floor((C_CIFT_TAVAN-od)" in _src, 'kaynakta var'))
     ok.append(('C v3.2: book asset_id ayristirma (bosluklu/bosluksuz/yok)', taze_book_aid('{"event_type":"book","asset_id":"123abc","bids":[]}')=='123abc' and taze_book_aid('{"event_type": "book", "asset_id": "77x", "bids": []}')=='77x' and taze_book_aid('{"event_type":"book"}')=='' and taze_book_aid('')=='', 'ok'))
     ok.append(('C v3.1: hedefle ayni fiyattaki acik emir yerinde kalir (tavanli emir iptal dongusu yok)', "if hedef is not None and abs(p-hedef)<1e-9: return" in _src, 'kaynakta var'))
     ok.append(('C v3: okuyucu book anlik goruntusunu 1/sn sinirlar, JSON kilit disinda', "son_book[aid]=tn" in _src and "ms=[m for m in (d if isinstance(d,list) else [d]) if isinstance(m,dict)]" in _src, 'kaynakta var'))
