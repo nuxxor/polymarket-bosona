@@ -42,3 +42,16 @@ Depo state'i 71, son log 96 pencere: guncel sunucu state'i alinmadan bu
 kopya canliya uygun sayilamaz. Canli dagitim/baslatma yapilmadi. Eski emir
 kimlikleri eksikken tarihsel farklar zorla kapatilmaz. STOP-POST omur dongusu
 ve strateji deneyleri bu muhasebe asamasinin tamamlandigi iddiasina dahil degil.
+
+## Yeni kapsam: D lane
+Operator deney 1'i ayri D kolunda, $10 kesiciyle istedi; canli baslatma
+komutunu kendisi calistiracak. Izole worktree:
+`/home/taygun/Masaüstü/polymarket-bosona-d` (`lane-d` dali).
+Kabul olcutleri ve ilerleme o worktree'in `plan.md` dosyasinda. Ana `ab.py`
+otomatik senkronla degistigi icin burada ezilmez; onceki muhasebe yamasi
+D'de sabitlenen kaynaga alinir. Gercek emir bu calismada gonderilmez.
+
+D hazirlik/test asamasi tamamlandi; 121/121 + D/muhasebe regresyonlari gecti.
+Son kuru D: 56 niyet / 56 iptal; bir WS kopusu sonrasi toparlandi, gercek
+emir yok. Deney 4'un salt-okunur fiyat kaydedicisi D worktree'inde calisiyor.
+Operator komutlari: ../polymarket-bosona-d/docs/D_LANE.md. Canli baslatilmadi.
