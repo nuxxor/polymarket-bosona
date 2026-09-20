@@ -25,6 +25,13 @@ bid−0,02 → **−8,66 kr/pay, ters secim −28,4 puan**, dolum %54,6. Fark ye
 bizim simulasyonda emir hic iptal edilmiyor, fiyat degince hep doluyoruz; o 285 pazarda 109 dolum
 aliyor ve zehirli olanlari almiyor. Kill list zaten "icra avantaji olmadan acma" diyordu.
 
+**09-20 03:30 TSI — O BTC15'E KAYDI, UCUZ CIFT TAMAMLAMA AYNAYA EKLENDI:** son 90 dk hacminin
+%84'u btc-updown-15m (3 saat once %34, BTC5m sifir). Olculdu: 0,20 alti alimlarin **83/94'u elinde
+karsi taraf varken** (cift tamamlama), medyan t=746 sn, medyan fiyat 0,07, medyan 22 pay.
+`mirror_policy.py`'ye eklendi (t>=600, seviyeler 0,12/0,07/0,03, 64 paya kadar). CANLI: `live_mirror3`
+(00:45 UTC). UYARI: ayni donemde cift maliyeti **1,1107** = ciftlerden ZARAR; 64 pencerenin 19'unda
+cift 0,95 altinda. Takip hedefi geregi zarari da kopyaliyoruz.
+
 **MEKANIZMA AVI SONUCU (09-19 19:30 TSI): KENAR ICRA DEGIL YON, AMA YON KURALI BULUNAMADI.**
 422 dolum/19 gun: ort.alis 0,551 · dolum anindaki mid 0,559 → iskonto sadece +0,76 kr; kazanan pay %64,2
 vs mid'in ima ettigi %55,9 → **+8,30 puan YON**. Gecikme testi gecti (mid'i 10/30/60/120 sn onceden
