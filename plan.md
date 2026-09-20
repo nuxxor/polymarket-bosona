@@ -90,3 +90,67 @@ degil. Bosona 10420.87, D 412.68 pay; 0.60 ustu pay orani %73.53 / %16.96.
 Gorunmeyen iptal/kuyruk davranisi tahmin edilmedi. Emir/kod degistirilmedi.
 Kanit: data/referans/d_bosona_20260920_1808.json. Sonuc/kimlik/odeme/miktar
 assert kontrolleri gecti; dosya JSON olarak tekrar okundu.
+
+## Siradaki arastirma: Bosona'nin dolumlarindan karar kurali — 21 Eylul
+Operator, gerceklesen islemler ve kazanc uzerinden bir sonraki adimi istedi.
+Bu tur salt-okunur tespit ve deney tasarimi; LIVE kaynak/butce/start degismez.
+- [x] F sessizligini runtime ile ayir: 22:49 UTC kontrolde LIVE yazici yok;
+      22:00:35 UTC hata cikisi, hemen oncesinde uc SSL dogrulama hatasi.
+      Bu kayit SSL'nin fatal cagrinin kesin kok nedeni oldugunu kanitlamaz.
+- [x] 21:00–22:30 UTC Bosona BTC5m dolumlarini tam piyasa gecmisi ve resmi
+      sonucla karsilastir: 14 piyasa / 127 kayit / 5097.890825 pay.
+      Onceki 128 sayisina 22:30:44 islemi dahildi. Dolum kaydi emir sayisi degil.
+      46 kayit / paylarin %49.13'u t>200; F t=200'de islemi kesiyor.
+      Gec dolumlar hem eslesmeyi artiriyor hem yeni yon riski aciyor;
+      zaman sinirini kaldirmak tek basina kar kaniti degil.
+- [x] JSON yeniden okuma, miktar/sinif/toplam sonuc assert kontrolleri.
+      Kanit: data/referans/bosona_f_siradaki_adim_20260921.json.
+
+Onerilen sonraki deneyin kabul olcutleri (bu tur uygulanmadi):
+- BTC5m'de ilk alim, ayni yone ekleme, karsi tarafi tamamlama ve yeniden
+  risk acma olaylarini kazanan/kaybeden tum pencerelerde esle; FIFO maliyet
+  dagilimi muhasebe secimidir, gizli karar kuralinin kaniti degildir.
+- Ilk odak son 100 saniye: dolum ONCESINDE mevcut fiyat/ref, kalan sure,
+  envanter ve spread ile gorunur ayrimi ara. Gec gelen kamu kaydi ileri
+  karar girdisi olmaz; eksik/gecikmeli defter ve yon belirsizligi etiketlenir.
+- Bulunan az sayida kurali sonraki ayrilmis gunlerde/golgede sabitle ve
+  olc. Yalniz kazananlari secme; benzer kosullardaki kayiplari da kapsa.
+  Fiyat degdi diye maker dolumu varsayma; dolum belirsizligini ayri raporla.
+- Basari: yeni donemde islem benzerligiyle birlikte masraf/iade dahil net
+  sonuc, acik risk ve dusus. Daha cok islem tek basina basari sayilmaz.
+
+## Aktif uygulama — 21 Eylul, Bosona gec dolum arastirmasi
+Operator yukaridaki sirayi onayladi. Kabul: tekrar calistirilabilir dolum
+muhasebesi, zaman-sizintisiz fiyat birlestirmesi, ayri gun raporu ve emir
+vermeyen ileri golge kaydi. F/LIVE kodu ve butcesi degistirilmez.
+On kayit (yeni sonuclari incelemeden):
+- 13–17 Eylul kesif, 18–20 Eylul kronolojik kontrol; onceki arastirmalarda
+  gorulen gunler oldugu icin bu kontrol tamamen kor test sayilmaz.
+- BTC5m, kapanistan >=20 dakika gecmis tum bulunan pencereler; eksik
+  kaynak sifir islem sayilmaz. Ilk alim/ekleme/tamamlama/yeniden acilis;
+  FIFO muhasebesi ve toplam odeme-maliyet bagimsiz uzlasir. MERGE gelirini
+  ikinci kez kar sayma. Kaybedenler ve en iyi uc pencere harici sonuc dahil.
+- Uc sabit kural: piyasa favorisi tabani; spot ve TWAP referansla favori
+  yonunde uyumlu; ayni uyum + TWAP uzakligi kalan sure oynakligindan >=1
+  standart sapma. Esik taramasi yok. Birincil karar t=240, t=210/270 ikincil.
+- Dolum-oncesi betimleyici girdiler kamu ts−5sn; −10sn duyarliligi.
+  Politika deneyi her uygun pencerede sabit zamanda, aktor dolumu gerektirmez.
+  Taze veri <=3sn; baslangic referansi karar oncesi alinmis exact TWAP.
+- Sanal 5 pay icin alinabilir ask derinligi ve ucret hesaplanir; maker
+  dolumu uydurulmaz. Bu taker karsilastirmasidir, Bosona maker kopyasi degil.
+- Sonraki 24 saatlik golge: ayni kurallar sabit, gercek emir/anahtar yok.
+  Pozitif iddia icin >=3 ayri gun, >=100 pencere, gun/pencere kumeli alt
+  guven siniri >0 ve en iyi uc pencere harici pozitif sonuc gerekir.
+  Az veri UNDERPOWERED; negatif sim tek basina tum stratejiyi curutmez.
+- [ ] API/veri kapsami ve muhasebe kontrolu.
+- [ ] Dolum davranisi, gec dolumlar ve sabit kurallarin ayri-gun sonucu.
+- [ ] Test/lint/gercek veri dogrulamasi ve ileri golge runtime kaniti.
+
+Arastirma notu (ilk betimleyici sonuclardan sonra, kesif olarak etiketli):
+FIFO eslesme katkisi pozitif, acik kalan kisim negatif. Ek mekanizma
+kontrolu: t<=200 gozlenen alislar sabit tutulup, son 100 saniyede yalniz
+mevcut acigi kapatan ve FIFO nakit maliyeti toplami <=0.98 olan gozlenen
+dolum miktari alinmis olsaydi, pencere bazinda sonuc/risk nasil degisirdi?
+Bu aktorun dolumlarina kosullu bir karsilastirmadir; bizim dolum garantimiz
+veya gercek bir politika backtest'i olarak sunulmaz. Golgedeki uc sabit
+kurali degistirmez; sonuc sonrasi parametre aramasi yapilmaz.

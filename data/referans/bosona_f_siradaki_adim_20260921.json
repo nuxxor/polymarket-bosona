@@ -1,0 +1,278 @@
+{
+  "start_utc": 1789938000,
+  "end_utc_exclusive": 1789943400,
+  "records": 127,
+  "transactions": 127,
+  "markets": 14,
+  "shares": 5097.890825000001,
+  "late_records": 46,
+  "late_share_fraction": 0.4913399335106395,
+  "below50_records": 22,
+  "below50_share_fraction": 0.13352786129938352,
+  "classification_qty": {
+    "first": 493.767464,
+    "new_after_first": 3057.146961,
+    "completion": 1546.9764000000002
+  },
+  "gross_pnl": 262.2600340197661,
+  "windows": [
+    {
+      "slug": "btc-updown-5m-1789938000",
+      "condition_id": "0x6ee24e9c16632e9a8ec399d76778249a811d78eebce7ceb4cc706d720c78fbd3",
+      "records": 15,
+      "up": 73.691483,
+      "down": 106.611141,
+      "cost": 83.39103000054178,
+      "paired_qty": 73.691483,
+      "classification": {
+        "first": 3.91,
+        "new_after_first": 102.701141,
+        "completion": 73.691483
+      },
+      "winner": "Down",
+      "gross_pnl": 23.220110999458228
+    },
+    {
+      "slug": "btc-updown-5m-1789938300",
+      "condition_id": "0x58e57743803c6d66275f93a66191073fc3972ca16141fb6b76933002476c0cae",
+      "records": 19,
+      "up": 640.820565,
+      "down": 614.834167,
+      "cost": 765.0922509861898,
+      "paired_qty": 614.834167,
+      "classification": {
+        "first": 40.0,
+        "new_after_first": 600.820565,
+        "completion": 614.834167
+      },
+      "winner": "Down",
+      "gross_pnl": -150.25808398618983
+    },
+    {
+      "slug": "btc-updown-5m-1789938600",
+      "condition_id": "0xfcd9c3777cc9a80b2939bbfe91d0de975b92257fe4fbde8ad61a4391386088a3",
+      "records": 11,
+      "up": 0,
+      "down": 416.890245,
+      "cost": 298.0142449984049,
+      "paired_qty": 0,
+      "classification": {
+        "first": 24.365854,
+        "new_after_first": 392.524391
+      },
+      "winner": "Down",
+      "gross_pnl": 118.87600000159512
+    },
+    {
+      "slug": "btc-updown-5m-1789938900",
+      "condition_id": "0x40483ddb426a049e16a764460f0381de0a32bc7277a56f391bf4426b971448b2",
+      "records": 8,
+      "up": 249.0,
+      "down": 0,
+      "cost": 199.2,
+      "paired_qty": 0,
+      "classification": {
+        "first": 5.0,
+        "new_after_first": 244.0
+      },
+      "winner": "Up",
+      "gross_pnl": 49.80000000000001
+    },
+    {
+      "slug": "btc-updown-5m-1789939200",
+      "condition_id": "0x912fe247b759ede707768cc4e98e22ca9e9d52781cd77abe99e6b87487d10c5a",
+      "records": 2,
+      "up": 8.0,
+      "down": 3.846154,
+      "cost": 8.846154000000002,
+      "paired_qty": 3.846154,
+      "classification": {
+        "first": 8.0,
+        "new_after_first": 0,
+        "completion": 3.846154
+      },
+      "winner": "Down",
+      "gross_pnl": -5.000000000000002
+    },
+    {
+      "slug": "btc-updown-5m-1789939500",
+      "condition_id": "0x29fd64a8f6c289096095400f1dd67c751da296d6bdb74c6764465d0c59514467",
+      "records": 2,
+      "up": 7.44,
+      "down": 7.447392,
+      "cost": 9.452792000237856,
+      "paired_qty": 7.44,
+      "classification": {
+        "first": 7.447392,
+        "new_after_first": 0,
+        "completion": 7.44
+      },
+      "winner": "Up",
+      "gross_pnl": -2.012792000237856
+    },
+    {
+      "slug": "btc-updown-5m-1789939800",
+      "condition_id": "0x26acadfdd0797c20fac9c52ab06d082a876b7ba6fdd23ff1a95221009da10b89",
+      "records": 1,
+      "up": 9.52381,
+      "down": 0,
+      "cost": 7.5238100000000045,
+      "paired_qty": 0,
+      "classification": {
+        "first": 9.52381,
+        "new_after_first": 0
+      },
+      "winner": "Up",
+      "gross_pnl": 1.9999999999999947
+    },
+    {
+      "slug": "btc-updown-5m-1789940100",
+      "condition_id": "0xdab39d099493b6a0f9e2f51ff4550ec8de03d7395537e5a64e94848dd9f9bc9b",
+      "records": 9,
+      "up": 500.758573,
+      "down": 296.623685,
+      "cost": 597.9909579975927,
+      "paired_qty": 296.623685,
+      "classification": {
+        "first": 197.5,
+        "new_after_first": 303.25857299999996,
+        "completion": 296.623685
+      },
+      "winner": "Up",
+      "gross_pnl": -97.23238499759265
+    },
+    {
+      "slug": "btc-updown-5m-1789940400",
+      "condition_id": "0xfc2825c476b8ada5d279ad4b963710c373bde783c418ae0310196a0fae763ae6",
+      "records": 8,
+      "up": 0,
+      "down": 128.404289,
+      "cost": 110.42768899821432,
+      "paired_qty": 0,
+      "classification": {
+        "first": 10.714286,
+        "new_after_first": 117.69000299999999
+      },
+      "winner": "Down",
+      "gross_pnl": 17.976600001785684
+    },
+    {
+      "slug": "btc-updown-5m-1789941000",
+      "condition_id": "0x19eb40b1b89ddaae8b4490ff0f7f802480036d805c029762ecfa9686e802a7b0",
+      "records": 13,
+      "up": 240.72000000000003,
+      "down": 240.72753,
+      "cost": 289.63942999836905,
+      "paired_qty": 240.72000000000003,
+      "classification": {
+        "first": 100.0,
+        "new_after_first": 140.72752999999997,
+        "completion": 240.72000000000003
+      },
+      "winner": "Down",
+      "gross_pnl": -48.91189999836905
+    },
+    {
+      "slug": "btc-updown-5m-1789941600",
+      "condition_id": "0xcb084a96561adb72a53f67a83820cd4a8ed1b51d848acd11da7aee1e06ebebca",
+      "records": 17,
+      "up": 119.14235000000001,
+      "down": 586.642206,
+      "cost": 336.55935300467803,
+      "paired_qty": 119.14235000000001,
+      "classification": {
+        "first": 20.0,
+        "new_after_first": 566.642206,
+        "completion": 119.14235000000001
+      },
+      "winner": "Down",
+      "gross_pnl": 250.08285299532196
+    },
+    {
+      "slug": "btc-updown-5m-1789942200",
+      "condition_id": "0x90ffac6b620a2a61afc11911543b60845c0780f6704fd6b195dc3daa3b3852c6",
+      "records": 2,
+      "up": 80.005406,
+      "down": 0,
+      "cost": 50.25340599751568,
+      "paired_qty": 0,
+      "classification": {
+        "first": 5.0,
+        "new_after_first": 75.005406
+      },
+      "winner": "Up",
+      "gross_pnl": 29.752000002484316
+    },
+    {
+      "slug": "btc-updown-5m-1789942800",
+      "condition_id": "0xe75202f67929a86ef56f7704e129a045cf54e28e16ec9777a427fb8602d9f1e2",
+      "records": 6,
+      "up": 0,
+      "down": 93.163268,
+      "cost": 47.513267997561314,
+      "paired_qty": 0,
+      "classification": {
+        "first": 51.020409,
+        "new_after_first": 42.142859
+      },
+      "winner": "Down",
+      "gross_pnl": 45.65000000243869
+    },
+    {
+      "slug": "btc-updown-5m-1789943100",
+      "condition_id": "0x45a76fb74dd1fd003f906ff4a70a0590343ccfda6d7585a16f121d63abf4dc3d",
+      "records": 14,
+      "up": 482.91999999999996,
+      "down": 190.678561,
+      "cost": 454.60236900092843,
+      "paired_qty": 190.678561,
+      "classification": {
+        "first": 11.285713,
+        "new_after_first": 471.634287,
+        "completion": 190.678561
+      },
+      "winner": "Up",
+      "gross_pnl": 28.317630999071525
+    }
+  ],
+  "note": "BUY records; full market fill history contained in previous 24h snapshot; same-timestamp within-transaction order ambiguous. Classification quantity is accounting, not inferred intent. Gross PnL excludes fees/rebates. Partial fills are not separate order decisions.",
+  "late_qty": {
+    "completion": 1126.5730480000002,
+    "new_risk": 1378.2242909999998,
+    "shares": 2504.7973389999997,
+    "above_90": 249
+  },
+  "early_qty": {
+    "completion": 420.40335200000004,
+    "new_risk": 2172.690134000001,
+    "shares": 2593.093486000001,
+    "above_90": 86.28999999999999
+  },
+  "f_runtime_check": {
+    "observed_utc_ms": 1789944559178,
+    "live_writers": 0,
+    "last_stop_utc_ms": 1789941635132,
+    "reason": "hata",
+    "preceding_errors": "three SSL CERTIFICATE_VERIFY_FAILED errors",
+    "scheduled_end_utc_ms": 1789942847340,
+    "source_hashes_match_manifest": true,
+    "live_changes": false
+  },
+  "f_current_rules": {
+    "entry_must_be_favorite": true,
+    "entry_price_band": [
+      0.15,
+      0.9
+    ],
+    "active_seconds": [
+      3,
+      200
+    ],
+    "source": "../polymarket-bosona-f/docs/F_LANE.md"
+  },
+  "sources": {
+    "activity": "https://data-api.polymarket.com/activity?user=0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed&start=1789938000&end=1789943399&limit=500",
+    "resolution": "https://gamma-api.polymarket.com/markets/slug/{slug}"
+  },
+  "boundary_note": "Previous 128-record figure included a trade at 22:30:44 UTC. Exact 21:00:00 <= timestamp < 22:30:00 UTC interval contains 127 records."
+}
