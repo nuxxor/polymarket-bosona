@@ -322,3 +322,41 @@ yapilmadi; duzeltme yeni kaynak/surumle ayri ileri donem gerektirir.
 oz-test/Ruff/compile/gercek analiz ve ayni hash'li tekrar gecti.
 Surec/hash/bitisler korundu; ekonomik kabul esikleri hala acik.
 Rapor:docs/SHADOW_SONUC_20260921.md; kanit:data/analysis/shadow_status_20260921_1016/.
+
+## Iki shadow ile ayni donem Bosona karsilastirmasi — 21 Eylul
+Operator Jev haric iki golgenin ilerleyisini ve gercek baslangiclarindan
+beri Bosona'nin performans/davranis benzerligini istedi. Salt-okunur arastirma;
+calisan strateji/kaynak/butce/sure degismez. Bilinen t270/280 olcum hatasi
+gecerli test veya Bosona'dan sapma diye sayilmaz.
+- [x] Guncel Londra kayitlarini ve ayni kesime kadar resmi sonuclari dondur;
+      eski/yeni shadow sureleri, gecerli/eksik/bekleyen sonuc ayri olsun.
+- [x] Bosona'nin gorunur aktivitesini tam sayfalama/tekillik ile al; BTC5m
+      ortak piyasa kohortu ve diger piyasalar ayri. Onceki alimlar, MERGE,
+      acik miktar ve ucret/iade belirsizligi dogru muhasebelensin.
+- [x] Ayni pencerelerde yon, zaman, fiyat, ekleme/tamamlama, boy ve PnL
+      karsilastirmasi; sinyal yok ile veri yok ayri. Gorunmeyen emirlerden
+      sonuc uydurma; ham dolar farkini strateji ustunlugu sayma.
+- [x] Tekrar calistirilabilir rapor, hedefli test/lint/gercek API ve toplam
+      dogrulamasi; kopyalamaya ne kadar yaklasildigi ve acik kalan fark net.
+
+Kesim21Eylul12:00UTC/15:00TR. Ilkshadow152atama/46gecerli ana t240:
+favori+2,43761, uyum-3,44569, siki-7,93189. Yeni134atama/38gecerli
+ikincil t240:10islem/1kazanan/-5,95631; ana t280gecerlikarar0.
+Bilinen mum yenileme sorunu ve defter eksigi bu tur giderilmedi.
+Bosona ayni ilk-baslangic kohortunda322sonuclupiyasa/+2053,442069;
+BTC5m89pencere/535dolum/38965,62pay/+984,655319. Yeni-baslangic
+BTC5m78pencere/+805,206345. 3sonucu dogrulanmamis saatlik ve devreden
+70alis ayri;282,1514USDhesap-geneli iadeler kohorta dagitilmadi.
+BTC5m eniyi3haric-92,548175, herpencere5toplampay normu+0,768051.
+Yakin zaman +/-15sn yon uyumu favori8/16, rebound2/5; +/-5/30sn de
+kontrol edildi. Ayni32pencere favori+0,81094/Bosona5paynormu+2,879092;
+rebound7ortakpencere-4,11772/Bosona5paynormu+5,233032.
+Bosona ilk-alimmedyan90sn/42sent,44/89iki taraf; shadowt240tek5pay.
+Son20ekleme+73,5538yalniz1pencere/10dolum/88-91sent; ucuz-taraf
+kuralinin genel taklit olduguna kanit yok. Kamu ts/emir saati ayri tutuldu.
+120piyasada bagimsiz/trades kimlik-cokluk-miktar-brutsonuc,322piyasada
+MERGE/REDEEMsiniri,8rawhash,15Decimalgolgetoplam,321eskikaydin taze
+activityeslesmesi,oz-test/Ruff/compile/gercekanaliz gecti. API429sonrasi
+dogrulama tekil1snaralikli yapildi; veri eksigi sifira cevrilmedi.
+Rapor:docs/SHADOW_BOSONA_20260921.md; kanit:data/analysis/shadow_bosona_20260921_1200/.
+Jev, iki calisan golge ve LIVE kaynak/sureclerine mudahale edilmedi.

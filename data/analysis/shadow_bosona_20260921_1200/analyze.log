@@ -1,0 +1,2281 @@
+{
+  "shadows": {
+    "baseline": {
+      "start": 1789946400,
+      "duration_hours": 12.666666666666666,
+      "by_age": {
+        "210": {
+          "assigned": 152,
+          "eligible": 86,
+          "gaps": 66,
+          "gap_reasons": {
+            "empty/invalid public book": 34,
+            "stale price": 28,
+            "exact-start reference missing": 3,
+            "missing history": 1
+          },
+          "rules": {
+            "favorite": {
+              "eligible": 86,
+              "resolved_eligible": 86,
+              "trades": 86,
+              "wins": 74,
+              "losses": 12,
+              "no_signal": 0,
+              "pending_selected": 0,
+              "pnl": -5.6312499999999925,
+              "cost": 375.63124999999997,
+              "fees": 2.95255,
+              "max_drawdown": 19.238999999999997,
+              "ex_top3": -11.083929999999992
+            },
+            "aligned": {
+              "eligible": 86,
+              "resolved_eligible": 86,
+              "trades": 75,
+              "wins": 67,
+              "losses": 8,
+              "no_signal": 11,
+              "pending_selected": 0,
+              "pnl": -2.245749999999992,
+              "cost": 337.24575,
+              "fees": 2.16705,
+              "max_drawdown": 13.349879999999995,
+              "ex_top3": -7.698429999999992
+            },
+            "buffer": {
+              "eligible": 86,
+              "resolved_eligible": 86,
+              "trades": 45,
+              "wins": 41,
+              "losses": 4,
+              "no_signal": 41,
+              "pending_selected": 0,
+              "pnl": -7.564529999999993,
+              "cost": 212.56453,
+              "fees": 0.80453,
+              "max_drawdown": 11.350289999999998,
+              "ex_top3": -10.301079999999994
+            }
+          }
+        },
+        "240": {
+          "assigned": 152,
+          "eligible": 46,
+          "gaps": 106,
+          "gap_reasons": {
+            "empty/invalid public book": 81,
+            "stale price": 23,
+            "exact-start reference missing": 2
+          },
+          "rules": {
+            "favorite": {
+              "eligible": 46,
+              "resolved_eligible": 46,
+              "trades": 46,
+              "wins": 40,
+              "losses": 6,
+              "no_signal": 0,
+              "pending_selected": 0,
+              "pnl": 2.4376100000000007,
+              "cost": 197.56239,
+              "fees": 1.67639,
+              "max_drawdown": 6.108399999999998,
+              "ex_top3": -3.35972
+            },
+            "aligned": {
+              "eligible": 46,
+              "resolved_eligible": 46,
+              "trades": 38,
+              "wins": 33,
+              "losses": 5,
+              "no_signal": 8,
+              "pending_selected": 0,
+              "pnl": -3.4456899999999977,
+              "cost": 168.44568999999998,
+              "fees": 1.14569,
+              "max_drawdown": 9.67476,
+              "ex_top3": -8.312029999999996
+            },
+            "buffer": {
+              "eligible": 46,
+              "resolved_eligible": 46,
+              "trades": 27,
+              "wins": 23,
+              "losses": 4,
+              "no_signal": 19,
+              "pending_selected": 0,
+              "pnl": -7.931889999999998,
+              "cost": 122.93189,
+              "fees": 0.63189,
+              "max_drawdown": 9.726289999999999,
+              "ex_top3": -9.905749999999998
+            }
+          }
+        },
+        "270": {
+          "assigned": 152,
+          "eligible": 15,
+          "gaps": 137,
+          "gap_reasons": {
+            "empty/invalid public book": 129,
+            "stale price": 6,
+            "missing history": 1,
+            "exact-start reference missing": 1
+          },
+          "rules": {
+            "favorite": {
+              "eligible": 15,
+              "resolved_eligible": 15,
+              "trades": 15,
+              "wins": 15,
+              "losses": 0,
+              "no_signal": 0,
+              "pending_selected": 0,
+              "pnl": 7.120010000000001,
+              "cost": 67.87998999999999,
+              "fees": 0.42999,
+              "max_drawdown": 0.0,
+              "ex_top3": 3.3222400000000016
+            },
+            "aligned": {
+              "eligible": 15,
+              "resolved_eligible": 15,
+              "trades": 9,
+              "wins": 9,
+              "losses": 0,
+              "no_signal": 6,
+              "pending_selected": 0,
+              "pnl": 3.7682899999999995,
+              "cost": 41.23171,
+              "fees": 0.23171,
+              "max_drawdown": 0.0,
+              "ex_top3": 1.1208899999999993
+            },
+            "buffer": {
+              "eligible": 15,
+              "resolved_eligible": 15,
+              "trades": 1,
+              "wins": 1,
+              "losses": 0,
+              "no_signal": 14,
+              "pending_selected": 0,
+              "pnl": 0.23336999999999986,
+              "cost": 4.76663,
+              "fees": 0.01663,
+              "max_drawdown": 0.0,
+              "ex_top3": 0.0
+            }
+          }
+        }
+      }
+    },
+    "rebound": {
+      "start": 1789951800,
+      "duration_hours": 11.166666666666666,
+      "by_age": {
+        "240": {
+          "assigned": 134,
+          "eligible": 38,
+          "gaps": 96,
+          "gap_reasons": {
+            "incomplete or stale context": 22,
+            "empty/invalid public book": 73,
+            "exact-start reference missing": 1
+          },
+          "rules": {
+            "rebound": {
+              "eligible": 38,
+              "resolved_eligible": 38,
+              "trades": 10,
+              "wins": 1,
+              "losses": 9,
+              "no_signal": 28,
+              "pending_selected": 0,
+              "pnl": -5.95631,
+              "cost": 10.95631,
+              "fees": 0.50631,
+              "max_drawdown": 6.103400000000001,
+              "ex_top3": -9.537320000000001
+            },
+            "favorite": {
+              "eligible": 38,
+              "resolved_eligible": 38,
+              "trades": 38,
+              "wins": 34,
+              "losses": 4,
+              "no_signal": 0,
+              "pending_selected": 0,
+              "pnl": 7.098819999999999,
+              "cost": 162.90118,
+              "fees": 1.40118,
+              "max_drawdown": 6.346809999999997,
+              "ex_top3": 0.8543199999999986
+            }
+          }
+        },
+        "270": {
+          "assigned": 134,
+          "eligible": 0,
+          "gaps": 134,
+          "gap_reasons": {
+            "empty/invalid public book": 115,
+            "incomplete or stale context": 18,
+            "exact-start reference missing": 1
+          },
+          "rules": {
+            "rebound": {
+              "eligible": 0,
+              "resolved_eligible": 0,
+              "trades": 0,
+              "wins": 0,
+              "losses": 0,
+              "no_signal": 0,
+              "pending_selected": 0,
+              "pnl": null,
+              "cost": 0,
+              "fees": 0,
+              "max_drawdown": null,
+              "ex_top3": null
+            },
+            "favorite": {
+              "eligible": 0,
+              "resolved_eligible": 0,
+              "trades": 0,
+              "wins": 0,
+              "losses": 0,
+              "no_signal": 0,
+              "pending_selected": 0,
+              "pnl": null,
+              "cost": 0,
+              "fees": 0,
+              "max_drawdown": null,
+              "ex_top3": null
+            }
+          }
+        },
+        "280": {
+          "assigned": 134,
+          "eligible": 0,
+          "gaps": 134,
+          "gap_reasons": {
+            "empty/invalid public book": 123,
+            "incomplete or stale context": 11
+          },
+          "rules": {
+            "rebound": {
+              "eligible": 0,
+              "resolved_eligible": 0,
+              "trades": 0,
+              "wins": 0,
+              "losses": 0,
+              "no_signal": 0,
+              "pending_selected": 0,
+              "pnl": null,
+              "cost": 0,
+              "fees": 0,
+              "max_drawdown": null,
+              "ex_top3": null
+            },
+            "favorite": {
+              "eligible": 0,
+              "resolved_eligible": 0,
+              "trades": 0,
+              "wins": 0,
+              "losses": 0,
+              "no_signal": 0,
+              "pending_selected": 0,
+              "pnl": null,
+              "cost": 0,
+              "fees": 0,
+              "max_drawdown": null,
+              "ex_top3": null
+            }
+          }
+        }
+      }
+    }
+  },
+  "bosona": {
+    "baseline_period": {
+      "bnb_15m": {
+        "markets": 1,
+        "fills": 5,
+        "shares": 46.657897,
+        "pnl": 17.73,
+        "gross_pnl": 17.73000000052099,
+        "cents_per_share": 37.99999815679648,
+        "ex_top3": 0.0,
+        "equal5_per_window": 1.8999999078398242,
+        "days": {
+          "2026-09-21": 17.73
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 0.0,
+        "residual_cash_pnl": 17.73,
+        "both_sides": 0,
+        "balanced": 0,
+        "first_age_median": 797,
+        "first_fraction_median": 0.8855555555555555,
+        "first_price_median": 0.6200000184320352,
+        "first_share_median": 46.657897,
+        "first_paid_above_60": 1,
+        "fill_qty_median": 8.447369,
+        "paid_average": 0.6200000184320352,
+        "cheap_below30_share": 0.0,
+        "above60_share": 1.0,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 1.0,
+        "last20_pnl": 0,
+        "lastthird_pnl": 17.73,
+        "completion_share": 0.0,
+        "add_share": 0.9514946419466784,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/bnb-usd-twap-60s-streams": 1
+        }
+      },
+      "bnb_1h": {
+        "markets": 7,
+        "fills": 21,
+        "shares": 300.811324,
+        "pnl": 17.038786999999996,
+        "gross_pnl": 17.055407001132664,
+        "cents_per_share": 5.664277120099373,
+        "ex_top3": -4.4236,
+        "equal5_per_window": 0.6924893862924821,
+        "days": {
+          "2026-09-21": 17.038787
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 20.32148025692003,
+        "residual_cash_pnl": -3.282693256920033,
+        "both_sides": 3,
+        "balanced": 0,
+        "first_age_median": 1057,
+        "first_fraction_median": 0.2936111111111111,
+        "first_price_median": 0.6810000051003569,
+        "first_share_median": 10.0,
+        "first_paid_above_60": 4,
+        "fill_qty_median": 10.0,
+        "paid_average": 0.4824085379179408,
+        "cheap_below30_share": 0.29350629100651804,
+        "above60_share": 0.37516606588919504,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.5967705125356252,
+        "last20_pnl": 0,
+        "lastthird_pnl": 17.045046999999997,
+        "completion_share": 0.3001762692949684,
+        "add_share": 0.2871567428093232,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://www.binance.com/en/trade/BNB_USDT": 7
+        }
+      },
+      "bnb_5m": {
+        "markets": 11,
+        "fills": 15,
+        "shares": 122.0,
+        "pnl": 10.39445,
+        "gross_pnl": 10.49,
+        "cents_per_share": 8.52004098360656,
+        "ex_top3": 1.0899999999999999,
+        "equal5_per_window": 2.4659739583333344,
+        "days": {
+          "2026-09-20": 1.4000000000000001,
+          "2026-09-21": 8.994450000000002
+        },
+        "positive_days": 2,
+        "pair_cash_pnl": -0.49555000000000016,
+        "residual_cash_pnl": 10.890000000000002,
+        "both_sides": 2,
+        "balanced": 1,
+        "first_age_median": 181,
+        "first_fraction_median": 0.6033333333333334,
+        "first_price_median": 0.86,
+        "first_share_median": 10.0,
+        "first_paid_above_60": 10,
+        "fill_qty_median": 10.0,
+        "paid_average": 0.7344717213114753,
+        "cheap_below30_share": 0.12295081967213115,
+        "above60_share": 0.7459016393442623,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.36885245901639346,
+        "last20_pnl": 0,
+        "lastthird_pnl": 4.300000000000002,
+        "completion_share": 0.1721311475409836,
+        "add_share": 0.08196721311475409,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/bnb-usd-twap-60s-streams": 11
+        }
+      },
+      "btc_1h": {
+        "markets": 11,
+        "fills": 63,
+        "shares": 4094.130502,
+        "pnl": 314.478555,
+        "gross_pnl": 316.70977499651366,
+        "cents_per_share": 7.681204955395923,
+        "ex_top3": -80.63749900000005,
+        "equal5_per_window": 5.172494035757751,
+        "days": {
+          "2026-09-21": 314.478555
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 84.72547674001186,
+        "residual_cash_pnl": 229.75307825998811,
+        "both_sides": 8,
+        "balanced": 3,
+        "first_age_median": 578,
+        "first_fraction_median": 0.16055555555555556,
+        "first_price_median": 0.47,
+        "first_share_median": 49.41,
+        "first_paid_above_60": 4,
+        "fill_qty_median": 40.76,
+        "paid_average": 0.4987904354788933,
+        "cheap_below30_share": 0.2996497958237287,
+        "above60_share": 0.2954051785621366,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.3612474480912382,
+        "last20_pnl": 0,
+        "lastthird_pnl": 128.447175,
+        "completion_share": 0.3926881385961253,
+        "add_share": 0.35477907587226193,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://www.binance.com/en/trade/BTC_USDT": 11
+        }
+      },
+      "btc_4h": {
+        "markets": 1,
+        "fills": 2,
+        "shares": 199.993334,
+        "pnl": 29.999000000000002,
+        "gross_pnl": 29.99900000004663,
+        "cents_per_share": 14.999999949998333,
+        "ex_top3": 0.0,
+        "equal5_per_window": 0.7499999974999166,
+        "days": {
+          "2026-09-21": 29.999000000000002
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 0.0,
+        "residual_cash_pnl": 29.999000000000002,
+        "both_sides": 0,
+        "balanced": 0,
+        "first_age_median": 3209,
+        "first_fraction_median": 0.22284722222222222,
+        "first_price_median": 0.8500000517241201,
+        "first_share_median": 1.933334,
+        "first_paid_above_60": 1,
+        "fill_qty_median": 99.996667,
+        "paid_average": 0.8500000005000167,
+        "cheap_below30_share": 0.0,
+        "above60_share": 1.0,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.0,
+        "last20_pnl": 0,
+        "lastthird_pnl": 0,
+        "completion_share": 0.0,
+        "add_share": 0.9903330077991499,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/btc-usd-twap-60s-streams": 1
+        }
+      },
+      "btc_5m": {
+        "markets": 89,
+        "fills": 535,
+        "shares": 38965.61986,
+        "pnl": 984.6553189999998,
+        "gross_pnl": 1079.9058489470237,
+        "cents_per_share": 2.5269848716324255,
+        "ex_top3": -92.54817500000001,
+        "equal5_per_window": 0.7680510584659176,
+        "days": {
+          "2026-09-20": 49.55499799999998,
+          "2026-09-21": 935.1003209999998
+        },
+        "positive_days": 2,
+        "pair_cash_pnl": 119.86067299690333,
+        "residual_cash_pnl": 864.7946460030965,
+        "both_sides": 44,
+        "balanced": 17,
+        "first_age_median": 90,
+        "first_fraction_median": 0.3,
+        "first_price_median": 0.42000001625368677,
+        "first_share_median": 114.9,
+        "first_paid_above_60": 28,
+        "fill_qty_median": 18.0,
+        "paid_average": 0.5129402777579734,
+        "cheap_below30_share": 0.26948482897815756,
+        "above60_share": 0.43004991020820377,
+        "prestart_share": 0.0,
+        "afterend_share": 0.012780497315050285,
+        "last20_share": 0.038073436309502606,
+        "lastthird_share": 0.39804181018358886,
+        "last20_pnl": 90.13657399999998,
+        "lastthird_pnl": 704.837916,
+        "completion_share": 0.28301297991978097,
+        "add_share": 0.4338855355501587,
+        "ambiguous_windows": 1,
+        "rules": {
+          "https://data.chain.link/streams/btc-usd-twap-60s-streams": 89
+        }
+      },
+      "doge_15m": {
+        "markets": 11,
+        "fills": 18,
+        "shares": 376.42497000000003,
+        "pnl": 41.438849000000005,
+        "gross_pnl": 41.43884900031024,
+        "cents_per_share": 11.008528206829638,
+        "ex_top3": 3.3118490000000023,
+        "equal5_per_window": 8.55949331062677,
+        "days": {
+          "2026-09-20": 10.127,
+          "2026-09-21": 31.311849000000006
+        },
+        "positive_days": 2,
+        "pair_cash_pnl": -11.700000000000001,
+        "residual_cash_pnl": 53.13884900000001,
+        "both_sides": 1,
+        "balanced": 0,
+        "first_age_median": 188,
+        "first_fraction_median": 0.2088888888888889,
+        "first_price_median": 0.79,
+        "first_share_median": 38.95,
+        "first_paid_above_60": 10,
+        "fill_qty_median": 18.477612,
+        "paid_average": 0.6774159270039923,
+        "cheap_below30_share": 0.0,
+        "above60_share": 0.7901577809782384,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.10623591468971891,
+        "last20_pnl": 0,
+        "lastthird_pnl": -13.196651,
+        "completion_share": 0.10360630433204257,
+        "add_share": 0.12501317858908242,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/doge-usd-twap-60s-streams": 11
+        }
+      },
+      "doge_1h": {
+        "markets": 1,
+        "fills": 1,
+        "shares": 5.89,
+        "pnl": 1.49606,
+        "gross_pnl": 1.49606,
+        "cents_per_share": 25.400000000000002,
+        "ex_top3": 0.0,
+        "equal5_per_window": 1.27,
+        "days": {
+          "2026-09-21": 1.49606
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 0.0,
+        "residual_cash_pnl": 1.49606,
+        "both_sides": 0,
+        "balanced": 0,
+        "first_age_median": 3183,
+        "first_fraction_median": 0.8841666666666667,
+        "first_price_median": 0.746,
+        "first_share_median": 5.89,
+        "first_paid_above_60": 1,
+        "fill_qty_median": 5.89,
+        "paid_average": 0.746,
+        "cheap_below30_share": 0.0,
+        "above60_share": 1.0,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 1.0,
+        "last20_pnl": 0,
+        "lastthird_pnl": 1.49606,
+        "completion_share": 0.0,
+        "add_share": 0.0,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://www.binance.com/en/trade/DOGE_USDT": 1
+        }
+      },
+      "doge_4h": {
+        "markets": 1,
+        "fills": 3,
+        "shares": 17.401888,
+        "pnl": 3.5680000000000005,
+        "gross_pnl": 3.567999999704033,
+        "cents_per_share": 20.50352237642261,
+        "ex_top3": 0.0,
+        "equal5_per_window": 1.0251761188211304,
+        "days": {
+          "2026-09-21": 3.5680000000000005
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 3.5669993602901853,
+        "residual_cash_pnl": 0.0010006397098150143,
+        "both_sides": 1,
+        "balanced": 1,
+        "first_age_median": 36,
+        "first_fraction_median": 0.0025,
+        "first_price_median": 0.4700000513565841,
+        "first_share_median": 6.815095,
+        "first_paid_above_60": 0,
+        "fill_qty_median": 6.815095,
+        "paid_average": 0.29501902322322726,
+        "cheap_below30_share": 0.4999457530125467,
+        "above60_share": 0.0,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.0,
+        "last20_pnl": 0,
+        "lastthird_pnl": 0,
+        "completion_share": 0.4999457530125467,
+        "add_share": 0.10842461461652897,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/doge-usd-twap-60s-streams": 1
+        }
+      },
+      "doge_5m": {
+        "markets": 21,
+        "fills": 28,
+        "shares": 525.756389,
+        "pnl": 59.788875999999995,
+        "gross_pnl": 60.509596000714424,
+        "cents_per_share": 11.371973265739998,
+        "ex_top3": 30.198875999999995,
+        "equal5_per_window": 17.12384777091874,
+        "days": {
+          "2026-09-21": 59.788876
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": -22.506320212026367,
+        "residual_cash_pnl": 82.29519621202635,
+        "both_sides": 2,
+        "balanced": 1,
+        "first_age_median": 117,
+        "first_fraction_median": 0.39,
+        "first_price_median": 0.8100000037999999,
+        "first_share_median": 19.02381,
+        "first_paid_above_60": 20,
+        "fill_qty_median": 17.806452,
+        "paid_average": 0.7766992803961912,
+        "cheap_below30_share": 0.0,
+        "above60_share": 0.9638163027629892,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.20021279855526397,
+        "last20_pnl": 0,
+        "lastthird_pnl": 24.0,
+        "completion_share": 0.1056763192277631,
+        "add_share": 0.08559097129678438,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/doge-usd-twap-60s-streams": 21
+        }
+      },
+      "eth_15m": {
+        "markets": 7,
+        "fills": 12,
+        "shares": 169.69919,
+        "pnl": -17.785519,
+        "gross_pnl": -17.785519000503896,
+        "cents_per_share": -10.480615140237266,
+        "ex_top3": -50.885518999999995,
+        "equal5_per_window": -2.0262259944885788,
+        "days": {
+          "2026-09-21": -17.785519
+        },
+        "positive_days": 0,
+        "pair_cash_pnl": 0.0,
+        "residual_cash_pnl": -17.785519,
+        "both_sides": 0,
+        "balanced": 0,
+        "first_age_median": 58,
+        "first_fraction_median": 0.06444444444444444,
+        "first_price_median": 0.4700000230608203,
+        "first_share_median": 15.120385,
+        "first_paid_above_60": 1,
+        "fill_qty_median": 11.79775,
+        "paid_average": 0.5346183149135832,
+        "cheap_below30_share": 0.08011529106296854,
+        "above60_share": 0.21874226388470094,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.03535668025286391,
+        "lastthird_share": 0.29885755494766947,
+        "last20_pnl": -5.16,
+        "lastthird_pnl": -29.84459,
+        "completion_share": 0.0,
+        "add_share": 0.3071339645168607,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/eth-usd-twap-60s-streams": 7
+        }
+      },
+      "eth_1h": {
+        "markets": 9,
+        "fills": 47,
+        "shares": 1019.880516,
+        "pnl": 95.158152,
+        "gross_pnl": 98.38562199892513,
+        "cents_per_share": 9.330323553313182,
+        "ex_top3": -4.281846000000002,
+        "equal5_per_window": 3.1848739146735676,
+        "days": {
+          "2026-09-21": 95.15815200000002
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 19.053538740110493,
+        "residual_cash_pnl": 76.1046132598895,
+        "both_sides": 9,
+        "balanced": 5,
+        "first_age_median": 663,
+        "first_fraction_median": 0.18416666666666667,
+        "first_price_median": 0.64,
+        "first_share_median": 20.111112,
+        "first_paid_above_60": 6,
+        "fill_qty_median": 17.452728,
+        "paid_average": 0.5646441842605021,
+        "cheap_below30_share": 0.25898293560497826,
+        "above60_share": 0.5520036368652423,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.1509490548988976,
+        "last20_pnl": 0,
+        "lastthird_pnl": -1.8289599999999995,
+        "completion_share": 0.3420525802063661,
+        "add_share": 0.33040796124004,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://www.binance.com/en/trade/ETH_USDT": 9
+        }
+      },
+      "eth_4h": {
+        "markets": 1,
+        "fills": 2,
+        "shares": 100.0,
+        "pnl": 3.5000000000000018,
+        "gross_pnl": 3.5,
+        "cents_per_share": 3.5000000000000018,
+        "ex_top3": 0.0,
+        "equal5_per_window": 0.17500000000000007,
+        "days": {
+          "2026-09-21": 3.5000000000000018
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 3.5000000000000018,
+        "residual_cash_pnl": 0,
+        "both_sides": 1,
+        "balanced": 1,
+        "first_age_median": 2345,
+        "first_fraction_median": 0.16284722222222223,
+        "first_price_median": 0.09,
+        "first_share_median": 50.0,
+        "first_paid_above_60": 0,
+        "fill_qty_median": 50.0,
+        "paid_average": 0.465,
+        "cheap_below30_share": 0.5,
+        "above60_share": 0.5,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.0,
+        "last20_pnl": 0,
+        "lastthird_pnl": 0,
+        "completion_share": 0.5,
+        "add_share": 0.0,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/eth-usd-twap-60s-streams": 1
+        }
+      },
+      "eth_5m": {
+        "markets": 68,
+        "fills": 258,
+        "shares": 8311.891394,
+        "pnl": 354.5136659999999,
+        "gross_pnl": 374.85899600110383,
+        "cents_per_share": 4.265138332484808,
+        "ex_top3": -256.38923400000016,
+        "equal5_per_window": 3.0623326449881305,
+        "days": {
+          "2026-09-20": 117.53219999999999,
+          "2026-09-21": 236.98146599999995
+        },
+        "positive_days": 2,
+        "pair_cash_pnl": -313.3912554175879,
+        "residual_cash_pnl": 667.9049214175877,
+        "both_sides": 15,
+        "balanced": 2,
+        "first_age_median": 94.0,
+        "first_fraction_median": 0.31333333333333335,
+        "first_price_median": 0.26000000793478245,
+        "first_share_median": 28.2060345,
+        "first_paid_above_60": 12,
+        "fill_qty_median": 10.433325,
+        "paid_average": 0.5376987535263263,
+        "cheap_below30_share": 0.24885416651294612,
+        "above60_share": 0.45962591399567077,
+        "prestart_share": 0.0,
+        "afterend_share": 0.10714408523706945,
+        "last20_share": 0.07326250706783477,
+        "lastthird_share": 0.4287093260833817,
+        "last20_pnl": 36.028309000000014,
+        "lastthird_pnl": 757.573128,
+        "completion_share": 0.18481139853546072,
+        "add_share": 0.4374049259864523,
+        "ambiguous_windows": 1,
+        "rules": {
+          "https://data.chain.link/streams/eth-usd-twap-60s-streams": 68
+        }
+      },
+      "sol_15m": {
+        "markets": 17,
+        "fills": 28,
+        "shares": 564.496756,
+        "pnl": 37.501486,
+        "gross_pnl": 38.33416599979064,
+        "cents_per_share": 6.6433483631923655,
+        "ex_top3": 9.304385999999997,
+        "equal5_per_window": 6.372207780066507,
+        "days": {
+          "2026-09-20": 0.22999999999999987,
+          "2026-09-21": 37.271485999999996
+        },
+        "positive_days": 2,
+        "pair_cash_pnl": -16.443080159964637,
+        "residual_cash_pnl": 53.94456615996464,
+        "both_sides": 6,
+        "balanced": 6,
+        "first_age_median": 196,
+        "first_fraction_median": 0.21777777777777776,
+        "first_price_median": 0.8,
+        "first_share_median": 30.0,
+        "first_paid_above_60": 16,
+        "fill_qty_median": 26.0,
+        "paid_average": 0.6765529331048982,
+        "cheap_below30_share": 0.16829148970344127,
+        "above60_share": 0.7785638293375773,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.16829148970344127,
+        "last20_pnl": 0,
+        "lastthird_pnl": 26.4383,
+        "completion_share": 0.25700767711763434,
+        "add_share": 0.11773038780757847,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/sol-usd-twap-60s-streams": 17
+        }
+      },
+      "sol_1h": {
+        "markets": 5,
+        "fills": 16,
+        "shares": 326.501296,
+        "pnl": 17.204305,
+        "gross_pnl": 17.834194999955557,
+        "cents_per_share": 5.26929148850913,
+        "ex_top3": -18.795495,
+        "equal5_per_window": 2.2649049848362726,
+        "days": {
+          "2026-09-21": 17.204305000000005
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": -19.391084032,
+        "residual_cash_pnl": 36.595389032,
+        "both_sides": 2,
+        "balanced": 0,
+        "first_age_median": 764,
+        "first_fraction_median": 0.21222222222222223,
+        "first_price_median": 0.74,
+        "first_share_median": 19.23,
+        "first_paid_above_60": 3,
+        "fill_qty_median": 10.0,
+        "paid_average": 0.7773672359328092,
+        "cheap_below30_share": 0.006591848260228651,
+        "above60_share": 0.9471019067562905,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.38943872063527735,
+        "last20_pnl": 0,
+        "lastthird_pnl": 15.772239000000003,
+        "completion_share": 0.15973059721024813,
+        "add_share": 0.46452087283598403,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://www.binance.com/en/trade/SOL_USDT": 5
+        }
+      },
+      "sol_5m": {
+        "markets": 41,
+        "fills": 81,
+        "shares": 1840.936452,
+        "pnl": 100.30806399999997,
+        "gross_pnl": 100.76276400078127,
+        "cents_per_share": 5.448752122379072,
+        "ex_top3": -33.91613600000002,
+        "equal5_per_window": 3.25784648418706,
+        "days": {
+          "2026-09-20": 2.271999999999999,
+          "2026-09-21": 98.03606399999997
+        },
+        "positive_days": 2,
+        "pair_cash_pnl": -84.2812042219158,
+        "residual_cash_pnl": 184.58926822191577,
+        "both_sides": 6,
+        "balanced": 0,
+        "first_age_median": 93,
+        "first_fraction_median": 0.31,
+        "first_price_median": 0.8200000000000001,
+        "first_share_median": 16.648646,
+        "first_paid_above_60": 35,
+        "fill_qty_median": 10.217392,
+        "paid_average": 0.7510247040292731,
+        "cheap_below30_share": 0.014475592555652214,
+        "above60_share": 0.8307662137595612,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0048888162273186386,
+        "last20_share": 0.011165815081595223,
+        "lastthird_share": 0.19727365363723048,
+        "last20_pnl": -12.055556,
+        "lastthird_pnl": 21.66520999999999,
+        "completion_share": 0.0740434520984758,
+        "add_share": 0.377928651607796,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/sol-usd-twap-60s-streams": 41
+        }
+      },
+      "xrp_1h": {
+        "markets": 2,
+        "fills": 4,
+        "shares": 82.109375,
+        "pnl": 2.4406250000000025,
+        "gross_pnl": 2.4406250000000007,
+        "cents_per_share": 2.972407231208376,
+        "ex_top3": 0.0,
+        "equal5_per_window": -0.3999999999999997,
+        "days": {
+          "2026-09-21": 2.4406250000000025
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 0.0,
+        "residual_cash_pnl": 2.4406250000000025,
+        "both_sides": 0,
+        "balanced": 0,
+        "first_age_median": 1433.5,
+        "first_fraction_median": 0.39819444444444446,
+        "first_price_median": 0.54,
+        "first_share_median": 25.4296875,
+        "first_paid_above_60": 1,
+        "fill_qty_median": 15.625,
+        "paid_average": 0.5792197906755472,
+        "cheap_below30_share": 0.0,
+        "above60_share": 0.6089438629876308,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.6089438629876308,
+        "last20_pnl": 0,
+        "lastthird_pnl": 14.0,
+        "completion_share": 0.0,
+        "add_share": 0.38058991436726924,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://www.binance.com/en/trade/XRP_USDT": 2
+        }
+      },
+      "xrp_5m": {
+        "markets": 18,
+        "fills": 30,
+        "shares": 659.25375,
+        "pnl": -19.986606,
+        "gross_pnl": -18.92358600062694,
+        "cents_per_share": -3.0317015261574167,
+        "ex_top3": -48.876605999999995,
+        "equal5_per_window": 1.3606218168553752,
+        "days": {
+          "2026-09-20": 11.682899999999997,
+          "2026-09-21": -31.669505999999988
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": -27.33302011841409,
+        "residual_cash_pnl": 7.346414118414092,
+        "both_sides": 3,
+        "balanced": 2,
+        "first_age_median": 185.0,
+        "first_fraction_median": 0.6166666666666667,
+        "first_price_median": 0.7850000241499949,
+        "first_share_median": 21.34,
+        "first_paid_above_60": 13,
+        "fill_qty_median": 14.107143,
+        "paid_average": 0.7451395915457439,
+        "cheap_below30_share": 0.08917658792232885,
+        "above60_share": 0.7880178171151851,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0011376499564848892,
+        "lastthird_share": 0.4880269395509696,
+        "last20_pnl": 0.15000000000000002,
+        "lastthird_pnl": 20.5429,
+        "completion_share": 0.11679872886578196,
+        "add_share": 0.232687337766376,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/xrp-usd-twap-60s-streams": 18
+        }
+      },
+      "late_behavior": {
+        "100": {
+          "first": {
+            "records": 19,
+            "windows": 19,
+            "shares": 1551.660723,
+            "pnl": -213.740144,
+            "positive_windows": 9,
+            "days": {
+              "2026-09-20": -12.45,
+              "2026-09-21": -201.29014399999997
+            },
+            "excluding_top3": -419.076844,
+            "top1": 91.92,
+            "day_bootstrap_ci95": [
+              -402.58028799999994,
+              -24.9
+            ],
+            "window_bootstrap_ci95": [
+              -925.461368,
+              314.16575
+            ]
+          },
+          "add": {
+            "records": 135,
+            "windows": 28,
+            "shares": 6219.724272,
+            "pnl": 95.81346100000003,
+            "positive_windows": 18,
+            "days": {
+              "2026-09-20": 223.007698,
+              "2026-09-21": -127.19423699999996
+            },
+            "excluding_top3": -594.186434,
+            "top1": 244.02,
+            "day_bootstrap_ci95": [
+              -254.38847399999992,
+              446.015396
+            ],
+            "window_bootstrap_ci95": [
+              -1350.101966,
+              1442.268566
+            ]
+          },
+          "reopen": {
+            "records": 13,
+            "windows": 11,
+            "shares": 1253.807884,
+            "pnl": 139.54743200000001,
+            "positive_windows": 8,
+            "days": {
+              "2026-09-20": 15.72900000000001,
+              "2026-09-21": 123.818432
+            },
+            "excluding_top3": 4.548232000000013,
+            "top1": 86.1768,
+            "day_bootstrap_ci95": [
+              31.45800000000002,
+              247.636864
+            ],
+            "window_bootstrap_ci95": [
+              -3.749599999999976,
+              328.523832
+            ]
+          },
+          "null": {
+            "records": 91,
+            "windows": 27,
+            "shares": 6484.752985,
+            "pnl": 683.217167,
+            "positive_windows": 17,
+            "days": {
+              "2026-09-20": -174.0257,
+              "2026-09-21": 857.2428670000002
+            },
+            "excluding_top3": -46.800752999999986,
+            "top1": 480.71762,
+            "day_bootstrap_ci95": [
+              -348.0514,
+              1714.4857340000003
+            ],
+            "window_bootstrap_ci95": [
+              -282.54175599999996,
+              1890.759594
+            ]
+          }
+        },
+        "60": {
+          "first": {
+            "records": 7,
+            "windows": 7,
+            "shares": 292.2,
+            "pnl": 45.10159999999999,
+            "positive_windows": 5,
+            "days": {
+              "2026-09-21": 45.10159999999999
+            },
+            "excluding_top3": 2.3248999999999924,
+            "top1": 31.676699999999997,
+            "day_bootstrap_ci95": [
+              45.10159999999999,
+              45.10159999999999
+            ],
+            "window_bootstrap_ci95": [
+              5.0251,
+              109.26019999999998
+            ]
+          },
+          "add": {
+            "records": 82,
+            "windows": 16,
+            "shares": 4198.057351,
+            "pnl": -224.30864199999996,
+            "positive_windows": 10,
+            "days": {
+              "2026-09-20": 144.687699,
+              "2026-09-21": -368.99634099999986
+            },
+            "excluding_top3": -658.128038,
+            "top1": 192.472197,
+            "day_bootstrap_ci95": [
+              -737.9926819999997,
+              289.375398
+            ],
+            "window_bootstrap_ci95": [
+              -1515.0919299999998,
+              859.734373
+            ]
+          },
+          "reopen": {
+            "records": 10,
+            "windows": 9,
+            "shares": 884.311411,
+            "pnl": 41.1052,
+            "positive_windows": 6,
+            "days": {
+              "2026-09-20": 6.429000000000009,
+              "2026-09-21": 34.676199999999994
+            },
+            "excluding_top3": -15.18719999999999,
+            "top1": 37.349999999999994,
+            "day_bootstrap_ci95": [
+              12.858000000000018,
+              69.35239999999999
+            ],
+            "window_bootstrap_ci95": [
+              -44.07059999999999,
+              132.407
+            ]
+          },
+          "null": {
+            "records": 60,
+            "windows": 18,
+            "shares": 4057.501551,
+            "pnl": 261.15347099999997,
+            "positive_windows": 13,
+            "days": {
+              "2026-09-20": -174.0257,
+              "2026-09-21": 435.179171
+            },
+            "excluding_top3": -166.12875199999996,
+            "top1": 307.06388999999996,
+            "day_bootstrap_ci95": [
+              -348.0514,
+              870.358342
+            ],
+            "window_bootstrap_ci95": [
+              -502.452743,
+              1123.647542
+            ]
+          }
+        },
+        "20": {
+          "first": {
+            "records": 0,
+            "windows": 0,
+            "shares": 0,
+            "pnl": 0,
+            "positive_windows": 0,
+            "days": {},
+            "excluding_top3": 0,
+            "top1": null,
+            "day_bootstrap_ci95": null,
+            "window_bootstrap_ci95": null
+          },
+          "add": {
+            "records": 10,
+            "windows": 1,
+            "shares": 737.444447,
+            "pnl": 73.5538,
+            "positive_windows": 1,
+            "days": {
+              "2026-09-21": 73.5538
+            },
+            "excluding_top3": 0.0,
+            "top1": 73.5538,
+            "day_bootstrap_ci95": [
+              73.5538,
+              73.5538
+            ],
+            "window_bootstrap_ci95": [
+              73.5538,
+              73.5538
+            ]
+          },
+          "reopen": {
+            "records": 1,
+            "windows": 1,
+            "shares": 249.0,
+            "pnl": 7.469999999999999,
+            "positive_windows": 1,
+            "days": {
+              "2026-09-21": 7.469999999999999
+            },
+            "excluding_top3": 0.0,
+            "top1": 7.469999999999999,
+            "day_bootstrap_ci95": [
+              7.469999999999999,
+              7.469999999999999
+            ],
+            "window_bootstrap_ci95": [
+              7.469999999999999,
+              7.469999999999999
+            ]
+          },
+          "null": {
+            "records": 9,
+            "windows": 4,
+            "shares": 497.110599,
+            "pnl": 9.112773999999991,
+            "positive_windows": 3,
+            "days": {
+              "2026-09-21": 9.112773999999991
+            },
+            "excluding_top3": -5.5638359999999984,
+            "top1": 7.162170000000003,
+            "day_bootstrap_ci95": [
+              9.112773999999991,
+              9.112773999999991
+            ],
+            "window_bootstrap_ci95": [
+              -10.113268000000012,
+              27.48081999999998
+            ]
+          }
+        }
+      }
+    },
+    "rebound_period": {
+      "bnb_15m": {
+        "markets": 1,
+        "fills": 5,
+        "shares": 46.657897,
+        "pnl": 17.73,
+        "gross_pnl": 17.73000000052099,
+        "cents_per_share": 37.99999815679648,
+        "ex_top3": 0.0,
+        "equal5_per_window": 1.8999999078398242,
+        "days": {
+          "2026-09-21": 17.73
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 0.0,
+        "residual_cash_pnl": 17.73,
+        "both_sides": 0,
+        "balanced": 0,
+        "first_age_median": 797,
+        "first_fraction_median": 0.8855555555555555,
+        "first_price_median": 0.6200000184320352,
+        "first_share_median": 46.657897,
+        "first_paid_above_60": 1,
+        "fill_qty_median": 8.447369,
+        "paid_average": 0.6200000184320352,
+        "cheap_below30_share": 0.0,
+        "above60_share": 1.0,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 1.0,
+        "last20_pnl": 0,
+        "lastthird_pnl": 17.73,
+        "completion_share": 0.0,
+        "add_share": 0.9514946419466784,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/bnb-usd-twap-60s-streams": 1
+        }
+      },
+      "bnb_1h": {
+        "markets": 6,
+        "fills": 20,
+        "shares": 290.811324,
+        "pnl": 15.938786999999998,
+        "gross_pnl": 15.955407001132665,
+        "cents_per_share": 5.480799984253707,
+        "ex_top3": -5.523599999999998,
+        "equal5_per_window": 0.14248938629248215,
+        "days": {
+          "2026-09-21": 15.938786999999998
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 20.32148025692003,
+        "residual_cash_pnl": -4.3826932569200325,
+        "both_sides": 3,
+        "balanced": 0,
+        "first_age_median": 1251.0,
+        "first_fraction_median": 0.34750000000000003,
+        "first_price_median": 0.6355000056233706,
+        "first_share_median": 18.289474,
+        "first_paid_above_60": 3,
+        "fill_qty_median": 9.8,
+        "paid_average": 0.4683928711111676,
+        "cheap_below30_share": 0.30359896164153494,
+        "above60_share": 0.3536801785614098,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.6172913954341063,
+        "last20_pnl": 0,
+        "lastthird_pnl": 17.045046999999997,
+        "completion_share": 0.31049829751471436,
+        "add_share": 0.2970310743470223,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://www.binance.com/en/trade/BNB_USDT": 6
+        }
+      },
+      "bnb_5m": {
+        "markets": 10,
+        "fills": 14,
+        "shares": 112.0,
+        "pnl": 8.994450000000002,
+        "gross_pnl": 9.09,
+        "cents_per_share": 8.030758928571432,
+        "ex_top3": -0.3099999999999987,
+        "equal5_per_window": 1.7659739583333343,
+        "days": {
+          "2026-09-21": 8.994450000000002
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": -0.49555000000000016,
+        "residual_cash_pnl": 9.490000000000002,
+        "both_sides": 2,
+        "balanced": 1,
+        "first_age_median": 194.0,
+        "first_fraction_median": 0.6466666666666667,
+        "first_price_median": 0.88,
+        "first_share_median": 10.0,
+        "first_paid_above_60": 9,
+        "fill_qty_median": 10.0,
+        "paid_average": 0.7232638392857142,
+        "cheap_below30_share": 0.13392857142857142,
+        "above60_share": 0.7232142857142857,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.4017857142857143,
+        "last20_pnl": 0,
+        "lastthird_pnl": 4.300000000000002,
+        "completion_share": 0.1875,
+        "add_share": 0.08928571428571429,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/bnb-usd-twap-60s-streams": 10
+        }
+      },
+      "btc_1h": {
+        "markets": 10,
+        "fills": 60,
+        "shares": 3987.467168,
+        "pnl": 307.901815,
+        "gross_pnl": 310.1330349965137,
+        "cents_per_share": 7.721739190004033,
+        "ex_top3": -87.21423900000002,
+        "equal5_per_window": 4.864199715987097,
+        "days": {
+          "2026-09-21": 307.901815
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 78.14923684001185,
+        "residual_cash_pnl": 229.75257815998813,
+        "both_sides": 7,
+        "balanced": 2,
+        "first_age_median": 376.0,
+        "first_fraction_median": 0.10444444444444445,
+        "first_price_median": 0.46499999999999997,
+        "first_share_median": 49.705,
+        "first_paid_above_60": 3,
+        "fill_qty_median": 40.379999999999995,
+        "paid_average": 0.5004070147619081,
+        "cheap_below30_share": 0.2942909169051746,
+        "above60_share": 0.28993192151594915,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.37091068933912286,
+        "last20_pnl": 0,
+        "lastthird_pnl": 128.447175,
+        "completion_share": 0.38981800238361236,
+        "add_share": 0.352983931076721,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://www.binance.com/en/trade/BTC_USDT": 10
+        }
+      },
+      "btc_4h": {
+        "markets": 1,
+        "fills": 2,
+        "shares": 199.993334,
+        "pnl": 29.999000000000002,
+        "gross_pnl": 29.99900000004663,
+        "cents_per_share": 14.999999949998333,
+        "ex_top3": 0.0,
+        "equal5_per_window": 0.7499999974999166,
+        "days": {
+          "2026-09-21": 29.999000000000002
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 0.0,
+        "residual_cash_pnl": 29.999000000000002,
+        "both_sides": 0,
+        "balanced": 0,
+        "first_age_median": 3209,
+        "first_fraction_median": 0.22284722222222222,
+        "first_price_median": 0.8500000517241201,
+        "first_share_median": 1.933334,
+        "first_paid_above_60": 1,
+        "fill_qty_median": 99.996667,
+        "paid_average": 0.8500000005000167,
+        "cheap_below30_share": 0.0,
+        "above60_share": 1.0,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.0,
+        "last20_pnl": 0,
+        "lastthird_pnl": 0,
+        "completion_share": 0.0,
+        "add_share": 0.9903330077991499,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/btc-usd-twap-60s-streams": 1
+        }
+      },
+      "btc_5m": {
+        "markets": 78,
+        "fills": 463,
+        "shares": 33930.989446,
+        "pnl": 805.2063449999999,
+        "gross_pnl": 889.9815849466354,
+        "cents_per_share": 2.3730706299663265,
+        "ex_top3": -271.9971489999999,
+        "equal5_per_window": -0.5715228248632859,
+        "days": {
+          "2026-09-21": 805.2063449999996
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 322.7747149169034,
+        "residual_cash_pnl": 482.43163008309654,
+        "both_sides": 38,
+        "balanced": 15,
+        "first_age_median": 106.5,
+        "first_fraction_median": 0.355,
+        "first_price_median": 0.4150000255881735,
+        "first_share_median": 112.05000000000001,
+        "first_paid_above_60": 21,
+        "fill_qty_median": 15.0,
+        "paid_average": 0.4958725324463973,
+        "cheap_below30_share": 0.2818120870957168,
+        "above60_share": 0.3939949739831704,
+        "prestart_share": 0.0,
+        "afterend_share": 0.014676848748915792,
+        "last20_share": 0.04372271690930283,
+        "lastthird_share": 0.3962118603230077,
+        "last20_pnl": 90.13657399999998,
+        "lastthird_pnl": 559.935695,
+        "completion_share": 0.2865404240118958,
+        "add_share": 0.4275527221830017,
+        "ambiguous_windows": 1,
+        "rules": {
+          "https://data.chain.link/streams/btc-usd-twap-60s-streams": 78
+        }
+      },
+      "doge_15m": {
+        "markets": 9,
+        "fills": 16,
+        "shares": 311.15918,
+        "pnl": 26.311849000000006,
+        "gross_pnl": 26.31184900031024,
+        "cents_per_share": 8.456073511956166,
+        "ex_top3": -10.086651,
+        "equal5_per_window": 6.30949332962677,
+        "days": {
+          "2026-09-21": 26.311849000000002
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": -11.700000000000001,
+        "residual_cash_pnl": 38.011849000000005,
+        "both_sides": 1,
+        "balanced": 0,
+        "first_age_median": 193,
+        "first_fraction_median": 0.21444444444444444,
+        "first_price_median": 0.79,
+        "first_share_median": 39.992858,
+        "first_paid_above_60": 8,
+        "fill_qty_median": 13.977612,
+        "paid_average": 0.658368748754255,
+        "cheap_below30_share": 0.0,
+        "above60_share": 0.7461432730347214,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.1285189496899947,
+        "last20_pnl": 0,
+        "lastthird_pnl": -13.196651,
+        "completion_share": 0.125337777275284,
+        "add_share": 0.1512347538645654,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/doge-usd-twap-60s-streams": 9
+        }
+      },
+      "doge_1h": {
+        "markets": 1,
+        "fills": 1,
+        "shares": 5.89,
+        "pnl": 1.49606,
+        "gross_pnl": 1.49606,
+        "cents_per_share": 25.400000000000002,
+        "ex_top3": 0.0,
+        "equal5_per_window": 1.27,
+        "days": {
+          "2026-09-21": 1.49606
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 0.0,
+        "residual_cash_pnl": 1.49606,
+        "both_sides": 0,
+        "balanced": 0,
+        "first_age_median": 3183,
+        "first_fraction_median": 0.8841666666666667,
+        "first_price_median": 0.746,
+        "first_share_median": 5.89,
+        "first_paid_above_60": 1,
+        "fill_qty_median": 5.89,
+        "paid_average": 0.746,
+        "cheap_below30_share": 0.0,
+        "above60_share": 1.0,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 1.0,
+        "last20_pnl": 0,
+        "lastthird_pnl": 1.49606,
+        "completion_share": 0.0,
+        "add_share": 0.0,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://www.binance.com/en/trade/DOGE_USDT": 1
+        }
+      },
+      "doge_4h": {
+        "markets": 1,
+        "fills": 3,
+        "shares": 17.401888,
+        "pnl": 3.5680000000000005,
+        "gross_pnl": 3.567999999704033,
+        "cents_per_share": 20.50352237642261,
+        "ex_top3": 0.0,
+        "equal5_per_window": 1.0251761188211304,
+        "days": {
+          "2026-09-21": 3.5680000000000005
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 3.5669993602901853,
+        "residual_cash_pnl": 0.0010006397098150143,
+        "both_sides": 1,
+        "balanced": 1,
+        "first_age_median": 36,
+        "first_fraction_median": 0.0025,
+        "first_price_median": 0.4700000513565841,
+        "first_share_median": 6.815095,
+        "first_paid_above_60": 0,
+        "fill_qty_median": 6.815095,
+        "paid_average": 0.29501902322322726,
+        "cheap_below30_share": 0.4999457530125467,
+        "above60_share": 0.0,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.0,
+        "last20_pnl": 0,
+        "lastthird_pnl": 0,
+        "completion_share": 0.4999457530125467,
+        "add_share": 0.10842461461652897,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/doge-usd-twap-60s-streams": 1
+        }
+      },
+      "doge_5m": {
+        "markets": 20,
+        "fills": 27,
+        "shares": 521.210934,
+        "pnl": 59.288875999999995,
+        "gross_pnl": 60.009596000714424,
+        "cents_per_share": 11.3752172359454,
+        "ex_top3": 29.698875999999995,
+        "equal5_per_window": 16.573847825918733,
+        "days": {
+          "2026-09-21": 59.288876
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": -22.506320212026367,
+        "residual_cash_pnl": 81.79519621202635,
+        "both_sides": 2,
+        "balanced": 1,
+        "first_age_median": 113.5,
+        "first_fraction_median": 0.3783333333333333,
+        "first_price_median": 0.8100000019,
+        "first_share_median": 19.511905,
+        "first_paid_above_60": 19,
+        "fill_qty_median": 18.0,
+        "paid_average": 0.7757111902798264,
+        "cheap_below30_share": 0.0,
+        "above60_share": 0.9635007465135028,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.20195884455486118,
+        "last20_pnl": 0,
+        "lastthird_pnl": 24.0,
+        "completion_share": 0.10659791722634891,
+        "add_share": 0.08633740596086575,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/doge-usd-twap-60s-streams": 20
+        }
+      },
+      "eth_15m": {
+        "markets": 4,
+        "fills": 5,
+        "shares": 98.640029,
+        "pnl": -4.266434,
+        "gross_pnl": -4.266434000628621,
+        "cents_per_share": -4.325256230409259,
+        "ex_top3": -13.5,
+        "equal5_per_window": -2.8076924229964098,
+        "days": {
+          "2026-09-21": -4.266434
+        },
+        "positive_days": 0,
+        "pair_cash_pnl": 0.0,
+        "residual_cash_pnl": -4.266434,
+        "both_sides": 0,
+        "balanced": 0,
+        "first_age_median": 236.0,
+        "first_fraction_median": 0.26222222222222225,
+        "first_price_median": 0.46,
+        "first_share_median": 14.8200145,
+        "first_paid_above_60": 0,
+        "fill_qty_median": 16.044529,
+        "paid_average": 0.43862957501766353,
+        "cheap_below30_share": 0.1378294404191629,
+        "above60_share": 0.0,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.1378294404191629,
+        "last20_pnl": 0,
+        "lastthird_pnl": -1.495505,
+        "completion_share": 0.0,
+        "add_share": 0.30413616362582374,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/eth-usd-twap-60s-streams": 4
+        }
+      },
+      "eth_1h": {
+        "markets": 8,
+        "fills": 36,
+        "shares": 925.600516,
+        "pnl": 76.143352,
+        "gross_pnl": 79.37082199892512,
+        "cents_per_share": 8.22637311494325,
+        "ex_top3": -10.570846000000017,
+        "equal5_per_window": 2.176452192144929,
+        "days": {
+          "2026-09-21": 76.14335200000001
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 16.768738740110493,
+        "residual_cash_pnl": 59.37461325988951,
+        "both_sides": 8,
+        "balanced": 5,
+        "first_age_median": 1057.0,
+        "first_fraction_median": 0.2936111111111111,
+        "first_price_median": 0.625,
+        "first_share_median": 33.885555999999994,
+        "first_paid_above_60": 5,
+        "fill_qty_median": 20.0,
+        "paid_average": 0.556270651430795,
+        "cheap_below30_share": 0.2699346485671147,
+        "above60_share": 0.5217993569052851,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.166324453518347,
+        "last20_pnl": 0,
+        "lastthird_pnl": -1.8289599999999995,
+        "completion_share": 0.3614656174197725,
+        "add_share": 0.28303424368445357,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://www.binance.com/en/trade/ETH_USDT": 8
+        }
+      },
+      "eth_4h": {
+        "markets": 1,
+        "fills": 2,
+        "shares": 100.0,
+        "pnl": 3.5000000000000018,
+        "gross_pnl": 3.5,
+        "cents_per_share": 3.5000000000000018,
+        "ex_top3": 0.0,
+        "equal5_per_window": 0.17500000000000007,
+        "days": {
+          "2026-09-21": 3.5000000000000018
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 3.5000000000000018,
+        "residual_cash_pnl": 0,
+        "both_sides": 1,
+        "balanced": 1,
+        "first_age_median": 2345,
+        "first_fraction_median": 0.16284722222222223,
+        "first_price_median": 0.09,
+        "first_share_median": 50.0,
+        "first_paid_above_60": 0,
+        "fill_qty_median": 50.0,
+        "paid_average": 0.465,
+        "cheap_below30_share": 0.5,
+        "above60_share": 0.5,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.0,
+        "last20_pnl": 0,
+        "lastthird_pnl": 0,
+        "completion_share": 0.5,
+        "add_share": 0.0,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/eth-usd-twap-60s-streams": 1
+        }
+      },
+      "eth_5m": {
+        "markets": 58,
+        "fills": 171,
+        "shares": 4245.528803,
+        "pnl": 106.15763700000004,
+        "gross_pnl": 107.32228699622237,
+        "cents_per_share": 2.500457349976905,
+        "ex_top3": -85.71506299999997,
+        "equal5_per_window": -6.4396441319107245,
+        "days": {
+          "2026-09-21": 106.15763700000002
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 103.39128902287415,
+        "residual_cash_pnl": 2.766347977125892,
+        "both_sides": 12,
+        "balanced": 2,
+        "first_age_median": 89.0,
+        "first_fraction_median": 0.29666666666666663,
+        "first_price_median": 0.235,
+        "first_share_median": 24.319499999999998,
+        "first_paid_above_60": 6,
+        "fill_qty_median": 10.0,
+        "paid_average": 0.3929649632387619,
+        "cheap_below30_share": 0.48470494501082767,
+        "above60_share": 0.21618027920372584,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.09959689772949115,
+        "lastthird_share": 0.3194437095896438,
+        "last20_pnl": 87.90530000000001,
+        "lastthird_pnl": 108.69472900000001,
+        "completion_share": 0.14149938367524484,
+        "add_share": 0.2740628300949958,
+        "ambiguous_windows": 1,
+        "rules": {
+          "https://data.chain.link/streams/eth-usd-twap-60s-streams": 58
+        }
+      },
+      "sol_15m": {
+        "markets": 12,
+        "fills": 21,
+        "shares": 439.621756,
+        "pnl": 29.392485999999998,
+        "gross_pnl": 29.78416599979064,
+        "cents_per_share": 6.685857921917767,
+        "ex_top3": 7.195385999999996,
+        "equal5_per_window": 3.2839577800665074,
+        "days": {
+          "2026-09-21": 29.392485999999998
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": -6.102080159964634,
+        "residual_cash_pnl": 35.494566159964634,
+        "both_sides": 5,
+        "balanced": 5,
+        "first_age_median": 200.5,
+        "first_fraction_median": 0.22277777777777777,
+        "first_price_median": 0.79,
+        "first_share_median": 30.0,
+        "first_paid_above_60": 12,
+        "fill_qty_median": 27.0,
+        "paid_average": 0.6713633526362603,
+        "cheap_below30_share": 0.21609485586968993,
+        "above60_share": 0.7839051441303101,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.14785437506873522,
+        "last20_pnl": 0,
+        "lastthird_pnl": 17.8793,
+        "completion_share": 0.2617704843524623,
+        "add_share": 0.10567816848445508,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/sol-usd-twap-60s-streams": 12
+        }
+      },
+      "sol_1h": {
+        "markets": 4,
+        "fills": 13,
+        "shares": 224.715581,
+        "pnl": -9.795694999999998,
+        "gross_pnl": -9.165805000044285,
+        "cents_per_share": -4.3591525591632205,
+        "ex_top3": -21.913224,
+        "equal5_per_window": 0.9385892046700672,
+        "days": {
+          "2026-09-21": -9.795694999999998
+        },
+        "positive_days": 0,
+        "pair_cash_pnl": -19.391084032,
+        "residual_cash_pnl": 9.595389032,
+        "both_sides": 2,
+        "balanced": 0,
+        "first_age_median": 1735.0,
+        "first_fraction_median": 0.48194444444444445,
+        "first_price_median": 0.8300000000000001,
+        "first_share_median": 34.615,
+        "first_paid_above_60": 3,
+        "fill_qty_median": 10.0,
+        "paid_average": 0.7966768223339172,
+        "cheap_below30_share": 0.009577649179564456,
+        "above60_share": 0.931088085075863,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.5658363627219958,
+        "last20_pnl": 0,
+        "lastthird_pnl": 15.772239000000003,
+        "completion_share": 0.23208113459653698,
+        "add_share": 0.22992026974756147,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://www.binance.com/en/trade/SOL_USDT": 4
+        }
+      },
+      "sol_5m": {
+        "markets": 34,
+        "fills": 66,
+        "shares": 1456.564546,
+        "pnl": -19.094636000000015,
+        "gross_pnl": -18.63993599980256,
+        "cents_per_share": -1.3109364808059811,
+        "ex_top3": -97.18883600000001,
+        "equal5_per_window": -5.06251513732489,
+        "days": {
+          "2026-09-21": -19.094635999999998
+        },
+        "positive_days": 0,
+        "pair_cash_pnl": -84.2812042219158,
+        "residual_cash_pnl": 65.18656822191578,
+        "both_sides": 6,
+        "balanced": 0,
+        "first_age_median": 124.0,
+        "first_fraction_median": 0.41333333333333333,
+        "first_price_median": 0.8200000071999994,
+        "first_share_median": 15.261823,
+        "first_paid_above_60": 29,
+        "fill_qty_median": 9.908695999999999,
+        "paid_average": 0.7672983329638177,
+        "cheap_below30_share": 0.018295547611111494,
+        "above60_share": 0.854761914546834,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0061789228803596045,
+        "last20_share": 0.014112355031879239,
+        "lastthird_share": 0.22983414014801923,
+        "last20_pnl": -12.055556,
+        "lastthird_pnl": 19.393209999999993,
+        "completion_share": 0.09358273230961918,
+        "add_share": 0.3885654964994596,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/sol-usd-twap-60s-streams": 34
+        }
+      },
+      "xrp_1h": {
+        "markets": 2,
+        "fills": 4,
+        "shares": 82.109375,
+        "pnl": 2.4406250000000025,
+        "gross_pnl": 2.4406250000000007,
+        "cents_per_share": 2.972407231208376,
+        "ex_top3": 0.0,
+        "equal5_per_window": -0.3999999999999997,
+        "days": {
+          "2026-09-21": 2.4406250000000025
+        },
+        "positive_days": 1,
+        "pair_cash_pnl": 0.0,
+        "residual_cash_pnl": 2.4406250000000025,
+        "both_sides": 0,
+        "balanced": 0,
+        "first_age_median": 1433.5,
+        "first_fraction_median": 0.39819444444444446,
+        "first_price_median": 0.54,
+        "first_share_median": 25.4296875,
+        "first_paid_above_60": 1,
+        "fill_qty_median": 15.625,
+        "paid_average": 0.5792197906755472,
+        "cheap_below30_share": 0.0,
+        "above60_share": 0.6089438629876308,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.0,
+        "lastthird_share": 0.6089438629876308,
+        "last20_pnl": 0,
+        "lastthird_pnl": 14.0,
+        "completion_share": 0.0,
+        "add_share": 0.38058991436726924,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://www.binance.com/en/trade/XRP_USDT": 2
+        }
+      },
+      "xrp_5m": {
+        "markets": 14,
+        "fills": 26,
+        "shares": 484.86375,
+        "pnl": -33.81950599999999,
+        "gross_pnl": -32.75648600062694,
+        "cents_per_share": -6.97505350729973,
+        "ex_top3": -62.70950599999999,
+        "equal5_per_window": -0.30437818314462406,
+        "days": {
+          "2026-09-21": -33.81950599999999
+        },
+        "positive_days": 0,
+        "pair_cash_pnl": -27.33302011841409,
+        "residual_cash_pnl": -6.4864858815859,
+        "both_sides": 3,
+        "balanced": 2,
+        "first_age_median": 121.5,
+        "first_fraction_median": 0.405,
+        "first_price_median": 0.695,
+        "first_share_median": 16.607143,
+        "first_paid_above_60": 9,
+        "fill_qty_median": 12.0,
+        "paid_average": 0.6820039031583615,
+        "cheap_below30_share": 0.12125055750197865,
+        "above60_share": 0.7117745985341243,
+        "prestart_share": 0.0,
+        "afterend_share": 0.0,
+        "last20_share": 0.001546826299140738,
+        "lastthird_share": 0.40700833997179625,
+        "last20_pnl": 0.15000000000000002,
+        "lastthird_pnl": 12.21,
+        "completion_share": 0.15880750004511576,
+        "add_share": 0.316377539050919,
+        "ambiguous_windows": 0,
+        "rules": {
+          "https://data.chain.link/streams/xrp-usd-twap-60s-streams": 14
+        }
+      },
+      "late_behavior": {
+        "100": {
+          "first": {
+            "records": 18,
+            "windows": 18,
+            "shares": 1302.660723,
+            "pnl": -201.290144,
+            "positive_windows": 9,
+            "days": {
+              "2026-09-21": -201.29014399999997
+            },
+            "excluding_top3": -406.626844,
+            "top1": 91.92,
+            "day_bootstrap_ci95": [
+              -201.29014399999997,
+              -201.29014399999997
+            ],
+            "window_bootstrap_ci95": [
+              -910.6534379999999,
+              324.733963
+            ]
+          },
+          "add": {
+            "records": 117,
+            "windows": 25,
+            "shares": 5636.248947,
+            "pnl": -151.49538999999996,
+            "positive_windows": 16,
+            "days": {
+              "2026-09-21": -151.49538999999996
+            },
+            "excluding_top3": -715.1470869999999,
+            "top1": 244.02,
+            "day_bootstrap_ci95": [
+              -151.49538999999996,
+              -151.49538999999996
+            ],
+            "window_bootstrap_ci95": [
+              -1496.478234,
+              1064.272343
+            ]
+          },
+          "reopen": {
+            "records": 8,
+            "windows": 7,
+            "shares": 1004.495979,
+            "pnl": 144.260832,
+            "positive_windows": 5,
+            "days": {
+              "2026-09-21": 144.260832
+            },
+            "excluding_top3": 9.261631999999992,
+            "top1": 86.1768,
+            "day_bootstrap_ci95": [
+              144.260832,
+              144.260832
+            ],
+            "window_bootstrap_ci95": [
+              18.228832,
+              312.398232
+            ]
+          },
+          "null": {
+            "records": 76,
+            "windows": 21,
+            "shares": 5500.454802,
+            "pnl": 768.4603970000001,
+            "positive_windows": 13,
+            "days": {
+              "2026-09-21": 768.4603970000002
+            },
+            "excluding_top3": 38.44247700000005,
+            "top1": 480.71762,
+            "day_bootstrap_ci95": [
+              768.4603970000002,
+              768.4603970000002
+            ],
+            "window_bootstrap_ci95": [
+              -33.18680299999995,
+              1924.624217
+            ]
+          }
+        },
+        "60": {
+          "first": {
+            "records": 7,
+            "windows": 7,
+            "shares": 292.2,
+            "pnl": 45.10159999999999,
+            "positive_windows": 5,
+            "days": {
+              "2026-09-21": 45.10159999999999
+            },
+            "excluding_top3": 2.3248999999999924,
+            "top1": 31.676699999999997,
+            "day_bootstrap_ci95": [
+              45.10159999999999,
+              45.10159999999999
+            ],
+            "window_bootstrap_ci95": [
+              5.0251,
+              109.26019999999998
+            ]
+          },
+          "add": {
+            "records": 72,
+            "windows": 14,
+            "shares": 3919.116153,
+            "pnl": -356.35299399999997,
+            "positive_windows": 9,
+            "days": {
+              "2026-09-21": -356.3529939999999
+            },
+            "excluding_top3": -719.0384909999999,
+            "top1": 192.472197,
+            "day_bootstrap_ci95": [
+              -356.3529939999999,
+              -356.3529939999999
+            ],
+            "window_bootstrap_ci95": [
+              -1636.74085,
+              606.235132
+            ]
+          },
+          "reopen": {
+            "records": 6,
+            "windows": 6,
+            "shares": 649.761411,
+            "pnl": 55.118599999999994,
+            "positive_windows": 4,
+            "days": {
+              "2026-09-21": 55.118599999999994
+            },
+            "excluding_top3": -1.1738,
+            "top1": 37.349999999999994,
+            "day_bootstrap_ci95": [
+              55.118599999999994,
+              55.118599999999994
+            ],
+            "window_bootstrap_ci95": [
+              2.0323999999999973,
+              130.07999999999998
+            ]
+          },
+          "null": {
+            "records": 46,
+            "windows": 13,
+            "shares": 3204.933368,
+            "pnl": 373.794961,
+            "positive_windows": 10,
+            "days": {
+              "2026-09-21": 373.794961
+            },
+            "excluding_top3": -33.36108199999995,
+            "top1": 307.06388999999996,
+            "day_bootstrap_ci95": [
+              373.794961,
+              373.794961
+            ],
+            "window_bootstrap_ci95": [
+              -83.95880199999996,
+              1080.753299
+            ]
+          }
+        },
+        "20": {
+          "first": {
+            "records": 0,
+            "windows": 0,
+            "shares": 0,
+            "pnl": 0,
+            "positive_windows": 0,
+            "days": {},
+            "excluding_top3": 0,
+            "top1": null,
+            "day_bootstrap_ci95": null,
+            "window_bootstrap_ci95": null
+          },
+          "add": {
+            "records": 10,
+            "windows": 1,
+            "shares": 737.444447,
+            "pnl": 73.5538,
+            "positive_windows": 1,
+            "days": {
+              "2026-09-21": 73.5538
+            },
+            "excluding_top3": 0.0,
+            "top1": 73.5538,
+            "day_bootstrap_ci95": [
+              73.5538,
+              73.5538
+            ],
+            "window_bootstrap_ci95": [
+              73.5538,
+              73.5538
+            ]
+          },
+          "reopen": {
+            "records": 1,
+            "windows": 1,
+            "shares": 249.0,
+            "pnl": 7.469999999999999,
+            "positive_windows": 1,
+            "days": {
+              "2026-09-21": 7.469999999999999
+            },
+            "excluding_top3": 0.0,
+            "top1": 7.469999999999999,
+            "day_bootstrap_ci95": [
+              7.469999999999999,
+              7.469999999999999
+            ],
+            "window_bootstrap_ci95": [
+              7.469999999999999,
+              7.469999999999999
+            ]
+          },
+          "null": {
+            "records": 9,
+            "windows": 4,
+            "shares": 497.110599,
+            "pnl": 9.112773999999991,
+            "positive_windows": 3,
+            "days": {
+              "2026-09-21": 9.112773999999991
+            },
+            "excluding_top3": -5.5638359999999984,
+            "top1": 7.162170000000003,
+            "day_bootstrap_ci95": [
+              9.112773999999991,
+              9.112773999999991
+            ],
+            "window_bootstrap_ci95": [
+              -10.113268000000012,
+              27.48081999999998
+            ]
+          }
+        }
+      }
+    }
+  }
+}

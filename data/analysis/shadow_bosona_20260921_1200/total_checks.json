@@ -1,0 +1,11 @@
+{
+  "independent_decimal_shadow_groups": 15,
+  "bosona_windows": 322,
+  "bosona_api_cash_pnl": "2053.4420690000001822",
+  "report_sha256": "f965ad2f561e07d1455eeadfdd8d0d9843cc61b67c9ef3aa7185198299c17c2a",
+  "source_sha256": "fb5a56da3ac8103a7107f8bbe517639667939b6de801b3896d342bc9fffe55a5",
+  "coverage_partition": "each assigned window exactly one valid decision or gap",
+  "check": "pass",
+  "ruff": "pass",
+  "compile": "pass"
+}

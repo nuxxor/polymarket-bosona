@@ -1,0 +1,39 @@
+{
+  "captured_ms": 1789992239313,
+  "cutoff": 1789992000,
+  "files": {
+    "polymarket-bosona-research/data/bosona_gec_forward/shadow.jsonl": {
+      "bytes": 528318,
+      "sha256": "62b20710ecf81eb7de24692518f05756706887f3743f7b5b2e03f26bd9a4267a"
+    },
+    "polymarket-bosona-research/data/bosona_gec_forward/watch_manifest.json": {
+      "bytes": 496,
+      "sha256": "c1d30731d359d2feb399f2eb9e055ac1da65a6588e955f758b26ac76e15c5dc9"
+    },
+    "polymarket-bosona-research/analiz/izleme/bosona_gec_arastirma.py": {
+      "bytes": 34546,
+      "sha256": "1f33a277c694b781ca3b5f30f3f5369b39ae1497cdae4cd76ceeb26d70652086"
+    },
+    "polymarket-bosona-rebound/data/forward/shadow.jsonl": {
+      "bytes": 5111152,
+      "sha256": "d5274e8c569298543c1c88bafd399984c685b7872c56df3aeb0f2f95c2340a31"
+    },
+    "polymarket-bosona-rebound/data/forward/watch_manifest.json": {
+      "bytes": 1000,
+      "sha256": "590232be222a171e57c92f034fad2485c36e54e92cd7375127a6e7e7f656cd14"
+    },
+    "polymarket-bosona-rebound/analiz/izleme/bosona_rebound_shadow.py": {
+      "bytes": 13897,
+      "sha256": "19b115c07016d5a950c0dead78c84c46287b68002ac5805a7d850734763fd5e5"
+    },
+    "polymarket-bosona-rebound/data/latency/quotes.jsonl": {
+      "bytes": 120322,
+      "sha256": "edff08bee1f3ce54b703ac9d982b1885fbb15da8020cff6431fb0602d8fef147"
+    },
+    "polymarket-bosona-rebound/data/latency/watch_manifest.json": {
+      "bytes": 737,
+      "sha256": "c3cce4cb134c181c556f0d03cb15a5f47c81fef3bd0f032bc24aff8925b9d3da"
+    }
+  },
+  "sessions": "bosona-gec-shadow 90793\nbosona-jev 96074\nbosona-latency 92723\nbosona-rebound-shadow 92242\n"
+}
