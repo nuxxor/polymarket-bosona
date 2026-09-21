@@ -1,0 +1,1349 @@
+{
+  "cutoff_ms": 1789996871991,
+  "inventory": {
+    "positions": [
+      {
+        "S": 1789996500,
+        "lane": "pair_250",
+        "qty": [
+          5.0,
+          5.0
+        ],
+        "cash": 2.6211800000000003,
+        "lots": [
+          [],
+          []
+        ],
+        "floor": 2.3788199999999997,
+        "fills": 2,
+        "balanced": true,
+        "ended": true
+      },
+      {
+        "S": 1789996500,
+        "lane": "pair_add_250",
+        "qty": [
+          5.0,
+          5.0
+        ],
+        "cash": 2.6211800000000003,
+        "lots": [
+          [],
+          []
+        ],
+        "floor": 2.3788199999999997,
+        "fills": 2,
+        "balanced": true,
+        "ended": true
+      },
+      {
+        "S": 1789996500,
+        "lane": "pair_add_fast",
+        "qty": [
+          5.0,
+          5.0
+        ],
+        "cash": 2.57023,
+        "lots": [
+          [],
+          []
+        ],
+        "floor": 2.42977,
+        "fills": 2,
+        "balanced": true,
+        "ended": true
+      },
+      {
+        "S": 1789996500,
+        "lane": "pair_fast",
+        "qty": [
+          5.0,
+          5.0
+        ],
+        "cash": 2.57023,
+        "lots": [
+          [],
+          []
+        ],
+        "floor": 2.42977,
+        "fills": 2,
+        "balanced": true,
+        "ended": true
+      },
+      {
+        "S": 1789996800,
+        "lane": "pair_250",
+        "qty": [
+          5.0,
+          0.0
+        ],
+        "cash": 2.48736,
+        "lots": [
+          [
+            [
+              5.0,
+              0.49747199999999997
+            ]
+          ],
+          []
+        ],
+        "floor": -2.48736,
+        "fills": 1,
+        "balanced": false,
+        "ended": false
+      },
+      {
+        "S": 1789996800,
+        "lane": "pair_add_250",
+        "qty": [
+          5.0,
+          0.0
+        ],
+        "cash": 2.48736,
+        "lots": [
+          [
+            [
+              5.0,
+              0.49747199999999997
+            ]
+          ],
+          []
+        ],
+        "floor": -2.48736,
+        "fills": 1,
+        "balanced": false,
+        "ended": false
+      },
+      {
+        "S": 1789996800,
+        "lane": "pair_add_fast",
+        "qty": [
+          5.0,
+          0.0
+        ],
+        "cash": 2.48736,
+        "lots": [
+          [
+            [
+              5.0,
+              0.49747199999999997
+            ]
+          ],
+          []
+        ],
+        "floor": -2.48736,
+        "fills": 1,
+        "balanced": false,
+        "ended": false
+      },
+      {
+        "S": 1789996800,
+        "lane": "pair_fast",
+        "qty": [
+          5.0,
+          0.0
+        ],
+        "cash": 2.48736,
+        "lots": [
+          [
+            [
+              5.0,
+              0.49747199999999997
+            ]
+          ],
+          []
+        ],
+        "floor": -2.48736,
+        "fills": 1,
+        "balanced": false,
+        "ended": false
+      }
+    ],
+    "decisions": 167,
+    "gaps": {},
+    "latest_health": {
+      "kind": "health",
+      "recorded_ms": 1789996833035,
+      "attempts": 163,
+      "resolved": 5,
+      "fills": {
+        "pair_fast": 2,
+        "pair_250": 2,
+        "pair_add_fast": 2,
+        "pair_add_250": 2
+      },
+      "end_S": 1790254200
+    },
+    "entry_context_valid": 63,
+    "entry_context_gaps": {
+      "incomplete or stale context": 68,
+      "two-sided entry context unavailable": 36
+    },
+    "officially_resolved_pnl_by_lane": {
+      "pair_fast": 0.0,
+      "pair_250": 0.0,
+      "pair_add_fast": 0.0,
+      "pair_add_250": 0.0
+    }
+  },
+  "rebound_v2": {
+    "decisions": 1,
+    "gaps": {
+      "empty/invalid public book": 14,
+      "incomplete or stale context": 3
+    },
+    "latest_health": {
+      "kind": "health",
+      "recorded_ms": 1789996833313,
+      "attempts": 18,
+      "executions": 1,
+      "resolved": 1,
+      "end_S": 1790254200
+    },
+    "eligible_by_slot": {
+      "240": 1
+    },
+    "selected_by_slot": {}
+  },
+  "context_diagnostics": [
+    {
+      "model": "inventory",
+      "S": 1789995000,
+      "age": 70,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "twap60",
+          "back_ms": 0,
+          "lag_ms": 3073
+        },
+        {
+          "source": "spot",
+          "back_ms": 0,
+          "lag_ms": 3073
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995000,
+      "age": 80,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 5000,
+          "lag_ms": 3079
+        },
+        {
+          "source": "spot",
+          "back_ms": 10000,
+          "lag_ms": 3079
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995000,
+      "age": 90,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 15000,
+          "lag_ms": 3034
+        },
+        {
+          "source": "spot",
+          "back_ms": 20000,
+          "lag_ms": 3034
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995000,
+      "age": 100,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 25000,
+          "lag_ms": 3035
+        },
+        {
+          "source": "spot",
+          "back_ms": 30000,
+          "lag_ms": 3035
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995000,
+      "age": 110,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "twap60",
+          "back_ms": 0,
+          "lag_ms": 3074
+        },
+        {
+          "source": "spot",
+          "back_ms": 0,
+          "lag_ms": 3074
+        },
+        {
+          "source": "spot",
+          "back_ms": 25000,
+          "lag_ms": 3074
+        },
+        {
+          "source": "spot",
+          "back_ms": 40000,
+          "lag_ms": 3074
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995000,
+      "age": 120,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 45000,
+          "lag_ms": 3079
+        },
+        {
+          "source": "spot",
+          "back_ms": 50000,
+          "lag_ms": 3079
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995000,
+      "age": 130,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 55000,
+          "lag_ms": 3067
+        },
+        {
+          "source": "spot",
+          "back_ms": 60000,
+          "lag_ms": 3067
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995000,
+      "age": 160,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "twap60",
+          "back_ms": 0,
+          "lag_ms": 3046
+        },
+        {
+          "source": "spot",
+          "back_ms": 0,
+          "lag_ms": 3046
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995000,
+      "age": 170,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 5000,
+          "lag_ms": 3045
+        },
+        {
+          "source": "spot",
+          "back_ms": 10000,
+          "lag_ms": 3045
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995000,
+      "age": 180,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 15000,
+          "lag_ms": 3054
+        },
+        {
+          "source": "spot",
+          "back_ms": 20000,
+          "lag_ms": 3054
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995000,
+      "age": 190,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 25000,
+          "lag_ms": 3081
+        },
+        {
+          "source": "spot",
+          "back_ms": 30000,
+          "lag_ms": 3081
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995000,
+      "age": 200,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 35000,
+          "lag_ms": 3039
+        },
+        {
+          "source": "spot",
+          "back_ms": 40000,
+          "lag_ms": 3039
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995000,
+      "age": 210,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 45000,
+          "lag_ms": 3054
+        },
+        {
+          "source": "spot",
+          "back_ms": 50000,
+          "lag_ms": 3054
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995000,
+      "age": 220,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 55000,
+          "lag_ms": 3055
+        },
+        {
+          "source": "spot",
+          "back_ms": 60000,
+          "lag_ms": 3055
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995300,
+      "age": 30,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 10000,
+          "lag_ms": 3058
+        },
+        {
+          "source": "spot",
+          "back_ms": 35000,
+          "lag_ms": 7058
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995300,
+      "age": 40,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 20000,
+          "lag_ms": 3072
+        },
+        {
+          "source": "spot",
+          "back_ms": 45000,
+          "lag_ms": 7072
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995300,
+      "age": 50,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 5000,
+          "lag_ms": 3073
+        },
+        {
+          "source": "spot",
+          "back_ms": 30000,
+          "lag_ms": 3073
+        },
+        {
+          "source": "spot",
+          "back_ms": 55000,
+          "lag_ms": 7073
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995300,
+      "age": 60,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 15000,
+          "lag_ms": 3071
+        },
+        {
+          "source": "spot",
+          "back_ms": 40000,
+          "lag_ms": 3071
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995300,
+      "age": 70,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 50000,
+          "lag_ms": 3116
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995300,
+      "age": 80,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 35000,
+          "lag_ms": 3064
+        },
+        {
+          "source": "spot",
+          "back_ms": 60000,
+          "lag_ms": 3064
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995300,
+      "age": 90,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 45000,
+          "lag_ms": 3071
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995300,
+      "age": 100,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 55000,
+          "lag_ms": 3100
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995600,
+      "age": 30,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 15000,
+          "lag_ms": 3054
+        },
+        {
+          "source": "spot",
+          "back_ms": 55000,
+          "lag_ms": 3054
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995600,
+      "age": 40,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 25000,
+          "lag_ms": 3054
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995600,
+      "age": 50,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "twap60",
+          "back_ms": 0,
+          "lag_ms": 3053
+        },
+        {
+          "source": "spot",
+          "back_ms": 0,
+          "lag_ms": 3053
+        },
+        {
+          "source": "spot",
+          "back_ms": 35000,
+          "lag_ms": 3053
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995600,
+      "age": 60,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 10000,
+          "lag_ms": 3076
+        },
+        {
+          "source": "spot",
+          "back_ms": 45000,
+          "lag_ms": 3076
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995600,
+      "age": 70,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 20000,
+          "lag_ms": 3066
+        },
+        {
+          "source": "spot",
+          "back_ms": 55000,
+          "lag_ms": 3066
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995600,
+      "age": 80,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 30000,
+          "lag_ms": 3075
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995600,
+      "age": 90,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 40000,
+          "lag_ms": 3090
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995600,
+      "age": 100,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 50000,
+          "lag_ms": 3049
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995600,
+      "age": 110,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 60000,
+          "lag_ms": 3047
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995600,
+      "age": 140,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "twap60",
+          "back_ms": 0,
+          "lag_ms": 3050
+        },
+        {
+          "source": "spot",
+          "back_ms": 5000,
+          "lag_ms": 3050
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995600,
+      "age": 150,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 15000,
+          "lag_ms": 3055
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995600,
+      "age": 160,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 25000,
+          "lag_ms": 3083
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995600,
+      "age": 170,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 35000,
+          "lag_ms": 3047
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995600,
+      "age": 190,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "twap60",
+          "back_ms": 0,
+          "lag_ms": 3049
+        },
+        {
+          "source": "spot",
+          "back_ms": 0,
+          "lag_ms": 3049
+        },
+        {
+          "source": "spot",
+          "back_ms": 55000,
+          "lag_ms": 3049
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995600,
+      "age": 200,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 5000,
+          "lag_ms": 3059
+        },
+        {
+          "source": "spot",
+          "back_ms": 10000,
+          "lag_ms": 3059
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995600,
+      "age": 210,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 20000,
+          "lag_ms": 3078
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995600,
+      "age": 220,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 25000,
+          "lag_ms": 3033
+        },
+        {
+          "source": "spot",
+          "back_ms": 30000,
+          "lag_ms": 3033
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995600,
+      "age": 230,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 35000,
+          "lag_ms": 3034
+        },
+        {
+          "source": "spot",
+          "back_ms": 40000,
+          "lag_ms": 3034
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995900,
+      "age": 120,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "twap60",
+          "back_ms": 0,
+          "lag_ms": 3057
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995900,
+      "age": 130,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 5000,
+          "lag_ms": 3040
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995900,
+      "age": 140,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 15000,
+          "lag_ms": 3042
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995900,
+      "age": 150,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 25000,
+          "lag_ms": 3050
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995900,
+      "age": 160,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 35000,
+          "lag_ms": 3054
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995900,
+      "age": 170,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 45000,
+          "lag_ms": 3068
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995900,
+      "age": 180,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "twap60",
+          "back_ms": 0,
+          "lag_ms": 3078
+        },
+        {
+          "source": "spot",
+          "back_ms": 55000,
+          "lag_ms": 3078
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995900,
+      "age": 190,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "twap60",
+          "back_ms": 0,
+          "lag_ms": 3054
+        },
+        {
+          "source": "spot",
+          "back_ms": 0,
+          "lag_ms": 3054
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995900,
+      "age": 200,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 10000,
+          "lag_ms": 3074
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995900,
+      "age": 210,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 20000,
+          "lag_ms": 3082
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995900,
+      "age": 220,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 30000,
+          "lag_ms": 3045
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789995900,
+      "age": 230,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 40000,
+          "lag_ms": 3052
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789996200,
+      "age": 110,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "twap60",
+          "back_ms": 0,
+          "lag_ms": 3040
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789996500,
+      "age": 70,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "twap60",
+          "back_ms": 0,
+          "lag_ms": 3038
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789996500,
+      "age": 140,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "twap60",
+          "back_ms": 0,
+          "lag_ms": 3081
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789996500,
+      "age": 170,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 5000,
+          "lag_ms": 3061
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789996500,
+      "age": 180,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 15000,
+          "lag_ms": 3067
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789996500,
+      "age": 190,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 25000,
+          "lag_ms": 3058
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789996500,
+      "age": 200,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "twap60",
+          "back_ms": 0,
+          "lag_ms": 3061
+        },
+        {
+          "source": "spot",
+          "back_ms": 35000,
+          "lag_ms": 3061
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789996500,
+      "age": 210,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 5000,
+          "lag_ms": 7059
+        },
+        {
+          "source": "spot",
+          "back_ms": 45000,
+          "lag_ms": 3059
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789996500,
+      "age": 220,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 15000,
+          "lag_ms": 7063
+        },
+        {
+          "source": "spot",
+          "back_ms": 55000,
+          "lag_ms": 3063
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789996500,
+      "age": 230,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 25000,
+          "lag_ms": 7077
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789996500,
+      "age": 240,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 35000,
+          "lag_ms": 7302
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789996500,
+      "age": 250,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 45000,
+          "lag_ms": 7037
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789996500,
+      "age": 260,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "twap60",
+          "back_ms": 0,
+          "lag_ms": 5075
+        },
+        {
+          "source": "spot",
+          "back_ms": 0,
+          "lag_ms": 5075
+        },
+        {
+          "source": "spot",
+          "back_ms": 55000,
+          "lag_ms": 7075
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789996500,
+      "age": 270,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 10000,
+          "lag_ms": 5083
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789996500,
+      "age": 280,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 20000,
+          "lag_ms": 5043
+        }
+      ]
+    },
+    {
+      "model": "inventory",
+      "S": 1789996500,
+      "age": 290,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 30000,
+          "lag_ms": 5046
+        }
+      ]
+    },
+    {
+      "model": "rebound_v2",
+      "S": 1789996500,
+      "age": 240,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 35000,
+          "lag_ms": 7052
+        }
+      ]
+    },
+    {
+      "model": "rebound_v2",
+      "S": 1789996500,
+      "age": 270,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 10000,
+          "lag_ms": 5088
+        }
+      ]
+    },
+    {
+      "model": "rebound_v2",
+      "S": 1789996500,
+      "age": 280,
+      "candle_valid": true,
+      "stale": [
+        {
+          "source": "spot",
+          "back_ms": 20000,
+          "lag_ms": 5042
+        }
+      ]
+    }
+  ],
+  "stale_summary": {
+    "context_events": 71,
+    "events_with_stale_sample": 71,
+    "stale_sample_ms_median": 3064,
+    "stale_sample_ms_max": 7302,
+    "history_only_events": 57
+  },
+  "official_results": {
+    "1789995000": 1,
+    "1789995300": 0,
+    "1789995600": 1,
+    "1789995900": 0,
+    "1789996200": 1,
+    "1789996500": null
+  },
+  "validation": "PASS: source manifests, journal uniqueness, delay, risk, FIFO/Decimal, recorded payouts, closed candles; pending official results separate"
+}

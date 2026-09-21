@@ -43,6 +43,12 @@ def bars():
     return dict(request_ms=started, received_ms=received, rows=rows)
 
 
+def bars_due(candle, when):
+    # Refresh on publication of a NEW closed minute, not on cache receipt age.
+    latest_closed = (when-2000)//60000*60000-1
+    return candle is None or not candle['rows'] or candle['rows'][-1][6] < latest_closed
+
+
 def market(S):
     m = base.get(f'https://gamma-api.polymarket.com/markets/slug/btc-updown-5m-{S}',
                  timeout=3, attempts=1)
@@ -153,7 +159,7 @@ def run(args, out):
                     if target < manifest['end_S'] and target not in markets:
                         markets[target] = market(target)
                         emit('market', S=target, market=markets[target])
-                    if candle is None or now_ms()-candle['received_ms'] >= 30000:
+                    if bars_due(candle, now_ms()):
                         candle = bars()
                         emit('bars', bars=candle)
                 except ERRORS as ex:
@@ -241,6 +247,9 @@ def check():
         closed = bars()
     assert all(r[6]+2000 <= closed['received_ms'] for r in closed['rows'])
     assert rows[-1] not in closed['rows']
+    cached = dict(received_ms=225600, rows=[[0]*6+[179999]])
+    assert not bars_due(cached, 240000)
+    assert bars_due(cached, 245000)  # only 19.4 seconds old, but missing the new closed bar
     with tempfile.TemporaryDirectory() as temp, redirect_stdout(io.StringIO()):
         out = Path(temp)
         (out/'STOP_SHADOW').touch()

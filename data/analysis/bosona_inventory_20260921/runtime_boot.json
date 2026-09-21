@@ -1,0 +1,119 @@
+{
+  "captured_ms": 1789994982269,
+  "sources": {
+    "bosona_inventory_shadow.py": "ebf073cb7326ade1f588671aceb8268e442b334e26d41c6666cbfbce53e2c717",
+    "bosona_gec_arastirma.py": "2051f552765d257942bbc672f62f32f4e47280d48ac892678a6a70125d303c4c",
+    "muhasebe.py": "9f14e2531a770dd97fef6e1d323fde9269b477cf92a139e1d345274fa9f4961f",
+    "bosona_derin.py": "fd9a5e0903802f5fffae2bb7413571e50c59b5605edab871c9cadbfceb630b91",
+    "bosona_rebound_shadow.py": "2568b523a8163466475ccaa80ac3c8b1adce88dc108ca2f40ad89330b76e5bab",
+    "check_inventory_shadow.py": "301dcc45c7d805a93e80b593bb14584ca5eb934b2d7b49dd793b618f5aba4396"
+  },
+  "manifests": {
+    "inventory": {
+      "mode": "SHADOW_NO_ORDERS",
+      "version": "inventory_v1",
+      "start_S": 1789995000,
+      "end_S": 1790254200,
+      "started_ms": 1789994732082,
+      "prices_db": "/home/ubuntu/polymarket-bosona-d/data/d_olcum/prices.db",
+      "source_sha256": {
+        "bosona_rebound_shadow.py": "2568b523a8163466475ccaa80ac3c8b1adce88dc108ca2f40ad89330b76e5bab",
+        "bosona_derin.py": "fd9a5e0903802f5fffae2bb7413571e50c59b5605edab871c9cadbfceb630b91",
+        "bosona_gec_arastirma.py": "2051f552765d257942bbc672f62f32f4e47280d48ac892678a6a70125d303c4c",
+        "muhasebe.py": "9f14e2531a770dd97fef6e1d323fde9269b477cf92a139e1d345274fa9f4961f",
+        "bosona_inventory_shadow.py": "ebf073cb7326ade1f588671aceb8268e442b334e26d41c6666cbfbce53e2c717"
+      },
+      "slots": [
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100,
+        110,
+        120,
+        130,
+        140,
+        150,
+        160,
+        170,
+        180,
+        190,
+        200,
+        210,
+        220,
+        230,
+        240,
+        250,
+        260,
+        270,
+        280,
+        290
+      ],
+      "lanes": [
+        "pair_fast",
+        "pair_250",
+        "pair_add_fast",
+        "pair_add_250"
+      ],
+      "primary": "pair_add_250 minus pair_250, per assigned window",
+      "entry": "existing rebound: cheaper midpoint, ask<.50, own RSI14<40, own momentum10>0",
+      "completion": "FIFO unmatched cash cost + current fee-inclusive ask cost <= .98 per pair",
+      "addition": "same rebound predicate on held side, 20s cooldown, at most 10 unmatched shares",
+      "limits": {
+        "clip": 5,
+        "unmatched": 10,
+        "cash": 15,
+        "loss": 5,
+        "pair": 0.98,
+        "entry_end": 200,
+        "add_cooldown": 20,
+        "price_slippage": 0.01
+      },
+      "execution": "independent fast and >=250ms paper portfolios; HTTP is not a real fill",
+      "gate": ">=3 days and >=100 selected trades; day/window clustered lower bounds>0; ex-top3>0"
+    },
+    "rebound_v2": {
+      "mode": "SHADOW_NO_ORDERS",
+      "start_S": 1789995000,
+      "end_S": 1790254200,
+      "started_ms": 1789994732083,
+      "source_sha256": {
+        "bosona_rebound_shadow.py": "2568b523a8163466475ccaa80ac3c8b1adce88dc108ca2f40ad89330b76e5bab",
+        "bosona_derin.py": "fd9a5e0903802f5fffae2bb7413571e50c59b5605edab871c9cadbfceb630b91",
+        "bosona_gec_arastirma.py": "2051f552765d257942bbc672f62f32f4e47280d48ac892678a6a70125d303c4c",
+        "muhasebe.py": "9f14e2531a770dd97fef6e1d323fde9269b477cf92a139e1d345274fa9f4961f"
+      },
+      "qty": 5,
+      "slots": [
+        240,
+        270,
+        280
+      ],
+      "primary_slot": 280,
+      "rule": "cheaper midpoint; ask<.50, own simple RSI14<40, own momentum10>0",
+      "baseline": "favorite at each identical eligible slot, separate paper strategies",
+      "execution_delay_ms": 250,
+      "max_age_ms": 3000,
+      "bar_publication_lag_ms": 2000,
+      "prices_db": "/home/ubuntu/polymarket-bosona-d/data/d_olcum/prices.db",
+      "cost": "5 shares, ask depth + market fee; no rebate or maker fill assumed",
+      "gate": ">=3 days, >=100 eligible windows AND >=100 selected trades; both cluster CI lower bounds>0; ex-top3>0"
+    }
+  },
+  "panes": [
+    "bosona-gec-shadow 90793 0",
+    "bosona-inventory 98339 0",
+    "bosona-jev 96074 0",
+    "bosona-latency 92723 0",
+    "bosona-rebound-shadow 92242 0",
+    "bosona-rebound-v2 98340 0"
+  ],
+  "preserved_sources": {
+    "old_baseline": "1f33a277c694b781ca3b5f30f3f5369b39ae1497cdae4cd76ceeb26d70652086",
+    "old_rebound": "19b115c07016d5a950c0dead78c84c46287b68002ac5805a7d850734763fd5e5",
+    "jev": "362d4f4c38d617b48d8047934f13c3ca45ba9d036b72f46792f47505b47a7798"
+  }
+}

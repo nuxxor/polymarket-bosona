@@ -1,0 +1,24 @@
+{
+  "inventory": {
+    "decisions": 27,
+    "valid_entry_context": 9,
+    "context_gaps": {
+      "incomplete or stale context": 14,
+      "two-sided entry context unavailable": 4
+    },
+    "fills": 0,
+    "snapshot_sha256": "0eeebb8b652e926129a541b63501e9e146812d76df34508bac81586fece24194"
+  },
+  "rebound_v2": {
+    "valid_slots": [
+      240
+    ],
+    "gaps": {
+      "270": "empty/invalid public book",
+      "280": "empty/invalid public book"
+    },
+    "late_candle_fresh": true,
+    "snapshot_sha256": "2eba9c0d7708a0bd07592468b3147b5a95ca89166f3b18c34e6bbafc24b6eacd"
+  },
+  "checks": "Local/remote full loops PASS, original cache bug rejected, open inventory restart and limits PASS, Ruff/compile PASS"
+}

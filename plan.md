@@ -360,3 +360,62 @@ activityeslesmesi,oz-test/Ruff/compile/gercekanaliz gecti. API429sonrasi
 dogrulama tekil1snaralikli yapildi; veri eksigi sifira cevrilmedi.
 Rapor:docs/SHADOW_BOSONA_20260921.md; kanit:data/analysis/shadow_bosona_20260921_1200/.
 Jev, iki calisan golge ve LIVE kaynak/sureclerine mudahale edilmedi.
+
+## Envanter odagi ve yeni ileri shadow — 21 Eylul
+Operator siradaki arastirma odagini uygulamayi ve Londra'da yeni shadow
+baslatmayi onayladi. Gercek emir yok; Jev/LIVE ve eski deney kanitlari korunur.
+- [x] Mum yenileme hatasini kokten duzelt; gercek hazirlik dongusunu
+      t240/270/280 boyunca test et. Duzeltilmis rebound ayri surum/manifest.
+- [x] Bosona ilk/ek/tamamlama fiyat-miktar-maliyet ayrimini mevcut tum
+      kazanc/kayip verisinde incele; kesin karar kuralindan hipotezi ayir.
+- [x] Kendi envanterini izleyen, FIFO acik maliyete gore tamamlama yapan
+      az sayida sabit kurali ileri teste kaydet. Yeni risk, ekleme ve
+      tamamlama ayri; esit risk limitli kontrol, ucret/derinlik/gecikme,
+      eksik veri/karar yok/sonuc bekleyen ayrimi ve yeniden baslatma korunur.
+- [x] Test/lint/compile ve Londra kaynak-hash/gercek karar dongusu teyidi;
+      raporda fiili baslangic, sure ve henuz bilinmeyen ekonomik sonuc.
+Basari yeni donemde ucret sonrasi dolar, acik risk/dusus ve Bosona ile ayni
+piyasalardaki davranis benzerligidir; yalniz islem sayisi veya tek kazanan
+yeterli degil. Esik aramasi yapilmaz; ileri >=3 gun ve >=100 islem olmadan
+kalici avantaj iddiasi yok. Gecmis kesif temiz bir kor test diye sunulmaz.
+
+Sonuc: mum cache yasina degil son yayimlanmis kapali dakikaya gore yenilenir.
+Gercek scheduler testi t225.6 cache fazini ve HTTP cevap gecikmesini kapsar;
+eski 30sn kuralina donunce test bilerek basarisiz olur. Kaynaklar donduruldu.
+Bosona1842eski/89yeniBTC5m: ilk-alimmedyani43/90sn ve44/42sent. Yeni159
+tamamlama kaydinin93'u FIFO pozitif. TWAP-olasilik>=3sent eski-ekleme
+filtresi eniyi3haric-462,12; guclu yon modeli sayilmadi, stratejiye eklenmedi.
+Yeni inventory_v1 mevcut rebound giris kosulunu t30..200'de kullanir;
+FIFO<=.98 tamamlama t290'a kadar; kontrol/ekleme kolu, bagimsiz hizli/250ms
+portfoyleri. 5payklip/10acikpay/$15alis/$5en-kotu-sonuc SINIRLARI SANALDIR.
+Yeni risk her seferinde yeniden filtrelenir; envanter/masraf gunlukten kurulur.
+Londra bosona-inventory PID98339 ve bosona-rebound-v2 PID98340, 12:45:32UTC
+basladi; atamalar21Eylul12:50–24Eylul12:50UTC, +25dksonuc takibi.
+Ilk envanter penceresi27planlikarar:9gecerli giris baglami/0sinyal,
+14fiyat-baglami+4deftereksigi, sanalalim0. Reboundv2 t240gercekkarar/quote;
+t270/280bosdefter, fakat sonmum239.999 ve taze: eski mum hatasi giderilmis,
+butun veri kapsam sorunu cozulmus degil. Henuz ekonomik ustunluk yok.
+Yerel/Londra full-loop, acik envanterle restart, eski bug regresyonu, FIFO,
+ucret/risk/fiyat kaymasi, kaynakfreeze/lock, Ruff/compile gecti. Bes uretim
+kaynagi manifestle birebir. Eski iki golge/Jev PID ve hashleri korundu.
+Rapor:docs/BOSONA_ENVANTER_SHADOW_20260921.md;
+kanit:data/analysis/bosona_inventory_20260921/. Ileri kar/benzerlik sonucu acik.
+
+## Aktif odak yeniden yalniz BTC5m — 21 Eylul 13:21UTC
+Operator Jev ve diger piyasa arastirmasini bu oturumun odagindan cikardi.
+BTC5m yeni shadow saglik kontrolu: PID/kalp atisi/kaynak, veri kapsami,
+ilk envanter dongusu ve ucretli sanal sonuc teyidi. Salt-okunur; strateji
+ve dondurulmus deney kurallari bu durum kontrolunde degistirilmez.
+
+13:21:11UTC kesiti: yeniPID98339/98340 ayni, kaynakmanifestleri ayni,
+kalpatislari guncel. Envanter167karar/63gecerligirisbaglami;68eski fiyat
+baglami/36deftereksigi. 16:15TRpenceresinde5Up+5Down: ucretlidelay250
+maliyet2,62118/payout5/sanaldenge+2,37882; hizli+2,42977. Iki politika
+ayni davranmis, ekleme henuz yok. Resmi sonuc kesitte bekliyor. 16:20TR
+penceresindeayrica5Up/2,48736USD acik; bu risk toplamsonuca dahil edilmeden
+yalnizdenge kazanci toplamkar diye sunulmaz. Reboundv2 18deneme/1t240karar,
+14bosdefter/3eski fiyat; ana t280gecerlikarar0. Mumlar71baglamhatasinin
+hepsinde guncel;71/71fiyat-tazelik ihlali,57yalnizgecmis orneklerde.
+Eski ornek yasmedyani3064ms/max7302ms;3000mskural gevsetilmedi.
+FIFO/Decimal/risk/tekillik/gecikme/resmi sonuc-pending ayrimi, Ruff/compile
+gecti. Kod/runtime degismedi. Kanit: inventory arastirma dizini/status_1321/.

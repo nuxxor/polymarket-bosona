@@ -1,0 +1,119 @@
+{
+  "source_sha256": {
+    "historical": "bffbff0cd66fad691b9f7eb00b0266bb47c374d286d9194fba362c2348a0105c",
+    "latest": "47cf75c5001e1946da85ffaed1fd2de09db2e9fb31d60cf81258aafbe8c0773a",
+    "features": "c767c60e4d835db332382aa22187e28e038ca259614c9085a588ba6779acbc93"
+  },
+  "historical": {
+    "first_S": 1789257600,
+    "last_S": 1789943100,
+    "first": {
+      "records": 1842,
+      "windows": 1842,
+      "age_median": 43.0,
+      "cash_price_median": 0.44000000000000006,
+      "marginal_pnl": 2594.800573,
+      "ex_top3": 1780.359933,
+      "pair_contribution": 0.0,
+      "positive_pair_records": 0
+    },
+    "add": {
+      "records": 12160,
+      "windows": 1539,
+      "age_median": 136.0,
+      "cash_price_median": 0.30000003888889754,
+      "marginal_pnl": -117.34920399999837,
+      "ex_top3": -2162.9838769999983,
+      "pair_contribution": 0.0,
+      "positive_pair_records": 0
+    },
+    "completion": {
+      "records": 5577,
+      "windows": 1191,
+      "age_median": 189,
+      "cash_price_median": 0.35000000487499994,
+      "marginal_pnl": 5348.3964750000005,
+      "ex_top3": 3302.5346710000003,
+      "pair_contribution": 14799.083091544057,
+      "positive_pair_records": 3762
+    },
+    "reopen": {
+      "records": 849,
+      "windows": 609,
+      "age_median": 184,
+      "cash_price_median": 0.35000000000000003,
+      "marginal_pnl": 2596.4934970000004,
+      "ex_top3": 1723.3734970000003,
+      "pair_contribution": 292.88736368617265,
+      "positive_pair_records": 453
+    }
+  },
+  "latest": {
+    "first_S": 1789947600,
+    "last_S": 1789991700,
+    "first": {
+      "records": 89,
+      "windows": 89,
+      "age_median": 90,
+      "cash_price_median": 0.42000000782969876,
+      "marginal_pnl": 313.97969599999993,
+      "ex_top3": -221.37030400000003,
+      "pair_contribution": 0.0,
+      "positive_pair_records": 0
+    },
+    "add": {
+      "records": 283,
+      "windows": 66,
+      "age_median": 188,
+      "cash_price_median": 0.38,
+      "marginal_pnl": 419.046297,
+      "ex_top3": -491.917599,
+      "pair_contribution": 0.0,
+      "positive_pair_records": 0
+    },
+    "completion": {
+      "records": 159,
+      "windows": 44,
+      "age_median": 229,
+      "cash_price_median": 0.42000003454565554,
+      "marginal_pnl": 346.5587860000001,
+      "ex_top3": -370.94985399999996,
+      "pair_contribution": 119.86067299690335,
+      "positive_pair_records": 93
+    },
+    "reopen": {
+      "records": 18,
+      "windows": 15,
+      "age_median": 242.0,
+      "cash_price_median": 0.5050000049292214,
+      "marginal_pnl": -0.05669000000000668,
+      "ex_top3": -112.18549,
+      "pair_contribution": -47.92347099023472,
+      "positive_pair_records": 8
+    }
+  },
+  "historical_add_fair_edge": {
+    "all_with_context": {
+      "records": 2563,
+      "windows": 477,
+      "pnl": 1896.0625960000007,
+      "ex_top3": 291.0105410000006,
+      "equal5_per_fill": 197.0915819080154
+    },
+    "edge_ge_3c": {
+      "records": 1204,
+      "windows": 273,
+      "pnl": 795.587795,
+      "ex_top3": -462.121977,
+      "equal5_per_fill": 29.47592836905369
+    },
+    "edge_lt_3c": {
+      "records": 1359,
+      "windows": 317,
+      "pnl": 1100.4748010000003,
+      "ex_top3": 60.465547000000335,
+      "equal5_per_fill": 167.6156535389617
+    }
+  },
+  "caveat": "Fill-conditioned descriptive accounting, not an executable backtest or a blind holdout. Completion and reopening groups can overlap; do not sum them. No hidden order intent inferred."
+}
