@@ -142,9 +142,10 @@ On kayit (yeni sonuclari incelemeden):
   Pozitif iddia icin >=3 ayri gun, >=100 pencere, gun/pencere kumeli alt
   guven siniri >0 ve en iyi uc pencere harici pozitif sonuc gerekir.
   Az veri UNDERPOWERED; negatif sim tek basina tum stratejiyi curutmez.
-- [ ] API/veri kapsami ve muhasebe kontrolu.
-- [ ] Dolum davranisi, gec dolumlar ve sabit kurallarin ayri-gun sonucu.
-- [ ] Test/lint/gercek veri dogrulamasi ve ileri golge runtime kaniti.
+- [x] API/veri kapsami ve muhasebe kontrolu.
+- [x] Dolum davranisi, gec dolumlar ve sabit kurallarin ayri-gun sonucu.
+- [x] Test/lint/gercek veri dogrulamasi ve ileri golge runtime kaniti.
+- [ ] Ileri 24 saatlik ekonomik sonuc (sure henuz tamamlanmadi).
 
 Arastirma notu (ilk betimleyici sonuclardan sonra, kesif olarak etiketli):
 FIFO eslesme katkisi pozitif, acik kalan kisim negatif. Ek mekanizma
@@ -154,3 +155,42 @@ dolum miktari alinmis olsaydi, pencere bazinda sonuc/risk nasil degisirdi?
 Bu aktorun dolumlarina kosullu bir karsilastirmadir; bizim dolum garantimiz
 veya gercek bir politika backtest'i olarak sunulmaz. Golgedeki uc sabit
 kurali degistirmez; sonuc sonrasi parametre aramasi yapilmaz.
+
+Ilk tur sonucu: 1.842 pencere / 19.761 BUY, API nakit maliyetiyle +8.319,438464
+USD islem sonucu (rebate/sabit gider haric). FIFO cift +14.799,083092 / acik
+kisim -6.479,644628; maliyet dagitimi strateji becerisi iddiasi degil.
+Son 100 saniye +4.603,639828; en buyuk alt katki ayni yone ekleme +2.784,242434.
+Sadece gec tamamlama, gozlenen dolumlara kosullu +244,947645 fark; 88 iyi /
+276 kotu pencere, en iyi uc haric -814,937663. Ustunluk kaniti yok.
+
+Sabit t=240 kurallari, 19–20 Eylulun 131 fiyat/defter-uygun penceresinde
+5 sanal pay ve ask+ucret ile: favori -21,66382; uyum -30,47725;
+uyum+uzaklik -19,19185. Tum birincil araliklar sifiri kapsiyor.
+Sekiz gunluk defter testi degil; fiyat girdileri 5sn geriden 5.710/19.761
+dolumda mevcut. Sonuc/dagilim/model etiketleri birbirine karistirilmadi.
+
+Londra emir vermeyen golge: bosona-gec-shadow, PID 90794, 20 Eylul 23:20
+UTC–21 Eylul 23:20 UTC; sonucu bekleme icin +25dk. Uc kural sabit;
+ilk 210/240 kararlarinin nedensel zamanlari gercek kayitta dogrulandi,
+270 bos defter boslugu olarak kaydedildi. LIVE F/butce degismedi.
+Calisan golge sha=1f33a277c694b781ca3b5f30f3f5369b39ae1497cdae4cd76ceeb26d70652086;
+yerel analiz/rapor kodu daha sonra ilerledi, golge kurallari ayni kaldi.
+FIFO/fazla dolum, ileriyi gormeme, coklu-token defter, bayatlik, ucret,
+metin fiyat, risk testleri; Ruff/compile; 5 bagimsiz API piyasa kontrolu;
+gercek veri toplamlari ve runtime/source hash kaniti gecti.
+Rapor: docs/BOSONA_GEC_ARASTIRMA_20260921.md.
+Kanıt ve dondurulmus fiyat verisi: data/analysis/bosona_gec_20260921/.
+
+## Derinlestirme — gec ek alimi kazandiran kosullar
+Operator tum erisilebilir metriklerle arastirmayi derinlestirmeyi istedi.
+Kapsam salt-okunur arastirma; calisan golge kurallari ve LIVE degismez.
+- [ ] Mevcut dolum/veri araclarini kullan; yeni girdiler ve eksik kapsami acikla.
+- [ ] Gec eklemelerde fiyat/sure, boy, onceki envanter/maliyet, ilk giris,
+      momentum/donus, oynaklik, TWAP kapanis mekanigi, RSI/hacim ve defter
+      baglamini incele. Dolum sonucu ile karar-oncesi girdiyi ayir.
+- [ ] Pozitif gorunen mekanizmayi kayiplar, es-boy, en iyi uc pencere harici,
+      gunler ve zaman gecikmesiyle sına. Coklu arama kesiftir; kor test denmez.
+- [ ] Bosona dolumu gerektirmeyen mevcut defterli pencerelerde az sayida
+      gerekceli kuralin alinabilir fiyat + ucret sonucunu kontrol et.
+- [ ] Tekrar calistirilabilir kod/veri, oz-test/lint ve gercek sonuc raporu;
+      bulunan ipucu ile cozulmeyen karar kurali acikca ayri sunulsun.

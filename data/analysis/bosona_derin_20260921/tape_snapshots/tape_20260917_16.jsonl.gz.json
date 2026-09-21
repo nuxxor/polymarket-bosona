@@ -1,0 +1,1 @@
+{"file":"tape_20260917_16.jsonl.gz","source_bytes":181483334,"source_sha256":"1c55ab831bd03672317268089cec7d3d06c4990b02873c9b73f36148c55e3d33","snapshots":5428,"trades":19263,"external":41146,"stats":{"book_mismatch":4766,"missing_snapshot":1532,"out_of_order":4},"source":"db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b"}

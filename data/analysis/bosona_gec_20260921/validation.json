@@ -1,0 +1,10 @@
+{
+  "source_sha256": "0cbcd565c0e6c61ad02825b90e18342f95875a25d67c1262a8c0aa42d05dac2b",
+  "independent_api_markets": 5,
+  "fill_records": 19761,
+  "windows": 1842,
+  "quantity_pnl_conservation": true,
+  "historical_decision_times_checked": true,
+  "forward_proof": "forward_validation.json",
+  "checks": "self-check, ruff, py_compile, real public API, runtime"
+}

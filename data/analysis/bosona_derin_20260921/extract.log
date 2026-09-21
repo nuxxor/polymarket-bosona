@@ -1,0 +1,124 @@
+tape 1 / 124 tape_20260913_13.jsonl.gz 2054 {'missing_snapshot': 4909, 'book_mismatch': 1140}
+tape 2 / 124 tape_20260913_14.jsonl.gz 5452 {'book_mismatch': 3638, 'missing_snapshot': 1522, 'out_of_order': 1}
+tape 3 / 124 tape_20260913_15.jsonl.gz 5246 {'book_mismatch': 2988, 'missing_snapshot': 1718, 'out_of_order': 2}
+tape 4 / 124 tape_20260913_16.jsonl.gz 5667 {'book_mismatch': 3468, 'missing_snapshot': 1297, 'out_of_order': 2}
+tape 5 / 124 tape_20260913_17.jsonl.gz 5849 {'book_mismatch': 3184, 'missing_snapshot': 1119}
+tape 6 / 124 tape_20260913_18.jsonl.gz 6013 {'book_mismatch': 3884, 'missing_snapshot': 962, 'out_of_order': 5}
+tape 7 / 124 tape_20260913_19.jsonl.gz 5920 {'book_mismatch': 3060, 'missing_snapshot': 1042, 'out_of_order': 4}
+tape 8 / 124 tape_20260913_20.jsonl.gz 5994 {'book_mismatch': 3184, 'missing_snapshot': 966}
+tape 9 / 124 tape_20260913_21.jsonl.gz 5825 {'book_mismatch': 2636, 'missing_snapshot': 1146, 'out_of_order': 3}
+tape 10 / 124 tape_20260913_22.jsonl.gz 5509 {'book_mismatch': 5474, 'missing_snapshot': 1466, 'out_of_order': 6}
+tape 11 / 124 tape_20260913_23.jsonl.gz 5936 {'book_mismatch': 4984, 'missing_snapshot': 1026, 'out_of_order': 2}
+tape 12 / 124 tape_20260914_00.jsonl.gz 5228 {'book_mismatch': 3638, 'missing_snapshot': 1739, 'out_of_order': 3}
+tape 13 / 124 tape_20260914_01.jsonl.gz 5411 {'book_mismatch': 3786, 'missing_snapshot': 1563, 'out_of_order': 7}
+tape 14 / 124 tape_20260914_02.jsonl.gz 4760 {'book_mismatch': 2944, 'missing_snapshot': 2204, 'out_of_order': 4}
+tape 15 / 124 tape_20260914_03.jsonl.gz 5481 {'out_of_order': 4, 'book_mismatch': 3820, 'missing_snapshot': 1480}
+tape 16 / 124 tape_20260914_04.jsonl.gz 5534 {'book_mismatch': 3962, 'missing_snapshot': 1429, 'out_of_order': 2}
+tape 17 / 124 tape_20260914_05.jsonl.gz 5286 {'book_mismatch': 3522, 'missing_snapshot': 1695, 'out_of_order': 2}
+tape 18 / 124 tape_20260914_06.jsonl.gz 4750 {'book_mismatch': 3250, 'missing_snapshot': 2215, 'out_of_order': 1}
+tape 19 / 124 tape_20260914_07.jsonl.gz 5301 {'book_mismatch': 3990, 'missing_snapshot': 1666, 'out_of_order': 1}
+tape 20 / 124 tape_20260914_08.jsonl.gz 5328 {'book_mismatch': 3514, 'missing_snapshot': 1641, 'out_of_order': 4}
+tape 21 / 124 tape_20260914_09.jsonl.gz 4949 {'book_mismatch': 3184, 'missing_snapshot': 2013, 'out_of_order': 3}
+tape 22 / 124 tape_20260914_10.jsonl.gz 5897 {'book_mismatch': 4524, 'missing_snapshot': 1063, 'out_of_order': 1}
+tape 23 / 124 tape_20260914_11.jsonl.gz 5178 {'book_mismatch': 3576, 'missing_snapshot': 1783, 'out_of_order': 3}
+tape 24 / 124 tape_20260914_12.jsonl.gz 5346 {'book_mismatch': 4814, 'missing_snapshot': 1618, 'out_of_order': 3}
+tape 25 / 124 tape_20260914_13.jsonl.gz 5060 {'book_mismatch': 5050, 'missing_snapshot': 1912, 'out_of_order': 4}
+tape 26 / 124 tape_20260914_14.jsonl.gz 4954 {'book_mismatch': 3542, 'missing_snapshot': 2015, 'out_of_order': 3}
+tape 27 / 124 tape_20260914_15.jsonl.gz 5051 {'book_mismatch': 3532, 'missing_snapshot': 1925, 'out_of_order': 3}
+tape 28 / 124 tape_20260914_16.jsonl.gz 5354 {'book_mismatch': 4298, 'missing_snapshot': 1607}
+tape 29 / 124 tape_20260914_17.jsonl.gz 5453 {'book_mismatch': 4128, 'missing_snapshot': 1514, 'out_of_order': 4}
+tape 30 / 124 tape_20260914_18.jsonl.gz 5348 {'book_mismatch': 3935, 'missing_snapshot': 1615}
+tape 31 / 124 tape_20260914_19.jsonl.gz 5308 {'book_mismatch': 3604, 'missing_snapshot': 1658, 'out_of_order': 2}
+tape 32 / 124 tape_20260914_20.jsonl.gz 5272 {'book_mismatch': 3836, 'missing_snapshot': 1700}
+tape 33 / 124 tape_20260914_21.jsonl.gz 5523 {'book_mismatch': 3286, 'missing_snapshot': 1448, 'out_of_order': 2}
+tape 34 / 124 tape_20260914_22.jsonl.gz 5421 {'book_mismatch': 3172, 'missing_snapshot': 1557}
+tape 35 / 124 tape_20260914_23.jsonl.gz 5390 {'book_mismatch': 4036, 'missing_snapshot': 1582, 'out_of_order': 6}
+tape 36 / 124 tape_20260915_00.jsonl.gz 5907 {'book_mismatch': 5766, 'missing_snapshot': 1065, 'out_of_order': 4}
+tape 37 / 124 tape_20260915_01.jsonl.gz 5083 {'book_mismatch': 3476, 'out_of_order': 4, 'missing_snapshot': 1889}
+tape 38 / 124 tape_20260915_02.jsonl.gz 5833 {'book_mismatch': 3798, 'missing_snapshot': 1138}
+tape 39 / 124 tape_20260915_03.jsonl.gz 5517 {'book_mismatch': 3530, 'missing_snapshot': 1455, 'out_of_order': 1}
+tape 40 / 124 tape_20260915_04.jsonl.gz 5722 {'book_mismatch': 3962, 'missing_snapshot': 1253}
+tape 41 / 124 tape_20260915_05.jsonl.gz 5306 {'book_mismatch': 3561, 'missing_snapshot': 1671, 'out_of_order': 2}
+tape 42 / 124 tape_20260915_06.jsonl.gz 5166 {'book_mismatch': 3170, 'missing_snapshot': 1801, 'out_of_order': 2}
+tape 43 / 124 tape_20260915_07.jsonl.gz 5427 {'book_mismatch': 5015, 'missing_snapshot': 1558, 'out_of_order': 2}
+tape 44 / 124 tape_20260915_08.jsonl.gz 5748 {'book_mismatch': 4766, 'missing_snapshot': 1225, 'out_of_order': 4}
+tape 45 / 124 tape_20260915_09.jsonl.gz 5685 {'book_mismatch': 4012, 'missing_snapshot': 1282, 'out_of_order': 4}
+tape 46 / 124 tape_20260915_10.jsonl.gz 5572 {'book_mismatch': 3848, 'missing_snapshot': 1395, 'out_of_order': 6}
+tape 47 / 124 tape_20260915_11.jsonl.gz 5238 {'book_mismatch': 3440, 'missing_snapshot': 1722}
+tape 48 / 124 tape_20260915_12.jsonl.gz 5499 {'book_mismatch': 4380, 'missing_snapshot': 1471, 'out_of_order': 1}
+tape 49 / 124 tape_20260915_13.jsonl.gz 5110 {'book_mismatch': 4731, 'missing_snapshot': 1863, 'out_of_order': 1}
+tape 50 / 124 tape_20260915_14.jsonl.gz 5462 {'book_mismatch': 6474, 'missing_snapshot': 1510, 'out_of_order': 4}
+tape 51 / 124 tape_20260915_15.jsonl.gz 5798 {'book_mismatch': 5594, 'missing_snapshot': 1177, 'out_of_order': 3}
+tape 52 / 124 tape_20260915_16.jsonl.gz 1856 {'book_mismatch': 1502, 'out_of_order': 2, 'missing_snapshot': 5117}
+tape 53 / 124 tape_20260915_23.jsonl.gz 1380 {'missing_snapshot': 5587, 'book_mismatch': 854}
+tape 54 / 124 tape_20260916_00.jsonl.gz 5574 {'book_mismatch': 4270, 'missing_snapshot': 1392}
+tape 55 / 124 tape_20260916_01.jsonl.gz 5541 {'book_mismatch': 3908, 'missing_snapshot': 1436}
+tape 56 / 124 tape_20260916_02.jsonl.gz 5403 {'book_mismatch': 3948, 'missing_snapshot': 1564}
+tape 57 / 124 tape_20260916_03.jsonl.gz 5227 {'book_mismatch': 3298, 'missing_snapshot': 1735}
+tape 58 / 124 tape_20260916_04.jsonl.gz 5217 {'book_mismatch': 3046, 'missing_snapshot': 1748, 'out_of_order': 2}
+tape 59 / 124 tape_20260916_05.jsonl.gz 5517 {'book_mismatch': 4158, 'missing_snapshot': 1455}
+tape 60 / 124 tape_20260916_06.jsonl.gz 5050 {'book_mismatch': 3990, 'missing_snapshot': 1929, 'out_of_order': 4}
+tape 61 / 124 tape_20260916_07.jsonl.gz 5411 {'book_mismatch': 3979, 'missing_snapshot': 1558, 'out_of_order': 2}
+tape 62 / 124 tape_20260916_08.jsonl.gz 5583 {'book_mismatch': 5262, 'missing_snapshot': 1387, 'out_of_order': 3}
+tape 63 / 124 tape_20260916_09.jsonl.gz 5433 {'book_mismatch': 4198, 'out_of_order': 5, 'missing_snapshot': 1537}
+tape 64 / 124 tape_20260916_10.jsonl.gz 5556 {'book_mismatch': 3580, 'missing_snapshot': 1418}
+tape 65 / 124 tape_20260916_11.jsonl.gz 5205 {'book_mismatch': 4182, 'missing_snapshot': 1771}
+tape 66 / 124 tape_20260916_12.jsonl.gz 5612 {'book_mismatch': 4454, 'missing_snapshot': 1351, 'out_of_order': 2}
+tape 67 / 124 tape_20260916_13.jsonl.gz 5237 {'out_of_order': 8, 'book_mismatch': 5058, 'missing_snapshot': 1729}
+tape 68 / 124 tape_20260916_14.jsonl.gz 5233 {'book_mismatch': 4818, 'missing_snapshot': 1740, 'out_of_order': 2}
+tape 69 / 124 tape_20260916_15.jsonl.gz 5430 {'book_mismatch': 3838, 'missing_snapshot': 1539, 'out_of_order': 8}
+tape 70 / 124 tape_20260916_16.jsonl.gz 5592 {'book_mismatch': 5316, 'missing_snapshot': 1374, 'out_of_order': 1}
+tape 71 / 124 tape_20260916_17.jsonl.gz 5404 {'book_mismatch': 4880, 'missing_snapshot': 1571, 'out_of_order': 1}
+tape 72 / 124 tape_20260916_18.jsonl.gz 4612 {'book_mismatch': 6582, 'missing_snapshot': 2367, 'out_of_order': 24}
+tape 73 / 124 tape_20260916_19.jsonl.gz 5204 {'book_mismatch': 5110, 'missing_snapshot': 1763, 'out_of_order': 3}
+tape 74 / 124 tape_20260916_20.jsonl.gz 5464 {'book_mismatch': 4114, 'missing_snapshot': 1502, 'out_of_order': 4}
+tape 75 / 124 tape_20260916_21.jsonl.gz 5901 {'book_mismatch': 3826, 'missing_snapshot': 1074, 'out_of_order': 3}
+tape 76 / 124 tape_20260916_22.jsonl.gz 4793 {'book_mismatch': 2228, 'missing_snapshot': 2185}
+tape 77 / 124 tape_20260916_23.jsonl.gz 3028 {'book_mismatch': 2240, 'missing_snapshot': 3941, 'out_of_order': 2}
+tape 78 / 124 tape_20260917_00.jsonl.gz 3159 {'book_mismatch': 2742, 'missing_snapshot': 3813, 'out_of_order': 2}
+tape 79 / 124 tape_20260917_01.jsonl.gz 1266 {'book_mismatch': 720, 'missing_snapshot': 5708}
+tape 80 / 124 tape_20260917_02.jsonl.gz 5457 {'book_mismatch': 4104, 'missing_snapshot': 1513, 'out_of_order': 3}
+tape 81 / 124 tape_20260917_03.jsonl.gz 5787 {'book_mismatch': 4460, 'missing_snapshot': 1180, 'out_of_order': 3}
+tape 82 / 124 tape_20260917_04.jsonl.gz 5058 {'book_mismatch': 3232, 'missing_snapshot': 1919}
+tape 83 / 124 tape_20260917_05.jsonl.gz 5303 {'book_mismatch': 3032, 'missing_snapshot': 1670, 'out_of_order': 1}
+tape 84 / 124 tape_20260917_06.jsonl.gz 5147 {'book_mismatch': 3230, 'missing_snapshot': 1823, 'out_of_order': 2}
+tape 85 / 124 tape_20260917_07.jsonl.gz 5465 {'book_mismatch': 3342, 'missing_snapshot': 1498, 'out_of_order': 5}
+tape 86 / 124 tape_20260917_08.jsonl.gz 5585 {'book_mismatch': 4916, 'missing_snapshot': 1383, 'out_of_order': 2}
+tape 87 / 124 tape_20260917_09.jsonl.gz 5508 {'book_mismatch': 4282, 'missing_snapshot': 1455, 'out_of_order': 2}
+tape 88 / 124 tape_20260917_10.jsonl.gz 5311 {'book_mismatch': 3634, 'missing_snapshot': 1655, 'out_of_order': 4}
+tape 89 / 124 tape_20260917_11.jsonl.gz 5286 {'book_mismatch': 3484, 'missing_snapshot': 1682}
+tape 90 / 124 tape_20260917_12.jsonl.gz 5576 {'book_mismatch': 6582, 'missing_snapshot': 1398, 'out_of_order': 4}
+tape 91 / 124 tape_20260917_13.jsonl.gz 4787 {'book_mismatch': 4628, 'missing_snapshot': 2188, 'out_of_order': 2}
+tape 92 / 124 tape_20260917_14.jsonl.gz 4902 {'book_mismatch': 4534, 'missing_snapshot': 2065, 'out_of_order': 4}
+tape 93 / 124 tape_20260917_15.jsonl.gz 5133 {'book_mismatch': 4756, 'missing_snapshot': 1834, 'out_of_order': 2}
+tape 94 / 124 tape_20260917_16.jsonl.gz 5428 {'book_mismatch': 4766, 'missing_snapshot': 1532, 'out_of_order': 4}
+tape 95 / 124 tape_20260917_17.jsonl.gz 5386 {'book_mismatch': 4942, 'missing_snapshot': 1582, 'out_of_order': 2}
+tape 96 / 124 tape_20260917_18.jsonl.gz 5662 {'out_of_order': 5, 'book_mismatch': 5062, 'missing_snapshot': 1310}
+tape 97 / 124 tape_20260917_19.jsonl.gz 4918 {'book_mismatch': 3275, 'missing_snapshot': 2055, 'out_of_order': 4}
+tape 98 / 124 tape_20260917_20.jsonl.gz 5596 {'book_mismatch': 3588, 'missing_snapshot': 1364, 'out_of_order': 6}
+tape 99 / 124 tape_20260917_21.jsonl.gz 5839 {'book_mismatch': 2876, 'missing_snapshot': 1132, 'out_of_order': 7}
+tape 100 / 124 tape_20260917_22.jsonl.gz 5476 {'book_mismatch': 4692, 'missing_snapshot': 1505, 'out_of_order': 2}
+tape 101 / 124 tape_20260917_23.jsonl.gz 5744 {'book_mismatch': 3354, 'missing_snapshot': 1224, 'out_of_order': 2}
+tape 102 / 124 tape_20260918_00.jsonl.gz 5246 {'book_mismatch': 3580, 'missing_snapshot': 1725, 'out_of_order': 5}
+tape 103 / 124 tape_20260918_01.jsonl.gz 5704 {'book_mismatch': 5116, 'missing_snapshot': 1259, 'out_of_order': 5}
+tape 104 / 124 tape_20260918_02.jsonl.gz 5173 {'book_mismatch': 3856, 'missing_snapshot': 1795, 'out_of_order': 6}
+tape 105 / 124 tape_20260918_03.jsonl.gz 5193 {'book_mismatch': 4692, 'missing_snapshot': 1780}
+tape 106 / 124 tape_20260918_04.jsonl.gz 5180 {'book_mismatch': 3778, 'missing_snapshot': 1798, 'out_of_order': 2}
+tape 107 / 124 tape_20260918_05.jsonl.gz 5603 {'book_mismatch': 4728, 'missing_snapshot': 1366, 'out_of_order': 2}
+tape 108 / 124 tape_20260918_06.jsonl.gz 5415 {'book_mismatch': 4932, 'missing_snapshot': 1551, 'out_of_order': 2}
+tape 109 / 124 tape_20260918_07.jsonl.gz 5716 {'book_mismatch': 9140, 'missing_snapshot': 1264, 'out_of_order': 1}
+tape 110 / 124 tape_20260918_08.jsonl.gz 4727 {'book_mismatch': 3602, 'missing_snapshot': 2234}
+tape 111 / 124 tape_20260918_09.jsonl.gz 5137 {'book_mismatch': 4070, 'missing_snapshot': 1838, 'out_of_order': 6}
+tape 112 / 124 tape_20260918_10.jsonl.gz 5391 {'book_mismatch': 3316, 'missing_snapshot': 1581, 'out_of_order': 4}
+tape 113 / 124 tape_20260918_11.jsonl.gz 5302 {'book_mismatch': 4262, 'missing_snapshot': 1658, 'out_of_order': 5}
+tape 114 / 124 tape_20260918_12.jsonl.gz 5612 {'book_mismatch': 5176, 'missing_snapshot': 1362, 'out_of_order': 5}
+tape 115 / 124 tape_20260918_13.jsonl.gz 5163 {'book_mismatch': 5420, 'missing_snapshot': 1815, 'out_of_order': 1}
+tape 116 / 124 tape_20260918_14.jsonl.gz 5441 {'book_mismatch': 5864, 'missing_snapshot': 1537, 'out_of_order': 8}
+tape 117 / 124 tape_20260918_15.jsonl.gz 5527 {'book_mismatch': 5074, 'missing_snapshot': 1458, 'out_of_order': 1}
+tape 118 / 124 tape_20260918_16.jsonl.gz 5147 {'book_mismatch': 4402, 'missing_snapshot': 1848, 'out_of_order': 6}
+tape 119 / 124 tape_20260918_17.jsonl.gz 5351 {'book_mismatch': 4202, 'missing_snapshot': 1632, 'out_of_order': 2}
+tape 120 / 124 tape_20260918_18.jsonl.gz 5075 {'book_mismatch': 4014, 'missing_snapshot': 1923, 'out_of_order': 2}
+tape 121 / 124 tape_20260918_19.jsonl.gz 5062 {'book_mismatch': 3956, 'missing_snapshot': 1928, 'out_of_order': 6}
+tape 122 / 124 tape_20260918_20.jsonl.gz 5180 {'book_mismatch': 3372, 'missing_snapshot': 1799, 'out_of_order': 2}
+tape 123 / 124 tape_20260918_21.jsonl.gz 5351 {'book_mismatch': 3099, 'missing_snapshot': 1640, 'out_of_order': 6}
+tape 124 / 124 tape_20260918_22.jsonl.gz 0 {'book_mismatch': 198, 'missing_snapshot': 23, 'corrupt_source': 1, 'EOFError': 1}

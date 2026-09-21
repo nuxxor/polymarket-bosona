@@ -1,0 +1,47 @@
+{
+  "210_favorite": {
+    "dollars_per_eligible_window": -0.3241321319796956,
+    "settlement_order_drawdown": 73.96609000000005,
+    "max_selected_cost": 4.99535
+  },
+  "210_aligned": {
+    "dollars_per_eligible_window": -0.2513304568527922,
+    "settlement_order_drawdown": 60.69067000000001,
+    "max_selected_cost": 4.99535
+  },
+  "210_buffer": {
+    "dollars_per_eligible_window": -0.22623436548223372,
+    "settlement_order_drawdown": 47.94290000000004,
+    "max_selected_cost": 4.99535
+  },
+  "240_favorite": {
+    "dollars_per_eligible_window": -0.16537267175572504,
+    "settlement_order_drawdown": 36.67185,
+    "max_selected_cost": 4.95347
+  },
+  "240_aligned": {
+    "dollars_per_eligible_window": -0.2326507633587788,
+    "settlement_order_drawdown": 43.133070000000004,
+    "max_selected_cost": 4.95347
+  },
+  "240_buffer": {
+    "dollars_per_eligible_window": -0.14650267175572504,
+    "settlement_order_drawdown": 24.957219999999996,
+    "max_selected_cost": 4.95347
+  },
+  "270_favorite": {
+    "dollars_per_eligible_window": -0.1811158823529411,
+    "settlement_order_drawdown": 11.213659999999999,
+    "max_selected_cost": 4.99535
+  },
+  "270_aligned": {
+    "dollars_per_eligible_window": -0.36766450980392146,
+    "settlement_order_drawdown": 19.310129999999997,
+    "max_selected_cost": 4.99535
+  },
+  "270_buffer": {
+    "dollars_per_eligible_window": -0.13462176470588233,
+    "settlement_order_drawdown": 7.705210000000001,
+    "max_selected_cost": 4.99535
+  }
+}
