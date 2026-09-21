@@ -1,0 +1,284 @@
+{
+  "normal_stops": 8,
+  "hashes_verified": true,
+  "profiles": [
+    {
+      "pid": 90794,
+      "profile": "/home/ubuntu/polymarket-bosona-research/data/bosona_gec_forward",
+      "stopped_utc": "2026-09-21T18:19:02.519000+00:00",
+      "log_sha256": "621b6ca92b0e18cf78e764b9a04dc423aee0356eac159139a3341874983dfd04",
+      "records": 1971,
+      "pending_markets": [
+        1790013600,
+        1790013900,
+        1790014500
+      ],
+      "inventory_pending_positions": [],
+      "stop_before_planned_end": true,
+      "planned_end": 1790032800
+    },
+    {
+      "pid": 92243,
+      "profile": "/home/ubuntu/polymarket-bosona-rebound/data/forward",
+      "stopped_utc": "2026-09-21T18:19:02.345000+00:00",
+      "log_sha256": "b7a1c67e9b8cb24d3058c9fe4fc9df497e86664f872fef27b5aff43e186fa629",
+      "records": 3273,
+      "pending_markets": [
+        1790013600,
+        1790013900,
+        1790014500
+      ],
+      "inventory_pending_positions": [],
+      "stop_before_planned_end": true,
+      "planned_end": 1790211000
+    },
+    {
+      "pid": 92724,
+      "profile": "/home/ubuntu/polymarket-bosona-rebound/data/latency",
+      "stopped_utc": "2026-09-21T18:19:02.338000+00:00",
+      "log_sha256": "c38a53d186ccd7f05ff8d265af660110f73155c9ccd902bc207173474e7bd60f",
+      "records": 1103,
+      "pending_markets": [],
+      "inventory_pending_positions": [],
+      "stop_before_planned_end": true,
+      "planned_end": 1790211000
+    },
+    {
+      "pid": 98339,
+      "profile": "/home/ubuntu/polymarket-bosona-inventory-v1/data/inventory",
+      "stopped_utc": "2026-09-21T18:19:02.373000+00:00",
+      "log_sha256": "375450ec24e3f427ccc5848e3afb9a744d94e68071050023c6858a968db10e7e",
+      "records": 2729,
+      "pending_markets": [
+        1790014200,
+        1790014500
+      ],
+      "inventory_pending_positions": [],
+      "stop_before_planned_end": true,
+      "planned_end": 1790254200
+    },
+    {
+      "pid": 98340,
+      "profile": "/home/ubuntu/polymarket-bosona-inventory-v1/data/rebound_v2",
+      "stopped_utc": "2026-09-21T18:19:02.361000+00:00",
+      "log_sha256": "b1d89f1f46ef899e14ff283ae361f9844c3f54b94bb2deb696516733397225b8",
+      "records": 970,
+      "pending_markets": [
+        1790013600,
+        1790013900,
+        1790014500
+      ],
+      "inventory_pending_positions": [],
+      "stop_before_planned_end": true,
+      "planned_end": 1790254200
+    },
+    {
+      "pid": 112062,
+      "profile": "/home/ubuntu/polymarket-bosona-inventory-v2/data/inventory",
+      "stopped_utc": "2026-09-21T18:19:02.355000+00:00",
+      "log_sha256": "3b4d802704e1f178b53e4eb961308e363d47caaaa07172e700244e890ea160d0",
+      "records": 2323,
+      "pending_markets": [
+        1790014200,
+        1790014500
+      ],
+      "inventory_pending_positions": [
+        {
+          "S": 1790014200,
+          "lane": "pair_fast",
+          "qty": [
+            0,
+            5.0
+          ],
+          "cash": 2.38694,
+          "payoff_floor": -2.38694
+        },
+        {
+          "S": 1790014200,
+          "lane": "pair_add_fast",
+          "qty": [
+            0,
+            10.0
+          ],
+          "cash": 3.80593,
+          "payoff_floor": -3.80593
+        },
+        {
+          "S": 1790014200,
+          "lane": "pair_250",
+          "qty": [
+            0,
+            5.0
+          ],
+          "cash": 2.38694,
+          "payoff_floor": -2.38694
+        },
+        {
+          "S": 1790014200,
+          "lane": "pair_add_250",
+          "qty": [
+            0,
+            10.0
+          ],
+          "cash": 3.75428,
+          "payoff_floor": -3.75428
+        },
+        {
+          "S": 1790014500,
+          "lane": "pair_fast",
+          "qty": [
+            5.0,
+            10.0
+          ],
+          "cash": 5.89362,
+          "payoff_floor": -0.8936200000000003
+        },
+        {
+          "S": 1790014500,
+          "lane": "pair_add_fast",
+          "qty": [
+            5.0,
+            15.0
+          ],
+          "cash": 6.94962,
+          "payoff_floor": -1.9496200000000004
+        },
+        {
+          "S": 1790014500,
+          "lane": "pair_250",
+          "qty": [
+            5.0,
+            10.0
+          ],
+          "cash": 5.89362,
+          "payoff_floor": -0.8936200000000003
+        },
+        {
+          "S": 1790014500,
+          "lane": "pair_add_250",
+          "qty": [
+            5.0,
+            15.0
+          ],
+          "cash": 6.94962,
+          "payoff_floor": -1.9496200000000004
+        }
+      ],
+      "stop_before_planned_end": true,
+      "planned_end": 1790257800
+    },
+    {
+      "pid": 112442,
+      "profile": "/home/ubuntu/polymarket-bosona-inventory-v2/data/rebound_v3",
+      "stopped_utc": "2026-09-21T18:19:02.392000+00:00",
+      "log_sha256": "d8f27e4576f162ccc7245bd86878c8a9aae18f22b6ada2e298c9df9cf58d2d42",
+      "records": 953,
+      "pending_markets": [
+        1790013300,
+        1790013600,
+        1790013900,
+        1790014200,
+        1790014500
+      ],
+      "inventory_pending_positions": [],
+      "stop_before_planned_end": true,
+      "planned_end": 1790257800
+    },
+    {
+      "pid": 123275,
+      "profile": "/home/ubuntu/polymarket-bosona-participation-v1/data/participation",
+      "stopped_utc": "2026-09-21T18:19:02.342000+00:00",
+      "log_sha256": "0ed7a8fd2811ccfb6aec28147e114fdfe80684530f8fbf548c1e65cc84937f8a",
+      "records": 1961,
+      "pending_markets": [
+        1790014200,
+        1790014500
+      ],
+      "inventory_pending_positions": [
+        {
+          "S": 1790014200,
+          "lane": "pair_fast",
+          "qty": [
+            5.0,
+            10.0
+          ],
+          "cash": 6.28889,
+          "payoff_floor": -1.2888900000000003
+        },
+        {
+          "S": 1790014200,
+          "lane": "pair_add_fast",
+          "qty": [
+            5.0,
+            15.0
+          ],
+          "cash": 7.55273,
+          "payoff_floor": -2.5527300000000004
+        },
+        {
+          "S": 1790014200,
+          "lane": "pair_250",
+          "qty": [
+            5.0,
+            10.0
+          ],
+          "cash": 6.23724,
+          "payoff_floor": -1.23724
+        },
+        {
+          "S": 1790014200,
+          "lane": "pair_add_250",
+          "qty": [
+            5.0,
+            15.0
+          ],
+          "cash": 7.50108,
+          "payoff_floor": -2.50108
+        },
+        {
+          "S": 1790014500,
+          "lane": "pair_fast",
+          "qty": [
+            0,
+            5.0
+          ],
+          "cash": 1.36734,
+          "payoff_floor": -1.36734
+        },
+        {
+          "S": 1790014500,
+          "lane": "pair_add_fast",
+          "qty": [
+            0,
+            10.0
+          ],
+          "cash": 2.5274,
+          "payoff_floor": -2.5274
+        },
+        {
+          "S": 1790014500,
+          "lane": "pair_250",
+          "qty": [
+            0,
+            5.0
+          ],
+          "cash": 1.36734,
+          "payoff_floor": -1.36734
+        },
+        {
+          "S": 1790014500,
+          "lane": "pair_add_250",
+          "qty": [
+            0,
+            10.0
+          ],
+          "cash": 2.5274,
+          "payoff_floor": -2.5274
+        }
+      ],
+      "stop_before_planned_end": true,
+      "planned_end": 1790261100
+    }
+  ],
+  "note": "Manual early termination; ungraded markets are pending, not zero PnL. Raw after.json filled_unresolved used a nonexistent fill event name; inventory positions are correctly reconstructed here from execution.fills."
+}

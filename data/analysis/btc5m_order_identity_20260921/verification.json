@@ -1,0 +1,12 @@
+{
+  "negative_cases_rejected": [
+    "duplicate_log",
+    "missing_match_event",
+    "wrong_contract",
+    "one_unit_cash_mismatch"
+  ],
+  "local_remote_result_equal": true,
+  "receipt_hashes_verified": true,
+  "source_sha256": "bbabe1303f37ee1bd7cd34bcca266f0ea276dd6d81bfafff20cbe4ed227a58cd",
+  "report_sha256": "666d66e60259c7b0ab2a05a384394bcec5089ebc183e66f78f132a4f6232e487"
+}

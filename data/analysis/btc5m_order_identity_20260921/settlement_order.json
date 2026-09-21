@@ -1,0 +1,72 @@
+[
+  {
+    "tx": "0xdcc65d306386c6483ea4622ec3abd744e49fca459a5f3fd3e3aeeba23abe5ee8",
+    "role": "maker",
+    "qty": 65.52,
+    "block_number": 93798282,
+    "transaction_index": 72,
+    "log_index": 921,
+    "public_age": 256,
+    "exchange_age_proxy": 253.629
+  },
+  {
+    "tx": "0x3ab2521de3e2f5c96c51c5447d8d8f38ed14c84ef093c94305ac0e682a5281d5",
+    "role": "taker",
+    "qty": 49.72,
+    "block_number": 93798282,
+    "transaction_index": 75,
+    "log_index": 997,
+    "public_age": 256,
+    "exchange_age_proxy": 253.302
+  },
+  {
+    "tx": "0x721f97675b464f032656f465807008bd0053038104bbb80676854928eb23aa08",
+    "role": "maker",
+    "qty": 56.32,
+    "block_number": 93798282,
+    "transaction_index": 76,
+    "log_index": 1014,
+    "public_age": 256,
+    "exchange_age_proxy": 253.719
+  },
+  {
+    "tx": "0xa593e522d72732a2a71ecf69df5fe3e29f9351d2cfec39df654acd7b019d3488",
+    "role": "maker",
+    "qty": 7.44,
+    "block_number": 93798282,
+    "transaction_index": 82,
+    "log_index": 1122,
+    "public_age": 256,
+    "exchange_age_proxy": 253.349
+  },
+  {
+    "tx": "0xec2e7f0fa73de244dcc02bd3b063305ba84a86a8c082273d30333332f5c9f30a",
+    "role": "maker",
+    "qty": 4.0,
+    "block_number": 93798282,
+    "transaction_index": 88,
+    "log_index": 1248,
+    "public_age": 256,
+    "exchange_age_proxy": 253.422
+  },
+  {
+    "tx": "0x57667f33edd44e3d23cce83fe9c3215cf13da65cda0153d81b08108eb1c9ad4d",
+    "role": "maker",
+    "qty": 14.0,
+    "block_number": 93798282,
+    "transaction_index": 91,
+    "log_index": 1326,
+    "public_age": 256,
+    "exchange_age_proxy": 253.704
+  },
+  {
+    "tx": "0xc0f437ce3aea3403c6bec2f16b7a7a7b0170363a4dedb1d245d2f0630408f767",
+    "role": "maker",
+    "qty": 100.0,
+    "block_number": 93798282,
+    "transaction_index": 100,
+    "log_index": 1504,
+    "public_age": 256,
+    "exchange_age_proxy": 253.701
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "ultra_reproduction": "exact JSON equality",
+  "pro_cases": {
+    "1789852200": {
+      "records": 3,
+      "cash": "215.317276",
+      "pnl": "76.359200"
+    },
+    "1789852800": {
+      "records": 6,
+      "cash": "68.92236",
+      "pnl": "-30.15236"
+    },
+    "1789853400": {
+      "records": 3,
+      "cash": "11.1845",
+      "pnl": "4.7405"
+    },
+    "1789853700": {
+      "records": 14,
+      "cash": "552.555162",
+      "pnl": "-210.225162"
+    }
+  },
+  "pro_local_exit_contribution": "1.58957",
+  "runtime_hashes_match_at_ms": 1790012765415,
+  "request_boundary_defect_reproduced": true,
+  "fable_reported_table_sd_drop": 0.19422194090985145,
+  "fable_reported_table_variance_drop": 0.35072171948891306,
+  "limits": "Archival diagnostics; no parent order/onchain role proof or whole-policy causal PnL.",
+  "input_sha256": {
+    "data/analysis/bosona_independent_review_20260921/calculations.json": "c2d09ba8cf7c2246fabbaaabb81c67ff54660abf48b0a1285c160e7419e72863",
+    "data/analysis/bosona_review_synthesis_20260921/calculations.json": "c2d09ba8cf7c2246fabbaaabb81c67ff54660abf48b0a1285c160e7419e72863",
+    "data/analysis/bosona_gec_20260921/activity.json": "d590e7204c8a2a760bcffadaf0c50e9231fae4e6af137c6011d0fe0e95efacb5",
+    "data/analysis/btc5m_status_20260921_1740/snapshot.json": "67fcf33248b4c0d140c411a71c8450d21396ab8375d0322659e7ff8c6159af96",
+    "analiz/izleme/bosona_rebound_shadow.py": "149485cee51b3172726a838cc3c9092cbdc64c0781489dcc0145f0a6218c022d"
+  }
+}

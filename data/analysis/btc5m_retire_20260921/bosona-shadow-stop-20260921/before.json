@@ -1,0 +1,413 @@
+{
+  "requested_ms": 1790014742336,
+  "processes": [
+    {
+      "pid": 90794,
+      "source": "/home/ubuntu/polymarket-bosona-research/analiz/izleme/bosona_gec_arastirma.py",
+      "source_sha256": "1f33a277c694b781ca3b5f30f3f5369b39ae1497cdae4cd76ceeb26d70652086",
+      "out": "/home/ubuntu/polymarket-bosona-research/data/bosona_gec_forward",
+      "manifest": {
+        "start_S": 1789946400,
+        "end_S": 1790032800,
+        "source_sha256": "1f33a277c694b781ca3b5f30f3f5369b39ae1497cdae4cd76ceeb26d70652086",
+        "mode": "SHADOW_NO_ORDERS",
+        "clip": 5,
+        "slots": [
+          210,
+          240,
+          270
+        ],
+        "rules": [
+          "favorite",
+          "aligned",
+          "buffer"
+        ],
+        "primary_slot": 240,
+        "cost": "public ask depth after >=250ms + market taker fee; no rebate assumed",
+        "gate": ">=3 days and >=100 windows; both cluster CI lower bounds >0; ex-top3 >0",
+        "prices_db": "/home/ubuntu/polymarket-bosona-d/data/d_olcum/prices.db",
+        "started_ms": 1789946105906
+      },
+      "log": "/home/ubuntu/polymarket-bosona-research/data/bosona_gec_forward/shadow.jsonl",
+      "bytes_before": 810868,
+      "last_before": "decision",
+      "log_sha256_prefix_before": "675e3b71ed87c4312890398848b8deabe62a2ac8722ee04c7b555ae315ab030c"
+    },
+    {
+      "pid": 92243,
+      "source": "/home/ubuntu/polymarket-bosona-rebound/analiz/izleme/bosona_rebound_shadow.py",
+      "source_sha256": "19b115c07016d5a950c0dead78c84c46287b68002ac5805a7d850734763fd5e5",
+      "out": "/home/ubuntu/polymarket-bosona-rebound/data/forward",
+      "manifest": {
+        "mode": "SHADOW_NO_ORDERS",
+        "start_S": 1789951800,
+        "end_S": 1790211000,
+        "started_ms": 1789951597434,
+        "source_sha256": {
+          "bosona_rebound_shadow.py": "19b115c07016d5a950c0dead78c84c46287b68002ac5805a7d850734763fd5e5",
+          "bosona_derin.py": "fd9a5e0903802f5fffae2bb7413571e50c59b5605edab871c9cadbfceb630b91",
+          "bosona_gec_arastirma.py": "be7a54fd8eadba7b2be5c55dea99592512dc647aa44d4b98a534b7c82d8c0e1a",
+          "muhasebe.py": "9f14e2531a770dd97fef6e1d323fde9269b477cf92a139e1d345274fa9f4961f"
+        },
+        "qty": 5.0,
+        "slots": [
+          240,
+          270,
+          280
+        ],
+        "primary_slot": 280,
+        "rule": "cheaper midpoint; ask<.50, own simple RSI14<40, own momentum10>0",
+        "baseline": "favorite at each identical eligible slot, separate paper strategies",
+        "execution_delay_ms": 250,
+        "max_age_ms": 3000,
+        "bar_publication_lag_ms": 2000,
+        "prices_db": "/home/ubuntu/polymarket-bosona-d/data/d_olcum/prices.db",
+        "cost": "5 shares, ask depth + market fee; no rebate or maker fill assumed",
+        "gate": ">=3 days, >=100 eligible windows AND >=100 selected trades; both cluster CI lower bounds>0; ex-top3>0"
+      },
+      "log": "/home/ubuntu/polymarket-bosona-rebound/data/forward/shadow.jsonl",
+      "bytes_before": 7966464,
+      "last_before": "execution",
+      "log_sha256_prefix_before": "40b382b962933c6125b1f82299b605a3d5fe47df37ad003ac07772999dd64fdf"
+    },
+    {
+      "pid": 92724,
+      "source": "/home/ubuntu/polymarket-bosona-rebound/analiz/izleme/bosona_latency.py",
+      "source_sha256": "c2d1071f5037db05656a070f32a750b2cfc3abcfffa00bbdb6fa81d56781e9b8",
+      "out": "/home/ubuntu/polymarket-bosona-rebound/data/latency",
+      "manifest": {
+        "mode": "SHADOW_NO_ORDERS_LATENCY",
+        "source": {
+          "observer": "c2d1071f5037db05656a070f32a750b2cfc3abcfffa00bbdb6fa81d56781e9b8",
+          "parent": {
+            "bosona_rebound_shadow.py": "19b115c07016d5a950c0dead78c84c46287b68002ac5805a7d850734763fd5e5",
+            "bosona_derin.py": "fd9a5e0903802f5fffae2bb7413571e50c59b5605edab871c9cadbfceb630b91",
+            "bosona_gec_arastirma.py": "be7a54fd8eadba7b2be5c55dea99592512dc647aa44d4b98a534b7c82d8c0e1a",
+            "muhasebe.py": "9f14e2531a770dd97fef6e1d323fde9269b477cf92a139e1d345274fa9f4961f"
+          }
+        },
+        "parent": "/home/ubuntu/polymarket-bosona-rebound/data/forward",
+        "started_ms": 1789952229071,
+        "end_S": 1790211000,
+        "poll_ms": 5,
+        "max_notification_lag_ms": 100,
+        "policy": "Use the committed decision unchanged; request a new quote without an intentional wait."
+      },
+      "log": "/home/ubuntu/polymarket-bosona-rebound/data/latency/quotes.jsonl",
+      "bytes_before": 190381,
+      "last_before": "fast_quote",
+      "log_sha256_prefix_before": "2857eaec9b87dc1a0ce715539505eb3cbd33da8e5e29f1c5045dd9f13ddc2c4b"
+    },
+    {
+      "pid": 98339,
+      "source": "/home/ubuntu/polymarket-bosona-inventory-v1/analiz/izleme/bosona_inventory_shadow.py",
+      "source_sha256": "ebf073cb7326ade1f588671aceb8268e442b334e26d41c6666cbfbce53e2c717",
+      "out": "/home/ubuntu/polymarket-bosona-inventory-v1/data/inventory",
+      "manifest": {
+        "mode": "SHADOW_NO_ORDERS",
+        "version": "inventory_v1",
+        "start_S": 1789995000,
+        "end_S": 1790254200,
+        "started_ms": 1789994732082,
+        "prices_db": "/home/ubuntu/polymarket-bosona-d/data/d_olcum/prices.db",
+        "source_sha256": {
+          "bosona_rebound_shadow.py": "2568b523a8163466475ccaa80ac3c8b1adce88dc108ca2f40ad89330b76e5bab",
+          "bosona_derin.py": "fd9a5e0903802f5fffae2bb7413571e50c59b5605edab871c9cadbfceb630b91",
+          "bosona_gec_arastirma.py": "2051f552765d257942bbc672f62f32f4e47280d48ac892678a6a70125d303c4c",
+          "muhasebe.py": "9f14e2531a770dd97fef6e1d323fde9269b477cf92a139e1d345274fa9f4961f",
+          "bosona_inventory_shadow.py": "ebf073cb7326ade1f588671aceb8268e442b334e26d41c6666cbfbce53e2c717"
+        },
+        "slots": [
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+          110,
+          120,
+          130,
+          140,
+          150,
+          160,
+          170,
+          180,
+          190,
+          200,
+          210,
+          220,
+          230,
+          240,
+          250,
+          260,
+          270,
+          280,
+          290
+        ],
+        "lanes": [
+          "pair_fast",
+          "pair_250",
+          "pair_add_fast",
+          "pair_add_250"
+        ],
+        "primary": "pair_add_250 minus pair_250, per assigned window",
+        "entry": "existing rebound: cheaper midpoint, ask<.50, own RSI14<40, own momentum10>0",
+        "completion": "FIFO unmatched cash cost + current fee-inclusive ask cost <= .98 per pair",
+        "addition": "same rebound predicate on held side, 20s cooldown, at most 10 unmatched shares",
+        "limits": {
+          "clip": 5.0,
+          "unmatched": 10.0,
+          "cash": 15.0,
+          "loss": 5.0,
+          "pair": 0.98,
+          "entry_end": 200,
+          "add_cooldown": 20,
+          "price_slippage": 0.01
+        },
+        "execution": "independent fast and >=250ms paper portfolios; HTTP is not a real fill",
+        "gate": ">=3 days and >=100 selected trades; day/window clustered lower bounds>0; ex-top3>0"
+      },
+      "log": "/home/ubuntu/polymarket-bosona-inventory-v1/data/inventory/shadow.jsonl",
+      "bytes_before": 4622301,
+      "last_before": "decision",
+      "log_sha256_prefix_before": "69e88787f12eff61b7aacdf3e4e2b0a2bf341309fe213a5b91b8d32888212ccc"
+    },
+    {
+      "pid": 98340,
+      "source": "/home/ubuntu/polymarket-bosona-inventory-v1/analiz/izleme/bosona_rebound_shadow.py",
+      "source_sha256": "2568b523a8163466475ccaa80ac3c8b1adce88dc108ca2f40ad89330b76e5bab",
+      "out": "/home/ubuntu/polymarket-bosona-inventory-v1/data/rebound_v2",
+      "manifest": {
+        "mode": "SHADOW_NO_ORDERS",
+        "start_S": 1789995000,
+        "end_S": 1790254200,
+        "started_ms": 1789994732083,
+        "source_sha256": {
+          "bosona_rebound_shadow.py": "2568b523a8163466475ccaa80ac3c8b1adce88dc108ca2f40ad89330b76e5bab",
+          "bosona_derin.py": "fd9a5e0903802f5fffae2bb7413571e50c59b5605edab871c9cadbfceb630b91",
+          "bosona_gec_arastirma.py": "2051f552765d257942bbc672f62f32f4e47280d48ac892678a6a70125d303c4c",
+          "muhasebe.py": "9f14e2531a770dd97fef6e1d323fde9269b477cf92a139e1d345274fa9f4961f"
+        },
+        "qty": 5.0,
+        "slots": [
+          240,
+          270,
+          280
+        ],
+        "primary_slot": 280,
+        "rule": "cheaper midpoint; ask<.50, own simple RSI14<40, own momentum10>0",
+        "baseline": "favorite at each identical eligible slot, separate paper strategies",
+        "execution_delay_ms": 250,
+        "max_age_ms": 3000,
+        "bar_publication_lag_ms": 2000,
+        "prices_db": "/home/ubuntu/polymarket-bosona-d/data/d_olcum/prices.db",
+        "cost": "5 shares, ask depth + market fee; no rebate or maker fill assumed",
+        "gate": ">=3 days, >=100 eligible windows AND >=100 selected trades; both cluster CI lower bounds>0; ex-top3>0"
+      },
+      "log": "/home/ubuntu/polymarket-bosona-inventory-v1/data/rebound_v2/shadow.jsonl",
+      "bytes_before": 2207159,
+      "last_before": "execution",
+      "log_sha256_prefix_before": "aa35ac18e4f11ffc97c2b3c5d370eb8abba21558202ae1591eea9eb9841dc456"
+    },
+    {
+      "pid": 112062,
+      "source": "/home/ubuntu/polymarket-bosona-inventory-v2/analiz/izleme/bosona_inventory_shadow.py",
+      "source_sha256": "63735c54a76c897dbe5aeb7a676a3b038417f6351aaa9063e645debdd012fa0d",
+      "out": "/home/ubuntu/polymarket-bosona-inventory-v2/data/inventory",
+      "manifest": {
+        "mode": "SHADOW_NO_ORDERS",
+        "version": "inventory_v2",
+        "start_S": 1789998600,
+        "end_S": 1790257800,
+        "started_ms": 1789998389580,
+        "prices_db": "/home/ubuntu/polymarket-bosona-d/data/d_olcum/prices.db",
+        "source_sha256": {
+          "bosona_rebound_shadow.py": "149485cee51b3172726a838cc3c9092cbdc64c0781489dcc0145f0a6218c022d",
+          "bosona_derin.py": "3fd35f1b172cabf1b3fa2e7f06c59b03196f94486b5831e5dfbcd89ea9241c98",
+          "bosona_gec_arastirma.py": "c5168e5ad7334149c21de0484d99dec264f2a18f1b6c3be3a04967b4cb15e6ff",
+          "muhasebe.py": "9f14e2531a770dd97fef6e1d323fde9269b477cf92a139e1d345274fa9f4961f",
+          "bosona_inventory_shadow.py": "63735c54a76c897dbe5aeb7a676a3b038417f6351aaa9063e645debdd012fa0d"
+        },
+        "slots": [
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+          110,
+          120,
+          130,
+          140,
+          150,
+          160,
+          170,
+          180,
+          190,
+          200,
+          210,
+          220,
+          230,
+          240,
+          250,
+          260,
+          270,
+          280,
+          290
+        ],
+        "lanes": [
+          "pair_fast",
+          "pair_250",
+          "pair_add_fast",
+          "pair_add_250"
+        ],
+        "primary": "pair_add_250 minus pair_250, per assigned window",
+        "entry": "rebound: cheaper midpoint or disjoint quote bounds, ask<.50, own RSI14<40, own momentum10>0",
+        "feature_clock": "observed time; received <= decision cutoff; 3000ms age limit",
+        "completion": "FIFO unmatched cash cost + current fee-inclusive ask cost <= .98 per pair",
+        "addition": "same rebound predicate on held side, 20s cooldown, at most 10 unmatched shares",
+        "limits": {
+          "clip": 5.0,
+          "unmatched": 10.0,
+          "cash": 15.0,
+          "loss": 5.0,
+          "pair": 0.98,
+          "entry_end": 200,
+          "add_cooldown": 20,
+          "price_slippage": 0.01
+        },
+        "execution": "independent fast and >=250ms paper portfolios; HTTP is not a real fill",
+        "gate": ">=3 days and >=100 selected trades; day/window clustered lower bounds>0; ex-top3>0"
+      },
+      "log": "/home/ubuntu/polymarket-bosona-inventory-v2/data/inventory/shadow.jsonl",
+      "bytes_before": 4462350,
+      "last_before": "decision",
+      "log_sha256_prefix_before": "0d469a036906f27494923545fed004b4f6298f7238a7f5f03d0c326d658e8e8c"
+    },
+    {
+      "pid": 112442,
+      "source": "/home/ubuntu/polymarket-bosona-inventory-v2/analiz/izleme/bosona_rebound_shadow.py",
+      "source_sha256": "149485cee51b3172726a838cc3c9092cbdc64c0781489dcc0145f0a6218c022d",
+      "out": "/home/ubuntu/polymarket-bosona-inventory-v2/data/rebound_v3",
+      "manifest": {
+        "mode": "SHADOW_NO_ORDERS",
+        "version": "rebound_v3",
+        "start_S": 1789998600,
+        "end_S": 1790257800,
+        "started_ms": 1789998443307,
+        "source_sha256": {
+          "bosona_rebound_shadow.py": "149485cee51b3172726a838cc3c9092cbdc64c0781489dcc0145f0a6218c022d",
+          "bosona_derin.py": "3fd35f1b172cabf1b3fa2e7f06c59b03196f94486b5831e5dfbcd89ea9241c98",
+          "bosona_gec_arastirma.py": "c5168e5ad7334149c21de0484d99dec264f2a18f1b6c3be3a04967b4cb15e6ff",
+          "muhasebe.py": "9f14e2531a770dd97fef6e1d323fde9269b477cf92a139e1d345274fa9f4961f"
+        },
+        "qty": 5.0,
+        "slots": [
+          240,
+          270,
+          280
+        ],
+        "primary_slot": 280,
+        "rule": "cheaper midpoint or disjoint quote bounds; ask<.50, own simple RSI14<40, own momentum10>0",
+        "feature_clock": "observed time; received <= decision cutoff; 3000ms age limit",
+        "missing_execution": "null cost/PnL per side; never zero or an assumed fill",
+        "baseline": "favorite at each identical eligible slot, separate paper strategies",
+        "execution_delay_ms": 250,
+        "max_age_ms": 3000,
+        "bar_publication_lag_ms": 2000,
+        "prices_db": "/home/ubuntu/polymarket-bosona-d/data/d_olcum/prices.db",
+        "cost": "5 shares, ask depth + market fee; no rebate or maker fill assumed",
+        "gate": ">=3 days, >=100 eligible windows AND >=100 selected trades; both cluster CI lower bounds>0; ex-top3>0"
+      },
+      "log": "/home/ubuntu/polymarket-bosona-inventory-v2/data/rebound_v3/shadow.jsonl",
+      "bytes_before": 2027468,
+      "last_before": "execution",
+      "log_sha256_prefix_before": "8945898d88505e4291fbe9f69f801137b4229e2c7c63423186d32af62de36602"
+    },
+    {
+      "pid": 123275,
+      "source": "/home/ubuntu/polymarket-bosona-participation-v1/analiz/izleme/bosona_inventory_shadow.py",
+      "source_sha256": "01018c5239fcfeff8f70a2a0b28aaacdcf1600aa32d535833ced8c82a22528ec",
+      "out": "/home/ubuntu/polymarket-bosona-participation-v1/data/participation",
+      "manifest": {
+        "mode": "SHADOW_NO_ORDERS",
+        "version": "inventory_participation_v1",
+        "start_S": 1790001900,
+        "end_S": 1790261100,
+        "started_ms": 1790001808173,
+        "prices_db": "/home/ubuntu/polymarket-bosona-d/data/d_olcum/prices.db",
+        "source_sha256": {
+          "bosona_rebound_shadow.py": "149485cee51b3172726a838cc3c9092cbdc64c0781489dcc0145f0a6218c022d",
+          "bosona_derin.py": "3fd35f1b172cabf1b3fa2e7f06c59b03196f94486b5831e5dfbcd89ea9241c98",
+          "bosona_gec_arastirma.py": "c5168e5ad7334149c21de0484d99dec264f2a18f1b6c3be3a04967b4cb15e6ff",
+          "muhasebe.py": "9f14e2531a770dd97fef6e1d323fde9269b477cf92a139e1d345274fa9f4961f",
+          "bosona_inventory_shadow.py": "01018c5239fcfeff8f70a2a0b28aaacdcf1600aa32d535833ced8c82a22528ec"
+        },
+        "slots": [
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+          110,
+          120,
+          130,
+          140,
+          150,
+          160,
+          170,
+          180,
+          190,
+          200,
+          210,
+          220,
+          230,
+          240,
+          250,
+          260,
+          270,
+          280,
+          290
+        ],
+        "lanes": [
+          "pair_fast",
+          "pair_250",
+          "pair_add_fast",
+          "pair_add_250"
+        ],
+        "primary": "pair_add_250 versus frozen selective inventory_v2 pair_add_250 on same assigned windows",
+        "entry": "first only: t30..200, every10s; lowest fee-inclusive executable 5-share ask cost; tie Up; no RSI/momentum/.50 gate",
+        "feature_clock": "observed time; received <= decision cutoff; 3000ms age limit",
+        "completion": "FIFO unmatched cash cost + current fee-inclusive ask cost <= .98 per pair",
+        "addition": "same rebound predicate on held side, 20s cooldown, at most 10 unmatched shares",
+        "limits": {
+          "clip": 5.0,
+          "unmatched": 10.0,
+          "cash": 15.0,
+          "loss": 5.0,
+          "pair": 0.98,
+          "entry_end": 200,
+          "add_cooldown": 20,
+          "price_slippage": 0.01
+        },
+        "execution": "independent fast and >=250ms paper portfolios; HTTP is not a real fill",
+        "gate": ">=3 days and >=100 selected trades; day/window clustered lower bounds>0; ex-top3>0",
+        "participation": true,
+        "required_entry_data": "fresh identity-validated ask depth; other indicators are diagnostic for first entry",
+        "secondary": "pair_add_250 versus pair_250 within this participation experiment",
+        "coverage": "attempt every assigned window; unavailable depth/data/execution never becomes an assumed fill"
+      },
+      "log": "/home/ubuntu/polymarket-bosona-participation-v1/data/participation/shadow.jsonl",
+      "bytes_before": 3736281,
+      "last_before": "decision",
+      "log_sha256_prefix_before": "5b92a08f066eb91f44daf827441b9185fa5e4eb7e3561960666ac0649f521c8e"
+    }
+  ]
+}

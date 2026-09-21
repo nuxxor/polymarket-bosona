@@ -1,0 +1,193 @@
+{
+  "verified_ms": 1790014779105,
+  "results": [
+    {
+      "pid": 90794,
+      "out": "/home/ubuntu/polymarket-bosona-research/data/bosona_gec_forward",
+      "stopped": true,
+      "last": {
+        "kind": "stop",
+        "recorded_ms": 1790014742519,
+        "pending": [
+          1790013600,
+          1790013900,
+          1790014500
+        ],
+        "reason": "stop_file"
+      },
+      "bytes": 810978,
+      "sha256": "621b6ca92b0e18cf78e764b9a04dc423aee0356eac159139a3341874983dfd04",
+      "events": 1971,
+      "last_observed_market": 1790014500,
+      "filled_unresolved": [
+        1790013600,
+        1790013900,
+        1790014500
+      ]
+    },
+    {
+      "pid": 92243,
+      "out": "/home/ubuntu/polymarket-bosona-rebound/data/forward",
+      "stopped": true,
+      "last": {
+        "kind": "stop",
+        "recorded_ms": 1790014742345,
+        "pending": [
+          1790013600,
+          1790013900,
+          1790014500
+        ],
+        "reason": "stop_file"
+      },
+      "bytes": 7966574,
+      "sha256": "b7a1c67e9b8cb24d3058c9fe4fc9df497e86664f872fef27b5aff43e186fa629",
+      "events": 3273,
+      "last_observed_market": 1790014500,
+      "filled_unresolved": [
+        1790013600,
+        1790013900,
+        1790014500
+      ]
+    },
+    {
+      "pid": 92724,
+      "out": "/home/ubuntu/polymarket-bosona-rebound/data/latency",
+      "stopped": true,
+      "last": {
+        "kind": "stop",
+        "recorded_ms": 1790014742338,
+        "reason": "stop_file"
+      },
+      "bytes": 190446,
+      "sha256": "c38a53d186ccd7f05ff8d265af660110f73155c9ccd902bc207173474e7bd60f",
+      "events": 1103,
+      "last_observed_market": 1790014500,
+      "filled_unresolved": []
+    },
+    {
+      "pid": 98339,
+      "out": "/home/ubuntu/polymarket-bosona-inventory-v1/data/inventory",
+      "stopped": true,
+      "last": {
+        "kind": "stop",
+        "recorded_ms": 1790014742373,
+        "reason": "stop_file",
+        "pending": [
+          1790014200,
+          1790014500
+        ]
+      },
+      "bytes": 4622400,
+      "sha256": "375450ec24e3f427ccc5848e3afb9a744d94e68071050023c6858a968db10e7e",
+      "events": 2729,
+      "last_observed_market": 1790014500,
+      "filled_unresolved": []
+    },
+    {
+      "pid": 98340,
+      "out": "/home/ubuntu/polymarket-bosona-inventory-v1/data/rebound_v2",
+      "stopped": true,
+      "last": {
+        "kind": "stop",
+        "recorded_ms": 1790014742361,
+        "pending": [
+          1790013600,
+          1790013900,
+          1790014500
+        ],
+        "reason": "stop_file"
+      },
+      "bytes": 2207269,
+      "sha256": "b1d89f1f46ef899e14ff283ae361f9844c3f54b94bb2deb696516733397225b8",
+      "events": 970,
+      "last_observed_market": 1790014500,
+      "filled_unresolved": [
+        1790013600,
+        1790013900,
+        1790014500
+      ]
+    },
+    {
+      "pid": 112062,
+      "out": "/home/ubuntu/polymarket-bosona-inventory-v2/data/inventory",
+      "stopped": true,
+      "last": {
+        "kind": "stop",
+        "recorded_ms": 1790014742355,
+        "reason": "stop_file",
+        "pending": [
+          1790014200,
+          1790014500
+        ]
+      },
+      "bytes": 4462449,
+      "sha256": "3b4d802704e1f178b53e4eb961308e363d47caaaa07172e700244e890ea160d0",
+      "events": 2323,
+      "last_observed_market": 1790014500,
+      "filled_unresolved": [
+        1790014200,
+        1790014500
+      ]
+    },
+    {
+      "pid": 112442,
+      "out": "/home/ubuntu/polymarket-bosona-inventory-v2/data/rebound_v3",
+      "stopped": true,
+      "last": {
+        "kind": "stop",
+        "recorded_ms": 1790014742392,
+        "pending": [
+          1790013300,
+          1790013600,
+          1790013900,
+          1790014200,
+          1790014500
+        ],
+        "reason": "stop_file"
+      },
+      "bytes": 2027600,
+      "sha256": "d8f27e4576f162ccc7245bd86878c8a9aae18f22b6ada2e298c9df9cf58d2d42",
+      "events": 953,
+      "last_observed_market": 1790014500,
+      "filled_unresolved": [
+        1790013600,
+        1790013900,
+        1790014200,
+        1790014500
+      ]
+    },
+    {
+      "pid": 123275,
+      "out": "/home/ubuntu/polymarket-bosona-participation-v1/data/participation",
+      "stopped": true,
+      "last": {
+        "kind": "stop",
+        "recorded_ms": 1790014742342,
+        "reason": "stop_file",
+        "pending": [
+          1790014200,
+          1790014500
+        ]
+      },
+      "bytes": 3736380,
+      "sha256": "0ed7a8fd2811ccfb6aec28147e114fdfe80684530f8fbf548c1e65cc84937f8a",
+      "events": 1961,
+      "last_observed_market": 1790014500,
+      "filled_unresolved": [
+        1790014200,
+        1790014500
+      ]
+    }
+  ],
+  "untouched_observers": [
+    {
+      "pid": 96074,
+      "script": "jev_direction.py"
+    },
+    {
+      "pid": 151428,
+      "script": "jev_canli.py"
+    }
+  ],
+  "derived_metadata_note": "filled_unresolved reconstructed from execution.fills, rebound execution costs and baseline selected decisions; raw journals unchanged."
+}

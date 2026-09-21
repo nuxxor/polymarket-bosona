@@ -550,3 +550,98 @@ En onemli yeni ipucu: eslesen4331dolumun4015'inde pasif role uygun
 ucret/karsi-token deseni; kesin orderHash/maker-taker cozumlemesi henuz yok.
 Oneri yeni shadow degil, parent-order/rol ayrimini sinayan sabit evrenli
 kamu-verisi deneyi. Ekonomik edge veya tam Bosona politikasi dogrulanmadi.
+
+## Uc saat sonra BTC5m shadow durum kontrolu — 21 Eylul
+Operator shadow'larin ilerleyisini sordu. Salt-okunur Londra kontrolu;
+mevcut kaynak, kurallar, sureler ve butceler degismez. Ana karsilastirma
+katilim baslangici14:45UTC–17:40UTC ayni kapanmis pencereler; diger
+baslangiclar ve acik/sonucu bekleyen pozisyonlar ayri raporlanir.
+- [x] PID/hash/kalpatisi, planli karar kapsami ve hata/veri bosluklarini dogrula.
+- [x] Ucretli sanal PnL, katilim, envanter ve FIFO/risk/tekillik kontrolu;
+      ayni donem Bosona kamu dolumlari ve resmi sonuclariyla karsilastir.
+- [x] Tekrar calistirilabilir dondurulmus kesit ve kisa Turkce okuma;
+      yeni kod varsa hedefli lint/compile ve gercek veri tekrarini dogrula.
+Sonuc:17:46UTCsnapshot'ta3guncelPID/hashayni. Ortak35kapalipencerede
+250mssecici pair+3,70987/add+8,76225;katilim pair-3,81524/add+2,28290.
+Secici19/35,katilim35/35islemli;eniyi3haricadd+1,48018/-8,54943.
+Herikiinventory945an=944karar+1geckarar;secici120/katilim114baglameksigi.
+Reboundana t28028gecerli/5alim/-0,37406. Bosona33/35pencere282BUY,
+24581,693057pay/-1671,549952APIcashPnL;tekpencere-1631,824136.
+Ilkyonsecici7/19,katilim17/33ayni;buyukboy hamPnLesit-riskkiyasi degil.
+46resmisonuc,35piyasadaactivity/tradescoklugu,Decimal/FIFO/ucret/risk/
+gecikme/tekillik,kaynakhash,Ruff/compileveaynihashlitekrar gecti.
+Kanit:data/analysis/btc5m_status_20260921_1740/{OKUMA.md,check.py,report.json}.
+Runtime/kurallar degismedi;kaliciekonomikavantaj/Bosonakopyasi kaniti yok.
+
+## PRO / Ultra / Fable sentezi — 21 Eylul
+Operator uc bagimsiz arastirmayi atlamadan okuyup onemli bulgulari ve
+olasi mekanizma kirilimini tartismak istedi. Degerlendirme/salt-okunur
+kontrol; raporlardaki durdur/deploy onerileri islem talimati sayilmaz.
+- [x] PRO'nun paylasilan tam metni, Ultra yerel tam raporu ve Fable'in
+      tam artifact'ini oku; kaynak/kapsam farklarini ve tum maddeleri kaydet.
+- [x] Mekanizma, muhasebe, surum, veri/kapsam ve istatistik iddialarini
+      ayir; karar degistiren noktalari kod/kayit/resmi belgelerle denetle.
+- [x] En guclu birlesik hipotezi, celiskileri ve oncelikli tek arastirma
+      siralamasini raporla; gozlem/tahmin/dogrulanmamis ayrimi korunsun.
+Sonuc: docs/BOSONA_UC_INCELEME_SENTEZI_20260921.md. Uc tam rapor ve
+Fable'in kotasyon/iade alt notlari okundu; K1-K13 ve diger bulgular
+ayri degerlendirildi. Ultra ana hesaplari izole ciktiyla birebir eslesti;
+PRO dort piyasa aritmetigi, gunluk kaynak/manifest hash'leri ve mum
+istek/yanit siniri kusuru tekrar kontrol edildi. Yeni check.py Ruff,
+syntax ve gercek arsiv kontrolleri gecti. Tum alt bootstrap/tape/onchain
+hesaplari tekrar kosulmus sayilmadi. Resmi iade belgelerinde Gold %18
+kademesi teyit edildi; iade/rol/gelecek nakit varsayimlari ayrildi.
+Oneri: cokluk ve parent/rol kimligi -> ayni giristen tek risk azaltimi
+karsilastirmasi -> yeterli veri varsa ihtiyatli kuyruk replay'i.
+Yeni canli/shadow, durdurma, strateji/butce veya runtime degisikligi yok.
+
+## Eski shadow'lari kapat ve emir arastirmasini hazirla — 21 Eylul
+Operator mevcut shadow'lari durdurma/revize etme secimini ve sonraki yolu
+sordu. Secim: mevcut BTC5m politika deneyleri erken sonlandirilir; kaynak
+ve gecmis kurallar degistirilmez. Jev ve ham piyasa/aktor kaydedicileri
+kapsam disidir. Yeni islem lane'i yerine parent-emir/rol arastirmasi hazirlanir.
+- [x] Londra'daki ilgili surecleri ve STOP_SHADOW yolunu dogrula; normal
+      kapanisi iste, stop kaydi/surec yoklugu ve arsiv hash'lerini denetle.
+- [x] Son gunlukleri koru; erken bitis, son tam pencere ve acik/bekleyen
+      sanal pozisyonlari ayir. Durdurma ileri ekonomik kabul degildir.
+- [x] Mevcut araclari kullanarak emir/rol arastirmasinin dar ilk veri
+      paketini ve kabul kapisini hazirla; gercek veri erisimiyle siniri teyit et.
+- [x] Kisa sonuc ve sonraki lane'in hangi bulgudan sonra acilacagini ver;
+      degisen yardimci kod varsa test/lint ve gercek calisma kontrolu.
+Sonuc: 18:19:02 UTC'de 7 politika shadow'u + 1 latency gozlemcisi normal
+STOP_SHADOW ile kapandi; 8 stop kaydi, PID yoklugu ve 18:26 tekrar kontrolu
+teyitli. Ham gunluk onegi/son hashleri korundu; kapanista bekleyen sanal
+pozisyonlar ayri. Jev ve veri kaydedicilerine mudahale edilmedi.
+R1 sonlu kamu-verisi kontrolu hazirlandi ve Londra'da calisti: 1789402200
+piyasasinin t256'daki 7 activity / 7 transaction / 297 payi TEK actor
+orderHash'e eslendi; 49,72 taker / 247,28 maker. Gercek nakit ve token
+transferleri uzlasti. Ilk receipt iki public RPC'de ayni; tum receiptler
+arsivlendi. Emir ilk-gonderim/iptal zamani veya genel siklik cozulmedi.
+Yerel/Londra sonuc ayni; duplicate log/eksik match/yanlis exchange/tek
+birim nakit farki reddi, Ruff/syntax ve kapanis arsiv kontrolleri gecti.
+Yeni islem lane'i veya devamli arastirma servisi baslatilmadi; sonraki
+adim parent/rol kapsamini buyutup tek risk-azaltimi testine gecmek.
+Kanit: docs/BOSONA_SONRAKI_ADIM_20260921.md;
+data/analysis/{btc5m_retire_20260921,btc5m_order_identity_20260921}/.
+
+## R1 genis orneklem ve risk azaltimi — 21 Eylul
+Operator emir kimligi -> risk azaltimi -> kanita gore tek yeni shadow
+sirasini onayladi. Bu asamada once mevcut decoder ile genis kamu-verisi
+testi; ekonomik/girdi kapilari gecmeden keyfi yeni islem kurali acilmaz.
+- [ ] Evreni sonuclardan bagimsiz sabitle: tarihsel 1842 gozlenen piyasanin
+      her UTC gununden hash sirasiyla 8 (64) temsil ornegi; onceki son20-add
+      grubunun 66 piyasasinin tamami ayri tanisal kohort; 14 bilinen vaka/
+      cokluk kontrolu ayri. Birlesim137piyasa/2066BUY/2041transaction.
+      Takvim2286slot ve eksik/olmayan islem ayrimi korunur; kor test denmez.
+- [ ] Ham coklugu koruyan girdiler, tam piyasa public activity teyidi,
+      receipt/gercek transfer/emir kimligi/rol eslesmesini sayi ve pay
+      bazinda raporla. Basarisiz cevap veya desteklenmeyen akis sifir degil.
+- [ ] Dolum/emir parcalanmasi, gec parent-devami, rol/buyukluk ve
+      ilk risk azaltan zaman grubunu incele. Ayni saniyede ilk parent
+      belirsizse primer karsilastirma null; sonraki aktor islemleri replay
+      edilmez. Tek parent grubunda kapatilan pay, maliyet sinirlari ve
+      hold/karsi-alim yerel farki; gun ve piyasa agirliklari ayri.
+- [ ] Sonuclardan yurutulebilir bagimsiz kural cikiyorsa tek deney tanimi;
+      cikmiyorsa somut kalan veri/sinyal ihtiyaci ve sonraki ayirici adim.
+      Decoder regresyon/negatif kontrolleri, lint, gercek/cached tekrar;
+      kaynak ve veri manifestli Turkce rapor teslim edilir.
