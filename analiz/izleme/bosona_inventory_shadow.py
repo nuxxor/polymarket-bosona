@@ -58,8 +58,26 @@ def paired_cost(pos, side, qty):
     raise ValueError('completion would open opposite risk')
 
 
-def intent(fills, pair, m, signal_side, age, additions):
+def intent(fills, pair, m, signal_side, age, additions, participate=False):
     pos = position(fills)
+    if participate and not fills:
+        if not 30 <= age <= LIMITS['entry_end']:
+            return None
+        costs = {}
+        for side, book in enumerate(pair):
+            if book is None:
+                continue
+            try:
+                costs[side] = sum(base.ask_cost(book, m, LIMITS['clip']))
+            except ValueError:
+                continue
+        if not costs:
+            return None
+        side = min(costs, key=lambda side: (costs[side], side))
+        if not affordable(pos, side, LIMITS['clip'], costs[side]):
+            return None
+        return dict(kind='first', side=side, qty=LIMITS['clip'], participation=True,
+                    max_cost=costs[side]+LIMITS['price_slippage']*LIMITS['clip'])
     net = pos['qty'][0]-pos['qty'][1]
     held = 0 if net > 1e-8 else 1 if net < -1e-8 else None
     # Completion depends on the actual unmatched lots, never historical average cost.
@@ -98,6 +116,9 @@ def intent(fills, pair, m, signal_side, age, additions):
 
 
 def execute(order, fills, pair, m, age):
+    participation = order.get('participation', False)
+    if participation and (fills or order['kind'] != 'first' or not 30 <= age < LIMITS['entry_end']+3):
+        raise ValueError('participation exception is only for the first entry')
     side, qty = order['side'], order['qty']
     book = pair[side]
     if book is None:
@@ -110,7 +131,7 @@ def execute(order, fills, pair, m, age):
     if order['kind'] == 'complete':
         if cost+paired_cost(pos, side, qty) > LIMITS['pair']*qty+1e-8:
             raise ValueError('marginal pair cost limit')
-    elif gross/qty >= .5:
+    elif not participation and gross/qty >= .5:
         raise ValueError('opening price crossed cheap-side ceiling')
     return dict(kind=order['kind'], side=side, qty=qty, cost=cost, fee=fee, age=age)
 
@@ -129,10 +150,13 @@ def watch(args):
 def run(args, out):
     path = out/'shadow.jsonl'
     mp = out/'watch_manifest.json'
+    participate = getattr(args, 'participate', False)
     if mp.exists():
         manifest = json.loads(mp.read_text())
         if manifest['source_sha256'] != hashes() or manifest['prices_db'] != str(args.prices_db.resolve()):
             raise ValueError('frozen source/input changed; use a new experiment')
+        if manifest.get('participation', False) != participate:
+            raise ValueError('frozen entry policy changed; use a new experiment')
     else:
         S = int(time.time())//300*300+300
         manifest = dict(mode='SHADOW_NO_ORDERS', version='inventory_v2', start_S=S, end_S=S+72*3600,
@@ -144,6 +168,13 @@ def run(args, out):
                         addition='same rebound predicate on held side, 20s cooldown, at most 10 unmatched shares',
                         limits=LIMITS, execution='independent fast and >=250ms paper portfolios; HTTP is not a real fill',
                         gate='>=3 days and >=100 selected trades; day/window clustered lower bounds>0; ex-top3>0')
+        if participate:
+            manifest.update(version='inventory_participation_v1', participation=True,
+                            entry='first only: t30..200, every10s; lowest fee-inclusive executable 5-share ask cost; tie Up; no RSI/momentum/.50 gate',
+                            required_entry_data='fresh identity-validated ask depth; other indicators are diagnostic for first entry',
+                            primary='pair_add_250 versus frozen selective inventory_v2 pair_add_250 on same assigned windows',
+                            secondary='pair_add_250 versus pair_250 within this participation experiment',
+                            coverage='attempt every assigned window; unavailable depth/data/execution never becomes an assumed fill')
         base.save(mp, manifest)
     attempts, resolved, portfolios = set(), set(), {}
     if path.exists():
@@ -206,7 +237,7 @@ def run(args, out):
                             signal, side, _ = r.decide(args.prices_db, S, when, pair, candle, m)
                         except r.ERRORS as ex:
                             context_gap = str(ex)[:180]
-                        orders = {lane: intent(portfolios.get((S, lane), []), pair, m, side, age, 'add' in lane)
+                        orders = {lane: intent(portfolios.get((S, lane), []), pair, m, side, age, 'add' in lane, participate)
                                   for lane in LANES}
                         computed = r.now_ms()
                         if computed > (S+age+3)*1000:
@@ -272,6 +303,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--prices-db', required=True, type=Path)
     parser.add_argument('--out', required=True, type=Path)
+    parser.add_argument('--participate', action='store_true', help='separate experiment: try one initial entry in every window')
     args = parser.parse_args()
     if not args.prices_db.is_file():
         parser.error('existing public prices database required')

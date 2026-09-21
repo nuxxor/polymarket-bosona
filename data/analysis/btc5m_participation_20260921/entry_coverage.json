@@ -1,0 +1,79 @@
+{
+  "assigned": 6,
+  "windows_with_entry_quote": 6,
+  "first": {
+    "1789998600": {
+      "age": 30,
+      "order": {
+        "kind": "first",
+        "side": 1,
+        "qty": 5.0,
+        "participation": true,
+        "max_cost": 0.9493900000000002
+      },
+      "old_signal": null,
+      "old_context_gap": null
+    },
+    "1789998900": {
+      "age": 30,
+      "order": {
+        "kind": "first",
+        "side": 0,
+        "qty": 5.0,
+        "participation": true,
+        "max_cost": 2.4871899999999996
+      },
+      "old_signal": null,
+      "old_context_gap": null
+    },
+    "1789999200": {
+      "age": 30,
+      "order": {
+        "kind": "first",
+        "side": 1,
+        "qty": 5.0,
+        "participation": true,
+        "max_cost": 2.03246
+      },
+      "old_signal": null,
+      "old_context_gap": null
+    },
+    "1789999500": {
+      "age": 30,
+      "order": {
+        "kind": "first",
+        "side": 0,
+        "qty": 5.0,
+        "participation": true,
+        "max_cost": 1.67487
+      },
+      "old_signal": 0,
+      "old_context_gap": null
+    },
+    "1789999800": {
+      "age": 30,
+      "order": {
+        "kind": "first",
+        "side": 1,
+        "qty": 5.0,
+        "participation": true,
+        "max_cost": 1.9815900000000002
+      },
+      "old_signal": null,
+      "old_context_gap": null
+    },
+    "1790000100": {
+      "age": 30,
+      "order": {
+        "kind": "first",
+        "side": 1,
+        "qty": 5.0,
+        "participation": true,
+        "max_cost": 2.38663
+      },
+      "old_signal": null,
+      "old_context_gap": null
+    }
+  },
+  "note": "Decision coverage only; no execution quotes or PnL inferred from this replay."
+}

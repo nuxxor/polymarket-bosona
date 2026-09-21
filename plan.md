@@ -475,3 +475,56 @@ ayni karar modeline yaklasma veya ekonomik ustunluk kaniti henuz yok.
 Hash/FIFO/risk/ucret/gecikme/tekillik/6resmisonuc/bagimsizDecimal toplam,
 APIgercekcokluk,Ruff/compileveonbellektentekrar gecti. Runtime degismedi.
 Kanit:data/analysis/btc5m_status_20260921_1420/{report.json,check.py,runtime.json}.
+
+## Her BTC5m penceresine katilim shadow'u — 21 Eylul
+Operator Bosona gibi her pencerede bulunmayi istedi. Mevcut secici ileri
+deney dondurulmus kalir; ayri Londra shadow'unda ilk-giris seciciligi
+kaldirilir. Gercek emir yok. Yon kurali Bosona'nin cozulmus modeli degil.
+- [x] Ilk sanal alim: t30..200, 10sn aralikla ilk alinabilir 5pay defterini
+      ara; ucretli maliyeti en dusuk alinabilir taraf (esitlikte Up).
+      Ilk giriste RSI/momentum/50sent bariyeri yok; gereken veri taze,
+      kimligi dogru ve 5pay satis derinlikli defter. Eksik veri dolum degil.
+- [x] Sonraki ekleme/reopen secici kalir; FIFO<=.98 tamamlama, 20sn ekleme
+      bekleme,5payklip/10acikpay/$15alis/$5pencere riski ayni. Ilk alim
+      istisnasi tekrar acilisa sizmaz; 250ms yeni quote ve fiyat limiti ayni.
+- [x] Manifestte profil/hash dondurulsun; restart profil degisimini ve
+      mukerrer ilk alimi reddetsin. Verisiz/ret olan pencere ayrica gorunsun.
+- [x] Gercek scheduler'da secici modelin sifir sinyal verdigi ard arda
+      pencerelere katilimi, geciken veri/ret sonrasi tekrar denemeyi test et;
+      mevcut kontrollerin regresyonu, Ruff/compile ve Londra ilk dongu teyidi.
+Birincil olcum: mevcut secici 250ms eklemeli kola gore ayni atanmis
+pencerelerde katilim, ucretli net dolar ve acik risk. Katilim kar kaniti
+sayilmaz; herpencere kaydi zorunlu, herpencere dolum garantisi verilmez.
+
+Sonuc: --participate profili ilk alimi ayirdi; varsayilan secici davranis
+regresyon testinde ayni. Yerel/Londra full-loop iki ard arda sessiz pencerede
+secici0giris,katilim2/2giris; t30stale/t40kaymafiyatreddi/t50giris,acik
+envanterlerestart,profilfreezeveistisnaninilkislemlesinirlanmasi gecti.
+Gecmis6karardefterinde6/6girisniyeti (uygulama/PnLreplaydegil).
+Londra ayri polymarket-bosona-participation-v1,tmuxbosona-participation,
+PID123275. Atama21Eylul14:45UTC/17:45TR–24Eylul14:45UTC,+25dksonuclar.
+Ilk gercekpencere:30.082sn hizli/30.325sn gecikmeli, herbagimsizkolda
+5Down/ucretlimaliyet2,38694. Eski secici sinyalNoneiken girdi;ilk5kararda
+schedulerhatasi0. Gercek defter/ucret/risk/tekillik/gecikme/kaynakhash teyit.
+EskiPID112062/112442vekaynaklarayni. Ruff/compile/diffcheck gecti.
+Kanit:data/analysis/btc5m_participation_20260921/. Ekonomik sonuc acik.
+
+## Bagimsiz BTC5m arastirma promptu ve repo yayini — 21 Eylul
+Operator ayni Ingilizce promptu Astra Ultra, Fable ve PRO'ya kendisi
+vermek, mevcut kod/kanitlari commit ve push etmek istedi. Oncelik
+Bosona'nin BTC5m karar kuralini cozmek; yeni deney veya runtime degisikligi yok.
+- [x] Tarihli kanitlar, kaynak/veri haritasi, mevcut secici ve katilim
+      deneyleri, ters kanitlar ve muhasebe/causal/uygulama sinirlari ile
+      tek, bagimsiz elestiriye acik Ingilizce Markdown promptu hazirla.
+- [x] Prompt yollarini ve sayilarini kontrol et; dahil edilen onceki
+      katilim degisikliginin scheduler/regresyon ve hedefli lint kontrollerini calistir.
+- [x] Yayina girecek 11 dosyanin kapsami, boyutu, credential kaliplari ve
+      JSON/JSONL yapisi kontrol edildi; sir dosyasi yok, ilgisiz dosya eklenmedi.
+Yayin adimi: yalniz bu dosyalari commit/push et; son kabul kontrolunde
+uzak refs/heads/main ile yerel HEAD ayni olmali.
+Kabul: docs/BOSONA_BTC5M_INDEPENDENT_REVIEW_PROMPT.md erisilebilir,
+uc inceleyiciye ayni kanit ve acik sorulari verir; GitHub commit'i teyitlidir.
+Dogru calisma kaniti: gercek scheduler'in bes test senaryosu, eski mum
+hatasini yakalayan mutasyon, FIFO/risk/ucret/restart/causal regresyonlar
+gecti; uc Python dosyasinda Ruff/compile ve prompt yol kontrolu gecti.
+Mevcut tarihli Londra runtime kanitlari dahil; bu gorev runtime'i degistirmedi.

@@ -195,3 +195,39 @@ olduğu için maliyet `null`. Eksik sonucu sıfıra çevirmedik. Akışta gözle
 Kaynak hashleri, gerçek defterden ücret/maliyet, FIFO ve risk sınırları,
 250 ms gecikme ve günlük tekilliği `runtime_verified.json` ile doğrulandı.
 Bu kontrol ekonomik üstünlük veya kazanç sonucu değildir.
+
+## Her pencereye katılım deneyi — 21 Eylül
+
+Operatörün daha fazla pencereye katılım isteği üzerine ayrı
+`inventory_participation_v1` kuruldu. İlk giriş t30..200 arasında her 10
+saniyede aranır: taze, kimliği doğrulanmış defterde beş pay alınabilen
+taraflar arasından ücret dahil maliyeti düşük olan seçilir; eşitlikte Up.
+İlk giriş RSI/momentum veya 50¢ filtresini beklemez. Bu istisna yalnız
+ilk alışa aittir; sonraki ekleme/reopen filtreleri ve FIFO tamamlama aynıdır.
+Pencere başına 5 pay klip, 10 açık pay, $15 alış, $5 en kötü sonuç sınırı
+korundu. Her pencereye giriş hedeflenir; veri/derinlik/uygulama yoksa dolum
+uydurulmaz. Bunlar bağımsız sanal portföyler, gerçek emir değil.
+
+Londra: `/home/ubuntu/polymarket-bosona-participation-v1/`, tmux
+`bosona-participation`, PID123275. İlk atama **21 Eylül 14:45 UTC / 17:45 TR**;
+72 saat + 25 dakika sonuç takibi. Eski seçici sürüm ve rebound kaynak/PID'leri
+korundu. Ana karşılaştırma aynı atanmış pencerelerde seçici `pair_add_250`
+ile yeni katılımcı `pair_add_250`: katılım, ücretli net dolar ve açık risk.
+
+Yerel/Londra gerçek scheduler testi: seçici sürümün iki pencerede hiç
+girmediği girdilerde katılımcı her ikisine de girdi. t30 eski defteri reddetti,
+t40 kötüleşen uygulama fiyatını reddetti, t50 giriş yaptı. Açık envanterle
+yeniden başlatmada ilk alım tekrarlanmadı; profil değiştirme reddedildi.
+İlk giriş istisnası ekleme veya tekrar açılışa uygulanamadı. Mevcut
+regresyonlar, Ruff/compile ve manifest/kaynak kontrolü geçti.
+
+Önceki altı pencerenin kayıtlı karar defterlerinde yeni kuralla 6/6 giriş
+niyeti üretilebiliyor. Bu yalnız karar kapsamı kontrolüdür; o geçmişte yeni
+uygulama fiyatı veya PnL üretmedik. Kanıt: `data/analysis/btc5m_participation_20260921/`.
+
+İlk gerçek pencere teyidi: t30,082'de hızlı, t30,325'te gecikmeli kollar
+5 Down aldı; her bağımsız kolun ücretli sanal maliyeti $2,38694. Mevcut
+seçici giriş sinyali `None` iken yeni ilk giriş çalıştı. İlk beş planlı
+kararda scheduler hatası yok. Gerçek defter tazeliği, ücret/maliyet,
+250 ms istek zamanı, ilk alım tekilliği, risk ve kaynak hash'i
+`runtime_verified.json` içinde doğrulandı. Henüz ekonomik sonuç yok.

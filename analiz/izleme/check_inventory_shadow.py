@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Run with python3: real schedulers, simulated public inputs; no network/orders."""
 import argparse
+from collections import Counter
 from contextlib import redirect_stdout
 import io
 import json
@@ -24,17 +25,18 @@ def fill(side, price, qty=5, age=30):
     return dict(side=side, qty=qty, cost=qty*price, fee=0., age=age)
 
 
-def loop_check(module, partial=False):
+def loop_check(module, partial=False, quiet=False, participation=False):
     S = 1800000000
     clock = [S+(225.6 if module is r else -10.)]
     with tempfile.TemporaryDirectory() as temp, redirect_stdout(io.StringIO()):
         out = Path(temp)
-        args = argparse.Namespace(out=out, prices_db=out/'public.db')
+        args = argparse.Namespace(out=out, prices_db=out/'public.db', participate=participation)
         if module is r:
             # Reproduce the observed phase: last preparation at t225.6, resume in this window.
             base.save(out/'watch_manifest.json', dict(mode='SHADOW_NO_ORDERS', start_S=S,
                       end_S=S+72*3600, source_sha256=module.hashes(), prices_db=str(args.prices_db.resolve())))
-        stop_at = [S+(81 if module is inv else 1603)]
+        stop_at = [S+((51 if participation else 81) if module is inv else 1603)]
+        quote_calls = Counter()
 
         def sleep(seconds):
             clock[0] += max(.001, seconds)
@@ -54,6 +56,13 @@ def loop_check(module, partial=False):
         def public_book(token, require_bid=True, require_ask=True):
             age = clock[0]%300
             b = book(.2 if token == '1' else (.8 if age < 60 else .4), round(clock[0]*1000))
+            if quiet:
+                key = int(clock[0])//10, token
+                quote_calls[key] += 1
+                if 30 <= age < 40:
+                    b['observed_ms'] -= 4000  # No fabricated first fill; retry next slot.
+                elif 40 <= age < 50 and token == '1' and quote_calls[key] > 1:
+                    b = book(.4, round(clock[0]*1000))  # Both speed lanes reject worse execution.
             if partial and module is r:
                 if token == '1':
                     b['bid'] = None
@@ -63,7 +72,7 @@ def loop_check(module, partial=False):
 
         def inputs(db, start, when):
             times = list(range(when-65000, when+1, 1000))
-            values = [(t, 100+(t-when)/100000) for t in times]
+            values = [(t, 100+(t-when)/100000*(-1 if quiet else 1)) for t in times]
             return {name: (times, values) for name in ('spot', 'twap60')}, {start: (start*1000, 99.8)}
 
         with (patch.object(r.time, 'time', side_effect=lambda: clock[0]),
@@ -107,7 +116,18 @@ def loop_check(module, partial=False):
                         assert p['cash'] <= 15+1e-8 and p['floor'] >= -5-1e-8
                         assert abs(p['qty'][0]-p['qty'][1]) <= 10+1e-8
                     assert e['request_ms'] >= e['decision_ms']+(250 if e['speed'] == '250' else 0)
-                assert {'first', 'add', 'complete', 'reopen'} <= kinds
+                if quiet:
+                    assert all(e['entry_side'] is None for e in decisions)
+                    if participation:
+                        firsts = Counter((s, lane) for (s, lane), fs in portfolios.items() for f in fs if f['kind'] == 'first')
+                        assert firsts == Counter({(s, lane): 1 for s in (S, S+300) for lane in inv.LANES})
+                        assert all(50 <= f['age'] < 51 for fs in portfolios.values() for f in fs if f['kind'] == 'first')
+                        assert kinds == {'first', 'complete'}  # Participation does not leak into additions/reopening.
+                        assert any(e['age'] == 40 and len(e['rejected']) == 2 and not e['fills'] for e in executions)
+                    else:
+                        assert not portfolios
+                else:
+                    assert {'first', 'add', 'complete', 'reopen'} <= kinds
                 for e in events:
                     if e['kind'] == 'resolution':
                         for lane, pnl in e['pnl'].items():
@@ -118,7 +138,15 @@ def loop_check(module, partial=False):
             resumed = [json.loads(line) for line in (out/'shadow.jsonl').read_text().splitlines()]
             assert sum(e['kind'] == 'execution' for e in resumed) == len(executions)
             assert (out/'watch_manifest.json').exists()
-    return dict(module=module.__name__, slots=len(decisions), executions=len(executions), resume_duplicates=0,
+            if participation:
+                args.participate = False
+                try:
+                    module.watch(args)
+                    raise AssertionError('entry policy changed on resume')
+                except ValueError:
+                    pass
+    return dict(module=module.__name__, participation=participation, quiet=quiet,
+                slots=len(decisions), executions=len(executions), resume_duplicates=0,
                 first_window_bar_receipts=[round(e['bars']['received_ms']/1000-S, 3) for e in events
                                            if e['kind'] == 'bars' and S*1000 <= e['recorded_ms'] < (S+300)*1000])
 
@@ -166,6 +194,26 @@ def context_check():
 
 
 def check():
+    # Participation is a first-entry-only exception, with unchanged cash/risk/slippage guards.
+    pair = [book(.51), book(.52)]
+    assert inv.intent([], pair, M, None, 30, True) is None
+    seed = inv.intent([], pair, M, None, 30, True, participate=True)
+    assert seed['kind'] == 'first' and seed['side'] == 0 and seed['participation']
+    first = inv.execute(seed, [], pair, M, 30.3)
+    assert first['qty'] == 5 and first['cost'] > 2.55
+    assert inv.intent([first], pair, M, None, 60, True, participate=True) is None
+    assert inv.intent([fill(0, .2), fill(1, .7)], pair, M, None, 60, True, participate=True) is None
+    for bad_fills, bad_order in (([first], seed), ([], dict(seed, kind='add'))):
+        try:
+            inv.execute(bad_order, bad_fills, pair, M, 31)
+            raise AssertionError('participation exception reused')
+        except ValueError:
+            pass
+    assert inv.intent([], [None, None], M, None, 30, True, True) is None
+    assert inv.intent([], [book(.2, qty=4), None], M, None, 30, True, True) is None
+    assert inv.intent([], pair, M, None, 210, True, True) is None
+    assert inv.intent([], [book(.6), book(.3)], M, None, 30, True, True)['side'] == 1
+    assert inv.intent([], [book(.5), book(.5)], M, None, 30, True, True)['side'] == 0
     # Previously matched profits cannot subsidize a bad new pair.
     history = [fill(0, .30), fill(1, .60), fill(0, .60)]
     assert inv.intent(history, [book(.4), book(.53)], M, None, 240, True) is None
@@ -215,7 +263,8 @@ def check():
         except ValueError:
             pass
     context_check()
-    results = [loop_check(r), loop_check(inv), loop_check(r, partial=True)]
+    results = [loop_check(r), loop_check(inv), loop_check(r, partial=True),
+               loop_check(inv, quiet=True), loop_check(inv, quiet=True, participation=True)]
     with patch.object(r, 'bars_due', side_effect=lambda candle, when: candle is None or when-candle['received_ms'] >= 30000):
         try:
             loop_check(r)
