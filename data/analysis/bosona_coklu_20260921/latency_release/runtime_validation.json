@@ -1,0 +1,55 @@
+{
+  "checked_ms": 1789953163147,
+  "health": {
+    "rebound": {
+      "age_ms": 5052,
+      "last_kind": "health"
+    },
+    "latency": {
+      "age_ms": 34046,
+      "last_kind": "health"
+    },
+    "original": {
+      "age_ms": 30185,
+      "last_kind": "health"
+    }
+  },
+  "frozen_sources_unchanged": true,
+  "processes": "bosona-gec-shadow 90793 0\nbosona-latency 92723 0\nbosona-rebound-shadow 92242 0\n",
+  "comparison": {
+    "paired": 1,
+    "fast_only": 0,
+    "delayed_only": 0,
+    "counts": {
+      "start": 1,
+      "health": 15,
+      "fast_quote": 1
+    },
+    "by_age": {
+      "240": {
+        "pairs": 1,
+        "selected": 0,
+        "fast_median_ms": 48,
+        "delayed_median_ms": 280,
+        "fast_minus_delayed_pnl": {
+          "rebound": 0.0,
+          "favorite": 0.04661000000000026
+        }
+      }
+    },
+    "note": "Same selected side and five shares. Paired cost difference; resolution cancels out. Missing quotes excluded from paired comparison and counted separately. HTTP quotes, not actual fills.",
+    "rows": [
+      {
+        "S": 1789952400,
+        "age": 240,
+        "selected": false,
+        "fast_ms": 48,
+        "delayed_ms": 280,
+        "gain": {
+          "rebound": 0.0,
+          "favorite": 0.04661000000000026
+        }
+      }
+    ]
+  }
+}

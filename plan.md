@@ -184,13 +184,110 @@ Kanıt ve dondurulmus fiyat verisi: data/analysis/bosona_gec_20260921/.
 ## Derinlestirme — gec ek alimi kazandiran kosullar
 Operator tum erisilebilir metriklerle arastirmayi derinlestirmeyi istedi.
 Kapsam salt-okunur arastirma; calisan golge kurallari ve LIVE degismez.
-- [ ] Mevcut dolum/veri araclarini kullan; yeni girdiler ve eksik kapsami acikla.
-- [ ] Gec eklemelerde fiyat/sure, boy, onceki envanter/maliyet, ilk giris,
+- [x] Mevcut dolum/veri araclarini kullan; yeni girdiler ve eksik kapsami acikla.
+- [x] Gec eklemelerde fiyat/sure, boy, onceki envanter/maliyet, ilk giris,
       momentum/donus, oynaklik, TWAP kapanis mekanigi, RSI/hacim ve defter
       baglamini incele. Dolum sonucu ile karar-oncesi girdiyi ayir.
-- [ ] Pozitif gorunen mekanizmayi kayiplar, es-boy, en iyi uc pencere harici,
+- [x] Pozitif gorunen mekanizmayi kayiplar, es-boy, en iyi uc pencere harici,
       gunler ve zaman gecikmesiyle sına. Coklu arama kesiftir; kor test denmez.
-- [ ] Bosona dolumu gerektirmeyen mevcut defterli pencerelerde az sayida
+- [x] Bosona dolumu gerektirmeyen mevcut defterli pencerelerde az sayida
       gerekceli kuralin alinabilir fiyat + ucret sonucunu kontrol et.
-- [ ] Tekrar calistirilabilir kod/veri, oz-test/lint ve gercek sonuc raporu;
+- [x] Tekrar calistirilabilir kod/veri, oz-test/lint ve gercek sonuc raporu;
       bulunan ipucu ile cozulmeyen karar kurali acikca ayri sunulsun.
+
+Derinlestirme sonucu: 124 saat / 18,65 GB eski tape yeniden okundu; 643.059
+nedensel defter kesiti, 339 yeni DB penceresi, eski RTDS fiyatlari ve kapali
+Binance mumlariyla 60 metrik tarandi. Bozuk saat/uyusmayan defter dislandi.
+Bosona'dan bagimsiz evren 2.286 sozlesme; 2.490 uygun zaman noktasi, 10 kural
+x 5 zaman = 50 kesif karsilastirmasi. Farkli zamanlar bagimsiz pencere sayilmaz.
+
+Son 20 saniye ayni yone ekleme: 271 kayit/66 pencere +1.888,805825 USD;
+en iyi uc haric +975,726104. Borsa saati eslesen 157 kayit/40 pencerede
++1.190,608631; en iyi uc haric +460,420004. Es-pencere 5 pay normu +27,255466,
+8 gunun 7'si pozitif; gercek miktar agirliginda 8/8 pozitif. Ucuz alimin
+kazandigi mekanizma salt yuksek isabet degil, odenen fiyata gore yeterli odeme.
+
+Ileri arastirma adayi: t=280, daha ucuz taraf ask<0.50, o yone gore basit
+RSI14<40 ve son 10sn momentum>0. 140 uygun/23 secilen sanal alis +19,93476,
+en iyi uc haric +7,47245; sonraki donem +11,21198, 10,73325'i tek gunde.
+Tarama sonrasi secildi; 23 islem ve duzeltilmemis pozitif bootstrap araliklari
+kalici avantaj kaniti degil. Tam momentumu uzatmak fiyat tahminini kotulestirdi;
+ogrenilmis katsayi/hata dagilimi ve alim baskisi kurallari da denendi, saklanmadi.
+
+Yeni kural 21 Eylul 00:30–24 Eylul 00:30 UTC icin kaynak ve parametrelerle
+data/analysis/bosona_derin_20260921/prospective_protocol.json'a sabitlendi.
+Mevcut asil defter/Chainlink kaydedicileri guncel; repo aynasi gecikmeli.
+Bu bir ileri veri protokoludur, yeni karar yazicisi veya LIVE bot baslatilmadi.
+- [ ] Yeni adayda ileri sonuc: >=3 gun, >=100 uygun pencere VE >=100 secilen
+      islem; iki kumeli alt sinir>0, en iyi uc haric pozitif. Ilk 72 saat bu
+      sayiya yetmezse yetersiz; parametreler sonuc gorulerek degistirilmez.
+
+Oz-test/Ruff/compile, 3 yeni bagimsiz API piyasa eslemesi, 18 ham-defter
+kontrolu, zaman/miktar/ucret kontrolleri gecti. Bellek azaltimi onceki ozellik
+ve sekiz kuralin butun sonuclarini byte hash'iyle aynen korudu. Kaynak:
+b825c37449e1069c8bcedfa4037d6dd9ee620bdd667da1e4d6b36905fb1a0690.
+Rapor: docs/BOSONA_DERIN_20260921.md. LIVE strateji/butce degismedi.
+
+## Ek Londra rebound shadow — 21 Eylul operator talebi
+Mevcut uc kuralli golge aynen korunur; rebound icin ayri emir vermeyen
+karar yazicisi, dizin, kaynak hash'i ve sure siniri kullanilir. Onceki
+00:30 protokolu geriye donuk canli baslangic sayilmaz; gercek ilk pencere
+kaydedilir. Birincil t=280; protokoldeki t=240/270 ikincil ve ayni anda
+favori karsilastirmasi ayri sanal stratejilerdir. Kurallar degistirilmez.
+- [x] Var olan fiyat/RSI/ucret araclarini kullan; veri boslugu ve sifir
+      sinyali ayir; >=250ms sonraki alinabilir defter derinligini kaydet.
+- [x] Tek yazici, kaynak sabitleme, yeniden baslatmada mukerrer karar
+      engeli, bitis/sonuc bekleme ve salt-okunur girisler dogrulansin.
+- [x] Oz-test, hedefli lint/compile ve Londra'da gercek karar/kalp atisi;
+      mevcut golgenin kaynak ve surecinin korunmasi kanitla dogrulansin.
+
+Londra bosona-rebound-shadow 21 Eylul 00:46:37 UTC'de baslatildi.
+Atama araligi 21 Eylul 00:50–24 Eylul 00:50 UTC (72 saat); +25dk sonuc
+bekleme. Onceki protokolun 00:30 baslangici bu yaziciya geriye yazilmadi.
+Ilk gercek veri smoke kontrolu sinyal uretti (RSI49.49, rebound=None,
+defter HTTP25ms); zaman disi kontrol oldugu icin deney sonucuna katilmadi.
+Ilk planli karar 00:54:00, birincil 00:54:40 UTC; baslangic kontrolunde
+henuz planli karar/kar-zarar yoktu. Kalp atislari iki ayri surecte guncel.
+Mevcut golge kaynak hash'i 1f33a277... ayni; LIVE emir/butce degismedi.
+Yeni yazici sha=19b115c07016d5a950c0dead78c84c46287b68002ac5805a7d850734763fd5e5.
+Yerel ve Londra oz-testleri, hedefli Ruff/compile gecti. Sonlu dongu testinde
+240/270/280 karar, ucretli sonuc, sifir sinyali ve tekrar baslatmada sifir
+mukerrer kayit dogrulandi. Kod/manifest/runtime kaniti: rebound_release/.
+
+## Gecikme karsilastirmasi ve coklu piyasa Bosona arastirmasi
+Operator 250ms ile ek beklemesiz, olculen fiyat-alim gecikmesini karsilastirmayi;
+BTC/ETH/SOL 5dk/15dk/saatlik islemlerde ayni kurallarin kullanilip
+kullanilmadigini arastirmayi istedi. Mevcut iki dondurulmus golge korunur.
+- [x] Ayri salt-okunur gozlemci: yeni rebound adayinin ayni kararlari icin nedensel yeni defter
+      fiyatini ve olculen gecikmeyi kaydet; 250ms orijinal kayitla eslestir.
+      HTTP fiyati gercek emir kabul/dolum gecikmesi diye adlandirilmasin.
+- [x] BTC/ETH/SOL sure gruplarinin tam gorunur aktivitesini, sonuc ve
+      pencere kurallarini kontrol et; ilk/ek/tamamlama/zaman/fiyat/boy ve
+      kazanc dagilimini ayni donem/gunlerle karsilastir. Eksik veri ayri.
+- [x] Mevcut shadow kosullariyla uyum verisi varsa olc; sadece dolum
+      fiyatindan favori/RSI/iptal stratejisi kesinligi cikarilmasin.
+- [x] Test/lint/gercek Londra kaydi ve tekrar uretilebilir rapor; sabit
+      altyapi mi, farkli karar kurallari mi oldugunun kanit sinirlarini ver.
+
+Sonuc: 13 Eylul00:00–21 Eylul00:30UTC, 4.062 piyasa /30.111 BUY /dokuz
+grup; alis oncesi tarihce icin10Eylul'e donuldu,63.821aktivite. In-scope
+token/yon/condition/sure/sonuc dislamasi0. Iki taraf alinmis pencere orani
+BTC5m64,6%,ETH5m17,4%,SOL5m8,2%; ilk fiyat medyanlari44/49/75sent.
+Gun/fiyat/goreli-zaman eslesmesinde de ayrim surdu: BTC/ETH58,0/18,3%,
+BTC/SOL56,4/10,1%. Likidite/gerceklesmeyen emir/ozel hedef eslesmedi;
+ayri bot veya kesin degismis kod kaniti degil. ETHsaatlik iki taraf74%.
+5/15dkChainlinkTWAP60, saatlikBinance1H;6saatlik sonuc Binance'da eslesti.
+BTC5mson20ekleme271/+1888,81 aynen yeniden uretildi; ETH66/+3,03,
+SOL13/+24,66; farkli boylar esit-butce karsilastirmasi sayilmadi.
+Her varlik1dkRSI/return, kamu ts−5/−10s ile kontrol; gercek emir saati ve
+10sChainlink/karar defteri bu vekilden cozulmus sayilmadi. Gece kaymasi
+20Eylul'de belirgin, her tam gecede ayni sabit saat davranisi yok.
+
+Londra bosona-latency00:57:08UTC'de basladi; yalniz rebound gunlugunu
+okuyor, eski uc kuralli deney korunuyor. Ilk dogal t240karsilastirmasi
+01:04UTC: bildirim1ms, erkenquote48ms, eski280ms. Reboundsecim0;
+favori5sanalpay erkenmaliyet0,04661USDaz. Tekgozlem kar kaniti degil.
+Iki dondurulmus golge hash/PID korunarak ucuncu surec yalniz olcum yapti.
+18eniyi/enkotu APItrade kimligi/miktar/brutsonuc ve6Binance sonucu,
+butun toplamlar/zamanlar,oz-test,Ruff/compile gecti.
+Rapor:docs/BOSONA_COKLU_20260921.md; kanit:data/analysis/bosona_coklu_20260921/.

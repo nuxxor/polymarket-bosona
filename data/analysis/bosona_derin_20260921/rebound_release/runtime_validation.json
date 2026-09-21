@@ -1,0 +1,54 @@
+{
+  "checked_ms": 1789951678126,
+  "manifest": {
+    "mode": "SHADOW_NO_ORDERS",
+    "start_S": 1789951800,
+    "end_S": 1790211000,
+    "started_ms": 1789951597434,
+    "source_sha256": {
+      "bosona_rebound_shadow.py": "19b115c07016d5a950c0dead78c84c46287b68002ac5805a7d850734763fd5e5",
+      "bosona_derin.py": "fd9a5e0903802f5fffae2bb7413571e50c59b5605edab871c9cadbfceb630b91",
+      "bosona_gec_arastirma.py": "be7a54fd8eadba7b2be5c55dea99592512dc647aa44d4b98a534b7c82d8c0e1a",
+      "muhasebe.py": "9f14e2531a770dd97fef6e1d323fde9269b477cf92a139e1d345274fa9f4961f"
+    },
+    "qty": 5.0,
+    "slots": [
+      240,
+      270,
+      280
+    ],
+    "primary_slot": 280,
+    "rule": "cheaper midpoint; ask<.50, own simple RSI14<40, own momentum10>0",
+    "baseline": "favorite at each identical eligible slot, separate paper strategies",
+    "execution_delay_ms": 250,
+    "max_age_ms": 3000,
+    "bar_publication_lag_ms": 2000,
+    "prices_db": "/home/ubuntu/polymarket-bosona-d/data/d_olcum/prices.db",
+    "cost": "5 shares, ask depth + market fee; no rebate or maker fill assumed",
+    "gate": ">=3 days, >=100 eligible windows AND >=100 selected trades; both cluster CI lower bounds>0; ex-top3>0"
+  },
+  "new_counts": {
+    "start": 1,
+    "market": 1,
+    "bars": 2,
+    "health": 2
+  },
+  "last_new": {
+    "kind": "health",
+    "recorded_ms": 1789951657468,
+    "attempts": 0,
+    "executions": 0,
+    "resolved": 0,
+    "end_S": 1790211000
+  },
+  "baseline_last": {
+    "kind": "health",
+    "recorded_ms": 1789951631484,
+    "slots_attempted": 51,
+    "windows_recorded": 11,
+    "windows_graded": 9,
+    "end_S": 1790032800
+  },
+  "baseline_sha256": "1f33a277c694b781ca3b5f30f3f5369b39ae1497cdae4cd76ceeb26d70652086",
+  "tmux": "bosona-gec-shadow 90793 0\nbosona-rebound-shadow 92242 0\n"
+}

@@ -1,0 +1,17 @@
+{
+  "source_sha256": "481627f8f5d3cc0f54848dd332c4aca3f43540ae53ef0ecfddfc712224ecf594",
+  "files": {
+    "activity.json": "e37be913c01b74ff494da1d8304c5458518d7b854561ebd3c967c467a6434b42",
+    "windows.json": "1f3283390e705ce984fa52c75f69729db22895d81e050d2d8f4d3048df69377c",
+    "fills.json": "af6302507e73326a32aa3deddfb67900da99459691650da1f574d33209bbff7c",
+    "context_fills.json": "7251e74be4eb2f073b59d34a138142989003847d46a9f8942815d398e0bf71d7",
+    "report.json": "a575a182e50fc51dd2d634e853e483c3b56f37b542a1322e13d820f1b1a41114",
+    "context.json": "e4f911d12d296c0a5b35c755234f39c539e2239e934566013cc3c9302f886d75",
+    "matched.json": "c1569c786af1fbd6003054425486a1ac1e1a28566602f72a8d989f6ddad0a0ca",
+    "validation.json": "47d75b8a9d82ba81a13d7de388e3ca3c94547fcecc4dea9c9d268604a6f70275"
+  },
+  "window_count": 4062,
+  "fill_count": 30111,
+  "counts_pass": true,
+  "causal_bars_pass": true
+}
