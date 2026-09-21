@@ -528,3 +528,25 @@ Dogru calisma kaniti: gercek scheduler'in bes test senaryosu, eski mum
 hatasini yakalayan mutasyon, FIFO/risk/ucret/restart/causal regresyonlar
 gecti; uc Python dosyasinda Ruff/compile ve prompt yol kontrolu gecti.
 Mevcut tarihli Londra runtime kanitlari dahil; bu gorev runtime'i degistirmedi.
+
+## Bagimsiz BTC5m politika incelemesi — 21 Eylul 2026
+
+Kapsam: `add159d343948e4b46a5491b9bab4c78fceeeb40` uzerinden bagimsiz
+arastirma denetimi. Servis, strateji, emir, butce ve credentials kapsam disi.
+Onceki "dolumlardan karar kurali" asamasinin kabul olcutleri uygulanir:
+bir kazanc ve bir kayip yolu, muhasebe/cokluk/zaman denetimi, davranis ile
+ekonomik sonucun ayrilmasi ve tek ayirici deney. Yeni shadow baslatilmaz.
+- [x] Onbellekli alti-pencere kontrolunu izole kopyada yeniden calistir.
+- [x] Tarihsel nakit hesabi, ham kayit coklugu ve iki ham tape ornegini denetle.
+- [x] Guncel/frozen kaynaklari ayir; scheduler ve causal kontrollerini calistir.
+- [x] Yeniden uretilebilir hesaplar, Turkce degerlendirme ve sinirlari teslim et.
+
+Sonuc: docs/BOSONA_BTC5M_INDEPENDENT_REVIEW_20260921.md. Ana yeniden
+uretim ve destek kontrolleri data/analysis/bosona_independent_review_20260921/.
+Alti-pencere yeniden uretimi, scheduler/causal regresyonlari, 50 politika
+toplami ve yeni check.py/Ruff/syntax/hash kontrolleri gecti. Tarihsel
+dict tekillestirmesi cokluk kaybediyor; ham coklukla +8313,228464 USD.
+En onemli yeni ipucu: eslesen4331dolumun4015'inde pasif role uygun
+ucret/karsi-token deseni; kesin orderHash/maker-taker cozumlemesi henuz yok.
+Oneri yeni shadow degil, parent-order/rol ayrimini sinayan sabit evrenli
+kamu-verisi deneyi. Ekonomik edge veya tam Bosona politikasi dogrulanmadi.
