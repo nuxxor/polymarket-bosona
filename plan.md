@@ -419,3 +419,59 @@ hepsinde guncel;71/71fiyat-tazelik ihlali,57yalnizgecmis orneklerde.
 Eski ornek yasmedyani3064ms/max7302ms;3000mskural gevsetilmedi.
 FIFO/Decimal/risk/tekillik/gecikme/resmi sonuc-pending ayrimi, Ruff/compile
 gecti. Kod/runtime degismedi. Kanit: inventory arastirma dizini/status_1321/.
+
+## BTC5m shadow veri yolu duzeltmesi — 21 Eylul
+Operator eski/eksik fiyat ve defter engellerini fixlemeyi istedi. Yeni,
+ayri dondurulmus shadow surumu; Jev/LIVE ve eski deney kayitlari korunur.
+- [x] Gecmis fiyatlari karar anina kadar alinmis olay zamanlariyla sec;
+      gelecekte alinacak veri kullanma, 3000ms guncel tazelik limitini koru.
+- [x] Tek tarafli defterde yalniz gercek kotasyonla yon siralamasini belirle;
+      gerekli alis derinligi olmayan islemi yapma. Diger tarafin eksigi
+      gecerli islemi engellemesin; eksik kontrol islemi sifir PnL sayilmasin.
+- [x] Causal zaman/eksik derinlik/regresyon ve gercek scheduler testleri,
+      Ruff/compile, eski kayitlarla kapsam replay'i ve Londra yeni kaynak
+      hash'i/karar dongusu/ana t280 teyidi. Ekonomik ustunluk iddiasi yok.
+
+Sonuc: r.decide iki yeni shadow icin karar anina kadar gelen fiyatlari
+olay-zamani gecmisiyle seciyor. Ortak defter okuyucu gercek None kotasyonlari
+koruyor; alinamayan kontrol kolunun maliyet/sonucu null. 167eski karar
+replay'inde63->114gecerli;68fiyat hatasinin51'i giderildi,17'si gercek bosluk.
+Eski gecerli karar kaybi yok; tazelik3000ms ve risk/strateji esikleri ayni.
+Yeni inventory_v2 PID112062 ve rebound_v3 PID112442 Londra'da, ayri
+polymarket-bosona-inventory-v2 dizininde donduruldu. Atamalar21Eylul13:50UTC
+baslangicli72saat; eski98339/98340 surec/kaynaklari ayni kaldi.
+Ilk tam pencerede envanter27/27planlikarar,19gecerli/8gercek fiyat boslugu,
+6tek-tarafli-defterde gecerli karar/12sanal dolum(dort bagimsiz kol toplami).
+Reboundt240/270/280ucunde gecerli karar ve sanal islem var; favori2dolum,
+1eksik-satis null, sifirPnLdegil. Yerel/Londra full-loop/causal/eksik derinlik,
+FIFO/risk/ucret/gecikme/restart/freeze, Ruff/compile, kaynak/hash ve gercek
+gunluk mutabakati gecti. Kaynak akisi6sn sustugunda karar atlama suruyor;
+bu gercek veri kaybi esitigi gevsetilerek gizlenmedi. Net kazanc kaniti yok.
+Kanit: data/analysis/btc5m_feed_fix_20260921/{replay.json,runtime_verified.json}.
+
+## BTC5m shadow ara kontrol ve Bosona benzerligi — 21 Eylul 14:20UTC
+Operator kendi shadow'larinin duzeldiginin guncel teyidini ve Bosona'ya
+benzer hareket edip etmedigini kisa istedi. Salt-okunur runtime/kamu veri
+kontrolu; kurallar, butce, sure ve calisan kaynaklar degismez.
+- [x] Yeni surumlerin PID/hash/kalpatisi, kapsam, tekillik, ucret ve risk
+      dogrulamasi; eski kontrol surumleriyle yeni donem karistirilmaz.
+- [x] 13:50–14:20UTC alti ayni BTC5m penceresinde kendi ilk/ek/tamamlama
+      islemlerini Bosona'nin taze kamu dolumlariyla karsilastir. Gercek
+      dolum coklugu korunur; sifir dolum, veri eksigi ve bekleyen ayri.
+- [x] Resmi sonucla sanal PnL ve tekrar calistirilabilir kontrol; gozlenen
+      benzerlik ile cozulemeyen karar kurali ayri ve kisa raporlanir.
+
+Sonuc: yeniPID112062/112442vehashlerayni; envanter162/162planlikarar,
+144gecerlibaglam/18gercek fiyatboslugu/0schedulerhatasi. Rebound17/18
+gecerli, ana t2805/6;10tektaraflideftergecerli,alinamayanfavori10keznull.
+6resmisonuc/134BosonaBUY,activity/trades cokluklarivekimlikleribirebir.
+250ms kontrol3islemlipencere/7dolum/-0,39053;eklemelikol3pencere/10dolum/
++0,23117USD. Hizli kontrol-0,24764/eklemeli+0,02529. Ucretlisanal;esikicinyetersiz.
+Bosona6/6pencere,134dolum,-158,631739APIcashPnL(iade/sabitgiderharic);
+kendi3/6pencere. Ilkyon3ortakta2ayni; +/-15sntekyon4yakineslesmede2ayni.
+IlkalimmedyanBosona71sn/29sent,kendi150sn/16sent(farkliislemlicohort).
+Kendi eklemelikolda3ilk/3ek/4tamamlama var; islem yonetim davranisi eklendi,
+ayni karar modeline yaklasma veya ekonomik ustunluk kaniti henuz yok.
+Hash/FIFO/risk/ucret/gecikme/tekillik/6resmisonuc/bagimsizDecimal toplam,
+APIgercekcokluk,Ruff/compileveonbellektentekrar gecti. Runtime degismedi.
+Kanit:data/analysis/btc5m_status_20260921_1420/{report.json,check.py,runtime.json}.

@@ -65,11 +65,28 @@ def market(S):
 
 def books(pool, tokens):
     started = now_ms()
-    pair = list(pool.map(base.public_book, tokens))
+    futures = [pool.submit(base.public_book, token, False, False) for token in tokens]
+    pair, errors = [], []
+    for future in futures:
+        try:
+            b = future.result()
+            levels, available = [], 0.
+            for p, q in b['asks']:
+                levels.append((p, q))
+                available += q
+                if available >= 5.:
+                    break
+            b['asks'] = levels
+            pair.append(b)
+            errors.append(None)
+        except ERRORS as ex:
+            pair.append(None)
+            errors.append(str(ex)[:180])
     received = now_ms()
-    if any(not 0 <= received-b[k] <= 3000 for b in pair for k in ('received_ms', 'observed_ms')):
-        raise ValueError('stale paired books')
-    return pair, started, received
+    for i, b in enumerate(pair):
+        if b and any(not 0 <= received-b[k] <= 3000 for k in ('observed_ms', 'received_ms')):
+            pair[i], errors[i] = None, 'stale paired book'
+    return pair, errors, started, received
 
 
 def decide(db, S, when, pair, candle, m):
@@ -77,6 +94,13 @@ def decide(db, S, when, pair, candle, m):
         raise ValueError('future bar response')
     rows = candle['rows']
     streams, starts = base.live_inputs(db, S, when)
+    # History is looked up by observation time, using only reports already received
+    # at this decision. A t-10 report arriving at t-8 is available at t, not at t-10.
+    for name, (times, values) in streams.items():
+        known = {obs: price for received, (obs, price) in zip(times, values)
+                 if obs <= received <= when}
+        times = sorted(known)
+        streams[name] = times, [(obs, known[obs]) for obs in times]
     signal = deep.context_features(streams, starts, ([r[6] for r in rows], rows), S, when)
     if 'final_up_prob' not in signal or 'rsi14' not in signal:
         raise ValueError('incomplete or stale context')
@@ -84,11 +108,11 @@ def decide(db, S, when, pair, candle, m):
                      if e.get('slug') == m['slug']), None)
     if official is not None and abs(float(official)-signal['ref']) > 1e-6:
         raise ValueError('reference mismatch')
-    for b in pair:
-        base.ask_cost(b, m)
+    if any(b is None for b in pair):
+        raise ValueError('entry quote unavailable')
     quotes = [(b['bid'], b['ask']) for b in pair]
     selected = deep.rebound_side(signal, quotes)
-    favorite = 0 if sum(quotes[0]) > sum(quotes[1]) else 1
+    _, favorite = deep.quote_sides(quotes)
     return signal, selected, favorite
 
 
@@ -96,7 +120,9 @@ def settle(event, winner):
     results = {}
     for rule in ('rebound', 'favorite'):
         side = event[rule]
-        results[rule] = 0. if side is None else 5.*(side == winner)-sum(event['costs'][side])
+        cost = event['costs'][side] if side is not None else None
+        results[rule] = (0. if side is None else None if cost is None
+                         else 5.*(side == winner)-sum(cost))
     return results
 
 
@@ -117,9 +143,11 @@ def run(args, out):
             raise ValueError('frozen source or input changed; do not mix experiments')
     else:
         S = int(time.time())//300*300+300
-        manifest = dict(mode='SHADOW_NO_ORDERS', start_S=S, end_S=S+72*3600,
+        manifest = dict(mode='SHADOW_NO_ORDERS', version='rebound_v3', start_S=S, end_S=S+72*3600,
                         started_ms=now_ms(), source_sha256=source, qty=5., slots=SLOTS, primary_slot=280,
-                        rule='cheaper midpoint; ask<.50, own simple RSI14<40, own momentum10>0',
+                        rule='cheaper midpoint or disjoint quote bounds; ask<.50, own simple RSI14<40, own momentum10>0',
+                        feature_clock='observed time; received <= decision cutoff; 3000ms age limit',
+                        missing_execution='null cost/PnL per side; never zero or an assumed fill',
                         baseline='favorite at each identical eligible slot, separate paper strategies',
                         execution_delay_ms=250, max_age_ms=3000, bar_publication_lag_ms=2000,
                         prices_db=str(args.prices_db.resolve()),
@@ -170,6 +198,7 @@ def run(args, out):
                         continue
                     attempts.add((S, age))
                     phase = 'decision'
+                    pair, errors = [], []
                     try:
                         if now_ms() > (S+age+3)*1000:
                             raise ValueError('missed decision deadline')
@@ -177,28 +206,37 @@ def run(args, out):
                         if candle is None:
                             raise ValueError('bars not prepared')
                         tokens = json.loads(m['clobTokenIds'])
-                        pair, requested, when = books(pool, tokens)
+                        pair, errors, requested, when = books(pool, tokens)
                         signal, side, favorite = decide(args.prices_db, S, when, pair, candle, m)
                         computed = now_ms()
                         if computed > (S+age+3)*1000:
                             raise ValueError('late decision')
                         emit('decision', S=S, age=age, rebound=side, favorite=favorite, signal=signal,
-                             books=pair, decision_ms=computed, feature_cutoff_ms=when,
+                             books=pair, book_errors=errors, decision_ms=computed, feature_cutoff_ms=when,
                              request_ms=requested, http_ms=when-requested, schedule_lag_ms=computed-(S+age)*1000,
                              bars_received_ms=candle['received_ms'])
                         phase = 'execution'
                         time.sleep(max(0., (computed+250-now_ms())/1000))
-                        execution, requested, received = books(pool, tokens)
+                        execution, execution_errors, requested, received = books(pool, tokens)
                         if received-computed > 3000 or requested-computed < 250:
                             raise ValueError('execution delay outside bounds')
-                        costs = [base.ask_cost(b, m) for b in execution]
+                        costs, cost_errors = [], []
+                        for b in execution:
+                            try:
+                                costs.append(base.ask_cost(b, m))
+                                cost_errors.append(None)
+                            except ERRORS as ex:
+                                costs.append(None)
+                                cost_errors.append('execution quote unavailable' if b is None else str(ex)[:180])
                         e = emit('execution', S=S, age=age, rebound=side, favorite=favorite,
-                                 execution_books=execution, costs=costs, execution_ms=received,
+                                 execution_books=execution, book_errors=execution_errors,
+                                 costs=costs, cost_errors=cost_errors, execution_ms=received,
                                  request_ms=requested, delay_ms=received-computed, http_ms=received-requested,
                                  fee_schedule=m.get('feeSchedule'), qty=5.)
                         executions[S, age] = e
                     except ERRORS as ex:
-                        emit('gap', S=S, age=age, phase=phase, error=type(ex).__name__, reason=str(ex)[:180])
+                        emit('gap', S=S, age=age, phase=phase, error=type(ex).__name__, reason=str(ex)[:180],
+                             books=pair, book_errors=errors)
             # Bounded grading cannot occupy the late-window decision interval.
             if age_now < 180 and now-last_grade >= 60:
                 last_grade = now

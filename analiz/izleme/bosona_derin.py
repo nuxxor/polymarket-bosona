@@ -631,9 +631,20 @@ def screen():
     print('screen', len(adds), 'adds;', len(features), 'metrics;', report['late20_by_kind']['add'], flush=True)
 
 
+def quote_sides(pair):
+    if all(p is not None for quote in pair for p in quote):
+        mids = [(bid+ask)/2 for bid, ask in pair]
+        return (0 if mids[0] < mids[1] else 1), (0 if mids[0] > mids[1] else 1)
+    # Missing quotes are not prices. Rank only when real bounds do not overlap.
+    for cheap in (0, 1):
+        ask, other_bid = pair[cheap][1], pair[1-cheap][0]
+        if ask is not None and other_bid is not None and ask < other_bid:
+            return cheap, 1-cheap
+    raise ValueError('quote ordering unavailable')
+
+
 def rebound_side(f, pair):
-    mids = [(b[0]+b[1])/2 for b in pair]
-    cheap = 0 if mids[0] < mids[1] else 1
+    cheap, _ = quote_sides(pair)
     sign = 1 if cheap == 0 else -1
     own_rsi = f['rsi14'] if cheap == 0 else 100-f['rsi14']
     return cheap if sign*f['momentum'] > 0 and own_rsi < 40 and pair[cheap][1] < .5 else None

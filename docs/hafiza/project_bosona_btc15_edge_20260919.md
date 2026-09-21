@@ -25,6 +25,16 @@ bid−0,02 → **−8,66 kr/pay, ters secim −28,4 puan**, dolum %54,6. Fark ye
 bizim simulasyonda emir hic iptal edilmiyor, fiyat degince hep doluyoruz; o 285 pazarda 109 dolum
 aliyor ve zehirli olanlari almiyor. Kill list zaten "icra avantaji olmadan acma" diyordu.
 
+**09-21 16:50 TSI — KULVAR TAKIBI EKLENDI (`live_follow`, runner_v8.py):** 24 saatlik okuma:
+o **+$1.344 (+7,75 kr/pay, 316 pazar, 17.338 pay)**, mirror_15m +$148 (+0,17 kr/pay, 439 pazar,
+86.297 pay) → 5x hacim, 1/45 marj. BTC15'e kilitli dunyalarin onunla ORTAK PENCERESI SIFIR cunku
+o kulvar degistirdi (son 24 saat: eth-5m $6.290, btc-15m $2.144; iki gunde BTC5m→BTC15→ETH5m).
+Duzeltme: `runner_v8.py` her bloktan once onun kamu islemlerini 6 saatlik pencerede tarar
+(tekillestirilmis), hacminin >=%10'unu ve >=100 payi aldigi kulvarlari aktif sayar, politikaya verir,
+`ACTOR_LANES.json` olarak bloga yazar. Politikaya `max_market_shares=60` (onun 55 pay/pazar olcusu).
+Dunyalar: follow, follow_notaker, follow_nocheap, all_lanes (kontrol). **Aktor-kosullu: kopya, kenar
+kaniti degil.** Disk 363 GB, ~130 GB/gun.
+
 **09-20 16:10 TSI — ILK TAKIP OKUMASI (live_mirror3, 00:45-09:43 UTC, 565 settle pazar):**
 bosona **−$65 (−0,27 kr/pay)** · mirror_15m **−$165 (−0,45)** · mirror_btc15 −$520 (−3,03) ·
 notaker −$400 · single −$184. **Isaret uyumu 0,56-0,70, korelasyon 0,39-0,43** (30-61 ortak pencere).

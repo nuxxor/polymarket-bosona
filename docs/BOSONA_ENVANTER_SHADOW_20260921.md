@@ -153,3 +153,45 @@ ayrı bir sorun; fiyat tazeliği sınırı bu durum kontrolünde değiştirilmed
 Günlük tekilliği, gerçek fiyat-alım gecikmesi, FIFO tavanı, Decimal
 maliyetleri, risk sınırları ve resmî sonuç/bekleyen ayrımı doğrulandı.
 Kanıt: `data/analysis/bosona_inventory_20260921/status_1321/report.json`.
+
+## Veri yolu düzeltmesi — 21 Eylül
+
+Geçmiş fiyat seçimi artık **karar anına kadar alınmış** raporların olay
+zamanıyla yapılıyor. Örneğin t−10 fiyatının t−8'de ulaşması, t anındaki
+kararda kullanılmasını engellemiyor. Karardan sonra gelen veya geleceğe
+tarihli veri kullanılmıyor; 3.000 ms tazelik sınırı aynı.
+
+Tek taraflı defter gerçek eksikleriyle saklanıyor. Tam defterlerde mevcut
+orta fiyat sıralaması korunuyor; eksik kotasyonda yalnız ucuz tarafın
+satış fiyatı diğer tarafın alış fiyatından küçükse sıralama yapılabiliyor.
+Gerçek satış derinliği olmayan tarafta sanal dolum yok. Rebound karşılaştırma
+kolu alınamıyorsa maliyet ve sonuç `null`; sıfır kazanç gibi sayılmamalı.
+Giriş sinyali, FIFO çift tavanı, risk ve gecikme sınırları değişmedi.
+
+Kayıtlı 167 kararın aynı zaman kesiminde geçerli bağlamı 63→114 oldu;
+eski 68 fiyat hatasının 51'i giderildi. Önceden geçerli hiçbir karar
+kaybedilmedi. Gerçek veri boşlukları korunuyor; eski eksik defterleri
+yeniden oluşturmadık ve bu replay'den PnL çıkarmadık.
+
+Yeni kaynak dizini `/home/ubuntu/polymarket-bosona-inventory-v2/`;
+`bosona-inventory-v2` PID112062 ve `bosona-rebound-v3` PID112442.
+Yeni atamalar **21 Eylül 13:50 UTC / 16:50 TR** başlangıçlı, 72 saat.
+Önceki süreçler ve kayıtlar kendi donmuş sürümleriyle devam ediyor;
+yeni sonuçlar onlarla tek seri olarak birleştirilmeyecek.
+
+Yerel/Londra gerçek scheduler testleri, gelecek veri ve eski fiyat reddi,
+tek taraflı defterde bağımsız dolum/eksik sonuç, FIFO/risk/gecikme,
+açık envanterle restart, kaynak kilidi, Ruff ve compile geçti.
+Kanıt ve tekrar çalıştırılabilir kontroller:
+`data/analysis/btc5m_feed_fix_20260921/`.
+
+İlk tam ileri pencere doğrulandı: envanter 27 planlı kararın tamamını
+kaydetti; 19 geçerli bağlam, 8 gerçek fiyat boşluğu, tek taraflı defterle
+6 geçerli karar ve dört bağımsız kolda toplam 12 sanal dolum. Rebound
+t240/270/280'in üçünde de geçerli karar ve ücretli sanal alış üretti.
+Favori karşılaştırması iki kez alınabilir; bir kez satış kotasyonu eksik
+olduğu için maliyet `null`. Eksik sonucu sıfıra çevirmedik. Akışta gözlenen
+6 saniyelik gerçek fiyat boşluğu halen tazelik filtresine takılıyor.
+Kaynak hashleri, gerçek defterden ücret/maliyet, FIFO ve risk sınırları,
+250 ms gecikme ve günlük tekilliği `runtime_verified.json` ile doğrulandı.
+Bu kontrol ekonomik üstünlük veya kazanç sonucu değildir.

@@ -674,17 +674,17 @@ def live_signal(db, S, now_ms):
     return signals(streams, starts, S, now_ms)
 
 
-def public_book(token, require_bid=True):
+def public_book(token, require_bid=True, require_ask=True):
     d = get('https://clob.polymarket.com/book?token_id='+token, timeout=3, attempts=1)
     now = round(time.time()*1000)
     if str(d.get('asset_id')) != token or not 0 <= now-int(d['timestamp']) <= 3000:
         raise ValueError('stale or mismatched public book')
     bids = [(float(x['price']), float(x['size'])) for x in d['bids'] if float(x['size']) > 0]
     asks = [(float(x['price']), float(x['size'])) for x in d['asks'] if float(x['size']) > 0]
-    if (require_bid and not bids) or not asks or any(not math.isfinite(p) or not math.isfinite(q) or not 0 < p <= 1 for p, q in bids+asks):
+    if (require_bid and not bids) or (require_ask and not asks) or any(not math.isfinite(p) or not math.isfinite(q) or not 0 < p <= 1 for p, q in bids+asks):
         raise ValueError('empty/invalid public book')
-    bid, ask = max((p for p, _ in bids), default=None), min(p for p, _ in asks)
-    if bid is not None and bid >= ask:
+    bid, ask = max((p for p, _ in bids), default=None), min((p for p, _ in asks), default=None)
+    if bid is not None and ask is not None and bid >= ask:
         raise ValueError('crossed book')
     return dict(bid=bid, ask=ask, asks=sorted(asks), received_ms=now,
                 observed_ms=int(d['timestamp']), hash=d.get('hash'))

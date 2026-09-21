@@ -87,7 +87,10 @@ def intent(fills, pair, m, signal_side, age, additions):
     side, qty = signal_side, LIMITS['clip']
     if pair[side] is None:
         return None
-    cost = sum(base.ask_cost(pair[side], m, qty))
+    try:
+        cost = sum(base.ask_cost(pair[side], m, qty))
+    except ValueError:
+        return None
     if not affordable(pos, side, qty, cost):
         return None
     return dict(kind=kind, side=side, qty=qty,
@@ -112,31 +115,7 @@ def execute(order, fills, pair, m, age):
     return dict(kind=order['kind'], side=side, qty=qty, cost=cost, fee=fee, age=age)
 
 
-def books(pool, tokens):
-    requested = r.now_ms()
-    futures = [pool.submit(base.public_book, t, False) for t in tokens]
-    pair, errors = [], []
-    for future in futures:
-        try:
-            b = future.result()
-            # All orders are <=5 shares; retain every level needed for that depth.
-            levels, available = [], 0.
-            for p, q in b['asks']:
-                levels.append((p, q))
-                available += q
-                if available >= LIMITS['clip']:
-                    break
-            b['asks'] = levels
-            pair.append(b)
-            errors.append(None)
-        except r.ERRORS as ex:
-            pair.append(None)
-            errors.append(str(ex)[:180])
-    received = r.now_ms()
-    for i, b in enumerate(pair):
-        if b and any(not 0 <= received-b[k] <= 3000 for k in ('observed_ms', 'received_ms')):
-            pair[i], errors[i] = None, 'stale paired book'
-    return pair, errors, requested, received
+books = r.books
 
 
 def watch(args):
@@ -156,10 +135,11 @@ def run(args, out):
             raise ValueError('frozen source/input changed; use a new experiment')
     else:
         S = int(time.time())//300*300+300
-        manifest = dict(mode='SHADOW_NO_ORDERS', version='inventory_v1', start_S=S, end_S=S+72*3600,
+        manifest = dict(mode='SHADOW_NO_ORDERS', version='inventory_v2', start_S=S, end_S=S+72*3600,
                         started_ms=r.now_ms(), prices_db=str(args.prices_db.resolve()), source_sha256=hashes(),
                         slots=SLOTS, lanes=LANES, primary='pair_add_250 minus pair_250, per assigned window',
-                        entry='existing rebound: cheaper midpoint, ask<.50, own RSI14<40, own momentum10>0',
+                        entry='rebound: cheaper midpoint or disjoint quote bounds, ask<.50, own RSI14<40, own momentum10>0',
+                        feature_clock='observed time; received <= decision cutoff; 3000ms age limit',
                         completion='FIFO unmatched cash cost + current fee-inclusive ask cost <= .98 per pair',
                         addition='same rebound predicate on held side, 20s cooldown, at most 10 unmatched shares',
                         limits=LIMITS, execution='independent fast and >=250ms paper portfolios; HTTP is not a real fill',
@@ -221,8 +201,8 @@ def run(args, out):
                         pair, errors, requested, when = books(pool, tokens)
                         signal, side, context_gap = {}, None, None
                         try:
-                            if candle is None or any(b is None or b['bid'] is None for b in pair):
-                                raise ValueError('two-sided entry context unavailable')
+                            if candle is None:
+                                raise ValueError('bars not prepared')
                             signal, side, _ = r.decide(args.prices_db, S, when, pair, candle, m)
                         except r.ERRORS as ex:
                             context_gap = str(ex)[:180]

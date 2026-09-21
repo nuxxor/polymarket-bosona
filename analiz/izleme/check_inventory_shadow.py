@@ -5,6 +5,7 @@ from contextlib import redirect_stdout
 import io
 import json
 from pathlib import Path
+import sqlite3
 import tempfile
 from unittest.mock import patch
 
@@ -23,7 +24,7 @@ def fill(side, price, qty=5, age=30):
     return dict(side=side, qty=qty, cost=qty*price, fee=0., age=age)
 
 
-def loop_check(module):
+def loop_check(module, partial=False):
     S = 1800000000
     clock = [S+(225.6 if module is r else -10.)]
     with tempfile.TemporaryDirectory() as temp, redirect_stdout(io.StringIO()):
@@ -50,9 +51,15 @@ def loop_check(module):
             return dict(M, slug=f'btc-updown-5m-{old}', closed=True,
                         outcomePrices='["1","0"]', conditionId='condition')
 
-        def public_book(token, require_bid=True):
+        def public_book(token, require_bid=True, require_ask=True):
             age = clock[0]%300
-            return book(.2 if token == '1' else (.8 if age < 60 else .4), round(clock[0]*1000))
+            b = book(.2 if token == '1' else (.8 if age < 60 else .4), round(clock[0]*1000))
+            if partial and module is r:
+                if token == '1':
+                    b['bid'] = None
+                else:
+                    b.update(bid=.79, ask=None, asks=[])
+            return b
 
         def inputs(db, start, when):
             times = list(range(when-65000, when+1, 1000))
@@ -81,6 +88,11 @@ def loop_check(module):
             assert not [e for e in events if e['kind'] == 'gap']
             assert any(e['kind'] == 'resolution' and e['S'] == S for e in events), [e for e in events if e['kind'] == 'resolution_pending'][-3:]
             executions = [e for e in events if e['kind'] == 'execution']
+            if partial and module is r:
+                assert all(e['rebound'] == 0 and e['costs'][0] and e['costs'][1] is None for e in executions)
+                for e in events:
+                    if e['kind'] == 'resolution':
+                        assert all(v['favorite'] is None and v['rebound'] > 0 for v in e['pnl'].values())
             if module is inv:
                 portfolios = {}
                 kinds = set()
@@ -111,6 +123,48 @@ def loop_check(module):
                                            if e['kind'] == 'bars' and S*1000 <= e['recorded_ms'] < (S+300)*1000])
 
 
+def context_check():
+    S, when = 1800000000, 1800000280600
+    minute = when//60000*60000
+    rows = [[minute+i*60000, '101', '102', '98', str(100-i*.1), '10',
+             minute+(i+1)*60000-1, '1000', 10, '5'] for i in range(-29, 0)]
+    candle = dict(rows=rows, received_ms=when-1000)
+    pair = [dict(book(.2, when), bid=None), dict(book(.8, when), ask=None, asks=[])]
+    with tempfile.TemporaryDirectory() as temp:
+        db = Path(temp)/'prices.db'
+        with sqlite3.connect(db) as con:
+            con.execute('CREATE TABLE prices(received_ms, observed_ms, source, price)')
+            con.execute('INSERT INTO prices VALUES(?,?,?,?)', (S*1000+2350, S*1000, 'crypto_prices_twap_sixty', 99.8))
+            for obs in range(S*1000+210000, when, 1000):
+                lag = 3200 if obs == S*1000+268000 else 2350
+                for name in ('crypto_prices_chainlink', 'crypto_prices_twap_sixty'):
+                    con.execute('INSERT INTO prices VALUES(?,?,?,?)', (obs+lag, obs, name, 100+(obs-S*1000)/100000))
+            # Neither a report arriving after this decision nor a future event may be used.
+            con.execute('INSERT INTO prices VALUES(?,?,?,?)', (when+100, when-100, 'crypto_prices_chainlink', 999))
+            con.execute('INSERT INTO prices VALUES(?,?,?,?)', (when-10, when+100, 'crypto_prices_chainlink', 888))
+        streams, starts = base.live_inputs(db, S, when)
+        old = r.deep.context_features(streams, starts, ([a[6] for a in rows], rows), S, when)
+        assert 'final_up_prob' not in old  # Receipt-time history reproduces the real false gap.
+        signal, selected, favorite = r.decide(db, S, when, pair, candle, M)
+        assert signal['spot'] == 102.78 and signal['momentum'] > 0
+        assert (selected, favorite) == (0, 1)
+        # Full books keep their existing midpoint ordering and predicate.
+        assert r.decide(db, S, when, [book(.2), book(.8)], candle, M)[1:] == (0, 1)
+        for bad in ([book(.2), None], [dict(book(.2), bid=None), dict(book(.3), bid=None)]):
+            try:
+                r.decide(db, S, when, bad, candle, M)
+                raise AssertionError('unknown quote ordering accepted')
+            except ValueError:
+                pass
+        with sqlite3.connect(db) as con:
+            con.execute('DELETE FROM prices WHERE source=? AND observed_ms>?', ('crypto_prices_chainlink', when-4000))
+        try:
+            r.decide(db, S, when, pair, candle, M)
+            raise AssertionError('stale current price accepted')
+        except ValueError:
+            pass
+
+
 def check():
     # Previously matched profits cannot subsidize a bad new pair.
     history = [fill(0, .30), fill(1, .60), fill(0, .60)]
@@ -125,6 +179,7 @@ def check():
     assert order['qty'] == 3
     assert inv.position(partial+[inv.execute(order, partial, [None, book(.7, qty=3)], M, 280)])['qty'] == [3, 3]
     assert inv.intent([], [book(.2), book(.8)], M, 0, 210, True) is None
+    assert inv.intent([], [book(.2, qty=4), book(.8)], M, 0, 40, True) is None
     assert inv.intent([fill(0, .2)], [book(.2), book(.8)], M, 0, 50, False) is None
     assert inv.intent([fill(0, .2)], [book(.2), book(.8)], M, 0, 40, True) is None
     assert inv.intent([fill(0, .2)], [book(.2), book(.8)], M, 0, 50, True)['kind'] == 'add'
@@ -145,7 +200,22 @@ def check():
             raise AssertionError('strict original entry accepted missing bids')
         except ValueError:
             pass
-    results = [loop_check(r), loop_check(inv)]
+        response.update(bids=[dict(price='.7', size='5')], asks=[])
+        b = base.public_book('1', False, False)
+        assert b['bid'] == .7 and b['ask'] is None and b['asks'] == []
+        try:
+            base.ask_cost(b, M)
+            raise AssertionError('missing asks became a paper fill')
+        except ValueError:
+            pass
+        response.update(asks=[dict(price='.6', size='5')])
+        try:
+            base.public_book('1', False, False)
+            raise AssertionError('crossed partial book accepted')
+        except ValueError:
+            pass
+    context_check()
+    results = [loop_check(r), loop_check(inv), loop_check(r, partial=True)]
     with patch.object(r, 'bars_due', side_effect=lambda candle, when: candle is None or when-candle['received_ms'] >= 30000):
         try:
             loop_check(r)

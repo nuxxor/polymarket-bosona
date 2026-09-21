@@ -1,0 +1,1189 @@
+{
+  "counts": {
+    "decisions": 167,
+    "old_valid_context": 63,
+    "new_valid_context_with_recorded_books": 114,
+    "old_price_gaps": 68,
+    "price_gaps_repaired": 51,
+    "price_gaps_still_invalid": 17
+  },
+  "details": [
+    {
+      "S": 1789995000,
+      "age": 30,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 40,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 50,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 60,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 70,
+      "old_error": "incomplete or stale context",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789995000,
+      "age": 80,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 90,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 100,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 110,
+      "old_error": "incomplete or stale context",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789995000,
+      "age": 120,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 130,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 140,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 150,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 160,
+      "old_error": "incomplete or stale context",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789995000,
+      "age": 170,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 180,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 190,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 200,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 210,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 220,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 230,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 240,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 250,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 260,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 270,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 280,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789995000,
+      "age": 290,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 30,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 40,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 50,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 60,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 70,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 80,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 90,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 100,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 110,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 120,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 130,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 140,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 150,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 160,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 170,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 180,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 190,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 200,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 210,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 220,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789995300,
+      "age": 230,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789995300,
+      "age": 240,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789995300,
+      "age": 250,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789995300,
+      "age": 260,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789995300,
+      "age": 270,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789995300,
+      "age": 280,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789995300,
+      "age": 290,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 30,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 40,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 50,
+      "old_error": "incomplete or stale context",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789995600,
+      "age": 60,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 70,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 80,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 90,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 100,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 110,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 120,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 130,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 140,
+      "old_error": "incomplete or stale context",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789995600,
+      "age": 150,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 160,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 170,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 180,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 190,
+      "old_error": "incomplete or stale context",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789995600,
+      "age": 200,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 210,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 220,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 230,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 240,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789995600,
+      "age": 250,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 260,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 270,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 280,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789995600,
+      "age": 290,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 30,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 40,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 50,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 60,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 70,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 80,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 90,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 100,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 110,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 120,
+      "old_error": "incomplete or stale context",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789995900,
+      "age": 130,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 140,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 150,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 160,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 170,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 180,
+      "old_error": "incomplete or stale context",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789995900,
+      "age": 190,
+      "old_error": "incomplete or stale context",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789995900,
+      "age": 200,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 210,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 220,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 230,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 240,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 250,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 260,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 270,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 280,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789995900,
+      "age": 290,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 30,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 40,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 50,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 60,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 70,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 80,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 90,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 100,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 110,
+      "old_error": "incomplete or stale context",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789996200,
+      "age": 120,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 130,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 140,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 150,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 160,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 170,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 180,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789996200,
+      "age": 190,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 200,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 210,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 220,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 230,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 240,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 250,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 260,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 270,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 280,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789996200,
+      "age": 290,
+      "old_error": "two-sided entry context unavailable",
+      "new_error": "entry quote unavailable",
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 30,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 40,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 50,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 60,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 70,
+      "old_error": "incomplete or stale context",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789996500,
+      "age": 80,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 90,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 100,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 110,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 120,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 130,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 140,
+      "old_error": "incomplete or stale context",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789996500,
+      "age": 150,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 160,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 170,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 180,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 190,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 200,
+      "old_error": "incomplete or stale context",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789996500,
+      "age": 210,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 220,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 230,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 240,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 250,
+      "old_error": "incomplete or stale context",
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996500,
+      "age": 260,
+      "old_error": "incomplete or stale context",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789996500,
+      "age": 270,
+      "old_error": "incomplete or stale context",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789996500,
+      "age": 280,
+      "old_error": "incomplete or stale context",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789996500,
+      "age": 290,
+      "old_error": "incomplete or stale context",
+      "new_error": "incomplete or stale context",
+      "price_error": "incomplete or stale context"
+    },
+    {
+      "S": 1789996800,
+      "age": 30,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996800,
+      "age": 40,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996800,
+      "age": 50,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996800,
+      "age": 60,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    },
+    {
+      "S": 1789996800,
+      "age": 70,
+      "old_error": null,
+      "new_error": null,
+      "price_error": null
+    }
+  ],
+  "source_sha256": {
+    "bosona_rebound_shadow.py": "149485cee51b3172726a838cc3c9092cbdc64c0781489dcc0145f0a6218c022d",
+    "bosona_derin.py": "3fd35f1b172cabf1b3fa2e7f06c59b03196f94486b5831e5dfbcd89ea9241c98",
+    "bosona_gec_arastirma.py": "c5168e5ad7334149c21de0484d99dec264f2a18f1b6c3be3a04967b4cb15e6ff",
+    "muhasebe.py": "9f14e2531a770dd97fef6e1d323fde9269b477cf92a139e1d345274fa9f4961f"
+  },
+  "cutoff_ms": 1789996871991,
+  "limitation": "Old missing books cannot be reconstructed; no fill/PnL replay. Current stale prices remain rejected."
+}
