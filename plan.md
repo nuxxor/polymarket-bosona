@@ -291,3 +291,14 @@ Iki dondurulmus golge hash/PID korunarak ucuncu surec yalniz olcum yapti.
 18eniyi/enkotu APItrade kimligi/miktar/brutsonuc ve6Binance sonucu,
 butun toplamlar/zamanlar,oz-test,Ruff/compile gecti.
 Rapor:docs/BOSONA_COKLU_20260921.md; kanit:data/analysis/bosona_coklu_20260921/.
+
+## Jev ve ileri shadow ara performans — 21 Eylul gunduz
+Operator gecen surede Jev ve iki shadow'un gercek kayitli sonuclarini istedi.
+Salt-okunur anlik kesit: strateji, sure, butce veya surec degistirilmez.
+- [ ] Londra kaynak/hash/surec ve kayit kapsamlarini dondur; fiili calisma
+      suresi, planli bitis, eksik veri ve sonucu bekleyenleri ayir.
+- [ ] Jev surum/birincil nihai karar ve iki golgenin birincil/ikincil
+      zamanlarini ayri hesapla; ucretli sanal PnL, isabet, adet, maliyet ve
+      gecikme eslesmesini resmi sonucla dogrula. Olmayan sureyi sifir sayma.
+- [ ] Bagimsiz toplam/zaman/kaynak kontrolleri, tekrar calistirilabilir
+      rapor ve kullaniciya kisa karsilastirma; ekonomik kabul esikleri korunur.

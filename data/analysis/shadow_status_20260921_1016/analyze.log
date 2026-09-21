@@ -1,0 +1,528 @@
+{
+  "cutoff": 1789985700,
+  "cutoff_utc": "2026-09-21T10:15:00+00:00",
+  "source_sha256": "a597c5a29e6bce30c315be9ee04ff9dee029e1a055bb33297f8ae25db85ad24e",
+  "shadows": {
+    "baseline": {
+      "start_S": 1789946400,
+      "end_S": 1790032800,
+      "assigned": 131,
+      "duration_hours": 10.916666666666666,
+      "by_age": {
+        "210": {
+          "assigned": 131,
+          "eligible": 70,
+          "gaps": 61,
+          "missing_attempts": 0,
+          "gap_reasons": {
+            "empty/invalid public book": 32,
+            "stale price": 26,
+            "exact-start reference missing": 3
+          },
+          "rules": {
+            "favorite": {
+              "eligible": 70,
+              "resolved_eligible": 70,
+              "trades": 70,
+              "wins": 62,
+              "losses": 8,
+              "no_signal": 0,
+              "pending_selected": 0,
+              "pnl": 2.286680000000006,
+              "cost": 307.71332,
+              "fees": 2.33462,
+              "max_drawdown": 14.544609999999999,
+              "ex_top3": -3.067679999999994
+            },
+            "aligned": {
+              "eligible": 70,
+              "resolved_eligible": 70,
+              "trades": 61,
+              "wins": 56,
+              "losses": 5,
+              "no_signal": 9,
+              "pending_selected": 0,
+              "pnl": 4.169190000000006,
+              "cost": 275.83081,
+              "fees": 1.70211,
+              "max_drawdown": 8.50561,
+              "ex_top3": -1.0871299999999948
+            },
+            "buffer": {
+              "eligible": 70,
+              "resolved_eligible": 70,
+              "trades": 37,
+              "wins": 34,
+              "losses": 3,
+              "no_signal": 33,
+              "pending_selected": 0,
+              "pnl": -3.8730099999999954,
+              "cost": 173.87301,
+              "fees": 0.71301,
+              "max_drawdown": 7.658769999999999,
+              "ex_top3": -6.609559999999996
+            }
+          }
+        },
+        "240": {
+          "assigned": 131,
+          "eligible": 40,
+          "gaps": 91,
+          "missing_attempts": 0,
+          "gap_reasons": {
+            "empty/invalid public book": 69,
+            "stale price": 20,
+            "exact-start reference missing": 2
+          },
+          "rules": {
+            "favorite": {
+              "eligible": 40,
+              "resolved_eligible": 40,
+              "trades": 40,
+              "wins": 36,
+              "losses": 4,
+              "no_signal": 0,
+              "pending_selected": 0,
+              "pnl": 6.630009999999999,
+              "cost": 173.36999,
+              "fees": 1.38399,
+              "max_drawdown": 5.31979,
+              "ex_top3": 1.3726299999999991
+            },
+            "aligned": {
+              "eligible": 40,
+              "resolved_eligible": 40,
+              "trades": 34,
+              "wins": 31,
+              "losses": 3,
+              "no_signal": 6,
+              "pending_selected": 0,
+              "pnl": 4.62804,
+              "cost": 150.37196,
+              "fees": 1.02196,
+              "max_drawdown": 3.7673400000000004,
+              "ex_top3": -0.23829999999999885
+            },
+            "buffer": {
+              "eligible": 40,
+              "resolved_eligible": 40,
+              "trades": 25,
+              "wins": 22,
+              "losses": 3,
+              "no_signal": 15,
+              "pending_selected": 0,
+              "pnl": -3.35196,
+              "cost": 113.35196,
+              "fees": 0.60196,
+              "max_drawdown": 5.146360000000001,
+              "ex_top3": -5.32582
+            }
+          }
+        },
+        "270": {
+          "assigned": 131,
+          "eligible": 12,
+          "gaps": 119,
+          "missing_attempts": 0,
+          "gap_reasons": {
+            "empty/invalid public book": 111,
+            "stale price": 6,
+            "missing history": 1,
+            "exact-start reference missing": 1
+          },
+          "rules": {
+            "favorite": {
+              "eligible": 12,
+              "resolved_eligible": 12,
+              "trades": 12,
+              "wins": 12,
+              "losses": 0,
+              "no_signal": 0,
+              "pending_selected": 0,
+              "pnl": 5.224950000000001,
+              "cost": 54.77505,
+              "fees": 0.32505,
+              "max_drawdown": 0.0,
+              "ex_top3": 2.2444500000000014
+            },
+            "aligned": {
+              "eligible": 12,
+              "resolved_eligible": 12,
+              "trades": 8,
+              "wins": 8,
+              "losses": 0,
+              "no_signal": 4,
+              "pending_selected": 0,
+              "pnl": 3.5817299999999994,
+              "cost": 36.41827,
+              "fees": 0.21827,
+              "max_drawdown": 0.0,
+              "ex_top3": 0.9343299999999992
+            },
+            "buffer": {
+              "eligible": 12,
+              "resolved_eligible": 12,
+              "trades": 1,
+              "wins": 1,
+              "losses": 0,
+              "no_signal": 11,
+              "pending_selected": 0,
+              "pnl": 0.23336999999999986,
+              "cost": 4.76663,
+              "fees": 0.01663,
+              "max_drawdown": 0.0,
+              "ex_top3": 0.0
+            }
+          }
+        }
+      }
+    },
+    "rebound": {
+      "start_S": 1789951800,
+      "end_S": 1790211000,
+      "assigned": 113,
+      "duration_hours": 9.416666666666666,
+      "by_age": {
+        "240": {
+          "assigned": 113,
+          "eligible": 32,
+          "gaps": 81,
+          "missing_attempts": 0,
+          "gap_reasons": {
+            "incomplete or stale context": 19,
+            "empty/invalid public book": 61,
+            "exact-start reference missing": 1
+          },
+          "rules": {
+            "rebound": {
+              "eligible": 32,
+              "resolved_eligible": 32,
+              "trades": 9,
+              "wins": 1,
+              "losses": 8,
+              "no_signal": 23,
+              "pending_selected": 0,
+              "pnl": -3.3188400000000002,
+              "cost": 8.31884,
+              "fees": 0.41884,
+              "max_drawdown": 6.103400000000001,
+              "ex_top3": -6.899850000000001
+            },
+            "favorite": {
+              "eligible": 32,
+              "resolved_eligible": 32,
+              "trades": 32,
+              "wins": 30,
+              "losses": 2,
+              "no_signal": 0,
+              "pending_selected": 0,
+              "pnl": 9.117129999999998,
+              "cost": 140.88287,
+              "fees": 1.03287,
+              "max_drawdown": 3.767340000000001,
+              "ex_top3": 3.8597499999999982
+            }
+          }
+        },
+        "270": {
+          "assigned": 113,
+          "eligible": 0,
+          "gaps": 113,
+          "missing_attempts": 0,
+          "gap_reasons": {
+            "empty/invalid public book": 97,
+            "incomplete or stale context": 15,
+            "exact-start reference missing": 1
+          },
+          "rules": {
+            "rebound": {
+              "eligible": 0,
+              "resolved_eligible": 0,
+              "trades": 0,
+              "wins": 0,
+              "losses": 0,
+              "no_signal": 0,
+              "pending_selected": 0,
+              "pnl": null,
+              "cost": 0,
+              "fees": 0,
+              "max_drawdown": null,
+              "ex_top3": null
+            },
+            "favorite": {
+              "eligible": 0,
+              "resolved_eligible": 0,
+              "trades": 0,
+              "wins": 0,
+              "losses": 0,
+              "no_signal": 0,
+              "pending_selected": 0,
+              "pnl": null,
+              "cost": 0,
+              "fees": 0,
+              "max_drawdown": null,
+              "ex_top3": null
+            }
+          }
+        },
+        "280": {
+          "assigned": 113,
+          "eligible": 0,
+          "gaps": 113,
+          "missing_attempts": 0,
+          "gap_reasons": {
+            "empty/invalid public book": 103,
+            "incomplete or stale context": 10
+          },
+          "rules": {
+            "rebound": {
+              "eligible": 0,
+              "resolved_eligible": 0,
+              "trades": 0,
+              "wins": 0,
+              "losses": 0,
+              "no_signal": 0,
+              "pending_selected": 0,
+              "pnl": null,
+              "cost": 0,
+              "fees": 0,
+              "max_drawdown": null,
+              "ex_top3": null
+            },
+            "favorite": {
+              "eligible": 0,
+              "resolved_eligible": 0,
+              "trades": 0,
+              "wins": 0,
+              "losses": 0,
+              "no_signal": 0,
+              "pending_selected": 0,
+              "pnl": null,
+              "cost": 0,
+              "fees": 0,
+              "max_drawdown": null,
+              "ex_top3": null
+            }
+          }
+        }
+      }
+    }
+  },
+  "jev": {
+    "start_ms": 1789940646619,
+    "end_ms": 1789947846619,
+    "stop_ms": 1789948027996,
+    "v2_first_S": 1789942800,
+    "v2_assigned": 17,
+    "final_predictions": 11,
+    "missing_final": 6,
+    "models": {
+      "full": {
+        "eligible": 11,
+        "resolved_eligible": 11,
+        "trades": 11,
+        "wins": 10,
+        "losses": 1,
+        "no_signal": 0,
+        "pending_selected": 0,
+        "pnl": 12.5307,
+        "cost": 37.469300000000004,
+        "fees": 0.6693,
+        "max_drawdown": 2.13467,
+        "ex_top3": 4.335749999999999
+      },
+      "technical": {
+        "eligible": 11,
+        "resolved_eligible": 11,
+        "trades": 11,
+        "wins": 10,
+        "losses": 1,
+        "no_signal": 0,
+        "pending_selected": 0,
+        "pnl": 12.5307,
+        "cost": 37.469300000000004,
+        "fees": 0.6693,
+        "max_drawdown": 2.13467,
+        "ex_top3": 4.335749999999999
+      },
+      "market": {
+        "eligible": 11,
+        "resolved_eligible": 11,
+        "trades": 11,
+        "wins": 9,
+        "losses": 2,
+        "no_signal": 0,
+        "pending_selected": 0,
+        "pnl": 4.682689999999999,
+        "cost": 40.31731,
+        "fees": 0.66731,
+        "max_drawdown": 3.32963,
+        "ex_top3": -1.562570000000001
+      }
+    },
+    "by_horizon": {
+      "30": {
+        "n": 17,
+        "scores": {
+          "full": {
+            "correct": 7,
+            "brier": 0.46501764705882354
+          },
+          "technical": {
+            "correct": 7,
+            "brier": 0.49777647058823526
+          },
+          "market": {
+            "correct": 11,
+            "brier": 0.2050720588235294
+          }
+        }
+      },
+      "60": {
+        "n": 16,
+        "scores": {
+          "full": {
+            "correct": 10,
+            "brier": 0.31798125
+          },
+          "technical": {
+            "correct": 10,
+            "brier": 0.34206875
+          },
+          "market": {
+            "correct": 10,
+            "brier": 0.19619999999999999
+          }
+        }
+      },
+      "90": {
+        "n": 14,
+        "scores": {
+          "full": {
+            "correct": 10,
+            "brier": 0.24851428571428572
+          },
+          "technical": {
+            "correct": 10,
+            "brier": 0.2564214285714286
+          },
+          "market": {
+            "correct": 11,
+            "brier": 0.1974517857142857
+          }
+        }
+      },
+      "120": {
+        "n": 15,
+        "scores": {
+          "full": {
+            "correct": 11,
+            "brier": 0.21174666666666667
+          },
+          "technical": {
+            "correct": 11,
+            "brier": 0.22532
+          },
+          "market": {
+            "correct": 11,
+            "brier": 0.17517402053423672
+          }
+        }
+      },
+      "150": {
+        "n": 17,
+        "scores": {
+          "full": {
+            "correct": 14,
+            "brier": 0.1599764705882353
+          },
+          "technical": {
+            "correct": 14,
+            "brier": 0.16861176470588235
+          },
+          "market": {
+            "correct": 13,
+            "brier": 0.15462499999999998
+          }
+        }
+      },
+      "180": {
+        "n": 16,
+        "scores": {
+          "full": {
+            "correct": 12,
+            "brier": 0.14985625
+          },
+          "technical": {
+            "correct": 13,
+            "brier": 0.1456875
+          },
+          "market": {
+            "correct": 14,
+            "brier": 0.15056250000000002
+          }
+        }
+      },
+      "210": {
+        "n": 13,
+        "scores": {
+          "full": {
+            "correct": 12,
+            "brier": 0.08535384615384616
+          },
+          "technical": {
+            "correct": 11,
+            "brier": 0.10405384615384615
+          },
+          "market": {
+            "correct": 11,
+            "brier": 0.11334060712015258
+          }
+        }
+      },
+      "240": {
+        "n": 11,
+        "scores": {
+          "full": {
+            "correct": 10,
+            "brier": 0.06953636363636365
+          },
+          "technical": {
+            "correct": 10,
+            "brier": 0.08121818181818183
+          },
+          "market": {
+            "correct": 9,
+            "brier": 0.14430454545454544
+          }
+        }
+      }
+    },
+    "v1": {
+      "eligible": 1,
+      "resolved_eligible": 1,
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "no_signal": 0,
+      "pending_selected": 0,
+      "pnl": -1.2638399999999999,
+      "cost": 1.2638399999999999,
+      "fees": 0.06384,
+      "max_drawdown": 1.2638399999999999,
+      "ex_top3": 0.0
+    },
+    "api_cost_all_versions": 0.017503626,
+    "api_errors": 0,
+    "median_v2_api_ms": 514.2703419987811,
+    "direction_changes": 12
+  },
+  "overlap": {
+    "jev_baseline_final": [
+      1789946400,
+      1789947000
+    ],
+    "jev_rebound": []
+  }
+}
+latency {"paired": 31, "fast_only": 0, "delayed_only": 0, "counts": {"start": 1, "health": 561, "fast_quote": 31}, "by_age": {"240": {"pairs": 31, "selected": 9, "fast_median_ms": 31, "delayed_median_ms": 278, "fast_minus_delayed_pnl": {"rebound": 0.05452999999999997, "favorite": 0.41530000000000156}}}, "note": "Same selected side and five shares. Paired cost difference; resolution cancels out. Missing quotes excluded from paired comparison and counted separately. HTTP quotes, not actual fills.", "240_rebound_fast": {"eligible": 31, "resolved_eligible": 31, "trades": 9, "wins": 1, "losses": 8, "no_signal": 22, "pending_selected": 0, "pnl": -3.2643100000000005, "cost": 8.26431, "fees": 0.41431, "max_drawdown": 6.1015, "ex_top3": -6.845320000000001}, "240_favorite_fast": {"eligible": 31, "resolved_eligible": 31, "trades": 31, "wins": 29, "losses": 2, "no_signal": 0, "pending_selected": 0, "pnl": 9.485899999999999, "cost": 135.5141, "fees": 1.0641, "max_drawdown": 3.767340000000001, "ex_top3": 4.22852}, "270_rebound_fast": {"eligible": 0, "resolved_eligible": 0, "trades": 0, "wins": 0, "losses": 0, "no_signal": 0, "pending_selected": 0, "pnl": null, "cost": 0, "fees": 0, "max_drawdown": null, "ex_top3": null}, "270_favorite_fast": {"eligible": 0, "resolved_eligible": 0, "trades": 0, "wins": 0, "losses": 0, "no_signal": 0, "pending_selected": 0, "pnl": null, "cost": 0, "fees": 0, "max_drawdown": null, "ex_top3": null}, "280_rebound_fast": {"eligible": 0, "resolved_eligible": 0, "trades": 0, "wins": 0, "losses": 0, "no_signal": 0, "pending_selected": 0, "pnl": null, "cost": 0, "fees": 0, "max_drawdown": null, "ex_top3": null}, "280_favorite_fast": {"eligible": 0, "resolved_eligible": 0, "trades": 0, "wins": 0, "losses": 0, "no_signal": 0, "pending_selected": 0, "pnl": null, "cost": 0, "fees": 0, "max_drawdown": null, "ex_top3": null}}
