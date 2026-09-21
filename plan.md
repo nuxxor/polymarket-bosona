@@ -295,10 +295,30 @@ Rapor:docs/BOSONA_COKLU_20260921.md; kanit:data/analysis/bosona_coklu_20260921/.
 ## Jev ve ileri shadow ara performans — 21 Eylul gunduz
 Operator gecen surede Jev ve iki shadow'un gercek kayitli sonuclarini istedi.
 Salt-okunur anlik kesit: strateji, sure, butce veya surec degistirilmez.
-- [ ] Londra kaynak/hash/surec ve kayit kapsamlarini dondur; fiili calisma
+- [x] Londra kaynak/hash/surec ve kayit kapsamlarini dondur; fiili calisma
       suresi, planli bitis, eksik veri ve sonucu bekleyenleri ayir.
-- [ ] Jev surum/birincil nihai karar ve iki golgenin birincil/ikincil
+- [x] Jev surum/birincil nihai karar ve iki golgenin birincil/ikincil
       zamanlarini ayri hesapla; ucretli sanal PnL, isabet, adet, maliyet ve
       gecikme eslesmesini resmi sonucla dogrula. Olmayan sureyi sifir sayma.
-- [ ] Bagimsiz toplam/zaman/kaynak kontrolleri, tekrar calistirilabilir
+- [x] Bagimsiz toplam/zaman/kaynak kontrolleri, tekrar calistirilabilir
       rapor ve kullaniciya kisa karsilastirma; ekonomik kabul esikleri korunur.
+
+Kesim21Eylul10:15UTC: eski shadow10s55dk/131atama, yeni9s25dk/113atama.
+Jev gece boyunca calismadi; iki saatlik pilot20Eylul23:47UTC'de normal
+kapandi. V2 17atama/11nihaiislem/10kazanan, ucretli sanal+12,53070USD;
+ayni11pencerede favori+4,68269. V1ayri:1islem/-1,26384.
+Ilk golge ana t240:40gecerli, favori+6,63001, uyum+4,62804,
+siki-3,35196. 91veriboslugu; sifir islem sayilmadi.
+Yeni golge ikincil t240:32gecerli,9rebound/1kazanan/-3,31884;
+ayni32favori+9,11713. ANA t280veikincil t270gecerlikarar0:
+t280103defterboslugu+10eski mum. Kendi hazirlik dongumuz t245'te30sn
+cache esigini gecemiyor; t260'ta hazirlik araligi bitmis oluyor.
+Gercek donmus kod blogunda ve25gec baglam hatasinda kok neden dogrulandi.
+Onceki smoke/zaman testleri bu mum yenileme hatasini yakalamamis;
+ana ekonomik deney uygulanmis sayilamaz. Bu salt-okunur raporda fix/deploy
+yapilmadi; duzeltme yeni kaynak/surumle ayri ileri donem gerektirir.
+31eslesmede fiyat medyani31/278ms;9rebound isleminde hizli fark+0,05453.
+98resmi piyasa sonucu,18bagimsiz Decimal toplam,17dosyahash ve3Jevhash,
+oz-test/Ruff/compile/gercek analiz ve ayni hash'li tekrar gecti.
+Surec/hash/bitisler korundu; ekonomik kabul esikleri hala acik.
+Rapor:docs/SHADOW_SONUC_20260921.md; kanit:data/analysis/shadow_status_20260921_1016/.

@@ -5,5 +5,10 @@
   "cutoff_and_coverage_checks": "pass",
   "stale_late_contexts": 25,
   "actual_frozen_prep_block": "no bar refresh between t230 and t280; last_prep245",
-  "score_sha256": "a949e2f7c6cc1965a2574b3577dbaaa21bd00ca8ddbb75180f2013f9f196478f"
+  "score_sha256": "a949e2f7c6cc1965a2574b3577dbaaa21bd00ca8ddbb75180f2013f9f196478f",
+  "deterministic_rerun": "identical score SHA256",
+  "jev_v2_source_hashes": 3,
+  "self_check": "pass",
+  "ruff": "pass",
+  "compile": "pass"
 }
