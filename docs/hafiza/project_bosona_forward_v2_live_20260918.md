@@ -17,7 +17,9 @@ PID `live_v1/PROCESS.json`; ilk blok 14:50'de olgunlaşır. Birincil dünya önc
 
 **live_v2 (14:45 UTC, PID `live_v2/PROCESS.json`):** mid−δ dünyaları mid2 (birincil)/mid4/mid2_reset via `runner_v2.py`+`mid_policy.py`; runner.py/candidate_policy.py değiştirilmedi. Kullanıcı 09-18: "kalan her şeyi sen yönetiyorsun" (tam yetki, operatör onayı gerektiren tek şey süreç öldürme). Bosona açık-bacak kulvar ölçümü: SOL5 %85,8 @72,8 kr, DOGE5 %89 @73,3, ETH5 %49,4 @44,2, BTC5 %32,7 @37 → açık bacak favori taraf, taraf seçimi ayrı karar katmanı.
 
-**09-20 00:15 TSİ CANLI = `forward_v2/live_mirror2`** (ayna, 4 dünya). live_mirror 16 blok sonra durdu: 174 işlemin zincirde MAKBUZU YOK → timeline kurucusuna 45 dk pes etme eşiği eklendi (`RETRY_GIVE_UP_NO_RECEIPT`, 16/16 test). 1rpc.io kotası doldu, 2 sağlayıcı kaldı. Ayna dolum oranı sorunu: 38 pencerenin 2'sinde dolum (o: 9 işlem/pazar).
+**09-21 19:05 TSİ CANLI = `forward_v2/live_follow2`** (runner_v8: kulvar takibi + 60 pay/pazar tavanı), etiket kaynağı `native_flow_live_v1/runtime_fast` (12 işçi). Çözümleyici darboğazı: 12.584 iş/saat gelirken 5.771 çözülüyordu → işçi 4→12, throughput 21.000/saat. Serbest RPC uçlarının hepsi kapalı (yalnız publicnode + drpc çalışıyor).
+
+**09-20 00:15 TSİ = `forward_v2/live_mirror2`** (ayna, 4 dünya). live_mirror 16 blok sonra durdu: 174 işlemin zincirde MAKBUZU YOK → timeline kurucusuna 45 dk pes etme eşiği eklendi (`RETRY_GIVE_UP_NO_RECEIPT`, 16/16 test). 1rpc.io kotası doldu, 2 sağlayıcı kaldı. Ayna dolum oranı sorunu: 38 pencerenin 2'sinde dolum (o: 9 işlem/pazar).
 
 **09-19 03:00 TSİ = `forward_v2/live_v8a` + `live_v8b`** (runner_v4.py + favorite_variants.py), aktivasyon 00:15 UTC, capture_v2, iki süreç/altı dünya: a=quote_control+favorite_quote+fav_clip30, b=fav_clip50+fav_5m+fav_15m. cheap_ladder/open_favorite kapatıldı. **OLAY: 22:02 UTC'de earlyoom TÜM kayıt süreçlerini öldürdü; live_v7 boş bloklar üretti, 22:02-23:42 UTC veri boşluğu. Kayıt 23:42'de elle yeniden başlatıldı (PID'ler yeni), nöbetçi monitör kuruldu.** Ders: [[lesson-earlyoom-capture-death]].
 
