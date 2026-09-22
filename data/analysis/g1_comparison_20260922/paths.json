@@ -1,0 +1,2812 @@
+{
+  "1790069400_G": [
+    {
+      "age": 12,
+      "net_before": "0",
+      "net_after": "5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.45,
+          "usdcSize": 2.25,
+          "transactionHash": "0x984563514a668cdc33d05049443978cdd0e428e5bb6014241c89f0563e70fc67"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xe223045cb09ccd8cedb93d30f64be90a27d320e29a34b63a55d2243c26c38693"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 15,
+      "net_before": "5",
+      "net_after": "0.00",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 4.92,
+          "price": 0.53,
+          "usdcSize": 2.6076,
+          "transactionHash": "0xe1eae3b9040bbc079c3d178e23a569f518a7a7471f4b31989db2c862cc6de834"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 0.08,
+          "price": 0.53,
+          "usdcSize": 0.0424,
+          "transactionHash": "0x2f5deeebdf63fa9968986ae7098d7db5db2bafd5af1fe8fcdcf5466b83ec354c"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x71b6bc3bbfa60b778694851bb9e58e58767a601aac3a890171aa87ed69874edf"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 16,
+      "net_before": "0.00",
+      "net_after": "-3.32",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 3.32,
+          "price": 0.5,
+          "usdcSize": 1.66,
+          "transactionHash": "0x8b64b8c5c31f15bb72d92f504d8340cb2b9c85b7ece80f2c5bca825f012d4b2f"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x7c9780779d0bceed6b6189754b403c81f3ce87920522196b9fccdfabb65c9da4"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 18,
+      "net_before": "-3.32",
+      "net_after": "-5.00",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 1.68,
+          "price": 0.5,
+          "usdcSize": 0.84,
+          "transactionHash": "0xd8f1df70aa6d05d3b37771e26cf5d87fae2c4a7c2fdc8128f7c6ccd130d5687e"
+        }
+      ],
+      "first_seen_filled_parents": [],
+      "continuing_filled_parents": [
+        "0x7c9780779d0bceed6b6189754b403c81f3ce87920522196b9fccdfabb65c9da4"
+      ],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 22,
+      "net_before": "-5.00",
+      "net_after": "0.00",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.39,
+          "usdcSize": 1.95,
+          "transactionHash": "0xeff55ded67b3440b7ec0d227e13e36544eda716169dd27dbcd15558c4e2d6fef"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xf4ac1234920c0d3b4c6e9cd293f4156f8ae62f2e15b4ac007091cd9347018e87"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 24,
+      "net_before": "0.00",
+      "net_after": "-5.00",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.6,
+          "usdcSize": 3,
+          "transactionHash": "0x935fb5f8f4d661244da4a7d3ae878ce6159ac3d5e15bc0260d103076880506b4"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xb7c0446a7aef112200f741e708fbbd86e35d17ab86dedb4a66da8a5b75cd4e5e"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 28,
+      "net_before": "-5.00",
+      "net_after": "5.00",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.42,
+          "usdcSize": 2.1,
+          "transactionHash": "0x290d41f234383058e6d20a4f0cdd1e8d532befcb3a49b8330ee86403a1be21f2"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.41,
+          "usdcSize": 2.05,
+          "transactionHash": "0xaa6f4ee1016a79cbdb1aa3d656946f3bf4cbbc90951a5b73b46249433cb4b840"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x3d0c1962bf8705dbb5415a6274ed31d7d557869f9bebbaa17b537be2d07a7d29",
+        "0x97e6bf306cfd1f0730eef12d84cd29efd6936c0cda2d83461bd126bb136dc3f1"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 69,
+      "net_before": "5.00",
+      "net_after": "0.00",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.36,
+          "usdcSize": 1.8,
+          "transactionHash": "0xdf2d5bf937ee3ce40e03e679f874ed7401797f5b1efc51d41d134f54f24eb04e"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xad2585447b4418a5119f52d8d9d3b417ceba0279c10dae5818b125d8b827a503"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 240,
+      "net_before": "0.00",
+      "net_after": "5.00",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.31,
+          "usdcSize": 1.55,
+          "transactionHash": "0xed8443c19285ceee3d87fd77e1e77ff2392d7a7b2b3a68b8c10ea2552471c0e2"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x1227a5d1316ed79fbd1b827fc93cab58045af5b5da00ea28d4d54f2c1bb97979"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    }
+  ],
+  "1790069400_Bosona": [
+    {
+      "age": 195,
+      "net_before": "0",
+      "net_after": "-110.44",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 110.44,
+          "price": 0.33,
+          "usdcSize": 36.4452,
+          "transactionHash": "0x8a95b19ab7911d2883dd2d2a3df53fe349577776f8038cc90d883f776bd0ade8"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xddb88c52d7745abfd72d74e7aa2aa54f4411f02acc1443787d4e03c593435f48"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 235,
+      "net_before": "-110.44",
+      "net_after": "160.009851",
+      "same_second_order_unknown": true,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 100,
+          "price": 0.49,
+          "usdcSize": 49,
+          "transactionHash": "0x421cd38182a8cc32bc2dc430ed0e5925b62d343d4115412a42643da96dcf603d"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 9.69,
+          "price": 0.49,
+          "usdcSize": 4.7481,
+          "transactionHash": "0x40e8572870409b69e809f63405abd9a620b5ee0753026cb7fc2f618a3a65b100"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 25.08772,
+          "price": 0.4300000159,
+          "usdcSize": 10.78772,
+          "transactionHash": "0x2e12ae37ca97df5bd67eccea64af2608e5a61c67585bcc0ecc2a66ccd5c978b2"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 11.372548,
+          "price": 0.4900000422,
+          "usdcSize": 5.572549,
+          "transactionHash": "0x7ad55417908a235f85ff51e1ec748b125701dc8146bf01b68116b281cad64d2d"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 13.725491,
+          "price": 0.4900000299,
+          "usdcSize": 6.725491,
+          "transactionHash": "0xc6fc70be514b1ae84793be0292ee1f9805d067d25092fca413794fccdb90c6fb"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 270.31,
+          "price": 0.6,
+          "usdcSize": 166.7272,
+          "transactionHash": "0x04be5d913d66e915178ab8d8f0d241c33b1e118524733dd7351fa113930bdb1a"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5.97561,
+          "price": 0.5900000167,
+          "usdcSize": 3.52561,
+          "transactionHash": "0x8c1a599116465ebc5ab2e247c3e882523e6e29d44386a108bb3748a2219b00e1"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 40,
+          "price": 0.59,
+          "usdcSize": 23.6,
+          "transactionHash": "0x16cb11149c8d9568a368786333a6096a6dbe3f30906ca057456d190fe3121966"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 42.52,
+          "price": 0.59,
+          "usdcSize": 25.0868,
+          "transactionHash": "0x9fce036da8395de2f3d2cffdf30420c96934a0e4beaf4d6e41047cce50250c28"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 31.52,
+          "price": 0.59,
+          "usdcSize": 18.5968,
+          "transactionHash": "0xb2acd8636d9808c4785c67f3e86353f9b6c36a12c46e58f3fbb32c85b72dd3b3"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 40,
+          "price": 0.59,
+          "usdcSize": 23.6,
+          "transactionHash": "0xd50f5fd6dd0fca3abc376b84d5286d278753270703d4be2fcd88b9e772515010"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x835bcabdb68903310ed5bffb5c200149212a019b9f3127dead70b9fe5528c211",
+        "0x95edac27706d04c8d0dd28ac0ddd91e41d9726240a124d352ff1efffaf02cca5",
+        "0xb1df19aa44b1783d72be33df3f9f9315745e4f0d39552b089ea837b35225e029",
+        "0xb8d728f462a218ec981d1213405197b2981979742e2fe2da09c46930bb955ae1"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker",
+        "taker"
+      ]
+    },
+    {
+      "age": 237,
+      "net_before": "160.009851",
+      "net_after": "497.989851",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 337.98,
+          "price": 0.5775442334,
+          "usdcSize": 200.97078,
+          "transactionHash": "0x298f161adeab6d9925ad1198ad35122d5b9f7cc27daccfca05855293f85f7b7e"
+        }
+      ],
+      "first_seen_filled_parents": [],
+      "continuing_filled_parents": [
+        "0xb8d728f462a218ec981d1213405197b2981979742e2fe2da09c46930bb955ae1"
+      ],
+      "roles": [
+        "taker"
+      ]
+    },
+    {
+      "age": 261,
+      "net_before": "497.989851",
+      "net_after": "995.989851",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 498,
+          "price": 0.89,
+          "usdcSize": 443.22,
+          "transactionHash": "0xa2a73ae35b7cfdfd36d2f79dc1842025c3c8f5002a07c0aab2b53d2aa7e682d9"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x0aeea8289157ae4d3a7bc7eaafcc162f7758247d89205cba3bc01fdbb5777ff1"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    }
+  ],
+  "1790069700_G": [
+    {
+      "age": 15,
+      "net_before": "0",
+      "net_after": "5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.34,
+          "usdcSize": 1.7,
+          "transactionHash": "0xb49d0ea920f0ad70edafd28ef85c3512e217a8c9be346a21089d1f80d4854bad"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x37f7418043175c6d41fa100fefc9a264b7468bf1d85579253ad86d62207de3f4"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 18,
+      "net_before": "5",
+      "net_after": "0",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.68,
+          "usdcSize": 3.4,
+          "transactionHash": "0x3987da924c3c5c511b45171d546ac41d1544c434782b53e6d7f39f669ccb0690"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x1ad1fa4514b9e572e543ac7664656c6d84d087794782dc8ac612babf30c4042d"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 19,
+      "net_before": "0",
+      "net_after": "5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.27,
+          "usdcSize": 1.35,
+          "transactionHash": "0x512157b5a720b7296ed701e47de23fd00bcded0a8341be8fe5f2f5d35e65c2eb"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xd3c920d2825075ad2a91798b939b864496654c95f80b997a63d882a1dc2904cc"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 31,
+      "net_before": "5",
+      "net_after": "0",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.79,
+          "usdcSize": 3.95,
+          "transactionHash": "0xb3473fc156235730c4ea6a1f5962a0b74012b7f3f40d4c08fec8859e7cee2648"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x1a6cb0d5d10d301d07379ea1e7ac00bb85428d6d9089311272f2fd0a5cc2fc77"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 45,
+      "net_before": "0",
+      "net_after": "5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.3,
+          "usdcSize": 1.5,
+          "transactionHash": "0x059a9718a62f4a55d7adf4d70cec6155f281382958d8005d0cb956073693c60f"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x5c62d1754cad06e21bd66398d2226bfd1ab48abd3bd7a39ba361ded9362ecc34"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 85,
+      "net_before": "5",
+      "net_after": "0",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.53,
+          "usdcSize": 2.65,
+          "transactionHash": "0x1f9565c752ecf1740f5e11afdc2130a7338f846ede6daf1d72fac945ff53bb99"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x8014e8c208df43affb4751237d30234f4bdb632805aa4082d19cbc47995fd79a"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 87,
+      "net_before": "0",
+      "net_after": "5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.47,
+          "usdcSize": 2.35,
+          "transactionHash": "0x74f2c361fe1e08ec4660800859e11e25a2e3508c65542866709e31669c303fa0"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x2e1576637dbe3b39aaa408485944be18e953cc674362b63c0c1ea85d8a9141cb"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    }
+  ],
+  "1790069700_Bosona": [
+    {
+      "age": 205,
+      "net_before": "0",
+      "net_after": "-166",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 166,
+          "price": 0.27,
+          "usdcSize": 44.82,
+          "transactionHash": "0xf3e92d75b501a8811da70216d099340fc597688984667d537adf0adc05bd2581"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x61257f8641635225ca6e82365996aa2bd34d7f5eeedc15e6fe222110a91f4656"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    }
+  ],
+  "1790070000_G": [
+    {
+      "age": 9,
+      "net_before": "0",
+      "net_after": "-5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.56,
+          "usdcSize": 2.8,
+          "transactionHash": "0x7fc489e360e5f922f312510812d8297fdeb079116c0989b005df104a524f1951"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xf4720dcaa27ec33e137d5d21369cfaeb3ca00cf3f7a31bb5e4b1441ff6f22825"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 15,
+      "net_before": "-5",
+      "net_after": "0",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.49,
+          "usdcSize": 2.45,
+          "transactionHash": "0xac608503f8ee958ed8e014f1bc6cf32a16120f934e37c9b023199bd003c967b5"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x6ed504aa98cffb905e1d1930127e2272ebec9f37eeaa106179d63f592a4bd350"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 24,
+      "net_before": "0",
+      "net_after": "5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.47,
+          "usdcSize": 2.35,
+          "transactionHash": "0xacd0cc1893d16fce4d2c69dd384a29360976362d4d69019a4befdd8407dcda14"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xa472c98be5676ef895524b971f6bc06bc25676ce7b21d6218f7887cd90b1e4ca"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 28,
+      "net_before": "5",
+      "net_after": "0",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.57,
+          "usdcSize": 2.85,
+          "transactionHash": "0x14672c27698b6d45da2ed2e3dccec3ce3e0c1c4e126c4cb5273a4c5ae8012266"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x386f0214e7635b3e101119c48744321c1cd9b7eb1ef34e9bd151d7d89b1cece2"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 39,
+      "net_before": "0",
+      "net_after": "5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.41,
+          "usdcSize": 2.05,
+          "transactionHash": "0x058992c0802a23261625697378ca06bf04767ea67305e5036c7ffc93a4b73bb6"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xa26e97d6d259f48268f5ebcd72a9325e1d105c4a8b7013a88c69f30112bfb191"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 51,
+      "net_before": "5",
+      "net_after": "0",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.58,
+          "usdcSize": 2.9,
+          "transactionHash": "0xdb06e19fba30264f5e5d9961f155cb548041458f203be4bfc9be68efe1236209"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xb9b67eb3a0cf2f5ed1df272027c69810ee51f66f25b8946805a00b569342c848"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 57,
+      "net_before": "0",
+      "net_after": "5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.48,
+          "usdcSize": 2.4,
+          "transactionHash": "0xc7665bfd66ada9214b8e1a3f0e1d6b6c5007a2aa105ff58758896992540ad418"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x58d2804e5d9f8e65c4019a00e19b98b9f20079059c8e93c0460c2d0fa9dc2f1b"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 73,
+      "net_before": "5",
+      "net_after": "0",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.29,
+          "usdcSize": 1.45,
+          "transactionHash": "0xd4ad85be7bf506fea04c2f4474d68ba9a460fc7ddb35d79a6020ee8df581de98"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x0364be90d78694438f026fcf3e6f9ce0d11968cfd56c940f2b775d6fbae7b168"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    }
+  ],
+  "1790070000_Bosona": [
+    {
+      "age": 163,
+      "net_before": "0",
+      "net_after": "122.56",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 32,
+          "price": 0.85,
+          "usdcSize": 27.2,
+          "transactionHash": "0xecda4cb4c8de572afbf6382d9476eb4f717ccfd2028876175096a1b8f6a3b648"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 13,
+          "price": 0.85,
+          "usdcSize": 11.05,
+          "transactionHash": "0x1c713b4adcfbf8726d23029d1ef2e6cbf408c5a2229b3405ef2cde3c2e6d6f2a"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.85,
+          "usdcSize": 4.25,
+          "transactionHash": "0x793cc38e3842dd6c889d6b33951cc603329d7a6800ab6eab4ad27f6c14d67a6f"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 13,
+          "price": 0.85,
+          "usdcSize": 11.05,
+          "transactionHash": "0xe02b33201b8630b0e20cdcad28f1815e507918d5b7069a1dc84f6565df1cd4a9"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 13,
+          "price": 0.85,
+          "usdcSize": 11.05,
+          "transactionHash": "0xb6c91e1d2b8e3989e280acad0a3c0622faf3decbd5e4efacd121eb9ce2e07bd1"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.85,
+          "usdcSize": 4.25,
+          "transactionHash": "0x994aa61bb9bf7e4cf6ab44701bfbe5af37ab5fe0ffb5a6f2f131b63ceba536e1"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 28.56,
+          "price": 0.85,
+          "usdcSize": 24.276,
+          "transactionHash": "0xd07ed32c6e0460e59702aa3ffa37b4ac6b084f2fa733e7c1546d374273a49228"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 13,
+          "price": 0.85,
+          "usdcSize": 11.05,
+          "transactionHash": "0x01a8c740aa8933de5857b93da6cd432ffae3d7b2bb7d0941ce64847a7c249c16"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x41d231c85408f1064fb686260528c2f0a88309ec049351b8819bf8cdb93f62a3"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 225,
+      "net_before": "122.56",
+      "net_after": "0.00",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 122.56,
+          "price": 0.03,
+          "usdcSize": 3.6768,
+          "transactionHash": "0x1fa16556bf1b2bbc51887f0189164c7ba13b6b743278d7109d2c36c549b245e0"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x6f77d86ba649a2ce2735513b4b69a26268fca5174f6964ad93e16e96b575741c"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    }
+  ],
+  "1790070300_G": [
+    {
+      "age": 10,
+      "net_before": "0",
+      "net_after": "-5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.6,
+          "usdcSize": 3,
+          "transactionHash": "0x946046769ee477b4b2cf16d0e3439657d64f4214f81875fb46563904fe418f5c"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x0b05db0ba9a50a36427db9a5f3920514f0e3057fa2e358675eed21090c5508b2"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 13,
+      "net_before": "-5",
+      "net_after": "-1.79",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 3.21,
+          "price": 0.44,
+          "usdcSize": 1.4124,
+          "transactionHash": "0x7c4ec5d7a4ea5608eef5fbb4394e8c50f0d3d29a9c65dfabf05ed10b5746aff0"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xccf6d2f83144e89aca15c9de1a12bd841e03832ffa2a3f39b12d36b8c09356d9"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 15,
+      "net_before": "-1.79",
+      "net_after": "-0.004285",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 1.785715,
+          "price": 0.440000224,
+          "usdcSize": 0.785715,
+          "transactionHash": "0xf5179d7962afc1cdc9d95acacfb8e30fcc2a972deddcb0e6d9d2a513f92d2fb7"
+        }
+      ],
+      "first_seen_filled_parents": [],
+      "continuing_filled_parents": [
+        "0xccf6d2f83144e89aca15c9de1a12bd841e03832ffa2a3f39b12d36b8c09356d9"
+      ],
+      "roles": [
+        "maker"
+      ]
+    }
+  ],
+  "1790070300_Bosona": [
+    {
+      "age": 34,
+      "net_before": "0",
+      "net_after": "249",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 249,
+          "price": 0.57,
+          "usdcSize": 141.93,
+          "transactionHash": "0x4695e8fc3d02a10d304a4db821c625dcec58fb85b2f2cb2c7bde616ab3a10f66"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xfa5609f139a0144d67d29e29c596f5e5707eb32c11833634eda8c7f97dbe7ac8"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 73,
+      "net_before": "249",
+      "net_after": "243.959183",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 2.040817,
+          "price": 0.5100001617,
+          "usdcSize": 1.040817,
+          "transactionHash": "0x425ee50b6fc1a3fc584673d4bb9fdf49f18d048b9461aaafd69ff3a258d54cac"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 3,
+          "price": 0.51,
+          "usdcSize": 1.53,
+          "transactionHash": "0xb5cd2a6fb273573304102c27be3bc7affe79c87bad7e89b88e5451e1da74316a"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x8a19ba16ff4af47328db1e09a76bc51f93ca3a3eb84b993b4f26db89bf801a54"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 75,
+      "net_before": "243.959183",
+      "net_after": "43.559387",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 200.399796,
+          "price": 0.5100000002,
+          "usdcSize": 102.203896,
+          "transactionHash": "0x4a2075f4552e92a51e2a1c2875b6752912e3d91aab8f6a303107ecc230b90557"
+        }
+      ],
+      "first_seen_filled_parents": [],
+      "continuing_filled_parents": [
+        "0x8a19ba16ff4af47328db1e09a76bc51f93ca3a3eb84b993b4f26db89bf801a54"
+      ],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 154,
+      "net_before": "43.559387",
+      "net_after": "20.559387",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 23,
+          "price": 0.41,
+          "usdcSize": 9.43,
+          "transactionHash": "0xa1723f0a02004981c15e11efcf70a5669e60c14920929bf00fe8be203d935c2b"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xbf47d5b20c1332da20ab04995eaa59e51ed0c2925000a7d12db7cb2fc62628a5"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 249,
+      "net_before": "20.559387",
+      "net_after": "0.009387",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 20.55,
+          "price": 0.91,
+          "usdcSize": 18.7005,
+          "transactionHash": "0xd2dd4535375bd88318a1796156ba06e68ea5ea44bcd1541ca87f1d5c2f44ac87"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xf44c615138e8e70d83458ebe9b4a275b64f4f2ecbb551e2df5f3ad259580637e"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    }
+  ],
+  "1790070600_G": [
+    {
+      "age": 12,
+      "net_before": "0",
+      "net_after": "-5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.46,
+          "usdcSize": 2.3,
+          "transactionHash": "0xc2ef4206c01ba43459de44993035ef6bb701b553e697dcf9264a8f90b754dd8c"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x0222d5229a58f2fed75956ead7f44292142e1ee4f219e64cc2ced8f456cf7c59"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 27,
+      "net_before": "-5",
+      "net_after": "0",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.55,
+          "usdcSize": 2.75,
+          "transactionHash": "0x53c499a2dff03ccb20be75267269a23730293695f189858ad61843afcee0e16b"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x16b1c90095935d1aa85309f05a22e4c1959152149b8aa5401516805ae2b5c36a"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 28,
+      "net_before": "0",
+      "net_after": "-4.990371",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 4.62,
+          "price": 0.46,
+          "usdcSize": 2.1252,
+          "transactionHash": "0xfd48e0589f94778a91be3b16e2afbe95a13ba835d03a0ecfeaff1b82b5c9a499"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 0.370371,
+          "price": 0.460000918,
+          "usdcSize": 0.170371,
+          "transactionHash": "0x32870da966f0c4e99bec3d04cc2fc2860831cdb41211bb71cdd2839d57446622"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x880870c3438a8e19295f10dc7153e493caf1b0536b7be49c978c0ef025dad8f9"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    }
+  ],
+  "1790070600_Bosona": [],
+  "1790070900_G": [
+    {
+      "age": 9,
+      "net_before": "0",
+      "net_after": "5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.35,
+          "usdcSize": 1.75,
+          "transactionHash": "0x74a405ed4e3d7e75f6e2e8c7e2f7e30fc611b75b2e6a374eb32e19fec6c950f1"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x8c7a994ab344ee8a9be05ab44d02e9f4219fa8dbecb1d83b487025d131c9b6a3"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 10,
+      "net_before": "5",
+      "net_after": "0",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.66,
+          "usdcSize": 3.3,
+          "transactionHash": "0xeba4a0ae38d812e6715b18727ce68f9914c1c073ce44343f9e1e7bace3bf4a91"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xfa6abc8f491b60e1012fe087d7d2f7459b450df12acdb995d79f2d842af33a55"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 13,
+      "net_before": "0",
+      "net_after": "0",
+      "same_second_order_unknown": true,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.52,
+          "usdcSize": 2.6,
+          "transactionHash": "0xefb9a05d7127701223fdaff1f50dcad837990e35abd88d195c0b9189f2641fdf"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.45,
+          "usdcSize": 2.25,
+          "transactionHash": "0x6392ef27276f6785541ea4cc4fff04bc8aa0fe60b0e8e4302b062c3fb778c445"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x850c0467ef175c1f0ab4fea7170dcab59daa9a26ca8ee662b208b49b18393926",
+        "0xe1259372c19d1488cad013d91bf209e7b2168e1c6beac9e960df8ed71886ac2e"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 16,
+      "net_before": "0",
+      "net_after": "5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.41,
+          "usdcSize": 2.05,
+          "transactionHash": "0xcc1e3f89e5ec54cafe3f0e2a01cd0edb54497825c44f77f2a904fbe7d884ea5d"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x727790a184b3bdfec3ad92591e972d806d172f45cd6e23576309eb9b45817703"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 21,
+      "net_before": "5",
+      "net_after": "0",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.58,
+          "usdcSize": 2.9,
+          "transactionHash": "0xdd49504ee38fff57eca537d06d7be70d7d88b5ddd9ef4ee58634dc678df5e8e5"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x9b8248f647af60f512b7106dcc9fb0079462516374d37cc025953d360200a46c"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 24,
+      "net_before": "0",
+      "net_after": "5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.48,
+          "usdcSize": 2.4,
+          "transactionHash": "0x8c1ba22e166858319fa493ed003f846b88edeb6bf2f6032e07eb15f0163f485b"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x721e8f1982e45a21dbd57f499778824338150c45cc5f25b45f7d56e39f2b1362"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    }
+  ],
+  "1790070900_Bosona": [
+    {
+      "age": 132,
+      "net_before": "0",
+      "net_after": "-3",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 3,
+          "price": 0.63,
+          "usdcSize": 1.89,
+          "transactionHash": "0xd84f5cf7ec9aad4d078dcc92e2a2f8b924252aa0a41eaa282e10b91d6f2e04c4"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xa55004844035abf83447853a8368bfddb8111ebda0fa8db74260a839746aec73"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 166,
+      "net_before": "-3",
+      "net_after": "4.16",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5.16,
+          "price": 0.24,
+          "usdcSize": 1.2384,
+          "transactionHash": "0x6eb61ffee82906d900fd12372c9e4ef62a265d35f735b26a5854e9911a5c2b68"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 2,
+          "price": 0.24,
+          "usdcSize": 0.48,
+          "transactionHash": "0x47e2b80b302296c65df51feb8374b39f9d522aabd394e3975f893692f1062f31"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xbee11a32fad77d74f5df3b538d194cc004f8218e07259e0b9a421929af530305"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 219,
+      "net_before": "4.16",
+      "net_after": "226.410001",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 208.333334,
+          "price": 0.8800000004,
+          "usdcSize": 183.333334,
+          "transactionHash": "0x47014f0e898b30228d17ecf45ec8dc07f6fe01bf3d6de67c7a4e26fcc99abcad"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 13.916667,
+          "price": 0.8800000029,
+          "usdcSize": 12.246667,
+          "transactionHash": "0x8da87e3b6307e66f45a669edc302d8d2447cc72a369b4312032cf6e7b2e1d3c8"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x40302b40e45235cbce3400d26df6f51b18bbfe29066f8b9637a71832dc56fecf"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 246,
+      "net_before": "226.410001",
+      "net_after": "376.410001",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 50,
+          "price": 0.95,
+          "usdcSize": 47.5,
+          "transactionHash": "0xb4aa10147f0e8706fd500d01660ba392f1f18e6e6e7c8345c34ab52a3f577fb1"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 50,
+          "price": 0.95,
+          "usdcSize": 47.5,
+          "transactionHash": "0xb11b785afa1ccb6993380c4fabdd6a4fbfaddb75b878940903c21baade7f9f8f"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 50,
+          "price": 0.95,
+          "usdcSize": 47.5,
+          "transactionHash": "0x98e65b4b28a8fdd8d0ac48f0919a6a87a96e447d3e5e8f66211b61ffbad001bf"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x8653e4caf6a80c36fd3f6c18207f7931ef10f41eb3896dc4953b0688b3a88682"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 247,
+      "net_before": "376.410001",
+      "net_after": "477.410001",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 50,
+          "price": 0.95,
+          "usdcSize": 47.5,
+          "transactionHash": "0xca8ff044d0bec7d36e95a2c6894dc860e4a20006680a930da90fc730c46d94fd"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 50,
+          "price": 0.95,
+          "usdcSize": 47.5,
+          "transactionHash": "0xc4703fd77928f6064e5dcf2aa11462f2f1ce86185e0aeb85cce81001c6e12169"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 1,
+          "price": 0.95,
+          "usdcSize": 0.95,
+          "transactionHash": "0x50222787ac13cc5b67c8d4fc43b012c66d3ae6e117af427e46667e46cfda490d"
+        }
+      ],
+      "first_seen_filled_parents": [],
+      "continuing_filled_parents": [
+        "0x8653e4caf6a80c36fd3f6c18207f7931ef10f41eb3896dc4953b0688b3a88682"
+      ],
+      "roles": [
+        "maker"
+      ]
+    }
+  ],
+  "1790073300_G": [
+    {
+      "age": 10,
+      "net_before": "0",
+      "net_after": "-5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.35,
+          "usdcSize": 1.75,
+          "transactionHash": "0xec05299e902c5b09b6d1f68eee965da464a82c5e858be191a718e2e8f9e9c692"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x5208587891f18ded2870164d469e39236e98808de34d09f03f1dddae098abddd"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 25,
+      "net_before": "-5",
+      "net_after": "0",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.72,
+          "usdcSize": 3.6,
+          "transactionHash": "0x7282c8ae53a4192e018d18c334a0d482ce161cf3a8a6e64c59802604f26994d7"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x860a5f40b2ae9e714bc211fc390d936551dc412d54b819ec4ffa1729d76af125"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 27,
+      "net_before": "0",
+      "net_after": "-5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.27,
+          "usdcSize": 1.35,
+          "transactionHash": "0x5b04a36e441f000fb9a637cc6089a1c680e5ffd9a776d380dc88becf85d7f634"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x3327b9a8b9581ce3c98be2f2a82f411f99af8ecc2b298564bb68064debce5b3b"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 31,
+      "net_before": "-5",
+      "net_after": "0",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.68,
+          "usdcSize": 3.4,
+          "transactionHash": "0x0be8a265134742d1c15822874775d9e070ef7eb8a5486f25a7a1b65c87de6eb9"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x2396aedbef400d8fdd5289890bb0abbe9c95b5275ba1a8cf4a7de38e68110799"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 36,
+      "net_before": "0",
+      "net_after": "-5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.39,
+          "usdcSize": 1.95,
+          "transactionHash": "0x335d0bd3168c6ab45ab0c4132e1037e1ad498d22fc8b6175d7e1f65654c9db89"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xd158d6fa6dd62846fb405a80dc0842bc5276b31ed7d797774ee4a390a67dc25f"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 43,
+      "net_before": "-5",
+      "net_after": "0",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.59,
+          "usdcSize": 2.95,
+          "transactionHash": "0x310e2a7d3c647ac8c13e58c29cc8175fff934f8aac78f0b274a344698f458faf"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xe75b9874e3a73f774b9828fce9d9dc667ce7d168d809d474f921c244c5f5df3d"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 48,
+      "net_before": "0",
+      "net_after": "-5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.4,
+          "usdcSize": 2,
+          "transactionHash": "0x80f1d0f02ac36f8b17b08ae659d6af2b78105156d1dd3c5495c8a38787f2a4e6"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x74b8d3acb1087aa76eb8e51b96b15214a4dfc518c7c24dfece691bf70ec9c655"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    }
+  ],
+  "1790073300_Bosona": [
+    {
+      "age": 3,
+      "net_before": "0",
+      "net_after": "-112.195381",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 20.923077,
+          "price": 0.3500000024,
+          "usdcSize": 7.323077,
+          "transactionHash": "0x9df2e86b97dc0485d2a37a4291705045a8257677a3db4b4745fb3431f1af38e0"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 18.503077,
+          "price": 0.3500000027,
+          "usdcSize": 6.476077,
+          "transactionHash": "0x9f91ebab1c2b8a10e90000cfa611fa21659c1412dca08e9ff3b57a1d0b5a66ba"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 10.461537,
+          "price": 0.3500000048,
+          "usdcSize": 3.661538,
+          "transactionHash": "0x4a0c2d36a3d91e38d0973ce59c9b60b10001cb4a7159e6b92120c9e4bacb8b7d"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 10.461537,
+          "price": 0.3500000048,
+          "usdcSize": 3.661538,
+          "transactionHash": "0x27b046784bc3e27a2106e3c3b4130ad842cfb615dce1d08ee528e7e6f8497549"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 10.307691,
+          "price": 0.3500000146,
+          "usdcSize": 3.607692,
+          "transactionHash": "0xaff659ad1976ebf84eb96e255b51ca5e2345c1b9fb334bf06cd7ad27bc4ba54a"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 20.923077,
+          "price": 0.3500000024,
+          "usdcSize": 7.323077,
+          "transactionHash": "0xcccd17e9748bd5eb994c91ee6ce14ab50918a596e8973bc422010a91715e62be"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 20.615385,
+          "price": 0.3500000121,
+          "usdcSize": 7.215385,
+          "transactionHash": "0x8303e692bf9104052a72bdbe32a02a344873e334b418576f7ba159e1e39fc8a1"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x8844bd91c16d6d4c7d5a404f249f2a260fde75a46f141fa169f5b144d3d7f2a3"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 114,
+      "net_before": "-112.195381",
+      "net_after": "-102.195381",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 10,
+          "price": 0.87,
+          "usdcSize": 8.7,
+          "transactionHash": "0x5ab16b3c6822962cdbf0adf397cc614f0980a00c0cd0a4f0d2cf3f3e2455f30e"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x7137e35010cf50caeb1ceaad3ac9864724b585326777d0e3d15074a2278c2751"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 126,
+      "net_before": "-102.195381",
+      "net_after": "-0.005381",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 102.19,
+          "price": 0.89,
+          "usdcSize": 91.6494,
+          "transactionHash": "0x85555d67588dc0624649aa376f965257eae7192261f02f9b34aaf3e5eb9410f8"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x6ad56d91c1444d36dbf329a1d48044901f6402fca23b819383948989a92fb94b"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "taker"
+      ]
+    }
+  ],
+  "1790073600_G": [
+    {
+      "age": 10,
+      "net_before": "0",
+      "net_after": "-5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.31,
+          "usdcSize": 1.55,
+          "transactionHash": "0x1fca248c32f645380b322e73cb47f4e25d0a9ae4633d383f3cdc76bcad62f4a4"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xb994cfb85eb502f62060bb75a38aa8f6e2482e88d08469fecaa3e83c2c7deedc"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 13,
+      "net_before": "-5",
+      "net_after": "-2.32",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 2.68,
+          "price": 0.69,
+          "usdcSize": 1.8492,
+          "transactionHash": "0x0832363612d6a032d673b49d9d5d7251320507d967c732b504e5d46096974d81"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xd85ed6a3828505927d6b5e3dc039b4d888a440144edae9ce016638ed43105902"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    }
+  ],
+  "1790073600_Bosona": [
+    {
+      "age": 75,
+      "net_before": "0",
+      "net_after": "-5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.34,
+          "usdcSize": 1.7,
+          "transactionHash": "0x628ecadd92f17e431e20482a879a245109807d8b5ccf3b6d538bd1a119f2839d"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xdf00b55a3d8e71192dde996ac11900bd14dc253da2a003eb220be49ba4d86053"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 76,
+      "net_before": "-5",
+      "net_after": "-9",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 4,
+          "price": 0.31,
+          "usdcSize": 1.24,
+          "transactionHash": "0x42f69c4eb942ad44aaa73db289f03fd3196c1bd1ada0576bb84461840d377ede"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xa657951325f81076286e937619bdb7173d3042db30c315d752298f7a8d9e0990"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 85,
+      "net_before": "-9",
+      "net_after": "-10.449274",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 1.449274,
+          "price": 0.3100000414,
+          "usdcSize": 0.449275,
+          "transactionHash": "0x08c028b95611121059239939cd0e2cc8c505b71d49d3cb858bd4a89a3b90a941"
+        }
+      ],
+      "first_seen_filled_parents": [],
+      "continuing_filled_parents": [
+        "0xa657951325f81076286e937619bdb7173d3042db30c315d752298f7a8d9e0990"
+      ],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 189,
+      "net_before": "-10.449274",
+      "net_after": "-0.009274",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 10.44,
+          "price": 0.64,
+          "usdcSize": 6.84997,
+          "transactionHash": "0xe4fd74e4a53ba96fd70ca1d764d3bcb7d68e1861ea648c8130ee08d01f5e028c"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x0175cd21c02c4f1720d72e9c8d76d4cdd9a8edbfa4f8317c1eea19b1c5788b46"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "taker"
+      ]
+    }
+  ],
+  "1790074800_G": [
+    {
+      "age": 9,
+      "net_before": "0",
+      "net_after": "-5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.47,
+          "usdcSize": 2.35,
+          "transactionHash": "0xe45c1fe2b13ba381707de961acf196d743e7732b0b5ae4c2f1b3a27d57231f5f"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xd0ca50a5824714878f0230d63299c559d3f0d7de467a2103ae2565265e9db824"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 18,
+      "net_before": "-5",
+      "net_after": "0",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.62,
+          "usdcSize": 3.1,
+          "transactionHash": "0x9190882160d69a38e1b2eb4483b0416c4f17922abcd77d236edd27ae6ea84360"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x0ec9513ec9cc00112afd7be08b0988c465d12e157ee18611d6610171591dae4c"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 19,
+      "net_before": "0",
+      "net_after": "-5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.39,
+          "usdcSize": 1.95,
+          "transactionHash": "0x916bbe95dab84c25b7f9d4c9ec81287cb6eeecb56af642eac55ae62dc6725764"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x67989c6851a9c50bf74ec32f868cf5337b954e6acb723916b2f2bdd67fb91718"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 27,
+      "net_before": "-5",
+      "net_after": "0",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.7,
+          "usdcSize": 3.5,
+          "transactionHash": "0x73833bfff988137129eb45481176c0eb4837b8224ac9047abd2b10ed33e91bb1"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x767a0bcc6c86f1c9e7b5959cc2c045216a8ae390cfb75293dad274ff7fe67177"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 28,
+      "net_before": "0",
+      "net_after": "-5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.28,
+          "usdcSize": 1.4,
+          "transactionHash": "0xa3cb916f7b4656e9f39f4c8e95bcd1cf7081f7850402b2bbe3befc20632d5ec4"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x38b293338cb4e2b3ef78d0636d3ebed41a224d07ef7cecb9aaa71283e4f67dc3"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    }
+  ],
+  "1790074800_Bosona": [
+    {
+      "age": 201,
+      "net_before": "0",
+      "net_after": "-249",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 249,
+          "price": 0.11,
+          "usdcSize": 27.39,
+          "transactionHash": "0x8f14b085fec23cfe38d9d6a0420b33a56f69381100e572f1760f05caf34eaf03"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x9b8afab31c56ae7805cc24f9b35eb48e55a97dd17e3f6c999d832921921193e1"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    }
+  ],
+  "1790075100_G": [],
+  "1790075100_Bosona": [
+    {
+      "age": 82,
+      "net_before": "0",
+      "net_after": "3.465605",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 3.465605,
+          "price": 0.1800000289,
+          "usdcSize": 0.623809,
+          "transactionHash": "0x3d9e1838784f1dbd696b9643c717df16baeba9526ab568f5fc0166a32de6d896"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x99a304d8cc02c336afa6e9e09008bb970f7dfcc249edb93665b0705ce625b79a"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 88,
+      "net_before": "3.465605",
+      "net_after": "31.243383",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 27.777778,
+          "price": 0.2800000058,
+          "usdcSize": 7.777778,
+          "transactionHash": "0x1748b133ea01180c4a1e4b94caf6100810bb1372db94f8f45277bc5a015e4424"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xb6e9454e4f4c71e1248a77ef8a6d5e148e54a2f3e62f996d10afc01ca5110609"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 90,
+      "net_before": "31.243383",
+      "net_after": "43.382272",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 6.75,
+          "price": 0.28,
+          "usdcSize": 1.89,
+          "transactionHash": "0x5d3a204c5bf6bbcd617568551b744bc0f6d096f476646fc3be19a17215ad7ee6"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 2,
+          "price": 0.28,
+          "usdcSize": 0.56,
+          "transactionHash": "0xf22a19741a72d76e4bbad84edd56c678f0f79bd4b8953c391e4d0ba96b4ade72"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 2,
+          "price": 0.28,
+          "usdcSize": 0.56,
+          "transactionHash": "0xcd0763db34350d0e7f32862199c0f9ce092541e4c46ad9fc8f071a5395b8f301"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 1.388889,
+          "price": 0.2800000576,
+          "usdcSize": 0.388889,
+          "transactionHash": "0x13bf4800a6a1e667a5eb3015a52c457b64313a2c38d2bbc4b692e98290546edc"
+        }
+      ],
+      "first_seen_filled_parents": [],
+      "continuing_filled_parents": [
+        "0xb6e9454e4f4c71e1248a77ef8a6d5e148e54a2f3e62f996d10afc01ca5110609"
+      ],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 96,
+      "net_before": "43.382272",
+      "net_after": "67.491161",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 22.72,
+          "price": 0.28,
+          "usdcSize": 6.3616,
+          "transactionHash": "0x7fc11fab95f4683d5f4f8c44e50dddc78cbb706c47f251a5c3c9311a89788929"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 1.388889,
+          "price": 0.2800000576,
+          "usdcSize": 0.388889,
+          "transactionHash": "0x392d584efefd4bc33ba3b19b07a4d07a610454f889b6b574dc1439fa99b5b130"
+        }
+      ],
+      "first_seen_filled_parents": [],
+      "continuing_filled_parents": [
+        "0xb6e9454e4f4c71e1248a77ef8a6d5e148e54a2f3e62f996d10afc01ca5110609"
+      ],
+      "roles": [
+        "maker"
+      ]
+    }
+  ],
+  "1790075400_G": [
+    {
+      "age": 9,
+      "net_before": "0",
+      "net_after": "-5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.71,
+          "usdcSize": 3.55,
+          "transactionHash": "0xc57c9c6b918d533eb24c416e41316f2daceea306843292e6495c418dfb236705"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x07f3a721f367df607d30ed42777a1dd40a7216b778cb161dac51330a2425cfd6"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 18,
+      "net_before": "-5",
+      "net_after": "0",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.34,
+          "usdcSize": 1.7,
+          "transactionHash": "0x061d205031b502ac74d33490c59d335b60351a25110ac04a57dc2c18ae2566b9"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x710303fcbb267041e250e5ac1a9ca10ec01409d77892eed8a0f01c2106742c7d"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 19,
+      "net_before": "0",
+      "net_after": "5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.33,
+          "usdcSize": 1.65,
+          "transactionHash": "0x82e36397a0b82462804eaf13f513908ccc2510ae2fcbc8bd8fd80742a6bddab6"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x090dbfd6657690c079072dac3db0331319962adaa7168c60f581fb665bb52e83"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 31,
+      "net_before": "5",
+      "net_after": "0",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.82,
+          "usdcSize": 4.1,
+          "transactionHash": "0xa23149bf33963f89c15e2dea5e25ee3c65656afa5bb5617a7f6334486d0ca51a"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xfff9ea8d92941fbfcd714d8545f24b04a3d0832cdea0c1acfbc5c7cf52f8cda5"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 33,
+      "net_before": "0",
+      "net_after": "5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.19,
+          "usdcSize": 0.95,
+          "transactionHash": "0xe7a2b11a365d2a9ba4bb227b74001adfb5be346b177d0a399f5c61021ad57492"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x5cb031068060e963f3853d882575a67a83b26ceb2b6cbf1d28e615618749f3fb"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 60,
+      "net_before": "5",
+      "net_after": "0",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.46,
+          "usdcSize": 2.3,
+          "transactionHash": "0xeb4664a1acc49ae86e3d2c7e407b5aaf3482f539c5db42e46670f4490a999d52"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xdfcb16e4d0e9140c83e475442a853934dd9180019a566d605f90d994ab387654"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 63,
+      "net_before": "0",
+      "net_after": "5",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 5,
+          "price": 0.6,
+          "usdcSize": 3,
+          "transactionHash": "0x7c05b199f40829ae9b543aeaaee29ff506c28580a91bdcb154b1ea5fddad6bef"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x551c418c915a08d908b1ec3b9e61a7396bcb5440b7cb874ae55494281dc0f074"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 255,
+      "net_before": "5",
+      "net_after": "0",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5,
+          "price": 0.01,
+          "usdcSize": 0.05,
+          "transactionHash": "0x94535390e5b6b72035119b2afa41cf775148e4644622e22a0e24416295410624"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x217e03407d998fd0248049e7cbbcfe9097a112db34dbae9ac47c068a93d1779f"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    }
+  ],
+  "1790075400_Bosona": [
+    {
+      "age": 24,
+      "net_before": "0",
+      "net_after": "2",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 0,
+          "size": 2,
+          "price": 0.26,
+          "usdcSize": 0.52,
+          "transactionHash": "0x61e39b82317639e926265ab10fa127ec7c79dd97e8324577b2e2d325c131de38"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xd417d789c6ddfae962d93bac38df6e512e9618d697ef15096377b18aea362bb7"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 108,
+      "net_before": "2",
+      "net_after": "-52",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 54,
+          "price": 0.36,
+          "usdcSize": 19.44,
+          "transactionHash": "0x77263b046bba251d6e56bd09de1c48951d2ad196ebbb6d47140dfaaf2969683a"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x9a05cb5b86ab2f2f8eb227fe8236f7e710ba46b1364570cbb47f521e80d54bea"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 111,
+      "net_before": "-52",
+      "net_after": "-58.311514",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 6.311514,
+          "price": 0.340000038,
+          "usdcSize": 2.145915,
+          "transactionHash": "0x2e52bf9d8c8fe49e21f9d93897ec12a2642d0d493fefb4384cac40eaeb58fb0f"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x777eb41ddd7937d832feffc98fa23ad333d6a0794cb6cafc12639c1fcd5a4976"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 120,
+      "net_before": "-58.311514",
+      "net_after": "-94.791514",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 6.08,
+          "price": 0.4,
+          "usdcSize": 2.432,
+          "transactionHash": "0x522ceb1d4263847be99d31ead8397728b6bac3a2403f14c2a34f9186d972ee28"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 30.4,
+          "price": 0.4,
+          "usdcSize": 12.16,
+          "transactionHash": "0xc72ca314e6c68c4419c0fdf69acfdb8464ba443e57163f9214d455e906ed3382"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x1ec312a0674210edf5f4a43c6de11da45fa71210005756ef71c23537c280e60a"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 121,
+      "net_before": "-94.791514",
+      "net_after": "-128.051514",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 33.26,
+          "price": 0.4,
+          "usdcSize": 13.304,
+          "transactionHash": "0xededd9861d09c19b9d34f02e2e125066cf9db0511490b4bad7bb06f8b35c5b5b"
+        }
+      ],
+      "first_seen_filled_parents": [],
+      "continuing_filled_parents": [
+        "0x1ec312a0674210edf5f4a43c6de11da45fa71210005756ef71c23537c280e60a"
+      ],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 132,
+      "net_before": "-128.051514",
+      "net_after": "-157.051514",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 29,
+          "price": 0.16,
+          "usdcSize": 4.64,
+          "transactionHash": "0x99fecc272070326ee2c9eac23ce285e1f6ff0510b5695ce7f1866baa0335ca4f"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xe7d55a7c6d8fa0bd7b10721c0690af3a23c91b74490a727fbb9f597888e9194c"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 133,
+      "net_before": "-157.051514",
+      "net_after": "-235.587220",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 10.773806,
+          "price": 0.1600000037,
+          "usdcSize": 1.723809,
+          "transactionHash": "0x2494dd5a3f2fd9ba04aed1a6530a639b2b76c20dd684c18c4aa0db3f285c9eb5"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 38,
+          "price": 0.16,
+          "usdcSize": 6.08,
+          "transactionHash": "0xfa9540e2896991109cf1193c22720908ffb9e42220cd969a80fe4430cca13878"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 29.7619,
+          "price": 0.16,
+          "usdcSize": 4.761904,
+          "transactionHash": "0xf0e8b8415e0e41bedfce0ec3126e4c478a795e397d0063bbffd018c35b55b832"
+        }
+      ],
+      "first_seen_filled_parents": [],
+      "continuing_filled_parents": [
+        "0xe7d55a7c6d8fa0bd7b10721c0690af3a23c91b74490a727fbb9f597888e9194c"
+      ],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 147,
+      "net_before": "-235.587220",
+      "net_after": "-299.299720",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 63.7125,
+          "price": 0.2,
+          "usdcSize": 12.7425,
+          "transactionHash": "0x6d48039168c61ce96e7025f436ca802f8005dc57b90c5ff9d90dccd526267d03"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x0ed2fbd00dc9488ae094722aa85d766fa948d45bc9b5463eadd62ee0b276c541"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 186,
+      "net_before": "-299.299720",
+      "net_after": "-301.897120",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 1.2987,
+          "price": 0.23,
+          "usdcSize": 0.298701,
+          "transactionHash": "0x7e92bab4231f9c640f4c289c2bbee43863334ca147bb02036440600be590b8c1"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 1.2987,
+          "price": 0.23,
+          "usdcSize": 0.298701,
+          "transactionHash": "0xa06571cdfea5d0299f86ab965a678407072125ca61afabecaa508abaa70b37bd"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xee9da41713230382b48b76c2d294df9142d0a1c5fd3d8fe412d606dbd29e50d3"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 189,
+      "net_before": "-301.897120",
+      "net_after": "-307.153214",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 2,
+          "price": 0.18,
+          "usdcSize": 0.36,
+          "transactionHash": "0xa9e29b29354cce9bb4b33ea1f877f8eccd8d7122f67a2714d6dfafd781392010"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 3.256094,
+          "price": 0.1800000246,
+          "usdcSize": 0.586097,
+          "transactionHash": "0x3b6978e5ae4f25da5a91df237a1a5d358dab05ebc47dbb73ab729f015fb9691d"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x0b01742be52a37267a39fac4acc04d1894dfcb80814774c9d27ca1066a036f5a"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 193,
+      "net_before": "-307.153214",
+      "net_after": "-356.689916",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 0.865823,
+          "price": 0.2100001963,
+          "usdcSize": 0.181823,
+          "transactionHash": "0xf33a7dc37e450c8d0ad9f62e200e03fb5434a95619c7d1ae091a99d1b04e5f88"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 31.645566,
+          "price": 0.2100000044,
+          "usdcSize": 6.645569,
+          "transactionHash": "0x485a3b8080b229f20e105df1d65497db428ee913b96d17d0e343652c748b8c92"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 6.329114,
+          "price": 0.2100000095,
+          "usdcSize": 1.329114,
+          "transactionHash": "0xe917e8239af5dddf67bf75f02a5d6b8661f783ab254e39db5c71f4f656d9c8fc"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5.632909,
+          "price": 0.2100000195,
+          "usdcSize": 1.182911,
+          "transactionHash": "0xdaff020e7d654d3dc74096c35ae671a81889cf8a3a81556c4b8149c9adc68a5b"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 5.06329,
+          "price": 0.2100000198,
+          "usdcSize": 1.063291,
+          "transactionHash": "0x2e6b61f07691fb2044f2726c1ccb3c41cbffff27a33e543f0a78395d76863f33"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xd0371924ade28721151c40312e74e4dd6db8968eab3d5c651e28fbb41fec4ff8"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 195,
+      "net_before": "-356.689916",
+      "net_after": "-430.487382",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 73.797466,
+          "price": 0.2100000019,
+          "usdcSize": 15.497468,
+          "transactionHash": "0x036d90388f0ec7f30693f37842d37164204d6236d54f5422ddb5699c74111551"
+        }
+      ],
+      "first_seen_filled_parents": [],
+      "continuing_filled_parents": [
+        "0xd0371924ade28721151c40312e74e4dd6db8968eab3d5c651e28fbb41fec4ff8"
+      ],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 196,
+      "net_before": "-430.487382",
+      "net_after": "-448.487382",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 6,
+          "price": 0.24,
+          "usdcSize": 1.44,
+          "transactionHash": "0x58e7f9e22225d60d9f27ef9ee9f722b36d61a237f26ac120b12a7d051dd38457"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 6,
+          "price": 0.24,
+          "usdcSize": 1.44,
+          "transactionHash": "0x1399589f16a7c963683a03708480b72c087218ea94f0b7318ab749cbd7d5d28d"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 6,
+          "price": 0.24,
+          "usdcSize": 1.44,
+          "transactionHash": "0x7fff8b8a889c80c6c3d43111db1f8aa60edc2fb50a388f9248b8152e25b34cb5"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x48d544bacd0693a9e3eeb9f178888cd9d9de69eb6c125856672f27f824a374f1"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 202,
+      "net_before": "-448.487382",
+      "net_after": "-913.957971",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 415.470589,
+          "price": 0.4900000009,
+          "usdcSize": 203.580589,
+          "transactionHash": "0x15904eaa11b5cf095e65587f5205f7e88aa258e8db9c123ae6554205c424ac03"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 50,
+          "price": 0.49,
+          "usdcSize": 24.5,
+          "transactionHash": "0x4c28ebf62a14a78024ac40393405d6fb5e2338850a2e0d30e97631d27ba8392f"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0xd7df8f89e9b8eaa684060f9a014d959679df176c1486397430bdc46c3daf9a0d"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    },
+    {
+      "age": 204,
+      "net_before": "-913.957971",
+      "net_after": "-1044.705815",
+      "same_second_order_unknown": false,
+      "trades": [
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 102.2,
+          "price": 0.49,
+          "usdcSize": 50.078,
+          "transactionHash": "0xda6bff8347e8351bebaa6d4fa7a2aad1bc93fb9a5a72aa43f1b52faa228c990e"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 19.607844,
+          "price": 0.4900000224,
+          "usdcSize": 9.607844,
+          "transactionHash": "0x77559d44b8217bc344c8bf90ac2170224464dc41b645f28200ce1fbe89616e57"
+        },
+        {
+          "side": "BUY",
+          "outcomeIndex": 1,
+          "size": 8.94,
+          "price": 0.49,
+          "usdcSize": 4.3806,
+          "transactionHash": "0x9f7bfc8ba271444a46ff838359a084dc72385f193541aa94eeac41c2e7d09465"
+        }
+      ],
+      "first_seen_filled_parents": [
+        "0x3bc5b0c87e0a0d66b11aa84af7ce954187ed014d3b55221c0cfe95876eba4b7b"
+      ],
+      "continuing_filled_parents": [],
+      "roles": [
+        "maker"
+      ]
+    }
+  ]
+}

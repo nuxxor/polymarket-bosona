@@ -1,0 +1,5 @@
+{
+  "old_incident_replay": "FAIL_EXPECTED",
+  "old_returncode": 1,
+  "failure": "TypeError: unsupported operand type(s) for +: 'NoneType' and 'float'"
+}

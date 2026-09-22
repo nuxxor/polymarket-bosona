@@ -1,0 +1,241 @@
+{
+  "as_of_ms": 1790075906915,
+  "events": [
+    {
+      "t": "10:56:03",
+      "utc_ms": 1790074563464,
+      "k": "maruziyet",
+      "acik_pozisyon": 0,
+      "pazar": 0,
+      "dis_risk": 0.0
+    },
+    {
+      "t": "10:56:05",
+      "utc_ms": 1790074565589,
+      "k": "maruziyet",
+      "acik_pozisyon": 0,
+      "pazar": 0,
+      "dis_risk": 0.0
+    },
+    {
+      "t": "10:56:07",
+      "utc_ms": 1790074567622,
+      "k": "mutabakat",
+      "pnl": -6.43,
+      "yerel": -6.43,
+      "etkin": -6.43,
+      "pencere": 67,
+      "risk": 0.0,
+      "emir": 716,
+      "dolum": 67,
+      "pay": 1088.1,
+      "geri_cekilen": 0,
+      "red": 146
+    },
+    {
+      "t": "11:00:26",
+      "utc_ms": 1790074826866,
+      "k": "maruziyet",
+      "acik_pozisyon": 0,
+      "pazar": 0,
+      "dis_risk": 0.0
+    },
+    {
+      "t": "11:00:29",
+      "utc_ms": 1790074829001,
+      "k": "mutabakat_GECERSIZ",
+      "offset": 0,
+      "deneme": 1,
+      "hata": "ValueError",
+      "islem": {
+        "transactionHash": "0x73833bfff988137129eb45481176c0eb4837b8224ac9047abd2b10ed33e91bb1",
+        "asset": "37022419443467705675654237926977926069140228595927999847825276976993381879316",
+        "slug": "btc-updown-5m-1790074800",
+        "size": 5,
+        "price": 0.7,
+        "outcomeIndex": 999,
+        "side": "BUY"
+      }
+    },
+    {
+      "t": "11:00:35",
+      "utc_ms": 1790074835030,
+      "k": "mutabakat_GECERSIZ",
+      "offset": 0,
+      "deneme": 2,
+      "hata": "ValueError",
+      "islem": {
+        "transactionHash": "0x73833bfff988137129eb45481176c0eb4837b8224ac9047abd2b10ed33e91bb1",
+        "asset": "37022419443467705675654237926977926069140228595927999847825276976993381879316",
+        "slug": "btc-updown-5m-1790074800",
+        "size": 5,
+        "price": 0.7,
+        "outcomeIndex": 999,
+        "side": "BUY"
+      }
+    },
+    {
+      "t": "11:00:47",
+      "utc_ms": 1790074847067,
+      "k": "mutabakat_GECERSIZ",
+      "offset": 0,
+      "deneme": 3,
+      "hata": "ValueError",
+      "islem": {
+        "transactionHash": "0x73833bfff988137129eb45481176c0eb4837b8224ac9047abd2b10ed33e91bb1",
+        "asset": "37022419443467705675654237926977926069140228595927999847825276976993381879316",
+        "slug": "btc-updown-5m-1790074800",
+        "size": 5,
+        "price": 0.7,
+        "outcomeIndex": 999,
+        "side": "BUY"
+      }
+    },
+    {
+      "t": "11:00:47",
+      "utc_ms": 1790074847067,
+      "k": "mutabakat_hata",
+      "err": "ValueError"
+    },
+    {
+      "t": "11:04:47",
+      "utc_ms": 1790075087225,
+      "k": "maruziyet",
+      "acik_pozisyon": 0,
+      "pazar": 0,
+      "dis_risk": 0.0
+    },
+    {
+      "t": "11:04:49",
+      "utc_ms": 1790075089255,
+      "k": "mutabakat_GECERSIZ",
+      "offset": 0,
+      "deneme": 1,
+      "hata": "ValueError",
+      "islem": {
+        "transactionHash": "0x73833bfff988137129eb45481176c0eb4837b8224ac9047abd2b10ed33e91bb1",
+        "asset": "37022419443467705675654237926977926069140228595927999847825276976993381879316",
+        "slug": "btc-updown-5m-1790074800",
+        "size": 5,
+        "price": 0.7,
+        "outcomeIndex": 999,
+        "side": "BUY"
+      }
+    },
+    {
+      "t": "11:04:55",
+      "utc_ms": 1790075095299,
+      "k": "mutabakat_GECERSIZ",
+      "offset": 0,
+      "deneme": 2,
+      "hata": "ValueError",
+      "islem": {
+        "transactionHash": "0x73833bfff988137129eb45481176c0eb4837b8224ac9047abd2b10ed33e91bb1",
+        "asset": "37022419443467705675654237926977926069140228595927999847825276976993381879316",
+        "slug": "btc-updown-5m-1790074800",
+        "size": 5,
+        "price": 0.7,
+        "outcomeIndex": 999,
+        "side": "BUY"
+      }
+    },
+    {
+      "t": "11:05:07",
+      "utc_ms": 1790075107339,
+      "k": "mutabakat_GECERSIZ",
+      "offset": 0,
+      "deneme": 3,
+      "hata": "ValueError",
+      "islem": {
+        "transactionHash": "0x73833bfff988137129eb45481176c0eb4837b8224ac9047abd2b10ed33e91bb1",
+        "asset": "37022419443467705675654237926977926069140228595927999847825276976993381879316",
+        "slug": "btc-updown-5m-1790074800",
+        "size": 5,
+        "price": 0.7,
+        "outcomeIndex": 999,
+        "side": "BUY"
+      }
+    },
+    {
+      "t": "11:05:07",
+      "utc_ms": 1790075107339,
+      "k": "mutabakat_hata",
+      "err": "ValueError"
+    },
+    {
+      "t": "11:05:07",
+      "utc_ms": 1790075107840,
+      "k": "atla_mutabakat",
+      "S": 1790075100
+    },
+    {
+      "t": "11:09:07",
+      "utc_ms": 1790075347070,
+      "k": "maruziyet",
+      "acik_pozisyon": 0,
+      "pazar": 0,
+      "dis_risk": 0.0
+    },
+    {
+      "t": "11:09:09",
+      "utc_ms": 1790075349225,
+      "k": "mutabakat",
+      "pnl": -8.73,
+      "yerel": -8.73,
+      "etkin": -8.73,
+      "pencere": 68,
+      "risk": 0.0,
+      "emir": 726,
+      "dolum": 68,
+      "pay": 1113.1,
+      "geri_cekilen": 0,
+      "red": 146
+    },
+    {
+      "t": "11:13:27",
+      "utc_ms": 1790075607477,
+      "k": "maruziyet",
+      "acik_pozisyon": 0,
+      "pazar": 0,
+      "dis_risk": 0.0
+    },
+    {
+      "t": "11:13:29",
+      "utc_ms": 1790075609512,
+      "k": "mutabakat",
+      "pnl": -8.73,
+      "yerel": -8.73,
+      "etkin": -8.73,
+      "pencere": 68,
+      "risk": 2.25,
+      "emir": 744,
+      "dolum": 68,
+      "pay": 1113.1,
+      "geri_cekilen": 0,
+      "red": 146
+    },
+    {
+      "t": "11:17:47",
+      "utc_ms": 1790075867378,
+      "k": "maruziyet",
+      "acik_pozisyon": 0,
+      "pazar": 0,
+      "dis_risk": 0.0
+    },
+    {
+      "t": "11:17:49",
+      "utc_ms": 1790075869558,
+      "k": "mutabakat",
+      "pnl": -8.73,
+      "yerel": -8.73,
+      "etkin": -8.73,
+      "pencere": 68,
+      "risk": 2.05,
+      "emir": 755,
+      "dolum": 68,
+      "pay": 1113.1,
+      "geri_cekilen": 0,
+      "red": 146
+    }
+  ]
+}

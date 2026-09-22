@@ -1,0 +1,4287 @@
+{
+  "as_of_ms": 1790075754136,
+  "cut": "/home/ubuntu/g1-comparison-20260922/cuts/1790075698",
+  "rows": [
+    {
+      "S": 1790069400,
+      "cohort": "historical",
+      "actors": {
+        "G": {
+          "status": "resolved",
+          "winner": 0,
+          "pnl": "5.1500",
+          "trade_terminal_payoffs": [
+            "5.1500",
+            "0.1500"
+          ],
+          "trade_only_floor": "0.1500",
+          "trade_only_net": "5.00",
+          "cash": "5.1500",
+          "remaining": [
+            "0",
+            "20.00"
+          ],
+          "bought": [
+            "25",
+            "20.00"
+          ],
+          "buy_cash": "19.8500",
+          "trade_records": 11,
+          "first_fill_age": 12,
+          "first_sides": [
+            0
+          ],
+          "cash_vwap": [
+            "0.396",
+            "0.4975"
+          ],
+          "reducing_buy_shares": "20.00",
+          "increasing_buy_shares": "25.00",
+          "ambiguous_buy_shares": "0",
+          "net_path": [
+            {
+              "age": 12,
+              "net": "5"
+            },
+            {
+              "age": 15,
+              "net": "0.00"
+            },
+            {
+              "age": 16,
+              "net": "-3.32"
+            },
+            {
+              "age": 18,
+              "net": "-5.00"
+            },
+            {
+              "age": 22,
+              "net": "0.00"
+            },
+            {
+              "age": 24,
+              "net": "-5.00"
+            },
+            {
+              "age": 28,
+              "net": "5.00"
+            },
+            {
+              "age": 69,
+              "net": "0.00"
+            },
+            {
+              "age": 240,
+              "net": "5.00"
+            }
+          ],
+          "redeem_missing_asset": 1,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075699029,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 11,
+            "parents": 9,
+            "split_parents": 2,
+            "decoded_shares": "45.00",
+            "maker_shares": "45.00",
+            "taker_shares": 0,
+            "parent_shares": [
+              "5",
+              "5.00",
+              "5.00",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5"
+            ],
+            "rows": [
+              {
+                "order_hash": "0xe223045cb09ccd8cedb93d30f64be90a27d320e29a34b63a55d2243c26c38693",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x0cb038487586d1119b165466072e9baf666f3a90",
+                "tx": "0x984563514a668cdc33d05049443978cdd0e428e5bb6014241c89f0563e70fc67",
+                "log_index": 564,
+                "role": "maker",
+                "side": 0,
+                "token": "43245741685338967775494001044638086907828893223550934765465269591593307982866",
+                "qty": 5000000,
+                "cash_cost": 2250000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069412
+                ]
+              },
+              {
+                "order_hash": "0x71b6bc3bbfa60b778694851bb9e58e58767a601aac3a890171aa87ed69874edf",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x2ed94d1a460379292d2e3b46f2cf7d94b033f271",
+                "tx": "0xe1eae3b9040bbc079c3d178e23a569f518a7a7471f4b31989db2c862cc6de834",
+                "log_index": 344,
+                "role": "maker",
+                "side": 0,
+                "token": "20431123046862310515088793353306547065159965579167849225916745792071704283697",
+                "qty": 4920000,
+                "cash_cost": 2607600,
+                "fee": 0,
+                "public_seconds": [
+                  1790069415
+                ]
+              },
+              {
+                "order_hash": "0x71b6bc3bbfa60b778694851bb9e58e58767a601aac3a890171aa87ed69874edf",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xf0dd3e1579d55b2a26b69242104d902e411fba35",
+                "tx": "0x2f5deeebdf63fa9968986ae7098d7db5db2bafd5af1fe8fcdcf5466b83ec354c",
+                "log_index": 551,
+                "role": "maker",
+                "side": 0,
+                "token": "20431123046862310515088793353306547065159965579167849225916745792071704283697",
+                "qty": 80000,
+                "cash_cost": 42400,
+                "fee": 0,
+                "public_seconds": [
+                  1790069415
+                ]
+              },
+              {
+                "order_hash": "0x7c9780779d0bceed6b6189754b403c81f3ce87920522196b9fccdfabb65c9da4",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x1f19c48aee80ec95396d91f0d21ac249b8a7f57a",
+                "tx": "0x8b64b8c5c31f15bb72d92f504d8340cb2b9c85b7ece80f2c5bca825f012d4b2f",
+                "log_index": 744,
+                "role": "maker",
+                "side": 0,
+                "token": "20431123046862310515088793353306547065159965579167849225916745792071704283697",
+                "qty": 3320000,
+                "cash_cost": 1660000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069416
+                ]
+              },
+              {
+                "order_hash": "0x7c9780779d0bceed6b6189754b403c81f3ce87920522196b9fccdfabb65c9da4",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x56a04c831074c4d535a2760692282114aa5271af",
+                "tx": "0xd8f1df70aa6d05d3b37771e26cf5d87fae2c4a7c2fdc8128f7c6ccd130d5687e",
+                "log_index": 329,
+                "role": "maker",
+                "side": 0,
+                "token": "20431123046862310515088793353306547065159965579167849225916745792071704283697",
+                "qty": 1680000,
+                "cash_cost": 840000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069418
+                ]
+              },
+              {
+                "order_hash": "0xf4ac1234920c0d3b4c6e9cd293f4156f8ae62f2e15b4ac007091cd9347018e87",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x0cb038487586d1119b165466072e9baf666f3a90",
+                "tx": "0xeff55ded67b3440b7ec0d227e13e36544eda716169dd27dbcd15558c4e2d6fef",
+                "log_index": 553,
+                "role": "maker",
+                "side": 0,
+                "token": "43245741685338967775494001044638086907828893223550934765465269591593307982866",
+                "qty": 5000000,
+                "cash_cost": 1950000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069422
+                ]
+              },
+              {
+                "order_hash": "0xb7c0446a7aef112200f741e708fbbd86e35d17ab86dedb4a66da8a5b75cd4e5e",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x92eb5422f6c1cf64ca626625ff6e7b59bcec81e4",
+                "tx": "0x935fb5f8f4d661244da4a7d3ae878ce6159ac3d5e15bc0260d103076880506b4",
+                "log_index": 586,
+                "role": "maker",
+                "side": 0,
+                "token": "20431123046862310515088793353306547065159965579167849225916745792071704283697",
+                "qty": 5000000,
+                "cash_cost": 3000000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069424
+                ]
+              },
+              {
+                "order_hash": "0x97e6bf306cfd1f0730eef12d84cd29efd6936c0cda2d83461bd126bb136dc3f1",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x0ca4e9d27ff826a109ecbf74754fb66b93f277a6",
+                "tx": "0x290d41f234383058e6d20a4f0cdd1e8d532befcb3a49b8330ee86403a1be21f2",
+                "log_index": 640,
+                "role": "maker",
+                "side": 0,
+                "token": "43245741685338967775494001044638086907828893223550934765465269591593307982866",
+                "qty": 5000000,
+                "cash_cost": 2100000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069428
+                ]
+              },
+              {
+                "order_hash": "0x3d0c1962bf8705dbb5415a6274ed31d7d557869f9bebbaa17b537be2d07a7d29",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x56a04c831074c4d535a2760692282114aa5271af",
+                "tx": "0xaa6f4ee1016a79cbdb1aa3d656946f3bf4cbbc90951a5b73b46249433cb4b840",
+                "log_index": 935,
+                "role": "maker",
+                "side": 0,
+                "token": "43245741685338967775494001044638086907828893223550934765465269591593307982866",
+                "qty": 5000000,
+                "cash_cost": 2050000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069428
+                ]
+              },
+              {
+                "order_hash": "0xad2585447b4418a5119f52d8d9d3b417ceba0279c10dae5818b125d8b827a503",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xd30d67e84ab372cde3990cb2500177f4a3104f6d",
+                "tx": "0xdf2d5bf937ee3ce40e03e679f874ed7401797f5b1efc51d41d134f54f24eb04e",
+                "log_index": 763,
+                "role": "maker",
+                "side": 0,
+                "token": "20431123046862310515088793353306547065159965579167849225916745792071704283697",
+                "qty": 5000000,
+                "cash_cost": 1800000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069469
+                ]
+              },
+              {
+                "order_hash": "0x1227a5d1316ed79fbd1b827fc93cab58045af5b5da00ea28d4d54f2c1bb97979",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x355d54242b1fcbc20e6bb3f8d94a1ccaaf5d1c50",
+                "tx": "0xed8443c19285ceee3d87fd77e1e77ff2392d7a7b2b3a68b8c10ea2552471c0e2",
+                "log_index": 388,
+                "role": "maker",
+                "side": 0,
+                "token": "43245741685338967775494001044638086907828893223550934765465269591593307982866",
+                "qty": 5000000,
+                "cash_cost": 1550000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069640
+                ]
+              }
+            ]
+          },
+          "assigned_by_bot": true,
+          "local_bought": [
+            "25.0",
+            "20.0"
+          ],
+          "quantities_match_local": true,
+          "local_accepted_parents": 11,
+          "local_filled_parents": 9
+        },
+        "Bosona": {
+          "status": "resolved",
+          "winner": 0,
+          "pnl": "247.699360",
+          "trade_terminal_payoffs": [
+            "247.699360",
+            "-748.290491"
+          ],
+          "trade_only_floor": "-748.290491",
+          "trade_only_net": "995.989851",
+          "cash": "247.699360",
+          "remaining": [
+            "0.00000",
+            "0.000000"
+          ],
+          "bought": [
+            "1266.30561",
+            "270.315759"
+          ],
+          "buy_cash": "1018.606250",
+          "trade_records": 14,
+          "first_fill_age": 195,
+          "first_sides": [
+            1
+          ],
+          "cash_vwap": [
+            "0.7149357807867565239642269294",
+            "0.4190619903888030442205924073"
+          ],
+          "reducing_buy_shares": "0",
+          "increasing_buy_shares": "946.42",
+          "ambiguous_buy_shares": "590.201369",
+          "net_path": [
+            {
+              "age": 195,
+              "net": "-110.44"
+            },
+            {
+              "age": 235,
+              "net": "160.009851"
+            },
+            {
+              "age": 237,
+              "net": "497.989851"
+            },
+            {
+              "age": 261,
+              "net": "995.989851"
+            }
+          ],
+          "redeem_missing_asset": 0,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075703233,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 14,
+            "parents": 6,
+            "split_parents": 2,
+            "decoded_shares": "1536.621369",
+            "maker_shares": "928.331369",
+            "taker_shares": "608.29",
+            "parent_shares": [
+              "110.44",
+              "134.788039",
+              "25.08772",
+              "270.31",
+              "497.99561",
+              "498"
+            ],
+            "rows": [
+              {
+                "order_hash": "0xddb88c52d7745abfd72d74e7aa2aa54f4411f02acc1443787d4e03c593435f48",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x74f3f314a9851fc64e44bb7ac66056aacf6b0e45",
+                "tx": "0x8a95b19ab7911d2883dd2d2a3df53fe349577776f8038cc90d883f776bd0ade8",
+                "log_index": 349,
+                "role": "maker",
+                "side": 0,
+                "token": "20431123046862310515088793353306547065159965579167849225916745792071704283697",
+                "qty": 110440000,
+                "cash_cost": 36445200,
+                "fee": 0,
+                "public_seconds": [
+                  1790069595
+                ]
+              },
+              {
+                "order_hash": "0x95edac27706d04c8d0dd28ac0ddd91e41d9726240a124d352ff1efffaf02cca5",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x3048d65321be3497164cdfc2996f94f98a2e7537",
+                "tx": "0x421cd38182a8cc32bc2dc430ed0e5925b62d343d4115412a42643da96dcf603d",
+                "log_index": 1272,
+                "role": "maker",
+                "side": 0,
+                "token": "20431123046862310515088793353306547065159965579167849225916745792071704283697",
+                "qty": 100000000,
+                "cash_cost": 49000000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069635
+                ]
+              },
+              {
+                "order_hash": "0x95edac27706d04c8d0dd28ac0ddd91e41d9726240a124d352ff1efffaf02cca5",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xb23aeebbf80d8b1a6bce1f9f8bd7ebe0d541755c",
+                "tx": "0x40e8572870409b69e809f63405abd9a620b5ee0753026cb7fc2f618a3a65b100",
+                "log_index": 1335,
+                "role": "maker",
+                "side": 0,
+                "token": "20431123046862310515088793353306547065159965579167849225916745792071704283697",
+                "qty": 9690000,
+                "cash_cost": 4748100,
+                "fee": 0,
+                "public_seconds": [
+                  1790069635
+                ]
+              },
+              {
+                "order_hash": "0xb1df19aa44b1783d72be33df3f9f9315745e4f0d39552b089ea837b35225e029",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x1dd63a243da7c85c56fd88dd81a77fc144378577",
+                "tx": "0x2e12ae37ca97df5bd67eccea64af2608e5a61c67585bcc0ecc2a66ccd5c978b2",
+                "log_index": 1438,
+                "role": "maker",
+                "side": 0,
+                "token": "20431123046862310515088793353306547065159965579167849225916745792071704283697",
+                "qty": 25087720,
+                "cash_cost": 10787720,
+                "fee": 0,
+                "public_seconds": [
+                  1790069635
+                ]
+              },
+              {
+                "order_hash": "0x95edac27706d04c8d0dd28ac0ddd91e41d9726240a124d352ff1efffaf02cca5",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x355d54242b1fcbc20e6bb3f8d94a1ccaaf5d1c50",
+                "tx": "0x7ad55417908a235f85ff51e1ec748b125701dc8146bf01b68116b281cad64d2d",
+                "log_index": 1510,
+                "role": "maker",
+                "side": 0,
+                "token": "20431123046862310515088793353306547065159965579167849225916745792071704283697",
+                "qty": 11372548,
+                "cash_cost": 5572549,
+                "fee": 0,
+                "public_seconds": [
+                  1790069635
+                ]
+              },
+              {
+                "order_hash": "0x95edac27706d04c8d0dd28ac0ddd91e41d9726240a124d352ff1efffaf02cca5",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xae59f706105ee2d91fdb17de6008633a3c71af71",
+                "tx": "0xc6fc70be514b1ae84793be0292ee1f9805d067d25092fca413794fccdb90c6fb",
+                "log_index": 1530,
+                "role": "maker",
+                "side": 0,
+                "token": "20431123046862310515088793353306547065159965579167849225916745792071704283697",
+                "qty": 13725491,
+                "cash_cost": 6725491,
+                "fee": 0,
+                "public_seconds": [
+                  1790069635
+                ]
+              },
+              {
+                "order_hash": "0x835bcabdb68903310ed5bffb5c200149212a019b9f3127dead70b9fe5528c211",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xe111180000d2663c0091e4f400237545b87b996b",
+                "tx": "0x04be5d913d66e915178ab8d8f0d241c33b1e118524733dd7351fa113930bdb1a",
+                "log_index": 2408,
+                "role": "taker",
+                "side": 0,
+                "token": "43245741685338967775494001044638086907828893223550934765465269591593307982866",
+                "qty": 270310000,
+                "cash_cost": 166727200,
+                "fee": 4541200,
+                "public_seconds": [
+                  1790069635
+                ]
+              },
+              {
+                "order_hash": "0xb8d728f462a218ec981d1213405197b2981979742e2fe2da09c46930bb955ae1",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x097080e9d124d2412ef7bbb379b475022f41e369",
+                "tx": "0x8c1a599116465ebc5ab2e247c3e882523e6e29d44386a108bb3748a2219b00e1",
+                "log_index": 2511,
+                "role": "maker",
+                "side": 0,
+                "token": "43245741685338967775494001044638086907828893223550934765465269591593307982866",
+                "qty": 5975610,
+                "cash_cost": 3525610,
+                "fee": 0,
+                "public_seconds": [
+                  1790069635
+                ]
+              },
+              {
+                "order_hash": "0xb8d728f462a218ec981d1213405197b2981979742e2fe2da09c46930bb955ae1",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xf898c9739a8b6ae576f4efcadf7241a64b49fffc",
+                "tx": "0x16cb11149c8d9568a368786333a6096a6dbe3f30906ca057456d190fe3121966",
+                "log_index": 2531,
+                "role": "maker",
+                "side": 0,
+                "token": "43245741685338967775494001044638086907828893223550934765465269591593307982866",
+                "qty": 40000000,
+                "cash_cost": 23600000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069635
+                ]
+              },
+              {
+                "order_hash": "0xb8d728f462a218ec981d1213405197b2981979742e2fe2da09c46930bb955ae1",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xcb7cec22f03dec4b8cabee902143c46645b3b03f",
+                "tx": "0x9fce036da8395de2f3d2cffdf30420c96934a0e4beaf4d6e41047cce50250c28",
+                "log_index": 2551,
+                "role": "maker",
+                "side": 0,
+                "token": "43245741685338967775494001044638086907828893223550934765465269591593307982866",
+                "qty": 42520000,
+                "cash_cost": 25086800,
+                "fee": 0,
+                "public_seconds": [
+                  1790069635
+                ]
+              },
+              {
+                "order_hash": "0xb8d728f462a218ec981d1213405197b2981979742e2fe2da09c46930bb955ae1",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xc53375ff94e96100f2b30a4b5775db35218d69a9",
+                "tx": "0xb2acd8636d9808c4785c67f3e86353f9b6c36a12c46e58f3fbb32c85b72dd3b3",
+                "log_index": 2603,
+                "role": "maker",
+                "side": 0,
+                "token": "43245741685338967775494001044638086907828893223550934765465269591593307982866",
+                "qty": 31520000,
+                "cash_cost": 18596800,
+                "fee": 0,
+                "public_seconds": [
+                  1790069635
+                ]
+              },
+              {
+                "order_hash": "0xb8d728f462a218ec981d1213405197b2981979742e2fe2da09c46930bb955ae1",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x77b2a944f148660b76691f10819892d002c524bd",
+                "tx": "0xd50f5fd6dd0fca3abc376b84d5286d278753270703d4be2fcd88b9e772515010",
+                "log_index": 3131,
+                "role": "maker",
+                "side": 0,
+                "token": "43245741685338967775494001044638086907828893223550934765465269591593307982866",
+                "qty": 40000000,
+                "cash_cost": 23600000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069635
+                ]
+              },
+              {
+                "order_hash": "0xb8d728f462a218ec981d1213405197b2981979742e2fe2da09c46930bb955ae1",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xe111180000d2663c0091e4f400237545b87b996b",
+                "tx": "0x298f161adeab6d9925ad1198ad35122d5b9f7cc27daccfca05855293f85f7b7e",
+                "log_index": 814,
+                "role": "taker",
+                "side": 0,
+                "token": "43245741685338967775494001044638086907828893223550934765465269591593307982866",
+                "qty": 337980000,
+                "cash_cost": 200970780,
+                "fee": 5772380,
+                "public_seconds": [
+                  1790069637
+                ]
+              },
+              {
+                "order_hash": "0x0aeea8289157ae4d3a7bc7eaafcc162f7758247d89205cba3bc01fdbb5777ff1",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x6c8b154ddf173760ac3916af5504d1f1f2ae645c",
+                "tx": "0xa2a73ae35b7cfdfd36d2f79dc1842025c3c8f5002a07c0aab2b53d2aa7e682d9",
+                "log_index": 1246,
+                "role": "maker",
+                "side": 0,
+                "token": "43245741685338967775494001044638086907828893223550934765465269591593307982866",
+                "qty": 498000000,
+                "cash_cost": 443220000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069661
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "S": 1790069700,
+      "cohort": "historical",
+      "actors": {
+        "G": {
+          "status": "resolved",
+          "winner": 0,
+          "pnl": "3.10",
+          "trade_terminal_payoffs": [
+            "3.10",
+            "-1.90"
+          ],
+          "trade_only_floor": "-1.90",
+          "trade_only_net": "5",
+          "cash": "3.10",
+          "remaining": [
+            "0",
+            "15"
+          ],
+          "bought": [
+            "20",
+            "15"
+          ],
+          "buy_cash": "16.90",
+          "trade_records": 7,
+          "first_fill_age": 15,
+          "first_sides": [
+            0
+          ],
+          "cash_vwap": [
+            "0.345",
+            "0.6666666666666666666666666667"
+          ],
+          "reducing_buy_shares": "15",
+          "increasing_buy_shares": "20",
+          "ambiguous_buy_shares": "0",
+          "net_path": [
+            {
+              "age": 15,
+              "net": "5"
+            },
+            {
+              "age": 18,
+              "net": "0"
+            },
+            {
+              "age": 19,
+              "net": "5"
+            },
+            {
+              "age": 31,
+              "net": "0"
+            },
+            {
+              "age": 45,
+              "net": "5"
+            },
+            {
+              "age": 85,
+              "net": "0"
+            },
+            {
+              "age": 87,
+              "net": "5"
+            }
+          ],
+          "redeem_missing_asset": 1,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075704582,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 7,
+            "parents": 7,
+            "split_parents": 0,
+            "decoded_shares": "35",
+            "maker_shares": "35",
+            "taker_shares": 0,
+            "parent_shares": [
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5"
+            ],
+            "rows": [
+              {
+                "order_hash": "0x37f7418043175c6d41fa100fefc9a264b7468bf1d85579253ad86d62207de3f4",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x21f4c1a1be34a39a7bc20985df4b7e5a39fb691d",
+                "tx": "0xb49d0ea920f0ad70edafd28ef85c3512e217a8c9be346a21089d1f80d4854bad",
+                "log_index": 364,
+                "role": "maker",
+                "side": 0,
+                "token": "39633206405798750894469483230526739515851252316399942672036268436716582098797",
+                "qty": 5000000,
+                "cash_cost": 1700000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069715
+                ]
+              },
+              {
+                "order_hash": "0x1ad1fa4514b9e572e543ac7664656c6d84d087794782dc8ac612babf30c4042d",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xbf665efa3774bffb6598e88e4f05996fcf48b064",
+                "tx": "0x3987da924c3c5c511b45171d546ac41d1544c434782b53e6d7f39f669ccb0690",
+                "log_index": 781,
+                "role": "maker",
+                "side": 0,
+                "token": "28461457836615847791757416242267451678155578623668393780328909205771299591458",
+                "qty": 5000000,
+                "cash_cost": 3400000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069718
+                ]
+              },
+              {
+                "order_hash": "0xd3c920d2825075ad2a91798b939b864496654c95f80b997a63d882a1dc2904cc",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x75cc3b63a2f2423085e10706c78b494017b93ce1",
+                "tx": "0x512157b5a720b7296ed701e47de23fd00bcded0a8341be8fe5f2f5d35e65c2eb",
+                "log_index": 881,
+                "role": "maker",
+                "side": 0,
+                "token": "39633206405798750894469483230526739515851252316399942672036268436716582098797",
+                "qty": 5000000,
+                "cash_cost": 1350000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069719
+                ]
+              },
+              {
+                "order_hash": "0x1a6cb0d5d10d301d07379ea1e7ac00bb85428d6d9089311272f2fd0a5cc2fc77",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xc2b00b670009fffca62ec190cc0560ef46c9e756",
+                "tx": "0xb3473fc156235730c4ea6a1f5962a0b74012b7f3f40d4c08fec8859e7cee2648",
+                "log_index": 2347,
+                "role": "maker",
+                "side": 0,
+                "token": "28461457836615847791757416242267451678155578623668393780328909205771299591458",
+                "qty": 5000000,
+                "cash_cost": 3950000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069731
+                ]
+              },
+              {
+                "order_hash": "0x5c62d1754cad06e21bd66398d2226bfd1ab48abd3bd7a39ba361ded9362ecc34",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xe237c7130a87e24092b8e03325f62faa75462dda",
+                "tx": "0x059a9718a62f4a55d7adf4d70cec6155f281382958d8005d0cb956073693c60f",
+                "log_index": 161,
+                "role": "maker",
+                "side": 0,
+                "token": "39633206405798750894469483230526739515851252316399942672036268436716582098797",
+                "qty": 5000000,
+                "cash_cost": 1500000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069745
+                ]
+              },
+              {
+                "order_hash": "0x8014e8c208df43affb4751237d30234f4bdb632805aa4082d19cbc47995fd79a",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xdf7930e89a2c47560165331863c31deca0733dcd",
+                "tx": "0x1f9565c752ecf1740f5e11afdc2130a7338f846ede6daf1d72fac945ff53bb99",
+                "log_index": 370,
+                "role": "maker",
+                "side": 0,
+                "token": "28461457836615847791757416242267451678155578623668393780328909205771299591458",
+                "qty": 5000000,
+                "cash_cost": 2650000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069785
+                ]
+              },
+              {
+                "order_hash": "0x2e1576637dbe3b39aaa408485944be18e953cc674362b63c0c1ea85d8a9141cb",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x3048d65321be3497164cdfc2996f94f98a2e7537",
+                "tx": "0x74f2c361fe1e08ec4660800859e11e25a2e3508c65542866709e31669c303fa0",
+                "log_index": 367,
+                "role": "maker",
+                "side": 0,
+                "token": "39633206405798750894469483230526739515851252316399942672036268436716582098797",
+                "qty": 5000000,
+                "cash_cost": 2350000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069787
+                ]
+              }
+            ]
+          },
+          "assigned_by_bot": true,
+          "local_bought": [
+            "20.0",
+            "15.0"
+          ],
+          "quantities_match_local": true,
+          "local_accepted_parents": 14,
+          "local_filled_parents": 7
+        },
+        "Bosona": {
+          "status": "resolved",
+          "winner": 0,
+          "pnl": "-44.82",
+          "trade_terminal_payoffs": [
+            "-44.82",
+            "121.18"
+          ],
+          "trade_only_floor": "-44.82",
+          "trade_only_net": "-166",
+          "cash": "-44.82",
+          "remaining": [
+            "0",
+            "0"
+          ],
+          "bought": [
+            0,
+            "166"
+          ],
+          "buy_cash": "44.82",
+          "trade_records": 1,
+          "first_fill_age": 205,
+          "first_sides": [
+            1
+          ],
+          "cash_vwap": [
+            null,
+            "0.27"
+          ],
+          "reducing_buy_shares": "0",
+          "increasing_buy_shares": "166",
+          "ambiguous_buy_shares": "0",
+          "net_path": [
+            {
+              "age": 205,
+              "net": "-166"
+            }
+          ],
+          "redeem_missing_asset": 0,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075712504,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 1,
+            "parents": 1,
+            "split_parents": 0,
+            "decoded_shares": "166",
+            "maker_shares": "166",
+            "taker_shares": 0,
+            "parent_shares": [
+              "166"
+            ],
+            "rows": [
+              {
+                "order_hash": "0x61257f8641635225ca6e82365996aa2bd34d7f5eeedc15e6fe222110a91f4656",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x6d4a571ca07972480a7e82e16bc8732766dca09d",
+                "tx": "0xf3e92d75b501a8811da70216d099340fc597688984667d537adf0adc05bd2581",
+                "log_index": 1289,
+                "role": "maker",
+                "side": 0,
+                "token": "28461457836615847791757416242267451678155578623668393780328909205771299591458",
+                "qty": 166000000,
+                "cash_cost": 44820000,
+                "fee": 0,
+                "public_seconds": [
+                  1790069905
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "S": 1790070000,
+      "cohort": "historical",
+      "actors": {
+        "G": {
+          "status": "resolved",
+          "winner": 0,
+          "pnl": "0.75",
+          "trade_terminal_payoffs": [
+            "0.75",
+            "0.75"
+          ],
+          "trade_only_floor": "0.75",
+          "trade_only_net": "0",
+          "cash": "0.75",
+          "remaining": [
+            "0",
+            "20"
+          ],
+          "bought": [
+            "20",
+            "20"
+          ],
+          "buy_cash": "19.25",
+          "trade_records": 8,
+          "first_fill_age": 9,
+          "first_sides": [
+            1
+          ],
+          "cash_vwap": [
+            "0.4625",
+            "0.50"
+          ],
+          "reducing_buy_shares": "20",
+          "increasing_buy_shares": "20",
+          "ambiguous_buy_shares": "0",
+          "net_path": [
+            {
+              "age": 9,
+              "net": "-5"
+            },
+            {
+              "age": 15,
+              "net": "0"
+            },
+            {
+              "age": 24,
+              "net": "5"
+            },
+            {
+              "age": 28,
+              "net": "0"
+            },
+            {
+              "age": 39,
+              "net": "5"
+            },
+            {
+              "age": 51,
+              "net": "0"
+            },
+            {
+              "age": 57,
+              "net": "5"
+            },
+            {
+              "age": 73,
+              "net": "0"
+            }
+          ],
+          "redeem_missing_asset": 1,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075713621,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 8,
+            "parents": 8,
+            "split_parents": 0,
+            "decoded_shares": "40",
+            "maker_shares": "40",
+            "taker_shares": 0,
+            "parent_shares": [
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5"
+            ],
+            "rows": [
+              {
+                "order_hash": "0xf4720dcaa27ec33e137d5d21369cfaeb3ca00cf3f7a31bb5e4b1441ff6f22825",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xc53375ff94e96100f2b30a4b5775db35218d69a9",
+                "tx": "0x7fc489e360e5f922f312510812d8297fdeb079116c0989b005df104a524f1951",
+                "log_index": 341,
+                "role": "maker",
+                "side": 0,
+                "token": "82954462580664042925424503529365052209482920958858908290929129690183698282674",
+                "qty": 5000000,
+                "cash_cost": 2800000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070009
+                ]
+              },
+              {
+                "order_hash": "0x6ed504aa98cffb905e1d1930127e2272ebec9f37eeaa106179d63f592a4bd350",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xc53375ff94e96100f2b30a4b5775db35218d69a9",
+                "tx": "0xac608503f8ee958ed8e014f1bc6cf32a16120f934e37c9b023199bd003c967b5",
+                "log_index": 734,
+                "role": "maker",
+                "side": 0,
+                "token": "87168469799893898007165395488801035686397946779887319851407835683744804305846",
+                "qty": 5000000,
+                "cash_cost": 2450000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070015
+                ]
+              },
+              {
+                "order_hash": "0xa472c98be5676ef895524b971f6bc06bc25676ce7b21d6218f7887cd90b1e4ca",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xc53375ff94e96100f2b30a4b5775db35218d69a9",
+                "tx": "0xacd0cc1893d16fce4d2c69dd384a29360976362d4d69019a4befdd8407dcda14",
+                "log_index": 357,
+                "role": "maker",
+                "side": 0,
+                "token": "87168469799893898007165395488801035686397946779887319851407835683744804305846",
+                "qty": 5000000,
+                "cash_cost": 2350000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070024
+                ]
+              },
+              {
+                "order_hash": "0x386f0214e7635b3e101119c48744321c1cd9b7eb1ef34e9bd151d7d89b1cece2",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x9796de6db546a93d9d5134563ec58ba08658d713",
+                "tx": "0x14672c27698b6d45da2ed2e3dccec3ce3e0c1c4e126c4cb5273a4c5ae8012266",
+                "log_index": 502,
+                "role": "maker",
+                "side": 0,
+                "token": "82954462580664042925424503529365052209482920958858908290929129690183698282674",
+                "qty": 5000000,
+                "cash_cost": 2850000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070028
+                ]
+              },
+              {
+                "order_hash": "0xa26e97d6d259f48268f5ebcd72a9325e1d105c4a8b7013a88c69f30112bfb191",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xc53375ff94e96100f2b30a4b5775db35218d69a9",
+                "tx": "0x058992c0802a23261625697378ca06bf04767ea67305e5036c7ffc93a4b73bb6",
+                "log_index": 744,
+                "role": "maker",
+                "side": 0,
+                "token": "87168469799893898007165395488801035686397946779887319851407835683744804305846",
+                "qty": 5000000,
+                "cash_cost": 2050000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070039
+                ]
+              },
+              {
+                "order_hash": "0xb9b67eb3a0cf2f5ed1df272027c69810ee51f66f25b8946805a00b569342c848",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xe1abfb374ec61d15afbfb4b8bcb683d3a27bc079",
+                "tx": "0xdb06e19fba30264f5e5d9961f155cb548041458f203be4bfc9be68efe1236209",
+                "log_index": 433,
+                "role": "maker",
+                "side": 0,
+                "token": "82954462580664042925424503529365052209482920958858908290929129690183698282674",
+                "qty": 5000000,
+                "cash_cost": 2900000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070051
+                ]
+              },
+              {
+                "order_hash": "0x58d2804e5d9f8e65c4019a00e19b98b9f20079059c8e93c0460c2d0fa9dc2f1b",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xc53375ff94e96100f2b30a4b5775db35218d69a9",
+                "tx": "0xc7665bfd66ada9214b8e1a3f0e1d6b6c5007a2aa105ff58758896992540ad418",
+                "log_index": 667,
+                "role": "maker",
+                "side": 0,
+                "token": "87168469799893898007165395488801035686397946779887319851407835683744804305846",
+                "qty": 5000000,
+                "cash_cost": 2400000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070057
+                ]
+              },
+              {
+                "order_hash": "0x0364be90d78694438f026fcf3e6f9ce0d11968cfd56c940f2b775d6fbae7b168",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x0cb038487586d1119b165466072e9baf666f3a90",
+                "tx": "0xd4ad85be7bf506fea04c2f4474d68ba9a460fc7ddb35d79a6020ee8df581de98",
+                "log_index": 602,
+                "role": "maker",
+                "side": 0,
+                "token": "82954462580664042925424503529365052209482920958858908290929129690183698282674",
+                "qty": 5000000,
+                "cash_cost": 1450000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070073
+                ]
+              }
+            ]
+          },
+          "assigned_by_bot": true,
+          "local_bought": [
+            "20.0",
+            "20.0"
+          ],
+          "quantities_match_local": true,
+          "local_accepted_parents": 16,
+          "local_filled_parents": 8
+        },
+        "Bosona": {
+          "status": "resolved",
+          "winner": 0,
+          "pnl": "14.7072",
+          "trade_terminal_payoffs": [
+            "14.7072",
+            "14.7072"
+          ],
+          "trade_only_floor": "14.7072",
+          "trade_only_net": "0.00",
+          "cash": "14.7072",
+          "remaining": [
+            "0.00",
+            "0.00"
+          ],
+          "bought": [
+            "122.56",
+            "122.56"
+          ],
+          "buy_cash": "107.8528",
+          "trade_records": 9,
+          "first_fill_age": 163,
+          "first_sides": [
+            0
+          ],
+          "cash_vwap": [
+            "0.85",
+            "0.03"
+          ],
+          "reducing_buy_shares": "122.56",
+          "increasing_buy_shares": "122.56",
+          "ambiguous_buy_shares": "0",
+          "net_path": [
+            {
+              "age": 163,
+              "net": "122.56"
+            },
+            {
+              "age": 225,
+              "net": "0.00"
+            }
+          ],
+          "redeem_missing_asset": 1,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075716561,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 9,
+            "parents": 2,
+            "split_parents": 1,
+            "decoded_shares": "245.12",
+            "maker_shares": "245.12",
+            "taker_shares": 0,
+            "parent_shares": [
+              "122.56",
+              "122.56"
+            ],
+            "rows": [
+              {
+                "order_hash": "0x41d231c85408f1064fb686260528c2f0a88309ec049351b8819bf8cdb93f62a3",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xdf7930e89a2c47560165331863c31deca0733dcd",
+                "tx": "0xecda4cb4c8de572afbf6382d9476eb4f717ccfd2028876175096a1b8f6a3b648",
+                "log_index": 430,
+                "role": "maker",
+                "side": 0,
+                "token": "87168469799893898007165395488801035686397946779887319851407835683744804305846",
+                "qty": 32000000,
+                "cash_cost": 27200000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070163
+                ]
+              },
+              {
+                "order_hash": "0x41d231c85408f1064fb686260528c2f0a88309ec049351b8819bf8cdb93f62a3",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x0c2f268d86b109505ca02983bf4dafeffc838a49",
+                "tx": "0x1c713b4adcfbf8726d23029d1ef2e6cbf408c5a2229b3405ef2cde3c2e6d6f2a",
+                "log_index": 450,
+                "role": "maker",
+                "side": 0,
+                "token": "87168469799893898007165395488801035686397946779887319851407835683744804305846",
+                "qty": 13000000,
+                "cash_cost": 11050000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070163
+                ]
+              },
+              {
+                "order_hash": "0x41d231c85408f1064fb686260528c2f0a88309ec049351b8819bf8cdb93f62a3",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x12c2782b74d3b2a051b55be2e5167970ace01381",
+                "tx": "0x793cc38e3842dd6c889d6b33951cc603329d7a6800ab6eab4ad27f6c14d67a6f",
+                "log_index": 470,
+                "role": "maker",
+                "side": 0,
+                "token": "87168469799893898007165395488801035686397946779887319851407835683744804305846",
+                "qty": 5000000,
+                "cash_cost": 4250000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070163
+                ]
+              },
+              {
+                "order_hash": "0x41d231c85408f1064fb686260528c2f0a88309ec049351b8819bf8cdb93f62a3",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xd67a1117848aa24764074e5e69b678f598285607",
+                "tx": "0xe02b33201b8630b0e20cdcad28f1815e507918d5b7069a1dc84f6565df1cd4a9",
+                "log_index": 490,
+                "role": "maker",
+                "side": 0,
+                "token": "87168469799893898007165395488801035686397946779887319851407835683744804305846",
+                "qty": 13000000,
+                "cash_cost": 11050000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070163
+                ]
+              },
+              {
+                "order_hash": "0x41d231c85408f1064fb686260528c2f0a88309ec049351b8819bf8cdb93f62a3",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xf104cd381cdc726f6bb94802cdd92ebf080a5407",
+                "tx": "0xb6c91e1d2b8e3989e280acad0a3c0622faf3decbd5e4efacd121eb9ce2e07bd1",
+                "log_index": 510,
+                "role": "maker",
+                "side": 0,
+                "token": "87168469799893898007165395488801035686397946779887319851407835683744804305846",
+                "qty": 13000000,
+                "cash_cost": 11050000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070163
+                ]
+              },
+              {
+                "order_hash": "0x41d231c85408f1064fb686260528c2f0a88309ec049351b8819bf8cdb93f62a3",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x12c2782b74d3b2a051b55be2e5167970ace01381",
+                "tx": "0x994aa61bb9bf7e4cf6ab44701bfbe5af37ab5fe0ffb5a6f2f131b63ceba536e1",
+                "log_index": 530,
+                "role": "maker",
+                "side": 0,
+                "token": "87168469799893898007165395488801035686397946779887319851407835683744804305846",
+                "qty": 5000000,
+                "cash_cost": 4250000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070163
+                ]
+              },
+              {
+                "order_hash": "0x41d231c85408f1064fb686260528c2f0a88309ec049351b8819bf8cdb93f62a3",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x22a60c995b7bcf2516fccf2f228e35aefedbb5cc",
+                "tx": "0xd07ed32c6e0460e59702aa3ffa37b4ac6b084f2fa733e7c1546d374273a49228",
+                "log_index": 652,
+                "role": "maker",
+                "side": 0,
+                "token": "87168469799893898007165395488801035686397946779887319851407835683744804305846",
+                "qty": 28560000,
+                "cash_cost": 24276000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070163
+                ]
+              },
+              {
+                "order_hash": "0x41d231c85408f1064fb686260528c2f0a88309ec049351b8819bf8cdb93f62a3",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x01516b45e9d0825ba47d120b52e794d5d0cc4dd6",
+                "tx": "0x01a8c740aa8933de5857b93da6cd432ffae3d7b2bb7d0941ce64847a7c249c16",
+                "log_index": 744,
+                "role": "maker",
+                "side": 0,
+                "token": "87168469799893898007165395488801035686397946779887319851407835683744804305846",
+                "qty": 13000000,
+                "cash_cost": 11050000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070163
+                ]
+              },
+              {
+                "order_hash": "0x6f77d86ba649a2ce2735513b4b69a26268fca5174f6964ad93e16e96b575741c",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+                "tx": "0x1fa16556bf1b2bbc51887f0189164c7ba13b6b743278d7109d2c36c549b245e0",
+                "log_index": 737,
+                "role": "maker",
+                "side": 0,
+                "token": "82954462580664042925424503529365052209482920958858908290929129690183698282674",
+                "qty": 122560000,
+                "cash_cost": 3676800,
+                "fee": 0,
+                "public_seconds": [
+                  1790070225
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "S": 1790070300,
+      "cohort": "historical",
+      "actors": {
+        "G": {
+          "status": "resolved",
+          "winner": 1,
+          "pnl": "-0.198115",
+          "trade_terminal_payoffs": [
+            "-0.202400",
+            "-0.198115"
+          ],
+          "trade_only_floor": "-0.202400",
+          "trade_only_net": "-0.004285",
+          "cash": "-0.198115",
+          "remaining": [
+            "4.995715",
+            "0"
+          ],
+          "bought": [
+            "4.995715",
+            "5"
+          ],
+          "buy_cash": "5.198115",
+          "trade_records": 3,
+          "first_fill_age": 10,
+          "first_sides": [
+            1
+          ],
+          "cash_vwap": [
+            "0.4400000800686188063170136807",
+            "0.6"
+          ],
+          "reducing_buy_shares": "4.995715",
+          "increasing_buy_shares": "5.000000",
+          "ambiguous_buy_shares": "0",
+          "net_path": [
+            {
+              "age": 10,
+              "net": "-5"
+            },
+            {
+              "age": 13,
+              "net": "-1.79"
+            },
+            {
+              "age": 15,
+              "net": "-0.004285"
+            }
+          ],
+          "redeem_missing_asset": 1,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075719620,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 3,
+            "parents": 2,
+            "split_parents": 1,
+            "decoded_shares": "9.995715",
+            "maker_shares": "9.995715",
+            "taker_shares": 0,
+            "parent_shares": [
+              "5",
+              "4.995715"
+            ],
+            "rows": [
+              {
+                "order_hash": "0x0b05db0ba9a50a36427db9a5f3920514f0e3057fa2e358675eed21090c5508b2",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xdf7930e89a2c47560165331863c31deca0733dcd",
+                "tx": "0x946046769ee477b4b2cf16d0e3439657d64f4214f81875fb46563904fe418f5c",
+                "log_index": 478,
+                "role": "maker",
+                "side": 0,
+                "token": "44518652535697121162275762633572591463200343576801766168890080960079167961712",
+                "qty": 5000000,
+                "cash_cost": 3000000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070310
+                ]
+              },
+              {
+                "order_hash": "0xccf6d2f83144e89aca15c9de1a12bd841e03832ffa2a3f39b12d36b8c09356d9",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x3048d65321be3497164cdfc2996f94f98a2e7537",
+                "tx": "0x7c4ec5d7a4ea5608eef5fbb4394e8c50f0d3d29a9c65dfabf05ed10b5746aff0",
+                "log_index": 567,
+                "role": "maker",
+                "side": 0,
+                "token": "64397620047501698577710526912035150709089440734170545059454072564437505211009",
+                "qty": 3210000,
+                "cash_cost": 1412400,
+                "fee": 0,
+                "public_seconds": [
+                  1790070313
+                ]
+              },
+              {
+                "order_hash": "0xccf6d2f83144e89aca15c9de1a12bd841e03832ffa2a3f39b12d36b8c09356d9",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xbe0a1b8db5e4b6e3cc80a307b3e794541cc7eed1",
+                "tx": "0xf5179d7962afc1cdc9d95acacfb8e30fcc2a972deddcb0e6d9d2a513f92d2fb7",
+                "log_index": 219,
+                "role": "maker",
+                "side": 0,
+                "token": "64397620047501698577710526912035150709089440734170545059454072564437505211009",
+                "qty": 1785715,
+                "cash_cost": 785715,
+                "fee": 0,
+                "public_seconds": [
+                  1790070315
+                ]
+              }
+            ]
+          },
+          "assigned_by_bot": true,
+          "local_bought": [
+            "4.995715",
+            "5.0"
+          ],
+          "quantities_match_local": true,
+          "local_accepted_parents": 3,
+          "local_filled_parents": 2
+        },
+        "Bosona": {
+          "status": "resolved",
+          "winner": 1,
+          "pnl": "-25.844600",
+          "trade_terminal_payoffs": [
+            "-25.835213",
+            "-25.844600"
+          ],
+          "trade_only_floor": "-25.844600",
+          "trade_only_net": "0.009387",
+          "cash": "-25.844600",
+          "remaining": [
+            "0",
+            "0.000000"
+          ],
+          "bought": [
+            "249",
+            "248.990613"
+          ],
+          "buy_cash": "274.835213",
+          "trade_records": 6,
+          "first_fill_age": 34,
+          "first_sides": [
+            0
+          ],
+          "cash_vwap": [
+            "0.57",
+            "0.5337759982140370890207013547"
+          ],
+          "reducing_buy_shares": "248.990613",
+          "increasing_buy_shares": "249.000000",
+          "ambiguous_buy_shares": "0",
+          "net_path": [
+            {
+              "age": 34,
+              "net": "249"
+            },
+            {
+              "age": 73,
+              "net": "243.959183"
+            },
+            {
+              "age": 75,
+              "net": "43.559387"
+            },
+            {
+              "age": 154,
+              "net": "20.559387"
+            },
+            {
+              "age": 249,
+              "net": "0.009387"
+            }
+          ],
+          "redeem_missing_asset": 1,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075721568,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 6,
+            "parents": 4,
+            "split_parents": 1,
+            "decoded_shares": "497.990613",
+            "maker_shares": "497.990613",
+            "taker_shares": 0,
+            "parent_shares": [
+              "249",
+              "205.440613",
+              "23",
+              "20.55"
+            ],
+            "rows": [
+              {
+                "order_hash": "0xfa5609f139a0144d67d29e29c596f5e5707eb32c11833634eda8c7f97dbe7ac8",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+                "tx": "0x4695e8fc3d02a10d304a4db821c625dcec58fb85b2f2cb2c7bde616ab3a10f66",
+                "log_index": 317,
+                "role": "maker",
+                "side": 0,
+                "token": "64397620047501698577710526912035150709089440734170545059454072564437505211009",
+                "qty": 249000000,
+                "cash_cost": 141930000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070334
+                ]
+              },
+              {
+                "order_hash": "0x8a19ba16ff4af47328db1e09a76bc51f93ca3a3eb84b993b4f26db89bf801a54",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xb2b6adbefceffcecefd0103679f7b073970aba20",
+                "tx": "0x425ee50b6fc1a3fc584673d4bb9fdf49f18d048b9461aaafd69ff3a258d54cac",
+                "log_index": 481,
+                "role": "maker",
+                "side": 0,
+                "token": "44518652535697121162275762633572591463200343576801766168890080960079167961712",
+                "qty": 2040817,
+                "cash_cost": 1040817,
+                "fee": 0,
+                "public_seconds": [
+                  1790070373
+                ]
+              },
+              {
+                "order_hash": "0x8a19ba16ff4af47328db1e09a76bc51f93ca3a3eb84b993b4f26db89bf801a54",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xba0d4b0625afee840c8844424cfb7c4a7119ea0d",
+                "tx": "0xb5cd2a6fb273573304102c27be3bc7affe79c87bad7e89b88e5451e1da74316a",
+                "log_index": 629,
+                "role": "maker",
+                "side": 0,
+                "token": "44518652535697121162275762633572591463200343576801766168890080960079167961712",
+                "qty": 3000000,
+                "cash_cost": 1530000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070373
+                ]
+              },
+              {
+                "order_hash": "0x8a19ba16ff4af47328db1e09a76bc51f93ca3a3eb84b993b4f26db89bf801a54",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xbf665efa3774bffb6598e88e4f05996fcf48b064",
+                "tx": "0x4a2075f4552e92a51e2a1c2875b6752912e3d91aab8f6a303107ecc230b90557",
+                "log_index": 493,
+                "role": "maker",
+                "side": 0,
+                "token": "44518652535697121162275762633572591463200343576801766168890080960079167961712",
+                "qty": 200399796,
+                "cash_cost": 102203896,
+                "fee": 0,
+                "public_seconds": [
+                  1790070375
+                ]
+              },
+              {
+                "order_hash": "0xbf47d5b20c1332da20ab04995eaa59e51ed0c2925000a7d12db7cb2fc62628a5",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x14a29b12bf88a4492ee6e28e853dafcf27d01b42",
+                "tx": "0xa1723f0a02004981c15e11efcf70a5669e60c14920929bf00fe8be203d935c2b",
+                "log_index": 310,
+                "role": "maker",
+                "side": 0,
+                "token": "44518652535697121162275762633572591463200343576801766168890080960079167961712",
+                "qty": 23000000,
+                "cash_cost": 9430000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070454
+                ]
+              },
+              {
+                "order_hash": "0xf44c615138e8e70d83458ebe9b4a275b64f4f2ecbb551e2df5f3ad259580637e",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x2ed94d1a460379292d2e3b46f2cf7d94b033f271",
+                "tx": "0xd2dd4535375bd88318a1796156ba06e68ea5ea44bcd1541ca87f1d5c2f44ac87",
+                "log_index": 566,
+                "role": "maker",
+                "side": 0,
+                "token": "44518652535697121162275762633572591463200343576801766168890080960079167961712",
+                "qty": 20550000,
+                "cash_cost": 18700500,
+                "fee": 0,
+                "public_seconds": [
+                  1790070549
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "S": 1790070600,
+      "cohort": "historical",
+      "actors": {
+        "G": {
+          "status": "resolved",
+          "winner": 0,
+          "pnl": "-2.345571",
+          "trade_terminal_payoffs": [
+            "-2.345571",
+            "2.644800"
+          ],
+          "trade_only_floor": "-2.345571",
+          "trade_only_net": "-4.990371",
+          "cash": "-2.345571",
+          "remaining": [
+            "0",
+            "9.990371"
+          ],
+          "bought": [
+            "5",
+            "9.990371"
+          ],
+          "buy_cash": "7.345571",
+          "trade_records": 4,
+          "first_fill_age": 12,
+          "first_sides": [
+            1
+          ],
+          "cash_vwap": [
+            "0.55",
+            "0.4600000340327701543816540947"
+          ],
+          "reducing_buy_shares": "5",
+          "increasing_buy_shares": "9.990371",
+          "ambiguous_buy_shares": "0",
+          "net_path": [
+            {
+              "age": 12,
+              "net": "-5"
+            },
+            {
+              "age": 27,
+              "net": "0"
+            },
+            {
+              "age": 28,
+              "net": "-4.990371"
+            }
+          ],
+          "redeem_missing_asset": 1,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075723853,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 4,
+            "parents": 3,
+            "split_parents": 1,
+            "decoded_shares": "14.990371",
+            "maker_shares": "14.990371",
+            "taker_shares": 0,
+            "parent_shares": [
+              "5",
+              "5",
+              "4.990371"
+            ],
+            "rows": [
+              {
+                "order_hash": "0x0222d5229a58f2fed75956ead7f44292142e1ee4f219e64cc2ced8f456cf7c59",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x0cb038487586d1119b165466072e9baf666f3a90",
+                "tx": "0xc2ef4206c01ba43459de44993035ef6bb701b553e697dcf9264a8f90b754dd8c",
+                "log_index": 318,
+                "role": "maker",
+                "side": 0,
+                "token": "28463862038374025382785089466657975791481720977782709158947021890850890731427",
+                "qty": 5000000,
+                "cash_cost": 2300000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070612
+                ]
+              },
+              {
+                "order_hash": "0x16b1c90095935d1aa85309f05a22e4c1959152149b8aa5401516805ae2b5c36a",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xb051ddab1a75ba7d93256f91a858f19511a3ce14",
+                "tx": "0x53c499a2dff03ccb20be75267269a23730293695f189858ad61843afcee0e16b",
+                "log_index": 354,
+                "role": "maker",
+                "side": 0,
+                "token": "9001929673171975678517781262609492058203164616392396168877336523557313308373",
+                "qty": 5000000,
+                "cash_cost": 2750000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070627
+                ]
+              },
+              {
+                "order_hash": "0x880870c3438a8e19295f10dc7153e493caf1b0536b7be49c978c0ef025dad8f9",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x72abe52af7032fa1c7078a16ddb341c94fe9e1ee",
+                "tx": "0xfd48e0589f94778a91be3b16e2afbe95a13ba835d03a0ecfeaff1b82b5c9a499",
+                "log_index": 267,
+                "role": "maker",
+                "side": 0,
+                "token": "28463862038374025382785089466657975791481720977782709158947021890850890731427",
+                "qty": 4620000,
+                "cash_cost": 2125200,
+                "fee": 0,
+                "public_seconds": [
+                  1790070628
+                ]
+              },
+              {
+                "order_hash": "0x880870c3438a8e19295f10dc7153e493caf1b0536b7be49c978c0ef025dad8f9",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xd30d67e84ab372cde3990cb2500177f4a3104f6d",
+                "tx": "0x32870da966f0c4e99bec3d04cc2fc2860831cdb41211bb71cdd2839d57446622",
+                "log_index": 294,
+                "role": "maker",
+                "side": 0,
+                "token": "28463862038374025382785089466657975791481720977782709158947021890850890731427",
+                "qty": 370371,
+                "cash_cost": 170371,
+                "fee": 0,
+                "public_seconds": [
+                  1790070628
+                ]
+              }
+            ]
+          },
+          "assigned_by_bot": true,
+          "local_bought": [
+            "5.0",
+            "9.990371"
+          ],
+          "quantities_match_local": true,
+          "local_accepted_parents": 7,
+          "local_filled_parents": 3
+        },
+        "Bosona": {
+          "status": "resolved",
+          "winner": 0,
+          "pnl": "0",
+          "trade_terminal_payoffs": [
+            "0",
+            "0"
+          ],
+          "trade_only_floor": "0",
+          "trade_only_net": "0",
+          "cash": "0",
+          "remaining": [
+            "0",
+            "0"
+          ],
+          "bought": [
+            0,
+            0
+          ],
+          "buy_cash": 0,
+          "trade_records": 0,
+          "first_fill_age": null,
+          "first_sides": [],
+          "cash_vwap": [
+            null,
+            null
+          ],
+          "reducing_buy_shares": "0",
+          "increasing_buy_shares": "0",
+          "ambiguous_buy_shares": "0",
+          "net_path": [],
+          "redeem_missing_asset": 0,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075725786,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 0,
+            "parents": 0,
+            "split_parents": 0,
+            "decoded_shares": 0,
+            "maker_shares": 0,
+            "taker_shares": 0,
+            "parent_shares": [],
+            "rows": []
+          }
+        }
+      }
+    },
+    {
+      "S": 1790070900,
+      "cohort": "historical",
+      "actors": {
+        "G": {
+          "status": "resolved",
+          "winner": 0,
+          "pnl": "2.75",
+          "trade_terminal_payoffs": [
+            "2.75",
+            "-2.25"
+          ],
+          "trade_only_floor": "-2.25",
+          "trade_only_net": "5",
+          "cash": "2.75",
+          "remaining": [
+            "0",
+            "15"
+          ],
+          "bought": [
+            "20",
+            "15"
+          ],
+          "buy_cash": "17.25",
+          "trade_records": 7,
+          "first_fill_age": 9,
+          "first_sides": [
+            0
+          ],
+          "cash_vwap": [
+            "0.4225",
+            "0.5866666666666666666666666667"
+          ],
+          "reducing_buy_shares": "10",
+          "increasing_buy_shares": "15",
+          "ambiguous_buy_shares": "10",
+          "net_path": [
+            {
+              "age": 9,
+              "net": "5"
+            },
+            {
+              "age": 10,
+              "net": "0"
+            },
+            {
+              "age": 13,
+              "net": "0"
+            },
+            {
+              "age": 16,
+              "net": "5"
+            },
+            {
+              "age": 21,
+              "net": "0"
+            },
+            {
+              "age": 24,
+              "net": "5"
+            }
+          ],
+          "redeem_missing_asset": 1,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075726952,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 7,
+            "parents": 7,
+            "split_parents": 0,
+            "decoded_shares": "35",
+            "maker_shares": "35",
+            "taker_shares": 0,
+            "parent_shares": [
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5"
+            ],
+            "rows": [
+              {
+                "order_hash": "0x8c7a994ab344ee8a9be05ab44d02e9f4219fa8dbecb1d83b487025d131c9b6a3",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x3c58ef422754ff22c7e806336feba0064d8b776b",
+                "tx": "0x74a405ed4e3d7e75f6e2e8c7e2f7e30fc611b75b2e6a374eb32e19fec6c950f1",
+                "log_index": 1285,
+                "role": "maker",
+                "side": 0,
+                "token": "92658432199545955201015269398329606623380113013185532698959407612558024882144",
+                "qty": 5000000,
+                "cash_cost": 1750000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070909
+                ]
+              },
+              {
+                "order_hash": "0xfa6abc8f491b60e1012fe087d7d2f7459b450df12acdb995d79f2d842af33a55",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x72abe52af7032fa1c7078a16ddb341c94fe9e1ee",
+                "tx": "0xeba4a0ae38d812e6715b18727ce68f9914c1c073ce44343f9e1e7bace3bf4a91",
+                "log_index": 725,
+                "role": "maker",
+                "side": 0,
+                "token": "8869434422664024249834366678972938122136276646381466753844770048353069971401",
+                "qty": 5000000,
+                "cash_cost": 3300000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070910
+                ]
+              },
+              {
+                "order_hash": "0xe1259372c19d1488cad013d91bf209e7b2168e1c6beac9e960df8ed71886ac2e",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xdf7930e89a2c47560165331863c31deca0733dcd",
+                "tx": "0xefb9a05d7127701223fdaff1f50dcad837990e35abd88d195c0b9189f2641fdf",
+                "log_index": 263,
+                "role": "maker",
+                "side": 0,
+                "token": "8869434422664024249834366678972938122136276646381466753844770048353069971401",
+                "qty": 5000000,
+                "cash_cost": 2600000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070913
+                ]
+              },
+              {
+                "order_hash": "0x850c0467ef175c1f0ab4fea7170dcab59daa9a26ca8ee662b208b49b18393926",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xf0dd3e1579d55b2a26b69242104d902e411fba35",
+                "tx": "0x6392ef27276f6785541ea4cc4fff04bc8aa0fe60b0e8e4302b062c3fb778c445",
+                "log_index": 883,
+                "role": "maker",
+                "side": 0,
+                "token": "92658432199545955201015269398329606623380113013185532698959407612558024882144",
+                "qty": 5000000,
+                "cash_cost": 2250000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070913
+                ]
+              },
+              {
+                "order_hash": "0x727790a184b3bdfec3ad92591e972d806d172f45cd6e23576309eb9b45817703",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xf6ab262d360c85f98782b84a04db35c6e18d3579",
+                "tx": "0xcc1e3f89e5ec54cafe3f0e2a01cd0edb54497825c44f77f2a904fbe7d884ea5d",
+                "log_index": 360,
+                "role": "maker",
+                "side": 0,
+                "token": "92658432199545955201015269398329606623380113013185532698959407612558024882144",
+                "qty": 5000000,
+                "cash_cost": 2050000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070916
+                ]
+              },
+              {
+                "order_hash": "0x9b8248f647af60f512b7106dcc9fb0079462516374d37cc025953d360200a46c",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xefe8e41faaaaea1b6eae452946eca7713066dc05",
+                "tx": "0xdd49504ee38fff57eca537d06d7be70d7d88b5ddd9ef4ee58634dc678df5e8e5",
+                "log_index": 382,
+                "role": "maker",
+                "side": 0,
+                "token": "8869434422664024249834366678972938122136276646381466753844770048353069971401",
+                "qty": 5000000,
+                "cash_cost": 2900000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070921
+                ]
+              },
+              {
+                "order_hash": "0x721e8f1982e45a21dbd57f499778824338150c45cc5f25b45f7d56e39f2b1362",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x0cb038487586d1119b165466072e9baf666f3a90",
+                "tx": "0x8c1ba22e166858319fa493ed003f846b88edeb6bf2f6032e07eb15f0163f485b",
+                "log_index": 854,
+                "role": "maker",
+                "side": 0,
+                "token": "92658432199545955201015269398329606623380113013185532698959407612558024882144",
+                "qty": 5000000,
+                "cash_cost": 2400000,
+                "fee": 0,
+                "public_seconds": [
+                  1790070924
+                ]
+              }
+            ]
+          },
+          "assigned_by_bot": true,
+          "local_bought": [
+            "20.0",
+            "15.0"
+          ],
+          "quantities_match_local": true,
+          "local_accepted_parents": 12,
+          "local_filled_parents": 7
+        },
+        "Bosona": {
+          "status": "resolved",
+          "winner": 0,
+          "pnl": "42.771600",
+          "trade_terminal_payoffs": [
+            "42.771600",
+            "-434.638401"
+          ],
+          "trade_only_floor": "-434.638401",
+          "trade_only_net": "477.410001",
+          "cash": "42.771600",
+          "remaining": [
+            "0.000000",
+            "0"
+          ],
+          "bought": [
+            "480.410001",
+            "3"
+          ],
+          "buy_cash": "437.638401",
+          "trade_records": 11,
+          "first_fill_age": 132,
+          "first_sides": [
+            1
+          ],
+          "cash_vwap": [
+            "0.9070344083032526210877112860",
+            "0.63"
+          ],
+          "reducing_buy_shares": "3",
+          "increasing_buy_shares": "480.410001",
+          "ambiguous_buy_shares": "0",
+          "net_path": [
+            {
+              "age": 132,
+              "net": "-3"
+            },
+            {
+              "age": 166,
+              "net": "4.16"
+            },
+            {
+              "age": 219,
+              "net": "226.410001"
+            },
+            {
+              "age": 246,
+              "net": "376.410001"
+            },
+            {
+              "age": 247,
+              "net": "477.410001"
+            }
+          ],
+          "redeem_missing_asset": 1,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075730055,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 11,
+            "parents": 4,
+            "split_parents": 3,
+            "decoded_shares": "483.410001",
+            "maker_shares": "483.410001",
+            "taker_shares": 0,
+            "parent_shares": [
+              "3",
+              "7.16",
+              "222.250001",
+              "251"
+            ],
+            "rows": [
+              {
+                "order_hash": "0xa55004844035abf83447853a8368bfddb8111ebda0fa8db74260a839746aec73",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xba0d4b0625afee840c8844424cfb7c4a7119ea0d",
+                "tx": "0xd84f5cf7ec9aad4d078dcc92e2a2f8b924252aa0a41eaa282e10b91d6f2e04c4",
+                "log_index": 848,
+                "role": "maker",
+                "side": 0,
+                "token": "8869434422664024249834366678972938122136276646381466753844770048353069971401",
+                "qty": 3000000,
+                "cash_cost": 1890000,
+                "fee": 0,
+                "public_seconds": [
+                  1790071032
+                ]
+              },
+              {
+                "order_hash": "0xbee11a32fad77d74f5df3b538d194cc004f8218e07259e0b9a421929af530305",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x23caed1e9a18658aa9910be114fba7b7eaad19e1",
+                "tx": "0x6eb61ffee82906d900fd12372c9e4ef62a265d35f735b26a5854e9911a5c2b68",
+                "log_index": 466,
+                "role": "maker",
+                "side": 0,
+                "token": "92658432199545955201015269398329606623380113013185532698959407612558024882144",
+                "qty": 5160000,
+                "cash_cost": 1238400,
+                "fee": 0,
+                "public_seconds": [
+                  1790071066
+                ]
+              },
+              {
+                "order_hash": "0xbee11a32fad77d74f5df3b538d194cc004f8218e07259e0b9a421929af530305",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xba0d4b0625afee840c8844424cfb7c4a7119ea0d",
+                "tx": "0x47e2b80b302296c65df51feb8374b39f9d522aabd394e3975f893692f1062f31",
+                "log_index": 486,
+                "role": "maker",
+                "side": 0,
+                "token": "92658432199545955201015269398329606623380113013185532698959407612558024882144",
+                "qty": 2000000,
+                "cash_cost": 480000,
+                "fee": 0,
+                "public_seconds": [
+                  1790071066
+                ]
+              },
+              {
+                "order_hash": "0x40302b40e45235cbce3400d26df6f51b18bbfe29066f8b9637a71832dc56fecf",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x761e6a0b948e57a9607bc7dca83fb2be6710db66",
+                "tx": "0x47014f0e898b30228d17ecf45ec8dc07f6fe01bf3d6de67c7a4e26fcc99abcad",
+                "log_index": 1529,
+                "role": "maker",
+                "side": 0,
+                "token": "92658432199545955201015269398329606623380113013185532698959407612558024882144",
+                "qty": 208333334,
+                "cash_cost": 183333334,
+                "fee": 0,
+                "public_seconds": [
+                  1790071119
+                ]
+              },
+              {
+                "order_hash": "0x40302b40e45235cbce3400d26df6f51b18bbfe29066f8b9637a71832dc56fecf",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x76a780d04a8868dbf5da50b067ad355a2481ce66",
+                "tx": "0x8da87e3b6307e66f45a669edc302d8d2447cc72a369b4312032cf6e7b2e1d3c8",
+                "log_index": 1952,
+                "role": "maker",
+                "side": 0,
+                "token": "92658432199545955201015269398329606623380113013185532698959407612558024882144",
+                "qty": 13916667,
+                "cash_cost": 12246667,
+                "fee": 0,
+                "public_seconds": [
+                  1790071119
+                ]
+              },
+              {
+                "order_hash": "0x8653e4caf6a80c36fd3f6c18207f7931ef10f41eb3896dc4953b0688b3a88682",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x6648313b5ecd2149a97faf3e5df568f2e3bda178",
+                "tx": "0xb4aa10147f0e8706fd500d01660ba392f1f18e6e6e7c8345c34ab52a3f577fb1",
+                "log_index": 1200,
+                "role": "maker",
+                "side": 0,
+                "token": "92658432199545955201015269398329606623380113013185532698959407612558024882144",
+                "qty": 50000000,
+                "cash_cost": 47500000,
+                "fee": 0,
+                "public_seconds": [
+                  1790071146
+                ]
+              },
+              {
+                "order_hash": "0x8653e4caf6a80c36fd3f6c18207f7931ef10f41eb3896dc4953b0688b3a88682",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x33eb6ae28dacb5fb4427cc81c98a2d46499259b6",
+                "tx": "0xb11b785afa1ccb6993380c4fabdd6a4fbfaddb75b878940903c21baade7f9f8f",
+                "log_index": 1229,
+                "role": "maker",
+                "side": 0,
+                "token": "92658432199545955201015269398329606623380113013185532698959407612558024882144",
+                "qty": 50000000,
+                "cash_cost": 47500000,
+                "fee": 0,
+                "public_seconds": [
+                  1790071146
+                ]
+              },
+              {
+                "order_hash": "0x8653e4caf6a80c36fd3f6c18207f7931ef10f41eb3896dc4953b0688b3a88682",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xfd2bd3fd10f8bf5315041b565e5fa493c92617e2",
+                "tx": "0x98e65b4b28a8fdd8d0ac48f0919a6a87a96e447d3e5e8f66211b61ffbad001bf",
+                "log_index": 1312,
+                "role": "maker",
+                "side": 0,
+                "token": "92658432199545955201015269398329606623380113013185532698959407612558024882144",
+                "qty": 50000000,
+                "cash_cost": 47500000,
+                "fee": 0,
+                "public_seconds": [
+                  1790071146
+                ]
+              },
+              {
+                "order_hash": "0x8653e4caf6a80c36fd3f6c18207f7931ef10f41eb3896dc4953b0688b3a88682",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x23f7a22d2c49e87c7684a5025a4e1ab0c0ecf8a2",
+                "tx": "0xca8ff044d0bec7d36e95a2c6894dc860e4a20006680a930da90fc730c46d94fd",
+                "log_index": 1277,
+                "role": "maker",
+                "side": 0,
+                "token": "92658432199545955201015269398329606623380113013185532698959407612558024882144",
+                "qty": 50000000,
+                "cash_cost": 47500000,
+                "fee": 0,
+                "public_seconds": [
+                  1790071147
+                ]
+              },
+              {
+                "order_hash": "0x8653e4caf6a80c36fd3f6c18207f7931ef10f41eb3896dc4953b0688b3a88682",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xb0fe18d734dcc3ad51a88a222867cc7f0f721fff",
+                "tx": "0xc4703fd77928f6064e5dcf2aa11462f2f1ce86185e0aeb85cce81001c6e12169",
+                "log_index": 1306,
+                "role": "maker",
+                "side": 0,
+                "token": "92658432199545955201015269398329606623380113013185532698959407612558024882144",
+                "qty": 50000000,
+                "cash_cost": 47500000,
+                "fee": 0,
+                "public_seconds": [
+                  1790071147
+                ]
+              },
+              {
+                "order_hash": "0x8653e4caf6a80c36fd3f6c18207f7931ef10f41eb3896dc4953b0688b3a88682",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x7b0783549a2ee38f37ce4e17aefbb230f2d2039b",
+                "tx": "0x50222787ac13cc5b67c8d4fc43b012c66d3ae6e117af427e46667e46cfda490d",
+                "log_index": 2018,
+                "role": "maker",
+                "side": 0,
+                "token": "92658432199545955201015269398329606623380113013185532698959407612558024882144",
+                "qty": 1000000,
+                "cash_cost": 950000,
+                "fee": 0,
+                "public_seconds": [
+                  1790071147
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "S": 1790073300,
+      "cohort": "historical",
+      "actors": {
+        "G": {
+          "status": "resolved",
+          "winner": 0,
+          "pnl": "-2.00",
+          "trade_terminal_payoffs": [
+            "-2.00",
+            "3.00"
+          ],
+          "trade_only_floor": "-2.00",
+          "trade_only_net": "-5",
+          "cash": "-2.00",
+          "remaining": [
+            "0",
+            "20"
+          ],
+          "bought": [
+            "15",
+            "20"
+          ],
+          "buy_cash": "17.00",
+          "trade_records": 7,
+          "first_fill_age": 10,
+          "first_sides": [
+            1
+          ],
+          "cash_vwap": [
+            "0.6633333333333333333333333333",
+            "0.3525"
+          ],
+          "reducing_buy_shares": "15",
+          "increasing_buy_shares": "20",
+          "ambiguous_buy_shares": "0",
+          "net_path": [
+            {
+              "age": 10,
+              "net": "-5"
+            },
+            {
+              "age": 25,
+              "net": "0"
+            },
+            {
+              "age": 27,
+              "net": "-5"
+            },
+            {
+              "age": 31,
+              "net": "0"
+            },
+            {
+              "age": 36,
+              "net": "-5"
+            },
+            {
+              "age": 43,
+              "net": "0"
+            },
+            {
+              "age": 48,
+              "net": "-5"
+            }
+          ],
+          "redeem_missing_asset": 1,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075734514,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 7,
+            "parents": 7,
+            "split_parents": 0,
+            "decoded_shares": "35",
+            "maker_shares": "35",
+            "taker_shares": 0,
+            "parent_shares": [
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5"
+            ],
+            "rows": [
+              {
+                "order_hash": "0x5208587891f18ded2870164d469e39236e98808de34d09f03f1dddae098abddd",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xd6327e8438ea4f947b3bb2ff422b95a20c80332f",
+                "tx": "0xec05299e902c5b09b6d1f68eee965da464a82c5e858be191a718e2e8f9e9c692",
+                "log_index": 565,
+                "role": "maker",
+                "side": 0,
+                "token": "9052975480224892940763976275336544847513637547646388403186302890531183225227",
+                "qty": 5000000,
+                "cash_cost": 1750000,
+                "fee": 0,
+                "public_seconds": [
+                  1790073310
+                ]
+              },
+              {
+                "order_hash": "0x860a5f40b2ae9e714bc211fc390d936551dc412d54b819ec4ffa1729d76af125",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xbf665efa3774bffb6598e88e4f05996fcf48b064",
+                "tx": "0x7282c8ae53a4192e018d18c334a0d482ce161cf3a8a6e64c59802604f26994d7",
+                "log_index": 355,
+                "role": "maker",
+                "side": 0,
+                "token": "33959505212795636890818835430223680443586300395027922563524316857271869372255",
+                "qty": 5000000,
+                "cash_cost": 3600000,
+                "fee": 0,
+                "public_seconds": [
+                  1790073325
+                ]
+              },
+              {
+                "order_hash": "0x3327b9a8b9581ce3c98be2f2a82f411f99af8ecc2b298564bb68064debce5b3b",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x3048d65321be3497164cdfc2996f94f98a2e7537",
+                "tx": "0x5b04a36e441f000fb9a637cc6089a1c680e5ffd9a776d380dc88becf85d7f634",
+                "log_index": 661,
+                "role": "maker",
+                "side": 0,
+                "token": "9052975480224892940763976275336544847513637547646388403186302890531183225227",
+                "qty": 5000000,
+                "cash_cost": 1350000,
+                "fee": 0,
+                "public_seconds": [
+                  1790073327
+                ]
+              },
+              {
+                "order_hash": "0x2396aedbef400d8fdd5289890bb0abbe9c95b5275ba1a8cf4a7de38e68110799",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xc53375ff94e96100f2b30a4b5775db35218d69a9",
+                "tx": "0x0be8a265134742d1c15822874775d9e070ef7eb8a5486f25a7a1b65c87de6eb9",
+                "log_index": 621,
+                "role": "maker",
+                "side": 0,
+                "token": "33959505212795636890818835430223680443586300395027922563524316857271869372255",
+                "qty": 5000000,
+                "cash_cost": 3400000,
+                "fee": 0,
+                "public_seconds": [
+                  1790073331
+                ]
+              },
+              {
+                "order_hash": "0xd158d6fa6dd62846fb405a80dc0842bc5276b31ed7d797774ee4a390a67dc25f",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xc53375ff94e96100f2b30a4b5775db35218d69a9",
+                "tx": "0x335d0bd3168c6ab45ab0c4132e1037e1ad498d22fc8b6175d7e1f65654c9db89",
+                "log_index": 472,
+                "role": "maker",
+                "side": 0,
+                "token": "9052975480224892940763976275336544847513637547646388403186302890531183225227",
+                "qty": 5000000,
+                "cash_cost": 1950000,
+                "fee": 0,
+                "public_seconds": [
+                  1790073336
+                ]
+              },
+              {
+                "order_hash": "0xe75b9874e3a73f774b9828fce9d9dc667ce7d168d809d474f921c244c5f5df3d",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xdf7930e89a2c47560165331863c31deca0733dcd",
+                "tx": "0x310e2a7d3c647ac8c13e58c29cc8175fff934f8aac78f0b274a344698f458faf",
+                "log_index": 441,
+                "role": "maker",
+                "side": 0,
+                "token": "33959505212795636890818835430223680443586300395027922563524316857271869372255",
+                "qty": 5000000,
+                "cash_cost": 2950000,
+                "fee": 0,
+                "public_seconds": [
+                  1790073343
+                ]
+              },
+              {
+                "order_hash": "0x74b8d3acb1087aa76eb8e51b96b15214a4dfc518c7c24dfece691bf70ec9c655",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xb051ddab1a75ba7d93256f91a858f19511a3ce14",
+                "tx": "0x80f1d0f02ac36f8b17b08ae659d6af2b78105156d1dd3c5495c8a38787f2a4e6",
+                "log_index": 195,
+                "role": "maker",
+                "side": 0,
+                "token": "9052975480224892940763976275336544847513637547646388403186302890531183225227",
+                "qty": 5000000,
+                "cash_cost": 2000000,
+                "fee": 0,
+                "public_seconds": [
+                  1790073348
+                ]
+              }
+            ]
+          },
+          "assigned_by_bot": true,
+          "local_bought": [
+            "15.0",
+            "20.0"
+          ],
+          "quantities_match_local": true,
+          "local_accepted_parents": 12,
+          "local_filled_parents": 7
+        },
+        "Bosona": {
+          "status": "resolved",
+          "winner": 0,
+          "pnl": "-27.427784",
+          "trade_terminal_payoffs": [
+            "-27.427784",
+            "-27.422403"
+          ],
+          "trade_only_floor": "-27.427784",
+          "trade_only_net": "-0.005381",
+          "cash": "-27.427784",
+          "remaining": [
+            "0.00",
+            "0.000000"
+          ],
+          "bought": [
+            "112.19",
+            "112.195381"
+          ],
+          "buy_cash": "139.617784",
+          "trade_records": 9,
+          "first_fill_age": 3,
+          "first_sides": [
+            1
+          ],
+          "cash_vwap": [
+            "0.8944593992334432658882253320",
+            "0.3500000057934648842629270094"
+          ],
+          "reducing_buy_shares": "112.19",
+          "increasing_buy_shares": "112.195381",
+          "ambiguous_buy_shares": "0",
+          "net_path": [
+            {
+              "age": 3,
+              "net": "-112.195381"
+            },
+            {
+              "age": 114,
+              "net": "-102.195381"
+            },
+            {
+              "age": 126,
+              "net": "-0.005381"
+            }
+          ],
+          "redeem_missing_asset": 1,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075737409,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 9,
+            "parents": 3,
+            "split_parents": 1,
+            "decoded_shares": "224.385381",
+            "maker_shares": "122.195381",
+            "taker_shares": "102.19",
+            "parent_shares": [
+              "112.195381",
+              "10",
+              "102.19"
+            ],
+            "rows": [
+              {
+                "order_hash": "0x8844bd91c16d6d4c7d5a404f249f2a260fde75a46f141fa169f5b144d3d7f2a3",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x189e65d76005165dcc5da325a30d62f06b4874c0",
+                "tx": "0x9df2e86b97dc0485d2a37a4291705045a8257677a3db4b4745fb3431f1af38e0",
+                "log_index": 531,
+                "role": "maker",
+                "side": 0,
+                "token": "9052975480224892940763976275336544847513637547646388403186302890531183225227",
+                "qty": 20923077,
+                "cash_cost": 7323077,
+                "fee": 0,
+                "public_seconds": [
+                  1790073303
+                ]
+              },
+              {
+                "order_hash": "0x8844bd91c16d6d4c7d5a404f249f2a260fde75a46f141fa169f5b144d3d7f2a3",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x72abe52af7032fa1c7078a16ddb341c94fe9e1ee",
+                "tx": "0x9f91ebab1c2b8a10e90000cfa611fa21659c1412dca08e9ff3b57a1d0b5a66ba",
+                "log_index": 554,
+                "role": "maker",
+                "side": 0,
+                "token": "9052975480224892940763976275336544847513637547646388403186302890531183225227",
+                "qty": 18503077,
+                "cash_cost": 6476077,
+                "fee": 0,
+                "public_seconds": [
+                  1790073303
+                ]
+              },
+              {
+                "order_hash": "0x8844bd91c16d6d4c7d5a404f249f2a260fde75a46f141fa169f5b144d3d7f2a3",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xd30d67e84ab372cde3990cb2500177f4a3104f6d",
+                "tx": "0x4a0c2d36a3d91e38d0973ce59c9b60b10001cb4a7159e6b92120c9e4bacb8b7d",
+                "log_index": 574,
+                "role": "maker",
+                "side": 0,
+                "token": "9052975480224892940763976275336544847513637547646388403186302890531183225227",
+                "qty": 10461537,
+                "cash_cost": 3661538,
+                "fee": 0,
+                "public_seconds": [
+                  1790073303
+                ]
+              },
+              {
+                "order_hash": "0x8844bd91c16d6d4c7d5a404f249f2a260fde75a46f141fa169f5b144d3d7f2a3",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x9796de6db546a93d9d5134563ec58ba08658d713",
+                "tx": "0x27b046784bc3e27a2106e3c3b4130ad842cfb615dce1d08ee528e7e6f8497549",
+                "log_index": 620,
+                "role": "maker",
+                "side": 0,
+                "token": "9052975480224892940763976275336544847513637547646388403186302890531183225227",
+                "qty": 10461537,
+                "cash_cost": 3661538,
+                "fee": 0,
+                "public_seconds": [
+                  1790073303
+                ]
+              },
+              {
+                "order_hash": "0x8844bd91c16d6d4c7d5a404f249f2a260fde75a46f141fa169f5b144d3d7f2a3",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x9cbf78b2ef6958e5d47eb8fcd9d78ae4e88aa8a8",
+                "tx": "0xaff659ad1976ebf84eb96e255b51ca5e2345c1b9fb334bf06cd7ad27bc4ba54a",
+                "log_index": 660,
+                "role": "maker",
+                "side": 0,
+                "token": "9052975480224892940763976275336544847513637547646388403186302890531183225227",
+                "qty": 10307691,
+                "cash_cost": 3607692,
+                "fee": 0,
+                "public_seconds": [
+                  1790073303
+                ]
+              },
+              {
+                "order_hash": "0x8844bd91c16d6d4c7d5a404f249f2a260fde75a46f141fa169f5b144d3d7f2a3",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xba559219ef67adff5c32c7f749f8ac16ed604e88",
+                "tx": "0xcccd17e9748bd5eb994c91ee6ce14ab50918a596e8973bc422010a91715e62be",
+                "log_index": 680,
+                "role": "maker",
+                "side": 0,
+                "token": "9052975480224892940763976275336544847513637547646388403186302890531183225227",
+                "qty": 20923077,
+                "cash_cost": 7323077,
+                "fee": 0,
+                "public_seconds": [
+                  1790073303
+                ]
+              },
+              {
+                "order_hash": "0x8844bd91c16d6d4c7d5a404f249f2a260fde75a46f141fa169f5b144d3d7f2a3",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xb6bd96290bc522ceea4a74550caf03bc8a459b7e",
+                "tx": "0x8303e692bf9104052a72bdbe32a02a344873e334b418576f7ba159e1e39fc8a1",
+                "log_index": 700,
+                "role": "maker",
+                "side": 0,
+                "token": "9052975480224892940763976275336544847513637547646388403186302890531183225227",
+                "qty": 20615385,
+                "cash_cost": 7215385,
+                "fee": 0,
+                "public_seconds": [
+                  1790073303
+                ]
+              },
+              {
+                "order_hash": "0x7137e35010cf50caeb1ceaad3ac9864724b585326777d0e3d15074a2278c2751",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x1543e51185661e714c4130eddcd08751335a757d",
+                "tx": "0x5ab16b3c6822962cdbf0adf397cc614f0980a00c0cd0a4f0d2cf3f3e2455f30e",
+                "log_index": 1216,
+                "role": "maker",
+                "side": 0,
+                "token": "33959505212795636890818835430223680443586300395027922563524316857271869372255",
+                "qty": 10000000,
+                "cash_cost": 8700000,
+                "fee": 0,
+                "public_seconds": [
+                  1790073414
+                ]
+              },
+              {
+                "order_hash": "0x6ad56d91c1444d36dbf329a1d48044901f6402fca23b819383948989a92fb94b",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xe111180000d2663c0091e4f400237545b87b996b",
+                "tx": "0x85555d67588dc0624649aa376f965257eae7192261f02f9b34aaf3e5eb9410f8",
+                "log_index": 612,
+                "role": "taker",
+                "side": 0,
+                "token": "33959505212795636890818835430223680443586300395027922563524316857271869372255",
+                "qty": 102190000,
+                "cash_cost": 91649400,
+                "fee": 700300,
+                "public_seconds": [
+                  1790073426
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "S": 1790073600,
+      "cohort": "historical",
+      "actors": {
+        "G": {
+          "status": "resolved",
+          "winner": 1,
+          "pnl": "1.6008",
+          "trade_terminal_payoffs": [
+            "-0.7192",
+            "1.6008"
+          ],
+          "trade_only_floor": "-0.7192",
+          "trade_only_net": "-2.32",
+          "cash": "1.6008",
+          "remaining": [
+            "2.68",
+            "0"
+          ],
+          "bought": [
+            "2.68",
+            "5"
+          ],
+          "buy_cash": "3.3992",
+          "trade_records": 2,
+          "first_fill_age": 10,
+          "first_sides": [
+            1
+          ],
+          "cash_vwap": [
+            "0.69",
+            "0.31"
+          ],
+          "reducing_buy_shares": "2.68",
+          "increasing_buy_shares": "5.00",
+          "ambiguous_buy_shares": "0",
+          "net_path": [
+            {
+              "age": 10,
+              "net": "-5"
+            },
+            {
+              "age": 13,
+              "net": "-2.32"
+            }
+          ],
+          "redeem_missing_asset": 1,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075740279,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 2,
+            "parents": 2,
+            "split_parents": 0,
+            "decoded_shares": "7.68",
+            "maker_shares": "7.68",
+            "taker_shares": 0,
+            "parent_shares": [
+              "5",
+              "2.68"
+            ],
+            "rows": [
+              {
+                "order_hash": "0xb994cfb85eb502f62060bb75a38aa8f6e2482e88d08469fecaa3e83c2c7deedc",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xeebde7a0e019a63e6b476eb425505b7b3e6eba30",
+                "tx": "0x1fca248c32f645380b322e73cb47f4e25d0a9ae4633d383f3cdc76bcad62f4a4",
+                "log_index": 1016,
+                "role": "maker",
+                "side": 0,
+                "token": "104630761338288779192329655069533261339717721030516164048350452140090189093419",
+                "qty": 5000000,
+                "cash_cost": 1550000,
+                "fee": 0,
+                "public_seconds": [
+                  1790073610
+                ]
+              },
+              {
+                "order_hash": "0xd85ed6a3828505927d6b5e3dc039b4d888a440144edae9ce016638ed43105902",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xa0b24305388d9f909a2fcb6e34ca4317a3765f3e",
+                "tx": "0x0832363612d6a032d673b49d9d5d7251320507d967c732b504e5d46096974d81",
+                "log_index": 495,
+                "role": "maker",
+                "side": 0,
+                "token": "83548051319874659034131128236379288408952057136512725962208714811075487423337",
+                "qty": 2680000,
+                "cash_cost": 1849200,
+                "fee": 0,
+                "public_seconds": [
+                  1790073613
+                ]
+              }
+            ]
+          },
+          "assigned_by_bot": true,
+          "local_bought": [
+            "2.68",
+            "5.0"
+          ],
+          "quantities_match_local": true,
+          "local_accepted_parents": 3,
+          "local_filled_parents": 2
+        },
+        "Bosona": {
+          "status": "resolved",
+          "winner": 1,
+          "pnl": "0.210029",
+          "trade_terminal_payoffs": [
+            "0.200755",
+            "0.210029"
+          ],
+          "trade_only_floor": "0.200755",
+          "trade_only_net": "-0.009274",
+          "cash": "0.210029",
+          "remaining": [
+            "0.00",
+            "0.000000"
+          ],
+          "bought": [
+            "10.44",
+            "10.449274"
+          ],
+          "buy_cash": "10.239245",
+          "trade_records": 4,
+          "first_fill_age": 75,
+          "first_sides": [
+            1
+          ],
+          "cash_vwap": [
+            "0.6561273946360153256704980843",
+            "0.3243550700268745943498084173"
+          ],
+          "reducing_buy_shares": "10.44",
+          "increasing_buy_shares": "10.449274",
+          "ambiguous_buy_shares": "0",
+          "net_path": [
+            {
+              "age": 75,
+              "net": "-5"
+            },
+            {
+              "age": 76,
+              "net": "-9"
+            },
+            {
+              "age": 85,
+              "net": "-10.449274"
+            },
+            {
+              "age": 189,
+              "net": "-0.009274"
+            }
+          ],
+          "redeem_missing_asset": 1,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075741733,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 4,
+            "parents": 3,
+            "split_parents": 1,
+            "decoded_shares": "20.889274",
+            "maker_shares": "10.449274",
+            "taker_shares": "10.44",
+            "parent_shares": [
+              "5",
+              "5.449274",
+              "10.44"
+            ],
+            "rows": [
+              {
+                "order_hash": "0xdf00b55a3d8e71192dde996ac11900bd14dc253da2a003eb220be49ba4d86053",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xf0dd3e1579d55b2a26b69242104d902e411fba35",
+                "tx": "0x628ecadd92f17e431e20482a879a245109807d8b5ccf3b6d538bd1a119f2839d",
+                "log_index": 211,
+                "role": "maker",
+                "side": 0,
+                "token": "104630761338288779192329655069533261339717721030516164048350452140090189093419",
+                "qty": 5000000,
+                "cash_cost": 1700000,
+                "fee": 0,
+                "public_seconds": [
+                  1790073675
+                ]
+              },
+              {
+                "order_hash": "0xa657951325f81076286e937619bdb7173d3042db30c315d752298f7a8d9e0990",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x576b0696fd5a9225d66fd9500fd98f5be10b0cab",
+                "tx": "0x42f69c4eb942ad44aaa73db289f03fd3196c1bd1ada0576bb84461840d377ede",
+                "log_index": 708,
+                "role": "maker",
+                "side": 0,
+                "token": "104630761338288779192329655069533261339717721030516164048350452140090189093419",
+                "qty": 4000000,
+                "cash_cost": 1240000,
+                "fee": 0,
+                "public_seconds": [
+                  1790073676
+                ]
+              },
+              {
+                "order_hash": "0xa657951325f81076286e937619bdb7173d3042db30c315d752298f7a8d9e0990",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x87678722d8499c48df1aba49b20ef1ae9692fbef",
+                "tx": "0x08c028b95611121059239939cd0e2cc8c505b71d49d3cb858bd4a89a3b90a941",
+                "log_index": 278,
+                "role": "maker",
+                "side": 0,
+                "token": "104630761338288779192329655069533261339717721030516164048350452140090189093419",
+                "qty": 1449274,
+                "cash_cost": 449275,
+                "fee": 0,
+                "public_seconds": [
+                  1790073685
+                ]
+              },
+              {
+                "order_hash": "0x0175cd21c02c4f1720d72e9c8d76d4cdd9a8edbfa4f8317c1eea19b1c5788b46",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xe111180000d2663c0091e4f400237545b87b996b",
+                "tx": "0xe4fd74e4a53ba96fd70ca1d764d3bcb7d68e1861ea648c8130ee08d01f5e028c",
+                "log_index": 1030,
+                "role": "taker",
+                "side": 0,
+                "token": "83548051319874659034131128236379288408952057136512725962208714811075487423337",
+                "qty": 10440000,
+                "cash_cost": 6849970,
+                "fee": 168370,
+                "public_seconds": [
+                  1790073789
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "S": 1790074800,
+      "cohort": "historical",
+      "actors": {
+        "G": {
+          "status": "resolved",
+          "winner": 0,
+          "pnl": "-2.30",
+          "trade_terminal_payoffs": [
+            "-2.30",
+            "2.70"
+          ],
+          "trade_only_floor": "-2.30",
+          "trade_only_net": "-5",
+          "cash": "-2.30",
+          "remaining": [
+            "0",
+            "15"
+          ],
+          "bought": [
+            "10",
+            "15"
+          ],
+          "buy_cash": "12.30",
+          "trade_records": 5,
+          "first_fill_age": 9,
+          "first_sides": [
+            1
+          ],
+          "cash_vwap": [
+            "0.66",
+            "0.38"
+          ],
+          "reducing_buy_shares": "10",
+          "increasing_buy_shares": "15",
+          "ambiguous_buy_shares": "0",
+          "net_path": [
+            {
+              "age": 9,
+              "net": "-5"
+            },
+            {
+              "age": 18,
+              "net": "0"
+            },
+            {
+              "age": 19,
+              "net": "-5"
+            },
+            {
+              "age": 27,
+              "net": "0"
+            },
+            {
+              "age": 28,
+              "net": "-5"
+            }
+          ],
+          "redeem_missing_asset": 1,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075744008,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 5,
+            "parents": 5,
+            "split_parents": 0,
+            "decoded_shares": "25",
+            "maker_shares": "25",
+            "taker_shares": 0,
+            "parent_shares": [
+              "5",
+              "5",
+              "5",
+              "5",
+              "5"
+            ],
+            "rows": [
+              {
+                "order_hash": "0xd0ca50a5824714878f0230d63299c559d3f0d7de467a2103ae2565265e9db824",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xd5e2004f433afc994d49cd423f8041928ea95048",
+                "tx": "0xe45c1fe2b13ba381707de961acf196d743e7732b0b5ae4c2f1b3a27d57231f5f",
+                "log_index": 135,
+                "role": "maker",
+                "side": 0,
+                "token": "52106750588144133898869682421471330833715554408969411178219061466513157677786",
+                "qty": 5000000,
+                "cash_cost": 2350000,
+                "fee": 0,
+                "public_seconds": [
+                  1790074809
+                ]
+              },
+              {
+                "order_hash": "0x0ec9513ec9cc00112afd7be08b0988c465d12e157ee18611d6610171591dae4c",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x56a04c831074c4d535a2760692282114aa5271af",
+                "tx": "0x9190882160d69a38e1b2eb4483b0416c4f17922abcd77d236edd27ae6ea84360",
+                "log_index": 654,
+                "role": "maker",
+                "side": 0,
+                "token": "37022419443467705675654237926977926069140228595927999847825276976993381879316",
+                "qty": 5000000,
+                "cash_cost": 3100000,
+                "fee": 0,
+                "public_seconds": [
+                  1790074818
+                ]
+              },
+              {
+                "order_hash": "0x67989c6851a9c50bf74ec32f868cf5337b954e6acb723916b2f2bdd67fb91718",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xc53375ff94e96100f2b30a4b5775db35218d69a9",
+                "tx": "0x916bbe95dab84c25b7f9d4c9ec81287cb6eeecb56af642eac55ae62dc6725764",
+                "log_index": 270,
+                "role": "maker",
+                "side": 0,
+                "token": "52106750588144133898869682421471330833715554408969411178219061466513157677786",
+                "qty": 5000000,
+                "cash_cost": 1950000,
+                "fee": 0,
+                "public_seconds": [
+                  1790074819
+                ]
+              },
+              {
+                "order_hash": "0x767a0bcc6c86f1c9e7b5959cc2c045216a8ae390cfb75293dad274ff7fe67177",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xf0dd3e1579d55b2a26b69242104d902e411fba35",
+                "tx": "0x73833bfff988137129eb45481176c0eb4837b8224ac9047abd2b10ed33e91bb1",
+                "log_index": 328,
+                "role": "maker",
+                "side": 0,
+                "token": "37022419443467705675654237926977926069140228595927999847825276976993381879316",
+                "qty": 5000000,
+                "cash_cost": 3500000,
+                "fee": 0,
+                "public_seconds": [
+                  1790074827
+                ]
+              },
+              {
+                "order_hash": "0x38b293338cb4e2b3ef78d0636d3ebed41a224d07ef7cecb9aaa71283e4f67dc3",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x576b0696fd5a9225d66fd9500fd98f5be10b0cab",
+                "tx": "0xa3cb916f7b4656e9f39f4c8e95bcd1cf7081f7850402b2bbe3befc20632d5ec4",
+                "log_index": 915,
+                "role": "maker",
+                "side": 0,
+                "token": "52106750588144133898869682421471330833715554408969411178219061466513157677786",
+                "qty": 5000000,
+                "cash_cost": 1400000,
+                "fee": 0,
+                "public_seconds": [
+                  1790074828
+                ]
+              }
+            ]
+          },
+          "assigned_by_bot": true,
+          "local_bought": [
+            "10.0",
+            "15.0"
+          ],
+          "quantities_match_local": true,
+          "local_accepted_parents": 10,
+          "local_filled_parents": 5
+        },
+        "Bosona": {
+          "status": "resolved",
+          "winner": 0,
+          "pnl": "-27.39",
+          "trade_terminal_payoffs": [
+            "-27.39",
+            "221.61"
+          ],
+          "trade_only_floor": "-27.39",
+          "trade_only_net": "-249",
+          "cash": "-27.39",
+          "remaining": [
+            "0",
+            "0"
+          ],
+          "bought": [
+            0,
+            "249"
+          ],
+          "buy_cash": "27.39",
+          "trade_records": 1,
+          "first_fill_age": 201,
+          "first_sides": [
+            1
+          ],
+          "cash_vwap": [
+            null,
+            "0.11"
+          ],
+          "reducing_buy_shares": "0",
+          "increasing_buy_shares": "249",
+          "ambiguous_buy_shares": "0",
+          "net_path": [
+            {
+              "age": 201,
+              "net": "-249"
+            }
+          ],
+          "redeem_missing_asset": 0,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075746143,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 1,
+            "parents": 1,
+            "split_parents": 0,
+            "decoded_shares": "249",
+            "maker_shares": "249",
+            "taker_shares": 0,
+            "parent_shares": [
+              "249"
+            ],
+            "rows": [
+              {
+                "order_hash": "0x9b8afab31c56ae7805cc24f9b35eb48e55a97dd17e3f6c999d832921921193e1",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x3d178f74200ebf54c5412a752bba6c52743402ec",
+                "tx": "0x8f14b085fec23cfe38d9d6a0420b33a56f69381100e572f1760f05caf34eaf03",
+                "log_index": 417,
+                "role": "maker",
+                "side": 0,
+                "token": "52106750588144133898869682421471330833715554408969411178219061466513157677786",
+                "qty": 249000000,
+                "cash_cost": 27390000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075001
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "S": 1790075100,
+      "cohort": "forward",
+      "actors": {
+        "G": {
+          "status": "resolved",
+          "winner": 1,
+          "pnl": "0",
+          "trade_terminal_payoffs": [
+            "0",
+            "0"
+          ],
+          "trade_only_floor": "0",
+          "trade_only_net": "0",
+          "cash": "0",
+          "remaining": [
+            "0",
+            "0"
+          ],
+          "bought": [
+            0,
+            0
+          ],
+          "buy_cash": 0,
+          "trade_records": 0,
+          "first_fill_age": null,
+          "first_sides": [],
+          "cash_vwap": [
+            null,
+            null
+          ],
+          "reducing_buy_shares": "0",
+          "increasing_buy_shares": "0",
+          "ambiguous_buy_shares": "0",
+          "net_path": [],
+          "redeem_missing_asset": 0,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075747258,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 0,
+            "parents": 0,
+            "split_parents": 0,
+            "decoded_shares": 0,
+            "maker_shares": 0,
+            "taker_shares": 0,
+            "parent_shares": [],
+            "rows": []
+          },
+          "assigned_by_bot": false
+        },
+        "Bosona": {
+          "status": "resolved",
+          "winner": 1,
+          "pnl": "-18.550965",
+          "trade_terminal_payoffs": [
+            "48.940196",
+            "-18.550965"
+          ],
+          "trade_only_floor": "-18.550965",
+          "trade_only_net": "67.491161",
+          "cash": "-18.550965",
+          "remaining": [
+            "0.000000",
+            "0"
+          ],
+          "bought": [
+            "67.491161",
+            0
+          ],
+          "buy_cash": "18.550965",
+          "trade_records": 8,
+          "first_fill_age": 82,
+          "first_sides": [
+            0
+          ],
+          "cash_vwap": [
+            "0.2748651041874950113837869821",
+            null
+          ],
+          "reducing_buy_shares": "0",
+          "increasing_buy_shares": "67.491161",
+          "ambiguous_buy_shares": "0",
+          "net_path": [
+            {
+              "age": 82,
+              "net": "3.465605"
+            },
+            {
+              "age": 88,
+              "net": "31.243383"
+            },
+            {
+              "age": 90,
+              "net": "43.382272"
+            },
+            {
+              "age": 96,
+              "net": "67.491161"
+            }
+          ],
+          "redeem_missing_asset": 0,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075748332,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 8,
+            "parents": 2,
+            "split_parents": 1,
+            "decoded_shares": "67.491161",
+            "maker_shares": "67.491161",
+            "taker_shares": 0,
+            "parent_shares": [
+              "3.465605",
+              "64.025556"
+            ],
+            "rows": [
+              {
+                "order_hash": "0x99a304d8cc02c336afa6e9e09008bb970f7dfcc249edb93665b0705ce625b79a",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x2a1d5ba1705a59306daf1c739376e0a4eb6d3fa1",
+                "tx": "0x3d9e1838784f1dbd696b9643c717df16baeba9526ab568f5fc0166a32de6d896",
+                "log_index": 665,
+                "role": "maker",
+                "side": 0,
+                "token": "91637922580678131043873276143097668224319872240064722594531592601976458332791",
+                "qty": 3465605,
+                "cash_cost": 623809,
+                "fee": 0,
+                "public_seconds": [
+                  1790075182
+                ]
+              },
+              {
+                "order_hash": "0xb6e9454e4f4c71e1248a77ef8a6d5e148e54a2f3e62f996d10afc01ca5110609",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x55aaa8e6cd6316433d0e368d528d937546c681a6",
+                "tx": "0x1748b133ea01180c4a1e4b94caf6100810bb1372db94f8f45277bc5a015e4424",
+                "log_index": 583,
+                "role": "maker",
+                "side": 0,
+                "token": "91637922580678131043873276143097668224319872240064722594531592601976458332791",
+                "qty": 27777778,
+                "cash_cost": 7777778,
+                "fee": 0,
+                "public_seconds": [
+                  1790075188
+                ]
+              },
+              {
+                "order_hash": "0xb6e9454e4f4c71e1248a77ef8a6d5e148e54a2f3e62f996d10afc01ca5110609",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x1e4546af6501e3e78ad16efd638107ba1e818ee7",
+                "tx": "0x5d3a204c5bf6bbcd617568551b744bc0f6d096f476646fc3be19a17215ad7ee6",
+                "log_index": 198,
+                "role": "maker",
+                "side": 0,
+                "token": "91637922580678131043873276143097668224319872240064722594531592601976458332791",
+                "qty": 6750000,
+                "cash_cost": 1890000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075190
+                ]
+              },
+              {
+                "order_hash": "0xb6e9454e4f4c71e1248a77ef8a6d5e148e54a2f3e62f996d10afc01ca5110609",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xba0d4b0625afee840c8844424cfb7c4a7119ea0d",
+                "tx": "0xf22a19741a72d76e4bbad84edd56c678f0f79bd4b8953c391e4d0ba96b4ade72",
+                "log_index": 218,
+                "role": "maker",
+                "side": 0,
+                "token": "91637922580678131043873276143097668224319872240064722594531592601976458332791",
+                "qty": 2000000,
+                "cash_cost": 560000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075190
+                ]
+              },
+              {
+                "order_hash": "0xb6e9454e4f4c71e1248a77ef8a6d5e148e54a2f3e62f996d10afc01ca5110609",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xba0d4b0625afee840c8844424cfb7c4a7119ea0d",
+                "tx": "0xcd0763db34350d0e7f32862199c0f9ce092541e4c46ad9fc8f071a5395b8f301",
+                "log_index": 297,
+                "role": "maker",
+                "side": 0,
+                "token": "91637922580678131043873276143097668224319872240064722594531592601976458332791",
+                "qty": 2000000,
+                "cash_cost": 560000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075190
+                ]
+              },
+              {
+                "order_hash": "0xb6e9454e4f4c71e1248a77ef8a6d5e148e54a2f3e62f996d10afc01ca5110609",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xc09418c4e7ec8113616d1ba2cae2613f35dc46f5",
+                "tx": "0x13bf4800a6a1e667a5eb3015a52c457b64313a2c38d2bbc4b692e98290546edc",
+                "log_index": 317,
+                "role": "maker",
+                "side": 0,
+                "token": "91637922580678131043873276143097668224319872240064722594531592601976458332791",
+                "qty": 1388889,
+                "cash_cost": 388889,
+                "fee": 0,
+                "public_seconds": [
+                  1790075190
+                ]
+              },
+              {
+                "order_hash": "0xb6e9454e4f4c71e1248a77ef8a6d5e148e54a2f3e62f996d10afc01ca5110609",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x9d07bb009c0ad82a18a83795e6a7d78673b2c6cb",
+                "tx": "0x7fc11fab95f4683d5f4f8c44e50dddc78cbb706c47f251a5c3c9311a89788929",
+                "log_index": 306,
+                "role": "maker",
+                "side": 0,
+                "token": "91637922580678131043873276143097668224319872240064722594531592601976458332791",
+                "qty": 22720000,
+                "cash_cost": 6361600,
+                "fee": 0,
+                "public_seconds": [
+                  1790075196
+                ]
+              },
+              {
+                "order_hash": "0xb6e9454e4f4c71e1248a77ef8a6d5e148e54a2f3e62f996d10afc01ca5110609",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x475c263ed8ec2691e058c0b38ca181612ef080cd",
+                "tx": "0x392d584efefd4bc33ba3b19b07a4d07a610454f889b6b574dc1439fa99b5b130",
+                "log_index": 326,
+                "role": "maker",
+                "side": 0,
+                "token": "91637922580678131043873276143097668224319872240064722594531592601976458332791",
+                "qty": 1388889,
+                "cash_cost": 388889,
+                "fee": 0,
+                "public_seconds": [
+                  1790075196
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "S": 1790075400,
+      "cohort": "forward",
+      "actors": {
+        "G": {
+          "status": "pending",
+          "winner": null,
+          "pnl": null,
+          "trade_terminal_payoffs": [
+            "2.70",
+            "2.70"
+          ],
+          "trade_only_floor": "2.70",
+          "trade_only_net": "0",
+          "cash": "-17.30",
+          "remaining": [
+            "20",
+            "20"
+          ],
+          "bought": [
+            "20",
+            "20"
+          ],
+          "buy_cash": "17.30",
+          "trade_records": 8,
+          "first_fill_age": 9,
+          "first_sides": [
+            1
+          ],
+          "cash_vwap": [
+            "0.365",
+            "0.50"
+          ],
+          "reducing_buy_shares": "20",
+          "increasing_buy_shares": "20",
+          "ambiguous_buy_shares": "0",
+          "net_path": [
+            {
+              "age": 9,
+              "net": "-5"
+            },
+            {
+              "age": 18,
+              "net": "0"
+            },
+            {
+              "age": 19,
+              "net": "5"
+            },
+            {
+              "age": 31,
+              "net": "0"
+            },
+            {
+              "age": 33,
+              "net": "5"
+            },
+            {
+              "age": 60,
+              "net": "0"
+            },
+            {
+              "age": 63,
+              "net": "5"
+            },
+            {
+              "age": 255,
+              "net": "0"
+            }
+          ],
+          "redeem_missing_asset": 0,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075751874,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 8,
+            "parents": 8,
+            "split_parents": 0,
+            "decoded_shares": "40",
+            "maker_shares": "40",
+            "taker_shares": 0,
+            "parent_shares": [
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5",
+              "5"
+            ],
+            "rows": [
+              {
+                "order_hash": "0x07f3a721f367df607d30ed42777a1dd40a7216b778cb161dac51330a2425cfd6",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xdf7930e89a2c47560165331863c31deca0733dcd",
+                "tx": "0xc57c9c6b918d533eb24c416e41316f2daceea306843292e6495c418dfb236705",
+                "log_index": 398,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 5000000,
+                "cash_cost": 3550000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075409
+                ]
+              },
+              {
+                "order_hash": "0x710303fcbb267041e250e5ac1a9ca10ec01409d77892eed8a0f01c2106742c7d",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x341b9b0518c3b9d0e3ba03cecfcb8e0921d08a5c",
+                "tx": "0x061d205031b502ac74d33490c59d335b60351a25110ac04a57dc2c18ae2566b9",
+                "log_index": 782,
+                "role": "maker",
+                "side": 0,
+                "token": "75485029663957639015877928165601041145888398597864584112149686633498595618907",
+                "qty": 5000000,
+                "cash_cost": 1700000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075418
+                ]
+              },
+              {
+                "order_hash": "0x090dbfd6657690c079072dac3db0331319962adaa7168c60f581fb665bb52e83",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x21f4c1a1be34a39a7bc20985df4b7e5a39fb691d",
+                "tx": "0x82e36397a0b82462804eaf13f513908ccc2510ae2fcbc8bd8fd80742a6bddab6",
+                "log_index": 630,
+                "role": "maker",
+                "side": 0,
+                "token": "75485029663957639015877928165601041145888398597864584112149686633498595618907",
+                "qty": 5000000,
+                "cash_cost": 1650000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075419
+                ]
+              },
+              {
+                "order_hash": "0xfff9ea8d92941fbfcd714d8545f24b04a3d0832cdea0c1acfbc5c7cf52f8cda5",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xb4119278ce385787c189b9a597f25d88fb978a7c",
+                "tx": "0xa23149bf33963f89c15e2dea5e25ee3c65656afa5bb5617a7f6334486d0ca51a",
+                "log_index": 272,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 5000000,
+                "cash_cost": 4100000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075431
+                ]
+              },
+              {
+                "order_hash": "0x5cb031068060e963f3853d882575a67a83b26ceb2b6cbf1d28e615618749f3fb",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x196aa5d2a351e4f344ea922afb4b9d234ac70ff7",
+                "tx": "0xe7a2b11a365d2a9ba4bb227b74001adfb5be346b177d0a399f5c61021ad57492",
+                "log_index": 353,
+                "role": "maker",
+                "side": 0,
+                "token": "75485029663957639015877928165601041145888398597864584112149686633498595618907",
+                "qty": 5000000,
+                "cash_cost": 950000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075433
+                ]
+              },
+              {
+                "order_hash": "0xdfcb16e4d0e9140c83e475442a853934dd9180019a566d605f90d994ab387654",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0xb55fa1296e6ec55d0ce53d93b9237389f11764d4",
+                "tx": "0xeb4664a1acc49ae86e3d2c7e407b5aaf3482f539c5db42e46670f4490a999d52",
+                "log_index": 405,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 5000000,
+                "cash_cost": 2300000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075460
+                ]
+              },
+              {
+                "order_hash": "0x551c418c915a08d908b1ec3b9e61a7396bcb5440b7cb874ae55494281dc0f074",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x19b3823092892c026517fd0ff58df4889abe0b9b",
+                "tx": "0x7c05b199f40829ae9b543aeaaee29ff506c28580a91bdcb154b1ea5fddad6bef",
+                "log_index": 881,
+                "role": "maker",
+                "side": 0,
+                "token": "75485029663957639015877928165601041145888398597864584112149686633498595618907",
+                "qty": 5000000,
+                "cash_cost": 3000000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075463
+                ]
+              },
+              {
+                "order_hash": "0x217e03407d998fd0248049e7cbbcfe9097a112db34dbae9ac47c068a93d1779f",
+                "owner": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+                "counterparty": "0x9b6f7013be0c5a2c8dc98e8b6a84347467c77fb9",
+                "tx": "0x94535390e5b6b72035119b2afa41cf775148e4644622e22a0e24416295410624",
+                "log_index": 1211,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 5000000,
+                "cash_cost": 50000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075655
+                ]
+              }
+            ]
+          },
+          "assigned_by_bot": true,
+          "local_bought": [
+            "20.0",
+            "20.0"
+          ],
+          "quantities_match_local": true,
+          "local_accepted_parents": 19,
+          "local_filled_parents": 8
+        },
+        "Bosona": {
+          "status": "pending",
+          "winner": null,
+          "pnl": null,
+          "trade_terminal_payoffs": [
+            "-401.860836",
+            "642.844979"
+          ],
+          "trade_only_floor": "-401.860836",
+          "trade_only_net": "-1044.705815",
+          "cash": "-401.860836",
+          "remaining": [
+            "0",
+            "1044.705815"
+          ],
+          "bought": [
+            "2",
+            "1046.705815"
+          ],
+          "buy_cash": "403.860836",
+          "trade_records": 29,
+          "first_fill_age": 24,
+          "first_sides": [
+            0
+          ],
+          "cash_vwap": [
+            "0.26",
+            "0.3853430736887613450394368928"
+          ],
+          "reducing_buy_shares": "2",
+          "increasing_buy_shares": "1046.705815",
+          "ambiguous_buy_shares": "0",
+          "net_path": [
+            {
+              "age": 24,
+              "net": "2"
+            },
+            {
+              "age": 108,
+              "net": "-52"
+            },
+            {
+              "age": 111,
+              "net": "-58.311514"
+            },
+            {
+              "age": 120,
+              "net": "-94.791514"
+            },
+            {
+              "age": 121,
+              "net": "-128.051514"
+            },
+            {
+              "age": 132,
+              "net": "-157.051514"
+            },
+            {
+              "age": 133,
+              "net": "-235.587220"
+            },
+            {
+              "age": 147,
+              "net": "-299.299720"
+            },
+            {
+              "age": 186,
+              "net": "-301.897120"
+            },
+            {
+              "age": 189,
+              "net": "-307.153214"
+            },
+            {
+              "age": 193,
+              "net": "-356.689916"
+            },
+            {
+              "age": 195,
+              "net": "-430.487382"
+            },
+            {
+              "age": 196,
+              "net": "-448.487382"
+            },
+            {
+              "age": 202,
+              "net": "-913.957971"
+            },
+            {
+              "age": 204,
+              "net": "-1044.705815"
+            },
+            {
+              "age": 259,
+              "net": "-1044.705815"
+            }
+          ],
+          "redeem_missing_asset": 0,
+          "inventory_scope": "public reported balances; redeem burns/other transfers not chain-verified",
+          "clock": "public API seconds; same-second mixed directions are not ordered",
+          "snapshot_ms": 1790075753092,
+          "execution": {
+            "complete": true,
+            "failures": [],
+            "fills": 29,
+            "parents": 12,
+            "split_parents": 8,
+            "decoded_shares": "1048.705815",
+            "maker_shares": "1048.705815",
+            "taker_shares": 0,
+            "parent_shares": [
+              "2",
+              "54",
+              "6.311514",
+              "69.74",
+              "107.535706",
+              "63.7125",
+              "2.5974",
+              "5.256094",
+              "123.334168",
+              "18",
+              "465.470589",
+              "130.747844"
+            ],
+            "rows": [
+              {
+                "order_hash": "0xd417d789c6ddfae962d93bac38df6e512e9618d697ef15096377b18aea362bb7",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xba0d4b0625afee840c8844424cfb7c4a7119ea0d",
+                "tx": "0x61e39b82317639e926265ab10fa127ec7c79dd97e8324577b2e2d325c131de38",
+                "log_index": 933,
+                "role": "maker",
+                "side": 0,
+                "token": "75485029663957639015877928165601041145888398597864584112149686633498595618907",
+                "qty": 2000000,
+                "cash_cost": 520000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075424
+                ]
+              },
+              {
+                "order_hash": "0x9a05cb5b86ab2f2f8eb227fe8236f7e710ba46b1364570cbb47f521e80d54bea",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xce25e214d5cfe4f459cf67f08df581885aae7fdc",
+                "tx": "0x77263b046bba251d6e56bd09de1c48951d2ad196ebbb6d47140dfaaf2969683a",
+                "log_index": 364,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 54000000,
+                "cash_cost": 19440000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075508
+                ]
+              },
+              {
+                "order_hash": "0x777eb41ddd7937d832feffc98fa23ad333d6a0794cb6cafc12639c1fcd5a4976",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x1ad9cfadb75430a89b60fee58782915d98145e35",
+                "tx": "0x2e52bf9d8c8fe49e21f9d93897ec12a2642d0d493fefb4384cac40eaeb58fb0f",
+                "log_index": 448,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 6311514,
+                "cash_cost": 2145915,
+                "fee": 0,
+                "public_seconds": [
+                  1790075511
+                ]
+              },
+              {
+                "order_hash": "0x1ec312a0674210edf5f4a43c6de11da45fa71210005756ef71c23537c280e60a",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xb8c40cfb12b96a2c69b84b82ef2d8414c3469099",
+                "tx": "0x522ceb1d4263847be99d31ead8397728b6bac3a2403f14c2a34f9186d972ee28",
+                "log_index": 2365,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 6080000,
+                "cash_cost": 2432000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075520
+                ]
+              },
+              {
+                "order_hash": "0x1ec312a0674210edf5f4a43c6de11da45fa71210005756ef71c23537c280e60a",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x01516b45e9d0825ba47d120b52e794d5d0cc4dd6",
+                "tx": "0xc72ca314e6c68c4419c0fdf69acfdb8464ba443e57163f9214d455e906ed3382",
+                "log_index": 2425,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 30400000,
+                "cash_cost": 12160000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075520
+                ]
+              },
+              {
+                "order_hash": "0x1ec312a0674210edf5f4a43c6de11da45fa71210005756ef71c23537c280e60a",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x1f9c6dbee842f14b07b0b01c38ab34206566fb0a",
+                "tx": "0xededd9861d09c19b9d34f02e2e125066cf9db0511490b4bad7bb06f8b35c5b5b",
+                "log_index": 146,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 33260000,
+                "cash_cost": 13304000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075521
+                ]
+              },
+              {
+                "order_hash": "0xe7d55a7c6d8fa0bd7b10721c0690af3a23c91b74490a727fbb9f597888e9194c",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x9783f45ce35f794be38ca47dd0816a5c241383b9",
+                "tx": "0x99fecc272070326ee2c9eac23ce285e1f6ff0510b5695ce7f1866baa0335ca4f",
+                "log_index": 1219,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 29000000,
+                "cash_cost": 4640000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075532
+                ]
+              },
+              {
+                "order_hash": "0xe7d55a7c6d8fa0bd7b10721c0690af3a23c91b74490a727fbb9f597888e9194c",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x1d928bba46b18319fb59cb7d280b0457b54ae99f",
+                "tx": "0x2494dd5a3f2fd9ba04aed1a6530a639b2b76c20dd684c18c4aa0db3f285c9eb5",
+                "log_index": 195,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 10773806,
+                "cash_cost": 1723809,
+                "fee": 0,
+                "public_seconds": [
+                  1790075533
+                ]
+              },
+              {
+                "order_hash": "0xe7d55a7c6d8fa0bd7b10721c0690af3a23c91b74490a727fbb9f597888e9194c",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x9783f45ce35f794be38ca47dd0816a5c241383b9",
+                "tx": "0xfa9540e2896991109cf1193c22720908ffb9e42220cd969a80fe4430cca13878",
+                "log_index": 421,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 38000000,
+                "cash_cost": 6080000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075533
+                ]
+              },
+              {
+                "order_hash": "0xe7d55a7c6d8fa0bd7b10721c0690af3a23c91b74490a727fbb9f597888e9194c",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x26895076a9e460e326e26272a9ae3a0c8d0950ca",
+                "tx": "0xf0e8b8415e0e41bedfce0ec3126e4c478a795e397d0063bbffd018c35b55b832",
+                "log_index": 783,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 29761900,
+                "cash_cost": 4761904,
+                "fee": 0,
+                "public_seconds": [
+                  1790075533
+                ]
+              },
+              {
+                "order_hash": "0x0ed2fbd00dc9488ae094722aa85d766fa948d45bc9b5463eadd62ee0b276c541",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x44fbbf57401cfbe2138ded1108b4c906e64d74ce",
+                "tx": "0x6d48039168c61ce96e7025f436ca802f8005dc57b90c5ff9d90dccd526267d03",
+                "log_index": 1807,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 63712500,
+                "cash_cost": 12742500,
+                "fee": 0,
+                "public_seconds": [
+                  1790075547
+                ]
+              },
+              {
+                "order_hash": "0xee9da41713230382b48b76c2d294df9142d0a1c5fd3d8fe412d606dbd29e50d3",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xec95bee146a685dfceb0f4c47e887375c4c50704",
+                "tx": "0x7e92bab4231f9c640f4c289c2bbee43863334ca147bb02036440600be590b8c1",
+                "log_index": 1085,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 1298700,
+                "cash_cost": 298701,
+                "fee": 0,
+                "public_seconds": [
+                  1790075586
+                ]
+              },
+              {
+                "order_hash": "0xee9da41713230382b48b76c2d294df9142d0a1c5fd3d8fe412d606dbd29e50d3",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x9a21994b5bab9152072002b68e8c943c654f3409",
+                "tx": "0xa06571cdfea5d0299f86ab965a678407072125ca61afabecaa508abaa70b37bd",
+                "log_index": 1105,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 1298700,
+                "cash_cost": 298701,
+                "fee": 0,
+                "public_seconds": [
+                  1790075586
+                ]
+              },
+              {
+                "order_hash": "0x0b01742be52a37267a39fac4acc04d1894dfcb80814774c9d27ca1066a036f5a",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xba0d4b0625afee840c8844424cfb7c4a7119ea0d",
+                "tx": "0xa9e29b29354cce9bb4b33ea1f877f8eccd8d7122f67a2714d6dfafd781392010",
+                "log_index": 276,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 2000000,
+                "cash_cost": 360000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075589
+                ]
+              },
+              {
+                "order_hash": "0x0b01742be52a37267a39fac4acc04d1894dfcb80814774c9d27ca1066a036f5a",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x3cd65c7b05f1c6e39a1d254bd6073cdb51eb4347",
+                "tx": "0x3b6978e5ae4f25da5a91df237a1a5d358dab05ebc47dbb73ab729f015fb9691d",
+                "log_index": 576,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 3256094,
+                "cash_cost": 586097,
+                "fee": 0,
+                "public_seconds": [
+                  1790075589
+                ]
+              },
+              {
+                "order_hash": "0xd0371924ade28721151c40312e74e4dd6db8968eab3d5c651e28fbb41fec4ff8",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x9a21994b5bab9152072002b68e8c943c654f3409",
+                "tx": "0xf33a7dc37e450c8d0ad9f62e200e03fb5434a95619c7d1ae091a99d1b04e5f88",
+                "log_index": 793,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 865823,
+                "cash_cost": 181823,
+                "fee": 0,
+                "public_seconds": [
+                  1790075593
+                ]
+              },
+              {
+                "order_hash": "0xd0371924ade28721151c40312e74e4dd6db8968eab3d5c651e28fbb41fec4ff8",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xba35a9deaadd44ebf66f3bf95236f647e64a8067",
+                "tx": "0x485a3b8080b229f20e105df1d65497db428ee913b96d17d0e343652c748b8c92",
+                "log_index": 817,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 31645566,
+                "cash_cost": 6645569,
+                "fee": 0,
+                "public_seconds": [
+                  1790075593
+                ]
+              },
+              {
+                "order_hash": "0xd0371924ade28721151c40312e74e4dd6db8968eab3d5c651e28fbb41fec4ff8",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x503b4fd78c6dfb68de6f3e203023278085d277d8",
+                "tx": "0xe917e8239af5dddf67bf75f02a5d6b8661f783ab254e39db5c71f4f656d9c8fc",
+                "log_index": 893,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 6329114,
+                "cash_cost": 1329114,
+                "fee": 0,
+                "public_seconds": [
+                  1790075593
+                ]
+              },
+              {
+                "order_hash": "0xd0371924ade28721151c40312e74e4dd6db8968eab3d5c651e28fbb41fec4ff8",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xf06b99f64704ddf67160399025d3ac1534ec3533",
+                "tx": "0xdaff020e7d654d3dc74096c35ae671a81889cf8a3a81556c4b8149c9adc68a5b",
+                "log_index": 949,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 5632909,
+                "cash_cost": 1182911,
+                "fee": 0,
+                "public_seconds": [
+                  1790075593
+                ]
+              },
+              {
+                "order_hash": "0xd0371924ade28721151c40312e74e4dd6db8968eab3d5c651e28fbb41fec4ff8",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x52f61a4018d34dee59fe8c3cfe9750053535af63",
+                "tx": "0x2e6b61f07691fb2044f2726c1ccb3c41cbffff27a33e543f0a78395d76863f33",
+                "log_index": 969,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 5063290,
+                "cash_cost": 1063291,
+                "fee": 0,
+                "public_seconds": [
+                  1790075593
+                ]
+              },
+              {
+                "order_hash": "0xd0371924ade28721151c40312e74e4dd6db8968eab3d5c651e28fbb41fec4ff8",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xb90e9a6f1f0788930cb32fd6d7fcdd0598dd4e8f",
+                "tx": "0x036d90388f0ec7f30693f37842d37164204d6236d54f5422ddb5699c74111551",
+                "log_index": 387,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 73797466,
+                "cash_cost": 15497468,
+                "fee": 0,
+                "public_seconds": [
+                  1790075595
+                ]
+              },
+              {
+                "order_hash": "0x48d544bacd0693a9e3eeb9f178888cd9d9de69eb6c125856672f27f824a374f1",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xa49ba96047f17e1218158de0dc7204623bdfe3a3",
+                "tx": "0x58e7f9e22225d60d9f27ef9ee9f722b36d61a237f26ac120b12a7d051dd38457",
+                "log_index": 403,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 6000000,
+                "cash_cost": 1440000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075596
+                ]
+              },
+              {
+                "order_hash": "0x48d544bacd0693a9e3eeb9f178888cd9d9de69eb6c125856672f27f824a374f1",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x51171406e6dd51f0c2e40ad2fc87ed2cbaeaffc0",
+                "tx": "0x1399589f16a7c963683a03708480b72c087218ea94f0b7318ab749cbd7d5d28d",
+                "log_index": 423,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 6000000,
+                "cash_cost": 1440000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075596
+                ]
+              },
+              {
+                "order_hash": "0x48d544bacd0693a9e3eeb9f178888cd9d9de69eb6c125856672f27f824a374f1",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xae34f2006c8e88ab740047f02ff8cd42321eda88",
+                "tx": "0x7fff8b8a889c80c6c3d43111db1f8aa60edc2fb50a388f9248b8152e25b34cb5",
+                "log_index": 688,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 6000000,
+                "cash_cost": 1440000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075596
+                ]
+              },
+              {
+                "order_hash": "0xd7df8f89e9b8eaa684060f9a014d959679df176c1486397430bdc46c3daf9a0d",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x0cb038487586d1119b165466072e9baf666f3a90",
+                "tx": "0x15904eaa11b5cf095e65587f5205f7e88aa258e8db9c123ae6554205c424ac03",
+                "log_index": 852,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 415470589,
+                "cash_cost": 203580589,
+                "fee": 0,
+                "public_seconds": [
+                  1790075602
+                ]
+              },
+              {
+                "order_hash": "0xd7df8f89e9b8eaa684060f9a014d959679df176c1486397430bdc46c3daf9a0d",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x3048d65321be3497164cdfc2996f94f98a2e7537",
+                "tx": "0x4c28ebf62a14a78024ac40393405d6fb5e2338850a2e0d30e97631d27ba8392f",
+                "log_index": 932,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 50000000,
+                "cash_cost": 24500000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075602
+                ]
+              },
+              {
+                "order_hash": "0x3bc5b0c87e0a0d66b11aa84af7ce954187ed014d3b55221c0cfe95876eba4b7b",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x413b1e2fd3b0111b9b46ab373625f311233443f4",
+                "tx": "0xda6bff8347e8351bebaa6d4fa7a2aad1bc93fb9a5a72aa43f1b52faa228c990e",
+                "log_index": 826,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 102200000,
+                "cash_cost": 50078000,
+                "fee": 0,
+                "public_seconds": [
+                  1790075604
+                ]
+              },
+              {
+                "order_hash": "0x3bc5b0c87e0a0d66b11aa84af7ce954187ed014d3b55221c0cfe95876eba4b7b",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0x555040f6ac032aa77c2f80533bdcf8c3dbc70d07",
+                "tx": "0x77559d44b8217bc344c8bf90ac2170224464dc41b645f28200ce1fbe89616e57",
+                "log_index": 872,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 19607844,
+                "cash_cost": 9607844,
+                "fee": 0,
+                "public_seconds": [
+                  1790075604
+                ]
+              },
+              {
+                "order_hash": "0x3bc5b0c87e0a0d66b11aa84af7ce954187ed014d3b55221c0cfe95876eba4b7b",
+                "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+                "counterparty": "0xba44b85ceadb6c713e137865800ba164ed20ed64",
+                "tx": "0x9f7bfc8ba271444a46ff838359a084dc72385f193541aa94eeac41c2e7d09465",
+                "log_index": 1736,
+                "role": "maker",
+                "side": 0,
+                "token": "61226053812325328823466646321382676746078780513795404806912904407180892129548",
+                "qty": 8940000,
+                "cash_cost": 4380600,
+                "fee": 0,
+                "public_seconds": [
+                  1790075604
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "source_sha": {
+    "study.py": "1104191799f9f1c96e214604607c4bc19b17c3f9ca6eda187721bae2e92f3881",
+    "protocol.json": "a6a2ba43995cb434e92ea3052d3cb0317a325c3044f22e4ae1d7aaf956a41257",
+    "identity.py": "bbabe1303f37ee1bd7cd34bcca266f0ea276dd6d81bfafff20cbe4ed227a58cd",
+    "public_data.py": "c0a40bd43c0d756a8997f98b029837dd7dd48eb808ab226212b9724469697e37"
+  }
+}

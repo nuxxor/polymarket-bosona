@@ -1,0 +1,113 @@
+{
+  "at_ms": 1790078061426,
+  "writers": [
+    175171
+  ],
+  "source_sha": "1c46c9bb8070b8e48a2b3d88cf6e27146c01ae8f33a2ae1e18530c4b39f2c40a",
+  "policy_sha": "fbac759df25cecf10ea01bbf9db9da5e07dd90f3b33e844125c51e434eaf2f61",
+  "budget": {
+    "id": "4527c3ca7a69abf92a33",
+    "anchor": -6.0286,
+    "cutoff": -16.0286,
+    "limit": 10,
+    "end_ms": null,
+    "continuous": true
+  },
+  "budget_original_bytes": true,
+  "run_original_bytes": true,
+  "activation_matches": true,
+  "state_budget_matches": true,
+  "start": {
+    "t": "10:56:05",
+    "utc_ms": 1790074565503,
+    "k": "basladi",
+    "mod": "LIVE",
+    "gorulen_pencere": 87
+  },
+  "source_event": {
+    "t": "10:56:02",
+    "utc_ms": 1790074562486,
+    "k": "SURUM",
+    "kaynak_sha": "1c46c9bb8070",
+    "oturum": "175171",
+    "kapi": false,
+    "esik_bps": 16.4,
+    "boy_testi": false,
+    "klip_buyuk": 25,
+    "tamamla_acik": false,
+    "tamamla_tavan": 1.02,
+    "px_tavan_maker": 0.4,
+    "a_uyum": false,
+    "a_cift_tavan": 0.8,
+    "a_uyum_ara": 20,
+    "vol_kapisi": false,
+    "vol_esik": 15,
+    "a_oran": 0.5,
+    "tohum": 20260918,
+    "delta_tik_b": [
+      2,
+      4
+    ],
+    "yenileme_ara": 20,
+    "taraf_tavan": 10,
+    "gec_kes": 200,
+    "ucuz_esik": 0.25,
+    "gec_ust": 0.1,
+    "gec_esik": 180,
+    "c_oran": 0.5,
+    "c_px": [
+      0.01,
+      0.99
+    ],
+    "c_t": [
+      3,
+      290
+    ],
+    "c_taze_max": 30,
+    "c_max_islem": 60,
+    "c_denge": 5,
+    "c_cift_tavan": null
+  },
+  "end": null,
+  "counts": {
+    "pencere": 9,
+    "taze_koy": 113,
+    "dolum": 55,
+    "emir_RED": 3,
+    "MARUZIYET_OKUMA_TEKRAR": 0
+  },
+  "health": {
+    "A": {
+      "pid": 175175,
+      "status": "active",
+      "rejected": 2,
+      "queue_overflow": 0,
+      "age_s": 0.946761449,
+      "pong_age_s": {
+        "market": 9.276435499,
+        "user": 7.776924874
+      }
+    },
+    "B": {
+      "pid": 175176,
+      "status": "active",
+      "rejected": 1,
+      "queue_overflow": 0,
+      "age_s": 0.947618701,
+      "pong_age_s": {
+        "market": 9.886085505,
+        "user": 9.282185079
+      }
+    }
+  },
+  "both_healthy": true,
+  "pnl": {
+    "pnl": -7.6278,
+    "pnl_yerel": -7.62778,
+    "durdu": null
+  },
+  "resume_count": 1,
+  "sdk_errors": 0,
+  "last_log_ms": 1790078060677,
+  "stop": false
+}

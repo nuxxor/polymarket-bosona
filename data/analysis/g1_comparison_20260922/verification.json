@@ -1,0 +1,19 @@
+{
+  "at_ms": 1790076283144,
+  "local_check": "PASS: synthetic and 22 real ledger/receipt recomputations",
+  "targeted_ruff": "PASS F,E9",
+  "syntax": "PASS",
+  "research_pid": 176205,
+  "remote_check": "PASS: 25 actor windows, 1 explicitly unresolved snapshot mismatch",
+  "remote_last_verified_ms": 1790076234423,
+  "remote_worker_errors": null,
+  "live_code_changed": false,
+  "budget_changed": false,
+  "hashes": {
+    "study.py": "1104191799f9f1c96e214604607c4bc19b17c3f9ca6eda187721bae2e92f3881",
+    "check.py": "fa5b15ae117dc99ea02ea888d11d0011a384e0ef5cd23784a1a269dc5194d4af",
+    "report.py": "c6b9f24879327415b77f24024454d05a8cfc0b5b884d145c0cf32f634259d7f2",
+    "protocol.json": "a6a2ba43995cb434e92ea3052d3cb0317a325c3044f22e4ae1d7aaf956a41257",
+    "CASE.md": "88e1cccc1554feb31b3d2eabeccdbbb219ad446e6f9e10ac1276ea62b03c28b3"
+  }
+}

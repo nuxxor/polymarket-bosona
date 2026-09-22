@@ -1,5 +1,6 @@
 """Read-only G/Bosona study; public full-condition snapshots, no trading SDK."""
 import argparse
+import fcntl
 from collections import Counter, defaultdict
 from decimal import Decimal as D
 from hashlib import sha256
@@ -50,6 +51,8 @@ def fetch_activity(wallet, market):
 
 
 def side(row, tokens):
+    if row['type']=='REDEEM' and row.get('asset')=='' and row.get('outcomeIndex') in (0,1):
+        return row['outcomeIndex']  # API payout side; does not prove which losing tokens were burned.
     assert row.get('asset') in tokens, 'unmapped token (including unknown redeem)'
     actual = tokens.index(row['asset'])
     assert row.get('outcomeIndex') in (actual, 999), 'token/outcome conflict'
@@ -63,6 +66,7 @@ def ledger(rows, market, start):
     prices = list(map(D, json.loads(market['outcomePrices'])))
     winner = prices.index(D(1)) if market.get('closed') and sorted(prices)==[D(0),D(1)] else None
     q, cash = [D(0),D(0)], D(0)
+    trade_q, trade_cash = [D(0),D(0)], D(0)
     trades, steps, reduction, increase, ambiguous = [], [], D(0), D(0), D(0)
     groups = defaultdict(list)
     for row in rows:
@@ -91,32 +95,45 @@ def ledger(rows, market, start):
                 sign=1 if row['side']=='BUY' else -1
                 q[oi] += amount*sign
                 cash -= usd*sign
+                trade_q[oi] += amount*sign
+                trade_cash -= usd*sign
                 trades.append(row)
             elif kind=='MERGE':
+                assert abs(usd-amount)<=D('.00002'), 'merge cash mismatch'
                 q=[x-amount for x in q]; cash+=usd
             elif kind=='SPLIT':
+                assert abs(usd-amount)<=D('.00002'), 'split cash mismatch'
                 q=[x+amount for x in q]; cash-=usd
             elif kind=='REDEEM':
-                oi=side(row,tokens);q[oi]-=amount;cash+=usd
+                oi=side(row,tokens)
+                assert winner is not None, 'redeem before known settlement'
+                assert abs(usd-(amount if oi==winner else 0))<=D('.00002'), 'redeem payout mismatch'
+                q[oi]-=amount;cash+=usd
             else:
                 raise ValueError('unsupported balance-changing activity: '+kind)
         assert min(q)>=D('-.00002'), 'negative public inventory; history/multiplicity incomplete'
         if timestamp < start+300:
             steps.append(dict(age=timestamp-start, net=q[0]-q[1]))
     terminal = [cash+v for v in q]
+    trade_terminal = [trade_cash+v for v in trade_q]
+    if winner is not None:
+        assert abs(terminal[winner]-trade_terminal[winner])<=D('.00005'), 'terminal cash reconciliation'
     # Merge/redeem change cash and token balances, not the realised trade outcome.
     bought = [sum(D(str(r['size'])) for r in trades if r['side']=='BUY' and side(r,tokens)==oi) for oi in (0,1)]
     spend = sum(D(str(r['usdcSize'])) for r in trades if r['side']=='BUY')
     buys = [r for r in trades if r['side']=='BUY']
     first = min((r['timestamp'] for r in buys),default=None)
     return dict(status='resolved' if winner is not None else 'pending', winner=winner,
-                pnl=terminal[winner] if winner is not None else None, terminal_payoffs=terminal,
+                pnl=terminal[winner] if winner is not None else None, trade_terminal_payoffs=trade_terminal,
+                trade_only_floor=min(trade_terminal), trade_only_net=trade_q[0]-trade_q[1],
                 cash=cash, remaining=q, bought=bought, buy_cash=spend, trade_records=len(trades),
                 first_fill_age=None if first is None else first-start,
                 first_sides=sorted({side(r,tokens) for r in buys if r['timestamp']==first}),
                 cash_vwap=[None if bought[i]==0 else sum(D(str(r['usdcSize'])) for r in buys if side(r,tokens)==i)/bought[i] for i in (0,1)],
                 reducing_buy_shares=reduction, increasing_buy_shares=increase,
                 ambiguous_buy_shares=ambiguous, net_path=steps,
+                redeem_missing_asset=sum(r['type']=='REDEEM' and r.get('asset')=='' for r in rows),
+                inventory_scope='public reported balances; redeem burns/other transfers not chain-verified',
                 clock='public API seconds; same-second mixed directions are not ordered')
 
 
@@ -144,6 +161,8 @@ def roles(rows, market, wallet, limit=100):
                     chain=sum(D(f['cash_cost'])/1000000 for f in actual)*(1 if action=='BUY' else -1)
                     assert abs(cash-chain)<=D('.00001'), 'chain/API cash difference'
             fills.extend(decoded)
+            for fill in decoded:
+                fill['public_seconds']=sorted({int(r['timestamp']) for r in group if r['asset']==fill['token']})
         except (OSError, ValueError, AssertionError, KeyError, TypeError) as error:
             failures.append(dict(tx=tx,error=type(error).__name__,reason=str(error)[:100]))
     parents=defaultdict(list)
@@ -153,7 +172,7 @@ def roles(rows, market, wallet, limit=100):
                 split_parents=sum(len(g)>1 for g in parents.values()), decoded_shares=quantity,
                 maker_shares=sum(D(f['qty'])/1000000 for f in fills if f['role']=='maker'),
                 taker_shares=sum(D(f['qty'])/1000000 for f in fills if f['role']=='taker'),
-                parent_shares=[sum(D(f['qty'])/1000000 for f in g) for g in parents.values()])
+                parent_shares=[sum(D(f['qty'])/1000000 for f in g) for g in parents.values()], rows=fills)
 
 
 def health(protocol):
@@ -168,6 +187,7 @@ def health(protocol):
             r=read(p)
             result['recorders'][lane]={k:r.get(k) for k in ('status','rejected','queue_overflow')}
             result['recorders'][lane]['age_seconds']=(time.time_ns()-r['at_ns'])/1e9
+            result['recorders'][lane]['pong_age_seconds']={k:(time.time_ns()-v)/1e9 for k,v in r.get('pongs',{}).items()}
     logs=[json.loads(line) for line in (bot/'LOG_g.jsonl').read_text().splitlines()]
     start=max(i for i,e in enumerate(logs) if e['k']=='SURUM')
     session=logs[start:]
@@ -218,7 +238,9 @@ def snapshot(protocol):
             time.sleep(1)
         report.append(item)
         save(cut/'report.json',report)
-    summary=dict(as_of_ms=round(time.time()*1000),cut=str(cut),rows=report)
+        health(protocol)
+    summary=dict(as_of_ms=round(time.time()*1000),cut=str(cut),rows=report,
+                 source_sha={name:sha256((ROOT/name).read_bytes()).hexdigest() for name in ('study.py','protocol.json','identity.py','public_data.py')})
     save(ROOT/'latest.json',summary)
     print(json.dumps(dict(cut=str(cut),windows=len(report),resolved={actor:sum(r['actors'].get(actor,{}).get('status')=='resolved' for r in report) for actor in protocol['wallets']})),flush=True)
     return summary
@@ -228,6 +250,9 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--watch',action='store_true')
     args=parser.parse_args()
+    if args.watch:
+        lock=(ROOT/'watch.lock').open('a')
+        fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
     protocol=read(ROOT/'protocol.json')
     public.OUT=ROOT
     (ROOT/'receipts').mkdir(exist_ok=True)
@@ -236,7 +261,7 @@ def main():
     while True:
         try:
             health(protocol)
-            if time.time()>=next_analysis:
+            if time.time()>=next_analysis or time.time()>=protocol['watch_end']:
                 snapshot(protocol)
                 next_analysis=time.time()+protocol['analysis_period_seconds']
         except (OSError,ValueError,AssertionError,KeyError,TypeError) as error:

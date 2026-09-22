@@ -1217,21 +1217,122 @@ lanes/g_continuous/validation/operator_resume_20260922/status.json.
 ## G1 sabit politika — canlı sağlık, ekonomi ve aynı pencere Bosona karşılaştırması
 Operatör bu araştırmayı başlatmayı onayladı. İlk G pilotu, süresiz ilk koşu
 ve13:56TRdevam ayrı raporlanır. Canlı politika/boy/bütçe değiştirilmeyecek.
-- [ ] Güncel LIVE kaynak/bütçe/kayıt sağlık kanıtı; API tekrarları, iptal,
+- [x] Güncel LIVE kaynak/bütçe/kayıt sağlık kanıtı; API tekrarları, iptal,
       dolum, belirsiz rezerv ve mutabakat sorunlarını ayrı değerlendir.
-- [ ] Bütün atanan pencerelerde net tradeUSD, iki sonuçtaki ödeme, net
+- [x] Bütün atanan pencerelerde net tradeUSD, iki sonuçtaki ödeme, net
       envanter yolu ve parent bazlı gerçek dolum ölçümü; açık sonuç null.
-- [ ] Bosona'nın aynı condition'lardaki pencere öncesi dahil tam kamu
+- [x] Bosona'nın aynı condition'lardaki pencere öncesi dahil tam kamu
       çokluğunu koru; eksik/işlemsiz ayrımı, token kimliği ve nakit/envanter
       kontrolü. Maker/parent yalnız doğrulanan exchange receipt kapsamı.
-- [ ] Yön/zaman/fiyat/boy/azaltma-ekleme benzerliğini karşılaştır; farklı
+- [x] Yön/zaman/fiyat/boy/azaltma-ekleme benzerliğini karşılaştır; farklı
       büyüklükteki toplamUSD farkını üstünlük sayma, parçaları karar sayma.
-- [ ] Salt-okunur iki saatlik ileri veri/sağlık takibini başlat, ilk gerçek
+- [x] Salt-okunur iki saatlik ileri veri/sağlık takibini başlat, ilk gerçek
       kesiti ve tekrar çalıştırılabilir kontrol/raporu doğrula. Bot durursa
       bunu kaydet; otomatik canlı restart veya yeni bütçe açma yok.
 Kabul: ilk küçük örnek kalıcıedgekanıtı değildir. Tek iyileştirme ancak
 verinin açıkladığı sorun varsa önerilir; yeni eşik taraması yapılmaz.
 
+Ek operatör sorusu: 22 Eylül 14:00–14:05 TR penceresinde 10Up/15Down,
+12,30USD maliyet ve Up sonucu örneğini özellikle incele. Bosona aynı
+pencerede ne taşıdı, ne zaman yön ekledi/azalttı? Kamu dolum saniyesini
+emir karar saniyesi sayma; eski parent devamı ile farklı parent'ı ayır.
+Sırf kayıp sonucu adverse selection kanıtı değildir; fiyat/dolum bağlamı
+eksikse bu sınırı açıkça belirt. Sonrasında aynı tür envanter durumlarını
+dondurulmuş ileri evrende izle; canlı kuralları değiştirme.
+
+İlk gerçek çıktı: data/analysis/g1_comparison_20260922/{CASE.md,REPORT.md,
+latest.json,paths.json,check.py}; 11 piyasa/22 aktör hesabı ve cached V2
+receipt/parent hesapları yeniden geçti; hedefli Ruff/sözdizimi geçti.
+Çokluk korunuyor. Boş asset'li redeem'lerde ödeme outcomeIndex ile
+uzlaştırılıyor, kaybeden token burn/harici transfer zincir denetimi eksik
+diye etiketli; tam zincir bakiye teyidi iddiası yok. İlk prototip bu satırları
+eksik saydı; düzeltme sonrası yeni kesit ve aynı testler alındı.
+
+Londra araştırma PID176205, /home/ubuntu/g1-comparison-20260922/study.py
+--watch. Sabit ileri aralık14:05–16:05TR; sonuç payıyla16:20TR'de biter.
+Worker14:16:40TRbaşladı; önceki kesim kendi bot logu/tam kamu geçmişinden.
+İki saatlik sonuç tamamlanmış sayılmadı. Botwriter175171; kaynak1c46c9,
+politika/bütçe/RUN değişmedi. API/SDK transport hatası yok demek bütün
+mutabakatın sağlıklı olduğu anlamına gelmiyor: aşağıdaki olay doğrulandı.
+
+- [ ] Sonraki altyapı işi: trades API'nin doğru Up tokeniyle outcomeIndex999
+      döndürmesi,14:00:27.7'den pencere sonuna kadar emir kapısını kapattı;
+      14:05penceresi atlandı. Altı doğrulama reddi, iki başarısız mutabakat;
+      14:09:09'da kendiliğinden düzeldi. Güvenilir condition/token eşlemesiyle
+      normalize et; geçersiz satır silme, güvenlik kapısını aşma. Bu tur
+      canlı kaynak değiştirilmedi; olay CASE.md'de kök neden kanıtıyla kayıtlı.
+
+Bosona14:00örneğinde201.saniyede249Down@.11 tek maker parent dolumu,
+sonra karşıalış/satış yok,−27.39USD.13:35örneğinde114/126.sn karşıUp ile
+riski azaltıyor; ikinci parent taker, yerel taşıma farkı+11.8406USD.
+12:55örneğinde tersyöne dönüp büyüyor; altı geç dolum tekparent. Bunlar
+farklı yolların varlığıdır, ortak tetikleyici veya yeni strateji teyidi değil.
+
+## G1 yön kimliği düzeltmesi ve seçici risk azaltma — 22 Eylül
+Operatörün son adlandırması: bu25fca69d altyapı sürümü G2. Strateji G1 ile
+aynı;5pay, bütçe, fiyatlama ve risk kuralları korunur. G2 etiketi raporlama
+adıdır; canlı lane/dizin/hash sırf isim için değiştirilmez. Seçici taker
+kapanışı bu revizyona dahil değildir.
+Operatör önce999altyapı sorununu çözmeyi ve aynı bütçeli yeniden başlatmayı,
+ardından Bosona'nın bazen karşıalım ile risk kapatma koşuluna odaklanmayı istedi.
+- [x] Gerçek sorunlu kaydı yeniden üret; doğrulanmış slug/condition/token
+      eşlemesiyle999normalizasyonu. Kimlik çelişkisi/eksikliği reddedilir;
+      çokluk, geçmişPnLvekapılar korunur. Ortak mutabakat girişinde düzelt.
+- [x] İzole kaynak/test, değişiklik öncesi-sonrası regresyon, hedefli lint,
+      gerçek kamu verisiyle emirsiz replay; aynı politika ve bütçe hashleri.
+- [x] Londra'ya park edilmiş yama, eski kaynak/kanıt yedeği ve aynı bütçeli
+      durdur-uygula-devam operatör komutu. Gerçek emir doğuran restart
+      kullanıcı komutuyla yapılır; asistan canlı emri başlatmaz.
+- [x] Mevcut137piyasa parent/risk azaltım araştırmasını kullan; karşıalım
+      koşulunu fiyat, kalan süre ve önceden taşınan riskle karşılaştır.
+      Yalnız kayıplar/gelecekteki aktör eylemlerinden bağımsız karar türetme.
+      Operatörün son yönlendirmesi: önce Bosona'nın gözlenen davranışını
+      açıkla; kendiliğinden indikatör/eşik stratejisi üretme. Canlıya ekleme yok.
+Kabul: yeniden başlatma istenmesi gerçekleşmişLIVEteyidi değildir. Eksik
+girdi varsa sinyal bulunmuş sayılmaz; taker iadesi gerçekleşmiş para veya
+beklenen rebate varsayımıyla işlem sonucuna otomatik eklenmez.
+
+Çıktı: lanes/g_continuous/identity_fix/README.md ve
+londra_g_999_duzelt_devam.sh. Gerçek eski999olayı regresyonu,7Londraemirsiz
+kontrol, gerçekAPI/Gamma replay, hedefliRuff/compile/bash/fakeSSH geçti.
+Yeni kaynak25fca69d; politika/hash/bütçe değişmedi. Operatör komutu verildi.
+- [x] Kullanıcı restart'ından sonra yeniLIVEkaynağı/aynıbütçe/iki kayıtçı teyidi.
+      Son14:51:24TRkontrolünde eski kaynak1c46c9, writer175171 devam ediyordu;
+      asistan finansal restart yapmadı. Hazırlık canlı uygulama değildir.
+
+Kullanıcı komutu çalıştırdı:15:04:56TRnormalSTOP, yeni kaynak25fca69d4ad7
+uygulandı. Son iki piyasanın resmi teyidinden sonra15:07:30TRLIVEbaşladı;
+writer177479, kayıtçı177772/177773aktif.15:07:32ilk mutabakat başarılı,
+yerel/APIhesap uzlaşıyor. BUDGET/RUNorijinalbaytları ve politika hash'i aynı;
+bütçe4527c3ca7a69abf92a33, anchor−6.0286, cutoff−16.0286korundu.
+Ön kontrolde açık emir0/risk0. Kanıt: lanes/g_continuous/identity_fix/
+runtime_after_operator.json. Bu başlangıçta yeni999olayı görülmedi;
+normalleştirme davranışı gerçek eski olay replay'iyle sınandı, yeni canlı
+tekrar yaşanmış gibi sunulmadı. Strateji/5pay/yeni bütçe değişikliği yok.
+
+Araştırma: data/analysis/g1_selective_exit_20260922/{analyze.py,results.json,
+REPORT.md}. Ana64tarihsel piyasada262parent sınıflı,43belirsiz;30taker'ın26'sı
+riski azaltıyor, kapanma medyanı%99,921. Ek8takerparentbelirsiz. Zaman24–286sn;
+tam geç bağlam yalnız6/26. Davranış güçlü, tetikleyici/bağımsızedge yok.
+Dahili para/sıra/mikropay/sonuçsızıntısı kontrolleri ve hedefli lint/compile
+zorunlu. Eski137piyasa kanıtı değişmedi; yeni canlı kural veya shadow açılmadı.
+
+## G2 sonrası bağımsız Ultra/Fable brief'i — 22 Eylül
+Operatör iki ayrı, repo erişimli incelemeciye vereceği İngilizce prompt istedi.
+- [x] Güncel G2kaynak/politika/runtime sınırı ve kirli çalışma ağacı uyarısını
+      yaz; eskiABCDEF/rebound ile güncelG'yi karıştırma.
+- [x] Sekizgün/1.842piyasa/19.768alış,137piyasa receipt denetimi ve64piyasa
+      seçici çıkış hesabını ayrı ver;6/26hazırbağlamın bütün arşiv olmadığını
+      açıkla. İlk pilot kârı, altyapı kesintisi ve karşıörnekler dahil.
+- [x] “Birkaç tweak kaldı” varsayımını sorgulat; mevcutarşivden tetikleyici
+      araştırması, rakip açıklama/karşıörnek ve tek ölçülebilir sonraki deney
+      iste. Araştırma canlıya müdahale veya bütçe yetkisi vermez.
+- [x] Promptun kaynak yolları, SHA/rakamları ve biçimini kontrol et; MDyolunu ver.
+Çıktı: docs/BOSONA_G2_NEXT_STEP_REVIEW_PROMPT_20260922.md.
+Kontrol:19açık kaynak yolu mevcut;G2ab/politikaSHA'ları,262/43parent,
+26takerazaltım/6bağlam ve19.768çokluk hesabı kaynaklarla eşleşti. Biçim ve
+git diff --check geçti. GüncelG2/sonaraştırma dosyalarının bir kısmı
+untracked; brief bunu açıkça belirtiyor. Commit/push veya canlı değişiklik yok.
 
 ## 22 Eylül 2026 — Public GitHub yayını
 
@@ -1251,3 +1352,19 @@ Operatörün konusu yalnız Bosona BTC15'tir. Önceki ana repo yayını ayrı BT
 - Prompt: `docs/BOSONA_BTC15_PRO_ULTRA_PROMPT.md`; iki inceleyici aynı kanıtla, bağımsız olarak BTC15 hipotezlerini ve tek sonraki deneyi değerlendirecek.
 - Kabul: özgün kopya hash'leri, BTC15 miktar/nakit/rol/geç-ekleme toplamları, prompt yolları ve secret taraması; aynı public depoya normal commit/push, uzak commit teyidi.
 - Bu bir araştırma teslimidir; yeni analiz sonucu, kârlı strateji, tam ham veri yeniden üretimi veya deploy iddiası değildir.
+
+## G2 ve BTC5m inceleme paketinin commit/push yayını — 22 Eylül
+Operatör mevcut G2 kaynakları, son araştırmalar ve ortak İngilizce brief'in
+GitHub'a commit/push edilmesini istedi. Uzak main'deki G/G1 ve BTC15
+yayınları korunur; ayrı worktree kullanılır. Devam eden bağımsız ULTRA
+çalışmasına, ortak index'e ve canlı süreçlere dokunulmaz.
+- [x] Güncel G2 kaynak/test/manifest, seçici çıkış ve aynı-piyasa raporları,
+      gereken kamu Bosona/receipt kanıtları, prompt ve kapsam manifesti.
+- [x] Gizli dosya/ham özel hesap verisi/büyük dosya kontrolü; kaynak hash'leri,
+      emirsiz hedefli testler, lint ve public kopyadan araştırma tekrar hesabı.
+- Yayın son adımı: normal commit/push; uzak main SHA ve inceleme promptu teyidi.
+Kanıt: docs/BOSONA_G2_PUBLICATION_20260922.md ve
+data/analysis/g2_publication_20260922/{manifest.json,checks.json}.
+Dokuz emirsiz kontrol ve22aktör-piyasa hesabı tekrar geçti. Yeni secret0,
+eski Türkçe metin false-positive ve dört donmuş kaynak whitespace uyarısı
+raporlandı. Canlı kaynak/strateji/bütçe veya devam eden ULTRA çıktısı değişmedi.

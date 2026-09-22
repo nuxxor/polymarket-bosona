@@ -1,0 +1,21 @@
+{
+  "at_ms": 1790077287558,
+  "mode": "READ_ONLY_PUBLIC_REPLAY",
+  "rows": 5,
+  "pnl": -2.3000000000000007,
+  "gate_open": true,
+  "real_gamma_identity": true,
+  "real_gamma_winner": true,
+  "historical_999_reinjected": true,
+  "orders_sent": 0,
+  "events": [
+    {
+      "event": "mutabakat_YON_DUZELT",
+      "slug": "btc-updown-5m-1790074800",
+      "asset": "37022419443467705675654237926977926069140228595927999847825276976993381879316",
+      "onceki": 999,
+      "sonraki": 0,
+      "transactionHash": "0x73833bfff988137129eb45481176c0eb4837b8224ac9047abd2b10ed33e91bb1"
+    }
+  ]
+}

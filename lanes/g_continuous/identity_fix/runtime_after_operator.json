@@ -1,0 +1,124 @@
+{
+  "at_ms": 1790078893940,
+  "writers": [
+    177479
+  ],
+  "source_sha": "25fca69d4ad75a3a28db9f62903f4c300a8adafdc7e923bc942f87eb6699d64c",
+  "policy_sha": "fbac759df25cecf10ea01bbf9db9da5e07dd90f3b33e844125c51e434eaf2f61",
+  "budget": {
+    "id": "4527c3ca7a69abf92a33",
+    "anchor": -6.0286,
+    "cutoff": -16.0286,
+    "limit": 10,
+    "end_ms": null,
+    "continuous": true
+  },
+  "budget_original_bytes": true,
+  "run_original_bytes": true,
+  "activation_matches": true,
+  "state_budget_matches": true,
+  "start": {
+    "t": "12:07:30",
+    "utc_ms": 1790078850081,
+    "k": "basladi",
+    "mod": "LIVE",
+    "gorulen_pencere": 98
+  },
+  "source_event": {
+    "t": "12:07:27",
+    "utc_ms": 1790078847177,
+    "k": "SURUM",
+    "kaynak_sha": "25fca69d4ad7",
+    "oturum": "177479",
+    "kapi": false,
+    "esik_bps": 16.4,
+    "boy_testi": false,
+    "klip_buyuk": 25,
+    "tamamla_acik": false,
+    "tamamla_tavan": 1.02,
+    "px_tavan_maker": 0.4,
+    "a_uyum": false,
+    "a_cift_tavan": 0.8,
+    "a_uyum_ara": 20,
+    "vol_kapisi": false,
+    "vol_esik": 15,
+    "a_oran": 0.5,
+    "tohum": 20260918,
+    "delta_tik_b": [
+      2,
+      4
+    ],
+    "yenileme_ara": 20,
+    "taraf_tavan": 10,
+    "gec_kes": 200,
+    "ucuz_esik": 0.25,
+    "gec_ust": 0.1,
+    "gec_esik": 180,
+    "c_oran": 0.5,
+    "c_px": [
+      0.01,
+      0.99
+    ],
+    "c_t": [
+      3,
+      290
+    ],
+    "c_taze_max": 30,
+    "c_max_islem": 60,
+    "c_denge": 5,
+    "c_cift_tavan": null
+  },
+  "end": null,
+  "counts": {
+    "pencere": 0,
+    "taze_koy": 0,
+    "dolum": 0,
+    "emir_RED": 0,
+    "MARUZIYET_OKUMA_TEKRAR": 0
+  },
+  "health": {
+    "A": {
+      "pid": 177772,
+      "status": "active",
+      "rejected": 0,
+      "queue_overflow": 0,
+      "age_s": 0.121606554,
+      "pong_age_s": {
+        "market": 8.483950915,
+        "user": 8.456848288
+      }
+    },
+    "B": {
+      "pid": 177773,
+      "status": "active",
+      "rejected": 0,
+      "queue_overflow": 0,
+      "age_s": 0.111856263,
+      "pong_age_s": {
+        "market": 8.474997903,
+        "user": 8.445800851
+      }
+    }
+  },
+  "both_healthy": true,
+  "pnl": {
+    "pnl": -1.4838,
+    "pnl_yerel": -1.48378,
+    "durdu": null
+  },
+  "resume_count": 2,
+  "sdk_errors": 0,
+  "last_log_ms": 1790078852231,
+  "stop": false,
+  "verification": {
+    "release_manifest": "PASS",
+    "user_triggered_restart": true,
+    "first_mutabakat_ms": 1790078852231,
+    "preflight_ms": 1790078843908,
+    "preflight_open_orders": 0,
+    "preflight_risk": 0,
+    "preflight_pnl": -1.48378,
+    "new_session_mutabakat_errors": 0,
+    "live_999_recurrence_observed": false
+  }
+}

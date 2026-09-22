@@ -1,5 +1,8 @@
 # polymarket-bosona — BTC 5dk Up/Down'da "bosona" mekanizması ve kol C botu
 
+**Güncel BTC5m / G2:** [Ultra ve Fable inceleme promptu](docs/BOSONA_G2_NEXT_STEP_REVIEW_PROMPT_20260922.md) · [seçici risk azaltma araştırması](data/analysis/g1_selective_exit_20260922/REPORT.md) · [G2 kaynakları](lanes/g_continuous/identity_fix/README.md) · [yayın kapsamı ve doğrulama](docs/BOSONA_G2_PUBLICATION_20260922.md).
+G2, G1 stratejisinin yön-kimliği/muhasebe düzeltmesidir; kalıcı kârlılık veya Bosona'nın tam politikası doğrulanmış değildir. Aşağıdaki eski ana bulgular ve C açıklaması tarihsel çalışma notlarıdır; güncel değerlendirme için bu bağlantıları kullanın.
+
 **BTC15 araştırması:** [kod, rapor ve kanıt paketi](research/btc15_review_20260922/README.md) · [PRO / ULTRA için İngilizce inceleme promptu](docs/BOSONA_BTC15_PRO_ULTRA_PROMPT.md).
 
 Bu depo, Polymarket BTC 5 dakikalık Up/Down pazarında en kârlı cüzdanlardan `bosona`

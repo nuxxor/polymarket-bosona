@@ -1,0 +1,44 @@
+[
+  {
+    "name": "check_patch.py",
+    "exit": 0,
+    "output": "PASS: exact source update, idempotency, immutable money/state/policy, foreign change rejected\n",
+    "error": ""
+  },
+  {
+    "name": "operator_resume.py",
+    "exit": 0,
+    "output": "{\"status\": \"PARKED_VERIFIED\", \"source_sha\": \"25fca69d4ad75a3a28db9f62903f4c300a8adafdc7e923bc942f87eb6699d64c\", \"financial_action\": false}\n",
+    "error": ""
+  },
+  {
+    "name": "bot/test_identity.py",
+    "exit": 0,
+    "output": "KURU MOD: log/state -> /home/ubuntu/g-identity-fix-20260922/bot/LOG_g_kuru.jsonl\nPASS: actual 999 incident, canonical keys across recovery, cash/multiset, conflicting identities fail closed\n",
+    "error": ""
+  },
+  {
+    "name": "bot/test_g.py",
+    "exit": 0,
+    "output": "KURU MOD: log/state -> /home/ubuntu/g-identity-fix-20260922/bot/LOG_g_kuru.jsonl\nG checks passed: policy, real reservation/risk, partial/repeated fill, STOP, unknown cancel, multiset reconciliation\n",
+    "error": ""
+  },
+  {
+    "name": "bot/test_g_pilot.py",
+    "exit": 0,
+    "output": "{\"checked_ms\": 1000000, \"pnl\": -12.30001}\nG PARKTA: kontrol gecti; emir gonderilmedi, yeni butce acilmadi.\nG GECTI: salt-okunur SDK, varsayilan emir yok, hash, tek kullanim, sinirsiz sure/$10, eski muhasebe.\n",
+    "error": ""
+  },
+  {
+    "name": "bot/test_continuous.py",
+    "exit": 0,
+    "output": "M7: real dual loop, redaction, partial/repeated/late events, two markets, reconnect and overflow passed\nPASS: new $10, preserved history, unlimited clock, guard, gzip/multiplicity, PONG health, STOP, low disk, staggered rosters\n",
+    "error": ""
+  },
+  {
+    "name": "bot/test_g_stream.py",
+    "exit": 0,
+    "output": "KURU MOD: log/state -> /home/ubuntu/g-identity-fix-20260922/bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/ubuntu/g-identity-fix-20260922/bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/ubuntu/g-identity-fix-20260922/bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/ubuntu/g-identity-fix-20260922/bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/ubuntu/g-identity-fix-20260922/bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/ubuntu/g-identity-fix-20260922/bot/LOG_g_kuru.jsonl\nWS reader: burst, mixed frame, old snapshot, initial delta, reconnect, heartbeat and stop checks passed\n",
+    "error": ""
+  }
+]

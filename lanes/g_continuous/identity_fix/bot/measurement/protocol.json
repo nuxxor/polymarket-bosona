@@ -1,0 +1,8 @@
+{
+  "chunk_seconds": 900,
+  "first_b_extra_seconds": 300,
+  "total_seconds": null,
+  "compression": "gzip level 1",
+  "min_free_bytes": 2147483648,
+  "scope": "Two independent staggered recorder processes; fresh roster each chunk, exact event multiplicity retained. No fills simulated; old G1 raw data preserved."
+}

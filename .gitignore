@@ -80,3 +80,14 @@ credentials*
 !/lanes/**/validation/**/READY.json
 !/data/analysis/**/result.json
 !/lanes/**/validation/**/result.json
+
+# G2 review packet: selected public responses/receipts and derived evidence.
+!/data/analysis/btc5m_parent_research_20260921/*.json
+!/data/analysis/btc5m_parent_research_20260921/full_activity/*.json
+!/data/analysis/btc5m_parent_research_20260921/receipts/*.json
+!/data/analysis/g1_selective_exit_20260922/*.json
+!/data/analysis/g1_comparison_20260922/*.json
+!/data/analysis/g1_comparison_20260922/cuts/*/*_Bosona.json
+!/data/analysis/g1_comparison_20260922/cuts/*/*_G.json
+!/data/analysis/g1_comparison_20260922/cuts/*/*_market.json
+!/data/analysis/g1_comparison_20260922/receipts/*.json

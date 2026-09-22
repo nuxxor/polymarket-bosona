@@ -1,0 +1,57 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_EXISTING_WHITESPACE",
+  "offline_checks": [
+    {
+      "file": "lanes/g_continuous/identity_fix/check_patch.py",
+      "exit": 0
+    },
+    {
+      "file": "lanes/g_continuous/identity_fix/bot/test_identity.py",
+      "exit": 0
+    },
+    {
+      "file": "lanes/g_continuous/identity_fix/bot/test_g.py",
+      "exit": 0
+    },
+    {
+      "file": "lanes/g_continuous/identity_fix/bot/test_g_pilot.py",
+      "exit": 0
+    },
+    {
+      "file": "lanes/g_continuous/identity_fix/bot/test_continuous.py",
+      "exit": 0
+    },
+    {
+      "file": "lanes/g_continuous/identity_fix/bot/test_g_stream.py",
+      "exit": 0
+    },
+    {
+      "file": "data/analysis/btc5m_parent_research_20260921/check.py",
+      "exit": 0
+    },
+    {
+      "file": "data/analysis/g1_comparison_20260922/check.py",
+      "exit": 0
+    },
+    {
+      "file": "data/analysis/g1_selective_exit_20260922/analyze.py",
+      "exit": 0
+    }
+  ],
+  "g2_release_files_verified": 16,
+  "python_compile": 24,
+  "ruff_targeted_F_E9": "PASS",
+  "launcher_bash_syntax": "PASS",
+  "secret_scan": {
+    "finding": "generic-api-key plan.md:476",
+    "classification": "unchanged previously documented Turkish prose false positive",
+    "same_as_published_parent": true,
+    "line_sha256": "ef91e692e3108ac40e4b04cc0aa6c31683c6236ea54ccad43a1dc948c29ac6ae",
+    "new_secret_findings": 0,
+    "wallet_findings": 0
+  },
+  "diff_check": "Four inherited trailing spaces in exact before/after ab.py snapshots; remaining staged content clean",
+  "financial_actions": 0,
+  "deployment": false,
+  "note": "Tests run from publication worktree; no full historical test suite or raw private-stream replay claimed"
+}
