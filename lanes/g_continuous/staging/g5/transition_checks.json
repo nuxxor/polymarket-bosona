@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "budget_created_only_in_disposable_test": true,
+  "history_preserved": true,
+  "repeated_activation_rejected": true,
+  "generic_activation_rejected": true,
+  "mismatched_marker_rejected": true,
+  "real_budget_created": false,
+  "live_activation": false
+}

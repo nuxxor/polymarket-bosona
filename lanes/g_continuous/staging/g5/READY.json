@@ -1,0 +1,37 @@
+{
+  "status": "PARKED_READY_NOT_LIVE",
+  "experiment": "G5",
+  "live_source_changed": false,
+  "live_activation": false,
+  "new_real_budget_created": false,
+  "source_sha": "01ba0fa01bdcfb3e45249001dbc0b84a75bd0ffba62100d6ce8ddab6cf591b2f",
+  "policy_sha": "c2a2cfeef5472ca62eacd27e59afb3567dbfd074b54c6d731b216257f7804cf6",
+  "old_g4_source_sha": "0fd30f9faee281d59ca57597005391579b0debbf5ff131ea66ee5a2bb9182ee1",
+  "checks": "29 real-loop cases on both hosts;1152 inventory/pending cases;1000 paired assignments;six regressions;G4/G5 transition tests;public dry smoke",
+  "g4_stop_utc": "2026-09-22T17:40:28Z",
+  "g4_final_account_check_utc": "2026-09-22T17:58:41Z",
+  "local_ruff_F_E9": "PASS",
+  "hashes": {
+    "G5_PROTOCOL.json": "20e1bf7dfe0370bf912226fdd0f557d55712253ed97249e1beec02d2512e98f8",
+    "G5_package.tar.gz": "9f8ff6753f0975f7e424985f86214c743f8f1aa34ebce63bedda45eaa28cbe50",
+    "bot/G_RELEASE.json": "d3938b3a419e5eb10f349e23031816a13d0b25b4cefb82ba2f040dfd61613274",
+    "checks.json": "5c414fabe0b3a7236837fc3bbb520a8bd33d507ab474fdda3fed49908fb9471c",
+    "remote_checks.json": "5c414fabe0b3a7236837fc3bbb520a8bd33d507ab474fdda3fed49908fb9471c",
+    "transition_checks.json": "8ecf6e30fa3c26c90d59fba8762f8d5cc503f113d31ce3aa7f7199c3a1a566a5",
+    "regressions.json": "755df1c1b2d48aa7a7755fc52c880bb0e0de1ef2ae72bb79115452f12922cd09",
+    "smoke.json": "82bdd5b2936095184decd43beee9af28d4a4e27a40d677401a34d1ef4560582b",
+    "g4_stop_proof.json": "824cbea83c082bb29877986ee8b051ed6d0b17ca625c9078b4beb7669550ba7a",
+    "g4_operator.py": "34dd721a153f2d8bbc25210c2175acc813bc0220b719a737a7e1b003a58fc572",
+    "g5_operator.py": "c2e78fcf259928681cddf3408ca47411b1b44d6214e62aab00b463d05df50399",
+    "check.py": "a6e047b15d4f7c598fb3952856f3112230aedcfec167a451fabe2cec7cb37c92",
+    "check_transition.py": "b13e955fbe7ca4382f2230874da318b9deec0d752920276a9c2579801dd11124",
+    "smoke.py": "7916ff241afefd691faa73664c25dfbf0ace794f39837c5187c59b1fbe82d326"
+  },
+  "limitations": [
+    "Not proof of profitability or Bosona equivalence",
+    "Dry public run has synthetic 5Up inventory and zero actual fills",
+    "First public smoke had no eligible quotes and was not counted as passed",
+    "G4_FIXED reached60 dry placement attempts; only legacy maintenance churn is fixed",
+    "Future live activation requires fresh full account and recorder checks"
+  ]
+}

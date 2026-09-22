@@ -1,0 +1,170 @@
+{
+  "assigned": 6,
+  "days": 1,
+  "economic_conclusion": "INCONCLUSIVE_ONE_DAY",
+  "known_inventory_checks": 889,
+  "max_reachable": 10.0,
+  "min_reachable": -10.0,
+  "opportunities": [
+    {
+      "S": 1790095500,
+      "accepted": true,
+      "attempt": "d2a3d809e63a4338b97fdab71f1713f3",
+      "cap10_size": 5,
+      "cap5_size": 0,
+      "delta": -3.45,
+      "executable_sell_after": {
+        "1": null,
+        "5": null
+      },
+      "filled_qty": 5.0,
+      "fills": 1,
+      "oi": 1,
+      "oid": "0x3704c10cb2ff3524d688187e6f912111e4cf531ee0a31dfa766c801fd291ae16",
+      "post_ms": 1790095511995.9417,
+      "price": 0.69,
+      "q_before": [
+        0,
+        5.0
+      ],
+      "same_reserve": 0,
+      "seq": 116,
+      "size": 5.0,
+      "winner": 0
+    },
+    {
+      "S": 1790095800,
+      "accepted": true,
+      "attempt": "f9bdce67d8774fe9ad17cbe4e134ce13",
+      "cap10_size": 5,
+      "cap5_size": 0,
+      "delta": 0,
+      "executable_sell_after": {
+        "1": null,
+        "5": null
+      },
+      "filled_qty": 0,
+      "fills": 0,
+      "oi": 0,
+      "oid": "0x1875082a615b0c5a2486976e814f940a84f5ce6b31ec8df131208c7d1bdd7227",
+      "post_ms": 1790095807663.7153,
+      "price": 0.66,
+      "q_before": [
+        5.0,
+        0
+      ],
+      "same_reserve": 0,
+      "seq": 483,
+      "size": 5.0,
+      "winner": 0
+    },
+    {
+      "S": 1790096100,
+      "accepted": true,
+      "attempt": "908d886e17714b508868fc25198d5192",
+      "cap10_size": 5,
+      "cap5_size": 0,
+      "delta": 0,
+      "executable_sell_after": {
+        "1": null,
+        "5": null
+      },
+      "filled_qty": 0,
+      "fills": 0,
+      "oi": 1,
+      "oid": "0x7c4a91b6535894b50aa7bb9c119c4782bc70d5160211d5303f3bc68779b2c37b",
+      "post_ms": 1790096107652.601,
+      "price": 0.27,
+      "q_before": [
+        0,
+        5.0
+      ],
+      "same_reserve": 0,
+      "seq": 1254,
+      "size": 5.0,
+      "winner": 1
+    },
+    {
+      "S": 1790096400,
+      "accepted": false,
+      "attempt": "b4d47579d68743f5836afac475f90826",
+      "cap10_size": 5,
+      "cap5_size": 0,
+      "delta": 0,
+      "executable_sell_after": {
+        "1": null,
+        "5": null
+      },
+      "filled_qty": 0,
+      "fills": 0,
+      "oi": 0,
+      "oid": null,
+      "post_ms": 1790096410577.8481,
+      "price": 0.29,
+      "q_before": [
+        5.0,
+        0
+      ],
+      "same_reserve": 0,
+      "seq": 2139,
+      "size": 5.0,
+      "winner": 0
+    },
+    {
+      "S": 1790096700,
+      "accepted": true,
+      "attempt": "6353fa5886b04ad49395bf6e152b1920",
+      "cap10_size": 5,
+      "cap5_size": 0,
+      "delta": 0,
+      "executable_sell_after": {
+        "1": null,
+        "5": null
+      },
+      "filled_qty": 0,
+      "fills": 0,
+      "oi": 0,
+      "oid": "0x62187acac80b8b402c0acb1cfac20447480f31c06d8e61a48035bab1431f82ed",
+      "post_ms": 1790096708717.55,
+      "price": 0.28,
+      "q_before": [
+        5.0,
+        0
+      ],
+      "same_reserve": 0,
+      "seq": 3415,
+      "size": 5.0,
+      "winner": 1
+    },
+    {
+      "S": 1790097000,
+      "accepted": true,
+      "attempt": "1d5fa71e143746abbcb955aeb2941698",
+      "cap10_size": 5,
+      "cap5_size": 0,
+      "delta": -3.1,
+      "executable_sell_after": {
+        "1": null,
+        "5": null
+      },
+      "filled_qty": 5.0,
+      "fills": 1,
+      "oi": 0,
+      "oid": "0xd663f168e64e109592c25ae191b92e4b5c2fb234e93a3956267d7b056ad0b16b",
+      "post_ms": 1790097008778.7673,
+      "price": 0.62,
+      "q_before": [
+        5.0,
+        0
+      ],
+      "same_reserve": 0,
+      "seq": 4231,
+      "size": 5.0,
+      "winner": 1
+    }
+  ],
+  "quote_generation_intent": "unknown; distinct order ID does not prove distinct economic decision",
+  "reachable_interval_checks": 889,
+  "status": "LOCAL_CONTRIBUTION_NOT_POLICY_PNL",
+  "total_delta": -6.550000000000001
+}

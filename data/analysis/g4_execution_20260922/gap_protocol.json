@@ -1,0 +1,31 @@
+{
+  "ages": [
+    60,
+    120,
+    180,
+    210,
+    240,
+    270,
+    280,
+    290
+  ],
+  "primary_age": 180,
+  "gap_bps_cuts": [
+    5,
+    10,
+    20
+  ],
+  "z_cuts": [
+    1,
+    2,
+    3
+  ],
+  "execution_lag_ms": 250,
+  "quote_max_grid_age_ms": 1250,
+  "source_max_age_ms": 3000,
+  "clip": 5,
+  "study": "descriptive_existing_history",
+  "no_actor_fill_selection": true,
+  "no_live_change": true,
+  "additional_measure": "Received official TWAP60 gap, same clocks/bins, separately from spot"
+}

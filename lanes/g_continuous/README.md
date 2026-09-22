@@ -1,4 +1,8 @@
-# G4 — güncel yayımlanan kaynak ve önceki deneyler
+# G5 hazırlığı ve önceki deneyler
+
+G4 durduruldu; G5 yalnız hazırlanmış ve park edilmiştir, canlı değildir.
+G5 adayı `staging/g5/bot/`, protokol ve kanıtlar `staging/g5/README.md` içindedir.
+Aşağıdaki G4 yayın kaydı tarihsel kaynak tarifidir.
 
 Bu yayında `bot/` dizini gerçek Londra G4 kaynağının okunabilir kopyasıdır:
 `ab.py` SHA256 `0fd30f9faee281d59ca57597005391579b0debbf5ff131ea66ee5a2bb9182ee1`.
@@ -273,3 +277,13 @@ syntax temiz. 120sn gerçek kamu kuru koşusunda790teklifkaydı,60kuruPOST ve
 60iptal,0SDKhatasi/0WSkopuşu var. Gerçek emir/dolum0, kâr simülasyonu yok.
 Canlı G3 kaynak ve bütçe hashleri korunuyor. `validation/G4_READY.json`
 hazırlık sınırlarını ve yerel/uzak test/kuru koşu kanıtlarını bağlar.
+
+## G5 hazırlığı — 22 Eylül, canlı kapalı
+
+G4 operatör isteğiyle17:40:28UTC'de normal durdu. G5, t180 bakım çelişkisi
+giderilmiş ortak kaynak üstünde yeni-risk teklifini yukarı kovalamama
+deneyi olarak hazırlandı. G4_FIXED kontrolüyle aynı net10/5pay sınırları
+ve sabit pencere ataması kullanır. Canlı aktivasyon veya yeni bütçe yok.
+Okunabilir aday kaynak, protokol, test ve açıklama:
+[staging/g5/README.md](staging/g5/README.md). Yayımlanmış `bot/` G4'ün
+donmuş kaynağıdır; G5 adayı `staging/g5/bot/` içindedir.

@@ -1,0 +1,46 @@
+{
+  "candidate": "G5 non-chasing opening quotes vs G4_FIXED; shared legacy-maintenance repair",
+  "minutes": null,
+  "loss_limit": 100,
+  "clip": 5,
+  "source_bot": "/home/ubuntu/polymarket-bosona-g-continuous/bot",
+  "source_state_sha": null,
+  "entry": "At the existing t5 window scheduler, obtain real tick and fresh book. Bid one cent below best bid, rounded down to the verified tick. Both sides eligible, no nominal cheap/favorite/RSI gate. No new directional inventory at t>=240.",
+  "inventory": "Maximum net10 including same-side live/uncertain reserves; clip5. Additional same-side clips allowed within capacity. Reducing quantity never exceeds unmatched inventory; no minimum-size round-up.",
+  "reduction": "Opposite-side maker quotes may reduce exposure until t290 even if historical lot cost + current quote >1. This can lock a loss; all cash, locked loss and open-order adverse-fill scenarios remain in the global $100 loss guard.",
+  "maintenance": "Both arms skip legacy t180 heavy-side cancellation. Common live/uncertain reservation, risk, freshness and quality checks remain authoritative. G4_FIXED retains bid-.02<=price<=bid. G5 also retains a lower existing quote when it would open/add net risk; reducing quotes follow the common band. No upward repricing merely because best bid rises. Downward repricing, t240/t290 cancellation, 60 attempts and dollar limits unchanged.",
+  "measurement": "Actual own fills only via authenticated order/trade evidence and reconciliation; dry quotes are intents, never simulator fills. Public L2/LTP loss is explicit; no cancellation credit, price-touch fill or exact queue rank is invented.",
+  "status": "PARKED_PREPARATION_ONLY: no live activation; own G5 activation, reconciled state and budget required.",
+  "metrics": [
+    "trade USD per assigned window including zero fills",
+    "worst terminal payoff including uncertain orders",
+    "net inventory and open share seconds",
+    "cash peak",
+    "post-only rejects and verified cancels",
+    "own parent-order fill count and partial fills",
+    "feed gaps and uncalibrated execution cases"
+  ],
+  "fees": "All submissions are post-only maker. No rebate credited prospectively. Trade PnL excludes fixed server costs and rebates unless separately proven.",
+  "continuous": true,
+  "source_state": "STATE_g.json",
+  "source_log": "LOG_g.jsonl",
+  "budget_basis": "Future explicit operator activation may anchor a separate $100 G5 experiment at fully reconciled PnL. No budget created in preparation. Never reset on resume.",
+  "experiment": "G5",
+  "budget": "Same shared experiment loss guard for both assigned arms; no separate $100 per arm.",
+  "comparison": "SHA256(G5-retain-v1:UTC ten-minute block) chooses first arm; the adjacent five-minute window receives the other. Stable on restart, no actor/outcome input. Missing/zero-fill slots retained.",
+  "primary": "30-second market-mid minus actual execution price, parent-equal then window-equal; only genuine opening/add executions. It diagnoses execution selection, not policy alpha.",
+  "protocol_version": "G5-retain-v1",
+  "decision_gates": {
+    "data": "Canonical own fills and cash reconciliation >=95% by count AND quantity; timestamp/context coverage >=95% for eligible horizons, otherwise DATA_LIMITED. Expiry truncation separate.",
+    "evaluation": "First 14 full UTC days after explicit launch; fixed horizon, no threshold search. At least 60 filled markets per arm and 250 opening/add parent fills per arm, across >=7 days; these are engineering sample gates, not power guarantees.",
+    "execution_support": "Day-cluster paired difference G5 minus G4_FIXED: lower 95% CI >0 and effect >=.01 USD/share; ex-top3-market and leave-one-day-out same sign. Upper bound<=0 rejects improvement, otherwise inconclusive.",
+    "economics": "Fee-net dollars per assigned window, missing separate; day-block paired CI lower>0 and ex-top3 positive before any profitable-policy claim. Improving markout alone is insufficient.",
+    "risk": "Any reachable net outside [-10,10], untracked accepted order, source/budget mismatch, recorder failure or accounting uncertainty follows existing fail-closed gates; no automatic budget enlargement."
+  },
+  "hypotheses_excluded": [
+    "No selective taker exit",
+    "No late-phase capacity increase",
+    "No price-gap cutoff or probability claim",
+    "No inferred maker fills or cross-policy replay of future actions"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ab.py": "01ba0fa01bdcfb3e45249001dbc0b84a75bd0ffba62100d6ce8ddab6cf591b2f",
+  "emir_iz.py": "5ca621cdfc99a7d1897e9cab6392bdd8ff276d2070580a0218c35001b15d8270",
+  "f_budget.py": "635a1c0a44ec6942d81f3138319d3ae31130f5242034d6f960763896449ce830",
+  "g.py": "1afc31fb81f9ae96e05dbe92aacdcb70c55fbe17c1ecd089fd874f68af1f1c83",
+  "g_guard.py": "0dcb33c1a56720098c9c3d0fdd656f581b60715332e58e5e218722fe2641f050",
+  "g_policy.py": "c2a2cfeef5472ca62eacd27e59afb3567dbfd074b54c6d731b216257f7804cf6",
+  "measurement/protocol.json": "195e514feec49ef3eacbe1b92b1fd09a4edd953a3953d8325283a936f337bd43",
+  "observer.py": "3d5644ab5cd829e056ed737d089126c8726b7690a011f2d5aa6a848a8ffcdf5c",
+  "pilot.py": "df22e641d67abf494b963a5a9fb7063ce95c7c606725dd3c4c7f26ca5fd0b1af",
+  "protocol.json": "e97d3fa243acd263195f5f3bf3fc46da5ff078299febf13f771fcbb3e0fb7fbd",
+  "stream_iz.py": "3373cc3c4e6843c98b736488cc34bec907cdc9238fd512e4134891f22ba56bc0",
+  "test_continuous.py": "68b67639e413dba9b1b5d97e45b58fecc0e8dc1297d2392a4ffa143ea0ea21e1",
+  "test_g.py": "1dfdd4258c8ff0435cbf69c11e79071ded282cc8a1b0bf74c89342d682fea617",
+  "test_g_pilot.py": "cde36c20468dbbbef32eb8112c8f7e54705342b4c4308e03a58e5f31163347ed",
+  "test_g_stream.py": "a7acf14c00db077487c29437d1fc06a7800a586145ee364084fd7f92cd52c9cb",
+  "test_stream_iz.py": "b7f2f373dc500c51e9d9e24b1646e92654ece16099cb771f909af0ca03d419b2"
+}

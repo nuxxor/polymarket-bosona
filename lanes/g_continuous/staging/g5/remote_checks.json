@@ -1,0 +1,653 @@
+{
+  "status": "PASS",
+  "cases": {
+    "legacy_bug_reproduced": {
+      "posts": 60,
+      "cancels": 59,
+      "maintenance_cancels": 59,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "kapali",
+        "acik",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali",
+        "kapali"
+      ],
+      "original_canceled": false,
+      "roles": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "intents": 0,
+      "post_results": 0
+    },
+    "G5_boundary": {
+      "posts": 2,
+      "cancels": 1,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "kapali",
+        "acik"
+      ],
+      "original_canceled": false,
+      "roles": [
+        null,
+        "add",
+        "reduce"
+      ],
+      "intents": 2,
+      "post_results": 2
+    },
+    "G5_150": {
+      "posts": 2,
+      "cancels": 0,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "acik",
+        "acik"
+      ],
+      "original_canceled": false,
+      "roles": [
+        null,
+        "add",
+        "reduce"
+      ],
+      "intents": 2,
+      "post_results": 2
+    },
+    "G5_185": {
+      "posts": 2,
+      "cancels": 0,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "acik",
+        "acik"
+      ],
+      "original_canceled": false,
+      "roles": [
+        null,
+        "add",
+        "reduce"
+      ],
+      "intents": 2,
+      "post_results": 2
+    },
+    "G5_230": {
+      "posts": 2,
+      "cancels": 0,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "acik",
+        "acik"
+      ],
+      "original_canceled": false,
+      "roles": [
+        null,
+        "add",
+        "reduce"
+      ],
+      "intents": 2,
+      "post_results": 2
+    },
+    "G5_240": {
+      "posts": 1,
+      "cancels": 0,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "acik"
+      ],
+      "original_canceled": false,
+      "roles": [
+        null,
+        "reduce"
+      ],
+      "intents": 1,
+      "post_results": 1
+    },
+    "G5_289": {
+      "posts": 1,
+      "cancels": 0,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "acik"
+      ],
+      "original_canceled": false,
+      "roles": [
+        null,
+        "reduce"
+      ],
+      "intents": 1,
+      "post_results": 1
+    },
+    "G5_291": {
+      "posts": 0,
+      "cancels": 0,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu"
+      ],
+      "original_canceled": false,
+      "roles": [
+        null
+      ],
+      "intents": 0,
+      "post_results": 0
+    },
+    "G4_FIXED_boundary": {
+      "posts": 2,
+      "cancels": 1,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "kapali",
+        "acik"
+      ],
+      "original_canceled": false,
+      "roles": [
+        null,
+        "add",
+        "reduce"
+      ],
+      "intents": 2,
+      "post_results": 2
+    },
+    "G4_FIXED_150": {
+      "posts": 2,
+      "cancels": 0,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "acik",
+        "acik"
+      ],
+      "original_canceled": false,
+      "roles": [
+        null,
+        "add",
+        "reduce"
+      ],
+      "intents": 2,
+      "post_results": 2
+    },
+    "G4_FIXED_185": {
+      "posts": 2,
+      "cancels": 0,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "acik",
+        "acik"
+      ],
+      "original_canceled": false,
+      "roles": [
+        null,
+        "add",
+        "reduce"
+      ],
+      "intents": 2,
+      "post_results": 2
+    },
+    "G4_FIXED_230": {
+      "posts": 2,
+      "cancels": 0,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "acik",
+        "acik"
+      ],
+      "original_canceled": false,
+      "roles": [
+        null,
+        "add",
+        "reduce"
+      ],
+      "intents": 2,
+      "post_results": 2
+    },
+    "G4_FIXED_240": {
+      "posts": 1,
+      "cancels": 0,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "acik"
+      ],
+      "original_canceled": false,
+      "roles": [
+        null,
+        "reduce"
+      ],
+      "intents": 1,
+      "post_results": 1
+    },
+    "G4_FIXED_289": {
+      "posts": 1,
+      "cancels": 0,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "acik"
+      ],
+      "original_canceled": false,
+      "roles": [
+        null,
+        "reduce"
+      ],
+      "intents": 1,
+      "post_results": 1
+    },
+    "G4_FIXED_291": {
+      "posts": 0,
+      "cancels": 0,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu"
+      ],
+      "original_canceled": false,
+      "roles": [
+        null
+      ],
+      "intents": 0,
+      "post_results": 0
+    },
+    "G5_open_rising": {
+      "posts": 1,
+      "cancels": 0,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "acik",
+        "acik"
+      ],
+      "original_canceled": false,
+      "roles": [
+        null,
+        "open"
+      ],
+      "intents": 1,
+      "post_results": 1
+    },
+    "G5_add_rising": {
+      "posts": 1,
+      "cancels": 0,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "acik",
+        "acik"
+      ],
+      "original_canceled": false,
+      "roles": [
+        null,
+        null,
+        "reduce"
+      ],
+      "intents": 1,
+      "post_results": 1
+    },
+    "G5_reduce_rising": {
+      "posts": 2,
+      "cancels": 1,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "kapali",
+        "acik",
+        "acik"
+      ],
+      "original_canceled": true,
+      "roles": [
+        null,
+        null,
+        "add",
+        "reduce"
+      ],
+      "intents": 2,
+      "post_results": 2
+    },
+    "G4_FIXED_open_rising": {
+      "posts": 2,
+      "cancels": 1,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "kapali",
+        "acik",
+        "acik"
+      ],
+      "original_canceled": true,
+      "roles": [
+        null,
+        "open",
+        "open"
+      ],
+      "intents": 2,
+      "post_results": 2
+    },
+    "G4_FIXED_add_rising": {
+      "posts": 2,
+      "cancels": 1,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "kapali",
+        "acik",
+        "acik"
+      ],
+      "original_canceled": true,
+      "roles": [
+        null,
+        null,
+        "reduce",
+        "add"
+      ],
+      "intents": 2,
+      "post_results": 2
+    },
+    "G4_FIXED_reduce_rising": {
+      "posts": 2,
+      "cancels": 1,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "kapali",
+        "acik",
+        "acik"
+      ],
+      "original_canceled": true,
+      "roles": [
+        null,
+        null,
+        "add",
+        "reduce"
+      ],
+      "intents": 2,
+      "post_results": 2
+    },
+    "falling": {
+      "posts": 2,
+      "cancels": 1,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "kapali",
+        "acik",
+        "acik"
+      ],
+      "original_canceled": true,
+      "roles": [
+        null,
+        null,
+        "reduce",
+        "add"
+      ],
+      "intents": 2,
+      "post_results": 2
+    },
+    "time": {
+      "posts": 1,
+      "cancels": 1,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "kapali",
+        "acik"
+      ],
+      "original_canceled": true,
+      "roles": [
+        null,
+        null,
+        "reduce"
+      ],
+      "intents": 1,
+      "post_results": 1
+    },
+    "gate": {
+      "posts": 0,
+      "cancels": 1,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "kapali"
+      ],
+      "original_canceled": true,
+      "roles": [
+        null,
+        null
+      ],
+      "intents": 0,
+      "post_results": 0
+    },
+    "stale": {
+      "posts": 0,
+      "cancels": 1,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "kapali"
+      ],
+      "original_canceled": true,
+      "roles": [
+        null,
+        null
+      ],
+      "intents": 0,
+      "post_results": 0
+    },
+    "budget": {
+      "posts": 0,
+      "cancels": 1,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "kapali"
+      ],
+      "original_canceled": true,
+      "roles": [
+        null,
+        null
+      ],
+      "intents": 0,
+      "post_results": 0
+    },
+    "uncertain_cancel": {
+      "posts": 0,
+      "cancels": 1,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "dolu",
+        "belirsiz"
+      ],
+      "original_canceled": true,
+      "roles": [
+        null,
+        null
+      ],
+      "intents": 0,
+      "post_results": 0
+    },
+    "journal_error": {
+      "posts": 0,
+      "cancels": 0,
+      "maintenance_cancels": 0,
+      "stopped": "emir_kaydi_hata",
+      "states": [
+        "dolu",
+        "acik"
+      ],
+      "original_canceled": false,
+      "roles": [
+        null,
+        null
+      ],
+      "intents": 0,
+      "post_results": 0
+    },
+    "partial_not_rounded_or_replaced": {
+      "posts": 0,
+      "cancels": 0,
+      "maintenance_cancels": 0,
+      "stopped": null,
+      "states": [
+        "acik"
+      ],
+      "original_canceled": false,
+      "roles": [
+        null
+      ],
+      "intents": 0,
+      "post_results": 0
+    }
+  },
+  "actual_size_interval_cases": 1152,
+  "paired_assignments": 1000,
+  "source_sha": "01ba0fa01bdcfb3e45249001dbc0b84a75bd0ffba62100d6ce8ddab6cf591b2f",
+  "financial_api_calls": 0,
+  "live_activation": false
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "base_commit": "44d1cee674ad2f641b1c6cc73827c48aedd3db84",
+  "source_ready_hashes_verified": 14,
+  "production_manifest_hashes_verified": 16,
+  "python_compiled": 27,
+  "ruff_F_E9": "PASS",
+  "publication_check_and_transition": "PASS",
+  "new_secret_findings": 0,
+  "known_unchanged_prose_false_positive": "plan.md:476; same source text as prior publication",
+  "diff_check": "Only two unchanged historical ab.py trailing spaces at 763 and 1827; frozen release bytes preserved",
+  "private_raw_account_logs_published": false,
+  "real_budget_created": false,
+  "live_activation": false
+}

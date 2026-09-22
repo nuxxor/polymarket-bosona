@@ -1634,5 +1634,101 @@ sohbette verilmesini istedi. Yeni prompt MD dosyası oluşturulmaz.
       tamamlanmış ULTRA incelemesi ve seçilmiş emirsiz/canlı başlangıç kanıtı.
 - [x] Yayın kopyasında gerçek test, lint, kaynak/hash ve gizli veri denetimi;
       özel WS/anahtar/büyük ham arşivler hariç. Canlıya müdahale yok.
-- [ ] Normal commit/push ve uzak SHA teyidi; kısa bağımsız değerlendirme
+- [x] Normal commit/push ve uzak SHA teyidi; kısa bağımsız değerlendirme
       promptu sohbet içinde, ekonomik üstünlük veya güncel PnL iddiası yok.
+Yayın44d1cee674ad2f641b1c6cc73827c48aedd3db84normalpushile uzakmain oldu;
+ls-remoteSHA birebir eşleşti ve repo içindeki yayın worktree temiz.
+G4'ün16kaynak hash'i Londra16:54:41UTCkaynağıyla eşleşiyor. Yayın kopyasında
+G4gerçek yol/para/geçiş ve6regresyon,G3operatör10senaryo,G3donmuş4320SDK
+hesabı,ULTRA390bağlam/278fiyat/118ekonomi kontrolü geçti;62Pythoncompile
+veRuffF/E9temiz. Yeni secret0;eski plan476metni false-positive olarak aynı.
+Altı donmuş kaynak trailing-space ve4unified-patchboş bağlam işareti,
+hashleri korumak için belgelenerek bırakıldı;diğer diff temiz. Kanıt:
+lanes/g_continuous/validation/G4_publication.json. Ortak yerel HEAD/index,
+ham kayıtlar ve canlı strateji/bütçe değişmedi;PROpromptu dosyaya yazılmadı.
+
+## G4 dolum kaynağı ve fiyat sonrası hareket — 22 Eylül
+Operatör Fable G2 değerlendirmesindeki yürütme hipotezini incelemeyi ve
+ardından canlı sağlık/bütçe kontrolünü onayladı. Mevcut G4 kaynak, emir,
+bütçe ve süreçler değişmez; yeni lane veya indikatör kuralı açılmaz.
+- [x] Sabit G4 kesitinde SDK teklif/iptal kayıtlarını gerçek özel dolum
+      kimliğiyle eşleştir; yukarı taşınmış/bekleyen teklifleri ayır.
+      Dolumun öğrenilmesi gerçekleşme zamanı sayılmaz; iptal yarışının
+      yalnız zamanla desteklenen kısmı etiketlenir, belirsiz kalan korunur.
+- [x] Aynı fiyat bandı/pencere yaşında +10/+30 saniye fiyat hareketini,
+      parent ve piyasa ağırlıklarıyla incele; eksik veri, sıfır dolum ve
+      resmi sonucu bekleyenleri ayrı tut. Az örnekten yeni kural çıkarma.
+- [x] Yeniden çalıştırılabilir dar analiz, para/zaman/çokluk kontrolleri,
+      hedefli lint ve gerçek veri tekrarı; son canlı kaynak, tek yazıcı,
+      iki kayıtçı ve özgün G4 bütçesini salt okunur teyit et.
+Opus/PRO G4 yorumları gelince aynı kanıtlarla karşılaştırılacak; bu görev
+onlar adına önceden hüküm veya otomatik strateji değişikliği üretmez.
+
+Sonuç: data/analysis/g4_execution_20260922/REPORT.md. İlk altı tam G4
+penceresi16:45–17:15UTC,87kabul/47dolmuşparent/56trade×parent/234,957753pay.
+İki özel akış ve saklanan muhasebe tüm miktarlarda eşleşti;SDK5526satır
+kesintisiz.55dolum LTP kaynak saatli;1saat eksikliği null. Yakın zamanda
+yukarı yenilenen10parent'ın +10/+30sn fiyat sonucu−5,70/−8,30cent/pay;
+diğerleri+1,56/−0,47. Aynı piyasa/yön/20cent/30sn6hücrede fark−3,58/−5,50;
+yalnız5piyasa,envantereşlenmedi,gün-kümeli ekonomik üstünlük kanıtı yok.
+56dolumun31'i ilk iptalden önce özel akışta görülmüş;3bildirilen saat
+±100msile iptalçağrısına çakışıyor,22iptalsiz. İptalde öğrenilmeyi yarışta
+gerçekleşme saymak reddedildi. İlk6pencere17:22:39UTCsonteyitle+10,24322434;
+sonraki2açıkpencere hariç. Tekwriter/iki sağlıklı kayıtçı/kaynak/100bütçe
+aynı;enumredA3/B2eksikölçüm olarak korundu. Gerçek verinin birebir tekrarı,
+zaman/para/çokluk kontrolleri,RuffF/E9/syntax geçti. Canlı değişiklik yok.
+Son17:27:02UTCteyidi:7sonuçlanmışpencere+12,04619578USD,2bekleyen;
+aynıwriter/kaynak/bütçe/iki sağlıklı kayıtçı. İlk6pencere araştırma kesiti
+değişmedi; sonraki durum runtime_handoff.json içinde ayrı korundu.
+
+## G4 fiyat farkı ve marjinal kapasite — 22 Eylül
+Operatörün price-to-beat farkı hipotezi ve yeni PRO G4 değerlendirmesi:
+canlı kural değiştirmeden mevcut kayıtlarda sınanır. Yeni lane açılmaz.
+- [x] Sabit zamanlı geçmiş gözlemlerde fark, kalan süre ve oynaklık ile
+      sonuç yönünü; fiyat/ücret sonrası ekonomik katkıyı ayrı ölç.
+      İşlemli piyasa seçilimi, eksik bağlam ve örneklem sınırı açık kalsın.
+- [x] İlk altı donmuş G4 penceresinde yalnız 5→10 kapasitesiyle mümkün
+      olan ilk ek parent'ı, gerçek dolumları ve sıfır dolumları ayır.
+      Tam karşıolgusal PnL üretme; bilinmeyen yürütme derinliği null kalsın.
+- [x] Gerçek G4 sizing kaynağında ve gözlenen pending envanterde
+      [x−O_D,x+O_U] sınırını doğrula; karşı pending hedge sayılmasın.
+- [x] Tekrar üretim/kontroller/lint ve son salt-okunur canlı sağlık teyidi.
+
+## G5 hazırlığı, canlı kapalı — 22 Eylül
+Operatör G4'ü durdurmayı ve PRO/Opus bulgularıyla G5'i yalnız hazır etmeyi
+istedi. STOP_G normal duruşu yetkilidir; G5 aktivasyonu yetkili değildir.
+- [x] G4 normal kapanışı, son emir/rezerv ve bütçe kaydı; açık pozisyonları
+      sonuç bekleyen olarak koru, duruşu zorla sonuçlandırma sayma.
+- [x] Opus'un 180–240sn bakım/karar çelişkisini gerçek kodda yeniden üret;
+      G kotasyonlarının risk/zaman bakımını tek kurala bağla. A–F değişmesin.
+- [x] G5'te tek davranış farkı: mevcut yeni-risk maker teklifini sırf
+      en iyi alış yükseldi diye yukarı kovalama. Güvenlik, aşağı yeniden
+      fiyatlama, tamamlama, t240/t290 ve net10 sınırları ortak kalsın.
+      Düzeltilmiş G4 kontrolüyle sabit pencere ataması; kâr kanıtı sayılmasın.
+- [x] PRO emir nesli/parent/devam dolumu ve marjinal kapasite ölçümleri,
+      ön-kayıtlı veri/ekonomi kapıları; fiyat-farkı hipotezi analizde kalsın.
+- [x] Para/emir riski, kısmi dolum, belirsiz iptal, süre sonu ve gerçek
+      iki döngü testleri; emirsiz kamu akışı ve lint/hash teyidi.
+- [x] Aynı repo altında paket/protokol/okunabilir kaynak, PARKED_READY
+      kanıtı. Yeni bütçe yaratma, G5 başlatma veya otomatik devam yok.
+- [ ] Operatörün ek talebi: doğrulanmış G5 kaynak/kanıtını gizli ve ham
+      özel kayıtları dışarıda tutarak normal commit/push; uzak SHA teyidi.
+
+Sonuç: lanes/g_continuous/staging/g5/README.md ve READY.json. Kaynak
+01ba0fa01bdc; G4 Londra kaynağı ve gerçek bütçe dosyaları değiştirilmedi.
+17:40:28UTC normal STOP;17:58:41UTC salt-okunur hesap teyidi153pencere,
+0açık emir/0risk/0LIVEyazıcı. Son dengeli pencere0USD; G4anchor'a göre
+yaklaşık+2,647581USD. Son hesap salt-okunur yeniden kuruldu, STATE ezilmedi.
+29senaryo iki ortamda,1152pending/netdurumu,1000çiftatama,6regresyon ve
+G4/G5geçiş testleri geçti. Eski hata60POST/59bakımiptali; adayın iki kolu
+2POST/0bakımiptali.120sn kamu kuru koşusu1513teklif,0gerçekemir/dolum,
+SDKhatasi0;G5WSyenidenbağlantı1. Kontrol60kuruPOSTsınırına ulaştı; genel
+iptal maliyeti veya dolum kalitesi çözülmüş sayılmadı. İlk geç-saatli
+kuru koşu teklifsizdi ve başarılı sayılmadı. YeniG5bütçe/aktivasyon yok.
+Fiyat-farkı:2286slot/1671piyasa/13302spotgözlemi,alınmışTWAPayrı.
+120snkalan/TWAPfark≥20bps57/60isabet;fiyatlanabilen32olay−7,404USD.
+Kapsam seçilimli,temizholdout yok;G5'e fiyatfarkı kuralı eklenmedi.
+İlk6G4penceresinin ilk marjinal ekPOST'u:6fırsat/5kabul/2dolum,
+yerelkatkı−6,55USD;sonrakiişlemlerkarşıolgusalenvanteretaşınmadı.
+889gözlenenpendingaralığı±10içinde;+1/+5sn tamderinlikbuçıkarımdan
+gelmedi,null korundu. Ayrıntı data/analysis/g4_execution_20260922/GAP_CAPACITY.md.

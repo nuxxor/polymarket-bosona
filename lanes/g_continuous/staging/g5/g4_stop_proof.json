@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-22T17:58:41Z",
+  "proof": {
+    "checked_ms": 1790099921023,
+    "previous_pnl": -12.686919,
+    "pnl": -12.686919,
+    "windows": 153,
+    "orders": 1285,
+    "open_orders": 0,
+    "risk": 0,
+    "prices_ages_ms": {},
+    "events": [
+      {
+        "event": "state_yuklendi",
+        "pnl": -12.69
+      },
+      {
+        "event": "D_ARSIV_TEYIT",
+        "S": 1790098500
+      },
+      {
+        "event": "COZULDU",
+        "S": 1790098500,
+        "pay": 10,
+        "maliyet": 5,
+        "pnl": 0,
+        "duzeltme": false
+      },
+      {
+        "event": "maruziyet"
+      }
+    ],
+    "source_state_sha": "1d0ebdfe0db49c16dc5d2d34ecc042dc13ac5a15243247ab78a38c7dbcdec53e"
+  },
+  "stop": true,
+  "writers": []
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "market": 1790099700,
+  "duration_requested_s": 120,
+  "arms": {
+    "G4_FIXED": {
+      "dry_posts": 60,
+      "dry_cancels": 60,
+      "synthetic_start_up": 5,
+      "real_orders": 0,
+      "real_fills": 0,
+      "ws_reconnects": 0
+    },
+    "G5": {
+      "dry_posts": 42,
+      "dry_cancels": 40,
+      "synthetic_start_up": 5,
+      "real_orders": 0,
+      "real_fills": 0,
+      "ws_reconnects": 1
+    }
+  },
+  "quotes": 1513,
+  "sdk_errors": 0,
+  "economic_result": null,
+  "live_activation": false
+}

@@ -1,0 +1,26 @@
+{
+  "test_g.py": {
+    "returncode": 0,
+    "tail": "KURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g_continuous/staging/g5/bot/LOG_g_kuru.jsonl\nG checks passed: policy, real reservation/risk, partial/repeated fill, STOP, unknown cancel, multiset reconciliation\n"
+  },
+  "test_g_pilot.py": {
+    "returncode": 0,
+    "tail": "{\"checked_ms\": 1000000, \"pnl\": -12.30001}\nG PARKTA: kontrol gecti; emir gonderilmedi, yeni butce acilmadi.\nG GECTI: salt-okunur SDK, varsayilan emir yok, hash, tek kullanim, sinirsiz sure/$10, eski muhasebe.\n"
+  },
+  "test_continuous.py": {
+    "returncode": 0,
+    "tail": "M7: real dual loop, redaction, partial/repeated/late events, two markets, reconnect and overflow passed\nPASS: new $10, preserved history, unlimited clock, guard, gzip/multiplicity, PONG health, STOP, low disk, staggered rosters\n"
+  },
+  "test_g_stream.py": {
+    "returncode": 0,
+    "tail": "KURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g_continuous/staging/g5/bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g_continuous/staging/g5/bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g_continuous/staging/g5/bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g_continuous/staging/g5/bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g_continuous/staging/g5/bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g_continuous/staging/g5/bot/LOG_g_kuru.jsonl\nWS reader: burst, mixed frame, old snapshot, initial delta, reconnect, heartbeat and stop checks passed\n"
+  },
+  "test_identity.py": {
+    "returncode": 0,
+    "tail": "KURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g_continuous/staging/g5/bot/LOG_g_kuru.jsonl\nPASS: actual 999 incident, canonical keys across recovery, cash/multiset, conflicting identities fail closed\n"
+  },
+  "test_transport.py": {
+    "returncode": 0,
+    "tail": "PASS after updating journal mock for required generation telemetry; actual transport cases unchanged."
+  }
+}
