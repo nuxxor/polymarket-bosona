@@ -1,0 +1,33 @@
+{
+  "status": "READY_OPERATOR_NOT_LIVE",
+  "checked_utc": "2026-09-22T16:25:16Z",
+  "limit": 100,
+  "clip": 5,
+  "net_limit": 10,
+  "candidate_sha256": "0fd30f9faee281d59ca57597005391579b0debbf5ff131ea66ee5a2bb9182ee1",
+  "live_hashes_before": {
+    "ab.py": "f1f175671b6f2268f7359732b0e4fd8dfa392cc5262b13406e5fa6af64242a70",
+    "BUDGET_G.json": "16c6ad83210baabde2f272939202e995ca682cd62e168fba435311b7b4402162",
+    "RUN_G.json": "77d91d7cb38a1eb7049742f21121dee660b5160fec578e813006d234ec0484f8",
+    "protocol.json": "7a623d76593e352021a02f4a1b0a0cd55de7db5d0e1c5543c2fe5fe27f4aa52d"
+  },
+  "live_hashes_after": {
+    "ab.py": "f1f175671b6f2268f7359732b0e4fd8dfa392cc5262b13406e5fa6af64242a70",
+    "BUDGET_G.json": "16c6ad83210baabde2f272939202e995ca682cd62e168fba435311b7b4402162",
+    "RUN_G.json": "77d91d7cb38a1eb7049742f21121dee660b5160fec578e813006d234ec0484f8",
+    "protocol.json": "7a623d76593e352021a02f4a1b0a0cd55de7db5d0e1c5543c2fe5fe27f4aa52d"
+  },
+  "live_source_money_unchanged": true,
+  "live_healthy": true,
+  "financial_actions": 0,
+  "local_checks": "G4_checks.json",
+  "remote_checks": "G4_remote_checks.json",
+  "real_public_dry": "G4_smoke.json",
+  "limitations": [
+    "No G4 live fills or PnL measured",
+    "Net10 increases permitted directional exposure",
+    "G4 uses all eligible windows, not a randomized G2/G4 comparison",
+    "t180 partial-heavy-order maintenance retained",
+    "Final account reconciliation runs after normal G3 shutdown only when operator starts"
+  ]
+}

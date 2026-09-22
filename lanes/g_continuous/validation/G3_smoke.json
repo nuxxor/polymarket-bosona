@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "scope": "REAL_PUBLIC_FEED_DRY_ORDERS_ONLY",
+  "seconds": 360,
+  "windows": [
+    {
+      "S": 1790085600,
+      "arm": "G3"
+    },
+    {
+      "S": 1790085900,
+      "arm": "G2"
+    }
+  ],
+  "quotes": 1086,
+  "complete_quote_records": 1086,
+  "dry_posts": 120,
+  "dry_cancels": 120,
+  "buffer_signals": 120,
+  "treatment_cancels": 31,
+  "observed_cancel_results": 120,
+  "real_orders": 0,
+  "real_fills": 0,
+  "economic_result": null,
+  "source_sha256": "f1f175671b6f2268f7359732b0e4fd8dfa392cc5262b13406e5fa6af64242a70",
+  "recording_errors": 0,
+  "ws_reconnections": 0
+}

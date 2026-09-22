@@ -1,0 +1,27 @@
+{
+  "syntax_pass": [
+    "accounting/audit.py",
+    "accounting/crosscheck.py",
+    "context/check.py",
+    "context/reconstruct.py",
+    "execution/buffer_probe.py",
+    "execution/markouts.py",
+    "execution/recompute.py",
+    "execution/safe_run.py",
+    "inventory.py",
+    "mechanisms.py"
+  ],
+  "ruff_F_E9": "PASS",
+  "byte_identical_repeats": [
+    {
+      "script": "mechanisms.py",
+      "exit_code": 0,
+      "byte_identical_repeat_sha256": "2ccfa3c8df2d056270a0bde9a8652d2cdb5e4c65b9f4bf9fa6dda8de2fd88d2e"
+    },
+    {
+      "script": "inventory.py",
+      "exit_code": 0,
+      "byte_identical_repeat_sha256": "e45759a4cf7c24b3bc2e88fd68a0864eef2e5fbd115e68cbbda8f5ef16ae5f9b"
+    }
+  ]
+}

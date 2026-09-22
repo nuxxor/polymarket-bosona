@@ -1353,6 +1353,35 @@ Operatörün konusu yalnız Bosona BTC15'tir. Önceki ana repo yayını ayrı BT
 - Kabul: özgün kopya hash'leri, BTC15 miktar/nakit/rol/geç-ekleme toplamları, prompt yolları ve secret taraması; aynı public depoya normal commit/push, uzak commit teyidi.
 - Bu bir araştırma teslimidir; yeni analiz sonucu, kârlı strateji, tam ham veri yeniden üretimi veya deploy iddiası değildir.
 
+## G2 bağımsız ULTRA incelemesi — 22 Eylül
+Operatör `docs/BOSONA_G2_NEXT_STEP_REVIEW_PROMPT_20260922.md` görevini verdi.
+Önceki G2 hazırlığı ve seçici risk azaltma araştırmasının bağımsız denetimi;
+yalnız araştırma ve izole çevrimdışı hesap, canlı emir/süreç/bütçe değişmez.
+- [x] Gerçek HEAD, kirli kaynak hash'leri, erişilen arşiv ve fiili kesimi kaydet;
+      güncel G2 yolunu önceki G ölçümleriyle karıştırmadan doğrula.
+- [x] 64 piyasa / 26 taker azaltımının 6 hazır bağlam sınırını arşivden sınayarak
+      genişlet; maker/ekleme/ters dönüş ve azaltıcı dolum gözlenmeyen kontroller.
+- [x] Çokluk, parent grupları, muhasebe ve zaman nedenselliğini tekrar hesapla;
+      en fazla üç mekanizmayı karşıörneklerle sınayıp tek öncelikli deney seç.
+- [x] ULTRA'ya özel kod/veri dizini ve Türkçe rapor; runnable kontroller,
+      hedefli lint/syntax, gerçek arşiv yeniden üretimi ve kaynak koruma teyidi.
+Çıktı: `docs/BOSONA_G2_NEXT_REVIEW_ULTRA_20260922.md` ve
+`data/analysis/g2_next_review_ultra_20260922/`. Başka incelemecinin yeni
+G2 çıktısı okunmadan bağımsız hüküm kurulacak; dağıtım/başlatma yapılmaz.
+
+ULTRA sonucu: özgün64piyasa korundu; erken cache/SQLite yeniden kurmasıyla
+birleşik bağlam6/26→19/26 (13erken+6geç),262parent+128sabit kontrol.
+2.041receipt ve137tam activity hesabı yeniden denetlendi; ana19.768alışın
+işlem sonucu+$8.313,228464, eski çokluk hatası+$6,21fazlaydı. Seçici taker
+tetikleyicisi/bağımsızedge kanıtlanmadı. Tek öncelik risk artırıcı maker
+teklifinin bir sent koruması tükenince iptal/teyit/yeniden kotasyon adayı;
+pilot tetikleyici10parent'ta gözlendi, iptalin yetişeceği/kârı varsayılmadı.
+Doğrulama:10yeniPython için Ruff F/E9+syntax; kimlik/G/WS izole testleri;
+780envanter kesiti,256yürütme etiketi,278fiyat bacağı,118ekonomi karşılaştırması;
+iki ham tape ön bölümünde4cache eşleşmesi ve2.439kaynak hash koruma teyidi.
+Rapor ve hesaplar reviewer dizininde; bu çalışma canlı kod/emir/süreç/bütçe
+değiştirmedi. Ortak plan/brief'in eşzamanlı güncellenmesi manifestte ayrıldı.
+
 ## G2 ve BTC5m inceleme paketinin commit/push yayını — 22 Eylül
 Operatör mevcut G2 kaynakları, son araştırmalar ve ortak İngilizce brief'in
 GitHub'a commit/push edilmesini istedi. Uzak main'deki G/G1 ve BTC15
@@ -1362,9 +1391,248 @@ yayınları korunur; ayrı worktree kullanılır. Devam eden bağımsız ULTRA
       gereken kamu Bosona/receipt kanıtları, prompt ve kapsam manifesti.
 - [x] Gizli dosya/ham özel hesap verisi/büyük dosya kontrolü; kaynak hash'leri,
       emirsiz hedefli testler, lint ve public kopyadan araştırma tekrar hesabı.
-- Yayın son adımı: normal commit/push; uzak main SHA ve inceleme promptu teyidi.
-Kanıt: docs/BOSONA_G2_PUBLICATION_20260922.md ve
-data/analysis/g2_publication_20260922/{manifest.json,checks.json}.
-Dokuz emirsiz kontrol ve22aktör-piyasa hesabı tekrar geçti. Yeni secret0,
-eski Türkçe metin false-positive ve dört donmuş kaynak whitespace uyarısı
-raporlandı. Canlı kaynak/strateji/bütçe veya devam eden ULTRA çıktısı değişmedi.
+- [x] Normal commit/push; uzak main SHA ve inceleme promptu teyidi.
+
+Yayın teyidi: 0e025c7a31a6d5abb75581902ab0001c3c0668b6 normal push ile main oldu;
+uzak refs/heads/main SHA birebir eşleşti. 9 emirsiz kontrol, hedefli lint,
+kaynak/manifest hashleri ve gizli bilgi taraması geçti. Ayrı yayın worktree temiz.
+Kapsam/sınırlar: docs/BOSONA_G2_PUBLICATION_20260922.md. Ortak HEAD/index ve
+bağımsız ULTRA çalışması korundu; canlı süreç/emir/bütçe değişikliği yapılmadı.
+
+## G2 geçici hesap API kesintisi — 22 Eylül 15:29 TR
+Operatör durmuş botun nedenini kontrol edip altyapıyı düzeltmeyi ve aynı
+bütçeyle devam hazırlığını istedi. 429/408/429 sonrası maruziyet_teyitsiz
+kapanışı doğrulandı; politika/boy/bütçe değişmez.
+- [x] Gerçek kapanış, açık emir ve mevcut hesap/risk salt-okunur kontrolü.
+- [x] Geçici ulaşım hatasında emir kapısı kapalı bekleme/yeniden mutabakat;
+      bozuk veri, kimlik, STOP, bütçe ve kayıtçı kapılarını koru.
+- [x] İzole hata/regresyon, hedefli lint, kaynak/bütçe hash koruması ve
+      Londra'da emirsiz doğrulama; durmuş kaynağa yama ve operatör komutu.
+Canlı emir başlatan son adım kullanıcı komutudur; hazırlanmış yama LIVE
+başlangıcı sayılmaz. Bağımsız ULTRA dosyaları değiştirilmez.
+
+Kanıt: lanes/g_continuous/transport_fix/. Yeni kaynak a5cd853493a6;
+7 yerel + 7 Londra emirsiz kontrol, hedefli lint/syntax geçti. Yama durmuş
+bota 15:51:54 TR uygulandı; RUN/BUDGET/STATE/protokol/politika baytları aynı.
+15:52:27 TR gerçek ön kontrol: açık emir 0, risk 0; PnL −6,823289,
+aynı bütçe başlangıcına göre −0,794689. Canlı başlatılmadı; kullanıcıya
+mevcut londra_g_sinirsiz_baslat.sh komutu verilir, yeni bütçe açılmaz.
+
+Kullanıcı komutundan sonra 16:04:59 TR yeni kaynak a5cd853493a6 ile LIVE
+başladı. Writer 178758; kayıtçılar 178762/178763 sağlıklı, iki kanal da
+taze. 16:05:01 ilk mutabakat geçti; aynı bütçe kimliği/anchor/cutoff ve
+RUN/protokol/politika baytları korundu. İlk emirler ve dolumlar görüldü.
+16:06:35 salt-okunur ikinci kontrolde belirsiz emir 0, devam eden POST 0;
+bir açık emir ve sonuçlanmamış tek piyasa vardı. Bu açık pencere PnL'si
+kesinleşmiş sonuç değildir. Yeni canlı API kesintisi henüz yaşanmadı;
+bekleme/toparlanma davranışının kanıtı bu aşamada hata-enjeksiyon testidir.
+Kanıt: lanes/g_continuous/transport_fix/runtime_after_operator.json ve
+runtime_followup.json. Asistan yeniden başlatma/emir işlemi yapmadı.
+
+## G2 ULTRA/PRO sentezi ve tek depo düzeni — 22 Eylül
+Operatör tercihi: bundan sonraki bütün yeni kaynak, rapor, paket ve araştırma
+çıktıları /home/taygun/Masaüstü/polymarket-bosona içinde tutulacak. Masaüstünde
+yeni model/review/worktree kardeş klasörü açılmayacak. Bu tercih mevcut
+çalışan yolları topluca taşıma veya silme talimatı değildir. Yeni model adı
+ve servis çoğaltmak yerine mevcut bot/kayıt/analiz düzeni kullanılacak.
+- [x] ULTRA raporunu tam oku; rapor ve34çıktının kayıtlı hashlerini doğrula.
+      PRO'nun kullanıcının verdiği tam metnini, erişim ve sentetik/olay
+      denetimi farkını koruyarak karşılaştır.
+- [x] 14/26 aşağı-yuvarlanmış kapama ve bunların10/14'ünde sonraki farklı
+      parent dolumu sayısını kayıtlı satırlardan yeniden hesapla. Gerçek
+      güncel d_miktar fonksiyonuyla5pay net sınırı ve2/0envanterde3/2izinli
+      miktar kilidini doğrula. Kimlik ve son API yaması politikayı değiştirmedi.
+Sentez: PRO'nun102,19miktar ipucu ULTRA'da genişlemiş; zaman tetikleyicisi
+hâlâ yok. 14maker sıfırı-aşmanın8'inde önceki net<0,01; hepsini büyük yön
+değişimi sayma. Azaltımların48/76'sı maker;26/30taker azaltım oranıyla
+paydaları karıştırma. Bağlam19/26; eksik7arşiv anının nedenleri açıklanmış.
+İlk15taker azaltımın katkısı+273,91252, en iyi3hariç−9,57836; bağımsız
+çıkış avantajı kurulmadı. Basit ters spot/TWAP/sondakika kuralı desteklenmedi.
+Öncelik ayrımı: Bosona'yı açıklamak için envanteri taşıma/büyütme/azaltma
+ve yakın-sıfırdan sonraki yolların analizi sürmeli; ULTRA'nın bir-sent
+koruma adayı G'nin kotasyon kalitesi için ayrı ve dar hipotezdir, Bosona'nın
+keşfedilmiş kuralı değildir. 10parent'ta gözlenen iptal sinyali;8dolumdan
+önce bildirim zamanı var ama iptalin exchange'de yetişeceği kanıtı yok.
+Mevcut kayıtlarla iptal/dolum zamanları karşılaştırılmalı; kayıp dolumları
+varsayımla silme. Miras t180bakımı veminimum miktar ayrıca izlenecek; tek
+deneye fiyat bakımı, limit büyütme ve taker çıkışı birlikte eklenmeyecek.
+Bu sentez canlı strateji, emir, süreç veya bütçe değişikliği yapmadı.
+
+## G3 tek-değişiklikli teklif bakımı adayı — 22 Eylül
+Operatör ULTRA-Q1 adayını sınamayı ve G3 hazırlığını istedi. G3 yalnız yeni
+yön riski açan mevcut teklifin bir-sent koruması tükenince iptal/teyit ve
+normal hedefe yeniden kotasyon hipotezidir. G2 canlı stratejisi değişmez.
+Ayrı masaüstü/model checkout veya servis açılmaz; mevcut lanes/g_continuous
+ve validation altında küçük patch/test/kanıt dosyaları kullanılır.
+- [x] G2 kaynak/politika hashini ve tek değişikliği sabitle; azaltıcı
+      emirleri, min miktarı, t180/240/290, net5 ve bütçeyi aynı tut.
+- [x] Gerçek karar/iptal yolunda yeni risk/azaltım, tick, bayat veri,
+      iptal reddi/geç dolum ve yeniden-emir yarışları; mevcut regresyonlar.
+- [x] G2 emir ve iki kayıtçının salt-okunur kesitinde aday tetiklerini ve
+      zaman kapsamını ölç; yerel bildirim farkını exchange iptal fırsatı
+      veya kurtarılmış kâr sayma. Eksik kapsamda canlı-hazır hükmü yok.
+- [x] Aynı repo içinde gözden geçirilebilir G3 patch, sabit protokol ve
+      sonuç; canlı kaynak/strateji/emir/süreç/bütçe değişmediğini doğrula.
+
+Sonuç: lanes/g_continuous/G3.patch ve G3_PROTOCOL.json çevrimdışı hazır.
+11 gerçek karar/iptal senaryosu, 6 G2 regresyon betiği, hedefli lint/syntax
+geçti. İptal belirsiz veya geç dolumdan kalan miktar minimum altında ise
+yeni emir verilmedi. Canlı G2 kaynak/politika/bütçe aynı; 16:41:45 TR salt
+okunur kontrolde writer178758 çalışıyor. Yeni servis/masaüstü klasörü yok.
+Sabit dört pencere 13:05–13:25 UTC: 38/38 emir yaşam yolu ve nihai miktar
+eşleşti; 29'unda dolum öncesi 1Hz teklif kaydı, 13'ünde taze açılış bağlamı.
+İki aday tetik ilk yerel dolum bildiriminden 52,94/74,13ms önce. Bu gerçek
+iptal fırsatı veya kurtarılan zarar değil. İki tetikte bir taze kayıtçı var;
+iki kayıtçı + konservatif ms sınırı koşulunda 1/2. Diğer B gözlemi sınırdan
+0,538ms önce; veri yokluğu değil zaman belirsizliği. %95 tam bağlam/zaman
+kapısı ve ekonomik üstünlük kurulmadı; G3 canlıya geçirilmedi.
+Kanıt ve tekrar komutları mevcut lanes/g_continuous/README.md G3 bölümünde.
+- [ ] Sonraki aşama: her gerçek kararın monoton zamanı ve anlık emir/rezerv
+      bağlamıyla iptal yarışı ölçümü; kapı geçerse aynı bütçeyle dondurulmuş
+      G2/G3 ekonomik karşılaştırması. Bu turda başlatılmış sayılmaz.
+
+## G3 operatör deneyi hazırlığı — 22 Eylül
+Operatör ayarları ve bütün hazırlığı tamamlayıp yalnız kendisinin çalıştıracağı
+LIVE komutunu istedi. Aynı repo ve Londra G dizini; yeni bütçe/servis kopyası yok.
+- [x] Tek fiyat-bakımı değişikliğini koru; önceden sabit ULTRA-Q1 pencere
+      atamasıyla G2 kontrol/G3 deney, her gerçek aktif-teklif kararında
+      UTC/monoton saat, tutarlı defter ve emir/rezerv bağlamı kaydı.
+- [x] İptal-geç dolum/belirsizlik, kayıt arızası, atama ve bütçe korunumu
+      testleri; yeni kayıt sözleşmesinin gerçek Londra piyasa kuru koşusu.
+- [x] Kaynak hashli park edilmiş yama; operatör normal STOP, son hesabı
+      uzlaştır, aynı bütçeyle devam. Bilinmeyen kaynak veya tükenmiş bütçe
+      reddedilir; force-kill/yeni bütçe yok. Tekrar komut aktif G3'ü kesmez.
+- [x] Yerel/Londra kontrolleri, hedefli lint/syntax ve gerçek çıktı teyidi;
+      bütün teknik kapılar geçince tek başlatma komutu, asistan LIVE başlatmaz.
+Önceki %95 tarihsel bağlam kapısı geçmemiş olarak korunur. Eski kaydın
+eksik zamanını yeni sentetik testle doldurmak veya iptal başarısı/kâr teyidi
+ilan etmek yasak. Bu adım, ölçüm sözleşmesi doğrulanmış küçük gerçek deney
+hazırlığıdır; iptalin gerçek doluma yetişmesi ve ekonomik üstünlük yalnız
+operatörün başlattığı deneyde ölçülebilir. Ekonomik kabul ölçütleri değişmez.
+
+Sonuç: G3 operatör paketi aynı repo/uzak mevcut botun staging/g3 alanında
+hazır. Kaynak f1f175671b6f; G2 kontrol/G3 deney ataması sonuçtan bağımsız
+ULTRA-Q1 hash bitidir. Yerel+Londra 16 senaryo ve altışar regresyon geçti;
+10 geçiş/para/idempotency/sahteSSH kontrolü geçti. Hedefli yerel Ruff ve
+Londra syntax/hash kontrolleri teyitli. Gerçek Londra 360sn kuru koşu:
+iki piyasa/G3+G2,1086/1086 tam karar kaydı,120 kuru teklif/iptal,31 G3
+koruma iptali,0 kayıt hatası/WS kopuşu. Borsa emri/dolumu yok; iptal
+yarışının finansal sonucu veya eski eksik tarihsel bağlam teyit edilmedi.
+Operatör komutu londra_g3_baslat.sh; mevcut BUDGET/RUN aynen korunur,
+hesap teyidi ve iki kayıtçıdan sonra devam eder. Asistan LIVE başlatmadı.
+Test/kuru kayıtları lanes/g_continuous/validation altında; komut ve
+hazırlık sınırları mevcut README G3 operatör bölümünde.
+- [x] Kullanıcı komutundan sonra gerçek G3 kaynak/atama/aynı bütçe/LIVE
+      başlangıcı ve gerçek iptal-dolum gözlemi; aşağıdaki izlemde doğrulandı.
+
+## G3 operatör başlatması sonrası 45 dakika izleme — 22 Eylül
+Operatör londra_g3_baslat.sh komutunu çalıştırdı; 14:14:03–14:59:03 UTC
+arasında gerçek zamanlı izleme istedi. Ciddi emir/muhasebe/kayıt arızasında
+normal STOP_G yetkisi var; yeni bütçe veya otomatik yeniden başlatma yok.
+- [x] Gerçek LIVE, kaynak ve aynı bütçe; G2/G3 ataması ve iki kayıtçı teyidi.
+- [x] 45 dakika süreç, mutabakat, rezerv, iptal/dolum ve durdurucu izlemi.
+- [x] Atanmış, sonuçlanan ve bekleyen pencereleri ayrı raporla; kısa deneyi
+      kârlılık kanıtı sayma. Sağlıklıysa çalışsın; sorun varsa kapanışı teyit et.
+İlk gözlem: G2 14:12:50 UTC normal STOP ile kapanmış, G3 kaynak yüklenmiş;
+RUN/BUDGET/protokol hashleri aynı. G3 başlangıcı eski pencerelerin resmi
+sonuç/muhasebe teyidini bekliyor; başlatma isteği LIVE sayılmadı.
+14:20:33 UTC gerçek LIVE başladı: writer180513, kayıtçı180971/180972.
+G3 kaynak f1f175671b6f; BUDGET/RUN hashleri değişmedi. Başlangıç mutabakatı
+−10,8911; mevcut kesici−16,0286. Devreden iki pencere sonuçlandırıldı;
+yeni deney kârına dahil edilmeyecek. İlk tam pencere ataması bekleniyor.
+İzlem 14:59:29 UTC kesitine kadar tamamlandı (45dk26sn; başlangıç beklemesi
+dahil, LIVE 14:20:33). Yedi atama: G3 dört/G2 üç; beş sonuçlanmış ve iki
+sonuç bekliyor. Kesinleşen +0,70 dolar: G3−2,20, G2+2,90; G3'ün iki
+sonuçlanmış sıfır-dolum penceresi bütçe kısıtından etkilenmiş. Açık G2'nin
+terminal aralığı−0,555..−0,54638; açık G3−1,25..+3,75. Bunlar mevcut
+envanter sınırlarıdır, sonuç veya sonraki işlemleri tahmin etmez.
+On koruma iptalinin sekizi dolumsuz, ikisi dolumlu teyitli kapalı; kurtarılan
+zarar/karşı-olgusal dolum çıkarılmadı. 4.320 SDK satırı kesintisiz; 467
+karar kaydının saat/kol/rol kontrolü geçti. SDK yazma hatası yok. Kayıtçı
+user mesajlarında enum reddi (A2/B1 gözlendi) ve B market 1013 yeniden
+bağlantısı var: bunlar eksik ölçüm, kusursuz ham kapsam değil. Diğer kayıtçı
+ve SDK/mutabakat çalıştı; ciddi finansal arıza veya müdahale gereği görülmedi.
+Bot aynı bütçeyle çalışır bırakıldı; asistan STOP/POST/bütçe değişikliği
+yapmadı. Kaynak/BUDGET/RUN/protokol hashleri bütün snapshotlarda aynı.
+Kanıt: validation/G3_monitor_20260922_polls.json ve dondurulmuş
+G3_monitor_session_20260922.jsonl.gz; yeniden hesap G3_monitor_check.py,
+sonuç G3_monitor_20260922_summary.json. Kontrol ve hedefli Ruff geçti.
+G3 ekonomik üstünlüğü kurulmadı; üç gün/100 dolumlu pencere-kol gibi önceden
+belirlenen ekonomik kapılar bu küçük kesitle tamamlanmış sayılmaz.
+Son teslim kontrolü15:03:13 UTC: writer180513 ve iki kayıtçı sağlıklı;
+14:50G2 penceresi−0,5463796 ile çözülünce izlenen kohortun kesinleşen
+sonucu+0,1536204 oldu. 14:55G3 hâlâ çözülmemiş. 15:00'da açılan sonraki
+pencere bu 45dakika kohortuna eklenmedi. Ham14:59 kesiti değiştirilmedi;
+son teyit polls.json/post_monitor_handoff alanında ayrı saklandı.
+
+## G4 hazırlığı — bağımsız yeni $100, emir boyundan ayrı net kapasite
+Operatör G4 hazırlığını ve her yeni modelin sıfırdan ayrı deney bütçesiyle
+başlamasını istedi; önce $10 dedi, sonra araştırma bütçesini artırma kararını
+asistana açıkça bıraktı. G4 için $100 toplam zarar sınırı seçildi; otomatik
+yenileme veya sınırsız kayıp yetkisi olarak uygulanmaz. Önceki toplam
+PnL/işlem geçmişi silinmez. G4 başlangıcında uzlaşmış PnL yeni anchor olur;
+aynı G4'ün yeniden başlatılması bütçeyi yenilemez. Hazırlık canlı başlatma değildir.
+- [x] G2 pasif fiyat bakımını temel al; G3 ek koruma iptalini kullanma.
+      Beş pay klibi korurken net kapasiteyi on paya ayır. Bu, Bosona'nın
+      gözlenen aynı-yön eklemelerini sınayan küçük bir mühendislik adayıdır;
+      on pay keşfedilmiş aktör parametresi veya kârlılık kanıtı değildir.
+      Azaltıcı miktar açık farkı aşmaz; t180 bakımı, t240/t290, taraf başına
+      kümülatif $10 ve mevcut hesap/kayıt/kimlik kapıları korunur.
+- [x] Gerçek miktar/rezerv/POST yollarında ikinci klip, kısmi dolum, net sınırı,
+      belirsiz emir, eski kapanış ve $100 kesiciyi sınayarak doğrula.
+- [x] Normal duruş ve tam hesap teyidinden sonra yalnız bir kez yeni bütçe;
+      G3 kaynak/RUN/BUDGET/state yedeği, tek yazıcı ve yarım kurulumda kapalı kalma.
+- [x] Aynı repo ve mevcut Londra G dizininde park edilmiş paket; yerel/Londra
+      emirsiz kontroller, gerçek piyasa kuru koşusu ve kaynak/hash teyidi.
+      Son adım kullanıcı başlatma komutu; asistan canlı G3'ü değiştirmez.
+Ekonomik sınır: net kapasite artışı yön zararını da büyütebilir. Kısa geçmiş
+dolumlara yeni miktar ekleyerek G4 PnL'si üretilmez. G3'ün küçük kaybı iptal
+kuralını kesin reddetmez. G4 bağımsız adaydır; farklı gün/pencerelerdeki ham
+G2/G3/G4 sonuç farkı nedensel üstünlük sayılmaz.
+
+Hazırlık sonucu16:25:16UTC: G4 kaynak0fd30f9faee2, politika4ac815404689;
+paket mevcut Londra staging/g4 içinde parkta. Gerçek emir/rezerv yollarında
+ikinci5pay,net10sınırı,100envanter/yan kontrolü,minimum-altı karşı alışın
+reddi,$100kesici ve9gerçek quote-loop senaryosu geçti. Yerel ve Londra'da
+altışar regresyon; taze bütçe,geçmiş koruma,aynı bütçeyle devam,tükenmiş
+bütçe reddi,yarım kurulumda kapalı kalma,sahteSSHkomutu geçti. Yerel Ruff
+F/E9 ve iki ortamda syntax teyitli; Londra'da Ruff yok, aynı kaynak hashli
+yerel lint kullanıldı. Gerçek120sn kamu akışı:790teklifkaydı/60kuruPOST/
+60kuruiptal,0gerçekemir,0SDKhatasi/0WSkopuşu; ekonomik sonuç üretilmedi.
+G3writer180513veiki kayıtçı çalışıyor; canlıab/BUDGET/RUN/protokol hashleri
+hazırlık boyunca aynı. G4 yeni bütçesi aktive edilmedi. Son tam hesap teyidi
+ve normal geçiş kullanıcı londra_g4_baslat.sh komutunda yapılır. Kanıtlar
+lanes/g_continuous/validation/G4_READY.json ve bağlantılı kontrol dosyaları.
+
+## G4 operatör başlatması teyidi — 22 Eylül
+Kullanıcı londra_g4_baslat.sh komutunu çalıştırdı. Kabul ölçütleri:
+- [x] Normal G3 kapanışı ve eski pencerelerin tam hesap teyidi.
+- [x] G4 kaynak/hash, tek LIVE yazıcı, bağımsız $100 bütçe ve aynı geçmiş.
+- [x] İki kayıtçı, mutabakat ve ilk gerçek G4 pencere/emir akışının teyidi.
+İlk16:32:22UTCkesiti: G3 16:31:47UTC normal STOP ile kapalı; açık emir ve
+yerel risk sıfır. Geçiş operatörü son iki eski pencerenin sonuç teyidini
+bekliyor. G4 kaynak/bütçe henüz aktive değil; başlatma isteği LIVE sayılmadı.
+16:42:23UTC gerçek LIVE başladı: kaynak0fd30f9faee2, writer185637;
+iki kayıtçı186232/186233 sağlıklı. Tam142eski pencere mutabakatıyla yeni
+anchor−15,3345,limit100,kesici−115,3345; bütçe9e510ca7460ed5970db5.
+Önceki1135emir/104dolumlu pencere geçmişi korundu. Sonuç teyidi yaklaşık
+10,6dk sürdü; bu sırada yeni işlem yapılmadı. İlkG4pencere kontrolü bekliyor.
+16:45:17UTCilk gerçek pencere teyidi:1790095500,iki5pay Down dolumu
+0,70/0,69;net10'da yeniDownboyu0. Up azaltıcı teklifler çalışıyor. İptalde
+bir geçiciLIVEyanıtı izlenip CANCELED ile kapandı; rezerv atlanmadı. İki
+kayıtçı sağlıklı,SDKyazma hatası0;tek writer,aynı yeni100bütçe ve kaynak.
+Pencere henüz sonuçlanmadığından G4kâr sonucu yok. Asistan finansal işlem,
+yeniden başlatma veya bütçe değişikliği yapmadı. Başlangıç doğrulamaları:
+lanes/g_continuous/validation/G4_launch_20260922.json.
+
+## G4 kaynak ve araştırma yayını — 22 Eylül
+Operatör son kodun commit/push edilmesini ve kısa PRO promptunun yalnız
+sohbette verilmesini istedi. Yeni prompt MD dosyası oluşturulmaz.
+- [x] Uzak main üzerindeki önceki yayınları koru; ortak kirli çalışma
+      ağacını ezmeden repo içindeki .git altında izole yayın kopyası.
+- [x] G4'ün Londra hash'iyle aynı okunabilir kaynak, G3/G4 paket/testleri,
+      tamamlanmış ULTRA incelemesi ve seçilmiş emirsiz/canlı başlangıç kanıtı.
+- [x] Yayın kopyasında gerçek test, lint, kaynak/hash ve gizli veri denetimi;
+      özel WS/anahtar/büyük ham arşivler hariç. Canlıya müdahale yok.
+- [ ] Normal commit/push ve uzak SHA teyidi; kısa bağımsız değerlendirme
+      promptu sohbet içinde, ekonomik üstünlük veya güncel PnL iddiası yok.

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "lint": "F,E9",
+  "syntax_files": 3,
+  "probe_byte_identical": true,
+  "source_patch_policy_hashes": "PASS",
+  "no_live_g3": true
+}

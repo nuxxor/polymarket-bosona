@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "source_sha": "0fd30f9faee281d59ca57597005391579b0debbf5ff131ea66ee5a2bb9182ee1",
+  "seconds": 120,
+  "windows": [
+    1790094000
+  ],
+  "quotes": 790,
+  "dry_posts": 60,
+  "dry_cancels": 60,
+  "real_orders": 0,
+  "real_fills": 0,
+  "economic_result": null,
+  "sdk_errors": 0,
+  "ws_reconnections": 0
+}

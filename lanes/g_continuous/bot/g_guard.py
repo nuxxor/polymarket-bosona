@@ -15,6 +15,8 @@ def verify(root, budget):
     protocol = json.loads((root/'protocol.json').read_text())
     if budget['end_ms'] is None and not (budget.get('continuous') is True and protocol.get('continuous') is True):
         raise ValueError('G unlimited budget requires frozen continuous protocol')
+    if protocol.get('experiment') == 'G4' and (budget.get('experiment') != 'G4' or budget['limit'] != 100 or protocol['loss_limit'] != 100):
+        raise ValueError('G4 requires its own activated budget')
     run = json.loads((root/'RUN_G.json').read_text())
     if run['budget'] != budget:
         raise ValueError('G activation/budget mismatch')

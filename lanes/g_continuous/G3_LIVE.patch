@@ -1,0 +1,123 @@
+--- ab.py
++++ ab.py
+@@ -3,6 +3,10 @@
+ import os, sys, json, time, re, glob, urllib.request
+ import threading   # 09-19: KOL C websocket is parcacigi
+ import math
++from hashlib import sha256
++
++def g3_arm(S):
++    return "G3" if sha256(("ULTRA-Q1|"+str(S)).encode()).digest()[0]&1 else "G2"
+ if __package__:
+     from . import emir_iz
+ else:
+@@ -1308,14 +1312,15 @@
+     ask={0:None,1:None}
+     kilit=threading.Lock()                           # v1.2: okuyucu ayri is parcacigi
+     son_defter={}                                    # v4: oi -> son defter guncelleme zamani (bayatlik)
++    son_alinan={}
+     son_kaynak={}; hazir=set()                       # Snapshot alinmadan deltadan defter kurulmaz.
+     son={0:0.0,1:0.0}; n_koy=0; n_iptal=0; ws_hata=0; durdur=False
+     son_olcum={0:0.0,1:0.0}
+     def bb_of(oi):
+         with kilit:
+             pz=[p for p,q in lv[oi].items() if q>0]
+-            if not pz: return None,0.0,ask[oi],son_defter.get(oi,0)
+-            b=max(pz); return b,lv[oi][b],ask[oi],son_defter.get(oi,0)
++            if not pz: return None,0.0,ask[oi],son_defter.get(oi,0),son_alinan.get(oi)
++            b=max(pz); return b,lv[oi][b],ask[oi],son_defter.get(oi,0),son_alinan.get(oi)
+     def guncelle(m):
+         et=m.get('event_type') or m.get('type')
+         tn=time.time()
+@@ -1336,6 +1341,7 @@
+                     hazir.discard(oi); lv[oi]={}; ask[oi]=None; son_defter.pop(oi,None)
+                 return
+             son_kaynak[oi]=kaynak; son_defter[oi]=min(tn,kaynak); hazir.add(oi)
++            if LANE_G: son_alinan[oi]={**emir_iz.saat(),'source_ms':round(kaynak*1000)}
+             lv[oi]={}
+             for x in m.get('bids') or []:
+                 try: lv[oi][round(float(x['price']),3)]=float(x['size'])
+@@ -1351,6 +1357,7 @@
+                         hazir.discard(oi); lv[oi]={}; ask[oi]=None; son_defter.pop(oi,None)
+                     continue
+                 son_kaynak[oi]=kaynak; son_defter[oi]=min(tn,kaynak)
++                if LANE_G: son_alinan[oi]={**emir_iz.saat(),'source_ms':round(kaynak*1000)}
+                 try: p=round(float(c['price']),3); q=float(c['size'])
+                 except Exception: continue
+                 if (c.get('side') or '').upper()=='BUY': lv[oi][p]=q
+@@ -1376,7 +1383,7 @@
+         nonlocal n_koy,n_iptal,durdur
+         if DURDUR or (LANE_D and os.path.exists(STOP)): return
+         if not LANE_G and time.time()-son[oi]<C_MIN_ARA: return
+-        bb,bb_boy,ba,book_time=bb_of(oi)
++        bb,bb_boy,ba,book_time,book_stamp=bb_of(oi)
+         hedef=taze_hedef(bb,ba,tik[oi],bb_boy,dolan(oi),dolan(1-oi),ort_diger=ort(1-oi),tamamlayici_bant=LANE_D)
+         fs=None
+         if LANE_F:
+@@ -1414,6 +1421,7 @@
+             return
+         ac=acik(oi)
+         if ac:
++            decision=emir_iz.saat()
+             # v1.1 (kuru kosu): emir dokunusun en fazla 1 tik altindaysa YERINDE KALIR
+             # (kuyrugun onundeyiz; her tikte yenilemek 100 sn'de 40 postu bitiriyordu).
+             p=ac[0]['p']
+@@ -1424,8 +1432,24 @@
+             miktar_fazla=LANE_D and sum(max(0,r.get('boy',klip)-r.get('pay',0)) for r in ac)>d_miktar(w,oi,haric=ac)+1e-6
+             bant_disinda=LANE_D and dolan(1-oi)<=dolan(oi)+1e-6 and p>C_PX_MAX+1e-9
+             kalite_kaybi=LANE_F and not all(f_kalite(w,oi,r['p'],fs)[0] for r in ac)
+-            if LANE_G and not (miktar_fazla or bant_disinda or kalite_kaybi) and bb is not None and bb-.02-1e-9<=p<=bb+1e-9: return
+-            if miktar_fazla or bant_disinda or kalite_kaybi: pass
++            koruma_sinyali=(LANE_G and not (miktar_fazla or bant_disinda or kalite_kaybi)
++                           and dolan(oi)>=dolan(1-oi)-1e-6 and hedef is not None
++                           and bb is not None and bb-.02-1e-9<=p<=bb+1e-9 and p>hedef+1e-9)
++            koruma_bitti=koruma_sinyali and g3_arm(S)=='G3'
++            if LANE_G and emir_iz.aktif is not None:
++                with _PAY_KILIT:
++                    inventory=[sum(r.get('pay',0) for r in w['emir'] if r['oi']==i) for i in (0,1)]
++                    pending=[{key:r.get(key) for key in ('oid','oi','p','boy','pay','durum','gonderiliyor')}
++                             for r in w['emir'] if r['durum'] in ('acik','belirsiz')]
++                emir_iz.aktif.yaz('g3_quote',S=S,arm=g3_arm(S),oi=oi,decision=decision,book=book_stamp,
++                    bid=bb,ask=ba,target=hedef,inventory=inventory,pending=pending,
++                    flags={'size':miktar_fazla,'band':bant_disinda,'quality':kalite_kaybi,
++                           'buffer_signal':koruma_sinyali,'buffer_cancel':koruma_bitti},
++                    window_risk=pencere_risk(w),account_risk=toplam_risk(),effective_pnl=etkin_pnl(),cutoff=KESICI)
++                if emir_iz.aktif.errors:
++                    globals()['DURDUR']=True; st['durdu']='emir_kaydi_hata'; return
++            if LANE_G and not (miktar_fazla or bant_disinda or kalite_kaybi or koruma_bitti) and bb is not None and bb-.02-1e-9<=p<=bb+1e-9: return
++            if miktar_fazla or bant_disinda or kalite_kaybi or koruma_bitti: pass
+             elif tav is not None and p>tav+1e-9: pass                         # tavandan pahali -> iptal (asagida)
+             elif LANE_E and tav is not None:
+                 # Giris hedefi/derinligi degisse de ekonomik tamamlamanin sirasi korunur.
+@@ -1439,8 +1463,13 @@
+             elif hedef is not None and abs(p-hedef)<1e-9: return            # v3.1: hedefle ayni fiyattaysa YERINDE KAL
+             elif hedef is not None and p>hedef+1e-9: pass                   # v4: izin verilen hedeften pahali -> iptal
+             elif bb is None or (p>=bb-tik[oi]-1e-9 and (ba is None or p<ba-1e-9)): return
++            if koruma_bitti: log('G3_KORUMA_IPTAL',S=S,oi=oi,decision=decision,hedef=hedef,
++                                 emirler=[{'oid':r['oid'],'p':r['p'],'kalan':max(0,r['boy']-r.get('pay',0))} for r in ac])
+             for r in ac:
+-                kapat(r,'taze_yenile',k); n_iptal+=1
++                closed=kapat(r,'G3_koruma' if koruma_bitti else 'taze_yenile',k); n_iptal+=1
++                if LANE_G and emir_iz.aktif is not None:
++                    emir_iz.aktif.yaz('g3_cancel_result',S=S,arm=g3_arm(S),decision=decision,oid=r['oid'],
++                        confirmed=closed,matched=r.get('pay',0),status=r['durum'],exchange_effective_ns=None)
+             son[oi]=time.time(); return
+         if hedef is None or n_koy>=C_MAX_ISLEM or time.time()-son[oi]<C_MIN_ARA: return
+         if LANE_F and not f_kalite(w,oi,hedef,fs)[0]: return
+@@ -1510,7 +1539,7 @@
+                             for m in ms: guncelle(m)
+             except Exception as ex:
+                 ws_hata+=1; log('taze_ws_hata',S=S,err=type(ex).__name__,deneme=ws_hata)
+-                with kilit: lv[0]={}; lv[1]={}; ask[0]=None; ask[1]=None; son_defter.clear(); son_kaynak.clear(); hazir.clear()   # v4: bayat defterle emir yok
++                with kilit: lv[0]={}; lv[1]={}; ask[0]=None; ask[1]=None; son_defter.clear(); son_kaynak.clear(); son_alinan.clear(); hazir.clear()   # v4: bayat defterle emir yok
+                 time.sleep(1.0)
+     okur=threading.Thread(target=okuyucu,daemon=True,name=f"taze-ws-{S}"); okur.start()
+     while time.time()<bitis and not w.get('cozuldu') and not durdur and not DURDUR:
+@@ -1534,6 +1563,7 @@
+ def pencere_ac(sym,S,per):
+     """Iki-tarafli kabul durum makinesi. Tek taraf kabul edilirse GERI CEKER."""
+     k=(sym,S)
++    if LANE_G: log('G3_ATAMA',S=S,arm=g3_arm(S),clock=emir_iz.saat())
+     if any(r.get('durum')=='belirsiz' for w in pen.values() for r in w['emir']):
+         log('atla_belirsiz',sym=sym,S=S); return
+     _vol=None

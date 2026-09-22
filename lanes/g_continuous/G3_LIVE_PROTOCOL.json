@@ -1,0 +1,79 @@
+{
+  "label": "G3",
+  "status": "READY_FOR_OPERATOR_MEASUREMENT_NOT_STARTED",
+  "created_ms": 1790085148992,
+  "base_source": "transport_fix/bot/ab.py",
+  "base_sha256": "a5cd853493a6f01ab395495574150bf31c6dec7201783dfb563e98a6e2fa3ca7",
+  "candidate_sha256": "f1f175671b6f2268f7359732b0e4fd8dfa392cc5262b13406e5fa6af64242a70",
+  "policy_sha256": "fbac759df25cecf10ea01bbf9db9da5e07dd90f3b33e844125c51e434eaf2f61",
+  "patch_sha256": "50a83defd4a6e21cdc3969832de6228a308c0187a69f2e7ad1f785efc55c9180",
+  "hypothesis": "Risk-increasing resting quote: cancel when its price exceeds current valid bid-minus-one-cent target; retain existing reducing-quote policy; replacement requires confirmed closure.",
+  "preserved": [
+    "5-share clip/net cap",
+    "minimum size",
+    "t180 maintenance",
+    "t240 entry / t290 reduction",
+    "per-side cumulative spend/reserves",
+    "current account budget and cutoff",
+    "uncertain-order reserve",
+    "G2 identity and transport fixes"
+  ],
+  "data_scope": "All accepted parents in completed 5-minute markets of first original G1 pilot and fixed read-only current London G2 capture; no filtering by realized win/loss. Missing data remains missing.",
+  "technical_gate": {
+    "required_join_fraction": 0.95,
+    "signals_require": [
+      "fresh book",
+      "own order identity and remaining quantity",
+      "risk role",
+      "placement/ack and terminal/fill/cancel lifecycle",
+      "UTC and monotonic clock mapping"
+    ],
+    "positive_notice_lead_proves_cancelability": false,
+    "no_fabricated_prevented_loss_or_queue_credit": true
+  },
+  "economic_test_not_started": {
+    "assignment": "sha256('ULTRA-Q1|'+str(S)), first-byte low bit: 0 baseline G2, 1 G3",
+    "shared_budget": "existing remaining budget only; no reset or increase",
+    "primary_metric": "fee-net USD per assigned closed window, including zero fills; no assumed rebates",
+    "minimum_claim_scope": "3 UTC days and at least 100 filled windows per arm; not a power guarantee",
+    "acceptance": "clustered lower CI > 0, ex-top3 difference > 0, worst terminal risk and unknown-order exposure not worse",
+    "missing_boundary": "local first fill notification is not execution time; unknown cancellation effect and counterfactual fills block simulated profit claims"
+  },
+  "live_changes": false,
+  "london_capture": {
+    "start_S": 1790082300,
+    "end_S_exclusive": 1790083500,
+    "calendar_windows": 4,
+    "selection": "Every complete BTC5m window in the fixed interval, independent of outcome"
+  },
+  "prior_offline_protocol_sha256": "e6c5ebcdce2cdf72b4f90300a12b12947714658c8ac8361dce5de5bc473aedb0",
+  "engineering_gate": {
+    "historical_gate_passed": false,
+    "real_order_cancelability_proven": false,
+    "requirements": [
+      "real quote-loop race tests",
+      "new decision-clock/order-state schema validated on real public feed without real orders",
+      "operator-only graceful source update and same-budget resume",
+      "hash-pinned package and recorder/account preflight"
+    ],
+    "meaning": "Ready only for an operator-initiated measurement experiment; no assumed PnL improvement.",
+    "exact_old_history_repaired": false,
+    "verification": {
+      "G3_LIVE_checks.json": "2848dd1e3dea00b93a52ed4f8146c87f40fa28ac11b2a63cf9aa6a0670cc04c5",
+      "G3_remote_checks.json": "74d208288aa2e0fd802e75536b30886c31fec6adc0276661c06987bc9221c3e6",
+      "G3_operator_checks.json": "20a3a1c320cc883116677909180072e1b461c461a272071454cd9080efe421ab",
+      "G3_smoke.json": "e0dc1a680c9ff21c9b5d4e6d9b41bbc55e6ff7f3a354ff0c0664d169e2d53007"
+    }
+  },
+  "package_sha256": "8abf92d0813bac65d4c8ed30c300420517ef25afe9c94e72d176b3719be5871b",
+  "operator_start": {
+    "command": "bash \"/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/londra_g3_baslat.sh\"",
+    "target": "/home/ubuntu/polymarket-bosona-g-continuous/bot",
+    "stop": "normal STOP_G followed by account reconciliation",
+    "continuous": true,
+    "clip": 5,
+    "budget": "existing BUDGET_G and RUN_G bytes; no reset",
+    "assignment": "0=G2, 1=G3 via predeclared first SHA256 byte low bit",
+    "recording": "g3_quote and g3_cancel_result in existing SDK telemetry, G3_ATAMA in bot log"
+  }
+}

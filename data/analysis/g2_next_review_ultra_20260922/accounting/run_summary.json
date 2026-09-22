@@ -1,0 +1,270 @@
+{
+  "receipt_audit": {
+    "markets": 137,
+    "api_buys": 2066,
+    "transactions": 2041,
+    "decoded_fills": 2066,
+    "parents": 986,
+    "shares_units": 96059619427,
+    "cash_units": 47351874451,
+    "fee_units": 218732940,
+    "api_minus_chain_cash_units": 0,
+    "max_transaction_cash_difference_units": 0,
+    "all_receipts_redecoded_and_transfer_reconciled": true,
+    "complete_activity_types": {
+      "TRADE": 2066,
+      "REDEEM": 256,
+      "MERGE": 51
+    },
+    "pre_window_markets": 0,
+    "pre_window_buys": 0,
+    "caveat": "Full API history is not proof of zero initial onchain balance or absence of external transfers; MERGE/REDEEM receipts not independently audited."
+  },
+  "hash64": {
+    "markets": 64,
+    "all_parents": 305,
+    "classified": 262,
+    "excluded": 43,
+    "roles": {
+      "maker": 230,
+      "taker": 30,
+      "maker+taker": 2
+    },
+    "kinds_by_role": {
+      "maker": {
+        "open": 67,
+        "add": 101,
+        "reduce": 48,
+        "reverse": 14
+      },
+      "maker+taker": {
+        "reduce": 2
+      },
+      "taker": {
+        "open": 2,
+        "reduce": 26,
+        "add": 2
+      }
+    },
+    "taker_reductions": 26,
+    "reducing_markets": 22,
+    "floor_cent_share_matches": 14,
+    "near_flat99": 15,
+    "median_closed_fraction": 0.9992098740446393,
+    "median_age": 152.0,
+    "age_range": [
+      24,
+      286
+    ],
+    "median_cash_price": 0.5772408994987128,
+    "by_day": {
+      "2026-09-13": 5,
+      "2026-09-14": 2,
+      "2026-09-15": 7,
+      "2026-09-16": 1,
+      "2026-09-17": 3,
+      "2026-09-18": 1,
+      "2026-09-19": 3,
+      "2026-09-20": 4
+    },
+    "local_deltas_sum_not_a_policy_pnl": 214.7677,
+    "taker_ambiguity": [
+      {
+        "S": 1789259700,
+        "ts": 1789259953,
+        "age": 253,
+        "parent": "0xd65f629f0ccd22320903d32b7e8bca8bc58157d2849c226ec1283ec60acadc2b",
+        "roles": [
+          "taker"
+        ],
+        "possible_kinds": [
+          "reduce"
+        ],
+        "before_units": 244050159,
+        "tx": [
+          "0x96be6e135e1c6f73c65b4f8790db5880f46b14824d29900749444be71add8733"
+        ]
+      },
+      {
+        "S": 1789328700,
+        "ts": 1789328886,
+        "age": 186,
+        "parent": "0x242e3ce476cd5c8ac31bc761f3db762477016bd4b86221ce570f105ecfc64cb6",
+        "roles": [
+          "taker"
+        ],
+        "possible_kinds": [
+          "reduce"
+        ],
+        "before_units": -220272728,
+        "tx": [
+          "0x0d023b8e0ed2b1a0bbd509fea9f955c4e46a4c0380448cee40dfe4e70f4f4d40"
+        ]
+      },
+      {
+        "S": 1789438800,
+        "ts": 1789438984,
+        "age": 184,
+        "parent": "0x424cab6a8830b4f0c07bea50cb6eaa5f75ec83e11f9a7dbe14460be906f96ab3",
+        "roles": [
+          "taker"
+        ],
+        "possible_kinds": [
+          "reduce",
+          "reverse"
+        ],
+        "before_units": 148000000,
+        "tx": [
+          "0x3db7d4f0bf3078a8d32eeaf84b186eec13ced5dd8d4cabce65b0f5bc5f1bcbc8"
+        ]
+      },
+      {
+        "S": 1789590600,
+        "ts": 1789590873,
+        "age": 273,
+        "parent": "0xa4e8c364516caa39b29663f78e9d7dfed40258089512d130635a9c9c439ca4c9",
+        "roles": [
+          "taker"
+        ],
+        "possible_kinds": [
+          "reduce"
+        ],
+        "before_units": 239364762,
+        "tx": [
+          "0xb2a65338ce211e014d68795e11888b02c3b38c8cfd066b7fb2c828641d78f159"
+        ]
+      },
+      {
+        "S": 1789634700,
+        "ts": 1789635003,
+        "age": 303,
+        "parent": "0xc99ee4c4254cca205b9d6df4a389334a17911bd784fd036e5c1a92dd6f4ad593",
+        "roles": [
+          "taker"
+        ],
+        "possible_kinds": [],
+        "before_units": -867525021,
+        "tx": [
+          "0x18d53ff8eeed93a7dc5c8c731616d0139107f8b049ca308f7659df3f8c6ea4fd"
+        ]
+      },
+      {
+        "S": 1789676400,
+        "ts": 1789676472,
+        "age": 72,
+        "parent": "0x07171fc71ff57dfe0e44863255569f166cd91de28ee248dfb45df2bce1d679b0",
+        "roles": [
+          "taker"
+        ],
+        "possible_kinds": [
+          "reduce"
+        ],
+        "before_units": 172741084,
+        "tx": [
+          "0xd0db5f81d3d40237214c703c3b32647fb71a8fc4a2ed3435a0da2f8e91304730"
+        ]
+      },
+      {
+        "S": 1789775400,
+        "ts": 1789775662,
+        "age": 262,
+        "parent": "0x45bb1e0b535b757d65750edfd989dbb0cbba3d694b4f44055ba54c1f0d178806",
+        "roles": [
+          "taker"
+        ],
+        "possible_kinds": [
+          "reduce"
+        ],
+        "before_units": -412918740,
+        "tx": [
+          "0x654a2ad9b56843628882d96c35b51947d5aa3a508e096f5936d3e188f42fe248"
+        ]
+      },
+      {
+        "S": 1789917000,
+        "ts": 1789917198,
+        "age": 198,
+        "parent": "0xc33339087bfbb200bf126a1dfc8cb26e30ed3aa3cae5e0d24b09bcecb43b299a",
+        "roles": [
+          "taker"
+        ],
+        "possible_kinds": [
+          "reduce"
+        ],
+        "before_units": 236007895,
+        "tx": [
+          "0x136d7b5a843137e682dc9f3e4f74772cd450b3d10e979b8603672e5555a672de"
+        ]
+      }
+    ],
+    "first_reduction_status": {
+      "valid": 32,
+      "no_reduction": 23,
+      "ambiguous_first_reduction_multiple_parents": 7,
+      "ambiguous_first_reduction_both_sides": 1,
+      "ambiguous_overshoot_allocation": 1
+    }
+  },
+  "first15_economics": {
+    "n": 15,
+    "total_delta": 273.91252000000003,
+    "ex_top3": -9.578359999999996,
+    "normalized_five_sum": 9.86987225666686,
+    "by_day": {
+      "2026-09-13": 44.301640000000006,
+      "2026-09-14": -11.568720000000003,
+      "2026-09-15": 145.31935000000001,
+      "2026-09-17": 50.09281,
+      "2026-09-18": 28.64251,
+      "2026-09-19": -6.15712,
+      "2026-09-20": 23.282050000000005
+    },
+    "day_bootstrap95_sum": [
+      55.79363,
+      555.89701
+    ],
+    "leave_one_day_out": {
+      "2026-09-13": 229.61088,
+      "2026-09-14": 285.48124,
+      "2026-09-15": 128.59317000000001,
+      "2026-09-17": 223.81971000000004,
+      "2026-09-18": 245.27001,
+      "2026-09-19": 280.06964000000005,
+      "2026-09-20": 250.63047000000003
+    },
+    "positive": 10,
+    "negative": 5
+  },
+  "first55_economics": {
+    "n": 55,
+    "total_delta": 165.37045216,
+    "ex_top3": -153.78977784,
+    "normalized_five_sum": 4.693335928833196,
+    "by_day": {
+      "2026-09-13": -9.232904999999988,
+      "2026-09-14": -102.55332,
+      "2026-09-15": 66.825204,
+      "2026-09-16": 0.0,
+      "2026-09-17": 25.367477,
+      "2026-09-18": 70.76771,
+      "2026-09-19": -9.244274840000001,
+      "2026-09-20": 123.44056100000002
+    },
+    "day_bootstrap95_sum": [
+      -204.63447584,
+      508.891539
+    ],
+    "leave_one_day_out": {
+      "2026-09-13": 174.60335716,
+      "2026-09-14": 267.92377216,
+      "2026-09-15": 98.54524816000001,
+      "2026-09-16": 165.37045216,
+      "2026-09-17": 140.00297516,
+      "2026-09-18": 94.60274216000002,
+      "2026-09-19": 174.61472700000002,
+      "2026-09-20": 41.92989116
+    },
+    "positive": 17,
+    "negative": 15
+  }
+}

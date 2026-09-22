@@ -1,0 +1,15 @@
+{
+  "at_ms": 1790081514590,
+  "source_sha": "a5cd853493a6f01ab395495574150bf31c6dec7201783dfb563e98a6e2fa3ca7",
+  "previous_source_sha": "25fca69d4ad75a3a28db9f62903f4c300a8adafdc7e923bc942f87eb6699d64c",
+  "protected_hashes": {
+    "RUN_G.json": "77d91d7cb38a1eb7049742f21121dee660b5160fec578e813006d234ec0484f8",
+    "BUDGET_G.json": "16c6ad83210baabde2f272939202e995ca682cd62e168fba435311b7b4402162",
+    "STATE_g.json": "897abf3cd31a67d83adb95cc1463a9241c5baab6e45ef400baf9d43454c36606",
+    "protocol.json": "7a623d76593e352021a02f4a1b0a0cd55de7db5d0e1c5543c2fe5fe27f4aa52d",
+    "g_policy.py": "fbac759df25cecf10ea01bbf9db9da5e07dd90f3b33e844125c51e434eaf2f61"
+  },
+  "protected_unchanged": true,
+  "financial_action": false,
+  "writers": []
+}

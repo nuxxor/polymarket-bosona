@@ -1,0 +1,16 @@
+{
+  "experiment": "G4",
+  "loss_limit": 100,
+  "clip": 5,
+  "net_limit": 10,
+  "package_sha256": "183be329abf93b5a287e0ef49293846457e126f30492216475142cc6471edb85",
+  "base_sha256": "f1f175671b6f2268f7359732b0e4fd8dfa392cc5262b13406e5fa6af64242a70",
+  "candidate_sha256": "0fd30f9faee281d59ca57597005391579b0debbf5ff131ea66ee5a2bb9182ee1",
+  "policy_sha256": "4ac8154046898e3e6ce4f5d594e78d30c19e9c9465635073cb72f84341b9fec5",
+  "status": "PREPARATION_NOT_LIVE",
+  "hypothesis": "Separate clip and net capacity; observed actor adds motivate mechanism, not the chosen size or independent profitable timing.",
+  "source_evidence": [
+    "docs/BOSONA_G2_NEXT_REVIEW_ULTRA_20260922.md:120",
+    "data/analysis/g1_selective_exit_20260922/results.json"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PUBLICATION_CHECKS_PASS",
+  "base_commit": "0e025c7a31a6d5abb75581902ab0001c3c0668b6",
+  "checks": {
+    "g4_real_paths_and_budget_transition": "PASS",
+    "g4_regression_scripts": 6,
+    "g3_operator_scenarios": 10,
+    "g3_frozen_monitor_rows": 4320,
+    "g3_frozen_quote_decisions": 467,
+    "ultra_context_events": 390,
+    "ultra_quote_checks": 278,
+    "ultra_economic_probes": 118,
+    "release_hashes": 16,
+    "python_compile": 62,
+    "ruff_F_E9": "PASS",
+    "launcher_syntax": "PASS",
+    "new_secret_findings": 0,
+    "known_unchanged_prose_false_positive": "plan.md:476, generic-api-key, same SHA as prior publication",
+    "diff_check": "PASS except six unchanged historical-source trailing spaces and four valid unified-patch blank context markers; exact bytes preserved"
+  },
+  "runtime_snapshot": {
+    "utc": "2026-09-22T16:54:41Z",
+    "source_sha256": "0fd30f9faee281d59ca57597005391579b0debbf5ff131ea66ee5a2bb9182ee1",
+    "manifest_verified": true,
+    "budget_id": "9e510ca7460ed5970db5",
+    "loss_limit": 100,
+    "recorders_healthy": true,
+    "live_writers": 1
+  },
+  "canonical_source": "lanes/g_continuous/bot",
+  "financial_actions": 0,
+  "deployment": false,
+  "excluded": [
+    "Credentials and raw private WebSocket messages",
+    "G3_capture.jsonl.gz containing raw private messages",
+    "Large external tape/SQLite archives",
+    "Incomplete Fable scratch outputs"
+  ],
+  "limitations": [
+    "Runtime evidence is a dated snapshot, not a promise of continued health",
+    "No G4 profitability or causal superiority established",
+    "G3 probe and full historical extraction require excluded local inputs",
+    "Secret scan covers selected new content and decompressed packages, not all historical Git commits"
+  ]
+}

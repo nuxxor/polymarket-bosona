@@ -1,0 +1,134 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "fallen",
+      "candidate": false,
+      "flags": 0,
+      "actions": []
+    },
+    {
+      "case": "fallen",
+      "candidate": true,
+      "flags": 1,
+      "actions": [
+        "cancel",
+        "post"
+      ]
+    },
+    {
+      "case": "small_tick",
+      "candidate": true,
+      "flags": 1,
+      "actions": [
+        "cancel",
+        "post"
+      ]
+    },
+    {
+      "case": "reducing",
+      "candidate": true,
+      "flags": 0,
+      "actions": []
+    },
+    {
+      "case": "unchanged",
+      "candidate": true,
+      "flags": 0,
+      "actions": []
+    },
+    {
+      "case": "rising",
+      "candidate": true,
+      "flags": 0,
+      "actions": []
+    },
+    {
+      "case": "stale",
+      "candidate": true,
+      "flags": 0,
+      "actions": [
+        "cancel"
+      ]
+    },
+    {
+      "case": "gate",
+      "candidate": true,
+      "flags": 0,
+      "actions": [
+        "cancel"
+      ]
+    },
+    {
+      "case": "budget",
+      "candidate": true,
+      "flags": 0,
+      "actions": [
+        "cancel"
+      ]
+    },
+    {
+      "case": "cancel_pending",
+      "candidate": true,
+      "flags": 1,
+      "actions": [
+        "cancel"
+      ]
+    },
+    {
+      "case": "cancel_fill",
+      "candidate": true,
+      "flags": 1,
+      "actions": [
+        "cancel"
+      ]
+    },
+    {
+      "case": "control",
+      "candidate": true,
+      "flags": 0,
+      "actions": []
+    },
+    {
+      "case": "logging_error",
+      "candidate": true,
+      "flags": 0,
+      "actions": []
+    },
+    {
+      "case": "cancel_filled",
+      "candidate": true,
+      "flags": 1,
+      "actions": [
+        "cancel"
+      ]
+    },
+    {
+      "case": "opposite_uncertain",
+      "candidate": true,
+      "flags": 0,
+      "actions": []
+    },
+    {
+      "case": "partial_existing",
+      "candidate": true,
+      "flags": 1,
+      "actions": [
+        "cancel"
+      ]
+    }
+  ],
+  "regressions": {
+    "test_transport.py": 0,
+    "test_identity.py": 0,
+    "test_g.py": 0,
+    "test_g_pilot.py": 0,
+    "test_continuous.py": 0,
+    "test_g_stream.py": 0
+  },
+  "ruff_F_E9": "PASS",
+  "syntax": "PASS",
+  "base_sha256": "a5cd853493a6f01ab395495574150bf31c6dec7201783dfb563e98a6e2fa3ca7",
+  "candidate_sha256": "f1f175671b6f2268f7359732b0e4fd8dfa392cc5262b13406e5fa6af64242a70",
+  "live_actions": 0
+}

@@ -1,0 +1,30 @@
+{
+  "ast_pass": [
+    "recompute.py",
+    "markouts.py",
+    "safe_run.py"
+  ],
+  "ruff_command": "python -m ruff check --no-cache --select F,E9 recompute.py markouts.py safe_run.py",
+  "ruff": "PASS",
+  "isolated_tests": [
+    "test_identity.py",
+    "test_g.py",
+    "test_g_stream.py"
+  ],
+  "byte_identical_repeat": {
+    "results.json": "4661064990b677ff00967d488982035bc084d294621a0c073b9507ba184cc367",
+    "markouts.json": "1bbf4ee1aa9852a53d51a749b5dfd227365303a36d84df77f0799605de89fc0d"
+  },
+  "source_hashes": {
+    "recompute.py": "7adfc3d73e3318b8e0cb2b0d569f76e847dd1c2a8c2861ecbe80d33815506b46",
+    "markouts.py": "66318b7ef677d52adfe8fe0c6be9af7d38fc971855aac8275bcc771135e365cc",
+    "safe_run.py": "c5aa9539a824546ceae5791076c495e02da797d9dc2f93989511e4a4891b253b"
+  },
+  "head": "01ea1dc6be98a8cbc57b796dc066c4e6a8404cc1",
+  "buffer_probe": {
+    "ast": "PASS",
+    "ruff_F_E9": "PASS",
+    "byte_identical_repeat": "ab4da72441012e4446c9f4aa8f8f2723f526eb86538188ccebf5df4bc903a3a7",
+    "source_sha256": "5ea9751224a3d11cc9581e80f1bdd1e7e549ef5e1c6d81ae32a0bc2746328a12"
+  }
+}

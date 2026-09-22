@@ -1,0 +1,2747 @@
+{
+  "signs": {
+    "lag5": {
+      "maker_open": {
+        "held_bid_change10": {
+          "available": 1,
+          "negative": 0,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 1
+        },
+        "held_bid_change30": {
+          "available": 1,
+          "negative": 0,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 1
+        },
+        "held_spot_minus_ref": {
+          "available": 1,
+          "negative": 1,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 1
+        },
+        "held_twap60_minus_ref": {
+          "available": 1,
+          "negative": 1,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 1
+        }
+      },
+      "maker_add": {
+        "held_bid_change10": {
+          "available": 66,
+          "negative": 37,
+          "stable_available": 58,
+          "stable_negative": 31,
+          "days": 7
+        },
+        "held_bid_change30": {
+          "available": 64,
+          "negative": 36,
+          "stable_available": 57,
+          "stable_negative": 32,
+          "days": 7
+        },
+        "held_spot_minus_ref": {
+          "available": 68,
+          "negative": 45,
+          "stable_available": 60,
+          "stable_negative": 39,
+          "days": 7
+        },
+        "held_twap60_minus_ref": {
+          "available": 68,
+          "negative": 31,
+          "stable_available": 60,
+          "stable_negative": 28,
+          "days": 7
+        }
+      },
+      "maker_reduce": {
+        "held_bid_change10": {
+          "available": 28,
+          "negative": 12,
+          "stable_available": 23,
+          "stable_negative": 10,
+          "days": 7
+        },
+        "held_bid_change30": {
+          "available": 26,
+          "negative": 12,
+          "stable_available": 21,
+          "stable_negative": 9,
+          "days": 7
+        },
+        "held_spot_minus_ref": {
+          "available": 28,
+          "negative": 11,
+          "stable_available": 23,
+          "stable_negative": 9,
+          "days": 7
+        },
+        "held_twap60_minus_ref": {
+          "available": 28,
+          "negative": 11,
+          "stable_available": 23,
+          "stable_negative": 8,
+          "days": 7
+        }
+      },
+      "taker_open": {
+        "held_bid_change10": {
+          "available": 0,
+          "negative": 0,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 0
+        },
+        "held_bid_change30": {
+          "available": 0,
+          "negative": 0,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 0
+        },
+        "held_spot_minus_ref": {
+          "available": 0,
+          "negative": 0,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 0
+        },
+        "held_twap60_minus_ref": {
+          "available": 0,
+          "negative": 0,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 0
+        }
+      },
+      "maker+taker_reduce": {
+        "held_bid_change10": {
+          "available": 0,
+          "negative": 0,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 0
+        },
+        "held_bid_change30": {
+          "available": 0,
+          "negative": 0,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 0
+        },
+        "held_spot_minus_ref": {
+          "available": 0,
+          "negative": 0,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 0
+        },
+        "held_twap60_minus_ref": {
+          "available": 0,
+          "negative": 0,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 0
+        }
+      },
+      "maker_reverse": {
+        "held_bid_change10": {
+          "available": 9,
+          "negative": 1,
+          "stable_available": 8,
+          "stable_negative": 1,
+          "days": 4
+        },
+        "held_bid_change30": {
+          "available": 9,
+          "negative": 2,
+          "stable_available": 8,
+          "stable_negative": 2,
+          "days": 4
+        },
+        "held_spot_minus_ref": {
+          "available": 8,
+          "negative": 0,
+          "stable_available": 8,
+          "stable_negative": 0,
+          "days": 4
+        },
+        "held_twap60_minus_ref": {
+          "available": 8,
+          "negative": 3,
+          "stable_available": 8,
+          "stable_negative": 3,
+          "days": 4
+        }
+      },
+      "taker_reduce": {
+        "held_bid_change10": {
+          "available": 19,
+          "negative": 13,
+          "stable_available": 16,
+          "stable_negative": 10,
+          "days": 6
+        },
+        "held_bid_change30": {
+          "available": 19,
+          "negative": 14,
+          "stable_available": 16,
+          "stable_negative": 11,
+          "days": 6
+        },
+        "held_spot_minus_ref": {
+          "available": 19,
+          "negative": 11,
+          "stable_available": 16,
+          "stable_negative": 8,
+          "days": 6
+        },
+        "held_twap60_minus_ref": {
+          "available": 19,
+          "negative": 8,
+          "stable_available": 16,
+          "stable_negative": 7,
+          "days": 6
+        }
+      },
+      "taker_add": {
+        "held_bid_change10": {
+          "available": 2,
+          "negative": 0,
+          "stable_available": 2,
+          "stable_negative": 0,
+          "days": 2
+        },
+        "held_bid_change30": {
+          "available": 2,
+          "negative": 1,
+          "stable_available": 2,
+          "stable_negative": 1,
+          "days": 2
+        },
+        "held_spot_minus_ref": {
+          "available": 2,
+          "negative": 0,
+          "stable_available": 2,
+          "stable_negative": 0,
+          "days": 2
+        },
+        "held_twap60_minus_ref": {
+          "available": 2,
+          "negative": 1,
+          "stable_available": 2,
+          "stable_negative": 1,
+          "days": 2
+        }
+      },
+      "other_fixed_controls": {
+        "held_bid_change10": {
+          "available": 48,
+          "negative": 19,
+          "stable_available": 44,
+          "stable_negative": 16,
+          "days": 7
+        },
+        "held_bid_change30": {
+          "available": 47,
+          "negative": 27,
+          "stable_available": 43,
+          "stable_negative": 23,
+          "days": 7
+        },
+        "held_spot_minus_ref": {
+          "available": 52,
+          "negative": 31,
+          "stable_available": 48,
+          "stable_negative": 28,
+          "days": 7
+        },
+        "held_twap60_minus_ref": {
+          "available": 52,
+          "negative": 30,
+          "stable_available": 48,
+          "stable_negative": 27,
+          "days": 7
+        }
+      },
+      "no_reducing_fill_controls": {
+        "held_bid_change10": {
+          "available": 22,
+          "negative": 9,
+          "stable_available": 22,
+          "stable_negative": 9,
+          "days": 7
+        },
+        "held_bid_change30": {
+          "available": 22,
+          "negative": 11,
+          "stable_available": 22,
+          "stable_negative": 11,
+          "days": 7
+        },
+        "held_spot_minus_ref": {
+          "available": 29,
+          "negative": 21,
+          "stable_available": 29,
+          "stable_negative": 21,
+          "days": 6
+        },
+        "held_twap60_minus_ref": {
+          "available": 29,
+          "negative": 19,
+          "stable_available": 29,
+          "stable_negative": 19,
+          "days": 6
+        }
+      }
+    },
+    "lag10": {
+      "maker_open": {
+        "held_bid_change10": {
+          "available": 1,
+          "negative": 1,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 1
+        },
+        "held_bid_change30": {
+          "available": 1,
+          "negative": 0,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 1
+        },
+        "held_spot_minus_ref": {
+          "available": 1,
+          "negative": 1,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 1
+        },
+        "held_twap60_minus_ref": {
+          "available": 1,
+          "negative": 1,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 1
+        }
+      },
+      "maker_add": {
+        "held_bid_change10": {
+          "available": 65,
+          "negative": 37,
+          "stable_available": 50,
+          "stable_negative": 30,
+          "days": 7
+        },
+        "held_bid_change30": {
+          "available": 63,
+          "negative": 38,
+          "stable_available": 49,
+          "stable_negative": 28,
+          "days": 7
+        },
+        "held_spot_minus_ref": {
+          "available": 66,
+          "negative": 41,
+          "stable_available": 51,
+          "stable_negative": 32,
+          "days": 7
+        },
+        "held_twap60_minus_ref": {
+          "available": 66,
+          "negative": 32,
+          "stable_available": 51,
+          "stable_negative": 26,
+          "days": 7
+        }
+      },
+      "maker_reduce": {
+        "held_bid_change10": {
+          "available": 26,
+          "negative": 13,
+          "stable_available": 14,
+          "stable_negative": 8,
+          "days": 7
+        },
+        "held_bid_change30": {
+          "available": 26,
+          "negative": 11,
+          "stable_available": 15,
+          "stable_negative": 6,
+          "days": 7
+        },
+        "held_spot_minus_ref": {
+          "available": 27,
+          "negative": 15,
+          "stable_available": 15,
+          "stable_negative": 9,
+          "days": 7
+        },
+        "held_twap60_minus_ref": {
+          "available": 27,
+          "negative": 13,
+          "stable_available": 15,
+          "stable_negative": 6,
+          "days": 7
+        }
+      },
+      "taker_open": {
+        "held_bid_change10": {
+          "available": 1,
+          "negative": 1,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 1
+        },
+        "held_bid_change30": {
+          "available": 1,
+          "negative": 1,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 1
+        },
+        "held_spot_minus_ref": {
+          "available": 1,
+          "negative": 1,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 1
+        },
+        "held_twap60_minus_ref": {
+          "available": 1,
+          "negative": 0,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 1
+        }
+      },
+      "maker+taker_reduce": {
+        "held_bid_change10": {
+          "available": 0,
+          "negative": 0,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 0
+        },
+        "held_bid_change30": {
+          "available": 0,
+          "negative": 0,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 0
+        },
+        "held_spot_minus_ref": {
+          "available": 0,
+          "negative": 0,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 0
+        },
+        "held_twap60_minus_ref": {
+          "available": 0,
+          "negative": 0,
+          "stable_available": 0,
+          "stable_negative": 0,
+          "days": 0
+        }
+      },
+      "maker_reverse": {
+        "held_bid_change10": {
+          "available": 9,
+          "negative": 4,
+          "stable_available": 6,
+          "stable_negative": 3,
+          "days": 4
+        },
+        "held_bid_change30": {
+          "available": 9,
+          "negative": 2,
+          "stable_available": 6,
+          "stable_negative": 1,
+          "days": 4
+        },
+        "held_spot_minus_ref": {
+          "available": 9,
+          "negative": 2,
+          "stable_available": 6,
+          "stable_negative": 1,
+          "days": 4
+        },
+        "held_twap60_minus_ref": {
+          "available": 9,
+          "negative": 3,
+          "stable_available": 6,
+          "stable_negative": 1,
+          "days": 4
+        }
+      },
+      "taker_reduce": {
+        "held_bid_change10": {
+          "available": 19,
+          "negative": 11,
+          "stable_available": 14,
+          "stable_negative": 8,
+          "days": 6
+        },
+        "held_bid_change30": {
+          "available": 19,
+          "negative": 12,
+          "stable_available": 14,
+          "stable_negative": 9,
+          "days": 6
+        },
+        "held_spot_minus_ref": {
+          "available": 19,
+          "negative": 12,
+          "stable_available": 14,
+          "stable_negative": 8,
+          "days": 6
+        },
+        "held_twap60_minus_ref": {
+          "available": 19,
+          "negative": 8,
+          "stable_available": 14,
+          "stable_negative": 5,
+          "days": 6
+        }
+      },
+      "taker_add": {
+        "held_bid_change10": {
+          "available": 2,
+          "negative": 0,
+          "stable_available": 1,
+          "stable_negative": 0,
+          "days": 2
+        },
+        "held_bid_change30": {
+          "available": 2,
+          "negative": 1,
+          "stable_available": 1,
+          "stable_negative": 0,
+          "days": 2
+        },
+        "held_spot_minus_ref": {
+          "available": 2,
+          "negative": 2,
+          "stable_available": 1,
+          "stable_negative": 1,
+          "days": 2
+        },
+        "held_twap60_minus_ref": {
+          "available": 2,
+          "negative": 1,
+          "stable_available": 1,
+          "stable_negative": 1,
+          "days": 2
+        }
+      },
+      "other_fixed_controls": {
+        "held_bid_change10": {
+          "available": 50,
+          "negative": 29,
+          "stable_available": 41,
+          "stable_negative": 22,
+          "days": 7
+        },
+        "held_bid_change30": {
+          "available": 49,
+          "negative": 28,
+          "stable_available": 40,
+          "stable_negative": 22,
+          "days": 7
+        },
+        "held_spot_minus_ref": {
+          "available": 52,
+          "negative": 32,
+          "stable_available": 43,
+          "stable_negative": 28,
+          "days": 7
+        },
+        "held_twap60_minus_ref": {
+          "available": 52,
+          "negative": 28,
+          "stable_available": 43,
+          "stable_negative": 25,
+          "days": 7
+        }
+      },
+      "no_reducing_fill_controls": {
+        "held_bid_change10": {
+          "available": 21,
+          "negative": 9,
+          "stable_available": 21,
+          "stable_negative": 9,
+          "days": 7
+        },
+        "held_bid_change30": {
+          "available": 21,
+          "negative": 12,
+          "stable_available": 21,
+          "stable_negative": 12,
+          "days": 7
+        },
+        "held_spot_minus_ref": {
+          "available": 28,
+          "negative": 20,
+          "stable_available": 28,
+          "stable_negative": 20,
+          "days": 6
+        },
+        "held_twap60_minus_ref": {
+          "available": 28,
+          "negative": 18,
+          "stable_available": 28,
+          "stable_negative": 18,
+          "days": 6
+        }
+      }
+    }
+  },
+  "inventory": {
+    "maker_open": {
+      "n": 67,
+      "net_min": 0.0,
+      "net_median": 0.0,
+      "net_max": 0.0,
+      "age_median": 63,
+      "at_or_after240": 1,
+      "before10millishares": 67
+    },
+    "maker_add": {
+      "n": 101,
+      "net_min": 0.001821,
+      "net_median": 99.991819,
+      "net_max": 753.731921,
+      "age_median": 175,
+      "at_or_after240": 17,
+      "before10millishares": 3
+    },
+    "maker_reduce": {
+      "n": 48,
+      "net_min": 5.817178,
+      "net_median": 148.0,
+      "net_max": 675.470163,
+      "age_median": 234.5,
+      "at_or_after240": 22,
+      "before10millishares": 0
+    },
+    "taker_open": {
+      "n": 2,
+      "net_min": 0.0,
+      "net_median": 0.0,
+      "net_max": 0.0,
+      "age_median": 90.5,
+      "at_or_after240": 0,
+      "before10millishares": 2
+    },
+    "maker+taker_reduce": {
+      "n": 2,
+      "net_min": 106.058523,
+      "net_median": 263.057834,
+      "net_max": 420.057145,
+      "age_median": 159.0,
+      "at_or_after240": 0,
+      "before10millishares": 0
+    },
+    "maker_reverse": {
+      "n": 14,
+      "net_min": 0.001636,
+      "net_median": 0.009052000000000001,
+      "net_max": 83.065566,
+      "age_median": 222.0,
+      "at_or_after240": 5,
+      "before10millishares": 8
+    },
+    "taker_reduce": {
+      "n": 26,
+      "net_min": 5.341466,
+      "net_median": 124.56649999999999,
+      "net_max": 508.49874,
+      "age_median": 152.0,
+      "at_or_after240": 4,
+      "before10millishares": 0
+    },
+    "taker_add": {
+      "n": 2,
+      "net_min": 97.190198,
+      "net_median": 351.46105950000003,
+      "net_max": 605.731921,
+      "age_median": 251.0,
+      "at_or_after240": 1,
+      "before10millishares": 0
+    },
+    "other_fixed_controls": {
+      "n": 82,
+      "net_min": 0.0,
+      "net_median": 113.8853115,
+      "net_max": 770.283978,
+      "age_median": 180.0,
+      "at_or_after240": 41,
+      "before10millishares": 18
+    },
+    "no_reducing_fill_controls": {
+      "n": 46,
+      "net_min": 0.0,
+      "net_median": 148.0,
+      "net_max": 513.0,
+      "age_median": 180.0,
+      "at_or_after240": 23,
+      "before10millishares": 7
+    }
+  },
+  "fixed_probe_economics": {
+    "lag5_nominal120": {
+      "total_probes": 64,
+      "five_share_quote_available": 30,
+      "all_close": {
+        "n": 30,
+        "markets": 30,
+        "days": {
+          "2026-09-13": 0.5446899999999992,
+          "2026-09-14": -2.9673499999999997,
+          "2026-09-15": -11.501,
+          "2026-09-16": -1.5900500000000006,
+          "2026-09-17": 1.1744000000000003,
+          "2026-09-18": 2.291870000000001,
+          "2026-09-20": 5.23164
+        },
+        "delta": -6.815799999999999,
+        "ex_top3": -16.80264,
+        "positive": 16,
+        "day_bootstrap95": [
+          -35.41881,
+          15.981089999999998
+        ],
+        "leave_one_day_out": {
+          "2026-09-13": -7.360489999999999,
+          "2026-09-14": -3.8484499999999997,
+          "2026-09-15": 4.6852,
+          "2026-09-16": -5.225749999999999,
+          "2026-09-17": -7.9902,
+          "2026-09-18": -9.10767,
+          "2026-09-20": -12.047439999999998
+        }
+      },
+      "bid_falling": {
+        "n": 12,
+        "markets": 12,
+        "days": {
+          "2026-09-13": 0.9881899999999999,
+          "2026-09-14": 1.3294400000000004,
+          "2026-09-15": -8.22036,
+          "2026-09-16": 2.5138100000000003,
+          "2026-09-18": 1.6013000000000002,
+          "2026-09-20": -0.41181000000000045
+        },
+        "delta": -2.1994299999999996,
+        "ex_top3": -9.10866,
+        "positive": 7,
+        "day_bootstrap95": [
+          -22.142149999999997,
+          10.54785
+        ],
+        "leave_one_day_out": {
+          "2026-09-13": -3.187619999999999,
+          "2026-09-14": -3.5288699999999995,
+          "2026-09-15": 6.02093,
+          "2026-09-16": -4.713239999999999,
+          "2026-09-18": -3.8007299999999993,
+          "2026-09-20": -1.7876199999999987
+        }
+      },
+      "spot_against": {
+        "n": 19,
+        "markets": 19,
+        "days": {
+          "2026-09-13": 1.2326599999999996,
+          "2026-09-14": -2.9673499999999997,
+          "2026-09-15": -10.133659999999999,
+          "2026-09-16": -1.5900500000000006,
+          "2026-09-17": 2.0737900000000007,
+          "2026-09-18": 3.3478700000000012,
+          "2026-09-20": -3.37854
+        },
+        "delta": -11.41528,
+        "ex_top3": -16.3868,
+        "positive": 12,
+        "day_bootstrap95": [
+          -34.98905,
+          8.381470000000004
+        ],
+        "leave_one_day_out": {
+          "2026-09-13": -12.647939999999997,
+          "2026-09-14": -8.447929999999998,
+          "2026-09-15": -1.2816199999999984,
+          "2026-09-16": -9.825229999999998,
+          "2026-09-17": -13.489069999999998,
+          "2026-09-18": -14.76315,
+          "2026-09-20": -8.036739999999998
+        }
+      }
+    },
+    "lag5_nominal240": {
+      "total_probes": 64,
+      "five_share_quote_available": 28,
+      "all_close": {
+        "n": 28,
+        "markets": 28,
+        "days": {
+          "2026-09-13": -2.9796000000000005,
+          "2026-09-14": -1.037650000000001,
+          "2026-09-15": -4.44741,
+          "2026-09-16": -4.486869999999999,
+          "2026-09-17": -1.02202,
+          "2026-09-18": 0.6078999999999999,
+          "2026-09-20": 4.89146
+        },
+        "delta": -8.47419,
+        "ex_top3": -13.47259,
+        "positive": 17,
+        "day_bootstrap95": [
+          -22.962919999999997,
+          8.735740000000002
+        ],
+        "leave_one_day_out": {
+          "2026-09-13": -5.49459,
+          "2026-09-14": -7.436539999999999,
+          "2026-09-15": -4.0267800000000005,
+          "2026-09-16": -3.9873200000000013,
+          "2026-09-17": -7.452170000000001,
+          "2026-09-18": -9.08209,
+          "2026-09-20": -13.36565
+        }
+      },
+      "bid_falling": {
+        "n": 13,
+        "markets": 13,
+        "days": {
+          "2026-09-13": 0.5144799999999998,
+          "2026-09-14": -0.5612599999999999,
+          "2026-09-15": 0.13981000000000066,
+          "2026-09-16": 0.37332000000000054,
+          "2026-09-17": 0.7053700000000003,
+          "2026-09-18": 0.6078999999999999,
+          "2026-09-20": 3.6689599999999998
+        },
+        "delta": 5.4485800000000015,
+        "ex_top3": 1.074250000000001,
+        "positive": 12,
+        "day_bootstrap95": [
+          0.27813000000000265,
+          12.8759
+        ],
+        "leave_one_day_out": {
+          "2026-09-13": 4.934100000000002,
+          "2026-09-14": 6.009840000000001,
+          "2026-09-15": 5.308770000000001,
+          "2026-09-16": 5.075260000000001,
+          "2026-09-17": 4.743210000000001,
+          "2026-09-18": 4.840680000000002,
+          "2026-09-20": 1.7796200000000018
+        }
+      },
+      "spot_against": {
+        "n": 19,
+        "markets": 19,
+        "days": {
+          "2026-09-13": -2.76616,
+          "2026-09-14": 1.0283799999999994,
+          "2026-09-15": -4.0746199999999995,
+          "2026-09-16": -4.486869999999999,
+          "2026-09-17": 0.7053700000000003,
+          "2026-09-18": 0.6078999999999999,
+          "2026-09-20": 2.0824000000000003
+        },
+        "delta": -6.903599999999999,
+        "ex_top3": -9.69137,
+        "positive": 16,
+        "day_bootstrap95": [
+          -20.296579999999995,
+          5.614209999999998
+        ],
+        "leave_one_day_out": {
+          "2026-09-13": -4.137439999999999,
+          "2026-09-14": -7.9319799999999985,
+          "2026-09-15": -2.8289799999999996,
+          "2026-09-16": -2.4167300000000003,
+          "2026-09-17": -7.608969999999999,
+          "2026-09-18": -7.511499999999999,
+          "2026-09-20": -8.985999999999999
+        }
+      }
+    },
+    "lag10_nominal120": {
+      "total_probes": 64,
+      "five_share_quote_available": 29,
+      "all_close": {
+        "n": 29,
+        "markets": 29,
+        "days": {
+          "2026-09-13": -2.31413,
+          "2026-09-14": -4.24363,
+          "2026-09-15": -11.006680000000001,
+          "2026-09-16": -1.5895599999999996,
+          "2026-09-17": 1.2207299999999988,
+          "2026-09-18": 2.9537799999999996,
+          "2026-09-20": 4.9711099999999995
+        },
+        "delta": -10.008380000000002,
+        "ex_top3": -19.738750000000003,
+        "positive": 15,
+        "day_bootstrap95": [
+          -37.44301,
+          13.763329999999996
+        ],
+        "leave_one_day_out": {
+          "2026-09-13": -7.694250000000002,
+          "2026-09-14": -5.764750000000003,
+          "2026-09-15": 0.9982999999999986,
+          "2026-09-16": -8.418820000000004,
+          "2026-09-17": -11.229110000000002,
+          "2026-09-18": -12.962160000000003,
+          "2026-09-20": -14.979490000000002
+        }
+      },
+      "bid_falling": {
+        "n": 14,
+        "markets": 14,
+        "days": {
+          "2026-09-13": -0.8435700000000002,
+          "2026-09-14": -3.42739,
+          "2026-09-15": -6.3643,
+          "2026-09-16": -1.5895599999999996,
+          "2026-09-17": 0.3272199999999996,
+          "2026-09-18": 2.36903,
+          "2026-09-20": 2.3001299999999993
+        },
+        "delta": -7.22844,
+        "ex_top3": -14.18764,
+        "positive": 8,
+        "day_bootstrap95": [
+          -22.86008,
+          7.163509999999998
+        ],
+        "leave_one_day_out": {
+          "2026-09-13": -6.384870000000001,
+          "2026-09-14": -3.801050000000001,
+          "2026-09-15": -0.8641400000000008,
+          "2026-09-16": -5.638880000000001,
+          "2026-09-17": -7.5556600000000005,
+          "2026-09-18": -9.597470000000001,
+          "2026-09-20": -9.52857
+        }
+      },
+      "spot_against": {
+        "n": 19,
+        "markets": 19,
+        "days": {
+          "2026-09-13": 1.0880199999999998,
+          "2026-09-14": -4.24363,
+          "2026-09-15": -9.742840000000001,
+          "2026-09-16": -1.5895599999999996,
+          "2026-09-17": 2.120119999999999,
+          "2026-09-18": 4.16577,
+          "2026-09-20": -3.32963
+        },
+        "delta": -11.53175,
+        "ex_top3": -15.86058,
+        "positive": 12,
+        "day_bootstrap95": [
+          -35.30713,
+          9.490639999999997
+        ],
+        "leave_one_day_out": {
+          "2026-09-13": -12.61977,
+          "2026-09-14": -7.288120000000001,
+          "2026-09-15": -1.7889099999999996,
+          "2026-09-16": -9.94219,
+          "2026-09-17": -13.651869999999999,
+          "2026-09-18": -15.69752,
+          "2026-09-20": -8.20212
+        }
+      }
+    },
+    "lag10_nominal240": {
+      "total_probes": 64,
+      "five_share_quote_available": 31,
+      "all_close": {
+        "n": 31,
+        "markets": 31,
+        "days": {
+          "2026-09-13": -0.06412000000000084,
+          "2026-09-14": -0.6644000000000014,
+          "2026-09-15": -7.761560000000001,
+          "2026-09-16": -6.32979,
+          "2026-09-17": -0.38052000000000064,
+          "2026-09-18": 0.8437800000000006,
+          "2026-09-20": 2.2452400000000003
+        },
+        "delta": -12.111370000000003,
+        "ex_top3": -17.452730000000003,
+        "positive": 17,
+        "day_bootstrap95": [
+          -31.555000000000007,
+          4.57544
+        ],
+        "leave_one_day_out": {
+          "2026-09-13": -12.047250000000002,
+          "2026-09-14": -11.44697,
+          "2026-09-15": -4.3498100000000015,
+          "2026-09-16": -5.781580000000003,
+          "2026-09-17": -11.730850000000002,
+          "2026-09-18": -12.955150000000003,
+          "2026-09-20": -14.356610000000003
+        }
+      },
+      "bid_falling": {
+        "n": 18,
+        "markets": 18,
+        "days": {
+          "2026-09-13": 0.46737999999999946,
+          "2026-09-14": 0.842249999999999,
+          "2026-09-15": -4.112190000000001,
+          "2026-09-16": -1.3627400000000005,
+          "2026-09-17": 0.9919399999999996,
+          "2026-09-18": 0.8437800000000006,
+          "2026-09-20": -0.6628399999999997
+        },
+        "delta": -2.9924200000000023,
+        "ex_top3": -6.257310000000002,
+        "positive": 15,
+        "day_bootstrap95": [
+          -13.050990000000002,
+          4.616079999999998
+        ],
+        "leave_one_day_out": {
+          "2026-09-13": -3.4598000000000018,
+          "2026-09-14": -3.8346700000000014,
+          "2026-09-15": 1.1197699999999986,
+          "2026-09-16": -1.6296800000000018,
+          "2026-09-17": -3.984360000000002,
+          "2026-09-18": -3.836200000000003,
+          "2026-09-20": -2.3295800000000026
+        }
+      },
+      "spot_against": {
+        "n": 19,
+        "markets": 19,
+        "days": {
+          "2026-09-13": 0.46737999999999946,
+          "2026-09-14": 0.842249999999999,
+          "2026-09-15": -7.441820000000001,
+          "2026-09-16": -4.3933,
+          "2026-09-17": 1.0384699999999993,
+          "2026-09-18": 0.8437800000000006,
+          "2026-09-20": -1.6547799999999993
+        },
+        "delta": -10.298020000000001,
+        "ex_top3": -13.181380000000003,
+        "positive": 15,
+        "day_bootstrap95": [
+          -27.43878,
+          3.7957500000000004
+        ],
+        "leave_one_day_out": {
+          "2026-09-13": -10.7654,
+          "2026-09-14": -11.140270000000001,
+          "2026-09-15": -2.8562000000000003,
+          "2026-09-16": -5.904720000000001,
+          "2026-09-17": -11.336490000000001,
+          "2026-09-18": -11.141800000000002,
+          "2026-09-20": -8.643240000000002
+        }
+      }
+    }
+  },
+  "five_share_buy_vs_sell": {
+    "lag5": {
+      "n": 19,
+      "near_equal": 19,
+      "min": -9.999999999343867e-06,
+      "max": 4.440892098500626e-16
+    },
+    "lag10": {
+      "n": 19,
+      "near_equal": 19,
+      "min": -9.999999999343867e-06,
+      "max": 4.440892098500626e-16
+    }
+  },
+  "execution_rows": [
+    {
+      "S": 1789309200,
+      "day": "2026-09-13",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789309315000,
+      "execution_ms": 1789309315250,
+      "cash": 1.62487,
+      "fee": 0.07487,
+      "delta": -1.62487,
+      "no_observed_reduction": true,
+      "bid_falling": -0.010000000000000009,
+      "spot_against": 18.493716417709948
+    },
+    {
+      "S": 1789325400,
+      "day": "2026-09-13",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789325515000,
+      "execution_ms": 1789325515250,
+      "cash": 1.67616,
+      "fee": 0.07616,
+      "delta": -1.6761600000000003,
+      "no_observed_reduction": false,
+      "bid_falling": 0.09000000000000008,
+      "spot_against": 4.84590237653174
+    },
+    {
+      "S": 1789328700,
+      "day": "2026-09-13",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789328815000,
+      "execution_ms": 1789328815250,
+      "cash": 2.38694,
+      "fee": 0.08694,
+      "delta": 2.61306,
+      "no_observed_reduction": false,
+      "bid_falling": -0.020000000000000018,
+      "spot_against": 0.37137500212702435
+    },
+    {
+      "S": 1789342800,
+      "day": "2026-09-13",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789342915000,
+      "execution_ms": 1789342915250,
+      "cash": 3.7673400000000004,
+      "fee": 0.06734,
+      "delta": 1.2326599999999996,
+      "no_observed_reduction": false,
+      "bid_falling": 0.010000000000000009,
+      "spot_against": -33.28056772783748
+    },
+    {
+      "S": 1789362300,
+      "day": "2026-09-14",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789362415000,
+      "execution_ms": 1789362415250,
+      "cash": 3.13327,
+      "fee": 0.08327,
+      "delta": -3.13327,
+      "no_observed_reduction": false,
+      "bid_falling": 0.21000000000000002,
+      "spot_against": -10.389620617192122
+    },
+    {
+      "S": 1789382400,
+      "day": "2026-09-14",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789382515000,
+      "execution_ms": 1789382515250,
+      "cash": 3.6705599999999996,
+      "fee": 0.07056,
+      "delta": 1.3294400000000004,
+      "no_observed_reduction": true,
+      "bid_falling": -0.03999999999999998,
+      "spot_against": -15.661185439894325
+    },
+    {
+      "S": 1789384500,
+      "day": "2026-09-14",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789384615000,
+      "execution_ms": 1789384615250,
+      "cash": 2.68736,
+      "fee": 0.08736,
+      "delta": 2.31264,
+      "no_observed_reduction": true,
+      "bid_falling": 0.12,
+      "spot_against": -10.949917554535205
+    },
+    {
+      "S": 1789402800,
+      "day": "2026-09-14",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789402915000,
+      "execution_ms": 1789402915250,
+      "cash": 3.47616,
+      "fee": 0.07616,
+      "delta": -3.47616,
+      "no_observed_reduction": false,
+      "bid_falling": 0.07,
+      "spot_against": -31.793318516763975
+    },
+    {
+      "S": 1789436700,
+      "day": "2026-09-15",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789436815000,
+      "execution_ms": 1789436815250,
+      "cash": 3.1824600000000003,
+      "fee": 0.08246,
+      "delta": -3.1824600000000003,
+      "no_observed_reduction": false,
+      "bid_falling": -0.06,
+      "spot_against": -9.62392352007737
+    },
+    {
+      "S": 1789438800,
+      "day": "2026-09-15",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789438915000,
+      "execution_ms": 1789438915250,
+      "cash": 3.6705599999999996,
+      "fee": 0.07056,
+      "delta": -3.6705599999999996,
+      "no_observed_reduction": false,
+      "bid_falling": -0.07999999999999996,
+      "spot_against": -14.405487246418488
+    },
+    {
+      "S": 1789449300,
+      "day": "2026-09-15",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789449415000,
+      "execution_ms": 1789449415250,
+      "cash": 3.28064,
+      "fee": 0.08064,
+      "delta": -3.28064,
+      "no_observed_reduction": false,
+      "bid_falling": 0.019999999999999962,
+      "spot_against": -19.76830372447148
+    },
+    {
+      "S": 1789472100,
+      "day": "2026-09-15",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789472215000,
+      "execution_ms": 1789472215250,
+      "cash": 1.36734,
+      "fee": 0.06734,
+      "delta": -1.36734,
+      "no_observed_reduction": false,
+      "bid_falling": -0.010000000000000009,
+      "spot_against": 21.288184178149095
+    },
+    {
+      "S": 1789546200,
+      "day": "2026-09-16",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789546315000,
+      "execution_ms": 1789546315250,
+      "cash": 3.81563,
+      "fee": 0.06563,
+      "delta": 1.18437,
+      "no_observed_reduction": false,
+      "bid_falling": -0.020000000000000018,
+      "spot_against": -31.10948106694559
+    },
+    {
+      "S": 1789554900,
+      "day": "2026-09-16",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789555015000,
+      "execution_ms": 1789555015250,
+      "cash": 3.6705599999999996,
+      "fee": 0.07056,
+      "delta": 1.3294400000000004,
+      "no_observed_reduction": false,
+      "bid_falling": -0.020000000000000018,
+      "spot_against": -12.661840149521595
+    },
+    {
+      "S": 1789580400,
+      "day": "2026-09-16",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789580515000,
+      "execution_ms": 1789580515250,
+      "cash": 4.103860000000001,
+      "fee": 0.05386,
+      "delta": -4.103860000000001,
+      "no_observed_reduction": true,
+      "bid_falling": 0.03,
+      "spot_against": -49.67828134247975
+    },
+    {
+      "S": 1789605000,
+      "day": "2026-09-17",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789605115000,
+      "execution_ms": 1789605115250,
+      "cash": 0.8993900000000001,
+      "fee": 0.04939,
+      "delta": -0.8993900000000004,
+      "no_observed_reduction": false,
+      "bid_falling": 0.019999999999999907,
+      "spot_against": 61.13845232439053
+    },
+    {
+      "S": 1789623000,
+      "day": "2026-09-17",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789623115000,
+      "execution_ms": 1789623115250,
+      "cash": 4.389589999999999,
+      "fee": 0.03959,
+      "delta": 0.6104100000000008,
+      "no_observed_reduction": true,
+      "bid_falling": 0.0,
+      "spot_against": -46.010705512424465
+    },
+    {
+      "S": 1789653600,
+      "day": "2026-09-17",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789653715000,
+      "execution_ms": 1789653715250,
+      "cash": 3.8638399999999997,
+      "fee": 0.06384,
+      "delta": 1.1361600000000003,
+      "no_observed_reduction": true,
+      "bid_falling": 0.03999999999999998,
+      "spot_against": -76.15799264592351
+    },
+    {
+      "S": 1789687800,
+      "day": "2026-09-17",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789687915000,
+      "execution_ms": 1789687915250,
+      "cash": 4.67278,
+      "fee": 0.02278,
+      "delta": 0.3272199999999996,
+      "no_observed_reduction": false,
+      "bid_falling": 0.0,
+      "spot_against": -39.850312331851455
+    },
+    {
+      "S": 1789699200,
+      "day": "2026-09-18",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789699315000,
+      "execution_ms": 1789699315250,
+      "cash": 4.389589999999999,
+      "fee": 0.03959,
+      "delta": 0.6104100000000008,
+      "no_observed_reduction": true,
+      "bid_falling": 0.06,
+      "spot_against": -49.774561682206695
+    },
+    {
+      "S": 1789718400,
+      "day": "2026-09-18",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789718515000,
+      "execution_ms": 1789718515250,
+      "cash": 1.056,
+      "fee": 0.056,
+      "delta": -1.056,
+      "no_observed_reduction": true,
+      "bid_falling": 0.10999999999999999,
+      "spot_against": 98.15916908197687
+    },
+    {
+      "S": 1789725000,
+      "day": "2026-09-18",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789725115000,
+      "execution_ms": 1789725115250,
+      "cash": 3.8638399999999997,
+      "fee": 0.06384,
+      "delta": 1.1361600000000003,
+      "no_observed_reduction": false,
+      "bid_falling": 0.03,
+      "spot_against": -29.524136515610735
+    },
+    {
+      "S": 1789729800,
+      "day": "2026-09-18",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789729915000,
+      "execution_ms": 1789729915250,
+      "cash": 4.15166,
+      "fee": 0.05166,
+      "delta": 0.8483400000000003,
+      "no_observed_reduction": true,
+      "bid_falling": -0.14,
+      "spot_against": -31.73944606022269
+    },
+    {
+      "S": 1789739700,
+      "day": "2026-09-18",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789739815000,
+      "execution_ms": 1789739815250,
+      "cash": 4.24704,
+      "fee": 0.04704,
+      "delta": 0.7529599999999999,
+      "no_observed_reduction": true,
+      "bid_falling": -0.01999999999999999,
+      "spot_against": -145.40179717328283
+    },
+    {
+      "S": 1789887300,
+      "day": "2026-09-20",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789887415000,
+      "execution_ms": 1789887415250,
+      "cash": 0.79463,
+      "fee": 0.04463,
+      "delta": 4.20537,
+      "no_observed_reduction": false,
+      "bid_falling": 0.020000000000000018,
+      "spot_against": 59.47607811175112
+    },
+    {
+      "S": 1789917000,
+      "day": "2026-09-20",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789917115000,
+      "execution_ms": 1789917115250,
+      "cash": 2.0332700000000004,
+      "fee": 0.08327,
+      "delta": 2.9667299999999996,
+      "no_observed_reduction": false,
+      "bid_falling": -0.040000000000000036,
+      "spot_against": 17.953960250655655
+    },
+    {
+      "S": 1789919100,
+      "day": "2026-09-20",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789919215000,
+      "execution_ms": 1789919215250,
+      "cash": 1.00387,
+      "fee": 0.05387,
+      "delta": -1.00387,
+      "no_observed_reduction": true,
+      "bid_falling": 0.030000000000000027,
+      "spot_against": 37.18830112325668
+    },
+    {
+      "S": 1789919400,
+      "day": "2026-09-20",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789919515000,
+      "execution_ms": 1789919515250,
+      "cash": 2.18526,
+      "fee": 0.08526,
+      "delta": 2.81474,
+      "no_observed_reduction": false,
+      "bid_falling": 0.0,
+      "spot_against": 8.399219403378083
+    },
+    {
+      "S": 1789924800,
+      "day": "2026-09-20",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789924915000,
+      "execution_ms": 1789924915250,
+      "cash": 3.37854,
+      "fee": 0.07854,
+      "delta": -3.37854,
+      "no_observed_reduction": false,
+      "bid_falling": -0.24999999999999994,
+      "spot_against": -16.84722934877209
+    },
+    {
+      "S": 1789938000,
+      "day": "2026-09-20",
+      "nominal_age": 120,
+      "lag": "lag5",
+      "signal_ms": 1789938115000,
+      "execution_ms": 1789938115250,
+      "cash": 0.37279,
+      "fee": 0.02279,
+      "delta": -0.3727900000000002,
+      "no_observed_reduction": false,
+      "bid_falling": 0.010000000000000009,
+      "spot_against": 66.79873599021812
+    },
+    {
+      "S": 1789309200,
+      "day": "2026-09-13",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789309435000,
+      "execution_ms": 1789309435250,
+      "cash": 0.21344000000000002,
+      "fee": 0.01344,
+      "delta": -0.2134400000000003,
+      "no_observed_reduction": true,
+      "bid_falling": 0.1499999999999999,
+      "spot_against": 13.991534121640143
+    },
+    {
+      "S": 1789325400,
+      "day": "2026-09-13",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789325635000,
+      "execution_ms": 1789325635250,
+      "cash": 4.57866,
+      "fee": 0.02866,
+      "delta": 0.4213399999999998,
+      "no_observed_reduction": false,
+      "bid_falling": -0.010000000000000009,
+      "spot_against": -4.9993576877895975
+    },
+    {
+      "S": 1789328700,
+      "day": "2026-09-13",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789328935000,
+      "execution_ms": 1789328935250,
+      "cash": 4.90686,
+      "fee": 0.00686,
+      "delta": 0.09314,
+      "no_observed_reduction": false,
+      "bid_falling": -0.039999999999999994,
+      "spot_against": -9.094494667820982
+    },
+    {
+      "S": 1789342800,
+      "day": "2026-09-13",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789343035000,
+      "execution_ms": 1789343035250,
+      "cash": 3.28064,
+      "fee": 0.08064,
+      "delta": -3.28064,
+      "no_observed_reduction": false,
+      "bid_falling": 0.0,
+      "spot_against": -6.365588140804903
+    },
+    {
+      "S": 1789344900,
+      "day": "2026-09-14",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789345135000,
+      "execution_ms": 1789345135250,
+      "cash": 4.90686,
+      "fee": 0.00686,
+      "delta": 0.09314,
+      "no_observed_reduction": true,
+      "bid_falling": 0.0,
+      "spot_against": -40.65053554583574
+    },
+    {
+      "S": 1789362300,
+      "day": "2026-09-14",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789362535000,
+      "execution_ms": 1789362535250,
+      "cash": 0.95166,
+      "fee": 0.05166,
+      "delta": -0.9516600000000004,
+      "no_observed_reduction": false,
+      "bid_falling": 0.05999999999999994,
+      "spot_against": 11.031712247509859
+    },
+    {
+      "S": 1789382400,
+      "day": "2026-09-14",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789382635000,
+      "execution_ms": 1789382635250,
+      "cash": 4.76663,
+      "fee": 0.01663,
+      "delta": 0.23336999999999986,
+      "no_observed_reduction": true,
+      "bid_falling": 0.05,
+      "spot_against": -34.654355480495724
+    },
+    {
+      "S": 1789384500,
+      "day": "2026-09-14",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789384735000,
+      "execution_ms": 1789384735250,
+      "cash": 4.76663,
+      "fee": 0.01663,
+      "delta": 0.23336999999999986,
+      "no_observed_reduction": true,
+      "bid_falling": -0.03,
+      "spot_against": -19.68491814949084
+    },
+    {
+      "S": 1789402800,
+      "day": "2026-09-14",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789403035000,
+      "execution_ms": 1789403035250,
+      "cash": 0.79463,
+      "fee": 0.04463,
+      "delta": -0.7946299999999997,
+      "no_observed_reduction": false,
+      "bid_falling": -0.09999999999999998,
+      "spot_against": 52.57483021094231
+    },
+    {
+      "S": 1789405800,
+      "day": "2026-09-14",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789406035000,
+      "execution_ms": 1789406035250,
+      "cash": 0.31973999999999997,
+      "fee": 0.01974,
+      "delta": -0.31974000000000036,
+      "no_observed_reduction": true,
+      "bid_falling": 0.22999999999999998,
+      "spot_against": 28.849012284365017
+    },
+    {
+      "S": 1789426500,
+      "day": "2026-09-14",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789426735000,
+      "execution_ms": 1789426735250,
+      "cash": 4.5315,
+      "fee": 0.0315,
+      "delta": 0.4684999999999997,
+      "no_observed_reduction": false,
+      "bid_falling": 0.0,
+      "spot_against": -14.981922847262467
+    },
+    {
+      "S": 1789438800,
+      "day": "2026-09-15",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789439035000,
+      "execution_ms": 1789439035250,
+      "cash": 4.68293,
+      "fee": 0.02213,
+      "delta": 0.3170700000000002,
+      "no_observed_reduction": false,
+      "bid_falling": 0.04000000000000001,
+      "spot_against": -26.86670582887018
+    },
+    {
+      "S": 1789449300,
+      "day": "2026-09-15",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789449535000,
+      "execution_ms": 1789449535250,
+      "cash": 4.860189999999999,
+      "fee": 0.01019,
+      "delta": 0.13981000000000066,
+      "no_observed_reduction": false,
+      "bid_falling": -0.020000000000000004,
+      "spot_against": -29.165816147971782
+    },
+    {
+      "S": 1789468500,
+      "day": "2026-09-15",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789468735000,
+      "execution_ms": 1789468735250,
+      "cash": 0.37279,
+      "fee": 0.02279,
+      "delta": -0.3727900000000002,
+      "no_observed_reduction": false,
+      "bid_falling": 0.020000000000000018,
+      "spot_against": 35.06820679214434
+    },
+    {
+      "S": 1789472100,
+      "day": "2026-09-15",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789472335000,
+      "execution_ms": 1789472335250,
+      "cash": 4.5315,
+      "fee": 0.0315,
+      "delta": -4.5315,
+      "no_observed_reduction": false,
+      "bid_falling": 0.039999999999999994,
+      "spot_against": -24.633254625092377
+    },
+    {
+      "S": 1789570800,
+      "day": "2026-09-16",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789571035000,
+      "execution_ms": 1789571035250,
+      "cash": 4.95347,
+      "fee": 0.00347,
+      "delta": 0.04652999999999974,
+      "no_observed_reduction": true,
+      "bid_falling": -0.07,
+      "spot_against": -55.96617006658926
+    },
+    {
+      "S": 1789577400,
+      "day": "2026-09-16",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789577635000,
+      "execution_ms": 1789577635250,
+      "cash": 4.719739999999999,
+      "fee": 0.01974,
+      "delta": 0.28026000000000106,
+      "no_observed_reduction": true,
+      "bid_falling": -0.03,
+      "spot_against": -29.9478406033013
+    },
+    {
+      "S": 1789589700,
+      "day": "2026-09-16",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789589935000,
+      "execution_ms": 1789589935250,
+      "cash": 4.95347,
+      "fee": 0.00347,
+      "delta": 0.04652999999999974,
+      "no_observed_reduction": true,
+      "bid_falling": -0.019999999999999997,
+      "spot_against": -76.03094029720523
+    },
+    {
+      "S": 1789590600,
+      "day": "2026-09-16",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789590835000,
+      "execution_ms": 1789590835250,
+      "cash": 4.860189999999999,
+      "fee": 0.01019,
+      "delta": -4.860189999999999,
+      "no_observed_reduction": false,
+      "bid_falling": 0.009999999999999998,
+      "spot_against": -53.182632037918665
+    },
+    {
+      "S": 1789634700,
+      "day": "2026-09-17",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789634935000,
+      "execution_ms": 1789634935250,
+      "cash": 1.7273900000000002,
+      "fee": 0.07739,
+      "delta": -1.7273900000000002,
+      "no_observed_reduction": false,
+      "bid_falling": 0.0,
+      "spot_against": 5.400624334142776
+    },
+    {
+      "S": 1789637100,
+      "day": "2026-09-17",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789637335000,
+      "execution_ms": 1789637335250,
+      "cash": 4.29463,
+      "fee": 0.04463,
+      "delta": 0.7053700000000003,
+      "no_observed_reduction": false,
+      "bid_falling": -0.10999999999999999,
+      "spot_against": -11.170144417497795
+    },
+    {
+      "S": 1789725000,
+      "day": "2026-09-18",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789725235000,
+      "execution_ms": 1789725235250,
+      "cash": 4.81344,
+      "fee": 0.01344,
+      "delta": 0.18656000000000006,
+      "no_observed_reduction": false,
+      "bid_falling": -0.010000000000000002,
+      "spot_against": -34.51682192314183
+    },
+    {
+      "S": 1789725600,
+      "day": "2026-09-18",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789725835000,
+      "execution_ms": 1789725835250,
+      "cash": 4.57866,
+      "fee": 0.02866,
+      "delta": 0.4213399999999998,
+      "no_observed_reduction": false,
+      "bid_falling": -0.05000000000000002,
+      "spot_against": -18.85825765717891
+    },
+    {
+      "S": 1789887300,
+      "day": "2026-09-20",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789887535000,
+      "execution_ms": 1789887535250,
+      "cash": 4.24704,
+      "fee": 0.04704,
+      "delta": 0.7529599999999999,
+      "no_observed_reduction": false,
+      "bid_falling": -0.37,
+      "spot_against": -3.8052345153846545
+    },
+    {
+      "S": 1789917000,
+      "day": "2026-09-20",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789917235000,
+      "execution_ms": 1789917235250,
+      "cash": 2.084,
+      "fee": 0.084,
+      "delta": 2.916,
+      "no_observed_reduction": false,
+      "bid_falling": -0.08999999999999997,
+      "spot_against": 9.853073781021521
+    },
+    {
+      "S": 1789919100,
+      "day": "2026-09-20",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789919335000,
+      "execution_ms": 1789919335250,
+      "cash": 0.053470000000000004,
+      "fee": 0.00347,
+      "delta": -0.053469999999999906,
+      "no_observed_reduction": true,
+      "bid_falling": 0.010000000000000009,
+      "spot_against": 49.66736774024321
+    },
+    {
+      "S": 1789919400,
+      "day": "2026-09-20",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789919635000,
+      "execution_ms": 1789919635250,
+      "cash": 3.6705599999999996,
+      "fee": 0.07056,
+      "delta": 1.3294400000000004,
+      "no_observed_reduction": false,
+      "bid_falling": 0.030000000000000027,
+      "spot_against": -5.728816488277516
+    },
+    {
+      "S": 1789938000,
+      "day": "2026-09-20",
+      "nominal_age": 240,
+      "lag": "lag5",
+      "signal_ms": 1789938235000,
+      "execution_ms": 1789938235250,
+      "cash": 0.053470000000000004,
+      "fee": 0.00347,
+      "delta": -0.053469999999999906,
+      "no_observed_reduction": false,
+      "bid_falling": 0.0,
+      "spot_against": 234.20626855523733
+    },
+    {
+      "S": 1789309200,
+      "day": "2026-09-13",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789309310000,
+      "execution_ms": 1789309310250,
+      "cash": 1.47056,
+      "fee": 0.07056,
+      "delta": -1.4705599999999999,
+      "no_observed_reduction": true,
+      "bid_falling": 0.030000000000000027,
+      "spot_against": 19.58045494745602
+    },
+    {
+      "S": 1789325400,
+      "day": "2026-09-13",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789325510000,
+      "execution_ms": 1789325510250,
+      "cash": 1.9315900000000001,
+      "fee": 0.08159,
+      "delta": -1.93159,
+      "no_observed_reduction": false,
+      "bid_falling": -0.010000000000000009,
+      "spot_against": 4.438584510789951
+    },
+    {
+      "S": 1789342800,
+      "day": "2026-09-13",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789342910000,
+      "execution_ms": 1789342910250,
+      "cash": 3.9119800000000002,
+      "fee": 0.06198,
+      "delta": 1.0880199999999998,
+      "no_observed_reduction": false,
+      "bid_falling": -0.020000000000000018,
+      "spot_against": -29.50365180769586
+    },
+    {
+      "S": 1789362300,
+      "day": "2026-09-14",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789362410000,
+      "execution_ms": 1789362410250,
+      "cash": 3.81563,
+      "fee": 0.06563,
+      "delta": -3.81563,
+      "no_observed_reduction": false,
+      "bid_falling": 0.010000000000000009,
+      "spot_against": -32.133018748194445
+    },
+    {
+      "S": 1789382400,
+      "day": "2026-09-14",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789382510000,
+      "execution_ms": 1789382510250,
+      "cash": 3.62207,
+      "fee": 0.07207,
+      "delta": 1.37793,
+      "no_observed_reduction": true,
+      "bid_falling": 0.0,
+      "spot_against": -16.09152353137324
+    },
+    {
+      "S": 1789384500,
+      "day": "2026-09-14",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789384610000,
+      "execution_ms": 1789384610250,
+      "cash": 3.37854,
+      "fee": 0.07854,
+      "delta": 1.62146,
+      "no_observed_reduction": true,
+      "bid_falling": 0.0,
+      "spot_against": -7.803971487621311
+    },
+    {
+      "S": 1789402800,
+      "day": "2026-09-14",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789402910000,
+      "execution_ms": 1789402910250,
+      "cash": 3.42739,
+      "fee": 0.07739,
+      "delta": -3.42739,
+      "no_observed_reduction": false,
+      "bid_falling": -0.010000000000000009,
+      "spot_against": -40.82672624429688
+    },
+    {
+      "S": 1789436700,
+      "day": "2026-09-15",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789436810000,
+      "execution_ms": 1789436810250,
+      "cash": 3.0346699999999998,
+      "fee": 0.08467,
+      "delta": -3.0346699999999998,
+      "no_observed_reduction": false,
+      "bid_falling": -0.06,
+      "spot_against": -7.88240158984263
+    },
+    {
+      "S": 1789438800,
+      "day": "2026-09-15",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789438910000,
+      "execution_ms": 1789438910250,
+      "cash": 3.32963,
+      "fee": 0.07963,
+      "delta": -3.32963,
+      "no_observed_reduction": false,
+      "bid_falling": -0.030000000000000027,
+      "spot_against": -9.395513953655609
+    },
+    {
+      "S": 1789449300,
+      "day": "2026-09-15",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789449410000,
+      "execution_ms": 1789449410250,
+      "cash": 3.37854,
+      "fee": 0.07854,
+      "delta": -3.37854,
+      "no_observed_reduction": false,
+      "bid_falling": 0.04999999999999999,
+      "spot_against": -21.644225504482165
+    },
+    {
+      "S": 1789472100,
+      "day": "2026-09-15",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789472210000,
+      "execution_ms": 1789472210250,
+      "cash": 1.2638399999999999,
+      "fee": 0.06384,
+      "delta": -1.26384,
+      "no_observed_reduction": false,
+      "bid_falling": 0.050000000000000044,
+      "spot_against": 20.517601342653506
+    },
+    {
+      "S": 1789546200,
+      "day": "2026-09-16",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789546310000,
+      "execution_ms": 1789546310250,
+      "cash": 3.7673400000000004,
+      "fee": 0.06734,
+      "delta": 1.2326599999999996,
+      "no_observed_reduction": false,
+      "bid_falling": -0.020000000000000018,
+      "spot_against": -31.134605164115783
+    },
+    {
+      "S": 1789554900,
+      "day": "2026-09-16",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789555010000,
+      "execution_ms": 1789555010250,
+      "cash": 3.6705599999999996,
+      "fee": 0.07056,
+      "delta": 1.3294400000000004,
+      "no_observed_reduction": false,
+      "bid_falling": -0.009999999999999953,
+      "spot_against": -11.613119395638932
+    },
+    {
+      "S": 1789580400,
+      "day": "2026-09-16",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789580510000,
+      "execution_ms": 1789580510250,
+      "cash": 4.15166,
+      "fee": 0.05166,
+      "delta": -4.15166,
+      "no_observed_reduction": true,
+      "bid_falling": -0.009999999999999981,
+      "spot_against": -49.40787766245194
+    },
+    {
+      "S": 1789605000,
+      "day": "2026-09-17",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789605110000,
+      "execution_ms": 1789605110250,
+      "cash": 0.8993900000000001,
+      "fee": 0.04939,
+      "delta": -0.8993900000000004,
+      "no_observed_reduction": false,
+      "bid_falling": 0.08999999999999997,
+      "spot_against": 58.17607775508077
+    },
+    {
+      "S": 1789623000,
+      "day": "2026-09-17",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789623110000,
+      "execution_ms": 1789623110250,
+      "cash": 4.24704,
+      "fee": 0.04704,
+      "delta": 0.7529599999999999,
+      "no_observed_reduction": true,
+      "bid_falling": 0.04000000000000001,
+      "spot_against": -47.644868796967785
+    },
+    {
+      "S": 1789653600,
+      "day": "2026-09-17",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789653710000,
+      "execution_ms": 1789653710250,
+      "cash": 3.9600600000000004,
+      "fee": 0.06006,
+      "delta": 1.0399399999999996,
+      "no_observed_reduction": true,
+      "bid_falling": 0.04999999999999999,
+      "spot_against": -68.00581522301945
+    },
+    {
+      "S": 1789687800,
+      "day": "2026-09-17",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789687910000,
+      "execution_ms": 1789687910250,
+      "cash": 4.67278,
+      "fee": 0.02278,
+      "delta": 0.3272199999999996,
+      "no_observed_reduction": false,
+      "bid_falling": -0.009999999999999995,
+      "spot_against": -40.26454409130383
+    },
+    {
+      "S": 1789699200,
+      "day": "2026-09-18",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789699310000,
+      "execution_ms": 1789699310250,
+      "cash": 4.48427,
+      "fee": 0.03427,
+      "delta": 0.5157299999999996,
+      "no_observed_reduction": true,
+      "bid_falling": 0.05,
+      "spot_against": -62.95036360163067
+    },
+    {
+      "S": 1789718400,
+      "day": "2026-09-18",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789718510000,
+      "execution_ms": 1789718510250,
+      "cash": 1.2119900000000001,
+      "fee": 0.06199,
+      "delta": -1.2119900000000001,
+      "no_observed_reduction": true,
+      "bid_falling": 0.050000000000000044,
+      "spot_against": 104.02614835777786
+    },
+    {
+      "S": 1789725000,
+      "day": "2026-09-18",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789725110000,
+      "execution_ms": 1789725110250,
+      "cash": 3.71899,
+      "fee": 0.06899,
+      "delta": 1.2810100000000002,
+      "no_observed_reduction": false,
+      "bid_falling": 0.07,
+      "spot_against": -32.49415870597295
+    },
+    {
+      "S": 1789729800,
+      "day": "2026-09-18",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789729910000,
+      "execution_ms": 1789729910250,
+      "cash": 3.71899,
+      "fee": 0.06899,
+      "delta": 1.2810100000000002,
+      "no_observed_reduction": true,
+      "bid_falling": -0.08999999999999997,
+      "spot_against": -23.955555648266454
+    },
+    {
+      "S": 1789739700,
+      "day": "2026-09-18",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789739810000,
+      "execution_ms": 1789739810250,
+      "cash": 3.9119800000000002,
+      "fee": 0.06198,
+      "delta": 1.0880199999999998,
+      "no_observed_reduction": true,
+      "bid_falling": -0.06999999999999998,
+      "spot_against": -142.92706779226137
+    },
+    {
+      "S": 1789887300,
+      "day": "2026-09-20",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789887410000,
+      "execution_ms": 1789887410250,
+      "cash": 0.8993900000000001,
+      "fee": 0.04939,
+      "delta": 4.10061,
+      "no_observed_reduction": false,
+      "bid_falling": 0.0,
+      "spot_against": 59.388211942859925
+    },
+    {
+      "S": 1789917000,
+      "day": "2026-09-20",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789917110000,
+      "execution_ms": 1789917110250,
+      "cash": 2.084,
+      "fee": 0.084,
+      "delta": 2.916,
+      "no_observed_reduction": false,
+      "bid_falling": -0.030000000000000027,
+      "spot_against": 20.818744838572457
+    },
+    {
+      "S": 1789919100,
+      "day": "2026-09-20",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789919210000,
+      "execution_ms": 1789919210250,
+      "cash": 1.00387,
+      "fee": 0.05387,
+      "delta": -1.00387,
+      "no_observed_reduction": true,
+      "bid_falling": 0.14,
+      "spot_against": 38.36324823203904
+    },
+    {
+      "S": 1789919400,
+      "day": "2026-09-20",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789919510000,
+      "execution_ms": 1789919510250,
+      "cash": 2.2862400000000003,
+      "fee": 0.08624,
+      "delta": 2.7137599999999997,
+      "no_observed_reduction": false,
+      "bid_falling": -0.019999999999999907,
+      "spot_against": 8.246737496956484
+    },
+    {
+      "S": 1789924800,
+      "day": "2026-09-20",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789924910000,
+      "execution_ms": 1789924910250,
+      "cash": 3.32963,
+      "fee": 0.07963,
+      "delta": -3.32963,
+      "no_observed_reduction": false,
+      "bid_falling": -0.27,
+      "spot_against": -4.342684185117832
+    },
+    {
+      "S": 1789938000,
+      "day": "2026-09-20",
+      "nominal_age": 120,
+      "lag": "lag10",
+      "signal_ms": 1789938110000,
+      "execution_ms": 1789938110250,
+      "cash": 0.42576,
+      "fee": 0.02576,
+      "delta": -0.42576000000000036,
+      "no_observed_reduction": false,
+      "bid_falling": 0.020000000000000018,
+      "spot_against": 67.41876553521433
+    },
+    {
+      "S": 1789309200,
+      "day": "2026-09-13",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789309430000,
+      "execution_ms": 1789309430250,
+      "cash": 0.5315,
+      "fee": 0.0315,
+      "delta": -0.5315000000000003,
+      "no_observed_reduction": true,
+      "bid_falling": 0.10999999999999999,
+      "spot_against": 12.974971980336704
+    },
+    {
+      "S": 1789325400,
+      "day": "2026-09-13",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789325630000,
+      "execution_ms": 1789325630250,
+      "cash": 4.6257600000000005,
+      "fee": 0.02576,
+      "delta": 0.37423999999999946,
+      "no_observed_reduction": false,
+      "bid_falling": -0.03,
+      "spot_against": -5.735536310952739
+    },
+    {
+      "S": 1789328700,
+      "day": "2026-09-13",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789328930000,
+      "execution_ms": 1789328930250,
+      "cash": 4.90686,
+      "fee": 0.00686,
+      "delta": 0.09314,
+      "no_observed_reduction": false,
+      "bid_falling": -0.020000000000000004,
+      "spot_against": -9.084048796925345
+    },
+    {
+      "S": 1789362300,
+      "day": "2026-09-14",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789362530000,
+      "execution_ms": 1789362530250,
+      "cash": 0.8674500000000002,
+      "fee": 0.04795,
+      "delta": -0.8674499999999998,
+      "no_observed_reduction": false,
+      "bid_falling": 0.15999999999999992,
+      "spot_against": 7.865913160072523
+    },
+    {
+      "S": 1789382400,
+      "day": "2026-09-14",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789382630000,
+      "execution_ms": 1789382630250,
+      "cash": 4.95347,
+      "fee": 0.00347,
+      "delta": 0.04652999999999974,
+      "no_observed_reduction": true,
+      "bid_falling": -0.01,
+      "spot_against": -41.78849538580107
+    },
+    {
+      "S": 1789384500,
+      "day": "2026-09-14",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789384730000,
+      "execution_ms": 1789384730250,
+      "cash": 4.67278,
+      "fee": 0.02278,
+      "delta": 0.3272199999999996,
+      "no_observed_reduction": true,
+      "bid_falling": -0.03,
+      "spot_against": -19.638449054502416
+    },
+    {
+      "S": 1789402800,
+      "day": "2026-09-14",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789403030000,
+      "execution_ms": 1789403030250,
+      "cash": 0.21344000000000002,
+      "fee": 0.01344,
+      "delta": -0.2134400000000003,
+      "no_observed_reduction": false,
+      "bid_falling": 0.04999999999999993,
+      "spot_against": 52.693724330485566
+    },
+    {
+      "S": 1789405800,
+      "day": "2026-09-14",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789406030000,
+      "execution_ms": 1789406030250,
+      "cash": 0.42576,
+      "fee": 0.02576,
+      "delta": -0.42576000000000036,
+      "no_observed_reduction": true,
+      "bid_falling": 0.15000000000000002,
+      "spot_against": 21.4850525433867
+    },
+    {
+      "S": 1789426500,
+      "day": "2026-09-14",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789426730000,
+      "execution_ms": 1789426730250,
+      "cash": 4.5315,
+      "fee": 0.0315,
+      "delta": 0.4684999999999997,
+      "no_observed_reduction": false,
+      "bid_falling": -0.04000000000000001,
+      "spot_against": -15.553473163250601
+    },
+    {
+      "S": 1789436700,
+      "day": "2026-09-15",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789436930000,
+      "execution_ms": 1789436930250,
+      "cash": 3.32963,
+      "fee": 0.07963,
+      "delta": -3.32963,
+      "no_observed_reduction": false,
+      "bid_falling": 0.009999999999999953,
+      "spot_against": -9.36440449069778
+    },
+    {
+      "S": 1789438800,
+      "day": "2026-09-15",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789439030000,
+      "execution_ms": 1789439030250,
+      "cash": 4.67278,
+      "fee": 0.02278,
+      "delta": 0.3272199999999996,
+      "no_observed_reduction": false,
+      "bid_falling": -0.03,
+      "spot_against": -27.336299413756933
+    },
+    {
+      "S": 1789449300,
+      "day": "2026-09-15",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789449530000,
+      "execution_ms": 1789449530250,
+      "cash": 4.67278,
+      "fee": 0.02278,
+      "delta": 0.3272199999999996,
+      "no_observed_reduction": false,
+      "bid_falling": -0.039999999999999994,
+      "spot_against": -36.480718630729825
+    },
+    {
+      "S": 1789468500,
+      "day": "2026-09-15",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789468730000,
+      "execution_ms": 1789468730250,
+      "cash": 0.31973999999999997,
+      "fee": 0.01974,
+      "delta": -0.31974000000000036,
+      "no_observed_reduction": false,
+      "bid_falling": 0.04999999999999993,
+      "spot_against": 42.81495468116191
+    },
+    {
+      "S": 1789472100,
+      "day": "2026-09-15",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789472330000,
+      "execution_ms": 1789472330250,
+      "cash": 4.76663,
+      "fee": 0.01663,
+      "delta": -4.76663,
+      "no_observed_reduction": false,
+      "bid_falling": -0.05,
+      "spot_against": -24.792090860079043
+    },
+    {
+      "S": 1789554900,
+      "day": "2026-09-16",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789555130000,
+      "execution_ms": 1789555130250,
+      "cash": 1.82963,
+      "fee": 0.07963,
+      "delta": -1.8296299999999999,
+      "no_observed_reduction": false,
+      "bid_falling": -0.020000000000000018,
+      "spot_against": 3.8078647939837538
+    },
+    {
+      "S": 1789570800,
+      "day": "2026-09-16",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789571030000,
+      "execution_ms": 1789571030250,
+      "cash": 4.90686,
+      "fee": 0.00686,
+      "delta": 0.09314,
+      "no_observed_reduction": true,
+      "bid_falling": -0.11,
+      "spot_against": -53.88701484250487
+    },
+    {
+      "S": 1789577400,
+      "day": "2026-09-16",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789577630000,
+      "execution_ms": 1789577630250,
+      "cash": 4.67278,
+      "fee": 0.02278,
+      "delta": 0.3272199999999996,
+      "no_observed_reduction": true,
+      "bid_falling": -0.009999999999999995,
+      "spot_against": -30.281057395215612
+    },
+    {
+      "S": 1789580400,
+      "day": "2026-09-16",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789580630000,
+      "execution_ms": 1789580630250,
+      "cash": 0.10686000000000001,
+      "fee": 0.00686,
+      "delta": -0.10686000000000018,
+      "no_observed_reduction": true,
+      "bid_falling": 0.040000000000000036,
+      "spot_against": 65.40771705607767
+    },
+    {
+      "S": 1789589700,
+      "day": "2026-09-16",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789589930000,
+      "execution_ms": 1789589930250,
+      "cash": 4.95347,
+      "fee": 0.00347,
+      "delta": 0.04652999999999974,
+      "no_observed_reduction": true,
+      "bid_falling": -0.08,
+      "spot_against": -65.4916510470066
+    },
+    {
+      "S": 1789590600,
+      "day": "2026-09-16",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789590830000,
+      "execution_ms": 1789590830250,
+      "cash": 4.860189999999999,
+      "fee": 0.01019,
+      "delta": -4.860189999999999,
+      "no_observed_reduction": false,
+      "bid_falling": 0.0,
+      "spot_against": -53.6190831628046
+    },
+    {
+      "S": 1789634700,
+      "day": "2026-09-17",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789634930000,
+      "execution_ms": 1789634930250,
+      "cash": 1.41899,
+      "fee": 0.06899,
+      "delta": -1.41899,
+      "no_observed_reduction": false,
+      "bid_falling": 0.04999999999999993,
+      "spot_against": 4.374576300382614
+    },
+    {
+      "S": 1789637100,
+      "day": "2026-09-17",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789637330000,
+      "execution_ms": 1789637330250,
+      "cash": 4.00806,
+      "fee": 0.05806,
+      "delta": 0.9919399999999996,
+      "no_observed_reduction": false,
+      "bid_falling": -0.07999999999999999,
+      "spot_against": -11.329980416383478
+    },
+    {
+      "S": 1789687800,
+      "day": "2026-09-17",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789688030000,
+      "execution_ms": 1789688030250,
+      "cash": 4.95347,
+      "fee": 0.00347,
+      "delta": 0.04652999999999974,
+      "no_observed_reduction": false,
+      "bid_falling": 0.0,
+      "spot_against": -39.439027758693555
+    },
+    {
+      "S": 1789725000,
+      "day": "2026-09-18",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789725230000,
+      "execution_ms": 1789725230250,
+      "cash": 4.76663,
+      "fee": 0.01663,
+      "delta": 0.23336999999999986,
+      "no_observed_reduction": false,
+      "bid_falling": -0.039999999999999994,
+      "spot_against": -33.97243817176786
+    },
+    {
+      "S": 1789725600,
+      "day": "2026-09-18",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789725830000,
+      "execution_ms": 1789725830250,
+      "cash": 4.389589999999999,
+      "fee": 0.03959,
+      "delta": 0.6104100000000008,
+      "no_observed_reduction": false,
+      "bid_falling": -0.04999999999999999,
+      "spot_against": -20.516468811270897
+    },
+    {
+      "S": 1789887300,
+      "day": "2026-09-20",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789887530000,
+      "execution_ms": 1789887530250,
+      "cash": 4.00806,
+      "fee": 0.05806,
+      "delta": 0.9919399999999996,
+      "no_observed_reduction": false,
+      "bid_falling": -0.34,
+      "spot_against": 4.362691677786643
+    },
+    {
+      "S": 1789917000,
+      "day": "2026-09-20",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789917230000,
+      "execution_ms": 1789917230250,
+      "cash": 1.9315900000000001,
+      "fee": 0.08159,
+      "delta": 3.06841,
+      "no_observed_reduction": false,
+      "bid_falling": 0.0,
+      "spot_against": 10.183146745621343
+    },
+    {
+      "S": 1789919100,
+      "day": "2026-09-20",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789919330000,
+      "execution_ms": 1789919330250,
+      "cash": 0.10686000000000001,
+      "fee": 0.00686,
+      "delta": -0.10686000000000018,
+      "no_observed_reduction": true,
+      "bid_falling": 0.010000000000000009,
+      "spot_against": 49.22432253847364
+    },
+    {
+      "S": 1789919400,
+      "day": "2026-09-20",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789919630000,
+      "execution_ms": 1789919630250,
+      "cash": 3.71899,
+      "fee": 0.06899,
+      "delta": 1.2810100000000002,
+      "no_observed_reduction": false,
+      "bid_falling": -0.07999999999999996,
+      "spot_against": -6.004196905283607
+    },
+    {
+      "S": 1789924800,
+      "day": "2026-09-20",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789925030000,
+      "execution_ms": 1789925030250,
+      "cash": 2.9357899999999995,
+      "fee": 0.08579,
+      "delta": -2.9357899999999995,
+      "no_observed_reduction": false,
+      "bid_falling": -0.06,
+      "spot_against": -3.9759489245770965
+    },
+    {
+      "S": 1789938000,
+      "day": "2026-09-20",
+      "nominal_age": 240,
+      "lag": "lag10",
+      "signal_ms": 1789938230000,
+      "execution_ms": 1789938230250,
+      "cash": 0.053470000000000004,
+      "fee": 0.00347,
+      "delta": -0.053469999999999906,
+      "no_observed_reduction": false,
+      "bid_falling": 0.0,
+      "spot_against": 247.4203831164632
+    }
+  ],
+  "mode": "EXPLORATORY_SAME_POSITION_DIAGNOSTIC_NOT_INDEPENDENT_STRATEGY",
+  "limits": [
+    "Initial actor inventory is retrospective; no future actor actions are replayed.",
+    "128 fixed probes preserve all64 markets, not only observed closes.",
+    "Nominal120/240 uses signal115/235 at lag5 and110/230 at lag10.",
+    "Each age/lag is a separate comparison, not one combined PnL.",
+    "250ms later depth is a quote-based taker assumption, not guaranteed fills/cancel acknowledgement.",
+    "Public inventory timestamp is not authenticated actor receipt time.",
+    "Rebates and fixed costs excluded; five-share slice does not reproduce actor scale."
+  ],
+  "source_sha256": {
+    "context/events.json": "d57ebeef0f21df67c061b84d105fc3efd3e408892d978a931fbac2f23e9a7658",
+    "mechanism_protocol.json": "f30cb88de4d93db91c9ebdc8a96bc4ca465064be0b4f2f292c95e59695fccc05",
+    "mechanisms.py": "0c42291e0cb8ebc9096bfd4730394321cf401d713775d07c9382602d0db2c956"
+  }
+}

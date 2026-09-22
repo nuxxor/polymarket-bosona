@@ -1,14 +1,14 @@
 {
-  "candidate": "G1: small passive quotes with net-inventory control",
+  "candidate": "G4: 5-share clips with 10-share net capacity; no additional G3 cancellation",
   "minutes": null,
-  "loss_limit": 10,
+  "loss_limit": 100,
   "clip": 5,
   "source_bot": "/home/ubuntu/polymarket-bosona-g-v2/bot",
   "source_state_sha": "953c5a28e746f74be0f6bee8b4bcc676766f5d800cf445ba0295cec117de7a48",
   "entry": "At the existing t5 window scheduler, obtain real tick and fresh book. Bid one cent below best bid, rounded down to the verified tick. Both sides eligible, no nominal cheap/favorite/RSI gate. No new directional inventory at t>=240.",
-  "inventory": "At most one 5-share net lead including same-side live/uncertain reserves. When behind, quantity is capped to the unmatched remainder. Below the 5-share exchange minimum, do not round upward or create reverse risk.",
-  "reduction": "Opposite-side maker quotes may reduce exposure until t290 even if historical lot cost + current quote >1. This can lock a loss; all cash, locked loss and open-order adverse-fill scenarios remain in the global $10 loss guard.",
-  "maintenance": "Retain an economically permitted quote from best bid to two cents behind it. Otherwise cancel with verification, then re-quote at bid minus one cent. At most one placement per side per second, 60 placement attempts per market, cumulative $10 spend/reserve per side. Cancellation checks are not blocked by placement cooldown. Invalid account reconciliation or risk budget cancels resting quotes too.",
+  "inventory": "Maximum net10 including same-side live/uncertain reserves; clip5. Additional same-side clips allowed within capacity. Reducing quantity never exceeds unmatched inventory; no minimum-size round-up.",
+  "reduction": "Opposite-side maker quotes may reduce exposure until t290 even if historical lot cost + current quote >1. This can lock a loss; all cash, locked loss and open-order adverse-fill scenarios remain in the global $100 loss guard.",
+  "maintenance": "Retain an economically permitted quote from best bid to two cents behind it. Otherwise cancel with verification, then re-quote at bid minus one cent. At most one placement per side per second, 60 placement attempts per market, cumulative $10 spend/reserve per side. Cancellation checks are not blocked by placement cooldown. Invalid account reconciliation or risk budget cancels resting quotes too. Existing t180 heavy-side maintenance retained; same-side partial orders may be canceled after t180. G3 one-cent cancellation is absent.",
   "measurement": "Actual own fills only via authenticated order/trade evidence and reconciliation; dry quotes are intents, never simulator fills. Public L2/LTP loss is explicit; no cancellation credit, price-touch fill or exact queue rank is invented.",
   "status": "Experimental engineering baseline. Parent/maker and risk-reduction behavior are supported; this precise independent quote rule and its profitability are not established. Fixed values are research choices, not fitted Bosona parameters. No live order or budget activated during preparation.",
   "metrics": [
@@ -24,5 +24,8 @@
   "continuous": true,
   "source_state": "STATE_g.json",
   "source_log": "LOG_g.jsonl",
-  "budget_basis": "New $10 loss budget anchored at the reconciled balance when operator activates; previous G1 profit remains in cumulative accounting."
+  "budget_basis": "New $10 loss budget anchored at the reconciled balance when operator activates; previous G1 profit remains in cumulative accounting.",
+  "experiment": "G4",
+  "budget": "Fresh $100 at reconciled G4 activation, old lifetime PnL retained; G4 resumes preserve this budget.",
+  "comparison": "G4 only in every eligible window, no G2/G3 assignment. Historical arms are not a randomized G4 comparator."
 }

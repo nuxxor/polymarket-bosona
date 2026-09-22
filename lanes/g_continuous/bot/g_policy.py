@@ -1,4 +1,4 @@
-"""G1 frozen engineering baseline, not an inferred Bosona alpha signal."""
+"""G4 inventory-capacity experiment, not an inferred Bosona alpha signal."""
 from decimal import Decimal, ROUND_FLOOR
 from hashlib import sha256
 import math
@@ -12,6 +12,7 @@ def append_page(previous, page, key):
     previous.extend(page)
 
 SHA = sha256(Path(__file__).read_bytes()).hexdigest()
+NET_LIMIT = 10
 ENTRY_END = 240
 REDUCE_END = 290
 
@@ -22,7 +23,7 @@ def target(bid, ask, tick, own, opposite):
             return None
         if not 0 < bid < ask <= 1 or tick not in (.01, .001) or min(own, opposite) < 0:
             return None
-        if own-opposite >= 5-1e-6:
+        if own-opposite >= NET_LIMIT-1e-6:
             return None
         # Fixed one cent, not one terminal-market tick inferred from later data.
         grid = Decimal(str(tick))

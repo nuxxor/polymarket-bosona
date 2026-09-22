@@ -1,0 +1,73 @@
+{
+  "checked_ms": 1790081633776,
+  "source_sha": "a5cd853493a6f01ab395495574150bf31c6dec7201783dfb563e98a6e2fa3ca7",
+  "writers": [],
+  "protected_unchanged": true,
+  "live_started": false,
+  "financial_actions": 0,
+  "preflight": {
+    "checked_ms": 1790081547251,
+    "previous_pnl": -5.826284,
+    "pnl": -6.823289,
+    "windows": 102,
+    "orders": 896,
+    "open_orders": 0,
+    "risk": 0,
+    "prices_ages_ms": {},
+    "source_state_sha": "897abf3cd31a67d83adb95cc1463a9241c5baab6e45ef400baf9d43454c36606"
+  },
+  "budget": {
+    "limit": 10,
+    "anchor": -6.0286,
+    "cutoff": -16.0286,
+    "end_ms": null,
+    "continuous": true,
+    "created_ms": 1790073184534,
+    "previous_stop": null,
+    "id": "4527c3ca7a69abf92a33"
+  },
+  "budget_pnl": -0.794689,
+  "incident": [
+    {
+      "t": "12:29:11",
+      "utc_ms": 1790080151640,
+      "k": "MARUZIYET_OKUMA_TEKRAR",
+      "deneme": 1,
+      "http_status": 429
+    },
+    {
+      "t": "12:29:18",
+      "utc_ms": 1790080158678,
+      "k": "MARUZIYET_OKUMA_TEKRAR",
+      "deneme": 2,
+      "http_status": 408
+    },
+    {
+      "t": "12:29:20",
+      "utc_ms": 1790080160968,
+      "k": "MARUZIYET_OKUMA_TEKRAR",
+      "deneme": 3,
+      "http_status": 429
+    },
+    {
+      "t": "12:29:20",
+      "utc_ms": 1790080160968,
+      "k": "acilis_maruziyeti_OKUNAMADI",
+      "err": "HTTPError",
+      "karar": "FAIL_CLOSED"
+    },
+    {
+      "t": "12:29:23",
+      "utc_ms": 1790080163748,
+      "k": "bitti",
+      "sebep": "maruziyet_teyitsiz",
+      "lane": "G",
+      "pnl": -5.8263,
+      "yerel": -5.826284,
+      "pencere": 102,
+      "emir": 896,
+      "risk": 1.0050998500000006,
+      "kesici": -16.0286
+    }
+  ]
+}

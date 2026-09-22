@@ -1,0 +1,17 @@
+{
+  "source_groups": {
+    "accounting/results.json": 2224,
+    "execution/results.json": 209,
+    "execution/buffer_probe.json": 5,
+    "context/sources.json": 5
+  },
+  "unique_source_hashes_verified": 2439,
+  "unexpected_changed_sources": [],
+  "report_local_links_verified": [
+    "../data/analysis/g2_next_review_ultra_20260922/",
+    "../data/analysis/g2_next_review_ultra_20260922/accounting/FINDINGS.md"
+  ],
+  "valid_json_outputs": 20,
+  "reviewer_text_trailing_whitespace": "PASS",
+  "plan_git_diff_check": "PASS"
+}

@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "2026-09-22T12:32:51.134264+00:00",
+  "status": "PASS",
+  "results_sha256": "16ca0a80d9d17c7f3030db131237aa756afe1aafa347c3716bb5494c6ab81ca5",
+  "code_sha256": "96952ddf7c77610e6cee860d296f0bb5180a200d99a71450df53ae595551e6a5",
+  "byte_identical_repeat": true,
+  "source_files_hashed": 2224,
+  "checks": [
+    "Full offline audit run; synthetic cash/direction assertions; frozen classifier regression checks",
+    "2041 receipts decoded; exact token and cash transfers independently rechecked",
+    "137 full activity ledgers in integer micro-units, including 51 MERGE and 256 REDEEM",
+    "Raw multiplicity 19768 vs deduplicated19761, historical cash payout",
+    "First15 independent Fraction economics and 262/43 classification reproduction",
+    "Targeted Ruff check passed; compile() syntax passed; byte-identical full repeat"
+  ]
+}

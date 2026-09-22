@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "regressions": {
+    "test_transport.py": "PASS",
+    "test_identity.py": "PASS",
+    "test_g.py": "PASS",
+    "test_g_pilot.py": "PASS",
+    "test_continuous.py": "PASS",
+    "test_g_stream.py": "PASS",
+    "ruff": "PASS"
+  },
+  "source_sha": "0fd30f9faee281d59ca57597005391579b0debbf5ff131ea66ee5a2bb9182ee1",
+  "net_cap": 10,
+  "clip": 5,
+  "fresh_loss_limit": 100,
+  "actual_orders": 0,
+  "checks": "second clip, reserved net, no over-hedge, small partial, dollar guard, nine quote-loop cases, transition, history, resume, exhaustion, interrupted activation, invalid budget, launcher"
+}

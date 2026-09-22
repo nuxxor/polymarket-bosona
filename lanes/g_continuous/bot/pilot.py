@@ -33,7 +33,7 @@ def verify(root):
         if sha(root/name) != digest:
             raise CheckFailed('Kaynak hash farki: '+name)
     protocol = json.loads((root/'protocol.json').read_text())
-    if (protocol['minutes'], protocol['loss_limit'], protocol['clip'], protocol.get('continuous')) != (None, 10, 5, True):
+    if (protocol['minutes'], protocol['loss_limit'], protocol['clip'], protocol.get('continuous')) != (None, 100 if protocol.get('experiment') == 'G4' else 10, 5, True):
         raise CheckFailed('Beklenmeyen pilot sinirlari')
     return protocol
 
@@ -158,6 +158,8 @@ def preflight(root, protocol):
 def activate_files(root, state, proof, now):
     """Yalniz operator --live yolunda; testler gecici dizinde cagirir."""
     from f_budget import budget_id
+    if (root/'protocol.json').exists() and json.loads((root/'protocol.json').read_text()).get('experiment') == 'G4':
+        raise CheckFailed('G4 activation requires its one-time operator transition')
     if any((root/n).exists() for n in ('RUN_G.json', 'STATE_g.json', 'BUDGET_G.json', 'LOG_g.jsonl')):
         raise CheckFailed('Pilot daha once hazirlanmis; butce/sure sifirlanamaz')
     if not (root/'STOP_G').exists():

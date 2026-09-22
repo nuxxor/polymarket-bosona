@@ -1,0 +1,51 @@
+[
+  {
+    "check": "check_patch.py",
+    "returncode": 0,
+    "summary": [
+      "PASS: exact source update, idempotency, immutable money/state/policy, foreign change rejected"
+    ]
+  },
+  {
+    "check": "bot/test_transport.py",
+    "returncode": 0,
+    "summary": [
+      "PASS: 429/408/429 pause, both account checks before recovery, STOP/budget/recorder gates, invalid data, POST races"
+    ]
+  },
+  {
+    "check": "bot/test_identity.py",
+    "returncode": 0,
+    "summary": [
+      "PASS: actual 999 incident, canonical keys across recovery, cash/multiset, conflicting identities fail closed"
+    ]
+  },
+  {
+    "check": "bot/test_g.py",
+    "returncode": 0,
+    "summary": [
+      "G checks passed: policy, real reservation/risk, partial/repeated fill, STOP, unknown cancel, multiset reconciliation"
+    ]
+  },
+  {
+    "check": "bot/test_g_pilot.py",
+    "returncode": 0,
+    "summary": [
+      "G GECTI: salt-okunur SDK, varsayilan emir yok, hash, tek kullanim, sinirsiz sure/$10, eski muhasebe."
+    ]
+  },
+  {
+    "check": "bot/test_continuous.py",
+    "returncode": 0,
+    "summary": [
+      "PASS: new $10, preserved history, unlimited clock, guard, gzip/multiplicity, PONG health, STOP, low disk, staggered rosters"
+    ]
+  },
+  {
+    "check": "bot/test_g_stream.py",
+    "returncode": 0,
+    "summary": [
+      "WS reader: burst, mixed frame, old snapshot, initial delta, reconnect, heartbeat and stop checks passed"
+    ]
+  }
+]

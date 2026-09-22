@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "fallen",
+      "candidate": false,
+      "flags": 0,
+      "actions": []
+    },
+    {
+      "case": "fallen",
+      "candidate": true,
+      "flags": 1,
+      "actions": [
+        "cancel",
+        "post"
+      ]
+    },
+    {
+      "case": "small_tick",
+      "candidate": true,
+      "flags": 1,
+      "actions": [
+        "cancel",
+        "post"
+      ]
+    },
+    {
+      "case": "reducing",
+      "candidate": true,
+      "flags": 0,
+      "actions": []
+    },
+    {
+      "case": "unchanged",
+      "candidate": true,
+      "flags": 0,
+      "actions": []
+    },
+    {
+      "case": "rising",
+      "candidate": true,
+      "flags": 0,
+      "actions": []
+    },
+    {
+      "case": "stale",
+      "candidate": true,
+      "flags": 0,
+      "actions": [
+        "cancel"
+      ]
+    },
+    {
+      "case": "gate",
+      "candidate": true,
+      "flags": 0,
+      "actions": [
+        "cancel"
+      ]
+    },
+    {
+      "case": "budget",
+      "candidate": true,
+      "flags": 0,
+      "actions": [
+        "cancel"
+      ]
+    },
+    {
+      "case": "cancel_pending",
+      "candidate": true,
+      "flags": 1,
+      "actions": [
+        "cancel"
+      ]
+    },
+    {
+      "case": "cancel_fill",
+      "candidate": true,
+      "flags": 1,
+      "actions": [
+        "cancel"
+      ]
+    }
+  ],
+  "regressions": {
+    "test_transport.py": 0,
+    "test_identity.py": 0,
+    "test_g.py": 0,
+    "test_g_pilot.py": 0,
+    "test_continuous.py": 0,
+    "test_g_stream.py": 0
+  },
+  "ruff_F_E9": "PASS",
+  "syntax": "PASS",
+  "base_sha256": "a5cd853493a6f01ab395495574150bf31c6dec7201783dfb563e98a6e2fa3ca7",
+  "candidate_sha256": "f5cac8add11b514e5a2702730d5c3668a1727d82f8a9af304d05a622b4cd3b10",
+  "live_actions": 0
+}

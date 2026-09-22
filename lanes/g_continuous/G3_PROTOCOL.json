@@ -1,0 +1,49 @@
+{
+  "label": "G3",
+  "status": "OFFLINE_CANDIDATE_NOT_LIVE",
+  "created_ms": 1790083736569,
+  "base_source": "transport_fix/bot/ab.py",
+  "base_sha256": "a5cd853493a6f01ab395495574150bf31c6dec7201783dfb563e98a6e2fa3ca7",
+  "candidate_sha256": "f5cac8add11b514e5a2702730d5c3668a1727d82f8a9af304d05a622b4cd3b10",
+  "policy_sha256": "fbac759df25cecf10ea01bbf9db9da5e07dd90f3b33e844125c51e434eaf2f61",
+  "patch_sha256": "7161025330f87797ecb89dfded35089457210f1f9db4a0521969ca1f4100425e",
+  "hypothesis": "Risk-increasing resting quote: cancel when its price exceeds current valid bid-minus-one-cent target; retain existing reducing-quote policy; replacement requires confirmed closure.",
+  "preserved": [
+    "5-share clip/net cap",
+    "minimum size",
+    "t180 maintenance",
+    "t240 entry / t290 reduction",
+    "per-side cumulative spend/reserves",
+    "current account budget and cutoff",
+    "uncertain-order reserve",
+    "G2 identity and transport fixes"
+  ],
+  "data_scope": "All accepted parents in completed 5-minute markets of first original G1 pilot and fixed read-only current London G2 capture; no filtering by realized win/loss. Missing data remains missing.",
+  "technical_gate": {
+    "required_join_fraction": 0.95,
+    "signals_require": [
+      "fresh book",
+      "own order identity and remaining quantity",
+      "risk role",
+      "placement/ack and terminal/fill/cancel lifecycle",
+      "UTC and monotonic clock mapping"
+    ],
+    "positive_notice_lead_proves_cancelability": false,
+    "no_fabricated_prevented_loss_or_queue_credit": true
+  },
+  "economic_test_not_started": {
+    "assignment": "sha256('ULTRA-Q1|'+str(S)), first-byte low bit: 0 baseline G2, 1 G3",
+    "shared_budget": "existing remaining budget only; no reset or increase",
+    "primary_metric": "fee-net USD per assigned closed window, including zero fills; no assumed rebates",
+    "minimum_claim_scope": "3 UTC days and at least 100 filled windows per arm; not a power guarantee",
+    "acceptance": "clustered lower CI > 0, ex-top3 difference > 0, worst terminal risk and unknown-order exposure not worse",
+    "missing_boundary": "local first fill notification is not execution time; unknown cancellation effect and counterfactual fills block simulated profit claims"
+  },
+  "live_changes": false,
+  "london_capture": {
+    "start_S": 1790082300,
+    "end_S_exclusive": 1790083500,
+    "calendar_windows": 4,
+    "selection": "Every complete BTC5m window in the fixed interval, independent of outcome"
+  }
+}

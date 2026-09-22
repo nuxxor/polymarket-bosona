@@ -20,7 +20,8 @@ def budget_id(data):
 def read_budget(path, allow_unlimited=False):
     if not Path(path).exists(): return None
     b=json.loads(Path(path).read_text())
-    if (b['limit']!=10 or not all(math.isfinite(b[k]) for k in ('anchor','cutoff'))
+    expected = 100 if allow_unlimited and b.get('experiment') == 'G4' else 10
+    if (b['limit']!=expected or not all(math.isfinite(b[k]) for k in ('anchor','cutoff'))
             or not ((allow_unlimited and b.get('continuous') is True and b['end_ms'] is None)
                     or (isinstance(b['end_ms'],(int,float)) and math.isfinite(b['end_ms'])))
             or abs(b['cutoff']-(b['anchor']-b['limit']))>1e-9 or b['id']!=budget_id(b)):

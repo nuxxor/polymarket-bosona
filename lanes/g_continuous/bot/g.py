@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""G1 lane; operator launcher activates the frozen, unlimited-time $10 run."""
+"""G4 lane; operator launcher activates the frozen, unlimited-time $100 run."""
 from pathlib import Path
 import runpy
 import sys

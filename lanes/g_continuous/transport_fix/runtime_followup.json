@@ -1,0 +1,13 @@
+{
+  "checked_utc": "2026-09-22T13:06:35Z",
+  "unresolved_windows": 1,
+  "open_orders_in_state": 1,
+  "unknown_orders_in_state": 0,
+  "inflight_posts_in_state": 0,
+  "local_shares": {
+    "Up": 10,
+    "Down": 15
+  },
+  "last_log_age_seconds": 0.653737,
+  "note": "Read-only second snapshot; the open position is not a settled PnL result."
+}

@@ -1,0 +1,679 @@
+{
+  "sample_markets": 64,
+  "original_classified_parents": 262,
+  "controls_with_no_observed_reduction": 46,
+  "old_complete_taker_contexts": 6,
+  "by_group": {
+    "fixed_inventory_probe_control": {
+      "n": 128,
+      "lag5": {
+        "book_both": 86,
+        "book_any": 86,
+        "spot": 97,
+        "reference": 96,
+        "twap": 97,
+        "combined": 83,
+        "matched_public_ws": 0,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 7,
+        "buy_inventory_depth": 54,
+        "sell_inventory_depth": 54
+      },
+      "lag10": {
+        "book_both": 88,
+        "book_any": 88,
+        "spot": 97,
+        "reference": 96,
+        "twap": 97,
+        "combined": 85,
+        "matched_public_ws": 0,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 15,
+        "buy_inventory_depth": 55,
+        "sell_inventory_depth": 55
+      }
+    },
+    "maker_add": {
+      "n": 101,
+      "lag5": {
+        "book_both": 69,
+        "book_any": 69,
+        "spot": 69,
+        "reference": 70,
+        "twap": 69,
+        "combined": 68,
+        "matched_public_ws": 66,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 12,
+        "buy_inventory_depth": 53,
+        "sell_inventory_depth": 53
+      },
+      "lag10": {
+        "book_both": 70,
+        "book_any": 70,
+        "spot": 70,
+        "reference": 70,
+        "twap": 70,
+        "combined": 70,
+        "matched_public_ws": 66,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 28,
+        "buy_inventory_depth": 55,
+        "sell_inventory_depth": 55
+      }
+    },
+    "maker_open": {
+      "n": 67,
+      "lag5": {
+        "book_both": 45,
+        "book_any": 45,
+        "spot": 51,
+        "reference": 45,
+        "twap": 51,
+        "combined": 44,
+        "matched_public_ws": 50,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 1,
+        "buy_inventory_depth": 0,
+        "sell_inventory_depth": 0
+      },
+      "lag10": {
+        "book_both": 44,
+        "book_any": 44,
+        "spot": 51,
+        "reference": 43,
+        "twap": 51,
+        "combined": 43,
+        "matched_public_ws": 50,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 1,
+        "buy_inventory_depth": 0,
+        "sell_inventory_depth": 0
+      }
+    },
+    "maker_reduce": {
+      "n": 48,
+      "lag5": {
+        "book_both": 30,
+        "book_any": 30,
+        "spot": 30,
+        "reference": 30,
+        "twap": 30,
+        "combined": 30,
+        "matched_public_ws": 27,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 10,
+        "buy_inventory_depth": 21,
+        "sell_inventory_depth": 21
+      },
+      "lag10": {
+        "book_both": 30,
+        "book_any": 30,
+        "spot": 30,
+        "reference": 30,
+        "twap": 30,
+        "combined": 30,
+        "matched_public_ws": 27,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 23,
+        "buy_inventory_depth": 15,
+        "sell_inventory_depth": 15
+      }
+    },
+    "maker_reverse": {
+      "n": 14,
+      "lag5": {
+        "book_both": 9,
+        "book_any": 9,
+        "spot": 8,
+        "reference": 9,
+        "twap": 8,
+        "combined": 8,
+        "matched_public_ws": 9,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 1,
+        "buy_inventory_depth": 9,
+        "sell_inventory_depth": 9
+      },
+      "lag10": {
+        "book_both": 9,
+        "book_any": 9,
+        "spot": 9,
+        "reference": 9,
+        "twap": 9,
+        "combined": 9,
+        "matched_public_ws": 9,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 4,
+        "buy_inventory_depth": 7,
+        "sell_inventory_depth": 7
+      }
+    },
+    "maker+taker_reduce": {
+      "n": 2,
+      "lag5": {
+        "book_both": 0,
+        "book_any": 0,
+        "spot": 0,
+        "reference": 0,
+        "twap": 0,
+        "combined": 0,
+        "matched_public_ws": 0,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 0,
+        "buy_inventory_depth": 0,
+        "sell_inventory_depth": 0
+      },
+      "lag10": {
+        "book_both": 0,
+        "book_any": 0,
+        "spot": 0,
+        "reference": 0,
+        "twap": 0,
+        "combined": 0,
+        "matched_public_ws": 0,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 1,
+        "buy_inventory_depth": 0,
+        "sell_inventory_depth": 0
+      }
+    },
+    "taker_add": {
+      "n": 2,
+      "lag5": {
+        "book_both": 2,
+        "book_any": 2,
+        "spot": 2,
+        "reference": 2,
+        "twap": 2,
+        "combined": 2,
+        "matched_public_ws": 2,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 0,
+        "buy_inventory_depth": 1,
+        "sell_inventory_depth": 1
+      },
+      "lag10": {
+        "book_both": 2,
+        "book_any": 2,
+        "spot": 2,
+        "reference": 2,
+        "twap": 2,
+        "combined": 2,
+        "matched_public_ws": 2,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 1,
+        "buy_inventory_depth": 1,
+        "sell_inventory_depth": 1
+      }
+    },
+    "taker_open": {
+      "n": 2,
+      "lag5": {
+        "book_both": 1,
+        "book_any": 1,
+        "spot": 1,
+        "reference": 1,
+        "twap": 1,
+        "combined": 1,
+        "matched_public_ws": 1,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 0,
+        "buy_inventory_depth": 0,
+        "sell_inventory_depth": 0
+      },
+      "lag10": {
+        "book_both": 1,
+        "book_any": 1,
+        "spot": 1,
+        "reference": 1,
+        "twap": 1,
+        "combined": 1,
+        "matched_public_ws": 1,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 1,
+        "buy_inventory_depth": 1,
+        "sell_inventory_depth": 1
+      }
+    },
+    "taker_reduce": {
+      "n": 26,
+      "lag5": {
+        "book_both": 19,
+        "book_any": 19,
+        "spot": 19,
+        "reference": 19,
+        "twap": 19,
+        "combined": 19,
+        "matched_public_ws": 19,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 4,
+        "buy_inventory_depth": 9,
+        "sell_inventory_depth": 9
+      },
+      "lag10": {
+        "book_both": 19,
+        "book_any": 19,
+        "spot": 19,
+        "reference": 19,
+        "twap": 19,
+        "combined": 19,
+        "matched_public_ws": 19,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 6,
+        "buy_inventory_depth": 10,
+        "sell_inventory_depth": 10
+      }
+    }
+  },
+  "taker_by_day": {
+    "2026-09-13": {
+      "n": 5,
+      "lag5": {
+        "book_both": 4,
+        "book_any": 4,
+        "spot": 4,
+        "reference": 4,
+        "twap": 4,
+        "combined": 4,
+        "matched_public_ws": 4,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 1,
+        "buy_inventory_depth": 0,
+        "sell_inventory_depth": 0
+      },
+      "lag10": {
+        "book_both": 4,
+        "book_any": 4,
+        "spot": 4,
+        "reference": 4,
+        "twap": 4,
+        "combined": 4,
+        "matched_public_ws": 4,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 1,
+        "buy_inventory_depth": 0,
+        "sell_inventory_depth": 0
+      }
+    },
+    "2026-09-14": {
+      "n": 2,
+      "lag5": {
+        "book_both": 2,
+        "book_any": 2,
+        "spot": 2,
+        "reference": 2,
+        "twap": 2,
+        "combined": 2,
+        "matched_public_ws": 2,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 0,
+        "buy_inventory_depth": 1,
+        "sell_inventory_depth": 1
+      },
+      "lag10": {
+        "book_both": 2,
+        "book_any": 2,
+        "spot": 2,
+        "reference": 2,
+        "twap": 2,
+        "combined": 2,
+        "matched_public_ws": 2,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 0,
+        "buy_inventory_depth": 1,
+        "sell_inventory_depth": 1
+      }
+    },
+    "2026-09-15": {
+      "n": 7,
+      "lag5": {
+        "book_both": 7,
+        "book_any": 7,
+        "spot": 7,
+        "reference": 7,
+        "twap": 7,
+        "combined": 7,
+        "matched_public_ws": 7,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 1,
+        "buy_inventory_depth": 4,
+        "sell_inventory_depth": 4
+      },
+      "lag10": {
+        "book_both": 7,
+        "book_any": 7,
+        "spot": 7,
+        "reference": 7,
+        "twap": 7,
+        "combined": 7,
+        "matched_public_ws": 7,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 3,
+        "buy_inventory_depth": 5,
+        "sell_inventory_depth": 5
+      }
+    },
+    "2026-09-16": {
+      "n": 1,
+      "lag5": {
+        "book_both": 1,
+        "book_any": 1,
+        "spot": 1,
+        "reference": 1,
+        "twap": 1,
+        "combined": 1,
+        "matched_public_ws": 1,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 1,
+        "buy_inventory_depth": 1,
+        "sell_inventory_depth": 1
+      },
+      "lag10": {
+        "book_both": 1,
+        "book_any": 1,
+        "spot": 1,
+        "reference": 1,
+        "twap": 1,
+        "combined": 1,
+        "matched_public_ws": 1,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 1,
+        "buy_inventory_depth": 1,
+        "sell_inventory_depth": 1
+      }
+    },
+    "2026-09-17": {
+      "n": 3,
+      "lag5": {
+        "book_both": 3,
+        "book_any": 3,
+        "spot": 3,
+        "reference": 3,
+        "twap": 3,
+        "combined": 3,
+        "matched_public_ws": 3,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 0,
+        "buy_inventory_depth": 1,
+        "sell_inventory_depth": 1
+      },
+      "lag10": {
+        "book_both": 3,
+        "book_any": 3,
+        "spot": 3,
+        "reference": 3,
+        "twap": 3,
+        "combined": 3,
+        "matched_public_ws": 3,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 0,
+        "buy_inventory_depth": 1,
+        "sell_inventory_depth": 1
+      }
+    },
+    "2026-09-18": {
+      "n": 1,
+      "lag5": {
+        "book_both": 0,
+        "book_any": 0,
+        "spot": 0,
+        "reference": 0,
+        "twap": 0,
+        "combined": 0,
+        "matched_public_ws": 0,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 0,
+        "buy_inventory_depth": 0,
+        "sell_inventory_depth": 0
+      },
+      "lag10": {
+        "book_both": 0,
+        "book_any": 0,
+        "spot": 0,
+        "reference": 0,
+        "twap": 0,
+        "combined": 0,
+        "matched_public_ws": 0,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 0,
+        "buy_inventory_depth": 0,
+        "sell_inventory_depth": 0
+      }
+    },
+    "2026-09-19": {
+      "n": 3,
+      "lag5": {
+        "book_both": 0,
+        "book_any": 0,
+        "spot": 0,
+        "reference": 0,
+        "twap": 0,
+        "combined": 0,
+        "matched_public_ws": 0,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 1,
+        "buy_inventory_depth": 0,
+        "sell_inventory_depth": 0
+      },
+      "lag10": {
+        "book_both": 0,
+        "book_any": 0,
+        "spot": 0,
+        "reference": 0,
+        "twap": 0,
+        "combined": 0,
+        "matched_public_ws": 0,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 1,
+        "buy_inventory_depth": 0,
+        "sell_inventory_depth": 0
+      }
+    },
+    "2026-09-20": {
+      "n": 4,
+      "lag5": {
+        "book_both": 2,
+        "book_any": 2,
+        "spot": 2,
+        "reference": 2,
+        "twap": 2,
+        "combined": 2,
+        "matched_public_ws": 2,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 0,
+        "buy_inventory_depth": 2,
+        "sell_inventory_depth": 2
+      },
+      "lag10": {
+        "book_both": 2,
+        "book_any": 2,
+        "spot": 2,
+        "reference": 2,
+        "twap": 2,
+        "combined": 2,
+        "matched_public_ws": 2,
+        "after_matched_ws": 0,
+        "inventory_changed_since_cut": 0,
+        "buy_inventory_depth": 2,
+        "sell_inventory_depth": 2
+      }
+    }
+  },
+  "taker_early": {
+    "n": 19,
+    "lag5": {
+      "book_both": 13,
+      "book_any": 13,
+      "spot": 13,
+      "reference": 13,
+      "twap": 13,
+      "combined": 13,
+      "matched_public_ws": 13,
+      "after_matched_ws": 0,
+      "inventory_changed_since_cut": 2,
+      "buy_inventory_depth": 7,
+      "sell_inventory_depth": 7
+    },
+    "lag10": {
+      "book_both": 13,
+      "book_any": 13,
+      "spot": 13,
+      "reference": 13,
+      "twap": 13,
+      "combined": 13,
+      "matched_public_ws": 13,
+      "after_matched_ws": 0,
+      "inventory_changed_since_cut": 4,
+      "buy_inventory_depth": 7,
+      "sell_inventory_depth": 7
+    }
+  },
+  "taker_late": {
+    "n": 7,
+    "lag5": {
+      "book_both": 6,
+      "book_any": 6,
+      "spot": 6,
+      "reference": 6,
+      "twap": 6,
+      "combined": 6,
+      "matched_public_ws": 6,
+      "after_matched_ws": 0,
+      "inventory_changed_since_cut": 2,
+      "buy_inventory_depth": 2,
+      "sell_inventory_depth": 2
+    },
+    "lag10": {
+      "book_both": 6,
+      "book_any": 6,
+      "spot": 6,
+      "reference": 6,
+      "twap": 6,
+      "combined": 6,
+      "matched_public_ws": 6,
+      "after_matched_ws": 0,
+      "inventory_changed_since_cut": 2,
+      "buy_inventory_depth": 3,
+      "sell_inventory_depth": 3
+    }
+  },
+  "db_stats": {
+    "1789832700": {
+      "events_read": 55108,
+      "l1_mismatch_invalidated": 50
+    },
+    "1789887300": {
+      "events_read": 187202,
+      "l1_mismatch_invalidated": 474
+    },
+    "1789909800": {
+      "events_read": 1610
+    },
+    "1789917000": {
+      "events_read": 197033,
+      "l1_mismatch_invalidated": 380
+    },
+    "1789919100": {
+      "events_read": 155344,
+      "l1_mismatch_invalidated": 190
+    },
+    "1789919400": {
+      "events_read": 193212,
+      "l1_mismatch_invalidated": 384
+    },
+    "1789924800": {
+      "events_read": 143393,
+      "l1_mismatch_invalidated": 304
+    },
+    "1789938000": {
+      "events_read": 80176,
+      "l1_mismatch_invalidated": 100
+    },
+    "1789939500": {
+      "events_read": 112650,
+      "l1_mismatch_invalidated": 168
+    }
+  },
+  "excluded_price_sources": [
+    [
+      "cld_20260915_16.jsonl.gz",
+      "EOFError"
+    ],
+    [
+      "cld_20260917_08.jsonl.gz",
+      "EOFError"
+    ],
+    [
+      "cld_20260919_19.jsonl.gz",
+      "error"
+    ],
+    [
+      "cld_20260920_09.jsonl.gz",
+      "error"
+    ],
+    [
+      "cld_20260920_23.jsonl.gz",
+      "EOFError"
+    ]
+  ],
+  "caveats": [
+    "Public-second event minus 5/10s is a timestamp sensitivity, not known actor placement time.",
+    "exchange_age inherited field is public WS payload timestamp, never exact actor decision time.",
+    "Cached older books retain only both-sided valid pairs; missing cache does not prove absent raw.",
+    "Pre-window zero inventory is inherited public history assumption; external transfers are not established.",
+    "Controls are two fixed times in all original sample markets; no_observed_reduction is an outcome-independent observed behavior cohort label, not decision not to hedge.",
+    "Cash execution estimates use archived feeSchedule and displayed depth, no fill guarantee or latency buffer."
+  ],
+  "missing_taker_contexts": [
+    {
+      "S": 1789290300,
+      "age": 144,
+      "parent": "0x5f2d59ddffcaf81100d0eaf1e0c1d5592d8ec5ebc1f8860997d8f0cc5100bb6f",
+      "reason": "before_accessible_raw_archive",
+      "legacy_available": "missing_or_ambiguous_clock_book_reference"
+    },
+    {
+      "S": 1789775400,
+      "age": 253,
+      "parent": "0x28eac62562902a9ed05ebe6ce2c2defafe142ebd73fc1aa11e387fff07ae5dcb",
+      "reason": "between_old_tape_end_and_new_DB_start",
+      "legacy_available": "missing_or_ambiguous_clock_book_reference"
+    },
+    {
+      "S": 1789776900,
+      "age": 82,
+      "parent": "0xea2d7f63bce5e8c2736182ba815f72c602d5e270f68a8115e38957a35434ac78",
+      "reason": "between_old_tape_end_and_new_DB_start",
+      "legacy_available": "missing_or_ambiguous_clock_book_reference"
+    },
+    {
+      "S": 1789793400,
+      "age": 24,
+      "parent": "0x18f522b85e1b469fe4ac0e65ee49f50e777941e8adbffeadd9886708c54c62cc",
+      "reason": "between_old_tape_end_and_new_DB_start",
+      "legacy_available": "missing_or_ambiguous_clock_book_reference"
+    },
+    {
+      "S": 1789814100,
+      "age": 32,
+      "parent": "0x2c2380048f3ccceb6f6e35249571f80a1b94bafddbff24c20c94c17bf299fb03",
+      "reason": "between_old_tape_end_and_new_DB_start",
+      "legacy_available": "missing_or_ambiguous_clock_book_reference"
+    },
+    {
+      "S": 1789909800,
+      "age": 63,
+      "parent": "0xf7d4d65b6a2efb2137b7b9e9bdbf9fdb858ae49e998977b470f1a60b24b65f21",
+      "reason": "recording_outage_first_20Sep_13h_records_at_13_13_47UTC",
+      "legacy_available": "missing_or_ambiguous_clock_book_reference"
+    },
+    {
+      "S": 1789909800,
+      "age": 141,
+      "parent": "0x604f02402d9178dc225880a0617c5b8c78bb5a00163da5739742c1e685dec148",
+      "reason": "recording_outage_first_20Sep_13h_records_at_13_13_47UTC",
+      "legacy_available": "missing_or_ambiguous_clock_book_reference"
+    }
+  ]
+}

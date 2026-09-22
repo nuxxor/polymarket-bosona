@@ -48,7 +48,8 @@ def main():
     assert g.target(0.74, 0.75, 0.01, 0, 0) == 0.73
     assert g.target(0.263, 0.264, 0.001, 0, 0) == 0.253
     assert g.target(0.02, 0.03, 0.01, 0, 0) == 0.01
-    assert g.target(0.74, 0.75, 0.01, 5, 0) is None
+    assert g.target(0.74, 0.75, 0.01, 5, 0) == 0.73
+    assert g.target(0.74, 0.75, 0.01, 10, 0) is None
     assert g.target(0.74, 0.75, 0.01, 0, 5) == 0.73
     for args in (
         (None, 0.75, 0.01, 0, 0),

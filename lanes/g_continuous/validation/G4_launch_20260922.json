@@ -1,0 +1,677 @@
+{
+  "status": "LIVE_CONFIRMED_FIRST_WINDOW",
+  "checked_utc": "2026-09-22T16:45:17Z",
+  "live_started_utc": "2026-09-22T16:42:23Z",
+  "host": "London 18.135.99.14",
+  "scope": "Operator-start verification, not a profitability test",
+  "source_sha256": "0fd30f9faee281d59ca57597005391579b0debbf5ff131ea66ee5a2bb9182ee1",
+  "activation": {
+    "source_sha": "0fd30f9faee281d59ca57597005391579b0debbf5ff131ea66ee5a2bb9182ee1",
+    "budget": {
+      "experiment": "G4",
+      "limit": 100,
+      "anchor": -15.3345,
+      "cutoff": -115.3345,
+      "end_ms": null,
+      "continuous": true,
+      "created_ms": 1790095332896,
+      "previous_stop": null,
+      "id": "9e510ca7460ed5970db5"
+    },
+    "proof": {
+      "checked_ms": 1790095332896,
+      "pnl": -15.334448,
+      "windows": 142,
+      "orders": 1135,
+      "open_orders": 0,
+      "risk": 0
+    },
+    "previous_budget_id": "4527c3ca7a69abf92a33"
+  },
+  "live_processes": [
+    {
+      "pid": 185637,
+      "entry": [
+        "/home/ubuntu/polymarket-bosona-g-continuous/bot/g.py"
+      ],
+      "live": true
+    },
+    {
+      "pid": 186231,
+      "entry": [
+        "/home/ubuntu/polymarket-bosona-g-continuous/bot/observer.py"
+      ],
+      "live": false
+    },
+    {
+      "pid": 186232,
+      "entry": [
+        "/home/ubuntu/polymarket-bosona-g-continuous/bot/observer.py"
+      ],
+      "live": false
+    },
+    {
+      "pid": 186233,
+      "entry": [
+        "/home/ubuntu/polymarket-bosona-g-continuous/bot/observer.py"
+      ],
+      "live": false
+    }
+  ],
+  "budget": {
+    "id": "9e510ca7460ed5970db5",
+    "anchor": -15.3345,
+    "limit": 100,
+    "cutoff": -115.3345,
+    "end_ms": null
+  },
+  "first_window": 1790095500,
+  "first_fills": [
+    {
+      "t": "16:45:11",
+      "utc_ms": 1790095511874,
+      "k": "dolum",
+      "sym": "btc",
+      "S": 1790095500,
+      "oid": "0x8a105d14d353e06f947cdf618b2eb4fd01dc1ad384a8c4e7f3a58eb0083d886c",
+      "oi": 1,
+      "p": 0.7,
+      "ofset": 0.7,
+      "yeni": 5,
+      "toplam": 5,
+      "kaynak": "yoklama",
+      "gecen_sn": 11.9
+    },
+    {
+      "t": "16:45:15",
+      "utc_ms": 1790095515071,
+      "k": "dolum",
+      "sym": "btc",
+      "S": 1790095500,
+      "oid": "0x3704c10cb2ff3524d688187e6f912111e4cf531ee0a31dfa766c801fd291ae16",
+      "oi": 1,
+      "p": 0.69,
+      "ofset": 0.69,
+      "yeni": 5,
+      "toplam": 5,
+      "kaynak": "kapat:taze_yenile",
+      "gecen_sn": 15.1
+    }
+  ],
+  "net_limit_decision": {
+    "t": "16:45:16",
+    "utc_ms": 1790095516905,
+    "k": "G_KARAR",
+    "S": 1790095500,
+    "oi": 1,
+    "karar_ms": 1790095516905,
+    "kalan_sn": 283.0951373577118,
+    "bb": 0.62,
+    "ba": 0.63,
+    "spread": 0.010000000000000009,
+    "bb_boy": 197.23,
+    "defter_yasi": 0.007864236831665039,
+    "up": 0,
+    "down": 10,
+    "hedef": null,
+    "boy": 0,
+    "rol": "acilis",
+    "c_hedef_ayni_envanter": null,
+    "veri_bagli": false,
+    "fiyatlar": {},
+    "mutabakat": true
+  },
+  "first_orders": [
+    {
+      "t": "16:45:05",
+      "utc_ms": 1790095505630,
+      "k": "taze_koy",
+      "sym": "btc",
+      "S": 1790095500,
+      "kol": "G",
+      "oi": 0,
+      "p": 0.27,
+      "boy": 5,
+      "oid": "0x99d2e5bb1ebb38635a137527fd45602fe53115892e4381afb6fad588a519ce1b",
+      "bb": 0.28,
+      "ba": 0.29
+    },
+    {
+      "t": "16:45:05",
+      "utc_ms": 1790095505815,
+      "k": "taze_koy",
+      "sym": "btc",
+      "S": 1790095500,
+      "kol": "G",
+      "oi": 1,
+      "p": 0.7,
+      "boy": 5,
+      "oid": "0x8a105d14d353e06f947cdf618b2eb4fd01dc1ad384a8c4e7f3a58eb0083d886c",
+      "bb": 0.71,
+      "ba": 0.72
+    },
+    {
+      "t": "16:45:12",
+      "utc_ms": 1790095512045,
+      "k": "taze_koy",
+      "sym": "btc",
+      "S": 1790095500,
+      "kol": "G",
+      "oi": 1,
+      "p": 0.69,
+      "boy": 5,
+      "oid": "0x3704c10cb2ff3524d688187e6f912111e4cf531ee0a31dfa766c801fd291ae16",
+      "bb": 0.7,
+      "ba": 0.71
+    },
+    {
+      "t": "16:45:16",
+      "utc_ms": 1790095516187,
+      "k": "taze_koy",
+      "sym": "btc",
+      "S": 1790095500,
+      "kol": "G",
+      "oi": 0,
+      "p": 0.34,
+      "boy": 5,
+      "oid": "0xefdd807a4c5e9817117899ab40bbbe678d3e4355bd46ba32ce56608bae1839a3",
+      "bb": 0.35,
+      "ba": 0.36
+    }
+  ],
+  "recorders_healthy": true,
+  "sdk_errors": 0,
+  "checks_passed": true,
+  "polls": [
+    {
+      "utc": "2026-09-22T16:32:22Z",
+      "source": "f1f175671b6f2268f7359732b0e4fd8dfa392cc5262b13406e5fa6af64242a70",
+      "budget": {
+        "id": "4527c3ca7a69abf92a33",
+        "anchor": -6.0286,
+        "limit": 10,
+        "cutoff": -16.0286,
+        "end_ms": null
+      },
+      "state": {
+        "pnl": -15.3345,
+        "pnl_yerel": -15.334448,
+        "pencere": 142,
+        "emir": 1135,
+        "dolum": 104,
+        "pay": 2148.049364,
+        "durdu": null,
+        "f_budget_id": "4527c3ca7a69abf92a33",
+        "red": 158,
+        "bilinmeyen": 0
+      },
+      "operator_pid": 185637,
+      "healthy": false,
+      "processes": [],
+      "preflight": [
+        {
+          "event": "state_yuklendi",
+          "pnl": -15.33
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-22T16:34:12Z",
+      "source": "f1f175671b6f2268f7359732b0e4fd8dfa392cc5262b13406e5fa6af64242a70",
+      "budget": {
+        "id": "4527c3ca7a69abf92a33",
+        "anchor": -6.0286,
+        "limit": 10,
+        "cutoff": -16.0286,
+        "end_ms": null
+      },
+      "state": {
+        "pnl": -15.3345,
+        "pnl_yerel": -15.334448,
+        "pencere": 142,
+        "emir": 1135,
+        "dolum": 104,
+        "pay": 2148.049364,
+        "durdu": null,
+        "f_budget_id": "4527c3ca7a69abf92a33",
+        "red": 158,
+        "bilinmeyen": 0
+      },
+      "operator_pid": 185637,
+      "healthy": false,
+      "processes": [],
+      "preflight": [
+        {
+          "event": "state_yuklendi",
+          "pnl": -15.33
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-22T16:35:37Z",
+      "source": "f1f175671b6f2268f7359732b0e4fd8dfa392cc5262b13406e5fa6af64242a70",
+      "budget": {
+        "id": "4527c3ca7a69abf92a33",
+        "anchor": -6.0286,
+        "limit": 10,
+        "cutoff": -16.0286,
+        "end_ms": null
+      },
+      "state": {
+        "pnl": -15.3345,
+        "pnl_yerel": -15.334448,
+        "pencere": 142,
+        "emir": 1135,
+        "dolum": 104,
+        "pay": 2148.049364,
+        "durdu": null,
+        "f_budget_id": "4527c3ca7a69abf92a33",
+        "red": 158,
+        "bilinmeyen": 0
+      },
+      "operator_pid": 185637,
+      "healthy": false,
+      "processes": [],
+      "preflight": [
+        {
+          "event": "state_yuklendi",
+          "pnl": -15.33
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-22T16:36:54Z",
+      "source": "f1f175671b6f2268f7359732b0e4fd8dfa392cc5262b13406e5fa6af64242a70",
+      "budget": {
+        "id": "4527c3ca7a69abf92a33",
+        "anchor": -6.0286,
+        "limit": 10,
+        "cutoff": -16.0286,
+        "end_ms": null
+      },
+      "state": {
+        "pnl": -15.3345,
+        "pnl_yerel": -15.334448,
+        "pencere": 142,
+        "emir": 1135,
+        "dolum": 104,
+        "pay": 2148.049364,
+        "durdu": null,
+        "f_budget_id": "4527c3ca7a69abf92a33",
+        "red": 158,
+        "bilinmeyen": 0
+      },
+      "operator_pid": 185637,
+      "healthy": false,
+      "processes": [],
+      "preflight": [
+        {
+          "event": "state_yuklendi",
+          "pnl": -15.33
+        },
+        {
+          "event": "COZULDU",
+          "S": 1790094300,
+          "pay": 0,
+          "maliyet": 0,
+          "pnl": 0,
+          "duzeltme": false
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-22T16:37:58Z",
+      "source": "f1f175671b6f2268f7359732b0e4fd8dfa392cc5262b13406e5fa6af64242a70",
+      "budget": {
+        "id": "4527c3ca7a69abf92a33",
+        "anchor": -6.0286,
+        "limit": 10,
+        "cutoff": -16.0286,
+        "end_ms": null
+      },
+      "state": {
+        "pnl": -15.3345,
+        "pnl_yerel": -15.334448,
+        "pencere": 142,
+        "emir": 1135,
+        "dolum": 104,
+        "pay": 2148.049364,
+        "durdu": null,
+        "f_budget_id": "4527c3ca7a69abf92a33",
+        "red": 158,
+        "bilinmeyen": 0
+      },
+      "operator_pid": 185637,
+      "healthy": false,
+      "processes": [],
+      "preflight": [
+        {
+          "event": "state_yuklendi",
+          "pnl": -15.33
+        },
+        {
+          "event": "COZULDU",
+          "S": 1790094300,
+          "pay": 0,
+          "maliyet": 0,
+          "pnl": 0,
+          "duzeltme": false
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-22T16:38:59Z",
+      "source": "f1f175671b6f2268f7359732b0e4fd8dfa392cc5262b13406e5fa6af64242a70",
+      "budget": {
+        "id": "4527c3ca7a69abf92a33",
+        "anchor": -6.0286,
+        "limit": 10,
+        "cutoff": -16.0286,
+        "end_ms": null
+      },
+      "state": {
+        "pnl": -15.3345,
+        "pnl_yerel": -15.334448,
+        "pencere": 142,
+        "emir": 1135,
+        "dolum": 104,
+        "pay": 2148.049364,
+        "durdu": null,
+        "f_budget_id": "4527c3ca7a69abf92a33",
+        "red": 158,
+        "bilinmeyen": 0
+      },
+      "operator_pid": 185637,
+      "healthy": false,
+      "processes": [],
+      "preflight": [
+        {
+          "event": "state_yuklendi",
+          "pnl": -15.33
+        },
+        {
+          "event": "COZULDU",
+          "S": 1790094300,
+          "pay": 0,
+          "maliyet": 0,
+          "pnl": 0,
+          "duzeltme": false
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-22T16:40:01Z",
+      "source": "f1f175671b6f2268f7359732b0e4fd8dfa392cc5262b13406e5fa6af64242a70",
+      "budget": {
+        "id": "4527c3ca7a69abf92a33",
+        "anchor": -6.0286,
+        "limit": 10,
+        "cutoff": -16.0286,
+        "end_ms": null
+      },
+      "state": {
+        "pnl": -15.3345,
+        "pnl_yerel": -15.334448,
+        "pencere": 142,
+        "emir": 1135,
+        "dolum": 104,
+        "pay": 2148.049364,
+        "durdu": null,
+        "f_budget_id": "4527c3ca7a69abf92a33",
+        "red": 158,
+        "bilinmeyen": 0
+      },
+      "operator_pid": 185637,
+      "healthy": false,
+      "processes": [],
+      "preflight": [
+        {
+          "event": "state_yuklendi",
+          "pnl": -15.33
+        },
+        {
+          "event": "COZULDU",
+          "S": 1790094300,
+          "pay": 0,
+          "maliyet": 0,
+          "pnl": 0,
+          "duzeltme": false
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-22T16:41:27Z",
+      "source": "f1f175671b6f2268f7359732b0e4fd8dfa392cc5262b13406e5fa6af64242a70",
+      "budget": {
+        "id": "4527c3ca7a69abf92a33",
+        "anchor": -6.0286,
+        "limit": 10,
+        "cutoff": -16.0286,
+        "end_ms": null
+      },
+      "state": {
+        "pnl": -15.3345,
+        "pnl_yerel": -15.334448,
+        "pencere": 142,
+        "emir": 1135,
+        "dolum": 104,
+        "pay": 2148.049364,
+        "durdu": null,
+        "f_budget_id": "4527c3ca7a69abf92a33",
+        "red": 158,
+        "bilinmeyen": 0
+      },
+      "operator_pid": 185637,
+      "healthy": false,
+      "processes": [],
+      "preflight": [
+        {
+          "event": "state_yuklendi",
+          "pnl": -15.33
+        },
+        {
+          "event": "COZULDU",
+          "S": 1790094300,
+          "pay": 0,
+          "maliyet": 0,
+          "pnl": 0,
+          "duzeltme": false
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-22T16:42:44Z",
+      "source": "0fd30f9faee281d59ca57597005391579b0debbf5ff131ea66ee5a2bb9182ee1",
+      "budget": {
+        "id": "9e510ca7460ed5970db5",
+        "anchor": -15.3345,
+        "limit": 100,
+        "cutoff": -115.3345,
+        "end_ms": null
+      },
+      "state": {
+        "pnl": -15.3345,
+        "pnl_yerel": -15.334448,
+        "pencere": 142,
+        "emir": 1135,
+        "dolum": 104,
+        "pay": 2148.049364,
+        "durdu": null,
+        "f_budget_id": "9e510ca7460ed5970db5",
+        "red": 158,
+        "bilinmeyen": 0
+      },
+      "healthy": true,
+      "processes": [
+        {
+          "pid": 185637,
+          "entry": [
+            "/home/ubuntu/polymarket-bosona-g-continuous/bot/g.py"
+          ],
+          "live": true
+        },
+        {
+          "pid": 186231,
+          "entry": [
+            "/home/ubuntu/polymarket-bosona-g-continuous/bot/observer.py"
+          ],
+          "live": false
+        },
+        {
+          "pid": 186232,
+          "entry": [
+            "/home/ubuntu/polymarket-bosona-g-continuous/bot/observer.py"
+          ],
+          "live": false
+        },
+        {
+          "pid": 186233,
+          "entry": [
+            "/home/ubuntu/polymarket-bosona-g-continuous/bot/observer.py"
+          ],
+          "live": false
+        }
+      ],
+      "preflight": [
+        {
+          "event": "state_yuklendi",
+          "pnl": -15.33
+        },
+        {
+          "event": "maruziyet"
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-22T16:44:14Z",
+      "source": "0fd30f9faee281d59ca57597005391579b0debbf5ff131ea66ee5a2bb9182ee1",
+      "budget": {
+        "id": "9e510ca7460ed5970db5",
+        "anchor": -15.3345,
+        "limit": 100,
+        "cutoff": -115.3345,
+        "end_ms": null
+      },
+      "state": {
+        "pnl": -15.3345,
+        "pnl_yerel": -15.334448,
+        "pencere": 142,
+        "emir": 1135,
+        "dolum": 104,
+        "pay": 2148.049364,
+        "durdu": null,
+        "f_budget_id": "9e510ca7460ed5970db5",
+        "red": 158,
+        "bilinmeyen": 0
+      },
+      "healthy": true,
+      "processes": [
+        {
+          "pid": 185637,
+          "entry": [
+            "/home/ubuntu/polymarket-bosona-g-continuous/bot/g.py"
+          ],
+          "live": true
+        },
+        {
+          "pid": 186231,
+          "entry": [
+            "/home/ubuntu/polymarket-bosona-g-continuous/bot/observer.py"
+          ],
+          "live": false
+        },
+        {
+          "pid": 186232,
+          "entry": [
+            "/home/ubuntu/polymarket-bosona-g-continuous/bot/observer.py"
+          ],
+          "live": false
+        },
+        {
+          "pid": 186233,
+          "entry": [
+            "/home/ubuntu/polymarket-bosona-g-continuous/bot/observer.py"
+          ],
+          "live": false
+        }
+      ],
+      "preflight": [
+        {
+          "event": "state_yuklendi",
+          "pnl": -15.33
+        },
+        {
+          "event": "maruziyet"
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-22T16:45:17Z",
+      "source": "0fd30f9faee281d59ca57597005391579b0debbf5ff131ea66ee5a2bb9182ee1",
+      "budget": {
+        "id": "9e510ca7460ed5970db5",
+        "anchor": -15.3345,
+        "limit": 100,
+        "cutoff": -115.3345,
+        "end_ms": null
+      },
+      "state": {
+        "pnl": -15.3345,
+        "pnl_yerel": -15.334448,
+        "pencere": 143,
+        "emir": 1139,
+        "dolum": 104,
+        "pay": 2148.049364,
+        "durdu": null,
+        "f_budget_id": "9e510ca7460ed5970db5",
+        "red": 158,
+        "bilinmeyen": 0
+      },
+      "healthy": true,
+      "processes": [
+        {
+          "pid": 185637,
+          "entry": [
+            "/home/ubuntu/polymarket-bosona-g-continuous/bot/g.py"
+          ],
+          "live": true
+        },
+        {
+          "pid": 186231,
+          "entry": [
+            "/home/ubuntu/polymarket-bosona-g-continuous/bot/observer.py"
+          ],
+          "live": false
+        },
+        {
+          "pid": 186232,
+          "entry": [
+            "/home/ubuntu/polymarket-bosona-g-continuous/bot/observer.py"
+          ],
+          "live": false
+        },
+        {
+          "pid": 186233,
+          "entry": [
+            "/home/ubuntu/polymarket-bosona-g-continuous/bot/observer.py"
+          ],
+          "live": false
+        }
+      ],
+      "preflight": [
+        {
+          "event": "state_yuklendi",
+          "pnl": -15.33
+        },
+        {
+          "event": "maruziyet"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "First G4 window unresolved; no G4 profitability result",
+    "Short source/operation check only; future health is not guaranteed",
+    "Legacy lifetime PnL preserved; G4 starts at fresh -15.3345 anchor"
+  ]
+}

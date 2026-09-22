@@ -1,0 +1,824 @@
+{
+  "status": "PASS",
+  "source_sha256": {
+    "context/events.json": "d57ebeef0f21df67c061b84d105fc3efd3e408892d978a931fbac2f23e9a7658",
+    "context/reconstruct.py": "9304229f90f8bf0e22cf76d81a10eb65a7f26535104e43f30481beeb8840e91f",
+    "mechanisms.py": "0c42291e0cb8ebc9096bfd4730394321cf401d713775d07c9382602d0db2c956"
+  },
+  "context_events": 390,
+  "controls": 128,
+  "execution_quotes_checked": 278,
+  "quote_checks_using_cached_cash_not_raw_ladder": 109,
+  "usable_probe_rows": 118,
+  "economics": {
+    "lag5_nominal120": {
+      "n": 30,
+      "delta": -6.815799999999996
+    },
+    "lag10_nominal120": {
+      "n": 29,
+      "delta": -10.008379999999999
+    },
+    "lag5_nominal240": {
+      "n": 28,
+      "delta": -8.474189999999998
+    },
+    "lag10_nominal240": {
+      "n": 31,
+      "delta": -12.111369999999996
+    }
+  },
+  "existing_mechanisms_matches_current_context": true,
+  "fee_rounding_differences": [
+    {
+      "S": 1789309200,
+      "lag": "lag5",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "3.37514",
+      "float_cash": 3.3751299999999995,
+      "difference": "0.0000100000000005",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789325400,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "3.06842",
+      "float_cash": 3.06841,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789342800,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "1.08802",
+      "float_cash": 1.0880100000000001,
+      "difference": "0.0000099999999999",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789342800,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "1.67038",
+      "float_cash": 1.67037,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789362300,
+      "lag": "lag5",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "1.86674",
+      "float_cash": 1.8667300000000002,
+      "difference": "0.0000099999999998",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789362300,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "1.18438",
+      "float_cash": 1.18437,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789382400,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "1.37794",
+      "float_cash": 1.3779299999999999,
+      "difference": "0.0000100000000001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789382400,
+      "lag": "lag5",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.23338",
+      "float_cash": 0.23337,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789382400,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.04654",
+      "float_cash": 0.04653,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789384500,
+      "lag": "lag5",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.23338",
+      "float_cash": 0.23337,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789384500,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.32722",
+      "float_cash": 0.32721000000000006,
+      "difference": "0.00000999999999994",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789402800,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "1.57262",
+      "float_cash": 1.57261,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789402800,
+      "lag": "lag5",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "4.20538",
+      "float_cash": 4.20537,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789436700,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "1.96534",
+      "float_cash": 1.9653299999999998,
+      "difference": "0.0000100000000002",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789436700,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "1.67038",
+      "float_cash": 1.67037,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789438800,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "1.67038",
+      "float_cash": 1.67037,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789438800,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.32722",
+      "float_cash": 0.32721000000000006,
+      "difference": "0.00000999999999994",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789449300,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.32722",
+      "float_cash": 0.32721000000000006,
+      "difference": "0.00000999999999994",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789456200,
+      "lag": "lag5",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "2.36254",
+      "float_cash": 2.36253,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789456200,
+      "lag": "lag5",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "2.76422",
+      "float_cash": 2.76421,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789472100,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.23338",
+      "float_cash": 0.23337,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789546200,
+      "lag": "lag5",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "1.18438",
+      "float_cash": 1.18437,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789554900,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "3.17038",
+      "float_cash": 3.17037,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789570800,
+      "lag": "lag5",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.04654",
+      "float_cash": 0.04653,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789577400,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.32722",
+      "float_cash": 0.32721000000000006,
+      "difference": "0.00000999999999994",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789580400,
+      "lag": "lag5",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.89614",
+      "float_cash": 0.89613,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789589700,
+      "lag": "lag5",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.04654",
+      "float_cash": 0.04653,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789589700,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.04654",
+      "float_cash": 0.04653,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789605000,
+      "lag": "lag5",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "4.10062",
+      "float_cash": 4.10061,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789605000,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "4.10062",
+      "float_cash": 4.10061,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789605000,
+      "lag": "lag5",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "4.83982",
+      "float_cash": 4.83981,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789623000,
+      "lag": "lag5",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.61042",
+      "float_cash": 0.61041,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789634700,
+      "lag": "lag5",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "3.27262",
+      "float_cash": 3.2726100000000002,
+      "difference": "0.0000099999999998",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789634700,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "3.58102",
+      "float_cash": 3.58101,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789637100,
+      "lag": "lag5",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.70538",
+      "float_cash": 0.70537,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789637100,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.99194",
+      "float_cash": 0.9919300000000001,
+      "difference": "0.0000099999999999",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789687800,
+      "lag": "lag5",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.32722",
+      "float_cash": 0.32721000000000006,
+      "difference": "0.00000999999999994",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789687800,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.32722",
+      "float_cash": 0.32721000000000006,
+      "difference": "0.00000999999999994",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789687800,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.04654",
+      "float_cash": 0.04653,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789699200,
+      "lag": "lag5",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.61042",
+      "float_cash": 0.61041,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789699200,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.51574",
+      "float_cash": 0.51573,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789725000,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "1.28102",
+      "float_cash": 1.2810100000000002,
+      "difference": "0.0000099999999998",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789725000,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.23338",
+      "float_cash": 0.23337,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789725600,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.61042",
+      "float_cash": 0.61041,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789729800,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "1.28102",
+      "float_cash": 1.2810100000000002,
+      "difference": "0.0000099999999998",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789739700,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "1.08802",
+      "float_cash": 1.0880100000000001,
+      "difference": "0.0000099999999999",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789832700,
+      "lag": "lag5",
+      "age": 120,
+      "leg": "opposite_buy_5",
+      "decimal_cash": "4.76662",
+      "float_cash": 4.76663,
+      "difference": "-0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789832700,
+      "lag": "lag5",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.23338",
+      "float_cash": 0.23337,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789887300,
+      "lag": "lag5",
+      "age": 120,
+      "leg": "opposite_buy_5",
+      "decimal_cash": "0.79462",
+      "float_cash": 0.79463,
+      "difference": "-0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789887300,
+      "lag": "lag5",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "4.20538",
+      "float_cash": 4.20537,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789887300,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "opposite_buy_5",
+      "decimal_cash": "0.89938",
+      "float_cash": 0.8993900000000001,
+      "difference": "-0.0000100000000001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789887300,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "4.10062",
+      "float_cash": 4.10061,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789887300,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "0.99194",
+      "float_cash": 0.9919300000000001,
+      "difference": "0.0000099999999999",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789909800,
+      "lag": "lag5",
+      "age": 240,
+      "leg": "opposite_buy_5",
+      "decimal_cash": "4.86018",
+      "float_cash": 4.860189999999999,
+      "difference": "-0.000009999999999",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789909800,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "opposite_buy_5",
+      "decimal_cash": "4.86018",
+      "float_cash": 4.860189999999999,
+      "difference": "-0.000009999999999",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789917000,
+      "lag": "lag5",
+      "age": 120,
+      "leg": "opposite_buy_5",
+      "decimal_cash": "2.03326",
+      "float_cash": 2.0332700000000004,
+      "difference": "-0.0000100000000004",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789917000,
+      "lag": "lag5",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "2.96674",
+      "float_cash": 2.9667299999999996,
+      "difference": "0.0000100000000004",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789917000,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "opposite_buy_5",
+      "decimal_cash": "1.93158",
+      "float_cash": 1.9315900000000001,
+      "difference": "-0.0000100000000001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789917000,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "3.06842",
+      "float_cash": 3.06841,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789919100,
+      "lag": "lag5",
+      "age": 120,
+      "leg": "opposite_buy_5",
+      "decimal_cash": "1.00386",
+      "float_cash": 1.00387,
+      "difference": "-0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789919100,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "opposite_buy_5",
+      "decimal_cash": "1.00386",
+      "float_cash": 1.00387,
+      "difference": "-0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789919100,
+      "lag": "lag5",
+      "age": 240,
+      "leg": "opposite_buy_5",
+      "decimal_cash": "0.05346",
+      "float_cash": 0.053470000000000004,
+      "difference": "-0.000010000000000004",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789919100,
+      "lag": "lag5",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "4.94654",
+      "float_cash": 4.94653,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789919400,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "opposite_buy_5",
+      "decimal_cash": "3.71898",
+      "float_cash": 3.71899,
+      "difference": "-0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789919400,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "1.28102",
+      "float_cash": 1.2810100000000002,
+      "difference": "0.0000099999999998",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789924800,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "opposite_buy_5",
+      "decimal_cash": "3.32962",
+      "float_cash": 3.32963,
+      "difference": "-0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789924800,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "1.67038",
+      "float_cash": 1.67037,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789924800,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "opposite_buy_5",
+      "decimal_cash": "2.93578",
+      "float_cash": 2.9357899999999995,
+      "difference": "-0.0000099999999995",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789924800,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "2.06422",
+      "float_cash": 2.06421,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789938000,
+      "lag": "lag5",
+      "age": 120,
+      "leg": "opposite_buy_5",
+      "decimal_cash": "0.37278",
+      "float_cash": 0.37279,
+      "difference": "-0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789938000,
+      "lag": "lag5",
+      "age": 240,
+      "leg": "opposite_buy_5",
+      "decimal_cash": "0.05346",
+      "float_cash": 0.053470000000000004,
+      "difference": "-0.000010000000000004",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789938000,
+      "lag": "lag5",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "4.94654",
+      "float_cash": 4.94653,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789938000,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "opposite_buy_5",
+      "decimal_cash": "0.05346",
+      "float_cash": 0.053470000000000004,
+      "difference": "-0.000010000000000004",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789938000,
+      "lag": "lag10",
+      "age": 240,
+      "leg": "held_sell_5",
+      "decimal_cash": "4.94654",
+      "float_cash": 4.94653,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789939500,
+      "lag": "lag5",
+      "age": 120,
+      "leg": "opposite_buy_5",
+      "decimal_cash": "3.42738",
+      "float_cash": 3.42739,
+      "difference": "-0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789939500,
+      "lag": "lag5",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "1.57262",
+      "float_cash": 1.57261,
+      "difference": "0.00001",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789939500,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "opposite_buy_5",
+      "decimal_cash": "3.23158",
+      "float_cash": 3.2315899999999997,
+      "difference": "-0.0000099999999997",
+      "rate": "0.07"
+    },
+    {
+      "S": 1789939500,
+      "lag": "lag10",
+      "age": 120,
+      "leg": "held_sell_5",
+      "decimal_cash": "1.76842",
+      "float_cash": 1.76841,
+      "difference": "0.00001",
+      "rate": "0.07"
+    }
+  ],
+  "rounding_check": "Decimal ROUND_HALF_EVEN sensitivity versus inherited float round; official tie rule not asserted.",
+  "activity_between_cutoff_and_event_with_unchanged_net": [],
+  "causal_cut_after_matched_public_ws": [],
+  "limitations": [
+    "Net stability is not full inventory or no-fill stability.",
+    "Position age fields measure first/last historical fill, not age since last flat/reversal.",
+    "Public-second inventory cannot prove exact local knowledge at the cutoff.",
+    "Cached five-share cash independently rechecked only against cache, not raw ladders.",
+    "Replayed displayed depth and250ms snapshot remain conditional execution estimates, not filled orders."
+  ]
+}

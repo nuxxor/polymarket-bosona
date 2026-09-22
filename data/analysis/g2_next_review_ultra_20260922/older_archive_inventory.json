@@ -1,0 +1,46 @@
+[
+  {
+    "file": "data/bosona/activity.jsonl",
+    "bytes": 8181873,
+    "sha256": "ee9c2c658c5229e6125a5fe61c82db8dc229c5b6a08852cdf0978bcfd41a249d",
+    "first_start_utc": "2026-09-19T05:00:00+00:00",
+    "last_start_utc": "2026-09-21T18:30:00+00:00",
+    "raw_rows": 5233,
+    "types": {
+      "REDEEM": 733,
+      "TRADE": 4392,
+      "MERGE": 108
+    },
+    "buys": 4392,
+    "unique_starts": 448,
+    "latest_activity_utc": "2026-09-21T18:33:00+00:00",
+    "note": "Additional public archive; overlaps primary cohort, not added to its totals."
+  },
+  {
+    "file": "data/bosona/bosona_activity_7g.json",
+    "bytes": 4415597,
+    "sha256": "6455d8f14a26698a0e8e0bfbd9a17ae29099a7ed6c0a41a1cc9c1535ece95603",
+    "first_start_utc": "2026-09-18T22:55:00+00:00",
+    "last_start_utc": "2026-09-19T16:40:00+00:00",
+    "raw_rows": 3631,
+    "types": {
+      "REDEEM": 358,
+      "TRADE": 3207,
+      "MERGE": 66
+    },
+    "buys": 3207,
+    "unique_starts": 200,
+    "latest_activity_utc": "2026-09-19T16:46:05+00:00",
+    "note": "Additional public archive; overlaps primary cohort, not added to its totals."
+  },
+  {
+    "file": "data/bosona/bosona_ledger_pen.csv",
+    "bytes": 247594,
+    "sha256": "4ea1dd6bd985357214ced7d65dc262300e16480888a269c60792a33146128e9e",
+    "first_start_utc": "2026-08-14T00:05:00+00:00",
+    "last_start_utc": "2026-09-01T23:55:00+00:00",
+    "derived_rows": 4074,
+    "unique_starts": 4074,
+    "note": "Derived ledger; multiplicity and primary provenance not re-audited."
+  }
+]

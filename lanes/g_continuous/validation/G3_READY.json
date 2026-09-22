@@ -1,0 +1,26 @@
+{
+  "status": "PARKED_READY_NOT_STARTED",
+  "checked_ms": 1790086280629,
+  "stage_hashes": {
+    "g3_operator.py": "77212034e77cbb7d43baa26cb6803e2a4f9c78aa2126139752532903884243a9",
+    "g3_smoke.py": "7ab7c2af82e4ce3ff635bbaccd69af0316fb872c2e858b8992c96b68633a7e51",
+    "test_g3.py": "71303dbda9b3284919755e4fb79e745f7856b90dba643ec3c447f84c7b561657",
+    "G3_LIVE_PROTOCOL.json": "2084a3e28324a31f30144ebc409ca8b72eb8c1c30f215598d5d7136640592d6d",
+    "G3_package.tar.gz": "8abf92d0813bac65d4c8ed30c300420517ef25afe9c94e72d176b3719be5871b",
+    "G3_LIVE.patch": "50a83defd4a6e21cdc3969832de6228a308c0187a69f2e7ad1f785efc55c9180"
+  },
+  "live_hashes": {
+    "ab.py": "a5cd853493a6f01ab395495574150bf31c6dec7201783dfb563e98a6e2fa3ca7",
+    "g_policy.py": "fbac759df25cecf10ea01bbf9db9da5e07dd90f3b33e844125c51e434eaf2f61",
+    "RUN_G.json": "77d91d7cb38a1eb7049742f21121dee660b5160fec578e813006d234ec0484f8",
+    "BUDGET_G.json": "16c6ad83210baabde2f272939202e995ca682cd62e168fba435311b7b4402162",
+    "protocol.json": "7a623d76593e352021a02f4a1b0a0cd55de7db5d0e1c5543c2fe5fe27f4aa52d"
+  },
+  "target_processes": [
+    178758,
+    178761,
+    178762,
+    178763
+  ],
+  "financial_action": false
+}

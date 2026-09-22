@@ -1,0 +1,159 @@
+{
+  "at_ms": 1790082354726,
+  "writers": [
+    178758
+  ],
+  "source_sha": "a5cd853493a6f01ab395495574150bf31c6dec7201783dfb563e98a6e2fa3ca7",
+  "source_matches": true,
+  "manifest_matches": true,
+  "policy_sha": "fbac759df25cecf10ea01bbf9db9da5e07dd90f3b33e844125c51e434eaf2f61",
+  "budget": {
+    "limit": 10,
+    "anchor": -6.0286,
+    "cutoff": -16.0286,
+    "end_ms": null,
+    "continuous": true,
+    "created_ms": 1790073184534,
+    "previous_stop": null,
+    "id": "4527c3ca7a69abf92a33"
+  },
+  "protected_unchanged": {
+    "RUN_G.json": true,
+    "BUDGET_G.json": true,
+    "protocol.json": true,
+    "g_policy.py": true
+  },
+  "state_budget_matches": true,
+  "stop": false,
+  "both_recorders_healthy": true,
+  "health": {
+    "A": {
+      "pid": 178762,
+      "status": "active",
+      "process_alive": true,
+      "age_s": 0.76296832,
+      "queue_overflow": 0,
+      "rejected": 0,
+      "pong_age_s": {
+        "market": 10.108478464,
+        "user": 9.430087936
+      }
+    },
+    "B": {
+      "pid": 178763,
+      "status": "active",
+      "process_alive": true,
+      "age_s": 0.841191168,
+      "queue_overflow": 0,
+      "rejected": 0,
+      "pong_age_s": {
+        "market": 10.16809728,
+        "user": 9.425205248
+      }
+    }
+  },
+  "selected_events": {
+    "SURUM": {
+      "t": "13:04:56",
+      "utc_ms": 1790082296258,
+      "k": "SURUM",
+      "kaynak_sha": "a5cd853493a6",
+      "oturum": "178758"
+    },
+    "basladi": {
+      "t": "13:04:59",
+      "utc_ms": 1790082299591,
+      "k": "basladi",
+      "mod": "LIVE",
+      "gorulen_pencere": 102
+    },
+    "G_BUTCE": {
+      "t": "13:04:56",
+      "utc_ms": 1790082296259,
+      "k": "G_BUTCE"
+    },
+    "mutabakat": {
+      "t": "13:05:01",
+      "utc_ms": 1790082301712,
+      "k": "mutabakat",
+      "pnl": -6.82,
+      "yerel": -6.82,
+      "etkin": -6.82,
+      "pencere": 82,
+      "risk": 0.0,
+      "emir": 896,
+      "dolum": 82,
+      "pay": 1518.1,
+      "geri_cekilen": 0,
+      "red": 150
+    },
+    "pencere": {
+      "t": "13:05:05",
+      "utc_ms": 1790082305356,
+      "k": "pencere",
+      "sym": "btc",
+      "S": 1790082300,
+      "kol": "G",
+      "emir": 0
+    },
+    "taze_koy": {
+      "t": "13:05:24",
+      "utc_ms": 1790082324376,
+      "k": "taze_koy",
+      "sym": "btc",
+      "S": 1790082300,
+      "kol": "G",
+      "oi": 0,
+      "p": 0.53,
+      "boy": 5.0
+    },
+    "dolum": {
+      "t": "13:05:26",
+      "utc_ms": 1790082326700,
+      "k": "dolum",
+      "sym": "btc",
+      "S": 1790082300,
+      "oi": 0,
+      "p": 0.53,
+      "yeni": 4.99766,
+      "toplam": 4.99766
+    }
+  },
+  "counts": {
+    "SURUM": 1,
+    "hazir": 1,
+    "G_MODEL": 1,
+    "G_BUTCE": 1,
+    "state_yuklendi": 1,
+    "maruziyet": 2,
+    "basladi": 1,
+    "mutabakat": 1,
+    "BOY": 1,
+    "pencere": 1,
+    "G_KARAR": 96,
+    "G_KALITE": 96,
+    "G_NIYET": 14,
+    "taze_koy": 14,
+    "dolum": 6,
+    "IPTAL_TEYITSIZ": 6,
+    "BELIRSIZ_COZULDU": 5
+  },
+  "last_log_ms": 1790082354616,
+  "preflight": {
+    "checked_ms": 1790082293194,
+    "previous_pnl": -5.826284,
+    "pnl": -6.823289,
+    "windows": 102,
+    "orders": 896,
+    "open_orders": 0,
+    "risk": 0,
+    "prices_ages_ms": {},
+    "source_state_sha": "897abf3cd31a67d83adb95cc1463a9241c5baab6e45ef400baf9d43454c36606"
+  },
+  "state_pnl": {
+    "pnl": -6.8233,
+    "pnl_yerel": -6.823289,
+    "durdu": null
+  },
+  "state_mtime_ms": 1790082324426
+}

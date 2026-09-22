@@ -1,0 +1,745 @@
+{
+  "code_sha256": "9304229f90f8bf0e22cf76d81a10eb65a7f26535104e43f30481beeb8840e91f",
+  "selected_cache_sources": [
+    {
+      "file": "tape_20260913_13.jsonl.gz",
+      "source_bytes": 40556183,
+      "source_sha256": "a7adb8e1458a9457467c6137844edf72132d64368d69bf96edfd1a06adcf191b",
+      "snapshots": 2054,
+      "trades": 4789,
+      "external": 10470,
+      "stats": {
+        "missing_snapshot": 4909,
+        "book_mismatch": 1140
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260913_13.jsonl.gz",
+      "cache_sha256": "fc695cf4ba65b8464099e5bc3ede41c87c7d207e18699d26cd65d407e7769488",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260913_14.jsonl.gz",
+      "source_bytes": 112504894,
+      "source_sha256": "433b41275616e19350022c4a440f52aa0483acc9c37ba760b2aa83b96022b562",
+      "snapshots": 5452,
+      "trades": 15018,
+      "external": 31477,
+      "stats": {
+        "book_mismatch": 3638,
+        "missing_snapshot": 1522,
+        "out_of_order": 1
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260913_14.jsonl.gz",
+      "cache_sha256": "9875911d1ab54b049e13c2017515760f6079217d1abc6ef5a8b96033fc4a9ef0",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260913_18.jsonl.gz",
+      "source_bytes": 87809468,
+      "source_sha256": "1ec99497a850de99b29eb77cf3ecb924b281fb4a4e007b98ad26bdbaba6bdc9f",
+      "snapshots": 6013,
+      "trades": 13785,
+      "external": 18196,
+      "stats": {
+        "book_mismatch": 3884,
+        "missing_snapshot": 962,
+        "out_of_order": 5
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260913_18.jsonl.gz",
+      "cache_sha256": "b4fb1c05b096a25729a1417efc9d4b3b2b498c152da3006480a43e775349feaa",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260913_19.jsonl.gz",
+      "source_bytes": 83670663,
+      "source_sha256": "7a3f0e2f01f1ab4aa7e2e9967c93ca6279c78de75a550e7c3d44d5dbaf09e905",
+      "snapshots": 5920,
+      "trades": 12211,
+      "external": 18889,
+      "stats": {
+        "book_mismatch": 3060,
+        "missing_snapshot": 1042,
+        "out_of_order": 4
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260913_19.jsonl.gz",
+      "cache_sha256": "5a39d5549fb6579a8be255d6b083367fbf8f08fab6a6b12ccf4b3851ce6bf5ba",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260913_23.jsonl.gz",
+      "source_bytes": 137764333,
+      "source_sha256": "f7754f4929eeee56b463dbb877fff4dd10a08eb41f1025db22e6c00600ef790a",
+      "snapshots": 5936,
+      "trades": 17950,
+      "external": 36692,
+      "stats": {
+        "book_mismatch": 4984,
+        "missing_snapshot": 1026,
+        "out_of_order": 2
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260913_23.jsonl.gz",
+      "cache_sha256": "6b9e003a8122555d60d5438a866d2f06d32d3fa9a9da574064affddf47fa9253",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260914_00.jsonl.gz",
+      "source_bytes": 137245917,
+      "source_sha256": "abf1280728ab5da4bcc5c60408c246d46e9e78617881cb501357eba124e388c9",
+      "snapshots": 5228,
+      "trades": 15396,
+      "external": 51979,
+      "stats": {
+        "book_mismatch": 3638,
+        "missing_snapshot": 1739,
+        "out_of_order": 3
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260914_00.jsonl.gz",
+      "cache_sha256": "ea1c1bdc23d4ae24af2641c3d878a776313a2067355ad5ece928a4687320e4ea",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260914_05.jsonl.gz",
+      "source_bytes": 109245683,
+      "source_sha256": "fe65af89004b67a3c9720f0c924696127ace71f200fa1f409cfba6a2bb271560",
+      "snapshots": 5286,
+      "trades": 13936,
+      "external": 22418,
+      "stats": {
+        "book_mismatch": 3522,
+        "missing_snapshot": 1695,
+        "out_of_order": 2
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260914_05.jsonl.gz",
+      "cache_sha256": "390848ff717fab422d4d69f83e205fc4698c88a7a36840694dfa4284d254a205",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260914_10.jsonl.gz",
+      "source_bytes": 146114596,
+      "source_sha256": "144e8ff021a39368c0329374eeb2ca5c93289e35d8f23529cebc2d1cc67c64a1",
+      "snapshots": 5897,
+      "trades": 19433,
+      "external": 31550,
+      "stats": {
+        "book_mismatch": 4524,
+        "missing_snapshot": 1063,
+        "out_of_order": 1
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260914_10.jsonl.gz",
+      "cache_sha256": "9ca9310a3b351b2669f66d16b57e0c687288bf637029f42d64e6a2a17a09bba2",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260914_11.jsonl.gz",
+      "source_bytes": 125870376,
+      "source_sha256": "a04df65d8e2add9ca5db8ca6d2ab3ac1b137d22e17118439be57b6af1f3c4158",
+      "snapshots": 5178,
+      "trades": 15245,
+      "external": 31045,
+      "stats": {
+        "book_mismatch": 3576,
+        "missing_snapshot": 1783,
+        "out_of_order": 3
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260914_11.jsonl.gz",
+      "cache_sha256": "7fb864c9ce78b03ffda2e9c53e2f839f256ebeaecb456a459c79a78cabc4add1",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260914_15.jsonl.gz",
+      "source_bytes": 167380040,
+      "source_sha256": "54c3b9accdd705216efa82d4a0d3bee937c39b99a2ea34f2b5b0203527c7756d",
+      "snapshots": 5051,
+      "trades": 17428,
+      "external": 62376,
+      "stats": {
+        "book_mismatch": 3532,
+        "missing_snapshot": 1925,
+        "out_of_order": 3
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260914_15.jsonl.gz",
+      "cache_sha256": "a4d4d6f0c68cc7341e0e7eca50e4b7ed77d48f5f0dd9dd4a1e0eb4a0fcade398",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260914_16.jsonl.gz",
+      "source_bytes": 172770710,
+      "source_sha256": "c81cd47a1c9b6ab1fdfba6f523045dca91bab316e268d7188ce74176e7ea3c29",
+      "snapshots": 5354,
+      "trades": 18604,
+      "external": 46479,
+      "stats": {
+        "book_mismatch": 4298,
+        "missing_snapshot": 1607
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260914_16.jsonl.gz",
+      "cache_sha256": "1800e97fd1ba22ee43698806a94479df165eca0489d5f9cd2f39907d7c7b0a3f",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260914_17.jsonl.gz",
+      "source_bytes": 160810857,
+      "source_sha256": "6e03a94e0f11cd5c36d4d080b19aa5628bf609954f05aded61f3bb2e5ea152a2",
+      "snapshots": 5453,
+      "trades": 18128,
+      "external": 39555,
+      "stats": {
+        "book_mismatch": 4128,
+        "missing_snapshot": 1514,
+        "out_of_order": 4
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260914_17.jsonl.gz",
+      "cache_sha256": "1b02ec0c564b325f7af19df882d7ef8504406d5e0c02525fd26d85663a58383d",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260914_22.jsonl.gz",
+      "source_bytes": 132285451,
+      "source_sha256": "a70853082095b2a8ec5a5066b4a9a8a3fc679200b4416593ca6f7ffd0c493bc8",
+      "snapshots": 5421,
+      "trades": 14234,
+      "external": 31191,
+      "stats": {
+        "book_mismatch": 3172,
+        "missing_snapshot": 1557
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260914_22.jsonl.gz",
+      "cache_sha256": "2a040c98d4878be4a6fe12410421a1dc78f872d2eb3d181cd36e16df10168297",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260915_01.jsonl.gz",
+      "source_bytes": 131138303,
+      "source_sha256": "51ede0c29045ffddb84ccefba0e86400814ffa3ac7ee81af3480efee58075a65",
+      "snapshots": 5083,
+      "trades": 15940,
+      "external": 36053,
+      "stats": {
+        "book_mismatch": 3476,
+        "out_of_order": 4,
+        "missing_snapshot": 1889
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260915_01.jsonl.gz",
+      "cache_sha256": "826898c26f910222994385f0b95e44fb43bd81eabadaf7b4deaaa2316891c453",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260915_02.jsonl.gz",
+      "source_bytes": 131654693,
+      "source_sha256": "ab8a8f008730b45e270a435b712643e0cc90653fef986918bb0cf61e903290b7",
+      "snapshots": 5833,
+      "trades": 15734,
+      "external": 28211,
+      "stats": {
+        "book_mismatch": 3798,
+        "missing_snapshot": 1138
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260915_02.jsonl.gz",
+      "cache_sha256": "ece994f65681a1fe501b193b3b946fe5fd58ca9261858ddf1d297122565ebf86",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260915_05.jsonl.gz",
+      "source_bytes": 143272779,
+      "source_sha256": "059b10b532c52f056df24c7d22c825528485b8ed9b9507cbe99f4a443caf5aaf",
+      "snapshots": 5306,
+      "trades": 15674,
+      "external": 36482,
+      "stats": {
+        "book_mismatch": 3561,
+        "missing_snapshot": 1671,
+        "out_of_order": 2
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260915_05.jsonl.gz",
+      "cache_sha256": "01cf9aeb47968a0cb6169443c06e08e06da35f9ee6957c7c2ae2f2e562dc82fe",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260915_07.jsonl.gz",
+      "source_bytes": 160668856,
+      "source_sha256": "5336d03b433b178e72f7b3df195072ec91cfb793a0316f1f7280e39315950174",
+      "snapshots": 5427,
+      "trades": 19646,
+      "external": 42282,
+      "stats": {
+        "book_mismatch": 5015,
+        "missing_snapshot": 1558,
+        "out_of_order": 2
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260915_07.jsonl.gz",
+      "cache_sha256": "aaedd588c6e49fd99ab33f29b8753a638132cb0e823e717fe4b17a3ed112afa7",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260915_10.jsonl.gz",
+      "source_bytes": 131405694,
+      "source_sha256": "ff6ca90c69d0a4f666e6a5d6bdb6c61b157b7dd354b3f389a5db3754e6493503",
+      "snapshots": 5572,
+      "trades": 16282,
+      "external": 37528,
+      "stats": {
+        "book_mismatch": 3848,
+        "missing_snapshot": 1395,
+        "out_of_order": 6
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260915_10.jsonl.gz",
+      "cache_sha256": "46f25a9404e17a0bb19a5065e9278f3bb3d0b7e078cfb29be27cf9f7502d1a9f",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260915_11.jsonl.gz",
+      "source_bytes": 122151797,
+      "source_sha256": "3c24c054f0b96ae09383442cb6cb23108e61102f1c4fc617bd9e07eac59e88f3",
+      "snapshots": 5238,
+      "trades": 15332,
+      "external": 32329,
+      "stats": {
+        "book_mismatch": 3440,
+        "missing_snapshot": 1722
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260915_11.jsonl.gz",
+      "cache_sha256": "223e3f7545da32d525c2a004cc43e6251672588c8f915980d20fbbbe9a551d09",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260915_12.jsonl.gz",
+      "source_bytes": 148023913,
+      "source_sha256": "acab65bbe27c89ed294b23fb10095f51d7dabe586cc14a2a07ddd535ba2a9a93",
+      "snapshots": 5499,
+      "trades": 18296,
+      "external": 37196,
+      "stats": {
+        "book_mismatch": 4380,
+        "missing_snapshot": 1471,
+        "out_of_order": 1
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260915_12.jsonl.gz",
+      "cache_sha256": "6deecdab453d81453b5e4777366247118902609885899c7ca6c73e857453b5d3",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260916_08.jsonl.gz",
+      "source_bytes": 166803048,
+      "source_sha256": "ebaeedafe801a1c229a0953eef312159264108aa5e6c70b0035293ea27517add",
+      "snapshots": 5583,
+      "trades": 21579,
+      "external": 44290,
+      "stats": {
+        "book_mismatch": 5262,
+        "missing_snapshot": 1387,
+        "out_of_order": 3
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260916_08.jsonl.gz",
+      "cache_sha256": "b893eb6082e483a82d470185c7b257b574908410769715118361d77f37895b58",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260916_10.jsonl.gz",
+      "source_bytes": 125934276,
+      "source_sha256": "51a31f832abe3ee6cfbf58452ac8625d63cb1e18cb76fd627a822490a9377d62",
+      "snapshots": 5556,
+      "trades": 15216,
+      "external": 25928,
+      "stats": {
+        "book_mismatch": 3580,
+        "missing_snapshot": 1418
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260916_10.jsonl.gz",
+      "cache_sha256": "4f63e6eee17aadfa03d19fed857bc8304371a321abb2f56d6a2e90065043afc5",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260916_15.jsonl.gz",
+      "source_bytes": 183632817,
+      "source_sha256": "8d15e861f501bd7c6037fb9ea3dd85ba77439d45320b330bcce1b2837f5a73bb",
+      "snapshots": 5430,
+      "trades": 18298,
+      "external": 46403,
+      "stats": {
+        "book_mismatch": 3838,
+        "missing_snapshot": 1539,
+        "out_of_order": 8
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260916_15.jsonl.gz",
+      "cache_sha256": "46b89db22e49138428bd59c121b3348ad35d76837fc2824c98e5e15efb731d75",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260916_16.jsonl.gz",
+      "source_bytes": 183148674,
+      "source_sha256": "b51f40d8078a064d614f5b4b59ef0677826326e7e6f01bcc40a099ac241f0fb2",
+      "snapshots": 5592,
+      "trades": 20977,
+      "external": 35296,
+      "stats": {
+        "book_mismatch": 5316,
+        "missing_snapshot": 1374,
+        "out_of_order": 1
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260916_16.jsonl.gz",
+      "cache_sha256": "45b0b83a493d02927b8c57c10d32bd8de731a1756da0db42cd5d3782fe5ba23e",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260916_17.jsonl.gz",
+      "source_bytes": 185444757,
+      "source_sha256": "7a681247ec2e0c8b7a6962dba6574f21dea4a95b8d2af97cb9b7a346f0fdcc00",
+      "snapshots": 5404,
+      "trades": 19361,
+      "external": 47095,
+      "stats": {
+        "book_mismatch": 4880,
+        "missing_snapshot": 1571,
+        "out_of_order": 1
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260916_17.jsonl.gz",
+      "cache_sha256": "337ca5b6001e8246cae7ed0b3dbfc91a3228eda8735514b87d09c48d8a9fb377",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260916_20.jsonl.gz",
+      "source_bytes": 154349387,
+      "source_sha256": "408ba3db7114e323b991402959ea1cb0df2f84485842927a55b0f573b5301437",
+      "snapshots": 5464,
+      "trades": 17950,
+      "external": 35578,
+      "stats": {
+        "book_mismatch": 4114,
+        "missing_snapshot": 1502,
+        "out_of_order": 4
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260916_20.jsonl.gz",
+      "cache_sha256": "fe772786bc833ed958a0304f6db1e02c78954b552d8ebf3f397457ba9dbd4fcd",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260917_00.jsonl.gz",
+      "source_bytes": 108434490,
+      "source_sha256": "1fc42cd06977f040e543aa7d6aab90840be6295a3225fd2d6ff03665e4956e15",
+      "snapshots": 3159,
+      "trades": 10415,
+      "external": 23863,
+      "stats": {
+        "book_mismatch": 2742,
+        "missing_snapshot": 3813,
+        "out_of_order": 2
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260917_00.jsonl.gz",
+      "cache_sha256": "30207ce46f11486c340a8990a5b2f8e876df8925ad72ec83bcd16137043ec8bb",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260917_01.jsonl.gz",
+      "source_bytes": 42528387,
+      "source_sha256": "049ecc1dfd740ad56215839ede0d8a6f810b49ea4395f32c0a1bc85b4d76a763",
+      "snapshots": 1266,
+      "trades": 3310,
+      "external": 14154,
+      "stats": {
+        "book_mismatch": 720,
+        "missing_snapshot": 5708
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260917_01.jsonl.gz",
+      "cache_sha256": "d381d94e69679563be1048339a37154e8dee77e13e8d9ab46d4941777487dd55",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260917_05.jsonl.gz",
+      "source_bytes": 142672413,
+      "source_sha256": "e09acaa6100c95abeb74c1eab7825a3935ddb5e1f0777a7296b3d0c46a32313f",
+      "snapshots": 5303,
+      "trades": 14492,
+      "external": 23922,
+      "stats": {
+        "book_mismatch": 3032,
+        "missing_snapshot": 1670,
+        "out_of_order": 1
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260917_05.jsonl.gz",
+      "cache_sha256": "8eaa9434be24b195576f7c015cbbd299fec1c975fb1b1e3bf2e873902c19b29d",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260917_08.jsonl.gz",
+      "source_bytes": 160992042,
+      "source_sha256": "349998c256cdfaec7998e208b03352c7084536a2fe7ff57bf8230131685f9ff6",
+      "snapshots": 5585,
+      "trades": 19885,
+      "external": 24562,
+      "stats": {
+        "book_mismatch": 4916,
+        "missing_snapshot": 1383,
+        "out_of_order": 2
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260917_08.jsonl.gz",
+      "cache_sha256": "4556ef09cc7a6d5a81c1ec0663d29c8be75c3373eb41567668710e60d1d80b71",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260917_09.jsonl.gz",
+      "source_bytes": 153643396,
+      "source_sha256": "db9c4fde07e92cf8cd8a55918b7815638eda4ded87a0c5a28a2f3e5dc9ac25c3",
+      "snapshots": 5508,
+      "trades": 18779,
+      "external": 33689,
+      "stats": {
+        "book_mismatch": 4282,
+        "missing_snapshot": 1455,
+        "out_of_order": 2
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260917_09.jsonl.gz",
+      "cache_sha256": "341843a190ba6ca7e0079404ad544dc9020664131c5d195f2cbc2c871d0b95e9",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260917_14.jsonl.gz",
+      "source_bytes": 219023899,
+      "source_sha256": "ebc1f7a1f5e9d4e83a6d0ed69abb1b43c041f625bb6e3364095cc46b6f079867",
+      "snapshots": 4902,
+      "trades": 18826,
+      "external": 70902,
+      "stats": {
+        "book_mismatch": 4534,
+        "missing_snapshot": 2065,
+        "out_of_order": 4
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260917_14.jsonl.gz",
+      "cache_sha256": "9ede2e4808f9e073f0516cbb0b663c26079f3e7988abccbca2ca9d66a3a3ef08",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260917_20.jsonl.gz",
+      "source_bytes": 124589631,
+      "source_sha256": "d440e120171b7e969e2d78c5361f620533680326336fb24d780dc1cca0168ef4",
+      "snapshots": 5596,
+      "trades": 16227,
+      "external": 21453,
+      "stats": {
+        "book_mismatch": 3588,
+        "missing_snapshot": 1364,
+        "out_of_order": 6
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260917_20.jsonl.gz",
+      "cache_sha256": "7d2283ab274b8a2e9980c6c097e8d9acc244acee2b4cb606393abcb9c91de874",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260917_23.jsonl.gz",
+      "source_bytes": 135250210,
+      "source_sha256": "fc50205fc5a786b7371129eb102236051881b6b0aa6e49f942687bbf96759369",
+      "snapshots": 5744,
+      "trades": 14354,
+      "external": 20168,
+      "stats": {
+        "book_mismatch": 3354,
+        "missing_snapshot": 1224,
+        "out_of_order": 2
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260917_23.jsonl.gz",
+      "cache_sha256": "7b1637a4cd6f0d0745d850d1f22d6297a65f501c805cce4eb9995ad85c7abbaa",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260918_02.jsonl.gz",
+      "source_bytes": 132432007,
+      "source_sha256": "9328b265799e59f78c1d144d6afc539ca72cbf7a50ef6021bb8c1293794e629b",
+      "snapshots": 5173,
+      "trades": 15558,
+      "external": 31200,
+      "stats": {
+        "book_mismatch": 3856,
+        "missing_snapshot": 1795,
+        "out_of_order": 6
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260918_02.jsonl.gz",
+      "cache_sha256": "f32a40fe5dcb003b1c94dcc991c7c091ba16cfea4d7c865f54c035915bd5dc8a",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260918_08.jsonl.gz",
+      "source_bytes": 143236863,
+      "source_sha256": "ab75e4ff41b1c2d26531097db81dba9843cf452c00b8851f4c8d0c70bcd21f2b",
+      "snapshots": 4727,
+      "trades": 15734,
+      "external": 49576,
+      "stats": {
+        "book_mismatch": 3602,
+        "missing_snapshot": 2234
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260918_08.jsonl.gz",
+      "cache_sha256": "0b246a3c2d2528ce4a8bc085ed45b9b01de7b64a65eb72a5608bd290a84e0013",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260918_09.jsonl.gz",
+      "source_bytes": 158265242,
+      "source_sha256": "a79d66a53bbc34b1bd6c38b23bab4adef4fe6f48f6b6f63ea389ba66a2c235a1",
+      "snapshots": 5137,
+      "trades": 16760,
+      "external": 49970,
+      "stats": {
+        "book_mismatch": 4070,
+        "missing_snapshot": 1838,
+        "out_of_order": 6
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260918_09.jsonl.gz",
+      "cache_sha256": "248d96557023d8892f23e8cbeea831e57be08a192dd7004b6b01987f89743e76",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260918_10.jsonl.gz",
+      "source_bytes": 135037356,
+      "source_sha256": "9af9f81d091e2cbffc045f55b9408fcb5c52c114dd450107f75a49fd88422475",
+      "snapshots": 5391,
+      "trades": 16001,
+      "external": 30461,
+      "stats": {
+        "book_mismatch": 3316,
+        "missing_snapshot": 1581,
+        "out_of_order": 4
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260918_10.jsonl.gz",
+      "cache_sha256": "b6dc4dda02c23878147bdf3a2ec7e234bea3e429c212f3576ca62a614fa47836",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260918_11.jsonl.gz",
+      "source_bytes": 155063113,
+      "source_sha256": "150937a8e7b265fd8d541fec0e59955fb4eee9d740ab8958183ca069fe3c4de6",
+      "snapshots": 5302,
+      "trades": 17066,
+      "external": 37981,
+      "stats": {
+        "book_mismatch": 4262,
+        "missing_snapshot": 1658,
+        "out_of_order": 5
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260918_11.jsonl.gz",
+      "cache_sha256": "0bff7c97585e3cbfecd946c0cf4fc03707e06938fb50fcb6f896d93c2b433eaf",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    },
+    {
+      "file": "tape_20260918_13.jsonl.gz",
+      "source_bytes": 213895995,
+      "source_sha256": "0fffcd3e1afd28e09da30f44617e8b8ad1f17d5d6f33339632d9b5c1470f7f8d",
+      "snapshots": 5163,
+      "trades": 23434,
+      "external": 132273,
+      "stats": {
+        "book_mismatch": 5420,
+        "missing_snapshot": 1815,
+        "out_of_order": 1
+      },
+      "source": "db0b5c16b8e825a189ac64feadbe7cb68f03651de46995b4339c80a96434379b",
+      "cache_path": "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/bosona_derin_20260921/tape_snapshots/tape_20260918_13.jsonl.gz",
+      "cache_sha256": "2ebc0d7745026ae112c484a0d7b04633a9501e9913ec03dce0046d6292405724",
+      "raw_exists": true,
+      "raw_size_matches_manifest": true
+    }
+  ],
+  "raw_inventory": {
+    "files": 124,
+    "bytes": 18654478980,
+    "first": "tape_20260913_13.jsonl.gz",
+    "last": "tape_20260918_22.jsonl.gz"
+  },
+  "sqlite": {
+    "path": "/home/taygun/Masaüstü/polymarket/data/db/polymarket_orderbook.db",
+    "size": 143385165824,
+    "sample_subscribed": [
+      1789832700,
+      1789887300,
+      1789909800,
+      1789917000,
+      1789919100,
+      1789919400,
+      1789924800,
+      1789938000,
+      1789939500
+    ]
+  },
+  "hashes": {
+    "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/g1_selective_exit_20260922/results.json": "451ecfd06fbd77c6351e64223c1f877aaecb87fe92a55bc07a848b39b70366ec",
+    "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/btc5m_parent_research_20260921/report.json": "c85cbc1d23b42c6a8d5db41aa2db9ba9c80d651b01e2ca1d2d01940e5df38ca4",
+    "/home/taygun/Masaüstü/polymarket-bosona/data/analysis/btc5m_parent_research_20260921/manifest.json": "70ac576a3164042364085853b262c0cb7106a8217c3143c745fb7d37032279d9",
+    "/home/taygun/Masaüstü/polymarket-bosona/analiz/izleme/bosona_derin.py": "3fd35f1b172cabf1b3fa2e7f06c59b03196f94486b5831e5dfbcd89ea9241c98",
+    "/home/taygun/Masaüstü/polymarket-bosona/analiz/izleme/bosona_gec_arastirma.py": "c5168e5ad7334149c21de0484d99dec264f2a18f1b6c3be3a04967b4cb15e6ff"
+  }
+}

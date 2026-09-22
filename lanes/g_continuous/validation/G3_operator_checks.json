@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "cases": [
+    "default_read_only",
+    "active_update_rejected",
+    "source_update",
+    "idempotent",
+    "immutable_money_state_policy",
+    "foreign_edit_rejected",
+    "explicit_operator_resume_only",
+    "exhausted_budget_no_restart",
+    "active_g3_not_interrupted",
+    "real_launcher_fake_ssh"
+  ],
+  "real_orders": 0,
+  "real_process_control": false
+}

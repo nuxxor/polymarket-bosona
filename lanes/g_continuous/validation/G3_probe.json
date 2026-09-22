@@ -1,0 +1,169 @@
+{
+  "status": "OBSERVATIONAL_ONLY_NOT_A_LIVE_GATE_PASS",
+  "windows": 4,
+  "accepted_parents": 38,
+  "lifecycle_joined_parents": 38,
+  "lifecycle_missing": [],
+  "private_unique_trade_parent_pairs": 23,
+  "filled_parents": 20,
+  "private_shares": "99.991763",
+  "ws_fill_cash": "50.4451629999999999256281",
+  "ws_vs_limit_cash_difference": "3.699999999256281E-7",
+  "quantity_mismatch": [],
+  "quantity_reconciled_parents": 38,
+  "prefill_quote_parents": 29,
+  "fresh_open_prefill_parents": 13,
+  "ambiguous_samples": 0,
+  "candidate_samples": 2,
+  "flagged_parents": 2,
+  "flagged_later_filled": 2,
+  "flagged_later_unfilled": 0,
+  "both_recorder_fresh_first_flags": 1,
+  "any_recorder_fresh_first_flags": 2,
+  "both_recorder_join_fraction": 0.5,
+  "required_join_fraction": 0.95,
+  "until_known_match_ms": {
+    "n": 2,
+    "minimum": 52.942065,
+    "median": 63.5335885,
+    "maximum": 74.125112
+  },
+  "cancel_rtt_ms": {
+    "n": 29,
+    "minimum": 26.104168,
+    "median": 37.648757,
+    "maximum": 132.005353
+  },
+  "clock_offset_span_us": 18.905,
+  "observed_g2_pnl_by_window": [
+    {
+      "S": 1790082300,
+      "pnl": -0.9510998000000015
+    },
+    {
+      "S": 1790082600,
+      "pnl": -0.10229982999999976
+    },
+    {
+      "S": 1790082900,
+      "pnl": -1.6999999999999993
+    },
+    {
+      "S": 1790083200,
+      "pnl": -2.6999999999999993
+    }
+  ],
+  "simulated_g3_pnl": null,
+  "prevented_fills": null,
+  "first_flags": [
+    {
+      "oid": "0xd826a11c9e237f949894555207ec72f1fb34398118f57a7a273852e2cf870507",
+      "S": 1790082900,
+      "oi": 0,
+      "flag_ms": 1790082922447,
+      "price": 0.25,
+      "bid": 0.25,
+      "ask": 0.26,
+      "target": 0.24,
+      "up": 10.0,
+      "down": 10.0,
+      "books": {
+        "A": {
+          "fresh": true,
+          "sample": {
+            "kind": "book_sample",
+            "lane": "A",
+            "file": "measurement/run1/A/000000/96afb7f892ce4e98a0e88f3e9ff6b951.jsonl.gz",
+            "decision_ns": 1790082922447000000,
+            "asset": "98413261038568831863522040922571233527503203636859199720159047166743085862841",
+            "bid": 0.26,
+            "ask": 0.27,
+            "source_ns": 1790082922302000128,
+            "received": {
+              "utc_ns": 1790082922442653359,
+              "mono_ns": 226813086545907
+            }
+          }
+        },
+        "B": {
+          "fresh": true,
+          "sample": {
+            "kind": "book_sample",
+            "lane": "B",
+            "file": "measurement/run1/B/000000/978633d4b54d49d898f0a617fd1bbe61.jsonl.gz",
+            "decision_ns": 1790082922447000000,
+            "asset": "98413261038568831863522040922571233527503203636859199720159047166743085862841",
+            "bid": 0.25,
+            "ask": 0.26,
+            "source_ns": 1790082922436999936,
+            "received": {
+              "utc_ns": 1790082922445287827,
+              "mono_ns": 226813089180402
+            }
+          }
+        }
+      },
+      "until_known_match_ms": 52.942065
+    },
+    {
+      "oid": "0xb8b3ad092d1a02e3aa4fb0a42c80216669fcd4b96604cf2b3172e72a14bbf0cf",
+      "S": 1790083200,
+      "oi": 1,
+      "flag_ms": 1790083221018,
+      "price": 0.55,
+      "bid": 0.55,
+      "ask": 0.56,
+      "target": 0.54,
+      "up": 5.0,
+      "down": 5.0,
+      "books": {
+        "A": {
+          "fresh": true,
+          "sample": {
+            "kind": "book_sample",
+            "lane": "A",
+            "file": "measurement/run1/A/000001/7c40d3f9074a484eb78b20c82742f548.jsonl.gz",
+            "decision_ns": 1790083221018000000,
+            "asset": "3059759232151830876304976956021603588668337385879964488421404049473299365403",
+            "bid": 0.55,
+            "ask": 0.56,
+            "source_ns": 1790083221012000000,
+            "received": {
+              "utc_ns": 1790083221016259839,
+              "mono_ns": 227111660152355
+            }
+          }
+        },
+        "B": {
+          "fresh": false,
+          "sample": {
+            "kind": "book_sample",
+            "lane": "B",
+            "file": "measurement/run1/B/000000/978633d4b54d49d898f0a617fd1bbe61.jsonl.gz",
+            "decision_ns": 1790083221018000000,
+            "asset": "3059759232151830876304976956021603588668337385879964488421404049473299365403",
+            "bid": 0.55,
+            "ask": 0.56,
+            "source_ns": 1790083221012000000,
+            "received": {
+              "utc_ns": 1790083221017462289,
+              "mono_ns": 227111661354890
+            }
+          }
+        }
+      },
+      "until_known_match_ms": 74.125112
+    }
+  ],
+  "limitations": [
+    "No G3 orders or fills: no economic comparison.",
+    "First-match receipt is not execution time; cancel RTT is not effective cancel time.",
+    "1Hz decision log misses some prefill lifetimes and lacks exact uncertainty/reservation state.",
+    "A sample inside the rounded-millisecond boundary is uncertain, not proof of missing market data.",
+    "Book A/B snapshots arrived before the logged cut; independent connections can disagree.",
+    "Final quantity reconciliation is verification only; never a prefill decision input."
+  ],
+  "capture_sha256": "cb1962808d4232241cebbbb37f8c176398c1c72395c8f2467cbd4e0d3c9a185c",
+  "script_sha256": "75742aaed84069fb572f9255a05c1b06f1792bce448dc2b08f3310e42be26d19",
+  "live_actions": 0
+}

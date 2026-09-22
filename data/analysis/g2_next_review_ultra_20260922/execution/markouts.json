@@ -1,0 +1,2198 @@
+{
+  "summary": {
+    "5": {
+      "fills": 40,
+      "parents": 36,
+      "shares": "179.986086",
+      "share_weighted_mid_minus_paid": "0.001804114124688505093924871504",
+      "share_weighted_bid_minus_paid": "-0.003334785501141460451300663319",
+      "pre_and_post_fills": 38,
+      "pre_and_post_shares": "169.986086",
+      "share_weighted_mid_change_from_before_receipt": "-0.01073771646815845856936784814",
+      "negative_mid_vs_paid_shares": "100",
+      "quote_target_gap_median_ms": 604.8184814453125
+    },
+    "10": {
+      "fills": 40,
+      "parents": 36,
+      "shares": "179.986086",
+      "share_weighted_mid_minus_paid": "-0.005280301778438584407871395126",
+      "share_weighted_bid_minus_paid": "-0.01028030177843858440787139513",
+      "pre_and_post_fills": 38,
+      "pre_and_post_shares": "169.986086",
+      "share_weighted_mid_change_from_before_receipt": "-0.01853303855116706434431345163",
+      "negative_mid_vs_paid_shares": "90",
+      "quote_target_gap_median_ms": 525.0782470703125
+    },
+    "30": {
+      "fills": 40,
+      "parents": 36,
+      "shares": "179.986086",
+      "share_weighted_mid_minus_paid": "0.01388511009678825951605281310",
+      "share_weighted_bid_minus_paid": "0.008885110096788259516052813105",
+      "pre_and_post_fills": 38,
+      "pre_and_post_shares": "169.986086",
+      "share_weighted_mid_change_from_before_receipt": "-0.003534708217236086017063773090",
+      "negative_mid_vs_paid_shares": "80",
+      "quote_target_gap_median_ms": 498.6474609375
+    }
+  },
+  "rows": [
+    {
+      "S": 1790069400,
+      "oi": 0,
+      "oid": "0xe223045cb09ccd8cedb93d30f64be90a27d320e29a34b63a55d2243c26c38693",
+      "trade": "5909b161-adff-4c3e-a4be-d8af672c88e5",
+      "q": "5",
+      "price": "0.45",
+      "first_received_ns": 1790069409971553118,
+      "reported_match_second": 1790069409,
+      "before_receipt": {
+        "quote_decision_ms": 1790069409863,
+        "distance_to_target_ms": 107.552978515625,
+        "source_age_ms": 118.6153621673584,
+        "mid": "0.455",
+        "bid": "0.45",
+        "ask": "0.46"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790069414129,
+          "distance_to_target_ms": 842.552978515625,
+          "source_age_ms": 864.3728084564209,
+          "mid": "0.485",
+          "bid": "0.48",
+          "ask": "0.49",
+          "mid_minus_paid": "0.035",
+          "bid_minus_paid": "0.03",
+          "mid_change_from_before_receipt": "0.030"
+        },
+        "10": {
+          "quote_decision_ms": 1790069419322,
+          "distance_to_target_ms": 649.552978515625,
+          "source_age_ms": 655.2254333496094,
+          "mid": "0.395",
+          "bid": "0.39",
+          "ask": "0.4",
+          "mid_minus_paid": "-0.055",
+          "bid_minus_paid": "-0.06",
+          "mid_change_from_before_receipt": "-0.060"
+        },
+        "30": {
+          "quote_decision_ms": 1790069439547,
+          "distance_to_target_ms": 424.552978515625,
+          "source_age_ms": 429.0254726409912,
+          "mid": "0.305",
+          "bid": "0.3",
+          "ask": "0.31",
+          "mid_minus_paid": "-0.145",
+          "bid_minus_paid": "-0.15",
+          "mid_change_from_before_receipt": "-0.150"
+        }
+      }
+    },
+    {
+      "S": 1790069400,
+      "oi": 1,
+      "oid": "0x71b6bc3bbfa60b778694851bb9e58e58767a601aac3a890171aa87ed69874edf",
+      "trade": "fd015219-e88d-48bc-8316-fbe0a9ce59db",
+      "q": "4.92",
+      "price": "0.53",
+      "first_received_ns": 1790069412178783089,
+      "reported_match_second": 1790069411,
+      "before_receipt": {
+        "quote_decision_ms": 1790069411870,
+        "distance_to_target_ms": 307.782958984375,
+        "source_age_ms": 313.5228862762451,
+        "mid": "0.545",
+        "bid": "0.54",
+        "ask": "0.55"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790069416313,
+          "distance_to_target_ms": 865.782958984375,
+          "source_age_ms": 873.3446426391602,
+          "mid": "0.595",
+          "bid": "0.59",
+          "ask": "0.6",
+          "mid_minus_paid": "0.065",
+          "bid_minus_paid": "0.06",
+          "mid_change_from_before_receipt": "0.050"
+        },
+        "10": {
+          "quote_decision_ms": 1790069421573,
+          "distance_to_target_ms": 605.782958984375,
+          "source_age_ms": 611.4184589385986,
+          "mid": "0.605",
+          "bid": "0.6",
+          "ask": "0.61",
+          "mid_minus_paid": "0.075",
+          "bid_minus_paid": "0.07",
+          "mid_change_from_before_receipt": "0.060"
+        },
+        "30": {
+          "quote_decision_ms": 1790069441354,
+          "distance_to_target_ms": 824.782958984375,
+          "source_age_ms": 919.9241313934326,
+          "mid": "0.665",
+          "bid": "0.66",
+          "ask": "0.67",
+          "mid_minus_paid": "0.135",
+          "bid_minus_paid": "0.13",
+          "mid_change_from_before_receipt": "0.120"
+        }
+      }
+    },
+    {
+      "S": 1790069400,
+      "oi": 1,
+      "oid": "0x71b6bc3bbfa60b778694851bb9e58e58767a601aac3a890171aa87ed69874edf",
+      "trade": "b37551d9-3fad-415c-986a-9d9b748e679f",
+      "q": "0.08",
+      "price": "0.53",
+      "first_received_ns": 1790069412181197837,
+      "reported_match_second": 1790069411,
+      "before_receipt": {
+        "quote_decision_ms": 1790069411870,
+        "distance_to_target_ms": 310.19775390625,
+        "source_age_ms": 315.9376811981201,
+        "mid": "0.545",
+        "bid": "0.54",
+        "ask": "0.55"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790069416313,
+          "distance_to_target_ms": 868.19775390625,
+          "source_age_ms": 875.7594375610352,
+          "mid": "0.595",
+          "bid": "0.59",
+          "ask": "0.6",
+          "mid_minus_paid": "0.065",
+          "bid_minus_paid": "0.06",
+          "mid_change_from_before_receipt": "0.050"
+        },
+        "10": {
+          "quote_decision_ms": 1790069421573,
+          "distance_to_target_ms": 608.19775390625,
+          "source_age_ms": 613.8332538604736,
+          "mid": "0.605",
+          "bid": "0.6",
+          "ask": "0.61",
+          "mid_minus_paid": "0.075",
+          "bid_minus_paid": "0.07",
+          "mid_change_from_before_receipt": "0.060"
+        },
+        "30": {
+          "quote_decision_ms": 1790069441354,
+          "distance_to_target_ms": 827.19775390625,
+          "source_age_ms": 922.3389263153076,
+          "mid": "0.665",
+          "bid": "0.66",
+          "ask": "0.67",
+          "mid_minus_paid": "0.135",
+          "bid_minus_paid": "0.13",
+          "mid_change_from_before_receipt": "0.120"
+        }
+      }
+    },
+    {
+      "S": 1790069400,
+      "oi": 1,
+      "oid": "0x7c9780779d0bceed6b6189754b403c81f3ce87920522196b9fccdfabb65c9da4",
+      "trade": "489e05b9-a3f9-4b5c-aedc-79e57bf720f9",
+      "q": "3.32",
+      "price": "0.5",
+      "first_received_ns": 1790069414315206446,
+      "reported_match_second": 1790069414,
+      "before_receipt": {
+        "quote_decision_ms": 1790069414130,
+        "distance_to_target_ms": 184.206298828125,
+        "source_age_ms": 206.79526710510254,
+        "mid": "0.515",
+        "bid": "0.51",
+        "ask": "0.52"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790069418319,
+          "distance_to_target_ms": 996.206298828125,
+          "source_age_ms": 1002.251163482666,
+          "mid": "0.605",
+          "bid": "0.6",
+          "ask": "0.61",
+          "mid_minus_paid": "0.105",
+          "bid_minus_paid": "0.1",
+          "mid_change_from_before_receipt": "0.090"
+        },
+        "10": {
+          "quote_decision_ms": 1790069423748,
+          "distance_to_target_ms": 567.206298828125,
+          "source_age_ms": 573.2156391143799,
+          "mid": "0.575",
+          "bid": "0.57",
+          "ask": "0.58",
+          "mid_minus_paid": "0.075",
+          "bid_minus_paid": "0.07",
+          "mid_change_from_before_receipt": "0.060"
+        },
+        "30": {
+          "quote_decision_ms": 1790069443361,
+          "distance_to_target_ms": 954.206298828125,
+          "source_age_ms": 959.4434013366699,
+          "mid": "0.585",
+          "bid": "0.58",
+          "ask": "0.59",
+          "mid_minus_paid": "0.085",
+          "bid_minus_paid": "0.08",
+          "mid_change_from_before_receipt": "0.070"
+        }
+      }
+    },
+    {
+      "S": 1790069400,
+      "oi": 1,
+      "oid": "0x7c9780779d0bceed6b6189754b403c81f3ce87920522196b9fccdfabb65c9da4",
+      "trade": "25912594-acfe-418b-b467-ef10119012af",
+      "q": "1.68",
+      "price": "0.5",
+      "first_received_ns": 1790069414626920136,
+      "reported_match_second": 1790069414,
+      "before_receipt": {
+        "quote_decision_ms": 1790069414130,
+        "distance_to_target_ms": 495.920166015625,
+        "source_age_ms": 518.5091342926025,
+        "mid": "0.515",
+        "bid": "0.51",
+        "ask": "0.52"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790069419322,
+          "distance_to_target_ms": 304.920166015625,
+          "source_age_ms": 311.2048797607422,
+          "mid": "0.605",
+          "bid": "0.6",
+          "ask": "0.61",
+          "mid_minus_paid": "0.105",
+          "bid_minus_paid": "0.1",
+          "mid_change_from_before_receipt": "0.090"
+        },
+        "10": {
+          "quote_decision_ms": 1790069423748,
+          "distance_to_target_ms": 878.920166015625,
+          "source_age_ms": 884.9295063018799,
+          "mid": "0.575",
+          "bid": "0.57",
+          "ask": "0.58",
+          "mid_minus_paid": "0.075",
+          "bid_minus_paid": "0.07",
+          "mid_change_from_before_receipt": "0.060"
+        },
+        "30": {
+          "quote_decision_ms": 1790069444365,
+          "distance_to_target_ms": 261.920166015625,
+          "source_age_ms": 268.65763664245605,
+          "mid": "0.585",
+          "bid": "0.58",
+          "ask": "0.59",
+          "mid_minus_paid": "0.085",
+          "bid_minus_paid": "0.08",
+          "mid_change_from_before_receipt": "0.070"
+        }
+      }
+    },
+    {
+      "S": 1790069400,
+      "oi": 0,
+      "oid": "0xf4ac1234920c0d3b4c6e9cd293f4156f8ae62f2e15b4ac007091cd9347018e87",
+      "trade": "f27f4566-2f8f-4b7d-945a-5ba768533ccb",
+      "q": "5",
+      "price": "0.39",
+      "first_received_ns": 1790069419889744600,
+      "reported_match_second": 1790069419,
+      "before_receipt": {
+        "quote_decision_ms": 1790069419322,
+        "distance_to_target_ms": 566.74462890625,
+        "source_age_ms": 572.4170837402344,
+        "mid": "0.395",
+        "bid": "0.39",
+        "ask": "0.4"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790069424852,
+          "distance_to_target_ms": 37.74462890625,
+          "source_age_ms": 42.65366744995117,
+          "mid": "0.435",
+          "bid": "0.43",
+          "ask": "0.44",
+          "mid_minus_paid": "0.045",
+          "bid_minus_paid": "0.04",
+          "mid_change_from_before_receipt": "0.040"
+        },
+        "10": {
+          "quote_decision_ms": 1790069429514,
+          "distance_to_target_ms": 375.74462890625,
+          "source_age_ms": 385.3729248046875,
+          "mid": "0.415",
+          "bid": "0.41",
+          "ask": "0.42",
+          "mid_minus_paid": "0.025",
+          "bid_minus_paid": "0.02",
+          "mid_change_from_before_receipt": "0.020"
+        },
+        "30": {
+          "quote_decision_ms": 1790069449583,
+          "distance_to_target_ms": 306.74462890625,
+          "source_age_ms": 311.84702491760254,
+          "mid": "0.395",
+          "bid": "0.39",
+          "ask": "0.4",
+          "mid_minus_paid": "0.005",
+          "bid_minus_paid": "0.00",
+          "mid_change_from_before_receipt": "0.000"
+        }
+      }
+    },
+    {
+      "S": 1790069400,
+      "oi": 1,
+      "oid": "0xb7c0446a7aef112200f741e708fbbd86e35d17ab86dedb4a66da8a5b75cd4e5e",
+      "trade": "ea5411e5-1aea-4d81-a969-3db62f3c5b51",
+      "q": "5",
+      "price": "0.6",
+      "first_received_ns": 1790069421897884004,
+      "reported_match_second": 1790069421,
+      "before_receipt": {
+        "quote_decision_ms": 1790069421573,
+        "distance_to_target_ms": 323.8837890625,
+        "source_age_ms": 329.51928901672363,
+        "mid": "0.605",
+        "bid": "0.6",
+        "ask": "0.61"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790069425962,
+          "distance_to_target_ms": 935.8837890625,
+          "source_age_ms": 943.599967956543,
+          "mid": "0.585",
+          "bid": "0.58",
+          "ask": "0.59",
+          "mid_minus_paid": "-0.015",
+          "bid_minus_paid": "-0.02",
+          "mid_change_from_before_receipt": "-0.020"
+        },
+        "10": {
+          "quote_decision_ms": 1790069431319,
+          "distance_to_target_ms": 578.8837890625,
+          "source_age_ms": 584.3593101501465,
+          "mid": "0.675",
+          "bid": "0.67",
+          "ask": "0.68",
+          "mid_minus_paid": "0.075",
+          "bid_minus_paid": "0.07",
+          "mid_change_from_before_receipt": "0.070"
+        },
+        "30": {
+          "quote_decision_ms": 1790069451389,
+          "distance_to_target_ms": 508.8837890625,
+          "source_age_ms": 514.9787216186523,
+          "mid": "0.615",
+          "bid": "0.61",
+          "ask": "0.62",
+          "mid_minus_paid": "0.015",
+          "bid_minus_paid": "0.01",
+          "mid_change_from_before_receipt": "0.010"
+        }
+      }
+    },
+    {
+      "S": 1790069400,
+      "oi": 0,
+      "oid": "0x97e6bf306cfd1f0730eef12d84cd29efd6936c0cda2d83461bd126bb136dc3f1",
+      "trade": "17a86268-2576-4329-b5e8-e0b36279f686",
+      "q": "5",
+      "price": "0.42",
+      "first_received_ns": 1790069425707539694,
+      "reported_match_second": 1790069425,
+      "before_receipt": {
+        "quote_decision_ms": 1790069424852,
+        "distance_to_target_ms": 854.539794921875,
+        "source_age_ms": 859.4488334655762,
+        "mid": "0.435",
+        "bid": "0.43",
+        "ask": "0.44"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790069430517,
+          "distance_to_target_ms": 190.539794921875,
+          "source_age_ms": 218.20827102661133,
+          "mid": "0.35",
+          "bid": "0.34",
+          "ask": "0.36",
+          "mid_minus_paid": "-0.07",
+          "bid_minus_paid": "-0.08",
+          "mid_change_from_before_receipt": "-0.085"
+        },
+        "10": {
+          "quote_decision_ms": 1790069435533,
+          "distance_to_target_ms": 174.539794921875,
+          "source_age_ms": 181.76292419433594,
+          "mid": "0.305",
+          "bid": "0.3",
+          "ask": "0.31",
+          "mid_minus_paid": "-0.115",
+          "bid_minus_paid": "-0.12",
+          "mid_change_from_before_receipt": "-0.130"
+        },
+        "30": {
+          "quote_decision_ms": 1790069455605,
+          "distance_to_target_ms": 102.539794921875,
+          "source_age_ms": 107.21899795532227,
+          "mid": "0.455",
+          "bid": "0.45",
+          "ask": "0.46",
+          "mid_minus_paid": "0.035",
+          "bid_minus_paid": "0.03",
+          "mid_change_from_before_receipt": "0.020"
+        }
+      }
+    },
+    {
+      "S": 1790069400,
+      "oi": 0,
+      "oid": "0x3d0c1962bf8705dbb5415a6274ed31d7d557869f9bebbaa17b537be2d07a7d29",
+      "trade": "95f1411e-8401-4ab7-ac1b-02f06d3adfa8",
+      "q": "5",
+      "price": "0.41",
+      "first_received_ns": 1790069427210575392,
+      "reported_match_second": 1790069426,
+      "before_receipt": {
+        "quote_decision_ms": 1790069425855,
+        "distance_to_target_ms": 1354.575439453125,
+        "source_age_ms": 1369.0045318603516,
+        "mid": "0.425",
+        "bid": "0.42",
+        "ask": "0.43"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790069431520,
+          "distance_to_target_ms": 690.575439453125,
+          "source_age_ms": 703.554708480835,
+          "mid": "0.325",
+          "bid": "0.32",
+          "ask": "0.33",
+          "mid_minus_paid": "-0.085",
+          "bid_minus_paid": "-0.09",
+          "mid_change_from_before_receipt": "-0.100"
+        },
+        "10": {
+          "quote_decision_ms": 1790069436537,
+          "distance_to_target_ms": 673.575439453125,
+          "source_age_ms": 687.2373008728027,
+          "mid": "0.305",
+          "bid": "0.3",
+          "ask": "0.31",
+          "mid_minus_paid": "-0.105",
+          "bid_minus_paid": "-0.11",
+          "mid_change_from_before_receipt": "-0.120"
+        },
+        "30": {
+          "quote_decision_ms": 1790069456608,
+          "distance_to_target_ms": 602.575439453125,
+          "source_age_ms": 784.7334327697754,
+          "mid": "0.495",
+          "bid": "0.49",
+          "ask": "0.5",
+          "mid_minus_paid": "0.085",
+          "bid_minus_paid": "0.08",
+          "mid_change_from_before_receipt": "0.070"
+        }
+      }
+    },
+    {
+      "S": 1790069400,
+      "oi": 1,
+      "oid": "0xad2585447b4418a5119f52d8d9d3b417ceba0279c10dae5818b125d8b827a503",
+      "trade": "c5fa6844-8ff2-41a8-a34b-0c245f3de391",
+      "q": "5",
+      "price": "0.36",
+      "first_received_ns": 1790069466784689119,
+      "reported_match_second": 1790069466,
+      "before_receipt": {
+        "quote_decision_ms": 1790069466600,
+        "distance_to_target_ms": 183.689208984375,
+        "source_age_ms": 193.5943088531494,
+        "mid": "0.365",
+        "bid": "0.36",
+        "ask": "0.37"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790069471681,
+          "distance_to_target_ms": 103.689208984375,
+          "source_age_ms": 109.65158081054688,
+          "mid": "0.295",
+          "bid": "0.29",
+          "ask": "0.3",
+          "mid_minus_paid": "-0.065",
+          "bid_minus_paid": "-0.07",
+          "mid_change_from_before_receipt": "-0.070"
+        },
+        "10": {
+          "quote_decision_ms": 1790069476700,
+          "distance_to_target_ms": 84.689208984375,
+          "source_age_ms": 90.71213912963867,
+          "mid": "0.245",
+          "bid": "0.24",
+          "ask": "0.25",
+          "mid_minus_paid": "-0.115",
+          "bid_minus_paid": "-0.12",
+          "mid_change_from_before_receipt": "-0.120"
+        },
+        "30": {
+          "quote_decision_ms": 1790069496771,
+          "distance_to_target_ms": 13.689208984375,
+          "source_age_ms": 21.601367950439453,
+          "mid": "0.175",
+          "bid": "0.17",
+          "ask": "0.18",
+          "mid_minus_paid": "-0.185",
+          "bid_minus_paid": "-0.19",
+          "mid_change_from_before_receipt": "-0.190"
+        }
+      }
+    },
+    {
+      "S": 1790069400,
+      "oi": 0,
+      "oid": "0x1227a5d1316ed79fbd1b827fc93cab58045af5b5da00ea28d4d54f2c1bb97979",
+      "trade": "f6135f66-c1d2-4498-9073-fb5666e2c1c8",
+      "q": "5",
+      "price": "0.31",
+      "first_received_ns": 1790069637179120012,
+      "reported_match_second": 1790069636,
+      "before_receipt": {
+        "quote_decision_ms": 1790069636606,
+        "distance_to_target_ms": 572.1201171875,
+        "source_age_ms": 577.7639617919922,
+        "mid": "0.45",
+        "bid": "0.44",
+        "ask": "0.46"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790069641656,
+          "distance_to_target_ms": 523.1201171875,
+          "source_age_ms": 532.7372074127197,
+          "mid": "0.375",
+          "bid": "0.37",
+          "ask": "0.38",
+          "mid_minus_paid": "0.065",
+          "bid_minus_paid": "0.06",
+          "mid_change_from_before_receipt": "-0.075"
+        },
+        "10": {
+          "quote_decision_ms": 1790069646673,
+          "distance_to_target_ms": 506.1201171875,
+          "source_age_ms": 511.93896102905273,
+          "mid": "0.695",
+          "bid": "0.69",
+          "ask": "0.7",
+          "mid_minus_paid": "0.385",
+          "bid_minus_paid": "0.38",
+          "mid_change_from_before_receipt": "0.245"
+        },
+        "30": {
+          "quote_decision_ms": 1790069666747,
+          "distance_to_target_ms": 432.1201171875,
+          "source_age_ms": 438.3800354003906,
+          "mid": "0.885",
+          "bid": "0.88",
+          "ask": "0.89",
+          "mid_minus_paid": "0.575",
+          "bid_minus_paid": "0.57",
+          "mid_change_from_before_receipt": "0.435"
+        }
+      }
+    },
+    {
+      "S": 1790069700,
+      "oi": 0,
+      "oid": "0x37f7418043175c6d41fa100fefc9a264b7468bf1d85579253ad86d62207de3f4",
+      "trade": "6f42081d-675c-41ed-9e5a-302e2c61dfe4",
+      "q": "5",
+      "price": "0.34",
+      "first_received_ns": 1790069711851589534,
+      "reported_match_second": 1790069711,
+      "before_receipt": {
+        "quote_decision_ms": 1790069711737,
+        "distance_to_target_ms": 113.589599609375,
+        "source_age_ms": 268.8601760864258,
+        "mid": "0.355",
+        "bid": "0.35",
+        "ask": "0.36"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790069716123,
+          "distance_to_target_ms": 728.589599609375,
+          "source_age_ms": 736.1765556335449,
+          "mid": "0.275",
+          "bid": "0.27",
+          "ask": "0.28",
+          "mid_minus_paid": "-0.065",
+          "bid_minus_paid": "-0.07",
+          "mid_change_from_before_receipt": "-0.080"
+        },
+        "10": {
+          "quote_decision_ms": 1790069721223,
+          "distance_to_target_ms": 628.589599609375,
+          "source_age_ms": 635.5848007202148,
+          "mid": "0.215",
+          "bid": "0.21",
+          "ask": "0.22",
+          "mid_minus_paid": "-0.125",
+          "bid_minus_paid": "-0.13",
+          "mid_change_from_before_receipt": "-0.140"
+        },
+        "30": {
+          "quote_decision_ms": 1790069741094,
+          "distance_to_target_ms": 757.589599609375,
+          "source_age_ms": 765.0566310882568,
+          "mid": "0.305",
+          "bid": "0.3",
+          "ask": "0.31",
+          "mid_minus_paid": "-0.035",
+          "bid_minus_paid": "-0.04",
+          "mid_change_from_before_receipt": "-0.050"
+        }
+      }
+    },
+    {
+      "S": 1790069700,
+      "oi": 1,
+      "oid": "0x1ad1fa4514b9e572e543ac7664656c6d84d087794782dc8ac612babf30c4042d",
+      "trade": "b328461b-cb00-4680-aaf0-8bbdc352c5b6",
+      "q": "5",
+      "price": "0.68",
+      "first_received_ns": 1790069715532167178,
+      "reported_match_second": 1790069714,
+      "before_receipt": {
+        "quote_decision_ms": 1790069714949,
+        "distance_to_target_ms": 582.167236328125,
+        "source_age_ms": 594.8842449188232,
+        "mid": "0.705",
+        "bid": "0.7",
+        "ask": "0.71"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790069720220,
+          "distance_to_target_ms": 312.167236328125,
+          "source_age_ms": 322.3028869628906,
+          "mid": "0.785",
+          "bid": "0.78",
+          "ask": "0.79",
+          "mid_minus_paid": "0.105",
+          "bid_minus_paid": "0.10",
+          "mid_change_from_before_receipt": "0.080"
+        },
+        "10": {
+          "quote_decision_ms": 1790069725284,
+          "distance_to_target_ms": 248.167236328125,
+          "source_age_ms": 254.11458778381348,
+          "mid": "0.805",
+          "bid": "0.8",
+          "ask": "0.81",
+          "mid_minus_paid": "0.125",
+          "bid_minus_paid": "0.12",
+          "mid_change_from_before_receipt": "0.100"
+        },
+        "30": {
+          "quote_decision_ms": 1790069745113,
+          "distance_to_target_ms": 419.167236328125,
+          "source_age_ms": 426.9649543762207,
+          "mid": "0.695",
+          "bid": "0.69",
+          "ask": "0.7",
+          "mid_minus_paid": "0.015",
+          "bid_minus_paid": "0.01",
+          "mid_change_from_before_receipt": "-0.010"
+        }
+      }
+    },
+    {
+      "S": 1790069700,
+      "oi": 0,
+      "oid": "0xd3c920d2825075ad2a91798b939b864496654c95f80b997a63d882a1dc2904cc",
+      "trade": "8da57504-2cf1-4b87-9882-3d14ff39e42a",
+      "q": "5",
+      "price": "0.27",
+      "first_received_ns": 1790069718090176037,
+      "reported_match_second": 1790069716,
+      "before_receipt": null,
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790069722226,
+          "distance_to_target_ms": 864.176025390625,
+          "source_age_ms": 872.392168045044,
+          "mid": "0.215",
+          "bid": "0.21",
+          "ask": "0.22",
+          "mid_minus_paid": "-0.055",
+          "bid_minus_paid": "-0.06",
+          "mid_change_from_before_receipt": null
+        },
+        "10": {
+          "quote_decision_ms": 1790069727407,
+          "distance_to_target_ms": 683.176025390625,
+          "source_age_ms": 706.3789215087891,
+          "mid": "0.195",
+          "bid": "0.19",
+          "ask": "0.2",
+          "mid_minus_paid": "-0.075",
+          "bid_minus_paid": "-0.08",
+          "mid_change_from_before_receipt": null
+        },
+        "30": {
+          "quote_decision_ms": 1790069747119,
+          "distance_to_target_ms": 971.176025390625,
+          "source_age_ms": 1005.1704616546631,
+          "mid": "0.335",
+          "bid": "0.33",
+          "ask": "0.34",
+          "mid_minus_paid": "0.065",
+          "bid_minus_paid": "0.06",
+          "mid_change_from_before_receipt": null
+        }
+      }
+    },
+    {
+      "S": 1790069700,
+      "oi": 1,
+      "oid": "0x1a6cb0d5d10d301d07379ea1e7ac00bb85428d6d9089311272f2fd0a5cc2fc77",
+      "trade": "3e980682-b2a7-41a6-95d7-7bdaf30d95a8",
+      "q": "5",
+      "price": "0.79",
+      "first_received_ns": 1790069729602243650,
+      "reported_match_second": 1790069729,
+      "before_receipt": {
+        "quote_decision_ms": 1790069729414,
+        "distance_to_target_ms": 187.24365234375,
+        "source_age_ms": 228.72872352600098,
+        "mid": "0.815",
+        "bid": "0.81",
+        "ask": "0.82"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790069733903,
+          "distance_to_target_ms": 699.24365234375,
+          "source_age_ms": 779.5005912780762,
+          "mid": "0.745",
+          "bid": "0.74",
+          "ask": "0.75",
+          "mid_minus_paid": "-0.045",
+          "bid_minus_paid": "-0.05",
+          "mid_change_from_before_receipt": "-0.070"
+        },
+        "10": {
+          "quote_decision_ms": 1790069739088,
+          "distance_to_target_ms": 514.24365234375,
+          "source_age_ms": 523.2570667266846,
+          "mid": "0.685",
+          "bid": "0.68",
+          "ask": "0.69",
+          "mid_minus_paid": "-0.105",
+          "bid_minus_paid": "-0.11",
+          "mid_change_from_before_receipt": "-0.130"
+        },
+        "30": {
+          "quote_decision_ms": 1790069759159,
+          "distance_to_target_ms": 443.24365234375,
+          "source_age_ms": 450.33398246765137,
+          "mid": "0.685",
+          "bid": "0.68",
+          "ask": "0.69",
+          "mid_minus_paid": "-0.105",
+          "bid_minus_paid": "-0.11",
+          "mid_change_from_before_receipt": "-0.130"
+        }
+      }
+    },
+    {
+      "S": 1790069700,
+      "oi": 0,
+      "oid": "0x5c62d1754cad06e21bd66398d2226bfd1ab48abd3bd7a39ba361ded9362ecc34",
+      "trade": "b996af8c-d94d-4d10-b281-cd2aa57bf053",
+      "q": "5",
+      "price": "0.3",
+      "first_received_ns": 1790069741380246019,
+      "reported_match_second": 1790069741,
+      "before_receipt": {
+        "quote_decision_ms": 1790069741094,
+        "distance_to_target_ms": 285.24609375,
+        "source_age_ms": 292.71312522888184,
+        "mid": "0.305",
+        "bid": "0.3",
+        "ask": "0.31"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790069746116,
+          "distance_to_target_ms": 264.24609375,
+          "source_age_ms": 273.9018077850342,
+          "mid": "0.325",
+          "bid": "0.32",
+          "ask": "0.33",
+          "mid_minus_paid": "0.025",
+          "bid_minus_paid": "0.02",
+          "mid_change_from_before_receipt": "0.020"
+        },
+        "10": {
+          "quote_decision_ms": 1790069751132,
+          "distance_to_target_ms": 248.24609375,
+          "source_age_ms": 255.53240394592285,
+          "mid": "0.335",
+          "bid": "0.33",
+          "ask": "0.34",
+          "mid_minus_paid": "0.035",
+          "bid_minus_paid": "0.03",
+          "mid_change_from_before_receipt": "0.030"
+        },
+        "30": {
+          "quote_decision_ms": 1790069771325,
+          "distance_to_target_ms": 55.24609375,
+          "source_age_ms": 61.17008018493652,
+          "mid": "0.465",
+          "bid": "0.46",
+          "ask": "0.47",
+          "mid_minus_paid": "0.165",
+          "bid_minus_paid": "0.16",
+          "mid_change_from_before_receipt": "0.160"
+        }
+      }
+    },
+    {
+      "S": 1790069700,
+      "oi": 1,
+      "oid": "0x8014e8c208df43affb4751237d30234f4bdb632805aa4082d19cbc47995fd79a",
+      "trade": "371131b4-0e0b-416b-aacd-52cb34738608",
+      "q": "5",
+      "price": "0.53",
+      "first_received_ns": 1790069782732303724,
+      "reported_match_second": 1790069782,
+      "before_receipt": {
+        "quote_decision_ms": 1790069781753,
+        "distance_to_target_ms": 978.3037109375,
+        "source_age_ms": 986.0139293670654,
+        "mid": "0.535",
+        "bid": "0.53",
+        "ask": "0.54"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790069786978,
+          "distance_to_target_ms": 754.3037109375,
+          "source_age_ms": 774.938362121582,
+          "mid": "0.485",
+          "bid": "0.48",
+          "ask": "0.49",
+          "mid_minus_paid": "-0.045",
+          "bid_minus_paid": "-0.05",
+          "mid_change_from_before_receipt": "-0.050"
+        },
+        "10": {
+          "quote_decision_ms": 1790069791996,
+          "distance_to_target_ms": 736.3037109375,
+          "source_age_ms": 742.2558307647705,
+          "mid": "0.475",
+          "bid": "0.47",
+          "ask": "0.48",
+          "mid_minus_paid": "-0.055",
+          "bid_minus_paid": "-0.06",
+          "mid_change_from_before_receipt": "-0.060"
+        },
+        "30": {
+          "quote_decision_ms": 1790069812067,
+          "distance_to_target_ms": 665.3037109375,
+          "source_age_ms": 673.7480201721191,
+          "mid": "0.465",
+          "bid": "0.46",
+          "ask": "0.47",
+          "mid_minus_paid": "-0.065",
+          "bid_minus_paid": "-0.07",
+          "mid_change_from_before_receipt": "-0.070"
+        }
+      }
+    },
+    {
+      "S": 1790069700,
+      "oi": 0,
+      "oid": "0x2e1576637dbe3b39aaa408485944be18e953cc674362b63c0c1ea85d8a9141cb",
+      "trade": "1577c805-54c0-413b-8f8b-20f246991183",
+      "q": "5",
+      "price": "0.47",
+      "first_received_ns": 1790069784438700111,
+      "reported_match_second": 1790069784,
+      "before_receipt": {
+        "quote_decision_ms": 1790069783921,
+        "distance_to_target_ms": 516.699951171875,
+        "source_age_ms": 527.8536491394043,
+        "mid": "0.475",
+        "bid": "0.47",
+        "ask": "0.48"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790069788985,
+          "distance_to_target_ms": 453.699951171875,
+          "source_age_ms": 458.5813331604004,
+          "mid": "0.505",
+          "bid": "0.5",
+          "ask": "0.51",
+          "mid_minus_paid": "0.035",
+          "bid_minus_paid": "0.03",
+          "mid_change_from_before_receipt": "0.030"
+        },
+        "10": {
+          "quote_decision_ms": 1790069794004,
+          "distance_to_target_ms": 434.699951171875,
+          "source_age_ms": 440.41675186157227,
+          "mid": "0.545",
+          "bid": "0.54",
+          "ask": "0.55",
+          "mid_minus_paid": "0.075",
+          "bid_minus_paid": "0.07",
+          "mid_change_from_before_receipt": "0.070"
+        },
+        "30": {
+          "quote_decision_ms": 1790069814074,
+          "distance_to_target_ms": 364.699951171875,
+          "source_age_ms": 375.57255363464355,
+          "mid": "0.545",
+          "bid": "0.54",
+          "ask": "0.55",
+          "mid_minus_paid": "0.075",
+          "bid_minus_paid": "0.07",
+          "mid_change_from_before_receipt": "0.070"
+        }
+      }
+    },
+    {
+      "S": 1790070000,
+      "oi": 1,
+      "oid": "0xf4720dcaa27ec33e137d5d21369cfaeb3ca00cf3f7a31bb5e4b1441ff6f22825",
+      "trade": "52975481-8e8b-4cd0-9452-a74b6f972e19",
+      "q": "5",
+      "price": "0.56",
+      "first_received_ns": 1790070006193582449,
+      "reported_match_second": 1790070005,
+      "before_receipt": null,
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070010808,
+          "distance_to_target_ms": 385.582275390625,
+          "source_age_ms": 398.94325256347656,
+          "mid": "0.505",
+          "bid": "0.5",
+          "ask": "0.51",
+          "mid_minus_paid": "-0.055",
+          "bid_minus_paid": "-0.06",
+          "mid_change_from_before_receipt": null
+        },
+        "10": {
+          "quote_decision_ms": 1790070015232,
+          "distance_to_target_ms": 961.582275390625,
+          "source_age_ms": 972.8117904663086,
+          "mid": "0.535",
+          "bid": "0.53",
+          "ask": "0.54",
+          "mid_minus_paid": "-0.025",
+          "bid_minus_paid": "-0.03",
+          "mid_change_from_before_receipt": null
+        },
+        "30": {
+          "quote_decision_ms": 1790070035985,
+          "distance_to_target_ms": 208.582275390625,
+          "source_age_ms": 223.38592338562012,
+          "mid": "0.575",
+          "bid": "0.57",
+          "ask": "0.58",
+          "mid_minus_paid": "0.015",
+          "bid_minus_paid": "0.01",
+          "mid_change_from_before_receipt": null
+        }
+      }
+    },
+    {
+      "S": 1790070000,
+      "oi": 0,
+      "oid": "0x6ed504aa98cffb905e1d1930127e2272ebec9f37eeaa106179d63f592a4bd350",
+      "trade": "c717af83-75e3-4296-96dc-0db8b405b44d",
+      "q": "5",
+      "price": "0.49",
+      "first_received_ns": 1790070012883603581,
+      "reported_match_second": 1790070012,
+      "before_receipt": {
+        "quote_decision_ms": 1790070011873,
+        "distance_to_target_ms": 1009.603515625,
+        "source_age_ms": 1016.1771926879883,
+        "mid": "0.515",
+        "bid": "0.51",
+        "ask": "0.52"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070017239,
+          "distance_to_target_ms": 644.603515625,
+          "source_age_ms": 654.3045291900635,
+          "mid": "0.465",
+          "bid": "0.46",
+          "ask": "0.47",
+          "mid_minus_paid": "-0.025",
+          "bid_minus_paid": "-0.03",
+          "mid_change_from_before_receipt": "-0.050"
+        },
+        "10": {
+          "quote_decision_ms": 1790070022470,
+          "distance_to_target_ms": 413.603515625,
+          "source_age_ms": 431.9765281677246,
+          "mid": "0.475",
+          "bid": "0.47",
+          "ask": "0.48",
+          "mid_minus_paid": "-0.015",
+          "bid_minus_paid": "-0.02",
+          "mid_change_from_before_receipt": "-0.040"
+        },
+        "30": {
+          "quote_decision_ms": 1790070041983,
+          "distance_to_target_ms": 900.603515625,
+          "source_age_ms": 909.8968334197998,
+          "mid": "0.405",
+          "bid": "0.4",
+          "ask": "0.41",
+          "mid_minus_paid": "-0.085",
+          "bid_minus_paid": "-0.09",
+          "mid_change_from_before_receipt": "-0.110"
+        }
+      }
+    },
+    {
+      "S": 1790070000,
+      "oi": 0,
+      "oid": "0xa472c98be5676ef895524b971f6bc06bc25676ce7b21d6218f7887cd90b1e4ca",
+      "trade": "4f55da5a-8a54-41ec-8438-9a4fa8fe76b8",
+      "q": "5",
+      "price": "0.47",
+      "first_received_ns": 1790070020994193975,
+      "reported_match_second": 1790070020,
+      "before_receipt": {
+        "quote_decision_ms": 1790070020392,
+        "distance_to_target_ms": 601.19384765625,
+        "source_age_ms": 613.74587059021,
+        "mid": "0.485",
+        "bid": "0.48",
+        "ask": "0.49"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070025669,
+          "distance_to_target_ms": 325.19384765625,
+          "source_age_ms": 330.92328453063965,
+          "mid": "0.405",
+          "bid": "0.4",
+          "ask": "0.41",
+          "mid_minus_paid": "-0.065",
+          "bid_minus_paid": "-0.07",
+          "mid_change_from_before_receipt": "-0.080"
+        },
+        "10": {
+          "quote_decision_ms": 1790070030769,
+          "distance_to_target_ms": 225.19384765625,
+          "source_age_ms": 238.81660842895508,
+          "mid": "0.425",
+          "bid": "0.42",
+          "ask": "0.43",
+          "mid_minus_paid": "-0.045",
+          "bid_minus_paid": "-0.05",
+          "mid_change_from_before_receipt": "-0.060"
+        },
+        "30": {
+          "quote_decision_ms": 1790070050154,
+          "distance_to_target_ms": 840.19384765625,
+          "source_age_ms": 847.6034202575684,
+          "mid": "0.435",
+          "bid": "0.43",
+          "ask": "0.44",
+          "mid_minus_paid": "-0.035",
+          "bid_minus_paid": "-0.04",
+          "mid_change_from_before_receipt": "-0.050"
+        }
+      }
+    },
+    {
+      "S": 1790070000,
+      "oi": 1,
+      "oid": "0x386f0214e7635b3e101119c48744321c1cd9b7eb1ef34e9bd151d7d89b1cece2",
+      "trade": "c749581e-f77f-41a1-9e29-e2bb8c4f5edf",
+      "q": "5",
+      "price": "0.57",
+      "first_received_ns": 1790070025767390239,
+      "reported_match_second": 1790070025,
+      "before_receipt": {
+        "quote_decision_ms": 1790070025669,
+        "distance_to_target_ms": 97.39013671875,
+        "source_age_ms": 103.57733726501465,
+        "mid": "0.595",
+        "bid": "0.59",
+        "ask": "0.6"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070029768,
+          "distance_to_target_ms": 999.39013671875,
+          "source_age_ms": 1005.9392566680908,
+          "mid": "0.575",
+          "bid": "0.57",
+          "ask": "0.58",
+          "mid_minus_paid": "0.005",
+          "bid_minus_paid": "0.00",
+          "mid_change_from_before_receipt": "-0.020"
+        },
+        "10": {
+          "quote_decision_ms": 1790070034981,
+          "distance_to_target_ms": 786.39013671875,
+          "source_age_ms": 797.7722396850586,
+          "mid": "0.585",
+          "bid": "0.58",
+          "ask": "0.59",
+          "mid_minus_paid": "0.015",
+          "bid_minus_paid": "0.01",
+          "mid_change_from_before_receipt": "-0.010"
+        },
+        "30": {
+          "quote_decision_ms": 1790070055569,
+          "distance_to_target_ms": 198.39013671875,
+          "source_age_ms": 203.3816680908203,
+          "mid": "0.515",
+          "bid": "0.51",
+          "ask": "0.52",
+          "mid_minus_paid": "-0.055",
+          "bid_minus_paid": "-0.06",
+          "mid_change_from_before_receipt": "-0.080"
+        }
+      }
+    },
+    {
+      "S": 1790070000,
+      "oi": 0,
+      "oid": "0xa26e97d6d259f48268f5ebcd72a9325e1d105c4a8b7013a88c69f30112bfb191",
+      "trade": "64b47258-7d5a-4ae4-9efa-9484c0f9e424",
+      "q": "5",
+      "price": "0.41",
+      "first_received_ns": 1790070037190638588,
+      "reported_match_second": 1790070036,
+      "before_receipt": {
+        "quote_decision_ms": 1790070036787,
+        "distance_to_target_ms": 402.638671875,
+        "source_age_ms": 413.8820152282715,
+        "mid": "0.415",
+        "bid": "0.41",
+        "ask": "0.42"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070041983,
+          "distance_to_target_ms": 207.638671875,
+          "source_age_ms": 216.9319896697998,
+          "mid": "0.405",
+          "bid": "0.4",
+          "ask": "0.41",
+          "mid_minus_paid": "-0.005",
+          "bid_minus_paid": "-0.01",
+          "mid_change_from_before_receipt": "-0.010"
+        },
+        "10": {
+          "quote_decision_ms": 1790070047000,
+          "distance_to_target_ms": 190.638671875,
+          "source_age_ms": 196.8511447906494,
+          "mid": "0.415",
+          "bid": "0.41",
+          "ask": "0.42",
+          "mid_minus_paid": "0.005",
+          "bid_minus_paid": "0.00",
+          "mid_change_from_before_receipt": "0.000"
+        },
+        "30": {
+          "quote_decision_ms": 1790070066407,
+          "distance_to_target_ms": 783.638671875,
+          "source_age_ms": 869.2385711669922,
+          "mid": "0.545",
+          "bid": "0.54",
+          "ask": "0.55",
+          "mid_minus_paid": "0.135",
+          "bid_minus_paid": "0.13",
+          "mid_change_from_before_receipt": "0.130"
+        }
+      }
+    },
+    {
+      "S": 1790070000,
+      "oi": 1,
+      "oid": "0xb9b67eb3a0cf2f5ed1df272027c69810ee51f66f25b8946805a00b569342c848",
+      "trade": "de0bc319-8284-4b6c-b31f-c6df63051529",
+      "q": "5",
+      "price": "0.58",
+      "first_received_ns": 1790070047630393674,
+      "reported_match_second": 1790070047,
+      "before_receipt": {
+        "quote_decision_ms": 1790070047201,
+        "distance_to_target_ms": 428.3935546875,
+        "source_age_ms": 436.7422580718994,
+        "mid": "0.585",
+        "bid": "0.58",
+        "ask": "0.59"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070052363,
+          "distance_to_target_ms": 267.3935546875,
+          "source_age_ms": 280.1332130432129,
+          "mid": "0.555",
+          "bid": "0.55",
+          "ask": "0.56",
+          "mid_minus_paid": "-0.025",
+          "bid_minus_paid": "-0.03",
+          "mid_change_from_before_receipt": "-0.030"
+        },
+        "10": {
+          "quote_decision_ms": 1790070057576,
+          "distance_to_target_ms": 54.3935546875,
+          "source_age_ms": 60.664201736450195,
+          "mid": "0.485",
+          "bid": "0.48",
+          "ask": "0.49",
+          "mid_minus_paid": "-0.095",
+          "bid_minus_paid": "-0.10",
+          "mid_change_from_before_receipt": "-0.100"
+        },
+        "30": {
+          "quote_decision_ms": 1790070076901,
+          "distance_to_target_ms": 729.3935546875,
+          "source_age_ms": 750.2120265960693,
+          "mid": "0.265",
+          "bid": "0.26",
+          "ask": "0.27",
+          "mid_minus_paid": "-0.315",
+          "bid_minus_paid": "-0.32",
+          "mid_change_from_before_receipt": "-0.320"
+        }
+      }
+    },
+    {
+      "S": 1790070000,
+      "oi": 0,
+      "oid": "0x58d2804e5d9f8e65c4019a00e19b98b9f20079059c8e93c0460c2d0fa9dc2f1b",
+      "trade": "30938725-993a-42a6-b70c-c4d7d2548aae",
+      "q": "5",
+      "price": "0.48",
+      "first_received_ns": 1790070054541540480,
+      "reported_match_second": 1790070054,
+      "before_receipt": {
+        "quote_decision_ms": 1790070054322,
+        "distance_to_target_ms": 218.540283203125,
+        "source_age_ms": 230.7611427307129,
+        "mid": "0.495",
+        "bid": "0.49",
+        "ask": "0.5"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070059383,
+          "distance_to_target_ms": 158.540283203125,
+          "source_age_ms": 164.1099796295166,
+          "mid": "0.525",
+          "bid": "0.52",
+          "ask": "0.53",
+          "mid_minus_paid": "0.045",
+          "bid_minus_paid": "0.04",
+          "mid_change_from_before_receipt": "0.030"
+        },
+        "10": {
+          "quote_decision_ms": 1790070064400,
+          "distance_to_target_ms": 141.540283203125,
+          "source_age_ms": 153.4128131866455,
+          "mid": "0.535",
+          "bid": "0.53",
+          "ask": "0.54",
+          "mid_minus_paid": "0.055",
+          "bid_minus_paid": "0.05",
+          "mid_change_from_before_receipt": "0.040"
+        },
+        "30": {
+          "quote_decision_ms": 1790070083724,
+          "distance_to_target_ms": 817.540283203125,
+          "source_age_ms": 1006.4743709564209,
+          "mid": "0.705",
+          "bid": "0.7",
+          "ask": "0.71",
+          "mid_minus_paid": "0.225",
+          "bid_minus_paid": "0.22",
+          "mid_change_from_before_receipt": "0.210"
+        }
+      }
+    },
+    {
+      "S": 1790070000,
+      "oi": 1,
+      "oid": "0x0364be90d78694438f026fcf3e6f9ce0d11968cfd56c940f2b775d6fbae7b168",
+      "trade": "8ccfcce4-2e73-4009-808e-505037cf7653",
+      "q": "5",
+      "price": "0.29",
+      "first_received_ns": 1790070071182228175,
+      "reported_match_second": 1790070070,
+      "before_receipt": {
+        "quote_decision_ms": 1790070070772,
+        "distance_to_target_ms": 409.228271484375,
+        "source_age_ms": 417.20146560668945,
+        "mid": "0.295",
+        "bid": "0.29",
+        "ask": "0.3"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070075897,
+          "distance_to_target_ms": 285.228271484375,
+          "source_age_ms": 292.308349609375,
+          "mid": "0.285",
+          "bid": "0.28",
+          "ask": "0.29",
+          "mid_minus_paid": "-0.005",
+          "bid_minus_paid": "-0.01",
+          "mid_change_from_before_receipt": "-0.010"
+        },
+        "10": {
+          "quote_decision_ms": 1790070080915,
+          "distance_to_target_ms": 267.228271484375,
+          "source_age_ms": 276.0492820739746,
+          "mid": "0.305",
+          "bid": "0.3",
+          "ask": "0.31",
+          "mid_minus_paid": "0.015",
+          "bid_minus_paid": "0.01",
+          "mid_change_from_before_receipt": "0.010"
+        },
+        "30": {
+          "quote_decision_ms": 1790070100990,
+          "distance_to_target_ms": 192.228271484375,
+          "source_age_ms": 199.40657806396484,
+          "mid": "0.315",
+          "bid": "0.31",
+          "ask": "0.32",
+          "mid_minus_paid": "0.025",
+          "bid_minus_paid": "0.02",
+          "mid_change_from_before_receipt": "0.020"
+        }
+      }
+    },
+    {
+      "S": 1790070300,
+      "oi": 1,
+      "oid": "0x0b05db0ba9a50a36427db9a5f3920514f0e3057fa2e358675eed21090c5508b2",
+      "trade": "9adb23fb-f0dd-448e-8972-a7cfca0fce55",
+      "q": "5",
+      "price": "0.6",
+      "first_received_ns": 1790070308250421066,
+      "reported_match_second": 1790070308,
+      "before_receipt": {
+        "quote_decision_ms": 1790070307409,
+        "distance_to_target_ms": 840.4208984375,
+        "source_age_ms": 846.1639251708984,
+        "mid": "0.625",
+        "bid": "0.62",
+        "ask": "0.63"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070312706,
+          "distance_to_target_ms": 544.4208984375,
+          "source_age_ms": 551.6657238006592,
+          "mid": "0.565",
+          "bid": "0.56",
+          "ask": "0.57",
+          "mid_minus_paid": "-0.035",
+          "bid_minus_paid": "-0.04",
+          "mid_change_from_before_receipt": "-0.060"
+        },
+        "10": {
+          "quote_decision_ms": 1790070317725,
+          "distance_to_target_ms": 525.4208984375,
+          "source_age_ms": 531.3041152954102,
+          "mid": "0.445",
+          "bid": "0.44",
+          "ask": "0.45",
+          "mid_minus_paid": "-0.155",
+          "bid_minus_paid": "-0.16",
+          "mid_change_from_before_receipt": "-0.180"
+        },
+        "30": {
+          "quote_decision_ms": 1790070337796,
+          "distance_to_target_ms": 454.4208984375,
+          "source_age_ms": 596.7899303436279,
+          "mid": "0.435",
+          "bid": "0.43",
+          "ask": "0.44",
+          "mid_minus_paid": "-0.165",
+          "bid_minus_paid": "-0.17",
+          "mid_change_from_before_receipt": "-0.190"
+        }
+      }
+    },
+    {
+      "S": 1790070300,
+      "oi": 0,
+      "oid": "0xccf6d2f83144e89aca15c9de1a12bd841e03832ffa2a3f39b12d36b8c09356d9",
+      "trade": "70b18333-6797-4da2-bd23-14efbcafab36",
+      "q": "1.785715",
+      "price": "0.4400002239999104",
+      "first_received_ns": 1790070311751205508,
+      "reported_match_second": 1790070311,
+      "before_receipt": {
+        "quote_decision_ms": 1790070311646,
+        "distance_to_target_ms": 104.20556640625,
+        "source_age_ms": 112.57548904418945,
+        "mid": "0.445",
+        "bid": "0.44",
+        "ask": "0.45"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070316721,
+          "distance_to_target_ms": 30.20556640625,
+          "source_age_ms": 36.3086051940918,
+          "mid": "0.495",
+          "bid": "0.49",
+          "ask": "0.5",
+          "mid_minus_paid": "0.0549997760000896",
+          "bid_minus_paid": "0.0499997760000896",
+          "mid_change_from_before_receipt": "0.050"
+        },
+        "10": {
+          "quote_decision_ms": 1790070321740,
+          "distance_to_target_ms": 11.20556640625,
+          "source_age_ms": 15.300405502319336,
+          "mid": "0.495",
+          "bid": "0.49",
+          "ask": "0.5",
+          "mid_minus_paid": "0.0549997760000896",
+          "bid_minus_paid": "0.0499997760000896",
+          "mid_change_from_before_receipt": "0.050"
+        },
+        "30": {
+          "quote_decision_ms": 1790070340806,
+          "distance_to_target_ms": 945.20556640625,
+          "source_age_ms": 966.8058128356934,
+          "mid": "0.565",
+          "bid": "0.56",
+          "ask": "0.57",
+          "mid_minus_paid": "0.1249997760000896",
+          "bid_minus_paid": "0.1199997760000896",
+          "mid_change_from_before_receipt": "0.120"
+        }
+      }
+    },
+    {
+      "S": 1790070300,
+      "oi": 0,
+      "oid": "0xccf6d2f83144e89aca15c9de1a12bd841e03832ffa2a3f39b12d36b8c09356d9",
+      "trade": "b0d13a6c-30f2-4b0b-8896-5070ceeec821",
+      "q": "3.21",
+      "price": "0.44",
+      "first_received_ns": 1790070311834999608,
+      "reported_match_second": 1790070311,
+      "before_receipt": {
+        "quote_decision_ms": 1790070311646,
+        "distance_to_target_ms": 187.99951171875,
+        "source_age_ms": 196.36943435668945,
+        "mid": "0.445",
+        "bid": "0.44",
+        "ask": "0.45"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070316721,
+          "distance_to_target_ms": 113.99951171875,
+          "source_age_ms": 120.1025505065918,
+          "mid": "0.495",
+          "bid": "0.49",
+          "ask": "0.5",
+          "mid_minus_paid": "0.055",
+          "bid_minus_paid": "0.05",
+          "mid_change_from_before_receipt": "0.050"
+        },
+        "10": {
+          "quote_decision_ms": 1790070321740,
+          "distance_to_target_ms": 94.99951171875,
+          "source_age_ms": 99.09435081481934,
+          "mid": "0.495",
+          "bid": "0.49",
+          "ask": "0.5",
+          "mid_minus_paid": "0.055",
+          "bid_minus_paid": "0.05",
+          "mid_change_from_before_receipt": "0.050"
+        },
+        "30": {
+          "quote_decision_ms": 1790070341809,
+          "distance_to_target_ms": 25.99951171875,
+          "source_age_ms": 32.71671676635742,
+          "mid": "0.565",
+          "bid": "0.56",
+          "ask": "0.57",
+          "mid_minus_paid": "0.125",
+          "bid_minus_paid": "0.12",
+          "mid_change_from_before_receipt": "0.120"
+        }
+      }
+    },
+    {
+      "S": 1790070600,
+      "oi": 1,
+      "oid": "0x0222d5229a58f2fed75956ead7f44292142e1ee4f219e64cc2ced8f456cf7c59",
+      "trade": "2df412c9-614b-4e3b-a26b-61a41f84ee64",
+      "q": "5",
+      "price": "0.46",
+      "first_received_ns": 1790070608536735598,
+      "reported_match_second": 1790070608,
+      "before_receipt": {
+        "quote_decision_ms": 1790070607742,
+        "distance_to_target_ms": 793.735595703125,
+        "source_age_ms": 803.9337120056152,
+        "mid": "0.475",
+        "bid": "0.47",
+        "ask": "0.48"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070612995,
+          "distance_to_target_ms": 541.735595703125,
+          "source_age_ms": 550.3012599945068,
+          "mid": "0.445",
+          "bid": "0.44",
+          "ask": "0.45",
+          "mid_minus_paid": "-0.015",
+          "bid_minus_paid": "-0.02",
+          "mid_change_from_before_receipt": "-0.030"
+        },
+        "10": {
+          "quote_decision_ms": 1790070618012,
+          "distance_to_target_ms": 524.735595703125,
+          "source_age_ms": 529.3942947387695,
+          "mid": "0.445",
+          "bid": "0.44",
+          "ask": "0.45",
+          "mid_minus_paid": "-0.015",
+          "bid_minus_paid": "-0.02",
+          "mid_change_from_before_receipt": "-0.030"
+        },
+        "30": {
+          "quote_decision_ms": 1790070637757,
+          "distance_to_target_ms": 779.735595703125,
+          "source_age_ms": 785.1429290771484,
+          "mid": "0.485",
+          "bid": "0.48",
+          "ask": "0.49",
+          "mid_minus_paid": "0.025",
+          "bid_minus_paid": "0.02",
+          "mid_change_from_before_receipt": "0.010"
+        }
+      }
+    },
+    {
+      "S": 1790070600,
+      "oi": 0,
+      "oid": "0x16b1c90095935d1aa85309f05a22e4c1959152149b8aa5401516805ae2b5c36a",
+      "trade": "3cf549cc-2456-4e55-95cb-857f26725df3",
+      "q": "5",
+      "price": "0.55",
+      "first_received_ns": 1790070623297411003,
+      "reported_match_second": 1790070623,
+      "before_receipt": {
+        "quote_decision_ms": 1790070623211,
+        "distance_to_target_ms": 85.4111328125,
+        "source_age_ms": 99.73007583618164,
+        "mid": "0.555",
+        "bid": "0.55",
+        "ask": "0.56"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070627724,
+          "distance_to_target_ms": 573.4111328125,
+          "source_age_ms": 578.1077404022217,
+          "mid": "0.535",
+          "bid": "0.53",
+          "ask": "0.54",
+          "mid_minus_paid": "-0.015",
+          "bid_minus_paid": "-0.02",
+          "mid_change_from_before_receipt": "-0.020"
+        },
+        "10": {
+          "quote_decision_ms": 1790070632740,
+          "distance_to_target_ms": 557.4111328125,
+          "source_age_ms": 561.9284496307373,
+          "mid": "0.515",
+          "bid": "0.51",
+          "ask": "0.52",
+          "mid_minus_paid": "-0.035",
+          "bid_minus_paid": "-0.04",
+          "mid_change_from_before_receipt": "-0.040"
+        },
+        "30": {
+          "quote_decision_ms": 1790070652809,
+          "distance_to_target_ms": 488.4111328125,
+          "source_age_ms": 496.3311595916748,
+          "mid": "0.505",
+          "bid": "0.5",
+          "ask": "0.51",
+          "mid_minus_paid": "-0.045",
+          "bid_minus_paid": "-0.05",
+          "mid_change_from_before_receipt": "-0.050"
+        }
+      }
+    },
+    {
+      "S": 1790070600,
+      "oi": 1,
+      "oid": "0x880870c3438a8e19295f10dc7153e493caf1b0536b7be49c978c0ef025dad8f9",
+      "trade": "65a6ae27-5959-4f3f-820d-e5ef901c7af1",
+      "q": "0.370371",
+      "price": "0.4600009179984394",
+      "first_received_ns": 1790070625677609631,
+      "reported_match_second": 1790070625,
+      "before_receipt": {
+        "quote_decision_ms": 1790070625660,
+        "distance_to_target_ms": 16.609619140625,
+        "source_age_ms": 33.93859672546387,
+        "mid": "0.46",
+        "bid": "0.45",
+        "ask": "0.47"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070629731,
+          "distance_to_target_ms": 946.609619140625,
+          "source_age_ms": 956.5292625427246,
+          "mid": "0.465",
+          "bid": "0.46",
+          "ask": "0.47",
+          "mid_minus_paid": "0.0049990820015606",
+          "bid_minus_paid": "-9.179984394E-7",
+          "mid_change_from_before_receipt": "0.005"
+        },
+        "10": {
+          "quote_decision_ms": 1790070634748,
+          "distance_to_target_ms": 929.609619140625,
+          "source_age_ms": 938.3681640625,
+          "mid": "0.475",
+          "bid": "0.47",
+          "ask": "0.48",
+          "mid_minus_paid": "0.0149990820015606",
+          "bid_minus_paid": "0.0099990820015606",
+          "mid_change_from_before_receipt": "0.015"
+        },
+        "30": {
+          "quote_decision_ms": 1790070654817,
+          "distance_to_target_ms": 860.609619140625,
+          "source_age_ms": 874.2059154510498,
+          "mid": "0.495",
+          "bid": "0.49",
+          "ask": "0.5",
+          "mid_minus_paid": "0.0349990820015606",
+          "bid_minus_paid": "0.0299990820015606",
+          "mid_change_from_before_receipt": "0.035"
+        }
+      }
+    },
+    {
+      "S": 1790070600,
+      "oi": 1,
+      "oid": "0x880870c3438a8e19295f10dc7153e493caf1b0536b7be49c978c0ef025dad8f9",
+      "trade": "9b3c2bdc-7685-42b6-bffd-d0dac0ceb3cf",
+      "q": "4.62",
+      "price": "0.46",
+      "first_received_ns": 1790070625688632595,
+      "reported_match_second": 1790070625,
+      "before_receipt": {
+        "quote_decision_ms": 1790070625660,
+        "distance_to_target_ms": 27.632568359375,
+        "source_age_ms": 44.96154594421387,
+        "mid": "0.46",
+        "bid": "0.45",
+        "ask": "0.47"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070629731,
+          "distance_to_target_ms": 957.632568359375,
+          "source_age_ms": 967.5522117614746,
+          "mid": "0.465",
+          "bid": "0.46",
+          "ask": "0.47",
+          "mid_minus_paid": "0.005",
+          "bid_minus_paid": "0.00",
+          "mid_change_from_before_receipt": "0.005"
+        },
+        "10": {
+          "quote_decision_ms": 1790070634748,
+          "distance_to_target_ms": 940.632568359375,
+          "source_age_ms": 949.39111328125,
+          "mid": "0.475",
+          "bid": "0.47",
+          "ask": "0.48",
+          "mid_minus_paid": "0.015",
+          "bid_minus_paid": "0.01",
+          "mid_change_from_before_receipt": "0.015"
+        },
+        "30": {
+          "quote_decision_ms": 1790070654817,
+          "distance_to_target_ms": 871.632568359375,
+          "source_age_ms": 885.2288646697998,
+          "mid": "0.495",
+          "bid": "0.49",
+          "ask": "0.5",
+          "mid_minus_paid": "0.035",
+          "bid_minus_paid": "0.03",
+          "mid_change_from_before_receipt": "0.035"
+        }
+      }
+    },
+    {
+      "S": 1790070900,
+      "oi": 0,
+      "oid": "0x8c7a994ab344ee8a9be05ab44d02e9f4219fa8dbecb1d83b487025d131c9b6a3",
+      "trade": "daa51448-faa9-4e6e-94ba-eff8d499d566",
+      "q": "5",
+      "price": "0.35",
+      "first_received_ns": 1790070906813268088,
+      "reported_match_second": 1790070906,
+      "before_receipt": {
+        "quote_decision_ms": 1790070906617,
+        "distance_to_target_ms": 195.26806640625,
+        "source_age_ms": 206.67877960205078,
+        "mid": "0.355",
+        "bid": "0.35",
+        "ask": "0.36"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070911143,
+          "distance_to_target_ms": 670.26806640625,
+          "source_age_ms": 682.8031616210938,
+          "mid": "0.475",
+          "bid": "0.47",
+          "ask": "0.48",
+          "mid_minus_paid": "0.125",
+          "bid_minus_paid": "0.12",
+          "mid_change_from_before_receipt": "0.120"
+        },
+        "10": {
+          "quote_decision_ms": 1790070915916,
+          "distance_to_target_ms": 897.26806640625,
+          "source_age_ms": 904.9854373931885,
+          "mid": "0.405",
+          "bid": "0.4",
+          "ask": "0.41",
+          "mid_minus_paid": "0.055",
+          "bid_minus_paid": "0.05",
+          "mid_change_from_before_receipt": "0.050"
+        },
+        "30": {
+          "quote_decision_ms": 1790070936297,
+          "distance_to_target_ms": 516.26806640625,
+          "source_age_ms": 523.3064212799072,
+          "mid": "0.525",
+          "bid": "0.52",
+          "ask": "0.53",
+          "mid_minus_paid": "0.175",
+          "bid_minus_paid": "0.17",
+          "mid_change_from_before_receipt": "0.170"
+        }
+      }
+    },
+    {
+      "S": 1790070900,
+      "oi": 1,
+      "oid": "0xfa6abc8f491b60e1012fe087d7d2f7459b450df12acdb995d79f2d842af33a55",
+      "trade": "0373a289-12a2-4518-97ba-67f640809e40",
+      "q": "5",
+      "price": "0.66",
+      "first_received_ns": 1790070908474264401,
+      "reported_match_second": 1790070908,
+      "before_receipt": {
+        "quote_decision_ms": 1790070907790,
+        "distance_to_target_ms": 683.264404296875,
+        "source_age_ms": 694.4181022644043,
+        "mid": "0.675",
+        "bid": "0.67",
+        "ask": "0.68"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070912466,
+          "distance_to_target_ms": 1008.264404296875,
+          "source_age_ms": 1024.63374710083,
+          "mid": "0.575",
+          "bid": "0.57",
+          "ask": "0.58",
+          "mid_minus_paid": "-0.085",
+          "bid_minus_paid": "-0.09",
+          "mid_change_from_before_receipt": "-0.100"
+        },
+        "10": {
+          "quote_decision_ms": 1790070918128,
+          "distance_to_target_ms": 346.264404296875,
+          "source_age_ms": 356.5473976135254,
+          "mid": "0.535",
+          "bid": "0.53",
+          "ask": "0.54",
+          "mid_minus_paid": "-0.125",
+          "bid_minus_paid": "-0.13",
+          "mid_change_from_before_receipt": "-0.140"
+        },
+        "30": {
+          "quote_decision_ms": 1790070937502,
+          "distance_to_target_ms": 972.264404296875,
+          "source_age_ms": 979.034538269043,
+          "mid": "0.485",
+          "bid": "0.48",
+          "ask": "0.49",
+          "mid_minus_paid": "-0.175",
+          "bid_minus_paid": "-0.18",
+          "mid_change_from_before_receipt": "-0.190"
+        }
+      }
+    },
+    {
+      "S": 1790070900,
+      "oi": 1,
+      "oid": "0xe1259372c19d1488cad013d91bf209e7b2168e1c6beac9e960df8ed71886ac2e",
+      "trade": "422a6ee4-a4a1-42a2-accd-581bd6136047",
+      "q": "5",
+      "price": "0.52",
+      "first_received_ns": 1790070910703455207,
+      "reported_match_second": 1790070910,
+      "before_receipt": {
+        "quote_decision_ms": 1790070910067,
+        "distance_to_target_ms": 635.455322265625,
+        "source_age_ms": 712.608528137207,
+        "mid": "0.535",
+        "bid": "0.53",
+        "ask": "0.54"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070914795,
+          "distance_to_target_ms": 908.455322265625,
+          "source_age_ms": 920.0512866973877,
+          "mid": "0.595",
+          "bid": "0.59",
+          "ask": "0.6",
+          "mid_minus_paid": "0.075",
+          "bid_minus_paid": "0.07",
+          "mid_change_from_before_receipt": "0.060"
+        },
+        "10": {
+          "quote_decision_ms": 1790070920238,
+          "distance_to_target_ms": 465.455322265625,
+          "source_age_ms": 473.2559013366699,
+          "mid": "0.505",
+          "bid": "0.5",
+          "ask": "0.51",
+          "mid_minus_paid": "-0.015",
+          "bid_minus_paid": "-0.02",
+          "mid_change_from_before_receipt": "-0.030"
+        },
+        "30": {
+          "quote_decision_ms": 1790070940513,
+          "distance_to_target_ms": 190.455322265625,
+          "source_age_ms": 252.94816970825195,
+          "mid": "0.555",
+          "bid": "0.55",
+          "ask": "0.56",
+          "mid_minus_paid": "0.035",
+          "bid_minus_paid": "0.03",
+          "mid_change_from_before_receipt": "0.020"
+        }
+      }
+    },
+    {
+      "S": 1790070900,
+      "oi": 0,
+      "oid": "0x850c0467ef175c1f0ab4fea7170dcab59daa9a26ca8ee662b208b49b18393926",
+      "trade": "ada98e94-295b-477c-87cc-44121b0b9156",
+      "q": "5",
+      "price": "0.45",
+      "first_received_ns": 1790070911791920483,
+      "reported_match_second": 1790070911,
+      "before_receipt": {
+        "quote_decision_ms": 1790070911143,
+        "distance_to_target_ms": 647.92041015625,
+        "source_age_ms": 660.4555053710938,
+        "mid": "0.475",
+        "bid": "0.47",
+        "ask": "0.48"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070915916,
+          "distance_to_target_ms": 875.92041015625,
+          "source_age_ms": 883.6377811431885,
+          "mid": "0.405",
+          "bid": "0.4",
+          "ask": "0.41",
+          "mid_minus_paid": "-0.045",
+          "bid_minus_paid": "-0.05",
+          "mid_change_from_before_receipt": "-0.070"
+        },
+        "10": {
+          "quote_decision_ms": 1790070921241,
+          "distance_to_target_ms": 550.92041015625,
+          "source_age_ms": 592.9238033294678,
+          "mid": "0.495",
+          "bid": "0.49",
+          "ask": "0.5",
+          "mid_minus_paid": "0.045",
+          "bid_minus_paid": "0.04",
+          "mid_change_from_before_receipt": "0.020"
+        },
+        "30": {
+          "quote_decision_ms": 1790070941316,
+          "distance_to_target_ms": 475.92041015625,
+          "source_age_ms": 483.0009651184082,
+          "mid": "0.425",
+          "bid": "0.42",
+          "ask": "0.43",
+          "mid_minus_paid": "-0.025",
+          "bid_minus_paid": "-0.03",
+          "mid_change_from_before_receipt": "-0.050"
+        }
+      }
+    },
+    {
+      "S": 1790070900,
+      "oi": 0,
+      "oid": "0x727790a184b3bdfec3ad92591e972d806d172f45cd6e23576309eb9b45817703",
+      "trade": "6cc39d8a-2fe7-435f-8ed2-3efcc47850dc",
+      "q": "5",
+      "price": "0.41",
+      "first_received_ns": 1790070913797221745,
+      "reported_match_second": 1790070913,
+      "before_receipt": {
+        "quote_decision_ms": 1790070913612,
+        "distance_to_target_ms": 184.2216796875,
+        "source_age_ms": 192.4914665222168,
+        "mid": "0.415",
+        "bid": "0.41",
+        "ask": "0.42"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070917987,
+          "distance_to_target_ms": 810.2216796875,
+          "source_age_ms": 889.1408519744873,
+          "mid": "0.465",
+          "bid": "0.46",
+          "ask": "0.47",
+          "mid_minus_paid": "0.055",
+          "bid_minus_paid": "0.05",
+          "mid_change_from_before_receipt": "0.050"
+        },
+        "10": {
+          "quote_decision_ms": 1790070923250,
+          "distance_to_target_ms": 547.2216796875,
+          "source_age_ms": 561.0950183868408,
+          "mid": "0.465",
+          "bid": "0.46",
+          "ask": "0.47",
+          "mid_minus_paid": "0.055",
+          "bid_minus_paid": "0.05",
+          "mid_change_from_before_receipt": "0.050"
+        },
+        "30": {
+          "quote_decision_ms": 1790070943326,
+          "distance_to_target_ms": 471.2216796875,
+          "source_age_ms": 479.8264446258545,
+          "mid": "0.385",
+          "bid": "0.38",
+          "ask": "0.39",
+          "mid_minus_paid": "-0.025",
+          "bid_minus_paid": "-0.03",
+          "mid_change_from_before_receipt": "-0.030"
+        }
+      }
+    },
+    {
+      "S": 1790070900,
+      "oi": 1,
+      "oid": "0x9b8248f647af60f512b7106dcc9fb0079462516374d37cc025953d360200a46c",
+      "trade": "22ac855b-62d5-4d86-a49b-c83ff98a3d99",
+      "q": "5",
+      "price": "0.58",
+      "first_received_ns": 1790070917639574551,
+      "reported_match_second": 1790070917,
+      "before_receipt": {
+        "quote_decision_ms": 1790070916919,
+        "distance_to_target_ms": 719.574462890625,
+        "source_age_ms": 731.9996471405029,
+        "mid": "0.595",
+        "bid": "0.59",
+        "ask": "0.6"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070922447,
+          "distance_to_target_ms": 192.574462890625,
+          "source_age_ms": 200.53430557250977,
+          "mid": "0.555",
+          "bid": "0.55",
+          "ask": "0.56",
+          "mid_minus_paid": "-0.025",
+          "bid_minus_paid": "-0.03",
+          "mid_change_from_before_receipt": "-0.040"
+        },
+        "10": {
+          "quote_decision_ms": 1790070927467,
+          "distance_to_target_ms": 172.574462890625,
+          "source_age_ms": 183.46542358398438,
+          "mid": "0.455",
+          "bid": "0.45",
+          "ask": "0.46",
+          "mid_minus_paid": "-0.125",
+          "bid_minus_paid": "-0.13",
+          "mid_change_from_before_receipt": "-0.140"
+        },
+        "30": {
+          "quote_decision_ms": 1790070947542,
+          "distance_to_target_ms": 97.574462890625,
+          "source_age_ms": 108.45564842224121,
+          "mid": "0.525",
+          "bid": "0.52",
+          "ask": "0.53",
+          "mid_minus_paid": "-0.055",
+          "bid_minus_paid": "-0.06",
+          "mid_change_from_before_receipt": "-0.070"
+        }
+      }
+    },
+    {
+      "S": 1790070900,
+      "oi": 0,
+      "oid": "0x721e8f1982e45a21dbd57f499778824338150c45cc5f25b45f7d56e39f2b1362",
+      "trade": "7263c4b0-9464-4f3b-849a-db397d318e01",
+      "q": "5",
+      "price": "0.48",
+      "first_received_ns": 1790070921898226038,
+      "reported_match_second": 1790070921,
+      "before_receipt": {
+        "quote_decision_ms": 1790070921241,
+        "distance_to_target_ms": 656.225830078125,
+        "source_age_ms": 698.2292232513428,
+        "mid": "0.495",
+        "bid": "0.49",
+        "ask": "0.5"
+      },
+      "horizons": {
+        "5": {
+          "quote_decision_ms": 1790070926262,
+          "distance_to_target_ms": 636.225830078125,
+          "source_age_ms": 662.6373634338379,
+          "mid": "0.545",
+          "bid": "0.54",
+          "ask": "0.55",
+          "mid_minus_paid": "0.065",
+          "bid_minus_paid": "0.06",
+          "mid_change_from_before_receipt": "0.050"
+        },
+        "10": {
+          "quote_decision_ms": 1790070931279,
+          "distance_to_target_ms": 619.225830078125,
+          "source_age_ms": 627.5561752319336,
+          "mid": "0.505",
+          "bid": "0.5",
+          "ask": "0.51",
+          "mid_minus_paid": "0.025",
+          "bid_minus_paid": "0.02",
+          "mid_change_from_before_receipt": "0.010"
+        },
+        "30": {
+          "quote_decision_ms": 1790070951355,
+          "distance_to_target_ms": 543.225830078125,
+          "source_age_ms": 554.3914489746094,
+          "mid": "0.445",
+          "bid": "0.44",
+          "ask": "0.45",
+          "mid_minus_paid": "-0.035",
+          "bid_minus_paid": "-0.04",
+          "mid_change_from_before_receipt": "-0.050"
+        }
+      }
+    }
+  ],
+  "window_markout_dollars": {
+    "1790069400": {
+      "5": "0.40000",
+      "10": "1.22500",
+      "30": "3.02500"
+    },
+    "1790069700": {
+      "5": "-0.225",
+      "10": "-0.625",
+      "30": "0.575"
+    },
+    "1790070000": {
+      "5": "-0.650",
+      "10": "-0.450",
+      "30": "-0.450"
+    },
+    "1790070300": {
+      "5": "0.0997639250000000000640",
+      "10": "-0.5002360749999999999360",
+      "30": "-0.2005360249999999999360"
+    },
+    "1790070600": {
+      "5": "-0.1250484849999999990174",
+      "10": "-0.1751447749999999990174",
+      "30": "0.0746626450000000009826"
+    },
+    "1790070900": {
+      "5": "0.825",
+      "10": "-0.425",
+      "30": "-0.525"
+    }
+  },
+  "accepted_parents": 63,
+  "quote_rows": 3192,
+  "total_fill_parent_pairs": 40,
+  "clock": "Earliest A/B received MATCHED trade UTC ns; not exact execution clock. Quote data logged at approximately 1 Hz.",
+  "limitations": [
+    "before_receipt may already be after execution; not a causal pre-execution markout.",
+    "Latest decision quote <= target; log age <=1.5s and source age <=3s; missing/stale cases excluded explicitly.",
+    "Mid is a diagnostic, bid lacks depth and taker fees, neither is guaranteed liquidation value.",
+    "All observations first G1 six-market pilot; no matched Bosona clock or G2 economic test.",
+    "Negative markouts support execution-quality concern but do not identify optimal cancel/exit policy."
+  ],
+  "input_sha256": {
+    "lanes/g/validation/final_20260922/complete/reconciled_state.json": "e782c8756663a9da1d95d3401018b681495022d44ae205ff1d2496c56325690a",
+    "lanes/g/validation/final_20260922/complete/result.json": "87851002b2b35eec2faf6319207e3794578695895a93f05a0b2e31ea2f4a3bc4",
+    "lanes/g/validation/final_20260922/original/LOG_g.jsonl": "7a6ff12be62a949c7f934de8a3faad4180293ada7e235dbb97a88bec32b905b6",
+    "lanes/g_continuous/validation/g1_first_pilot/A_private.jsonl": "50c368b44ef1690f0547654f55ae52345e512419aec0c394d4940c1d8519e015",
+    "lanes/g_continuous/validation/g1_first_pilot/B_private.jsonl": "9f2f67ca0ddcd6b1343ff3c004884b7932d23e6256fa40f3897b5b3c95f19949"
+  }
+}

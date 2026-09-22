@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "verified_utc": "2026-09-22T12:53:26.965580+00:00",
+  "head": "01ea1dc6be98a8cbc57b796dc066c4e6a8404cc1",
+  "scope": "Offline independent ULTRA research; no order/service/deployment/budget action.",
+  "plan_acceptance_criteria_passed": 4,
+  "initial_manifest_files": 238,
+  "initial_manifest_unchanged_files": 236,
+  "expected_document_changes": [
+    {
+      "path": "docs/BOSONA_G2_NEXT_STEP_REVIEW_PROMPT_20260922.md",
+      "before": "5bd96b7c6e01595c8be474d22b73dc60bd2931c9c66041e6bcc0bc2a85e64638",
+      "after": "df164f5c5f2be6de53e1a221ef234b94a90ba4cf6a832d1f671017dbe7082bef"
+    },
+    {
+      "path": "plan.md",
+      "before": "be2855ae7877d7df3ac787cc27154f53dc95b5930ffd635ffa1cb91d8fcb0213",
+      "after": "f5d80123fecf4838b4d797dabc3f73e933ce4c0d702266e4244f0dcb2e88bd23"
+    }
+  ],
+  "document_change_note": "ULTRA only appends/completes its plan section; prompt publication context and other plan sections changed concurrently outside this review.",
+  "targeted_code_checks": {
+    "syntax_pass": [
+      "accounting/audit.py",
+      "accounting/crosscheck.py",
+      "context/check.py",
+      "context/reconstruct.py",
+      "execution/buffer_probe.py",
+      "execution/markouts.py",
+      "execution/recompute.py",
+      "execution/safe_run.py",
+      "inventory.py",
+      "mechanisms.py"
+    ],
+    "ruff_F_E9": "PASS",
+    "byte_identical_repeats": [
+      {
+        "script": "mechanisms.py",
+        "exit_code": 0,
+        "byte_identical_repeat_sha256": "2ccfa3c8df2d056270a0bde9a8652d2cdb5e4c65b9f4bf9fa6dda8de2fd88d2e"
+      },
+      {
+        "script": "inventory.py",
+        "exit_code": 0,
+        "byte_identical_repeat_sha256": "e45759a4cf7c24b3bc2e88fd68a0864eef2e5fbd115e68cbbda8f5ef16ae5f9b"
+      }
+    ]
+  },
+  "source_and_format_checks": {
+    "source_groups": {
+      "accounting/results.json": 2224,
+      "execution/results.json": 209,
+      "execution/buffer_probe.json": 5,
+      "context/sources.json": 5
+    },
+    "unique_source_hashes_verified": 2439,
+    "unexpected_changed_sources": [],
+    "report_local_links_verified": [
+      "../data/analysis/g2_next_review_ultra_20260922/",
+      "../data/analysis/g2_next_review_ultra_20260922/accounting/FINDINGS.md"
+    ],
+    "valid_json_outputs": 20,
+    "reviewer_text_trailing_whitespace": "PASS",
+    "plan_git_diff_check": "PASS"
+  },
+  "independent_accounting_crosscheck": {
+    "status": "PASS",
+    "events": 390,
+    "execution_quote_legs": 278,
+    "five_share_probes": 118
+  },
+  "isolated_G2_tests": {
+    "test_identity.py": 0,
+    "test_g.py": 0,
+    "test_g_stream.py": 0
+  },
+  "subtask_verification_files": [
+    "accounting/verification.json",
+    "accounting/crosscheck.json",
+    "context/verification.json",
+    "execution/verification.json"
+  ],
+  "report_sha256": "4eeccf497f915fefe9f2544d17647f7ec83cdef7f82400897a71d065bd30ffd5",
+  "output_sha256": {
+    "accounting/FINDINGS.md": "700d86365ed5156434050470c8b7aab59792b94a9b69b5340afdbc0662f00b5b",
+    "accounting/audit.py": "96952ddf7c77610e6cee860d296f0bb5180a200d99a71450df53ae595551e6a5",
+    "accounting/crosscheck.json": "7481f022a27b0a0459104e56cdf2b542af03ef89aeaec3315671edc0f405733b",
+    "accounting/crosscheck.py": "a89e5c6cb439c6bd39ab88a696af8f5558521b4c182afae0c5eaa465cd0128a7",
+    "accounting/results.json": "16ca0a80d9d17c7f3030db131237aa756afe1aafa347c3716bb5494c6ab81ca5",
+    "accounting/run_summary.json": "a9626dffaa4046040b8268d462e5e3c29d7e325e56209ca577fef3b90352e2c6",
+    "context/NOTLAR.md": "a530b2eda0d072d275e57ca6cb4f7d3b989e78fc708909bd5da6fab6597d5774",
+    "context/check.py": "8967527e808b7c7363606a3de4325f18f959b0590f9b1ecb5cd81d6068f5d34f",
+    "context/events.json": "d57ebeef0f21df67c061b84d105fc3efd3e408892d978a931fbac2f23e9a7658",
+    "context/reconstruct.py": "9304229f90f8bf0e22cf76d81a10eb65a7f26535104e43f30481beeb8840e91f",
+    "context/sources.json": "3e0d707dc3cea732757e3506ce938d7f3e1d7797e0669a968dc4b4829cdf91fa",
+    "context/summary.json": "639f06af36030566e4dc0db56a0d424c3a608f0c61acc66451ddd846c22215be",
+    "execution/NOTES.md": "3580a99ddee113428043c16807c49f66859dab255a882ca3cdb3897e8b4214c9",
+    "execution/buffer_probe.json": "ab4da72441012e4446c9f4aa8f8f2723f526eb86538188ccebf5df4bc903a3a7",
+    "execution/buffer_probe.py": "5ea9751224a3d11cc9581e80f1bdd1e7e549ef5e1c6d81ae32a0bc2746328a12",
+    "execution/markouts.json": "1bbf4ee1aa9852a53d51a749b5dfd227365303a36d84df77f0799605de89fc0d",
+    "execution/markouts.py": "66318b7ef677d52adfe8fe0c6be9af7d38fc971855aac8275bcc771135e365cc",
+    "execution/recompute.py": "7adfc3d73e3318b8e0cb2b0d569f76e847dd1c2a8c2861ecbe80d33815506b46",
+    "execution/results.json": "4661064990b677ff00967d488982035bc084d294621a0c073b9507ba184cc367",
+    "execution/safe_run.py": "c5aa9539a824546ceae5791076c495e02da797d9dc2f93989511e4a4891b253b",
+    "execution/tests.json": "8ba669f03ecc1d1752f69424934a310b8799bfd42138e478c23181a7739e6838",
+    "final_checks.json": "5bbfd303add065688ace3a3965766454720f9f4281f7ee50958e43076df433b3",
+    "input_manifest.json": "820f045aa6705c3bd156a0dbe77812a92b39abbb043711fbad4d7ef25a97db99",
+    "inventory.py": "2250aee45769e5dca0fb49b84b51d64776e3d6842e726922db29286cbe92d5c6",
+    "mechanism_protocol.json": "f30cb88de4d93db91c9ebdc8a96bc4ca465064be0b4f2f292c95e59695fccc05",
+    "mechanisms.json": "2ccfa3c8df2d056270a0bde9a8652d2cdb5e4c65b9f4bf9fa6dda8de2fd88d2e",
+    "mechanisms.py": "0c42291e0cb8ebc9096bfd4730394321cf401d713775d07c9382602d0db2c956",
+    "official/fees.md": "8e246189f6ca85b8b8782e1d76a769cf98672a98c4c63d8bbe6150d659db8d7c",
+    "official/manifest.json": "3996de90cffcfa6fd5238d8450090f89677be421fc383759ba9215c84dfd796e",
+    "official/place_orders.md": "a3426c3ac3c04c96a4e988009cd6e603d22622a31e1b3c02a453ce3ac22d7563",
+    "official/taker_rebates.md": "4781bad02aacd3a7599ddb31381eb4fc9cb4bd8f783701ac62ffbf1fc364af34",
+    "official/twap.md": "6b8ffab6fb0fd7c8818a2921f66a920d653deb7b84e22dce91d2a70cf4ddbed9",
+    "older_archive_inventory.json": "e45759a4cf7c24b3bc2e88fd68a0864eef2e5fbd115e68cbbda8f5ef16ae5f9b",
+    "preservation_checks.json": "d44fc5fc7bd148a971a22990b35c05f0c6c3955fcebc291066bc55e69e60a1d8"
+  },
+  "limits": [
+    "Public history is not full-chain starting balance proof.",
+    "Raw tape checks sampled four snapshots, not the whole archive.",
+    "250ms quote economics are not guaranteed fills or an independent strategy.",
+    "Candidate flags precede received fills, not proven exchange execution.",
+    "All primary economic comparison data predate the archived G2 start."
+  ]
+}

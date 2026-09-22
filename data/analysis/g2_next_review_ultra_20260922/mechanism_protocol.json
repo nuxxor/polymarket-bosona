@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-09-22T12:27:05.534174+00:00",
+  "status": "EXPLORATORY_FIXED_BEFORE_NEW_CONTEXT_RESULTS_NOT_BLIND_OOS",
+  "cohort": "Existing R1 hash-selected observed 64 markets; no expansion for primary inference",
+  "independent_initial_judgment": "G2 is a useful infrastructure baseline, but unchanged symmetric passive entry and one-clip inventory ceiling do not establish Bosona decision-rule convergence. Inventory-sized taker reductions are real; their trigger and transferable edge remain unidentified. Compare mechanisms before recommending trading change.",
+  "mechanisms": [
+    {
+      "name": "inventory_scale",
+      "prediction": "Taker reducing groups are larger pre-net relative to first observed parent acquisition and closer to complete flat than maker reductions; a universal fixed share or cost limit should separate reductions from additions/carry periods.",
+      "test": "No optimized threshold. Report overlapping distributions and exact floor-to-two-decimals close quantities."
+    },
+    {
+      "name": "deteriorating_executable_or_reference_value",
+      "prediction": "Before a taker reducing group, held bid declines over preceding 10/30 seconds, or latest observable Chainlink spot favors opposite side relative to published start reference, more often than maker reductions, additions/reversals and no-observed-reduction controls.",
+      "test": "Fixed sign tests, public-second minus 5 and minus 10; missing features remain null. No probability fitting/threshold search."
+    },
+    {
+      "name": "time_unwind",
+      "prediction": "Taker reductions concentrate after t240; earlier inventory is carried or reduced passively.",
+      "test": "Fixed existing G new-risk cutoff t240; report early counterexamples and carry controls, no optimized age threshold."
+    }
+  ],
+  "controls": "Original64 no-observed-first-reduction markets at t120/t240 where pre-cut exposure exists; fixed-time controls not claims about canceled/unfilled intentions. Parent-event comparisons are selected on filled actions, not opportunity-rate estimators.",
+  "economics": "Use actual receipt cash for actor-conditioned delta only. Independent taker quote comparisons require fresh depth+fees, capped own inventory and terminal-only evaluation without subsequent actor fills. No guaranteed maker fills."
+}

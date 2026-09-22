@@ -1,0 +1,38 @@
+--- ab.py
++++ ab.py
+@@ -1414,6 +1414,7 @@
+             return
+         ac=acik(oi)
+         if ac:
++            koruma_bitti=False
+             # v1.1 (kuru kosu): emir dokunusun en fazla 1 tik altindaysa YERINDE KALIR
+             # (kuyrugun onundeyiz; her tikte yenilemek 100 sn'de 40 postu bitiriyordu).
+             p=ac[0]['p']
+@@ -1424,8 +1425,10 @@
+             miktar_fazla=LANE_D and sum(max(0,r.get('boy',klip)-r.get('pay',0)) for r in ac)>d_miktar(w,oi,haric=ac)+1e-6
+             bant_disinda=LANE_D and dolan(1-oi)<=dolan(oi)+1e-6 and p>C_PX_MAX+1e-9
+             kalite_kaybi=LANE_F and not all(f_kalite(w,oi,r['p'],fs)[0] for r in ac)
+-            if LANE_G and not (miktar_fazla or bant_disinda or kalite_kaybi) and bb is not None and bb-.02-1e-9<=p<=bb+1e-9: return
+-            if miktar_fazla or bant_disinda or kalite_kaybi: pass
++            koruma_bitti=(LANE_G and dolan(oi)>=dolan(1-oi)-1e-6
++                          and hedef is not None and p>hedef+1e-9)
++            if LANE_G and not (miktar_fazla or bant_disinda or kalite_kaybi or koruma_bitti) and bb is not None and bb-.02-1e-9<=p<=bb+1e-9: return
++            if miktar_fazla or bant_disinda or kalite_kaybi or koruma_bitti: pass
+             elif tav is not None and p>tav+1e-9: pass                         # tavandan pahali -> iptal (asagida)
+             elif LANE_E and tav is not None:
+                 # Giris hedefi/derinligi degisse de ekonomik tamamlamanin sirasi korunur.
+@@ -1439,8 +1442,13 @@
+             elif hedef is not None and abs(p-hedef)<1e-9: return            # v3.1: hedefle ayni fiyattaysa YERINDE KAL
+             elif hedef is not None and p>hedef+1e-9: pass                   # v4: izin verilen hedeften pahali -> iptal
+             elif bb is None or (p>=bb-tik[oi]-1e-9 and (ba is None or p<ba-1e-9)): return
++            if koruma_bitti:
++                log('G3_KORUMA_IPTAL',S=S,oi=oi,hedef=hedef,bb=bb,ba=ba,
++                    book_ms=round(book_time*1000),mono_ns=time.monotonic_ns(),
++                    up=dolan(0),down=dolan(1),
++                    emirler=[{'oid':r['oid'],'p':r['p'],'kalan':max(0,r['boy']-r.get('pay',0))} for r in ac])
+             for r in ac:
+-                kapat(r,'taze_yenile',k); n_iptal+=1
++                kapat(r,'G3_koruma' if koruma_bitti else 'taze_yenile',k); n_iptal+=1
+             son[oi]=time.time(); return
+         if hedef is None or n_koy>=C_MAX_ISLEM or time.time()-son[oi]<C_MIN_ARA: return
+         if LANE_F and not f_kalite(w,oi,hedef,fs)[0]: return

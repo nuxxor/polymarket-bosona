@@ -1,0 +1,142 @@
+{
+  "status": "MONITORING_COMPLETE_RUNTIME_CONTINUES",
+  "session": "aed9b7ced0424118aa7175e414f1b459",
+  "capture_sha256": "284fc29ad8e04acae3df838e25db13f7a0c42308e231399176b45a8d02f210c1",
+  "sdk_rows": 4320,
+  "quotes": 467,
+  "quote_arms": {
+    "G3": 293,
+    "G2": 174
+  },
+  "protection_cancels": 10,
+  "protection_final": {
+    "no_fill_kapali": 8,
+    "filled_kapali": 2
+  },
+  "windows": [
+    {
+      "S": 1790087100,
+      "arm": "G3",
+      "resolved": true,
+      "qty": [
+        20.0,
+        15.0
+      ],
+      "cost": 17.2,
+      "pnl": -2.1999999999999993,
+      "payoff_bounds": [
+        -2.1999999999999993,
+        2.8000000000000007
+      ],
+      "accepted": 21
+    },
+    {
+      "S": 1790087400,
+      "arm": "G2",
+      "resolved": true,
+      "qty": [
+        15.0,
+        10.0
+      ],
+      "cost": 11.45,
+      "pnl": -1.4499999999999993,
+      "payoff_bounds": [
+        -1.4499999999999993,
+        3.5500000000000007
+      ],
+      "accepted": 7
+    },
+    {
+      "S": 1790087700,
+      "arm": "G2",
+      "resolved": true,
+      "qty": [
+        20.0,
+        15.0
+      ],
+      "cost": 15.65,
+      "pnl": 4.35,
+      "payoff_bounds": [
+        -0.6500000000000004,
+        4.35
+      ],
+      "accepted": 12
+    },
+    {
+      "S": 1790088000,
+      "arm": "G3",
+      "resolved": true,
+      "qty": [
+        0.0,
+        0.0
+      ],
+      "cost": 0.0,
+      "pnl": 0.0,
+      "payoff_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted": 0
+    },
+    {
+      "S": 1790088300,
+      "arm": "G3",
+      "resolved": true,
+      "qty": [
+        0.0,
+        0.0
+      ],
+      "cost": 0.0,
+      "pnl": 0.0,
+      "payoff_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted": 0
+    },
+    {
+      "S": 1790088600,
+      "arm": "G2",
+      "resolved": false,
+      "qty": [
+        15.0,
+        14.99138
+      ],
+      "cost": 15.5463796,
+      "pnl": null,
+      "payoff_bounds": [
+        -0.5549996000000004,
+        -0.5463795999999999
+      ],
+      "accepted": 11
+    },
+    {
+      "S": 1790088900,
+      "arm": "G3",
+      "resolved": false,
+      "qty": [
+        15.0,
+        20.0
+      ],
+      "cost": 16.25,
+      "pnl": null,
+      "payoff_bounds": [
+        -1.25,
+        3.75
+      ],
+      "accepted": 11
+    }
+  ],
+  "realized_pnl": 0.7000000000000011,
+  "state": {
+    "pnl": -10.1911,
+    "pnl_yerel": -10.191068,
+    "durdu": null,
+    "f_budget_id": "4527c3ca7a69abf92a33",
+    "emir": 1099,
+    "red": 157
+  },
+  "clock_and_role_checks_passed": true,
+  "sdk_contiguous_sequence": true,
+  "sdk_write_errors": 0
+}

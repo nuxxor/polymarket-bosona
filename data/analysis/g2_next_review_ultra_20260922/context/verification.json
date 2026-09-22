@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "checks": {
+    "inventory_cutoffs": 780,
+    "execution_labels": 256,
+    "outcome_invariance": 1,
+    "future_rejection": 2,
+    "source_hashes": 6
+  },
+  "raw_prefix_checks": [
+    {
+      "S": 1789449300,
+      "age": 165,
+      "raw_path": "/home/taygun/Masaüstü/polymarket/data/tape/tape_20260915_05.jsonl.gz",
+      "compared_snapshots": 2,
+      "decompressed_prefix_bytes": 404122213,
+      "prefix_sha256": "30a3b271c95016a2bc4eaea34cd33174a1440bec42b4c321276fdff52a657d0f",
+      "stats": {
+        "matched_market_records": 117113,
+        "l1_mismatch_invalidated": 224
+      }
+    },
+    {
+      "S": 1789546200,
+      "age": 226,
+      "raw_path": "/home/taygun/Masaüstü/polymarket/data/tape/tape_20260916_08.jsonl.gz",
+      "compared_snapshots": 2,
+      "decompressed_prefix_bytes": 290751631,
+      "prefix_sha256": "5d50e8054162c6d69930d8fc7a2f12b86786d5e353e8b7775e1e30e1168796b8",
+      "stats": {
+        "matched_market_records": 120466,
+        "l1_mismatch_invalidated": 232
+      }
+    }
+  ],
+  "output_sha256": "d57ebeef0f21df67c061b84d105fc3efd3e408892d978a931fbac2f23e9a7658",
+  "code_sha256": "8967527e808b7c7363606a3de4325f18f959b0590f9b1ecb5cd81d6068f5d34f"
+}

@@ -1,0 +1,208 @@
+--- ab.py
++++ ab.py
+@@ -3,10 +3,8 @@
+ import os, sys, json, time, re, glob, urllib.request
+ import threading   # 09-19: KOL C websocket is parcacigi
+ import math
+-from hashlib import sha256
+-
+-def g3_arm(S):
+-    return "G3" if sha256(("ULTRA-Q1|"+str(S)).encode()).digest()[0]&1 else "G2"
++def g4_arm(S):
++    return "G4"
+ if __package__:
+     from . import emir_iz
+ else:
+@@ -1047,7 +1045,8 @@
+     eksik=q[1-oi]-q[oi]
+     rezerv=math.fsum(max(0,r.get('boy',wklip(w))-r.get('pay',0)) for r in w['emir']
+                      if r['oi']==oi and r['durum'] in ('acik','belirsiz') and all(r is not x for x in haric))
+-    hedef=min(wklip(w),eksik) if eksik>1e-6 else max(0,wklip(w)+eksik)
++    limit=g_policy.NET_LIMIT if LANE_G else wklip(w)
++    hedef=min(wklip(w),eksik) if eksik>1e-6 else min(wklip(w),max(0,limit+eksik))
+     return max(0,hedef-rezerv)
+ 
+ def d_ort(w,oi):
+@@ -1432,24 +1431,19 @@
+             miktar_fazla=LANE_D and sum(max(0,r.get('boy',klip)-r.get('pay',0)) for r in ac)>d_miktar(w,oi,haric=ac)+1e-6
+             bant_disinda=LANE_D and dolan(1-oi)<=dolan(oi)+1e-6 and p>C_PX_MAX+1e-9
+             kalite_kaybi=LANE_F and not all(f_kalite(w,oi,r['p'],fs)[0] for r in ac)
+-            koruma_sinyali=(LANE_G and not (miktar_fazla or bant_disinda or kalite_kaybi)
+-                           and dolan(oi)>=dolan(1-oi)-1e-6 and hedef is not None
+-                           and bb is not None and bb-.02-1e-9<=p<=bb+1e-9 and p>hedef+1e-9)
+-            koruma_bitti=koruma_sinyali and g3_arm(S)=='G3'
+             if LANE_G and emir_iz.aktif is not None:
+                 with _PAY_KILIT:
+                     inventory=[sum(r.get('pay',0) for r in w['emir'] if r['oi']==i) for i in (0,1)]
+                     pending=[{key:r.get(key) for key in ('oid','oi','p','boy','pay','durum','gonderiliyor')}
+                              for r in w['emir'] if r['durum'] in ('acik','belirsiz')]
+-                emir_iz.aktif.yaz('g3_quote',S=S,arm=g3_arm(S),oi=oi,decision=decision,book=book_stamp,
++                emir_iz.aktif.yaz('g4_quote',S=S,arm=g4_arm(S),oi=oi,decision=decision,book=book_stamp,
+                     bid=bb,ask=ba,target=hedef,inventory=inventory,pending=pending,
+-                    flags={'size':miktar_fazla,'band':bant_disinda,'quality':kalite_kaybi,
+-                           'buffer_signal':koruma_sinyali,'buffer_cancel':koruma_bitti},
++                    flags={'size':miktar_fazla,'band':bant_disinda,'quality':kalite_kaybi},
+                     window_risk=pencere_risk(w),account_risk=toplam_risk(),effective_pnl=etkin_pnl(),cutoff=KESICI)
+                 if emir_iz.aktif.errors:
+                     globals()['DURDUR']=True; st['durdu']='emir_kaydi_hata'; return
+-            if LANE_G and not (miktar_fazla or bant_disinda or kalite_kaybi or koruma_bitti) and bb is not None and bb-.02-1e-9<=p<=bb+1e-9: return
+-            if miktar_fazla or bant_disinda or kalite_kaybi or koruma_bitti: pass
++            if LANE_G and not (miktar_fazla or bant_disinda or kalite_kaybi) and bb is not None and bb-.02-1e-9<=p<=bb+1e-9: return
++            if miktar_fazla or bant_disinda or kalite_kaybi: pass
+             elif tav is not None and p>tav+1e-9: pass                         # tavandan pahali -> iptal (asagida)
+             elif LANE_E and tav is not None:
+                 # Giris hedefi/derinligi degisse de ekonomik tamamlamanin sirasi korunur.
+@@ -1463,12 +1457,10 @@
+             elif hedef is not None and abs(p-hedef)<1e-9: return            # v3.1: hedefle ayni fiyattaysa YERINDE KAL
+             elif hedef is not None and p>hedef+1e-9: pass                   # v4: izin verilen hedeften pahali -> iptal
+             elif bb is None or (p>=bb-tik[oi]-1e-9 and (ba is None or p<ba-1e-9)): return
+-            if koruma_bitti: log('G3_KORUMA_IPTAL',S=S,oi=oi,decision=decision,hedef=hedef,
+-                                 emirler=[{'oid':r['oid'],'p':r['p'],'kalan':max(0,r['boy']-r.get('pay',0))} for r in ac])
+             for r in ac:
+-                closed=kapat(r,'G3_koruma' if koruma_bitti else 'taze_yenile',k); n_iptal+=1
++                closed=kapat(r,'taze_yenile',k); n_iptal+=1
+                 if LANE_G and emir_iz.aktif is not None:
+-                    emir_iz.aktif.yaz('g3_cancel_result',S=S,arm=g3_arm(S),decision=decision,oid=r['oid'],
++                    emir_iz.aktif.yaz('g4_cancel_result',S=S,arm=g4_arm(S),decision=decision,oid=r['oid'],
+                         confirmed=closed,matched=r.get('pay',0),status=r['durum'],exchange_effective_ns=None)
+             son[oi]=time.time(); return
+         if hedef is None or n_koy>=C_MAX_ISLEM or time.time()-son[oi]<C_MIN_ARA: return
+@@ -1563,7 +1555,7 @@
+ def pencere_ac(sym,S,per):
+     """Iki-tarafli kabul durum makinesi. Tek taraf kabul edilirse GERI CEKER."""
+     k=(sym,S)
+-    if LANE_G: log('G3_ATAMA',S=S,arm=g3_arm(S),clock=emir_iz.saat())
++    if LANE_G: log('G4_ATAMA',S=S,arm=g4_arm(S),clock=emir_iz.saat())
+     if any(r.get('durum')=='belirsiz' for w in pen.values() for r in w['emir']):
+         log('atla_belirsiz',sym=sym,S=S); return
+     _vol=None
+@@ -2122,7 +2114,7 @@
+         c_oran=C_ORAN,c_px=[C_PX_MIN,C_PX_MAX],c_t=[C_T_MIN,C_T_MAX],c_taze_max=C_TAZE_MAX,c_max_islem=C_MAX_ISLEM,c_denge=C_DENGE,c_cift_tavan=C_CIFT_TAVAN)
+     log('hazir',mod=('LIVE' if LIVE else 'KURU'),klip=KLIP,fiyatlar=FIYATLAR,fiyatlar_b=FIYATLAR_B,
+         kesici=KESICI,denge_siniri=DENGE_SINIR,lane=(LANE if LANE_D else 'ABC'),
+-        amac=('G1: pasif kotasyon ve net envanter; deney, kar kaniti yok' if LANE_G else 'F: favori yon + fiyat kalitesi; her yeni riskte tekrar kontrol' if LANE_F else 'DERIN MERDIVEN v4 - mutlak fiyat noktalari'))
++        amac=('G4: 5 pay klip / net10 / bagimsiz yeni $100; deney' if LANE_G else 'F: favori yon + fiyat kalitesi; her yeni riskte tekrar kontrol' if LANE_F else 'DERIN MERDIVEN v4 - mutlak fiyat noktalari'))
+     if LANE_F:
+         log('F_MODEL',model_sha=F_MODEL_SHA,marj=F_MARJ,ilk_bant=[C_PX_MIN,C_PX_MAX])
+         if F_BUDGET: log('F_BUTCE',**F_BUDGET)
+--- g_policy.py
++++ g_policy.py
+@@ -1,4 +1,4 @@
+-"""G1 frozen engineering baseline, not an inferred Bosona alpha signal."""
++"""G4 inventory-capacity experiment, not an inferred Bosona alpha signal."""
+ from decimal import Decimal, ROUND_FLOOR
+ from hashlib import sha256
+ import math
+@@ -12,6 +12,7 @@
+     previous.extend(page)
+ 
+ SHA = sha256(Path(__file__).read_bytes()).hexdigest()
++NET_LIMIT = 10
+ ENTRY_END = 240
+ REDUCE_END = 290
+ 
+@@ -22,7 +23,7 @@
+             return None
+         if not 0 < bid < ask <= 1 or tick not in (.01, .001) or min(own, opposite) < 0:
+             return None
+-        if own-opposite >= 5-1e-6:
++        if own-opposite >= NET_LIMIT-1e-6:
+             return None
+         # Fixed one cent, not one terminal-market tick inferred from later data.
+         grid = Decimal(str(tick))
+--- g_guard.py
++++ g_guard.py
+@@ -15,6 +15,8 @@
+     protocol = json.loads((root/'protocol.json').read_text())
+     if budget['end_ms'] is None and not (budget.get('continuous') is True and protocol.get('continuous') is True):
+         raise ValueError('G unlimited budget requires frozen continuous protocol')
++    if protocol.get('experiment') == 'G4' and (budget.get('experiment') != 'G4' or budget['limit'] != 100 or protocol['loss_limit'] != 100):
++        raise ValueError('G4 requires its own activated budget')
+     run = json.loads((root/'RUN_G.json').read_text())
+     if run['budget'] != budget:
+         raise ValueError('G activation/budget mismatch')
+--- protocol.json
++++ protocol.json
+@@ -1,14 +1,14 @@
+ {
+-  "candidate": "G1: small passive quotes with net-inventory control",
++  "candidate": "G4: 5-share clips with 10-share net capacity; no additional G3 cancellation",
+   "minutes": null,
+-  "loss_limit": 10,
++  "loss_limit": 100,
+   "clip": 5,
+   "source_bot": "/home/ubuntu/polymarket-bosona-g-v2/bot",
+   "source_state_sha": "953c5a28e746f74be0f6bee8b4bcc676766f5d800cf445ba0295cec117de7a48",
+   "entry": "At the existing t5 window scheduler, obtain real tick and fresh book. Bid one cent below best bid, rounded down to the verified tick. Both sides eligible, no nominal cheap/favorite/RSI gate. No new directional inventory at t>=240.",
+-  "inventory": "At most one 5-share net lead including same-side live/uncertain reserves. When behind, quantity is capped to the unmatched remainder. Below the 5-share exchange minimum, do not round upward or create reverse risk.",
+-  "reduction": "Opposite-side maker quotes may reduce exposure until t290 even if historical lot cost + current quote >1. This can lock a loss; all cash, locked loss and open-order adverse-fill scenarios remain in the global $10 loss guard.",
+-  "maintenance": "Retain an economically permitted quote from best bid to two cents behind it. Otherwise cancel with verification, then re-quote at bid minus one cent. At most one placement per side per second, 60 placement attempts per market, cumulative $10 spend/reserve per side. Cancellation checks are not blocked by placement cooldown. Invalid account reconciliation or risk budget cancels resting quotes too.",
++  "inventory": "Maximum net10 including same-side live/uncertain reserves; clip5. Additional same-side clips allowed within capacity. Reducing quantity never exceeds unmatched inventory; no minimum-size round-up.",
++  "reduction": "Opposite-side maker quotes may reduce exposure until t290 even if historical lot cost + current quote >1. This can lock a loss; all cash, locked loss and open-order adverse-fill scenarios remain in the global $100 loss guard.",
++  "maintenance": "Retain an economically permitted quote from best bid to two cents behind it. Otherwise cancel with verification, then re-quote at bid minus one cent. At most one placement per side per second, 60 placement attempts per market, cumulative $10 spend/reserve per side. Cancellation checks are not blocked by placement cooldown. Invalid account reconciliation or risk budget cancels resting quotes too. Existing t180 heavy-side maintenance retained; same-side partial orders may be canceled after t180. G3 one-cent cancellation is absent.",
+   "measurement": "Actual own fills only via authenticated order/trade evidence and reconciliation; dry quotes are intents, never simulator fills. Public L2/LTP loss is explicit; no cancellation credit, price-touch fill or exact queue rank is invented.",
+   "status": "Experimental engineering baseline. Parent/maker and risk-reduction behavior are supported; this precise independent quote rule and its profitability are not established. Fixed values are research choices, not fitted Bosona parameters. No live order or budget activated during preparation.",
+   "metrics": [
+@@ -24,5 +24,8 @@
+   "continuous": true,
+   "source_state": "STATE_g.json",
+   "source_log": "LOG_g.jsonl",
+-  "budget_basis": "New $10 loss budget anchored at the reconciled balance when operator activates; previous G1 profit remains in cumulative accounting."
++  "budget_basis": "New $10 loss budget anchored at the reconciled balance when operator activates; previous G1 profit remains in cumulative accounting.",
++  "experiment": "G4",
++  "budget": "Fresh $100 at reconciled G4 activation, old lifetime PnL retained; G4 resumes preserve this budget.",
++  "comparison": "G4 only in every eligible window, no G2/G3 assignment. Historical arms are not a randomized G4 comparator."
+ }
+--- test_g.py
++++ test_g.py
+@@ -48,7 +48,8 @@
+     assert g.target(0.74, 0.75, 0.01, 0, 0) == 0.73
+     assert g.target(0.263, 0.264, 0.001, 0, 0) == 0.253
+     assert g.target(0.02, 0.03, 0.01, 0, 0) == 0.01
+-    assert g.target(0.74, 0.75, 0.01, 5, 0) is None
++    assert g.target(0.74, 0.75, 0.01, 5, 0) == 0.73
++    assert g.target(0.74, 0.75, 0.01, 10, 0) is None
+     assert g.target(0.74, 0.75, 0.01, 0, 5) == 0.73
+     for args in (
+         (None, 0.75, 0.01, 0, 0),
+--- g.py
++++ g.py
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""G1 lane; operator launcher activates the frozen, unlimited-time $10 run."""
++"""G4 lane; operator launcher activates the frozen, unlimited-time $100 run."""
+ from pathlib import Path
+ import runpy
+ import sys
+--- f_budget.py
++++ f_budget.py
+@@ -20,7 +20,8 @@
+ def read_budget(path, allow_unlimited=False):
+     if not Path(path).exists(): return None
+     b=json.loads(Path(path).read_text())
+-    if (b['limit']!=10 or not all(math.isfinite(b[k]) for k in ('anchor','cutoff'))
++    expected = 100 if allow_unlimited and b.get('experiment') == 'G4' else 10
++    if (b['limit']!=expected or not all(math.isfinite(b[k]) for k in ('anchor','cutoff'))
+             or not ((allow_unlimited and b.get('continuous') is True and b['end_ms'] is None)
+                     or (isinstance(b['end_ms'],(int,float)) and math.isfinite(b['end_ms'])))
+             or abs(b['cutoff']-(b['anchor']-b['limit']))>1e-9 or b['id']!=budget_id(b)):
+--- pilot.py
++++ pilot.py
+@@ -33,7 +33,7 @@
+         if sha(root/name) != digest:
+             raise CheckFailed('Kaynak hash farki: '+name)
+     protocol = json.loads((root/'protocol.json').read_text())
+-    if (protocol['minutes'], protocol['loss_limit'], protocol['clip'], protocol.get('continuous')) != (None, 10, 5, True):
++    if (protocol['minutes'], protocol['loss_limit'], protocol['clip'], protocol.get('continuous')) != (None, 100 if protocol.get('experiment') == 'G4' else 10, 5, True):
+         raise CheckFailed('Beklenmeyen pilot sinirlari')
+     return protocol
+ 
+@@ -158,6 +158,8 @@
+ def activate_files(root, state, proof, now):
+     """Yalniz operator --live yolunda; testler gecici dizinde cagirir."""
+     from f_budget import budget_id
++    if (root/'protocol.json').exists() and json.loads((root/'protocol.json').read_text()).get('experiment') == 'G4':
++        raise CheckFailed('G4 activation requires its one-time operator transition')
+     if any((root/n).exists() for n in ('RUN_G.json', 'STATE_g.json', 'BUDGET_G.json', 'LOG_g.jsonl')):
+         raise CheckFailed('Pilot daha once hazirlanmis; butce/sure sifirlanamaz')
+     if not (root/'STOP_G').exists():

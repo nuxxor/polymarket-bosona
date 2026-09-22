@@ -1,0 +1,42 @@
+{
+  "checked_ms": 1790084505089,
+  "hashes": {
+    "ab.py": "a5cd853493a6f01ab395495574150bf31c6dec7201783dfb563e98a6e2fa3ca7",
+    "g_policy.py": "fbac759df25cecf10ea01bbf9db9da5e07dd90f3b33e844125c51e434eaf2f61",
+    "BUDGET_G.json": "16c6ad83210baabde2f272939202e995ca682cd62e168fba435311b7b4402162",
+    "RUN_G.json": "77d91d7cb38a1eb7049742f21121dee660b5160fec578e813006d234ec0484f8",
+    "protocol.json": "7a623d76593e352021a02f4a1b0a0cd55de7db5d0e1c5543c2fe5fe27f4aa52d"
+  },
+  "matching_pids": [
+    178758
+  ],
+  "state_top_keys": [
+    "st",
+    "pen"
+  ],
+  "last_events": {
+    "basladi": {
+      "t": "13:04:59",
+      "utc_ms": 1790082299591,
+      "k": "basladi",
+      "mod": "LIVE",
+      "gorulen_pencere": 102
+    },
+    "mutabakat": {
+      "t": "13:40:06",
+      "utc_ms": 1790084406970,
+      "k": "mutabakat",
+      "pnl": -7.63,
+      "yerel": -7.63,
+      "etkin": -7.63,
+      "pencere": 88,
+      "risk": 1.25,
+      "emir": 955,
+      "dolum": 88,
+      "pay": 1688.1,
+      "geri_cekilen": 0,
+      "red": 153
+    }
+  },
+  "assistant_live_mutations": 0
+}

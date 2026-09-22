@@ -3,6 +3,8 @@
 import os, sys, json, time, re, glob, urllib.request
 import threading   # 09-19: KOL C websocket is parcacigi
 import math
+def g4_arm(S):
+    return "G4"
 if __package__:
     from . import emir_iz
 else:
@@ -206,7 +208,7 @@ st={'pnl':0.0,'pnl_yerel':0.0,'pencere':0,'emir':0,'dolum':0,'pay':0.0,'durdu':N
     'gorulen_cokluk':{},
     'pencereler':[],'gorulen_tx':[],'gorulen_islem':[],'resmi_sonuclar':{},'mutabakat_pencere':0,
     'geri_cekilen':0,'red':0,'bilinmeyen':0}
-pen={}; TOK={}; TICKS={}; DIS_RISK=0.0; MUTABAKAT_OK=False
+pen={}; TOK={}; TICKS={}; ISLEM_PIYASA={}; DIS_RISK=0.0; MUTABAKAT_OK=False; MARUZIYET_GECICI=False
 
 # DUZELTME (09-18): kuru kosu canli LOG'a yazamaz. Etiketsiz kuru calisma
 # LOG_ab.jsonl'e 5 sahte olay sizdirmisti (playbook #51).
@@ -414,6 +416,10 @@ def tokens(sym,S):
     try:
         for e in jget(GAMMA.format(sym,S)):
             for m in e.get('markets',[]):
+                if LANE_G:
+                    slug=f'{sym}-updown-5m-{S}'
+                    if m.get('slug')!=slug: continue
+                    ISLEM_PIYASA[slug]=islem_piyasa_kimligi(m,slug)
                 t=dict(zip(json.loads(m['outcomes']),json.loads(m['clobTokenIds'])))
                 TOK[(sym,S)]={0:str(t['Up']),1:str(t['Down'])}
                 if LANE_F and not LANE_G:
@@ -501,7 +507,9 @@ def mutabakat():
                     sayfa=[] if LANE_G else {}
                     for x in b:
                         if x.get('slug') not in _sluglar: continue
-                        try: anahtar=islem_anahtari(x)
+                        try:
+                            if LANE_G: x=islem_yonu(x)
+                            anahtar=islem_anahtari(x)
                         except (KeyError,ValueError,TypeError,OverflowError) as ex:
                             log('mutabakat_GECERSIZ',offset=off,deneme=deneme+1,hata=type(ex).__name__,
                                 islem={a:x.get(a) for a in ('transactionHash','asset','slug','size','price','outcomeIndex','side')})
@@ -584,6 +592,40 @@ def mutabakat():
         if '999' in m or '429' in m: time.sleep(20)   # hiz sinirinda geri cekil
         return None
 
+def islem_piyasa_kimligi(m,slug):
+    """Only an exact binary Up/Down Gamma market can identify a public trade."""
+    tk=json.loads(m['clobTokenIds']); names=json.loads(m['outcomes'])
+    cid=m['conditionId']
+    if (m.get('slug')!=slug or names!=['Up','Down'] or len(tk)!=2 or tk[0]==tk[1]
+            or any(not isinstance(t,str) or not t.isdigit() or int(t)<=0 for t in tk)
+            or not isinstance(cid,str) or not re.fullmatch(r'0x[0-9a-fA-F]{64}',cid)):
+        raise ValueError('gecersiz piyasa kimligi')
+    return cid.lower(),tuple(tk)
+
+def islem_yonu(x):
+    """999 is unknown metadata, never a side. Keep raw input/multiplicity intact."""
+    slug=x['slug']; market=ISLEM_PIYASA.get(slug)
+    if market is None:
+        if x.get('outcomeIndex')!=999: return x  # Unchanged historical 0/1 validation below.
+        match=re.fullmatch(r'(btc|eth|sol)-updown-5m-(\d+)',slug)
+        if not match: raise ValueError('gecersiz islem slugu')
+        markets=[m for e in jget(GAMMA.format(*match.groups()),10) for m in e.get('markets',[])
+                 if m.get('slug')==slug]
+        if len(markets)!=1: raise ValueError('piyasa kimligi belirsiz')
+        market=islem_piyasa_kimligi(markets[0],slug)
+        ISLEM_PIYASA[slug]=market
+    cid,tk=market
+    if str(x.get('conditionId','')).lower()!=cid or x.get('asset') not in tk:
+        raise ValueError('islem condition/token uyusmazligi')
+    oi=tk.index(x['asset']); old=x.get('outcomeIndex')
+    if type(old) is not int or old not in (oi,999):
+        raise ValueError('islem yon/token celiskisi')
+    if old==999:
+        log('mutabakat_YON_DUZELT',slug=slug,asset=x['asset'],onceki=999,sonraki=oi,
+            transactionHash=x.get('transactionHash'))
+        return {**x,'outcomeIndex':oi}
+    return x
+
 def islem_anahtari(x):
     """Kamu API/kaset satiri kimligi; farkli fiyat/token ayni islem degildir."""
     q=float(x['size']); p=float(x['price']); oi=int(x['outcomeIndex'])
@@ -594,7 +636,8 @@ def islem_anahtari(x):
     return '|'.join((x['transactionHash'],x['asset'],str(oi),x['side'],format(q,'.12g'),format(p,'.12g')))
 
 def acilis_maruziyeti():
-    global DIS_RISK
+    global DIS_RISK, MUTABAKAT_OK, MARUZIYET_GECICI
+    MARUZIYET_GECICI=False
     if not LIVE: DIS_RISK=0.0; return 0.0
     try:
         ps=[]; gorulen=set()
@@ -625,6 +668,11 @@ def acilis_maruziyeti():
         else:
             raise ValueError('pozisyon sayfalama siniri')
     except Exception as ex:
+        MUTABAKAT_OK=False
+        from urllib.error import URLError
+        code=getattr(ex,'code',None)
+        MARUZIYET_GECICI=(isinstance(ex,(URLError,TimeoutError,ConnectionError))
+                         and (code is None or code in (408,429) or 500<=code<=599))
         log('acilis_maruziyeti_OKUNAMADI',err=type(ex).__name__,karar='FAIL_CLOSED'); return None
     # CIFT SAYIM DUZELTMESI (dis denetim 09-18): pen[] icinde TAKIP ETTIGIMIZ
     # pencerelerin dolumlari borsada da acik pozisyon olarak gorunuyor ve
@@ -997,7 +1045,8 @@ def d_miktar(w,oi,haric=()):
     eksik=q[1-oi]-q[oi]
     rezerv=math.fsum(max(0,r.get('boy',wklip(w))-r.get('pay',0)) for r in w['emir']
                      if r['oi']==oi and r['durum'] in ('acik','belirsiz') and all(r is not x for x in haric))
-    hedef=min(wklip(w),eksik) if eksik>1e-6 else max(0,wklip(w)+eksik)
+    limit=g_policy.NET_LIMIT if LANE_G else wklip(w)
+    hedef=min(wklip(w),eksik) if eksik>1e-6 else min(wklip(w),max(0,limit+eksik))
     return max(0,hedef-rezerv)
 
 def d_ort(w,oi):
@@ -1036,7 +1085,7 @@ def d_koy(k,w,oi,tid,px,boy,bb,ba,bb_boy,f_sinyal=None):
         w['emir'].append(r)
     state_kaydet()
     log('D_NIYET',S=k[1],oi=oi,p=px,boy=boy,risk=toplam_risk())
-    if DURDUR or os.path.exists(STOP):
+    if DURDUR or os.path.exists(STOP) or (LIVE and not MUTABAKAT_OK):
         r.update(durum='kapali',gonderiliyor=False); state_kaydet(); return None
     _,_,oid,dur=koy_toplu([(oi,tid,px,boy)])[0]
     with _PAY_KILIT:
@@ -1054,7 +1103,8 @@ def d_koy(k,w,oi,tid,px,boy,bb,ba,bb_boy,f_sinyal=None):
         globals()['DURDUR']=True; st['durdu']='belirsiz'; st['bilinmeyen']+=1
         log('D_BELIRSIZ',S=k[1],oi=oi,p=px,karar='rezerv korunuyor; yeni emir yok')
     state_kaydet()
-    if (DURDUR or os.path.exists(STOP)) and r['oid']: kapat(r,'D_stop_post_sonrasi',k)
+    if (DURDUR or os.path.exists(STOP) or (LIVE and not MUTABAKAT_OK)) and r['oid']:
+        kapat(r,'D_stop_post_sonrasi',k)
     return r
 
 # --- REJIM KAPISI (09-18 18:30, operator emriyle canliya alindi) -------------
@@ -1261,14 +1311,15 @@ def taze_izle(k,w,tk):
     ask={0:None,1:None}
     kilit=threading.Lock()                           # v1.2: okuyucu ayri is parcacigi
     son_defter={}                                    # v4: oi -> son defter guncelleme zamani (bayatlik)
+    son_alinan={}
     son_kaynak={}; hazir=set()                       # Snapshot alinmadan deltadan defter kurulmaz.
     son={0:0.0,1:0.0}; n_koy=0; n_iptal=0; ws_hata=0; durdur=False
     son_olcum={0:0.0,1:0.0}
     def bb_of(oi):
         with kilit:
             pz=[p for p,q in lv[oi].items() if q>0]
-            if not pz: return None,0.0,ask[oi],son_defter.get(oi,0)
-            b=max(pz); return b,lv[oi][b],ask[oi],son_defter.get(oi,0)
+            if not pz: return None,0.0,ask[oi],son_defter.get(oi,0),son_alinan.get(oi)
+            b=max(pz); return b,lv[oi][b],ask[oi],son_defter.get(oi,0),son_alinan.get(oi)
     def guncelle(m):
         et=m.get('event_type') or m.get('type')
         tn=time.time()
@@ -1289,6 +1340,7 @@ def taze_izle(k,w,tk):
                     hazir.discard(oi); lv[oi]={}; ask[oi]=None; son_defter.pop(oi,None)
                 return
             son_kaynak[oi]=kaynak; son_defter[oi]=min(tn,kaynak); hazir.add(oi)
+            if LANE_G: son_alinan[oi]={**emir_iz.saat(),'source_ms':round(kaynak*1000)}
             lv[oi]={}
             for x in m.get('bids') or []:
                 try: lv[oi][round(float(x['price']),3)]=float(x['size'])
@@ -1304,6 +1356,7 @@ def taze_izle(k,w,tk):
                         hazir.discard(oi); lv[oi]={}; ask[oi]=None; son_defter.pop(oi,None)
                     continue
                 son_kaynak[oi]=kaynak; son_defter[oi]=min(tn,kaynak)
+                if LANE_G: son_alinan[oi]={**emir_iz.saat(),'source_ms':round(kaynak*1000)}
                 try: p=round(float(c['price']),3); q=float(c['size'])
                 except Exception: continue
                 if (c.get('side') or '').upper()=='BUY': lv[oi][p]=q
@@ -1329,7 +1382,7 @@ def taze_izle(k,w,tk):
         nonlocal n_koy,n_iptal,durdur
         if DURDUR or (LANE_D and os.path.exists(STOP)): return
         if not LANE_G and time.time()-son[oi]<C_MIN_ARA: return
-        bb,bb_boy,ba,book_time=bb_of(oi)
+        bb,bb_boy,ba,book_time,book_stamp=bb_of(oi)
         hedef=taze_hedef(bb,ba,tik[oi],bb_boy,dolan(oi),dolan(1-oi),ort_diger=ort(1-oi),tamamlayici_bant=LANE_D)
         fs=None
         if LANE_F:
@@ -1367,6 +1420,7 @@ def taze_izle(k,w,tk):
             return
         ac=acik(oi)
         if ac:
+            decision=emir_iz.saat()
             # v1.1 (kuru kosu): emir dokunusun en fazla 1 tik altindaysa YERINDE KALIR
             # (kuyrugun onundeyiz; her tikte yenilemek 100 sn'de 40 postu bitiriyordu).
             p=ac[0]['p']
@@ -1377,6 +1431,17 @@ def taze_izle(k,w,tk):
             miktar_fazla=LANE_D and sum(max(0,r.get('boy',klip)-r.get('pay',0)) for r in ac)>d_miktar(w,oi,haric=ac)+1e-6
             bant_disinda=LANE_D and dolan(1-oi)<=dolan(oi)+1e-6 and p>C_PX_MAX+1e-9
             kalite_kaybi=LANE_F and not all(f_kalite(w,oi,r['p'],fs)[0] for r in ac)
+            if LANE_G and emir_iz.aktif is not None:
+                with _PAY_KILIT:
+                    inventory=[sum(r.get('pay',0) for r in w['emir'] if r['oi']==i) for i in (0,1)]
+                    pending=[{key:r.get(key) for key in ('oid','oi','p','boy','pay','durum','gonderiliyor')}
+                             for r in w['emir'] if r['durum'] in ('acik','belirsiz')]
+                emir_iz.aktif.yaz('g4_quote',S=S,arm=g4_arm(S),oi=oi,decision=decision,book=book_stamp,
+                    bid=bb,ask=ba,target=hedef,inventory=inventory,pending=pending,
+                    flags={'size':miktar_fazla,'band':bant_disinda,'quality':kalite_kaybi},
+                    window_risk=pencere_risk(w),account_risk=toplam_risk(),effective_pnl=etkin_pnl(),cutoff=KESICI)
+                if emir_iz.aktif.errors:
+                    globals()['DURDUR']=True; st['durdu']='emir_kaydi_hata'; return
             if LANE_G and not (miktar_fazla or bant_disinda or kalite_kaybi) and bb is not None and bb-.02-1e-9<=p<=bb+1e-9: return
             if miktar_fazla or bant_disinda or kalite_kaybi: pass
             elif tav is not None and p>tav+1e-9: pass                         # tavandan pahali -> iptal (asagida)
@@ -1393,7 +1458,10 @@ def taze_izle(k,w,tk):
             elif hedef is not None and p>hedef+1e-9: pass                   # v4: izin verilen hedeften pahali -> iptal
             elif bb is None or (p>=bb-tik[oi]-1e-9 and (ba is None or p<ba-1e-9)): return
             for r in ac:
-                kapat(r,'taze_yenile',k); n_iptal+=1
+                closed=kapat(r,'taze_yenile',k); n_iptal+=1
+                if LANE_G and emir_iz.aktif is not None:
+                    emir_iz.aktif.yaz('g4_cancel_result',S=S,arm=g4_arm(S),decision=decision,oid=r['oid'],
+                        confirmed=closed,matched=r.get('pay',0),status=r['durum'],exchange_effective_ns=None)
             son[oi]=time.time(); return
         if hedef is None or n_koy>=C_MAX_ISLEM or time.time()-son[oi]<C_MIN_ARA: return
         if LANE_F and not f_kalite(w,oi,hedef,fs)[0]: return
@@ -1463,7 +1531,7 @@ def taze_izle(k,w,tk):
                             for m in ms: guncelle(m)
             except Exception as ex:
                 ws_hata+=1; log('taze_ws_hata',S=S,err=type(ex).__name__,deneme=ws_hata)
-                with kilit: lv[0]={}; lv[1]={}; ask[0]=None; ask[1]=None; son_defter.clear(); son_kaynak.clear(); hazir.clear()   # v4: bayat defterle emir yok
+                with kilit: lv[0]={}; lv[1]={}; ask[0]=None; ask[1]=None; son_defter.clear(); son_kaynak.clear(); son_alinan.clear(); hazir.clear()   # v4: bayat defterle emir yok
                 time.sleep(1.0)
     okur=threading.Thread(target=okuyucu,daemon=True,name=f"taze-ws-{S}"); okur.start()
     while time.time()<bitis and not w.get('cozuldu') and not durdur and not DURDUR:
@@ -1487,6 +1555,7 @@ def taze_izle(k,w,tk):
 def pencere_ac(sym,S,per):
     """Iki-tarafli kabul durum makinesi. Tek taraf kabul edilirse GERI CEKER."""
     k=(sym,S)
+    if LANE_G: log('G4_ATAMA',S=S,arm=g4_arm(S),clock=emir_iz.saat())
     if any(r.get('durum')=='belirsiz' for w in pen.values() for r in w['emir']):
         log('atla_belirsiz',sym=sym,S=S); return
     _vol=None
@@ -2045,7 +2114,7 @@ def main():
         c_oran=C_ORAN,c_px=[C_PX_MIN,C_PX_MAX],c_t=[C_T_MIN,C_T_MAX],c_taze_max=C_TAZE_MAX,c_max_islem=C_MAX_ISLEM,c_denge=C_DENGE,c_cift_tavan=C_CIFT_TAVAN)
     log('hazir',mod=('LIVE' if LIVE else 'KURU'),klip=KLIP,fiyatlar=FIYATLAR,fiyatlar_b=FIYATLAR_B,
         kesici=KESICI,denge_siniri=DENGE_SINIR,lane=(LANE if LANE_D else 'ABC'),
-        amac=('G1: pasif kotasyon ve net envanter; deney, kar kaniti yok' if LANE_G else 'F: favori yon + fiyat kalitesi; her yeni riskte tekrar kontrol' if LANE_F else 'DERIN MERDIVEN v4 - mutlak fiyat noktalari'))
+        amac=('G4: 5 pay klip / net10 / bagimsiz yeni $100; deney' if LANE_G else 'F: favori yon + fiyat kalitesi; her yeni riskte tekrar kontrol' if LANE_F else 'DERIN MERDIVEN v4 - mutlak fiyat noktalari'))
     if LANE_F:
         log('F_MODEL',model_sha=F_MODEL_SHA,marj=F_MARJ,ilk_bant=[C_PX_MIN,C_PX_MAX])
         if F_BUDGET: log('F_BUTCE',**F_BUDGET)
@@ -2091,7 +2160,7 @@ def main():
     if '--onkontrol' in sys.argv:
         log('ONKONTROL_OK',pnl=round(etkin_pnl(),4),risk=round(toplam_risk(),4),kesici=KESICI); return
     log('basladi',mod=('LIVE' if LIVE else 'KURU'),gorulen_pencere=len(gorulen))
-    sebep='sure'; son_mut=0.0
+    sebep='sure'; son_mut=0.0; mut_bekle=MUTABAKAT_ARA; hesap_bekliyor=False
     while True:
         if os.path.exists(STOP): sebep='STOP'; break
         if LANE_G and LIVE and not healthy(D): sebep='kayit_yok'; break
@@ -2112,12 +2181,20 @@ def main():
         if yeni: continue
         for k,w in list(pen.items()):
             if not w.get('cozuldu'): pencere_bakim(k,w)
-        if time.time()-son_mut>MUTABAKAT_ARA:
+        if time.time()-son_mut>mut_bekle:
             son_mut=time.time()
             if acilis_maruziyeti() is None:
+                if LANE_G and MARUZIYET_GECICI:
+                    mut_bekle=min(MUTABAKAT_ARA,mut_bekle*2) if hesap_bekliyor else 30.0
+                    hesap_bekliyor=True; son_mut=time.time()
+                    log('G_HESAP_BEKLE',bekle=mut_bekle,karar='emir kapali; pozisyon ve mutabakat tekrar')
+                    continue
                 sebep='maruziyet_teyitsiz'; break
             rr=mutabakat()
+            son_mut=time.time()
             if rr is not None:
+                if hesap_bekliyor: log('G_HESAP_DUZELDI',pnl=rr)
+                hesap_bekliyor=False; mut_bekle=MUTABAKAT_ARA
                 log('mutabakat',pnl=round(rr,2),yerel=round(st['pnl_yerel'],2),
                     etkin=round(etkin_pnl(),2),pencere=st.get('mutabakat_pencere',0),
                     risk=round(toplam_risk(),2),emir=st['emir'],dolum=st['dolum'],

@@ -1,0 +1,17 @@
+{
+  "test_identity.py": {
+    "returncode": 0,
+    "stdout": "KURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/data/analysis/g2_next_review_ultra_20260922/execution/test_bot/LOG_g_kuru.jsonl\nPASS: actual 999 incident, canonical keys across recovery, cash/multiset, conflicting identities fail closed\n",
+    "stderr": ""
+  },
+  "test_g.py": {
+    "returncode": 0,
+    "stdout": "KURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/data/analysis/g2_next_review_ultra_20260922/execution/test_bot/LOG_g_kuru.jsonl\nG checks passed: policy, real reservation/risk, partial/repeated fill, STOP, unknown cancel, multiset reconciliation\n",
+    "stderr": ""
+  },
+  "test_g_stream.py": {
+    "returncode": 0,
+    "stdout": "KURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/data/analysis/g2_next_review_ultra_20260922/execution/test_bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/data/analysis/g2_next_review_ultra_20260922/execution/test_bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/data/analysis/g2_next_review_ultra_20260922/execution/test_bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/data/analysis/g2_next_review_ultra_20260922/execution/test_bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/data/analysis/g2_next_review_ultra_20260922/execution/test_bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/data/analysis/g2_next_review_ultra_20260922/execution/test_bot/LOG_g_kuru.jsonl\nWS reader: burst, mixed frame, old snapshot, initial delta, reconnect, heartbeat and stop checks passed\n",
+    "stderr": ""
+  }
+}
