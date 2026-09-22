@@ -12,9 +12,9 @@
   "g4_final_account_check_utc": "2026-09-22T17:58:41Z",
   "local_ruff_F_E9": "PASS",
   "hashes": {
-    "G5_PROTOCOL.json": "20e1bf7dfe0370bf912226fdd0f557d55712253ed97249e1beec02d2512e98f8",
-    "G5_package.tar.gz": "9f8ff6753f0975f7e424985f86214c743f8f1aa34ebce63bedda45eaa28cbe50",
-    "bot/G_RELEASE.json": "d3938b3a419e5eb10f349e23031816a13d0b25b4cefb82ba2f040dfd61613274",
+    "G5_PROTOCOL.json": "45bb23535c22b42eccbac7aa173d519d0e7d97f386583eb0bb6453e9ab28e3dd",
+    "G5_package.tar.gz": "ee71d4b5c3e3795fb74a429bebfa847e1cb87102c89d0b330b009bb75c7077c6",
+    "bot/G_RELEASE.json": "0cc2cb1f4d87f91f33da746b5986fe66ca04fa3dbd203330f9257c1395b9c0fb",
     "checks.json": "5c414fabe0b3a7236837fc3bbb520a8bd33d507ab474fdda3fed49908fb9471c",
     "remote_checks.json": "5c414fabe0b3a7236837fc3bbb520a8bd33d507ab474fdda3fed49908fb9471c",
     "transition_checks.json": "8ecf6e30fa3c26c90d59fba8762f8d5cc503f113d31ce3aa7f7199c3a1a566a5",
@@ -33,5 +33,6 @@
     "First public smoke had no eligible quotes and was not counted as passed",
     "G4_FIXED reached60 dry placement attempts; only legacy maintenance churn is fixed",
     "Future live activation requires fresh full account and recorder checks"
-  ]
+  ],
+  "protocol_revision": "G5-retain-v1.1: early-budget-stop, shared t180 exposure and attempt-cap reporting clarified before launch; execution code unchanged."
 }

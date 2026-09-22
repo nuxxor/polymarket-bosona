@@ -18,7 +18,8 @@
     "cash peak",
     "post-only rejects and verified cancels",
     "own parent-order fill count and partial fills",
-    "feed gaps and uncalibrated execution cases"
+    "feed gaps and uncalibrated execution cases",
+    "Per arm: windows reaching 60 attempt slots / all assigned and known-complete windows; unknown counts separate; actual accepted orders counted separately"
   ],
   "fees": "All submissions are post-only maker. No rebate credited prospectively. Trade PnL excludes fixed server costs and rebates unless separately proven.",
   "continuous": true,
@@ -29,18 +30,32 @@
   "budget": "Same shared experiment loss guard for both assigned arms; no separate $100 per arm.",
   "comparison": "SHA256(G5-retain-v1:UTC ten-minute block) chooses first arm; the adjacent five-minute window receives the other. Stable on restart, no actor/outcome input. Missing/zero-fill slots retained.",
   "primary": "30-second market-mid minus actual execution price, parent-equal then window-equal; only genuine opening/add executions. It diagnoses execution selection, not policy alpha.",
-  "protocol_version": "G5-retain-v1",
+  "protocol_version": "G5-retain-v1.1",
   "decision_gates": {
     "data": "Canonical own fills and cash reconciliation >=95% by count AND quantity; timestamp/context coverage >=95% for eligible horizons, otherwise DATA_LIMITED. Expiry truncation separate.",
     "evaluation": "First 14 full UTC days after explicit launch; fixed horizon, no threshold search. At least 60 filled markets per arm and 250 opening/add parent fills per arm, across >=7 days; these are engineering sample gates, not power guarantees.",
     "execution_support": "Day-cluster paired difference G5 minus G4_FIXED: lower 95% CI >0 and effect >=.01 USD/share; ex-top3-market and leave-one-day-out same sign. Upper bound<=0 rejects improvement, otherwise inconclusive.",
     "economics": "Fee-net dollars per assigned window, missing separate; day-block paired CI lower>0 and ex-top3 positive before any profitable-policy claim. Improving markout alone is insufficient.",
-    "risk": "Any reachable net outside [-10,10], untracked accepted order, source/budget mismatch, recorder failure or accounting uncertainty follows existing fail-closed gates; no automatic budget enlargement."
+    "risk": "Any reachable net outside [-10,10], untracked accepted order, source/budget mismatch, recorder failure or accounting uncertainty follows existing fail-closed gates; no automatic budget enlargement.",
+    "early_stop": {
+      "risk_budget_exhausted": "End this experiment at its existing loss guard. No budget top-up, reset or horizon extension under this protocol.",
+      "before_minimum_sample": "If fewer than 7 full observed UTC days or any other sample/coverage gate fails, report DATA_LIMITED; arm differences are descriptive only.",
+      "any_budget_truncation": "Any risk-budget termination before the fixed 14-day endpoint is descriptive-only, even if minimum sample gates already passed; do not claim confirmatory superiority from an outcome-dependent stop.",
+      "future_experiment": "A later separately authorized experiment needs a new preregistration; it cannot silently replenish or pool into this one."
+    }
   },
   "hypotheses_excluded": [
     "No selective taker exit",
-    "No late-phase capacity increase",
+    "No arm-specific late-phase capacity increase; both arms now permit heavy-side quotes during t180<=age<240 after removal of legacy cancellation. This increases effective late exposure versus unpatched G4.",
     "No price-gap cutoff or probability claim",
     "No inferred maker fills or cross-policy replay of future actions"
-  ]
+  ],
+  "revision": "Pre-launch wording/analysis contract clarification after Opus review; execution code and arm assignment unchanged.",
+  "attempt_cap_monitoring": {
+    "schedule": "At the first completed window, after 30 minutes, hourly during the first UTC day, then at least daily; monitoring schedule is an operator runbook, not a background service.",
+    "source": "Use taze_bitti.koy / persisted window.taze.koy for the attempt counter; join G5_ATAMA by S. Reconcile with SDK intents/results; d_koy can decline after the counter increments, so accepted orders or intent counts are not the cap counter.",
+    "report": "Per arm report assigned/started/completed/unknown windows, count and fraction reaching 60, accepted orders, residual net inventory at cap and first cap time only when supported. Missing first-hit time or post-cap decision context remains unknown.",
+    "interpretation": "A cap can prevent new reducing quotes in either arm. Report saturation with the primary contrast and an explicit cap-affected sensitivity; do not delete capped windows from the primary denominator. Material saturation differences limit interpretation to the joint retention-plus-cap policy, not an isolated fill-quality mechanism.",
+    "response": "Do not raise the cap or change risk/budget mid-experiment to improve results; any necessary operational revision ends this frozen comparison and needs a separate protocol."
+  }
 }

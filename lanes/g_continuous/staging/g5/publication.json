@@ -11,5 +11,16 @@
   "diff_check": "Only two unchanged historical ab.py trailing spaces at 763 and 1827; frozen release bytes preserved",
   "private_raw_account_logs_published": false,
   "real_budget_created": false,
-  "live_activation": false
+  "live_activation": false,
+  "opus_protocol_revision": {
+    "version": "G5-retain-v1.1",
+    "execution_code_unchanged": true,
+    "package_transition_test": "PASS",
+    "protocol_and_manifest_checks": "PASS",
+    "london_parked_verifier": "PASS",
+    "live_source_state_budget_unchanged": true,
+    "live_activation": false,
+    "account_reconciliation_repeated": false,
+    "fresh_full_account_and_recorders_required_at_future_launch": true
+  }
 }

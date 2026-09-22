@@ -29,6 +29,10 @@ bakım ve bütçeyi yine beraber değiştirmemek için yeni karşılaştırmada
 net10 iki kolda da aynıdır. Bu, Opus'un “net10 kesin doğrudur” diye
 yorumlanması veya aynı boyu büyütme önerisi değildir.
 
+t180 iptalinin kaldırılması, iki kolda da ağır taraftaki ikinci teklifin
+t240'a kadar kalabilmesini sağlar. Net sınırı aynı olsa da eski G4'e göre
+180–240 saniye arası fiilî risk artabilir; “geç fazda hiç artış yok” demiyoruz.
+
 Bu kural **yukarı yön tahmini, taker çıkış veya Bosona kopyası değil**.
 Ucuzda bekleyen teklif yine kötü bir akışla dolabilir; daha az işlem
 yapmak ve yükselen piyasada fırsat kaçırmak mümkün. “Hiç yukarı yeniden
@@ -40,8 +44,11 @@ izler. Ekonomik üstünlük henüz gösterilmedi.
 
 Asıl sözleşme [bot/protocol.json](bot/protocol.json). İlk gerçek
 başlatmadan sonraki ilk tam UTC gününden 14 gün; iki kol ortak hesap
-kaybı sınırına bağlı. Bütçe/veri nedeniyle kesilirse örneklem uzatılıp
-eşik aranmaz; sonuç yetersiz olabilir. Asgari gün/piyasa/parent kapsamı
+kaybı sınırına bağlı. Bütçe biterse bu deney durur; bütçe eklenmez, sıfırlanmaz ve süre
+uzatılmaz. Yedi tam gözlem günü veya diğer kapsam kapıları sağlanmadan
+biterse sonuç **DATA_LIMITED / veri yetersiz** olur. Bütçe nedeniyle
+14 günlük sabit bitişten önce kesilen her koşu, yedi gün geçse bile,
+yalnız betimsel fark raporlar; başarı teyidi sayılmaz. Asgari gün/piyasa/parent kapsamı
 güç garantisi değildir. Birincil teşhis +30 sn gerçek dolum markout'u;
 kâr kararı ayrıca ücret sonrası dolar/atanmış pencereye dayanır.
 Sıfır dolum, eksik veri, süresi ufku aşan dolum ve çözülmemiş sonuç ayrılır.
@@ -71,6 +78,17 @@ kâr üretmiyor. G5'e fiyat farkı, RSI veya geç taker kuralı eklenmedi.
   ulaşabiliyor; bu ekonomik başarı veya bütün iptallerin giderildiği
   anlamına gelmez. İlk, çok geç saatli kamu koşusunda teklif yoktu;
   o koşu başarılı sayılmadı.
+
+**60 deneme izlemi:** ilk tamamlanan pencere, 30. dakika ve ilk gün
+saatlik kontrolde her kolun sınıra ulaşan pencere sayısı/oranı raporlanır.
+Yetkili sayaç `taze_bitti.koy` / state içindeki `taze.koy`; kabul edilen
+emir sayısı değildir. Sayaç artıp gönderimden vazgeçilen denemeler olabilir.
+Eksik kapanış kaydı sıfır sayılmaz; ilk sınıra ulaşma anı veya sonrasındaki
+azaltım engeli kanıtlanamıyorsa bilinmiyor kalır. Sınır etkisi ana paydadan
+pencere silerek gizlenmez; sık/farklı doygunlukta sonuç yalnız teklif
+koruma + mevcut 60 sınırı birleşiminin etkisi diye okunur. Deney içinde
+limiti yükseltip devam etmeyiz. Bu kontrol takvimi operatör runbook'udur;
+yeni bir arka plan izleyicisi kurulduğu anlamına gelmez.
 
 Kaynak, paket ve kanıt hash'leri [READY.json](READY.json) içinde.
 G4 kapanışının son salt-okunur teyidi 17:58:41 UTC: açık emir=0,

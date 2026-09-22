@@ -1741,3 +1741,22 @@ plan476 genel metni değişmeden korundu. Donmuş ab.py içindeki iki eski
 trailing-space satırı kaynak hash'ini korumak için bırakıldı. Ham özel
 hesap akışları, STATE/RUN/BUDGET ve anahtar dosyaları yayımlanmadı.
 G5 hâlâ parkta; canlı aktivasyon ve yeni gerçek bütçe oluşturulmadı.
+
+## G5 son Opus değerlendirmesi — 22 Eylül
+G5 hazırlık fazına ek: yalnız protokol/doküman açıklığı; canlı başlatma yok.
+- [x] Erken bütçe bitişi: ekleme/sıfırlama/uzatma yok; asgari kapsamda
+      DATA_LIMITED, erken bütçe duruşunda karşılaştırma yalnız betimsel.
+- [x] t180 iptali kaldırılınca iki kolda t240'a kadar ağır taraf teklifinin
+      kalabileceğini, eski G4'e göre fiilî maruziyet artışını açık yaz.
+- [x] Kol bazında 60 deneme doygunluğu; gerçek sayaç/kabul ayrımı ve
+      eksik kayıt/yorum sınırı; yeni otomatik izleyici varmış gibi sunma.
+- [x] JSON/paket/hash ve emirsiz geçiş kontrolü; park edilmiş Londra
+      paketini eşitle, canlı kaynağın/STOP/bütçenin değişmediğini doğrula.
+- [x] Doğrulanmış hazırlık ekini mevcut G5 yayınına commit/push.
+
+Sonuç: G5-retain-v1.1 yalnız protokol/README düzeltmesi. ab.py ve
+g_policy.py hashleri değişmedi. Paket geçiş testi yerel/yayın kopyasında
+geçti; manifest/JSON ve gizli veri kontrolleri temiz. Londra park doğrulaması
+geçti; canlı kaynak/STATE/bütçe hashleri değişmedi, STOP var, writer yok.
+Hesap mutabakatı yeniden yapılmış sayılmadı: gelecekteki başlangıçta
+hesap ve iki kayıtçı yeniden kontrol edilecek. G5 aktivasyonu yapılmadı.
