@@ -1,0 +1,33 @@
+{
+  "hashes": {
+    "btc15_activity": "1f845eff97b22dfe03db2495a5aa860fe512607dc42dce7e528a376e45461a8c",
+    "checks": "cc6f5c4bf3afd41d23dbf3cd8ec3e3e78edce43ce5f5c4b38d9a846172223504",
+    "fills": "307a6594cdf06b822288aff4fad4b23feb3411244838e50817576b2292e7b7e7",
+    "input_manifest": "068aff36554254c064935dd8fcce977f15c245e0ccd43d13ccace5a212f79b94",
+    "parent_fills": "8843cf045ea27bd6c4dc2a0664d652f086995d843139211b38335e54dec0d502",
+    "parent_inputs": "abc8115b7e2d5bb086b4a13ccf7dc68b180fce7602a379b8e06ff1a7aa0efc07",
+    "parents": "3a2b46d68e05fae1c8b04235caa14d24afbef61b0041000402d3eafb8e9c9bd9",
+    "phase_changes": "f12b245e43dcd460d64810699927402ac143cce65c1f09899ced7a64ca14ad3a",
+    "reconciliation": "1e04c16066c8ba99880e18792df2464a4f266f0e85a18e6b3ea39bb6fd79e04c",
+    "replay": "ac794e449258b5bd727f381857676bda455e5b58e904edff5fb534aeaae6464b",
+    "replay_inputs": "70a33d925d1f983521b9d86a7ae0f76f1d043578349dc582d8770fb8d04fbbc5",
+    "risk_set": "e856ee147230f664505a8762c77ea6d33caa4900f4dd43a6736c6d12ed63cae8",
+    "ws_quality": "4190821ba82a190310497254cd82ec3f9ddc83e0b6b19723379d98c50ed08dfc"
+  },
+  "identical_runs": 2,
+  "note": "Offline only. Does not restart the public recorder or claim economic acceptance.",
+  "original_core_hashes": "unchanged",
+  "passed": true,
+  "ruff": "passed",
+  "sources": {
+    "check.py": "61881898fd427f1899a118051d88aa376768196e1b142bc5652d9f57e987fc28",
+    "common.py": "0259dabd94f7996235dc0d711a8a4e82d1666efb472e1f226697684931aeec0c",
+    "parents.py": "08f952110b33c124c3a96f9bf6cb875cd39b962a03d54eb52184c29a2f9937d5",
+    "probe_ws.py": "f387a3faaa9bcaffa64874649aa03fb8ca052bab058804f1a6c08327c2613736",
+    "reconcile.py": "4a110962a79feaf6e525f15094565d3ec2b76e2dbedaee0e7ca6e58d90e1f522",
+    "record_ws.py": "9d474e64c7db5dde6895ad4e170d917a4cd693e83f8dfb3e2d92e8d85d914a83",
+    "replay.py": "13e99bc5462041eb9c07c3c6740fcfd4c544cb4ad05f6e83f018557aafb657eb",
+    "reproduce.py": "9d0ab058b523c567f1e315ca051ac4e897121c1428d598eb84826dda8c8f0889"
+  },
+  "syntax": "passed"
+}

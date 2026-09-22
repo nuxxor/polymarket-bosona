@@ -1,0 +1,759 @@
+{
+ "generated_utc": "2026-09-21T20:36:23Z",
+ "files": {
+  "code/audit_verification.py": {
+   "bytes": 2382,
+   "sha256": "5cc41a0ffbb8389d07875086ccc89b79e86ead0141c6f7c8859501443373c5a3"
+  },
+  "code/btc15_role_tables.py": {
+   "bytes": 7407,
+   "sha256": "b570c36f4900fd4f3c4abfc2c75effef8727aa2bc7ebcf90f844d1b15fa71157"
+  },
+  "code/calibration_check.py": {
+   "bytes": 2185,
+   "sha256": "ea662314ac826605491aa8f4b2b005825b9374f74f25dfbce9490b4e5f84ac06"
+  },
+  "code/cross_asset_table.py": {
+   "bytes": 4275,
+   "sha256": "1cdcb285ebfbc9b45e2be461fed0f05cc1261e98016360b5991aad387c2ef912"
+  },
+  "code/fetch_new_period.py": {
+   "bytes": 3583,
+   "sha256": "eea327dbbe811753ee73a54bb154d02e275b42ca86887979f053cd7e194c1f09"
+  },
+  "code/manifest.py": {
+   "bytes": 1522,
+   "sha256": "3d0ff819df521c0beba8c077a3838e465123fdcb16906b1943f2dc14da2b0075"
+  },
+  "code/new_period_summary.py": {
+   "bytes": 5020,
+   "sha256": "0ce1a88516e5e1fd4f2585ce6685396ade04ab9d20029014d953d788760f7df5"
+  },
+  "code/passive_replay.py": {
+   "bytes": 18116,
+   "sha256": "028531f989f0ee457f860f2f49dcf453e6bad3fb73da3f7370a927b55dbd267a"
+  },
+  "code/paths.py": {
+   "bytes": 3992,
+   "sha256": "dfeb945ac8d4a5870c052a9190a52ceaa70fc6e58d60d06af318aa2184b54889"
+  },
+  "code/role_classifier.py": {
+   "bytes": 2467,
+   "sha256": "30cb108ebc05ecd8fd2f76ad48769dc506738478a08625654329280f2eff47df"
+  },
+  "code/s_period_level_age.py": {
+   "bytes": 4259,
+   "sha256": "04ba487cb89255fd7f514dec46b5a0d5cf61c7b5a362dd60b5fa142102968e34"
+  },
+  "code/s_period_role_book.py": {
+   "bytes": 5718,
+   "sha256": "227d6f6d2dd4ecd93e913a94cca73cfc4216a378fd074582fc58168e4d042f48"
+  },
+  "code/test_passive_replay.py": {
+   "bytes": 5397,
+   "sha256": "33ef1870b4bc8ae4b5b07fa24a148a5154a951df2231630c72805a3ebef302e9"
+  },
+  "results/all_groups_role_table.json": {
+   "bytes": 23938,
+   "sha256": "c29b7b00745b8003d5967ccf5f486f34d992a21eaf4adbf72d21d977eff5183b"
+  },
+  "results/audit_findings_raw.json": {
+   "bytes": 112259,
+   "sha256": "873fdb0d13bb660be3e484954c5206cbdbc83fc37bdbfa69ca2deeffbf9f01de"
+  },
+  "results/audit_verification.json": {
+   "bytes": 52855,
+   "sha256": "2eacdfa1807a0fe000516a63e7e9cd8cedd79353bb58ee2ae3a8f03765595234"
+  },
+  "results/audit_verification.md": {
+   "bytes": 16903,
+   "sha256": "d68bbef48bd743d9c7fe496e4550fcdb332a3d513eaf631272d5155eb21c460c"
+  },
+  "results/audit_workflow_return.json": {
+   "bytes": 795198,
+   "sha256": "34572e248165bba429de2e333d773931c89db6e0f4245550cffb86ce1154d042"
+  },
+  "results/btc15_fills_with_role.json": {
+   "bytes": 2376813,
+   "sha256": "50a2a0f88a0b84ff185d396205966a7d83412b8b786f35eb33ae62d15a40f67a"
+  },
+  "results/btc15_role_phase_table.json": {
+   "bytes": 8340,
+   "sha256": "77aa30ea18afb2a6181b3f41ad74a51b3d9e6d3ec519c1c073f2aa23f41f4cb2"
+  },
+  "results/calibration_check.json": {
+   "bytes": 878,
+   "sha256": "a91b8ff5333f753c78378880c41d1253ebce73164d7702848453061f4a684f3a"
+  },
+  "results/cross_asset_table.json": {
+   "bytes": 10457,
+   "sha256": "fadfbcbc5c53cda85906fe303233e5a5e267731160510a71641ddf844d53003c"
+  },
+  "results/cross_asset_table.md": {
+   "bytes": 2558,
+   "sha256": "be91961e49d85b7046f199c5c51d35b354db2434830089f4559671fa0a9180ae"
+  },
+  "results/new_period_blind.json": {
+   "bytes": 13683,
+   "sha256": "3452925bf2ad30da124c6bcd37364d2a5412416c631eb76e6d648b3ee961bdf0"
+  },
+  "results/order_identity_recomputed.json": {
+   "bytes": 2267,
+   "sha256": "13443eb102579c39e18d23aa101d1dcb46c63bb0ebffccc9070b640407070699"
+  },
+  "results/paths.json": {
+   "bytes": 36272,
+   "sha256": "e764d21a3aada71a416eede937109bd45b940f6d9a6afdfd5e6a2935a3471974"
+  },
+  "results/replay_after_s/blind_summary.json": {
+   "bytes": 1531,
+   "sha256": "fe2b7602997a486b66ee73477283d8d5cd82a47a7190adfc43ea55c4019be8d2"
+  },
+  "results/replay_after_s/replay.json": {
+   "bytes": 108717,
+   "sha256": "2daa82a7bb315ce5401d6c711067dbde9f825175fe7e9174816fd77ba3f83789"
+  },
+  "results/replay_after_s_stderr.txt": {
+   "bytes": 122,
+   "sha256": "71abf6f2aa5b7d5600360c7747bcc2f5ec1ded40fbea8fdd6e384223c6dc47ec"
+  },
+  "results/replay_s_period/replay.json": {
+   "bytes": 115071,
+   "sha256": "284a1b25bf3a0e3457848c82c615524a9a3f31ddd4882728f158398787c5875a"
+  },
+  "results/s_period_fills_role_book.json": {
+   "bytes": 77573,
+   "sha256": "507702074938025694c9a926fcceb70a96b549bbd91e56efaf5b5e2548be1b77"
+  },
+  "results/s_period_level_age.json": {
+   "bytes": 35306,
+   "sha256": "48e355144b21d3aef1d0afab849b679ff141581e7ced7effb136d5fe00ee7ab6"
+  },
+  "results/s_period_level_age_summary.json": {
+   "bytes": 870,
+   "sha256": "0504e43a95be1c63acddbeb173259f48db3f1126fde52fdac190fe56bc674bb9"
+  },
+  "results/taker_only_crosscheck.json": {
+   "bytes": 29203,
+   "sha256": "60f1c183966bf0e15fd6d2de84626c08690af34694f17ae1bddfb84d393c533d"
+  },
+  "raw/fetch_new_period.log": {
+   "bytes": 627,
+   "sha256": "6494cfc890c1abe4d0783c5279c00b1e19c93e625c1d52463715558e9d3d21b9"
+  },
+  "raw/fetch_new_period_2.log": {
+   "bytes": 792,
+   "sha256": "213d5dbca7570797cae37df3f3fe3ea6fb1d56866614b1df1b916c422333b548"
+  },
+  "raw/market_trades/btc-updown-15m-1790000100_takerfalse.json": {
+   "bytes": 1301826,
+   "sha256": "a14030e6cc1fb111321822bb825cd858fe50cd215bd80e8aec3cecd9700fe08d"
+  },
+  "raw/market_trades/btc-updown-15m-1790000100_takertrue.json": {
+   "bytes": 486671,
+   "sha256": "851283cc5c96b375bb90ce951b70f9d2ac61ea386c5526030533401f64376775"
+  },
+  "raw/market_trades/btc-updown-15m-1790001000_takerfalse.json": {
+   "bytes": 2820359,
+   "sha256": "dc40e6619684c0af635f340cdd06b657f706f4b3d22eccbf200a3286e88b986e"
+  },
+  "raw/market_trades/btc-updown-15m-1790001000_takertrue.json": {
+   "bytes": 1065415,
+   "sha256": "a24385c90ebcbf24cdf0155a23f9e8eceef403d69c4a3b98f4dfb3065ced1884"
+  },
+  "raw/market_trades/btc-updown-15m-1790001900_takerfalse.json": {
+   "bytes": 3298612,
+   "sha256": "5e87e08444bbeb73b1aac6a44d0107cddef0f630d8423f286602b3f74a51f805"
+  },
+  "raw/market_trades/btc-updown-15m-1790001900_takertrue.json": {
+   "bytes": 1254552,
+   "sha256": "9478813835b1ea85b7c3f3a0aa9fb479ca0637adbff2a3f7f7a873bab01d510a"
+  },
+  "raw/market_trades/btc-updown-15m-1790002800_takerfalse.json": {
+   "bytes": 1293135,
+   "sha256": "b1b5f0d1503dd3704d8e1a374bb290757eab25cf44eda161b9c280bc02dbab1f"
+  },
+  "raw/market_trades/btc-updown-15m-1790002800_takertrue.json": {
+   "bytes": 501737,
+   "sha256": "65e3f8b4aa39abd4d8aab1f58ea88dd04da7bd7d1e7643212eb97678aff9b98a"
+  },
+  "raw/market_trades/btc-updown-15m-1790003700_takerfalse.json": {
+   "bytes": 1176245,
+   "sha256": "e07edeeb24819ee9c51fc56fb32b686f241fa1dd61b5c732e07a443017c07bea"
+  },
+  "raw/market_trades/btc-updown-15m-1790003700_takertrue.json": {
+   "bytes": 419601,
+   "sha256": "e9e92df43a968c17085eb0980c77c73ef53973f695de4fc5c34584529811c9aa"
+  },
+  "raw/market_trades/btc-updown-15m-1790004600_takerfalse.json": {
+   "bytes": 2012809,
+   "sha256": "212561def4a555f218eda2ca9ec9504ab1ddb6b1bce640865fff7c8b8e07d85d"
+  },
+  "raw/market_trades/btc-updown-15m-1790004600_takertrue.json": {
+   "bytes": 764936,
+   "sha256": "e122f895069e622f4015d8765a7e20bd86eb4061d8e0243be42dc3b9ebb7fde2"
+  },
+  "raw/market_trades/btc-updown-15m-1790005500_takerfalse.json": {
+   "bytes": 2211828,
+   "sha256": "85b4bc9b8a1dd8a2ebd767c68429a8b7da549a6870a18fe236a15fd6e50535bd"
+  },
+  "raw/market_trades/btc-updown-15m-1790005500_takertrue.json": {
+   "bytes": 793815,
+   "sha256": "5487f8a9a2133125c69f31d31671d7f117871c58daef0ecb0a2f1582494c32cb"
+  },
+  "raw/market_trades/btc-updown-15m-1790006400_takerfalse.json": {
+   "bytes": 1662615,
+   "sha256": "2c57bce56ac31d5a6968d23d2188bfbecaf80ac55a9dcc86fd48487e3e9d89e5"
+  },
+  "raw/market_trades/btc-updown-15m-1790006400_takertrue.json": {
+   "bytes": 581564,
+   "sha256": "038499df827ba3f13d4ca153cd3e2ae15915d70106cffeb3f209c80c05b40299"
+  },
+  "raw/market_trades/btc-updown-15m-1790007300_takerfalse.json": {
+   "bytes": 1434788,
+   "sha256": "94b0ad59c10982b638e31fa1efae0bde36552f60f52f79b5a7749eaca27dab48"
+  },
+  "raw/market_trades/btc-updown-15m-1790007300_takertrue.json": {
+   "bytes": 552875,
+   "sha256": "e5ebc059d4bca99621d8015ce6a8e3006676dc99edd6f3c686bc0b05a1905fc8"
+  },
+  "raw/market_trades/btc-updown-15m-1790008200_takerfalse.json": {
+   "bytes": 2156205,
+   "sha256": "dbef67c342a7c9f5c24ca55d7a04fcab4baf1490902ffbf8ad1d644e46b9d514"
+  },
+  "raw/market_trades/btc-updown-15m-1790008200_takertrue.json": {
+   "bytes": 814567,
+   "sha256": "0f97cc1f704d58d6c47a994f99bab8edf4ee07899ea635d99c94d118b9eff1fe"
+  },
+  "raw/market_trades/btc-updown-15m-1790009100_takerfalse.json": {
+   "bytes": 1287628,
+   "sha256": "71d91e2e208c7e051d965ff75b456f245cb237bc967deac744e632dd07d200ef"
+  },
+  "raw/market_trades/btc-updown-15m-1790009100_takertrue.json": {
+   "bytes": 421425,
+   "sha256": "5acc51f2fee338a9f3433e201e65e9aa0f1a1863ab82f09704b8a951687409b5"
+  },
+  "raw/market_trades/btc-updown-15m-1790010000_takerfalse.json": {
+   "bytes": 2090153,
+   "sha256": "8356f43ed9781175011183252609e4fb2f5c42cb991034e6dee2047c7f7d4419"
+  },
+  "raw/market_trades/btc-updown-15m-1790010000_takertrue.json": {
+   "bytes": 812779,
+   "sha256": "5de9450e844bad1c4468a09d1723b48b0301637a7ee813cfbe3b055c26f3f7a5"
+  },
+  "raw/market_trades/btc-updown-15m-1790010900_takerfalse.json": {
+   "bytes": 1830823,
+   "sha256": "3e9ce24bbb2fba5a91e4b848c352f5877e722a1ee0660669609188c885ec1fd3"
+  },
+  "raw/market_trades/btc-updown-15m-1790010900_takertrue.json": {
+   "bytes": 607733,
+   "sha256": "a0091a577bd6966d2f80b65d369f1e8022b9897524e3770d8e69944c3526b0ea"
+  },
+  "raw/market_trades/btc-updown-15m-1790011800_takerfalse.json": {
+   "bytes": 2471714,
+   "sha256": "ad4c1702775e9a5b8cc997f018f80a59d5b64cd0242c1a62db33b71c44dd449e"
+  },
+  "raw/market_trades/btc-updown-15m-1790011800_takertrue.json": {
+   "bytes": 869147,
+   "sha256": "612e3d846dde7fcf1b25cfda54a205b28dc9e54ac8ff2234e6634d710ac386a7"
+  },
+  "raw/market_trades/btc-updown-15m-1790012700_takerfalse.json": {
+   "bytes": 1747947,
+   "sha256": "19bab43bdecd2cb2f3328a64655fd328a35ea1f332dd8e6dc9f080f55c7eeb5f"
+  },
+  "raw/market_trades/btc-updown-15m-1790012700_takertrue.json": {
+   "bytes": 558248,
+   "sha256": "779e5de5f7810103872298caf9998528008025e858be5ada5851d8b9758b01c2"
+  },
+  "raw/market_trades/btc-updown-15m-1790013600_takerfalse.json": {
+   "bytes": 1945667,
+   "sha256": "ff9f1c82924b0dfc4b034fb584a0d273cbe940043f57c238fb388159902a5b9d"
+  },
+  "raw/market_trades/btc-updown-15m-1790013600_takertrue.json": {
+   "bytes": 619609,
+   "sha256": "4c5dbb2c65308ebe53f2f329dc0254a5df3ac157840385a3f35b3cf2f6c51cc9"
+  },
+  "raw/market_trades/fetch_manifest_s_period.json": {
+   "bytes": 2983,
+   "sha256": "46272f364da22138485a39db8dea51d5bddca4e8b253f44beae7749ca3beceb4"
+  },
+  "raw/market_trades_probe/btc-updown-15m-1790001000.json": {
+   "bytes": 2766739,
+   "sha256": "6772498d80e7d6126131ce06453f49946f98a9d452a87837de062e048e65fc62"
+  },
+  "raw/market_trades_probe/btc-updown-15m-1790001000_takeronly.json": {
+   "bytes": 397641,
+   "sha256": "12ba82f59136fa87b3080f7518d9be2d075890c9d744d9c6ba3e3364e355adbd"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790000100.json": {
+   "bytes": 2710,
+   "sha256": "f1178b77c6308707cc4125c3a7a7053aa849cd79c6c77fb21560f2810ccbd38a"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790001000.json": {
+   "bytes": 35114,
+   "sha256": "36a3faf081790c807f25e37d74f03528594e0f7764fc73a3b2f2aaa03a185da4"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790001900.json": {
+   "bytes": 17385,
+   "sha256": "f1a7e0441d387adc423b10e60865ce884a3be3ecdefa08ae74618375dee63fc8"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790002800.json": {
+   "bytes": 6698,
+   "sha256": "a23fa27c765aa0003a108061c2058be79e4e20149a2b86bc6a6f4191a9a8d6e6"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790003700.json": {
+   "bytes": 5859,
+   "sha256": "c6d8fa4038d9f64f19f15a0a3112a040686e61b2eba0fceff2ad84cc1d25bbd8"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790004600.json": {
+   "bytes": 10703,
+   "sha256": "62fad9a719a4dfb9681e13fbd70e65c52981f22eb5df6c3e0fb7bb64a9db83f0"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790005500.json": {
+   "bytes": 10610,
+   "sha256": "a61c8fabf1e8b039b5365f60857e74733856420e71a7eee86b22e4980fae75e6"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790006400.json": {
+   "bytes": 6728,
+   "sha256": "86056e74b54b9c6be8449c599263e825dbfea1a89716ef736c17d47c522d8e98"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790007300.json": {
+   "bytes": 289,
+   "sha256": "463339bb7e1ea90c2a4e483c22e2c5bfe057e196db03066379ecf179b99ab06d"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790008200.json": {
+   "bytes": 3531,
+   "sha256": "0fa4b14fa7b9f762ac2395e227757b19973ab545ef22e6ce36f8f5f4a21d579b"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790009100.json": {
+   "bytes": 289,
+   "sha256": "7328ce5437cc0122412d63485405a38d1d57dc82b952c9251f7dd4fc76feb1a4"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790010000.json": {
+   "bytes": 13024,
+   "sha256": "cab8cc5c690f7cab7fe7d5640572a3cc4ef462b3195874716782b140ceebd905"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790010900.json": {
+   "bytes": 5750,
+   "sha256": "16c56c0dd3e9af4b9b409b61c28fc1141bbea0070b2bc783f4b09613fa4ea5ba"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790011800.json": {
+   "bytes": 6722,
+   "sha256": "0c387390f71549a33a6efa181afc60738c3562ccc832bf2cb5b56e6cde502527"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790012700.json": {
+   "bytes": 3431,
+   "sha256": "342e543d54076bf29a506f195f44c7eb7c95ec14f28d351ac33d3e797768d393"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790013600.json": {
+   "bytes": 5849,
+   "sha256": "f6c8e1d6ad9cdf502bd2b4527cb2d542933ed151b61f0149b27de6ff23fc3659"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790014500.json": {
+   "bytes": 13910,
+   "sha256": "5b06d8e263ff9f85ef28acd3691d9b827a7e0585f8f19fc8140e2126004af265"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790015400.json": {
+   "bytes": 5118,
+   "sha256": "f06587d552cb9249491241aa8e3d04a9a26d60e0c242e20d279630f19ef68ee2"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790016300.json": {
+   "bytes": 289,
+   "sha256": "de24408dfb071f885fc24759856e9f9e0d8c4c39c35b9871e2739cf9594d7e32"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790017200.json": {
+   "bytes": 8233,
+   "sha256": "e435624f4d39837cc95d503ea3e2ad3b82ca343ab482f797da5ce04305e5a51b"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790018100.json": {
+   "bytes": 289,
+   "sha256": "6c7fc9a5b74693db3362380b2db493ae2c66ded1083ddda51c1d2676fb8f74f4"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790019000.json": {
+   "bytes": 4921,
+   "sha256": "e3cba8fdb331b92e6ea2910f64de1bf668d0cc72020909b35b7a5768822fb4ff"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790019900.json": {
+   "bytes": 2593,
+   "sha256": "7f48545e2e6602d97b0bb71d5abd148f0a3352e95d264c699b6e37cd7aacae28"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790020800.json": {
+   "bytes": 289,
+   "sha256": "2eb9480bdae609b362ee1d7d118a75aa57349e2ba8a810414a35b6970e77b651"
+  },
+  "raw/new_period/activity/btc-updown-15m-1790021700.json": {
+   "bytes": 1880,
+   "sha256": "f851862158a172f2408b3c45dcd1de1f75cc904829746e29814ce5b9f0ef5572"
+  },
+  "raw/new_period/fetch_manifest.json": {
+   "bytes": 1724,
+   "sha256": "1270ede965029f533d5394658051083c7479e2fb8f0d27041e015299813c71fa"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790000100_takerfalse.json": {
+   "bytes": 1301689,
+   "sha256": "12b1bbb8f5cb82e7a84311e23deaa2daedfca58ad99951a9387466786c533b05"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790000100_takertrue.json": {
+   "bytes": 486535,
+   "sha256": "49fe0cb17d093b588db16f59e3112e78c545f3f98b12744ba536dd656cd6f4df"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790001000_takerfalse.json": {
+   "bytes": 2820222,
+   "sha256": "8d0f8a88292ecadd2c66ea4d668c674b8a472aa0e44ac42ae34e6ad6ef9bcd49"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790001000_takertrue.json": {
+   "bytes": 1065279,
+   "sha256": "e5aac24cce96bb6cb211cf62c24b7d21e3dad243802fe5bc3b033ffd61b5478e"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790001900_takerfalse.json": {
+   "bytes": 3298475,
+   "sha256": "1cc7e487116f448e12e56f2821fe6960c4c16435e7761dbf3be4fb2de27b5e80"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790001900_takertrue.json": {
+   "bytes": 1254416,
+   "sha256": "48328eb5a8ce443fc88f37d03d85bea533cb1868d1cd2e02d20278ef084a756f"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790002800_takerfalse.json": {
+   "bytes": 1292998,
+   "sha256": "6434b6a29f4ded163cdeb8cbb34a5878a50879d927d46c1751523eb57775b6cb"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790002800_takertrue.json": {
+   "bytes": 501601,
+   "sha256": "449a38c4b03a85529b6f7302977d0becddf233731a2ff5fd0a3a89dba4bcff91"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790003700_takerfalse.json": {
+   "bytes": 1176108,
+   "sha256": "9a38238b9ace4799458716efefd66acce09b796d3a5af45ffbb719056716cd87"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790003700_takertrue.json": {
+   "bytes": 419465,
+   "sha256": "d96d4d0d1d4e4a8840959ecb0bc63503999430f799f71e032f43a87ce5bf24be"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790004600_takerfalse.json": {
+   "bytes": 2012672,
+   "sha256": "abe0e6fb214eff9286974e10b8c9dd5ff3c15171b111d5a654d34f4772998e85"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790004600_takertrue.json": {
+   "bytes": 764800,
+   "sha256": "237574aa847464e166b741610444c41179062846d5c8ad6db01fe8957193b5e3"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790005500_takerfalse.json": {
+   "bytes": 2211691,
+   "sha256": "a77338e969e4f824cd227ef5f88cbbeaf348d82ed6617e8cd6971a9519dd9616"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790005500_takertrue.json": {
+   "bytes": 793679,
+   "sha256": "f0604c5e1cd0ea6f235760bcbc3854fe4c8b4bc893c5f91a41726ece0759085d"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790006400_takerfalse.json": {
+   "bytes": 1662478,
+   "sha256": "c34a4bbca21f3d21174bd90d25b2180db0b73f489615dbd58a1e6b2d1a43eb68"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790006400_takertrue.json": {
+   "bytes": 581428,
+   "sha256": "f4d78ea2f8bdfb451c77acf2a61c62f27dc333526f2c1537ce3675df075503f3"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790007300_takerfalse.json": {
+   "bytes": 1434651,
+   "sha256": "f72bccdfcc5230a73f48d26467300f26f2faf9a4deeb2f33abde56bae58468f3"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790007300_takertrue.json": {
+   "bytes": 552739,
+   "sha256": "2e77575f7ba3b31d7d15993e83c99157fd53a2442c7abe51722b01a1cbbbaf4e"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790008200_takerfalse.json": {
+   "bytes": 2156068,
+   "sha256": "165c920f8cbe29b30cb4d5dbf9a090da283a37aed7ac60ebe7afe888c428d451"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790008200_takertrue.json": {
+   "bytes": 814431,
+   "sha256": "3f916b795ed1380c7f623fac683d3a12d2af70fcb7df3bbe735245b6c04323c1"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790009100_takerfalse.json": {
+   "bytes": 1287491,
+   "sha256": "4ae08046e3477b67ebde49c05a33b55503b0111010fc110ae1986392c88576f5"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790009100_takertrue.json": {
+   "bytes": 421289,
+   "sha256": "9a46bd33b3e58a9073e7e89348c27895a5017ca895d65705f31d3d119e061d00"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790010000_takerfalse.json": {
+   "bytes": 2090016,
+   "sha256": "61ba312c3ba8ec0e54bf8b0023753d4d9c57d06007bd32190defd3b80d8993e8"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790010000_takertrue.json": {
+   "bytes": 812643,
+   "sha256": "692fdf34582a5dc2c90ef1add0852b72756c0d191b012b866d89005bf0ce2b16"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790010900_takerfalse.json": {
+   "bytes": 1830686,
+   "sha256": "eb532686d61b4c1b64bf35f852096e3f693bc5ddc07ad47ab4288fdf81e4f039"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790010900_takertrue.json": {
+   "bytes": 607597,
+   "sha256": "572c8894bc82295ebe5b524ad9d08e13cb4c46c8b685b3ec0973ec7c9281118f"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790011800_takerfalse.json": {
+   "bytes": 2471577,
+   "sha256": "549ada184379bf83432f5568e14adbbd60da81f3866f770b281d5179225e3dcc"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790011800_takertrue.json": {
+   "bytes": 869011,
+   "sha256": "b2075e13eee9814c03eb91965e88c794efae3cc3c5c8c294eccb14842b914562"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790012700_takerfalse.json": {
+   "bytes": 1747810,
+   "sha256": "f455135e941d99620da17def5a5f718c39e9c75dcffe87affabf3415a93c8940"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790012700_takertrue.json": {
+   "bytes": 558112,
+   "sha256": "98de231391e68c74fd28ee9ce813ff9b6e8acf0fa163a575d29470dab710059f"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790013600_takerfalse.json": {
+   "bytes": 1945530,
+   "sha256": "b4d394097103eecc134bc962c640af891f09b4c46eecbeec68df4f8e3b697ced"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790013600_takertrue.json": {
+   "bytes": 619473,
+   "sha256": "1029551ae46d75443e85763d375034ebca75b69dbeefe56ad7619577d2c3059a"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790014500_takerfalse.json": {
+   "bytes": 2154694,
+   "sha256": "7d4650e0d66e4e151487f3853358d1504dfa58feb7374b65741b4d2ddd30f986"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790014500_takertrue.json": {
+   "bytes": 692828,
+   "sha256": "53837954dd7a1fb071969b94175f1287280b750d13a8c71eadaef5e544b6de5d"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790015400_takerfalse.json": {
+   "bytes": 2039715,
+   "sha256": "4fb07d1a2625ebe179f9d0818646cc4125ea7a10ca7839b1450481f7bc506f3f"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790015400_takertrue.json": {
+   "bytes": 704376,
+   "sha256": "052978245220ffbefcba7beae695db0eb9c5c4eeca593b62534e643399cd6f9c"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790016300_takerfalse.json": {
+   "bytes": 1095266,
+   "sha256": "99b84f0d4e71f080c83f29093f5605d66a19014825ead9c628117b083d795e8e"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790016300_takertrue.json": {
+   "bytes": 380319,
+   "sha256": "81cf13b6e102869ae6368e64fcf3c0a706f742eeadd97a70539a16864f16bad5"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790017200_takerfalse.json": {
+   "bytes": 2608674,
+   "sha256": "446dd92cab0f8aa400ff02b943e2d2d557f6fc7193c7fb9e0261230cba9fb54d"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790017200_takertrue.json": {
+   "bytes": 1011745,
+   "sha256": "9f836659e82755b768508de7de53292cb6e6db1a76eabb2326f92469543b5a68"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790018100_takerfalse.json": {
+   "bytes": 1432625,
+   "sha256": "a624c9de2b6d118108371747eeee5e111b709594550baf6b9a887495159496b0"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790018100_takertrue.json": {
+   "bytes": 518257,
+   "sha256": "45f94b7eadee78bbe790df92592f087773678e87e6cd48fb078d262341618dc7"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790019000_takerfalse.json": {
+   "bytes": 1942558,
+   "sha256": "9348dc9120ffa99cc1eec4adb42f5f33bcf789ad0682fabeaa609cd38558ccbb"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790019000_takertrue.json": {
+   "bytes": 608869,
+   "sha256": "732de7116162627f56d8df4bc07d3bd2bb57600cc0acc6f289b10f50899ac5c9"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790019900_takerfalse.json": {
+   "bytes": 2080218,
+   "sha256": "523aa18a843ed556dc45383f6fdca50a182ef9d50b96a8fa3142ca46b9ac73cd"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790019900_takertrue.json": {
+   "bytes": 698382,
+   "sha256": "f3b188128c60e6e677cb7290e2bf8ae35a9b1410499090ae5fe13ee888df34d8"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790020800_takerfalse.json": {
+   "bytes": 1449674,
+   "sha256": "9665a0cede7b370dc221d50728c661ad76dd26221e02b1b5a29c968433c862f6"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790020800_takerfalse.json.stale": {
+   "bytes": 1446522,
+   "sha256": "bd06f0b6a938d5a58ade313296bf46dccb877b12fdf06e297a9c5d1c5ccd8872"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790020800_takertrue.json": {
+   "bytes": 508893,
+   "sha256": "b29166b87e58a115ceeb2f4138bc109726c26b546c12efbe287b224734c1affb"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790020800_takertrue.json.stale": {
+   "bytes": 507286,
+   "sha256": "ffae87e30d6ce51f4453eaf54606c554c669353c90ee21891e7e96dac8a89c0f"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790021700_takerfalse.json": {
+   "bytes": 1641981,
+   "sha256": "ed1bf7f88b967878561e40f339864c7f0d54340637cc11bee7248d6981467c35"
+  },
+  "raw/new_period/market_trades/btc-updown-15m-1790021700_takertrue.json": {
+   "bytes": 592807,
+   "sha256": "0fe300004d3e697b58e67af4d6f5e782993c79bd1e5d911746335c4117bc2a97"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790000100.json": {
+   "bytes": 5745,
+   "sha256": "29064d516d373ecee75bd2449ba21fd0dda69efbdf57e8a82bf959018589903a"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790001000.json": {
+   "bytes": 5814,
+   "sha256": "a184fecde3e4b10b53e9eee8a8d8a1ae0fbb3a2a331475b12dcfaa58a138d4b6"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790001900.json": {
+   "bytes": 5811,
+   "sha256": "1d1966e735f6a1c74216aecaaf7e0ae587442f406617d870992e5ceda6bc396d"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790002800.json": {
+   "bytes": 5862,
+   "sha256": "8a065196fbd49beaab9a342fa7a82751217afab0b35ed29d309801491a0559f9"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790003700.json": {
+   "bytes": 5830,
+   "sha256": "4e52cf877e1794521ebb299e6376404e5f1f2b1f34536b3d65a8a8f270a0fe45"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790004600.json": {
+   "bytes": 5756,
+   "sha256": "37374d26dcef3eda75270b23d039dafa0296ff53e55df40688ce4ab2d8d0260d"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790005500.json": {
+   "bytes": 5809,
+   "sha256": "96181a4cf703e74c85fc78ac98ed1546ec51c6796a04b5f8dbc37eb32c93d341"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790006400.json": {
+   "bytes": 5830,
+   "sha256": "e0cd05e6607b96ed20e892e8bf93e8ad94d9a16e7e1b454dd37eaf3d2ecdd81f"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790007300.json": {
+   "bytes": 5857,
+   "sha256": "bf5cbbfb4b2acaa0440cd0d137484d2d573b3be5f183138b9467cb7f81d290aa"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790008200.json": {
+   "bytes": 5809,
+   "sha256": "d66de3fd6736a25966e8ff8892af478e2128a29a09a99fb9f5cc2aad4b3b6108"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790009100.json": {
+   "bytes": 5835,
+   "sha256": "e94faccae1571767bbcfc10fdb5860d9e6b5d899a75b6e9edbe645d92d1d3109"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790010000.json": {
+   "bytes": 5813,
+   "sha256": "c08845ed25bfe17213f10e6adf4526448adda846c5fd7102807e7d37e46410a8"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790010900.json": {
+   "bytes": 5769,
+   "sha256": "213ab29b32abec7a904e4174b27c4712e1ec41fd42448169f292e1b17eebfd17"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790011800.json": {
+   "bytes": 5807,
+   "sha256": "fa4db7c2d73ad51c2a965e2320692ab8e29787c6700008c7854c310d8a0a77aa"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790012700.json": {
+   "bytes": 5743,
+   "sha256": "448929958b69f8b4f19047369f01a9a644c3f6980aa5dfb168f1a745295aab58"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790013600.json": {
+   "bytes": 5850,
+   "sha256": "13eae16dac26d97051f9c2c1aeeb2c8e89953901d446e866185aef36f80ace59"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790014500.json": {
+   "bytes": 5794,
+   "sha256": "0a61d198578a2e3cf2f7150bbf2fe62645c6aca8b43a5a7e791b7465ddcbf727"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790015400.json": {
+   "bytes": 5779,
+   "sha256": "7c0baa258e2d1243866d6c0af37db62cb3b064d29be0be78ec53575b6b05a6ce"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790016300.json": {
+   "bytes": 5868,
+   "sha256": "89023e0ff6d8bc2488aa9a8f6e31638ec0ed4c1e09b56829c03643abb1a04757"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790017200.json": {
+   "bytes": 5856,
+   "sha256": "8516abe64c7ab5f2f8d630707c69f1138cec27fc46a616b69af8251c390a0e42"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790018100.json": {
+   "bytes": 5853,
+   "sha256": "d493ef6f817d1037697b071b6fa11153470ee44dbcf170e3c037c62b29b98f01"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790019000.json": {
+   "bytes": 5811,
+   "sha256": "32ac8956599fff55fd6b1d9d3b0e71d0a83caa1a7426608c0a4acc2111748ac5"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790019900.json": {
+   "bytes": 5809,
+   "sha256": "29ef4d6a910a8b314afdc5e2c731b4644a4a7dfa92405beaf518b7202377a5a7"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790020800.json": {
+   "bytes": 5992,
+   "sha256": "5c84b7a99b3d0fc2977e0fc5b8cffa3ed7c97b63827eff35adcff3118e179f4a"
+  },
+  "raw/new_period/markets/btc-updown-15m-1790021700.json": {
+   "bytes": 5981,
+   "sha256": "78f4877a7146e57d28280da05c58e3e312af232263cdb0f13bc923011c1e8a21"
+  },
+  "raw/taker_only_checks/btc-updown-15m-1789530300.json": {
+   "bytes": 16354,
+   "sha256": "6eda948fab64b029be7c37eec48b149d277403d3f61a7275c152fdc49dffc856"
+  },
+  "raw/taker_only_checks/btc-updown-15m-1789564500.json": {
+   "bytes": 14733,
+   "sha256": "06a8a61ec9d4cd93a31f1d3116cbe3c463e9844347785c0086767ab3049c8679"
+  },
+  "raw/taker_only_checks/btc-updown-15m-1789641000.json": {
+   "bytes": 7869,
+   "sha256": "2365c0566259c8780dd385c71b0bf1acaddd11f32fbbbad0ba80de5775e7f300"
+  },
+  "raw/taker_only_checks/btc-updown-15m-1789708500.json": {
+   "bytes": 25451,
+   "sha256": "d405792ec1bebabc14807507c6feb40ed66f83ac17b73a8a7803a4536ecde47a"
+  },
+  "raw/taker_only_checks/btc-updown-15m-1790001000.json": {
+   "bytes": 33402,
+   "sha256": "25c2c0b155949b1bf43a4ffc369e9e8b3df5da34858d980a6e62044d7554061a"
+  },
+  "raw/taker_only_checks/btc-updown-15m-1790001900.json": {
+   "bytes": 17250,
+   "sha256": "7578957e0cd9fce0da3dd729fd73f362587cab921bc1bf2195fff2648d6c7740"
+  },
+  "raw/taker_only_checks/btc-updown-15m-1790004600.json": {
+   "bytes": 8653,
+   "sha256": "c4f9c7c91430fa9c96b4f6108feb9d3d27191fd25d37b0021c2689dd3ab460db"
+  },
+  "raw/taker_only_checks/btc-updown-15m-1790010000.json": {
+   "bytes": 10952,
+   "sha256": "ce8b8d5d3e216b09a5992e97071cd6740fd3a54ca923cf85eff07b00a6a030eb"
+  },
+  "RAPOR_FABLE.md": {
+   "bytes": 38020,
+   "sha256": "6121df50400d0e08f81c033892aac03bc6789a7744f47111336cb248e22f8b2d"
+  },
+  "OZET.md": {
+   "bytes": 4035,
+   "sha256": "f3e5a4cbd2d0f8fe3fada573ba047179368b24ed4f79a6f053cbdf3a17643e05"
+  },
+  "plan.md": {
+   "bytes": 7400,
+   "sha256": "0f91509471c1a15a486a0158925dfd248fffd28d13bfadc10a2cdcc7a7cb6270"
+  },
+  "AGENT_BRIEF.md": {
+   "bytes": 9347,
+   "sha256": "f0fe6b03e2edcfb612878ac9b16d2b040bbcd667a0a3ac4ff16f81e085f3acdc"
+  }
+ },
+ "inputs": {
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/results/fills.json": "c397e9ac504c1aa56edc6c3ff0049eefb8f44294246228d11915f9046a1f8cf5",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/results/windows.json": "8e9f02e4b24ac50b38a3a849a1160f1ae660e619f908956e5af766e31c83bcb0",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/results/universe.json": "0c15a4a21a29c76338c738c3047f2aac0f7900f6596f8735bee82f71f9555a00",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/raw/btc15_context.json": "6a24856c1ffde5d80aa0abad17430be86a56ee4fa3a1b906038d4274274ceb69",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/candidate.py": "0141e195dec72a41dff71a2ae7a78451827394aa28b428217f827f0e48004a2a",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/protocol.json": "34c976d72f99660a8223d036824071a6bcab2b381491812200312b2a4b4a27c5",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_followup/status_20260921_1800/raw/book_validation_prefix.json.gz": "ad5bccfc282ef0917178ade37b0e11a65e1cfee4e6e72b5a876ead86bdaa83ad",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_followup/record_books.py": "279198c3812c78fd988fde2fc371bd41dd40e371f42c745aeb7641176668df88"
+ }
+}

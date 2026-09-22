@@ -1,0 +1,1628 @@
+{
+  "entries": 180,
+  "executed_over_55c": 102,
+  "interpretation": "Decision ceiling retained; execution ceiling removed for first/add. This is a different price-protection contract, not validation of unchanged P0.",
+  "max_execution_price": 0.895,
+  "rows": [
+    {
+      "cost": 2.51242125,
+      "kind": "first",
+      "price": 0.485,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789309800",
+      "time": 1789309991
+    },
+    {
+      "cost": 3.35409125,
+      "kind": "first",
+      "price": 0.655,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789319700",
+      "time": 1789319895
+    },
+    {
+      "cost": 2.66242125,
+      "kind": "first",
+      "price": 0.515,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789324200",
+      "time": 1789324394
+    },
+    {
+      "cost": 3.0099712499999995,
+      "kind": "first",
+      "price": 0.585,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789330500",
+      "time": 1789330692
+    },
+    {
+      "cost": 1.85514125,
+      "kind": "first",
+      "price": 0.355,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789335000",
+      "time": 1789335195
+    },
+    {
+      "cost": 0.45222125,
+      "kind": "first",
+      "price": 0.085,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789336800",
+      "time": 1789336994
+    },
+    {
+      "cost": 3.54919125,
+      "kind": "first",
+      "price": 0.695,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789338600",
+      "time": 1789338789
+    },
+    {
+      "cost": 2.96053125,
+      "kind": "first",
+      "price": 0.575,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789339500",
+      "time": 1789339694
+    },
+    {
+      "cost": 3.2561212500000005,
+      "kind": "first",
+      "price": 0.635,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789350300",
+      "time": 1789350494
+    },
+    {
+      "cost": 2.76207125,
+      "kind": "first",
+      "price": 0.535,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789358400",
+      "time": 1789358592
+    },
+    {
+      "cost": 2.8614412500000004,
+      "kind": "first",
+      "price": 0.555,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789359300",
+      "time": 1789359492
+    },
+    {
+      "cost": 3.10864125,
+      "kind": "first",
+      "price": 0.605,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789360200",
+      "time": 1789360393
+    },
+    {
+      "cost": 2.76207125,
+      "kind": "first",
+      "price": 0.535,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789363800",
+      "time": 1789363991
+    },
+    {
+      "cost": 3.79149125,
+      "kind": "first",
+      "price": 0.745,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789369200",
+      "time": 1789369391
+    },
+    {
+      "cost": 3.10864125,
+      "kind": "first",
+      "price": 0.605,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789371000",
+      "time": 1789371188
+    },
+    {
+      "cost": 2.31144125,
+      "kind": "first",
+      "price": 0.445,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789373700",
+      "time": 1789373893
+    },
+    {
+      "cost": 1.95703125,
+      "kind": "first",
+      "price": 0.375,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789376400",
+      "time": 1789376606
+    },
+    {
+      "cost": 3.7431712499999996,
+      "kind": "first",
+      "price": 0.735,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789379100",
+      "time": 1789379294
+    },
+    {
+      "cost": 2.8614412500000004,
+      "kind": "first",
+      "price": 0.555,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789381800",
+      "time": 1789381991
+    },
+    {
+      "cost": 3.0099712499999995,
+      "kind": "first",
+      "price": 0.585,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789384500",
+      "time": 1789384688
+    },
+    {
+      "cost": 2.91102125,
+      "kind": "first",
+      "price": 0.565,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789386300",
+      "time": 1789386508
+    },
+    {
+      "cost": 3.35409125,
+      "kind": "first",
+      "price": 0.655,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789390800",
+      "time": 1789390993
+    },
+    {
+      "cost": 2.2610212499999998,
+      "kind": "first",
+      "price": 0.435,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789398900",
+      "time": 1789399094
+    },
+    {
+      "cost": 3.5977912499999998,
+      "kind": "first",
+      "price": 0.705,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789399800",
+      "time": 1789399993
+    },
+    {
+      "cost": 2.76207125,
+      "kind": "first",
+      "price": 0.535,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789403400",
+      "time": 1789403591
+    },
+    {
+      "cost": 2.96053125,
+      "kind": "first",
+      "price": 0.575,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789405200",
+      "time": 1789405391
+    },
+    {
+      "cost": 3.45178125,
+      "kind": "first",
+      "price": 0.675,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789407000",
+      "time": 1789407191
+    },
+    {
+      "cost": 3.15787125,
+      "kind": "first",
+      "price": 0.615,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789408800",
+      "time": 1789408990
+    },
+    {
+      "cost": 2.8614412500000004,
+      "kind": "first",
+      "price": 0.555,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789409700",
+      "time": 1789409891
+    },
+    {
+      "cost": 2.76207125,
+      "kind": "first",
+      "price": 0.535,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789414200",
+      "time": 1789414390
+    },
+    {
+      "cost": 2.91102125,
+      "kind": "first",
+      "price": 0.565,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789415100",
+      "time": 1789415295
+    },
+    {
+      "cost": 2.91102125,
+      "kind": "first",
+      "price": 0.565,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789416000",
+      "time": 1789416195
+    },
+    {
+      "cost": 3.5005212500000003,
+      "kind": "first",
+      "price": 0.685,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789417800",
+      "time": 1789418006
+    },
+    {
+      "cost": 3.45178125,
+      "kind": "first",
+      "price": 0.675,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789418700",
+      "time": 1789418904
+    },
+    {
+      "cost": 0.82084125,
+      "kind": "first",
+      "price": 0.155,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789419600",
+      "time": 1789419805
+    },
+    {
+      "cost": 2.81179125,
+      "kind": "first",
+      "price": 0.545,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789421400",
+      "time": 1789421593
+    },
+    {
+      "cost": 2.8614412500000004,
+      "kind": "first",
+      "price": 0.555,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789425000",
+      "time": 1789425191
+    },
+    {
+      "cost": 3.0099712499999995,
+      "kind": "first",
+      "price": 0.585,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789427700",
+      "time": 1789427890
+    },
+    {
+      "cost": 2.4120712500000003,
+      "kind": "first",
+      "price": 0.465,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789432200",
+      "time": 1789432394
+    },
+    {
+      "cost": 2.81179125,
+      "kind": "first",
+      "price": 0.545,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789433100",
+      "time": 1789433293
+    },
+    {
+      "cost": 3.10864125,
+      "kind": "first",
+      "price": 0.605,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789438500",
+      "time": 1789438689
+    },
+    {
+      "cost": 3.20703125,
+      "kind": "first",
+      "price": 0.625,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789439400",
+      "time": 1789439592
+    },
+    {
+      "cost": 2.7122812499999998,
+      "kind": "first",
+      "price": 0.525,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789442100",
+      "time": 1789442291
+    },
+    {
+      "cost": 2.2610212499999998,
+      "kind": "first",
+      "price": 0.435,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789443000",
+      "time": 1789443194
+    },
+    {
+      "cost": 3.20703125,
+      "kind": "first",
+      "price": 0.625,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789443900",
+      "time": 1789444093
+    },
+    {
+      "cost": 2.91102125,
+      "kind": "first",
+      "price": 0.565,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789445700",
+      "time": 1789445894
+    },
+    {
+      "cost": 3.7431712499999996,
+      "kind": "first",
+      "price": 0.735,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789446600",
+      "time": 1789446795
+    },
+    {
+      "cost": 3.30514125,
+      "kind": "first",
+      "price": 0.645,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789449300",
+      "time": 1789449494
+    },
+    {
+      "cost": 2.96053125,
+      "kind": "first",
+      "price": 0.575,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789455600",
+      "time": 1789455791
+    },
+    {
+      "cost": 3.54919125,
+      "kind": "first",
+      "price": 0.695,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789456500",
+      "time": 1789456692
+    },
+    {
+      "cost": 2.8614412500000004,
+      "kind": "first",
+      "price": 0.555,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789458300",
+      "time": 1789458495
+    },
+    {
+      "cost": 3.83974125,
+      "kind": "first",
+      "price": 0.755,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789465500",
+      "time": 1789465706
+    },
+    {
+      "cost": 2.91102125,
+      "kind": "first",
+      "price": 0.565,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789467300",
+      "time": 1789467488
+    },
+    {
+      "cost": 3.35409125,
+      "kind": "first",
+      "price": 0.655,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789468200",
+      "time": 1789468394
+    },
+    {
+      "cost": 2.7122812499999998,
+      "kind": "first",
+      "price": 0.525,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789485300",
+      "time": 1789485490
+    },
+    {
+      "cost": 3.0099712499999995,
+      "kind": "first",
+      "price": 0.585,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789488000",
+      "time": 1789488193
+    },
+    {
+      "cost": 2.8614412500000004,
+      "kind": "first",
+      "price": 0.555,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789516800",
+      "time": 1789516994
+    },
+    {
+      "cost": 2.76207125,
+      "kind": "first",
+      "price": 0.535,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789518600",
+      "time": 1789518793
+    },
+    {
+      "cost": 2.76207125,
+      "kind": "first",
+      "price": 0.535,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789520400",
+      "time": 1789520593
+    },
+    {
+      "cost": 3.10864125,
+      "kind": "first",
+      "price": 0.605,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789523100",
+      "time": 1789523291
+    },
+    {
+      "cost": 3.0099712499999995,
+      "kind": "first",
+      "price": 0.585,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789531200",
+      "time": 1789531401
+    },
+    {
+      "cost": 3.15787125,
+      "kind": "first",
+      "price": 0.615,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789533000",
+      "time": 1789533188
+    },
+    {
+      "cost": 2.8614412500000004,
+      "kind": "first",
+      "price": 0.555,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789533900",
+      "time": 1789534094
+    },
+    {
+      "cost": 3.10864125,
+      "kind": "first",
+      "price": 0.605,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789537500",
+      "time": 1789537692
+    },
+    {
+      "cost": 3.05934125,
+      "kind": "first",
+      "price": 0.595,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789543800",
+      "time": 1789543994
+    },
+    {
+      "cost": 1.59919125,
+      "kind": "first",
+      "price": 0.305,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789546500",
+      "time": 1789546688
+    },
+    {
+      "cost": 2.81179125,
+      "kind": "first",
+      "price": 0.545,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789548300",
+      "time": 1789548493
+    },
+    {
+      "cost": 2.31144125,
+      "kind": "first",
+      "price": 0.445,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789550100",
+      "time": 1789550292
+    },
+    {
+      "cost": 3.35409125,
+      "kind": "first",
+      "price": 0.655,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789551000",
+      "time": 1789551193
+    },
+    {
+      "cost": 2.51242125,
+      "kind": "first",
+      "price": 0.485,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789551900",
+      "time": 1789552090
+    },
+    {
+      "cost": 1.90612125,
+      "kind": "first",
+      "price": 0.365,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789552800",
+      "time": 1789552992
+    },
+    {
+      "cost": 3.5005212500000003,
+      "kind": "first",
+      "price": 0.685,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789553700",
+      "time": 1789553893
+    },
+    {
+      "cost": 2.76207125,
+      "kind": "first",
+      "price": 0.535,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789554600",
+      "time": 1789554792
+    },
+    {
+      "cost": 2.15997125,
+      "kind": "first",
+      "price": 0.415,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789558200",
+      "time": 1789558389
+    },
+    {
+      "cost": 2.51242125,
+      "kind": "first",
+      "price": 0.485,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789559100",
+      "time": 1789559293
+    },
+    {
+      "cost": 3.30514125,
+      "kind": "first",
+      "price": 0.645,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789560000",
+      "time": 1789560189
+    },
+    {
+      "cost": 3.7431712499999996,
+      "kind": "first",
+      "price": 0.735,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789566300",
+      "time": 1789566492
+    },
+    {
+      "cost": 1.18603125,
+      "kind": "first",
+      "price": 0.225,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789568100",
+      "time": 1789568293
+    },
+    {
+      "cost": 3.9840712500000004,
+      "kind": "first",
+      "price": 0.785,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789573500",
+      "time": 1789573693
+    },
+    {
+      "cost": 1.54779125,
+      "kind": "first",
+      "price": 0.295,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789578900",
+      "time": 1789579094
+    },
+    {
+      "cost": 1.59919125,
+      "kind": "first",
+      "price": 0.305,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789581600",
+      "time": 1789581790
+    },
+    {
+      "cost": 3.6463212499999997,
+      "kind": "first",
+      "price": 0.715,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789588800",
+      "time": 1789588989
+    },
+    {
+      "cost": 3.6463212499999997,
+      "kind": "first",
+      "price": 0.715,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789589700",
+      "time": 1789589894
+    },
+    {
+      "cost": 3.20703125,
+      "kind": "first",
+      "price": 0.625,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789590600",
+      "time": 1789590790
+    },
+    {
+      "cost": 2.96053125,
+      "kind": "first",
+      "price": 0.575,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789595100",
+      "time": 1789595289
+    },
+    {
+      "cost": 0.82084125,
+      "kind": "first",
+      "price": 0.155,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789596000",
+      "time": 1789596197
+    },
+    {
+      "cost": 3.54919125,
+      "kind": "first",
+      "price": 0.695,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789598700",
+      "time": 1789598891
+    },
+    {
+      "cost": 2.6873600000000004,
+      "kind": "first",
+      "price": 0.52,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789615800",
+      "time": 1789615992
+    },
+    {
+      "cost": 3.05934125,
+      "kind": "first",
+      "price": 0.595,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789619400",
+      "time": 1789619608
+    },
+    {
+      "cost": 2.66242125,
+      "kind": "first",
+      "price": 0.515,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789620300",
+      "time": 1789620491
+    },
+    {
+      "cost": 3.15787125,
+      "kind": "first",
+      "price": 0.615,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789621200",
+      "time": 1789621392
+    },
+    {
+      "cost": 2.96053125,
+      "kind": "first",
+      "price": 0.575,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789623900",
+      "time": 1789624092
+    },
+    {
+      "cost": 2.15997125,
+      "kind": "first",
+      "price": 0.415,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789632900",
+      "time": 1789633091
+    },
+    {
+      "cost": 2.4120712500000003,
+      "kind": "first",
+      "price": 0.465,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789636500",
+      "time": 1789636693
+    },
+    {
+      "cost": 3.10864125,
+      "kind": "first",
+      "price": 0.605,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789645500",
+      "time": 1789645692
+    },
+    {
+      "cost": 1.7529712499999999,
+      "kind": "first",
+      "price": 0.335,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789646400",
+      "time": 1789646592
+    },
+    {
+      "cost": 1.65052125,
+      "kind": "first",
+      "price": 0.315,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789650000",
+      "time": 1789650190
+    },
+    {
+      "cost": 3.79149125,
+      "kind": "first",
+      "price": 0.745,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789651800",
+      "time": 1789651992
+    },
+    {
+      "cost": 2.5624912500000003,
+      "kind": "first",
+      "price": 0.495,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789656300",
+      "time": 1789656492
+    },
+    {
+      "cost": 1.34149125,
+      "kind": "first",
+      "price": 0.255,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789657200",
+      "time": 1789657396
+    },
+    {
+      "cost": 2.76207125,
+      "kind": "first",
+      "price": 0.535,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789663500",
+      "time": 1789663691
+    },
+    {
+      "cost": 2.91102125,
+      "kind": "first",
+      "price": 0.565,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789665300",
+      "time": 1789665494
+    },
+    {
+      "cost": 2.5624912500000003,
+      "kind": "first",
+      "price": 0.495,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789668000",
+      "time": 1789668193
+    },
+    {
+      "cost": 2.8614412500000004,
+      "kind": "first",
+      "price": 0.555,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789669800",
+      "time": 1789669993
+    },
+    {
+      "cost": 2.66242125,
+      "kind": "first",
+      "price": 0.515,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789673400",
+      "time": 1789673594
+    },
+    {
+      "cost": 2.8614412500000004,
+      "kind": "first",
+      "price": 0.555,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789678800",
+      "time": 1789678994
+    },
+    {
+      "cost": 3.35409125,
+      "kind": "first",
+      "price": 0.655,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789682400",
+      "time": 1789682603
+    },
+    {
+      "cost": 2.51242125,
+      "kind": "first",
+      "price": 0.485,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789685100",
+      "time": 1789685291
+    },
+    {
+      "cost": 3.9840712500000004,
+      "kind": "first",
+      "price": 0.785,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789686000",
+      "time": 1789686204
+    },
+    {
+      "cost": 2.36179125,
+      "kind": "first",
+      "price": 0.455,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789695000",
+      "time": 1789695193
+    },
+    {
+      "cost": 3.0099712499999995,
+      "kind": "first",
+      "price": 0.585,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789695900",
+      "time": 1789696093
+    },
+    {
+      "cost": 3.15787125,
+      "kind": "first",
+      "price": 0.615,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789704000",
+      "time": 1789704192
+    },
+    {
+      "cost": 3.0099712499999995,
+      "kind": "first",
+      "price": 0.585,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789704900",
+      "time": 1789705093
+    },
+    {
+      "cost": 3.05934125,
+      "kind": "first",
+      "price": 0.595,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789705800",
+      "time": 1789705993
+    },
+    {
+      "cost": 3.0099712499999995,
+      "kind": "first",
+      "price": 0.585,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789708500",
+      "time": 1789708693
+    },
+    {
+      "cost": 3.30514125,
+      "kind": "first",
+      "price": 0.645,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789709400",
+      "time": 1789709590
+    },
+    {
+      "cost": 2.31144125,
+      "kind": "first",
+      "price": 0.445,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789712100",
+      "time": 1789712293
+    },
+    {
+      "cost": 3.05934125,
+      "kind": "first",
+      "price": 0.595,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789713900",
+      "time": 1789714093
+    },
+    {
+      "cost": 2.51242125,
+      "kind": "first",
+      "price": 0.485,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789715700",
+      "time": 1789715890
+    },
+    {
+      "cost": 3.10864125,
+      "kind": "first",
+      "price": 0.605,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789716600",
+      "time": 1789716792
+    },
+    {
+      "cost": 3.20703125,
+      "kind": "first",
+      "price": 0.625,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789721100",
+      "time": 1789721304
+    },
+    {
+      "cost": 2.4622812499999998,
+      "kind": "first",
+      "price": 0.475,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789734600",
+      "time": 1789734796
+    },
+    {
+      "cost": 3.69478125,
+      "kind": "first",
+      "price": 0.725,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789736400",
+      "time": 1789736596
+    },
+    {
+      "cost": 1.59919125,
+      "kind": "first",
+      "price": 0.305,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789740900",
+      "time": 1789741095
+    },
+    {
+      "cost": 1.4963212499999998,
+      "kind": "first",
+      "price": 0.285,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789741800",
+      "time": 1789742009
+    },
+    {
+      "cost": 3.10864125,
+      "kind": "first",
+      "price": 0.605,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789743600",
+      "time": 1789743813
+    },
+    {
+      "cost": 1.4705600000000003,
+      "kind": "first",
+      "price": 0.28,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789744500",
+      "time": 1789744696
+    },
+    {
+      "cost": 3.83974125,
+      "kind": "first",
+      "price": 0.755,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789747200",
+      "time": 1789747411
+    },
+    {
+      "cost": 3.5005212500000003,
+      "kind": "first",
+      "price": 0.685,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789750800",
+      "time": 1789750995
+    },
+    {
+      "cost": 2.66242125,
+      "kind": "first",
+      "price": 0.515,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789755300",
+      "time": 1789755496
+    },
+    {
+      "cost": 3.54919125,
+      "kind": "first",
+      "price": 0.695,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789756200",
+      "time": 1789756398
+    },
+    {
+      "cost": 2.91102125,
+      "kind": "first",
+      "price": 0.565,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789758900",
+      "time": 1789759097
+    },
+    {
+      "cost": 3.6463212499999997,
+      "kind": "first",
+      "price": 0.715,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789760700",
+      "time": 1789760897
+    },
+    {
+      "cost": 2.76207125,
+      "kind": "first",
+      "price": 0.535,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789763400",
+      "time": 1789763596
+    },
+    {
+      "cost": 2.81179125,
+      "kind": "first",
+      "price": 0.545,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789764300",
+      "time": 1789764496
+    },
+    {
+      "cost": 2.00787125,
+      "kind": "first",
+      "price": 0.385,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789767900",
+      "time": 1789768096
+    },
+    {
+      "cost": 1.4963212499999998,
+      "kind": "first",
+      "price": 0.285,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789848000",
+      "time": 1789848195
+    },
+    {
+      "cost": 2.76207125,
+      "kind": "first",
+      "price": 0.535,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789849800",
+      "time": 1789849989
+    },
+    {
+      "cost": 3.30514125,
+      "kind": "first",
+      "price": 0.645,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789852500",
+      "time": 1789852695
+    },
+    {
+      "cost": 3.4029712500000002,
+      "kind": "first",
+      "price": 0.665,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789860600",
+      "time": 1789860797
+    },
+    {
+      "cost": 3.15787125,
+      "kind": "first",
+      "price": 0.615,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789862400",
+      "time": 1789862595
+    },
+    {
+      "cost": 3.2561212500000005,
+      "kind": "first",
+      "price": 0.635,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789866000",
+      "time": 1789866194
+    },
+    {
+      "cost": 2.7122812499999998,
+      "kind": "first",
+      "price": 0.525,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789868700",
+      "time": 1789868896
+    },
+    {
+      "cost": 3.7431712499999996,
+      "kind": "first",
+      "price": 0.735,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789870500",
+      "time": 1789870693
+    },
+    {
+      "cost": 1.90612125,
+      "kind": "first",
+      "price": 0.365,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789871400",
+      "time": 1789871596
+    },
+    {
+      "cost": 2.7122812499999998,
+      "kind": "first",
+      "price": 0.525,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789873200",
+      "time": 1789873392
+    },
+    {
+      "cost": 2.96053125,
+      "kind": "first",
+      "price": 0.575,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789875000",
+      "time": 1789875192
+    },
+    {
+      "cost": 3.35409125,
+      "kind": "first",
+      "price": 0.655,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789875900",
+      "time": 1789876093
+    },
+    {
+      "cost": 1.28974125,
+      "kind": "first",
+      "price": 0.245,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789877700",
+      "time": 1789877893
+    },
+    {
+      "cost": 2.21053125,
+      "kind": "first",
+      "price": 0.425,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789879500",
+      "time": 1789879694
+    },
+    {
+      "cost": 2.91102125,
+      "kind": "first",
+      "price": 0.565,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789880400",
+      "time": 1789880593
+    },
+    {
+      "cost": 3.0099712499999995,
+      "kind": "first",
+      "price": 0.585,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789884000",
+      "time": 1789884195
+    },
+    {
+      "cost": 2.8614412500000004,
+      "kind": "first",
+      "price": 0.555,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789884900",
+      "time": 1789885093
+    },
+    {
+      "cost": 3.05934125,
+      "kind": "first",
+      "price": 0.595,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789887600",
+      "time": 1789887792
+    },
+    {
+      "cost": 2.81179125,
+      "kind": "first",
+      "price": 0.545,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789890300",
+      "time": 1789890492
+    },
+    {
+      "cost": 2.5624912500000003,
+      "kind": "first",
+      "price": 0.495,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789892100",
+      "time": 1789892294
+    },
+    {
+      "cost": 2.96053125,
+      "kind": "first",
+      "price": 0.575,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789893900",
+      "time": 1789894092
+    },
+    {
+      "cost": 2.4622812499999998,
+      "kind": "first",
+      "price": 0.475,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789911900",
+      "time": 1789912092
+    },
+    {
+      "cost": 3.69478125,
+      "kind": "first",
+      "price": 0.725,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789914600",
+      "time": 1789914794
+    },
+    {
+      "cost": 2.76207125,
+      "kind": "first",
+      "price": 0.535,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789915500",
+      "time": 1789915692
+    },
+    {
+      "cost": 1.3931712500000002,
+      "kind": "first",
+      "price": 0.265,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789916400",
+      "time": 1789916593
+    },
+    {
+      "cost": 1.28974125,
+      "kind": "first",
+      "price": 0.245,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789917300",
+      "time": 1789917493
+    },
+    {
+      "cost": 2.2610212499999998,
+      "kind": "first",
+      "price": 0.435,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789921800",
+      "time": 1789921995
+    },
+    {
+      "cost": 2.21053125,
+      "kind": "first",
+      "price": 0.425,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789924500",
+      "time": 1789924694
+    },
+    {
+      "cost": 2.76207125,
+      "kind": "first",
+      "price": 0.535,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789926300",
+      "time": 1789926489
+    },
+    {
+      "cost": 2.51242125,
+      "kind": "first",
+      "price": 0.485,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789927200",
+      "time": 1789927391
+    },
+    {
+      "cost": 3.15787125,
+      "kind": "first",
+      "price": 0.615,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789937100",
+      "time": 1789937291
+    },
+    {
+      "cost": 0.50509125,
+      "kind": "first",
+      "price": 0.095,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789938000",
+      "time": 1789938194
+    },
+    {
+      "cost": 2.4120712500000003,
+      "kind": "first",
+      "price": 0.465,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789941600",
+      "time": 1789941791
+    },
+    {
+      "cost": 3.20703125,
+      "kind": "first",
+      "price": 0.625,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789946100",
+      "time": 1789946292
+    },
+    {
+      "cost": 1.056,
+      "kind": "first",
+      "price": 0.2,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789948800",
+      "time": 1789948987
+    },
+    {
+      "cost": 3.2561212500000005,
+      "kind": "first",
+      "price": 0.635,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789958700",
+      "time": 1789958892
+    },
+    {
+      "cost": 3.83974125,
+      "kind": "first",
+      "price": 0.755,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789959600",
+      "time": 1789959791
+    },
+    {
+      "cost": 3.2561212500000005,
+      "kind": "first",
+      "price": 0.635,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789966800",
+      "time": 1789966991
+    },
+    {
+      "cost": 3.4029712500000002,
+      "kind": "first",
+      "price": 0.665,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789969500",
+      "time": 1789969690
+    },
+    {
+      "cost": 2.66242125,
+      "kind": "first",
+      "price": 0.515,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789972200",
+      "time": 1789972393
+    },
+    {
+      "cost": 4.50789125,
+      "kind": "first",
+      "price": 0.895,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789979400",
+      "time": 1789979591
+    },
+    {
+      "cost": 3.0099712499999995,
+      "kind": "first",
+      "price": 0.585,
+      "qty": 5.0,
+      "side": 0,
+      "slug": "btc-updown-15m-1789983000",
+      "time": 1789983192
+    },
+    {
+      "cost": 2.00787125,
+      "kind": "first",
+      "price": 0.385,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789984800",
+      "time": 1789985003
+    },
+    {
+      "cost": 2.36179125,
+      "kind": "first",
+      "price": 0.455,
+      "qty": 5.0,
+      "side": 1,
+      "slug": "btc-updown-15m-1789989300",
+      "time": 1789989489
+    }
+  ]
+}

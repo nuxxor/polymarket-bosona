@@ -1,0 +1,1561 @@
+{
+ "summary": {
+  "findings": 110,
+  "survived": 91,
+  "killed": 19,
+  "by_severity": {
+   "decision_changing": {
+    "n": 27,
+    "survived": 21
+   },
+   "important": {
+    "n": 40,
+    "survived": 31
+   },
+   "minor": {
+    "n": 43,
+    "survived": 39
+   }
+  },
+  "critic_gaps": [
+   "real_ask_completion_backtest",
+   "candidate_replay_lookahead_fix",
+   "single_vs_multi_bot_concurrency",
+   "eth_sol_bnb_hourly_mechanism",
+   "untrade_48_markets_root_cause",
+   "maker_placement_timing_adverse_selection",
+   "first_entry_time_pattern",
+   "m1_m2_mechanism_test"
+  ]
+ },
+ "rows": [
+  {
+   "stage": "audit",
+   "dimension": "D1_accounting",
+   "id": "D1-1",
+   "title": "BTC15dk muhasebe yeniden üretimi",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D1_accounting",
+   "id": "D1-2",
+   "title": "Diğer grupların PnL toplamları",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D1_accounting",
+   "id": "D1-3",
+   "title": "MERGE/REDEEM ödeme sınırı ihlali kontrolü",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D1_accounting",
+   "id": "D1-4",
+   "title": "usdcSize alanı ücret semantiği",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D1_accounting",
+   "id": "D1-5",
+   "title": "Kazanç örneği btc-updown-15m-1789708500",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D1_accounting",
+   "id": "D1-6",
+   "title": "Kayıp örneği btc-updown-15m-1789564500",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D1_accounting",
+   "id": "D1-7",
+   "title": "Aynı saniye belirsizliği sıklığı ve etkisi",
+   "severity": "minor",
+   "verdict": "GÖZLEMSEL DESTEK",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D2_causality: Zaman sızıntısı ve nedensellik denetimi",
+   "id": "D2-1",
+   "title": "candidate.replay() gelecek fiyat kullanımı (look-ahead bias)",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "wrong_execution_model",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D2_causality: Zaman sızıntısı ve nedensellik denetimi",
+   "id": "D2-2",
+   "title": "btc15_context.py::price() tazelik kontrolü doğru (iki katmanlı rcv+obs)",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D2_causality: Zaman sızıntısı ve nedensellik denetimi",
+   "id": "D2-3",
+   "title": "bosona_derin.py::spot_at() nedensellik kontrolü doğru",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D2_causality: Zaman sızıntısı ve nedensellik denetimi",
+   "id": "D2-4",
+   "title": "bosona_derin.py::fair_twap() 5dk→15dk adaptasyonu matematiksel olarak doğru",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D2_causality: Zaman sızıntısı ve nedensellik denetimi",
+   "id": "D2-5",
+   "title": "fair_twap::known_seconds hesabı mevcut saniyeyi hariç tutuyor (nedensel)",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D2_causality: Zaman sızıntısı ve nedensellik denetimi",
+   "id": "D2-6",
+   "title": "analyze.py::models() StandardScaler yalnız train'de fit",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D2_causality: Zaman sızıntısı ve nedensellik denetimi",
+   "id": "D2-7",
+   "title": "study.py::at() age limiti gelecek verisini engelliyor",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D2_causality: Zaman sızıntısı ve nedensellik denetimi",
+   "id": "D2-8",
+   "title": "Chainlink veri gecikmesi ölçüldü: medyan 1.19 sn",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D2_causality: Zaman sızıntısı ve nedensellik denetimi",
+   "id": "D2-9",
+   "title": "histories fiyat yaşı: medyan 33 sn, '35-45 sn geride' iddiası kısmen doğru",
+   "severity": "minor",
+   "verdict": "GÖZLEMSEL DESTEK",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 1,
+   "votes": 1,
+   "survives": false,
+   "refuter_reasons": [
+    "Aritmetik sayılar doğru (medyan=33 sn, 35-45 arası %22.5) ancak claim'deki ifade yanıltıcı: 'P50-P75 aralığında %22.5 kapsam' matematiksel olarak yanlış. %22.5, tüm 200 örnekte 35-45 sn aralığındaki oran; P50-P75 aralığı"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "order_identity",
+   "id": "D3-F1",
+   "title": "Activity API tek satır/tx gösteriyor, zincir 3.55 fill/tx içeriyor",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "order_identity",
+   "id": "D3-F2",
+   "title": "Geç ekleme (age≥600) TÜMÜ yeni emir, erken parent devamı 0",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "D3 kapsamı sınırlı (20/598 piyasa, %3.3) ve temsili değil. D3'ün incelediği 197 geç dolumun tamamı TAKER (%100), ama genel BTC15dk tablosunda geç eklemelerin (opening_kind=add, age 600-899s) %93.7'si MAKER (1099/1173). M"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "order_identity",
+   "id": "D3-F3",
+   "title": "Maker/taker fill oranı 2.55:1, eşit paylarla 773:303",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "Sayılar doğru (773 maker, 303 taker, her ikisi 30,957.33 share) ama yorum yanlış. Orijinal iddia \"küçük taker fill'ler\" diyor ama gerçekte taker fill'ler ortalama 102.17M shares ile maker fill'lerin (40.05M) 2.55 katı DA"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "order_identity",
+   "id": "D3-F4",
+   "title": "Emir ömrü (ilk dolum→son dolum) ölçülebilir ama emir oluşturma zamanı yok",
+   "severity": "minor",
+   "verdict": "ÖLÇÜLEMİYOR",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "order_identity",
+   "id": "D3-F5",
+   "title": "Zaman pencere paketleme orderHash'i undercount ediyor (1sn:5.1, 5sn:5.8, 10sn:6.8 oran)",
+   "severity": "important",
+   "verdict": "GÖZLEMSEL DESTEK",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "Sayılar doğru (5.1/5.8/6.8 ratio doğrulandı) ama yorum ciddi şekilde yanıltıcı. İddia \"undercount\" terminolojisi kullanıyor ve zaman pencerelerinin \"davranış sınıflandırması\" için kullanıldığını ima ediyor - ikisi de yan"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "order_identity",
+   "id": "D3-F6",
+   "title": "Transaction'ların %23.1'i hem Up hem Down alışı içeriyor",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "order_identity",
+   "id": "D3-F7",
+   "title": "OrderHash'lerin %99.5'i tek rol (maker veya taker), %0.5'i karma",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D4_controls_stats",
+   "id": "D4-01",
+   "title": "Kaliperler post-hoc eklendi; sonuçlar kaliper seçimine son derece duyarlı",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "insufficient_or_selected_sample",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "Atıf yapılan kaynak dosya (coarse_matched_win_loss.json) D4_controls_stats dizininde mevcut değil. Evidence claim \"coarse_matched_win_loss.json: 134 çift → matched_win_loss.json: 68 çift\" diyor ama coarse_matched_win_los"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D4_controls_stats",
+   "id": "D4-02",
+   "title": "No-add kontrolleri 'gözlenen işlem yok' durumlarını kullanıyor; 'emir yok' değil",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "wrong_execution_model",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D4_controls_stats",
+   "id": "D4-03",
+   "title": "Lojistik model ceiling_pass/probability_pass özellikleri mekanik olarak fiyat/edge ile ilişkili",
+   "severity": "important",
+   "verdict": "GÖZLEMSEL DESTEK",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D4_controls_stats",
+   "id": "D4-04",
+   "title": "Bootstrap sadece 3 günle yapılıyor; day clustering zayıf, geniş CI",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "insufficient_or_selected_sample",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D4_controls_stats",
+   "id": "D4-05",
+   "title": "'En iyi 3 hariç' kriteri sonucu %131 değiştiriyor",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "insufficient_or_selected_sample",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D4_controls_stats",
+   "id": "D4-06",
+   "title": "Conditional completion selection bias içerir; policy backtest değil",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "wrong_execution_model",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D5_candidate_execution",
+   "id": "F1",
+   "title": "Candidate models taker execution; Bosona is 81% maker",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "wrong_execution_model",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "F1 commits a category error by treating candidate.py as a model of Bosona's actual execution behavior. Evidence: (1) README explicitly states 'gerçek ask backtest'i DEĞİLDİR' (NOT a real ask backtest) and 'canlı maker do"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D5_candidate_execution",
+   "id": "F2",
+   "title": "Tight value filters yield 3.6% entry rate (21/591)",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D5_candidate_execution",
+   "id": "F3",
+   "title": "Only 1 addition in 21 entries (4.8% addition rate)",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D5_candidate_execution",
+   "id": "F4",
+   "title": "unit_cost() formula correct for taker, does not implement maker fee",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "wrong_execution_model",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D5_candidate_execution",
+   "id": "F5",
+   "title": "Portfolio and cross-market limits not implemented",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "rule_in_code_not_applied",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D5_candidate_execution",
+   "id": "F6",
+   "title": "Completion ages: continuous vs discrete mismatch is benign",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D5_candidate_execution",
+   "id": "F7",
+   "title": "Tests pass: internal logic correct",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D6_mechanism_probability",
+   "id": "D6-F1",
+   "title": "Model advantage limited to final 300 seconds",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D6_mechanism_probability",
+   "id": "D6-F2",
+   "title": "fair_twap() uses 5m constants for 15m markets",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "wrong_execution_model",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D6_mechanism_probability",
+   "id": "D6-F3",
+   "title": "Chainlink reference observable within 2.5s",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D6_mechanism_probability",
+   "id": "D6-F4",
+   "title": "BTC15m mechanism 100% validated",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D6_mechanism_probability",
+   "id": "D6-F5",
+   "title": "BTC hourly mechanism 100% validated",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D6_mechanism_probability",
+   "id": "D6-F6",
+   "title": "Drift probability poorly calibrated",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "arithmetic_data_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D7_selection_first_entry",
+   "id": "D7-001",
+   "title": "Sept 21 morning maturation claim incorrect",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "arithmetic_data_error",
+   "refuted": 2,
+   "votes": 3,
+   "survives": false,
+   "refuter_reasons": [
+    "Bulgunun \"no BTC15dk maturations\" iddiası aritmetik olarak YANLIŞ. Hesaplarım: (1) Evidence timestamp'leri 1 gün ileri (1790042400=Sept22, doğru 1789948800=Sept21). (2) universe.json'dan Sept21 00:00-12:00 UTC'de 48 BTC1",
+    "Bulgu TERİM KARIŞIKLIĞI içeriyor ve raporun söylemediği bir şeyi söylediğini iddia ediyor. \n\nRAPOR NE DİYOR: \"Yeni veride 21 Eylül 00–12 UTC'de BTC15dk dolumu **yok**\" (RAPOR.md:76). Rapor \"DOLUM (fill) yok\" diyor.\n\nBULG"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D7_selection_first_entry",
+   "id": "D7-002",
+   "title": "Rol sınıflandırması (557 maker / 41 taker) doğrulandı",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D7_selection_first_entry",
+   "id": "D7-003",
+   "title": "Paket miktarları (49.8 / 70.5 / 80.9) doğrulandı",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D7_selection_first_entry",
+   "id": "D7-004",
+   "title": "Chainlink uyumu çok düşük (27.8% olasılık, 41.7% momentum)",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "İddia yapay bir tolerans seçimiyle (±10s) elde edilmiş. Daha geniş ve makul toleranslarda (±60s: n=116, ±120s: n=179, ±300s: n=440) Chainlink uyumu rastgele seviyesinde (%45-50, p>0.06). %27.8 uyum veri toplama artifaktı"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D7_selection_first_entry",
+   "id": "D7-005",
+   "title": "İlk yön ucuz/pahalı taraf tercihi yok (49.1% ucuz)",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "Kod mantığında hata: analyze_direction_v2.py:144-146, first_up=False (NO/DOWN alımı) vakaları için ucuz/pahalı sınıflandırmasını tersine çeviriyor. Hatalı kod satırı: `is_cheap = first_price > 0.5` (NO alımında), doğrusu"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D7_selection_first_entry",
+   "id": "D7-006",
+   "title": "İşlemsiz pencerelerde Bosona-benzeri bid YOK",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 3,
+   "votes": 3,
+   "survives": false,
+   "refuter_reasons": [
+    "Evidence ifadesi \"ortalama bid derinliği ~50 AMA 0.4-0.75 aralığında size>30 olan bid: 0\" order book'un tamamından bahsediyor gibi görünüyor (derinlik bilgisi var). Kod (check_s_period_v3.py:97-101) SADECE best_bid'i kon",
+    "Orijinal bulgu yalnızca best_bid seviyesini kontrol ediyor (check_s_period_v3.py:97-101). Ancak order book'un derinliğinde Bosona-benzeri bidler (fiyat 0.4-0.75, miktar>30) mevcut. btc-updown-15m-1790007300: 1792 snapsho",
+    "Metodolojik hata tespit edildi. Orijinal kod (check_s_period_v3.py:98-101) yalnızca BEST BID'e bakıyor, defterin tüm seviyelerine bakmıyor. Best bid genellikle en düşük fiyatta (0.01-0.03) olur ve 0.4-0.75 aralığına düşm"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D7_selection_first_entry",
+   "id": "D7-007",
+   "title": "İşlemsizlik Pazartesi/Pazar yoğunlaşması (87%)",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "Sayılar doğru (90 Pazartesi, 100 Pazar, toplam 190/218 = %87.2) ancak yorum spurious correlation içeriyor. İddia 'hafta içi gün tercihi' ima eder, fakat: (1) Veri setinde yalnızca 2 Pazar ve 2 Pazartesi var - 'gün yoğunl"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D7_selection_first_entry",
+   "id": "D7-008",
+   "title": "Seçim modelleri: 'already_entered' 3131 boşluk",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "Sayısal iddialar doğru (gaps.already_entered=3131, modeller doğru, risk aralıkları doğru) ama \"affected\" kısmındaki yorum kritik hata içeriyor: \"3131 gözlem 'already_entered' özelliği eksikliğinden tahmin edilemedi\" ifad"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D7_selection_first_entry",
+   "id": "D7-009",
+   "title": "ETH/SOL 15dk hepsi maker, BTC15 ise %93 maker",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D8_new_period_books",
+   "id": "D8-F1",
+   "title": "Yetersiz örneklem boyutu",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "insufficient_or_selected_sample",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "D8-F1 bulgusu KISMİ ÇÜRÜTÜLDÜ. Sayılar doğru (S: 126 dolum, MY: 129 dolum) ve yön doğru (örneklem küçük), AMA: (1) \"S kesiti düşük güç bildirmiş\" yanıltıcı atıf — S KENDİSİ böyle bir bulgu BİLDİRMEMİŞ, bu D8'in yorumu (S"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D8_new_period_books",
+   "id": "D8-F2",
+   "title": "Ücret imzası rol sınıflandırıcısı doğrulandı",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D8_new_period_books",
+   "id": "D8-F3",
+   "title": "Geç ekleme PnL küçük tutarsızlık",
+   "severity": "minor",
+   "verdict": "KARŞI KANIT",
+   "root_cause": "arithmetic_data_error",
+   "refuted": 1,
+   "votes": 1,
+   "survives": false,
+   "refuter_reasons": [
+    "D8-F3'ün iddiası ($4,20 tutarsızlık) doğru ama kök neden yanlış. Aritmetik hata değil, VERİ KAPSAM TUTARSIZLIĞI: S'nin summary.json değeri (-$254,17) analiz aralığı dışındaki bir piyasadan (btc-updown-15m-1790000100, S=1"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D8_new_period_books",
+   "id": "D8-F4",
+   "title": "Maker dolumların %60,5'i önceden var olan emirlerde",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "İddia iki bölümden oluşuyor: (1) Sayılar: 69/114 = %60,5 DOĞRU ve yeniden üretilebilir. (2) Yorum: \"dinlenen emir kalıbına uyuyor\" ÇÜRÜTÜLDÜ. Çürütme kanıtı: Kontrol grubu olarak taker dolumlarını analiz ettim - taker'la"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D8_new_period_books",
+   "id": "D8-F5",
+   "title": "Dönem kapsama sınırlı (7,4 saat)",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "insufficient_or_selected_sample",
+   "refuted": 3,
+   "votes": 3,
+   "survives": false,
+   "refuter_reasons": [
+    "Aritmetik hata tespit edildi: İddia \"7,4 saat\" diyor ama gerçek süre 4,40 saat (14:25:08 UTC → 18:48:58 UTC = 263,8 dakika). Başlangıç ve bitiş zamanları doğru (ilk snapshot requested_ms=1790000708767, son cutoff_ms=1790",
+    "D8-F5 bulgusundaki \"7,4 saat\" iddiası zaman dilimi karıştırma hatası içeriyor. D8 ajanı cutoff_iso değerini UTC+3 olarak okumuş (21:48:58.578) ama bunu UTC olarak yorumlayıp başlangıç zamanıyla (14:25:08 UTC) karşılaştır",
+    "İddia edilen 7,4 saat yanlış. Gerçek veri aralığı: 2026-09-21T14:25:08.915000+00:00 → 2026-09-21T18:48:58.578000+00:00, toplam 4.40 saat (4h 24m). Kaynak: books_20260921_14.jsonl.gz ilk satır + cutoff.json. Fark: 68% hat"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D8_new_period_books",
+   "id": "D8-F6",
+   "title": "S defter kalitesi sayıları doğrulandı",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D9_cross_asset",
+   "id": "F1",
+   "title": "RAPOR ana tablo sayıları doğrulandı",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D9_cross_asset",
+   "id": "F2",
+   "title": "BTC15dk maker-dominant + taker-negatif yapısı 7/8 grupta tekrar ediyor",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 2,
+   "votes": 3,
+   "survives": false,
+   "refuter_reasons": [
+    "İddia \"7/8 grupta maker ≥90%\" diyor ancak gerçekte sadece 4/8 grupta maker oranı ≥90%. İddia yalnızca eth_1h (%79.7) ve btc_15m (%80.6)'ı <90% olarak belirtmiş, ancak sol_15m (%83.2) ve sol_1h (%88.3) de %90'ın altında. ",
+    "İddia \"7/8 grupta maker ≥90%\" diyor ama gerçekte sadece 4/8 grupta maker ≥90%. Evidence'da listelenmiş eth_1h %79.7 ve btc_15m %80.6 değerleri ≥90% eşiğini aşmıyor. Bu matematik tutarsızlığı: eğer 2 grup %90'ın altındays"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D9_cross_asset",
+   "id": "F3",
+   "title": "Geç ekleme (add) maker-ağırlıklı ve pozitif; tamamlama taker-ağırlıklı ve negatif",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 2,
+   "votes": 3,
+   "survives": false,
+   "refuter_reasons": [
+    "İddia \"Bu kalıp diğer gruplarda da görülüyor: add maker-pozitif, completion taker-negatif\" demiş ama 4 gruptan 2'sinde kalıp tutmuyor. btc_1h'de completion_taker POZİTİF (+$1339.13), \"completion taker-negatif\" iddiasını ",
+    "KRİTİK KAYNAK HATASI: Bulgu sol_15m için add_maker $10.59 iddia etmiş ama kaynak (cross_asset.json:709) $-22.77 gösteriyor. Fark: $-33.36. Kök neden: Bulgu yanlış grubu alıntılamış — $10.59 değeri aslında eth_15m'den (sa"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D9_cross_asset",
+   "id": "F4",
+   "title": "\"Aynı bot\" sorusuna kanıt yetersiz - ilk giriş zamanlaması grup içinde tutarlı, gruplar arası farklı",
+   "severity": "important",
+   "verdict": "KANIT YETERSİZ",
+   "root_cause": "insufficient_or_selected_sample",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "Ana iddia \"5dk/15dk piyasalarda ilk giriş medyan yaşı 119-204s bandında tutarlı\" ÇÜRÜTÜLDÜ. doge_15m piyasasının first_entry.age_median değeri 318.0s — claimed band (119-204s) üzerinde. Bulgu 8 kısa-süreli Chainlink piya"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D9_cross_asset",
+   "id": "F5",
+   "title": "Saatliklerde Binance 1H mekanizması ile 5/15 dk Chainlink mekanizmasının davranış farkı",
+   "severity": "important",
+   "verdict": "GÖZLEMSEL DESTEK",
+   "root_cause": "no_error",
+   "refuted": 2,
+   "votes": 3,
+   "survives": false,
+   "refuter_reasons": [
+    "Ana iddia \"Binance 1H'de iki taraflılık %60-89 (daha yüksek)\" iki yönden yanlış: (1) Aralık %37.0-75.7, %60-89 değil (SOL_1h %37.0); (2) \"Daha yüksek\" iddiası BTC ve SOL için çürüyor - BTC 1h %71.0 vs 15m %71.2 (neredeys",
+    "Task'ta verilen bulgu metninde BNB_1h için \"residual medyan 45.5\" iddia ediliyor, ancak kaynak dosyalarda (cross_asset.json: 16.13, findings.json: 16.1) farklı değer var. Diğer tüm metrikler (ilk giriş zamanları, two-sid"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D9_cross_asset",
+   "id": "F6",
+   "title": "Düşük yoğunlaşma: en iyi 3 piyasa toplam PnL'nin %3,5-12% ini oluşturuyor",
+   "severity": "important",
+   "verdict": "GÖZLEMSEL DESTEK",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D10_code_repro_numbers",
+   "id": "D10-001",
+   "title": "İki kaynak dosyanın MAIN sürümü donmuş kopyadan farklı",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "arithmetic_data_error",
+   "refuted": 2,
+   "votes": 3,
+   "survives": false,
+   "refuter_reasons": [
+    "İddia manifest'in amacını yanlış yorumluyor. Üç kesin kanıt manifest'in R/src donmuş kopyalarını doğrulamak için tasarlandığını gösteriyor: (1) plan.md:5 açıkça \"kod kopyaları source_manifest.json ile donduruldu\" diyor, ",
+    "Bulgunun temel varsayımı yanlış. İddia: \"source_manifest.json'daki hash'ler MAIN repo kaynak dosyalarıyla eşleşmeli\". Gerçek: manifest'in amacı R/src donmuş kopyalarının hash'lerini kaydetmek, MAIN güncel sürümlerinin de"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D10_code_repro_numbers",
+   "id": "D10-002",
+   "title": "report.py protocol.json'ı her çalıştırmada yeniden yazıyor",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "rule_in_code_not_applied",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D10_code_repro_numbers",
+   "id": "D10-003",
+   "title": "Portföy geneli limitler (max_portfolio_open_worst_loss, max_overlapping_new_risk_markets, soft_loss_cutoff) candidate.py'de uygulanmamış",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "rule_in_code_not_applied",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "İddia yorum hatası içeriyor. Gözlem doğru (portföy geneli limitler candidate.py'de yok) ama \"uygulanmalı\" yorumu yanlış. candidate.py bir tarihsel replay/araştırma aracı, production deployment değil - her piyasayı izole "
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D10_code_repro_numbers",
+   "id": "D10-004",
+   "title": "check_research.py test kapsamı sınırlı: sabit toplam varlığı kontrol eder, hata yakalayan değil",
+   "severity": "minor",
+   "verdict": "GÖZLEMSEL DESTEK",
+   "root_cause": "insufficient_or_selected_sample",
+   "refuted": 1,
+   "votes": 1,
+   "survives": false,
+   "refuter_reasons": [
+    "Bulgunun evidence'ı eksik ve iddiası yanlış. Evidence sadece satır 62-64 (sabit değer kontrolleri) ve 58-60 (toplam kontrolleri) göstermiş, ancak satır 48-56'daki matematiksel invaryant kontrollerini TAMAMEN görmemiş. ch"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D10_code_repro_numbers",
+   "id": "D10-005",
+   "title": "src/ modüllerinde __file__ tabanlı yol belirleme: farklı konumdan çalıştırmada yanlış yollara yol açabilir",
+   "severity": "minor",
+   "verdict": "GÖZLEMSEL DESTEK",
+   "root_cause": "wrong_execution_model",
+   "refuted": 1,
+   "votes": 1,
+   "survives": false,
+   "refuter_reasons": [
+    "Bulgunun temel gözlemi doğru (bosona_gec_arastirma.py:23 ve muhasebe.py:110'da parents[2] kullanılıyor ve bu yanlış), ancak bulgunun AÇIKLAMASI yanıltıcı ve hatalı:\n\n1. YANLIŞ İDDİA: \"eğer modül başka dizinden import edi"
+   ]
+  },
+  {
+   "stage": "audit",
+   "dimension": "D10_code_repro_numbers",
+   "id": "D10-006",
+   "title": "Tüm kontrol edilen sayısal iddialar kaynaklarla eşleşiyor",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "audit",
+   "dimension": "D10_code_repro_numbers",
+   "id": "D10-007",
+   "title": "Reproduksiyon başarılı: 14 R/results ve 16 F/results dosyası deterministic hash'lere sahip",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_real_ask_completion_backtest",
+   "id": "GAP-1",
+   "title": "Real ask backtest veri kapsamı %100 ama timing sınırlı",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "insufficient_or_selected_sample",
+   "refuted": 2,
+   "votes": 3,
+   "survives": false,
+   "refuter_reasons": [
+    "Bulgunun sayısal verileri doğru (book_delay_ms ortalama -5160 ms, %100 kapsam) ancak YORUMLANMASı tamamen yanlış. İddia \"negatif = book snapshot execution sonrası\" diyor, oysa kod ve veriler açıkça gösteriyor: book_delay",
+    "İddianın kilit bileşeni \"new_period_rows'daki book timing execution'dan -5 sn SONRA (negatif = book snapshot execution sonrası)\" YANLIŞ yorumlanmış. Kaynak kod new_period.py:40 açıkça \"before = f['ts']*1000 - lag*1000\" h"
+   ]
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_real_ask_completion_backtest",
+   "id": "GAP-2",
+   "title": "Completion'ların %61.8'i maker fill - 'assumed taker opportunity' modeli yanlış",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "wrong_execution_model",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_real_ask_completion_backtest",
+   "id": "GAP-3",
+   "title": "Book spread'leri çok geniş (bid 0.001, ask 0.999), completion execution spread içinde",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_real_ask_completion_backtest",
+   "id": "GAP-4",
+   "title": "'Conditional completion FIFO ≤0.98' kuralının gerçek ekonomik maliyeti ölçülemiyor",
+   "severity": "decision_changing",
+   "verdict": "GÖZLEMSEL DESTEK",
+   "root_cause": "wrong_execution_model",
+   "refuted": 2,
+   "votes": 3,
+   "survives": false,
+   "refuter_reasons": [
+    "Bulgunun sayısal iddiaları doğru (%61.8 maker fill doğrulandı: 21/34=0.6176), ancak merkezi teknik iddia 'complete_cost assumed future fill price kullanıyor' yanıltıcı. Gerçekte complete_cost iki kontrol noktasında farkl",
+    "Bulgudaki üç ana iddia kontrol edildi:\n\n1. \"%61.8 maker\" sayısı ÇÜRÜTÜLDÜ: Tüm veri kaynaklarını kontrol ettim. S kesiti completions 55.9% maker (19/34), tam kohort 48.8% maker (820/1682), alternatif sayım 53.4% maker (1"
+   ]
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_real_ask_completion_backtest",
+   "id": "GAP-5",
+   "title": "D4-F6 sorusunun yanlış çerçevesi: 'ask geçiş backtest' yerine 'maker fill olasılığı' analizi gerekli",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 2,
+   "votes": 3,
+   "survives": false,
+   "refuter_reasons": [
+    "Bulgunun claim'i \"%61.8 maker fill\" diyor ama kendi evidence'ında \"maker_likely=19/34\" cite ediyor ki bu %55.9 maker demek (61.8% DEĞİL!). %61.8 sayısı aslında sadece 600-899 yaş aralığındaki 24 completion alt kümesi içi",
+    "İki kritik sorun: (1) Sayı yanlış - gerçek oran %55.9 (19/34), %61.8 değil (muhtemelen 21/34 yazım hatası). (2) Çerçeveleme yanıltıcı - taker fills zaten ask'ı geçmiş (13/15), \"ask geçiş backtest\" anlamsız çünkü olay ger"
+   ]
+  },
+  {
+   "stage": "gap",
+   "dimension": "D2_causality",
+   "id": "D2-1-lookahead-confirmed",
+   "title": "candidate.replay() decision filters use future execution prices (0.25-90s ahead)",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "wrong_execution_model",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "D2_causality",
+   "id": "D2-1-bosona-comparison-invalid",
+   "title": "Candidate-Bosona karşılaştırması look-ahead bias nedeniyle geçersiz",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "D2_causality",
+   "id": "D2-1-gap-categories-shift",
+   "title": "Gap kategorileri execution-time'dan decision-time'a kaydı",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "wrong_execution_model",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "D2_causality",
+   "id": "D2-1-fix-validation",
+   "title": "Düzeltilmiş kod tüm testleri geçiyor, entry consistency korunuyor",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "single_vs_multi_bot_concurrency",
+   "id": "CONC-F1",
+   "title": "Pozisyon çakışması median 8 grup",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 2,
+   "votes": 3,
+   "survives": false,
+   "refuter_reasons": [
+    "Bulgunun temel varsayımı (\"max_overlapping_new_risk_markets=1 limiti uygulanıyor\") yanlış. Protocol.json'da tanımlı ama candidate.py'de UYGULANMIYOR (allowed() fonksiyonu satır 33-37 yalnızca piyasa bazlı limitleri kontr",
+    "Bulgunun sayısal iddiaları doğru (median 8 grup eşzamanlı pozisyon, dağılımlar doğrulandı: 0-3 grup %6.71, 4-6 grup %26.49, 7-9 grup %38.87, 10+ grup %27.93, max 17 grup). ANCAK yorumsal sonuç yanlış: \"Tek bot + portföy "
+   ]
+  },
+  {
+   "stage": "gap",
+   "dimension": "single_vs_multi_bot_concurrency",
+   "id": "CONC-F2",
+   "title": "Çapraz grup transaction batching sıfır",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "single_vs_multi_bot_concurrency",
+   "id": "CONC-F3",
+   "title": "Risk korelasyonu grup-bağımsız",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 3,
+   "votes": 3,
+   "survives": false,
+   "refuter_reasons": [
+    "İddia \"190 büyük kayıp event'te event grubu -96.6%, diğer gruplar -5.6%\" dedi. Orijinal kodu inceledim ve sadece EN BÜYÜK 20 EVENT'İN analiz edildiğini gördüm (kod satır 110: `for event in loss_events[:20]`). Tüm 190 eve",
+    "Orijinal analiz SADECE 20 event kullanmış (kod satır 110: `for event in loss_events[:20]`), 190 değil. Tüm 190 event ile doğrulama yapınca sonuç TAM TERSİNE çıkıyor: diğer gruplarda aktivite -5.6% azalmıyor, +39.5% ARTIY",
+    "İddia \"190 büyük kayıp event'te\" diyor ama kaynak kod yalnız en büyük 20 event'i analiz ediyor (risk_correlation.py:110 → `loss_events[:20]`). Tüm 190 event analiz edildiğinde sonuç tamamen farklı: event grubu ortalama r"
+   ]
+  },
+  {
+   "stage": "gap",
+   "dimension": "single_vs_multi_bot_concurrency",
+   "id": "CONC-F4",
+   "title": "Aynı coin kısa periyotlar yakın zamanlı başlıyor",
+   "severity": "important",
+   "verdict": "GÖZLEMSEL DESTEK",
+   "root_cause": "insufficient_or_selected_sample",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "single_vs_multi_bot_concurrency",
+   "id": "CONC-F5",
+   "title": "1d periyodu diğer periyotlardan ayrışıyor",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "Kaynak veri (fills.json) doğru kullanılmış ve belirtilen sayılar doğru hesaplanmış (btc_15m vs btc_1d: 65292s=18.14h vb.). Ancak genelleme eksik ve kısmen yanlış: (1) XRP kaynak veride mevcut ama iddiada atlanmış; XRP'de"
+   ]
+  },
+  {
+   "stage": "gap",
+   "dimension": "single_vs_multi_bot_concurrency",
+   "id": "CONC-F6",
+   "title": "Fill eşzamanlılık düşük",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_eth_sol_bnb_hourly_mechanism",
+   "id": "GAP-1",
+   "title": "ETH/SOL/BNB saatlik Binance mekanizması BTC ile %100 aynı",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_eth_sol_bnb_hourly_mechanism",
+   "id": "GAP-2",
+   "title": "BNB 153 piyasa, ETH/SOL 204 - mekanizma farkı yok",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_eth_sol_bnb_hourly_mechanism",
+   "id": "GAP-3",
+   "title": "D9-F5 'Binance 1H mekanizması farkı' iddiası DOĞRULAMASIZ",
+   "severity": "decision_changing",
+   "verdict": "KARŞI KANIT",
+   "root_cause": "insufficient_or_selected_sample",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "GAP-3 D9-F5'i yanlış okudu. D9-F5'in başlığı \"Saatliklerde Binance 1H mekanizması ile 5/15 dk Chainlink mekanizmasının DAVRANIŞ farkı\" (behavior difference). D9-F5 çözünürlük mekanizması farkı iddia ETMEDİ; piyasa davran"
+   ]
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_untrade_48_markets_root_cause",
+   "id": "GAP-001",
+   "title": "48 Sep 21 untrade markets: post-shutdown temporal boundary",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "İddia \"trading activity completely ceased\" diyor ancak bu sadece BTC15dk için doğru. Shutdown sonrasında Bosona diğer 24 market grubunda trading devam etti (toplam 1165 fill). SOL 15dk'da 43 market, ETH 5dk'da 108 market"
+   ]
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_untrade_48_markets_root_cause",
+   "id": "GAP-002",
+   "title": "Pre-shutdown untrade pattern: Monday/Sunday effect",
+   "severity": "important",
+   "verdict": "GÖZLEMSEL DESTEK",
+   "root_cause": "no_error",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "Bulgunun \"NOT systematic shutdown\" iddiası YANLIŞ. Pazar untrade'lerin %26'sı (15/57) shutdown'a son 6 saatte açılmış ve bu marketlerde trade rate %37.5 (normal %82.6'ya karşı) - açık shutdown proximity etkisi. İki ayrı "
+   ]
+  },
+  {
+   "stage": "gap",
+   "dimension": "maker_placement_timing_adverse_selection",
+   "id": "GAP-1",
+   "title": "Bid presence rates confirm prior t-1 finding",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "maker_placement_timing_adverse_selection",
+   "id": "GAP-2",
+   "title": "Bid stability: sadece %20.7 gerçekten pasif",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "maker_placement_timing_adverse_selection",
+   "id": "GAP-3",
+   "title": "Pasif maker KÖTÜ adverse selection, aktif maker İYİ",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 2,
+   "votes": 3,
+   "survives": false,
+   "refuter_reasons": [
+    "Sayılar doğru ama yorum yanlış. Pasif/aktif adverse selection farkı winner dağılımı karıştırıcısından kaynaklanıyor (pasif %96 winner=0, aktif %69 winner=1). İki grup TAMAMEN farklı piyasalarda (overlap=0). Side+winner k",
+    "İki kritik hata tespit edildi: (1) Adverse selection ölçümü GEÇERSİZ — her iki grupta da %100 post_mid≈0.5 (spread genişlemesi artefaktı, gerçek fiyat hareketi değil). +0.38 fark, farklı pre_mid seviyelerinden (pasif 0.2"
+   ]
+  },
+  {
+   "stage": "gap",
+   "dimension": "maker_placement_timing_adverse_selection",
+   "id": "GAP-4",
+   "title": "Adverse selection = sonuç çözümü, likidite riski DEĞİL",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "Bulgudaki yorum mekanik olarak yanlış. İstatistiksel doğrulama (110 fills):\n\n1. **Post-fill mid = 0.50 tüm fillerde** (100%, std=0.000)\n   - Winner=0: 100% mid=0.50\n   - Winner=1: 100% mid=0.50\n   - Outcome resolution ol"
+   ]
+  },
+  {
+   "stage": "gap",
+   "dimension": "maker_placement_timing_adverse_selection",
+   "id": "GAP-5",
+   "title": "D3-F2 contradiction resolved: geç dolum ≠ pasif bekleme",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "wrong_execution_model",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "maker_placement_timing_adverse_selection",
+   "id": "GAP-6",
+   "title": "Data gap: %42.2 fill hiç book'ta yok",
+   "severity": "important",
+   "verdict": "GÖZLEMSEL DESTEK",
+   "root_cause": "insufficient_or_selected_sample",
+   "refuted": 2,
+   "votes": 3,
+   "survives": false,
+   "refuter_reasons": [
+    "Claim \"t-1, t-5, t-30'da hiç bid presence yok\" der ve 49/116 (%42.2) söyler. Ancak kod (analyze_stability_pattern.py:46) sadece \"not b1_has_bid\" kontrol ediyor (yalnızca t-1'de bid yok). Yeniden hesaplamaya göre: (1) Sad",
+    "Pattern \"none\" (49/116) sadece t-1'de bid yokluğunu gösterir (kod satır 46: `elif not b1_has_bid`), \"t-1, t-5, t-30'da hiç bid yok\" anlamına gelmez. Bu 49 fillin 20'si (%41) t-30 veya t-5'te bid var. Gerçekten üç zamanda"
+   ]
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_first_entry_time_pattern",
+   "id": "F1",
+   "title": "İlk giriş zamanı SABİT DEĞİL - geniş dağılım gözlendi",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_first_entry_time_pattern",
+   "id": "F2",
+   "title": "Piyasa koşulları (spread/volatility/edge) ile korelasyon YOK",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "wrong_execution_model",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "Bulgunun aritmetiği doğru (r değerleri doğrulandı: -0.133, -0.013, -0.035) ama metodolojisi yetersiz ve yorumu tamamen yanlış. Bulgu sadece Pearson linear korelasyonu kullanmış ve signed distance ile spread etkisini mask"
+   ]
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_first_entry_time_pattern",
+   "id": "F3",
+   "title": "Zamansal clustering: hour/day etkisi orta düzeyde",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_first_entry_time_pattern",
+   "id": "F4",
+   "title": "Dış likidite bekleme modeli en uygun açıklama",
+   "severity": "important",
+   "verdict": "GÖZLEMSEL DESTEK",
+   "root_cause": "wrong_execution_model",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_first_entry_time_pattern",
+   "id": "F5",
+   "title": "selection_rows already_entered boşluğu dolduruldu",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "rule_in_code_not_applied",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_first_entry_time_pattern",
+   "id": "F6",
+   "title": "Çok erken girişler önemli kısım oluşturuyor",
+   "severity": "minor",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 1,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_m1_m2_mechanism_test",
+   "id": "GAP-M1-1",
+   "title": "İlk giriş %93 maker - M1 pasif kotasyon destekleniyor",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_m1_m2_mechanism_test",
+   "id": "GAP-M1-2",
+   "title": "Maker ilk girişlerde adverse selection pozitif (lehine) - M1 destekliyor",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "Sayılar doğru (mean=1.247¢, median=0.5¢, n=556) ancak istatistiksel olarak anlamlı değil. Bootstrap testi: maker|first vs ALL fills için 95% CI [-0.17, +1.41]¢ sıfırı içeriyor (p>0.05). Maker|first vs maker|ALL için de 9"
+   ]
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_m1_m2_mechanism_test",
+   "id": "GAP-M1-3",
+   "title": "Geç ekleme (600-899 sn) %93.7 maker - dinlenen emirler dolması",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_m1_m2_mechanism_test",
+   "id": "GAP-M1-4",
+   "title": "S period maker dolumlarının %57.8'inde önceden bid liquidity vardı",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "no_error",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_m1_m2_mechanism_test",
+   "id": "GAP-M2-1",
+   "title": "Tamamlamalar taker-ağırlıklı ama negatif PnL - M2 'risk azaltımı' hipotezi çelişiyor",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "correct_calc_wrong_interpretation",
+   "refuted": 2,
+   "votes": 3,
+   "survives": false,
+   "refuter_reasons": [
+    "Bulgudaki sayılar DOĞRU (862/1682 taker, -$3.1k PnL) ancak \"negatif PnL → M2 çelişiyor\" yorumu HATALΙ. Kritik hata: \"risk azaltımı = pozitif PnL\" yanlış eşitliği. Gerçek veri worst_outcome_improvement'ı gösteriyor: taker",
+    "M2 hipotezi plan.md satır 46'da AÇIKÇA 'taker tamamlamaların nakit-PnL katkısı NEGATİF, en kötü sonuç iyileşmesi POZİTİF' öngörüyor. Veriler tam olarak bunu gösteriyor: taker completion nakit PnL -$3,084.65 (negatif), wo"
+   ]
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_m1_m2_mechanism_test",
+   "id": "GAP-M1M2-1",
+   "title": "M1 vs M2 ayırıcı kontrollü test eksik - piyasa-bazında mekanizma sınıflandırması yoktu",
+   "severity": "decision_changing",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "insufficient_or_selected_sample",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_m1_m2_mechanism_test",
+   "id": "GAP-M2-2",
+   "title": "Envanter trajectory (net position grow → completion → shrink) visualizasyonu/testi eksik",
+   "severity": "important",
+   "verdict": "DOĞRULANDI",
+   "root_cause": "insufficient_or_selected_sample",
+   "refuted": 1,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": [
+    "İddia \"net position evolution timeline/pattern analizi YAPILMADI\" diyor ancak bu yanlış. (1) fills.json'da tüm 14.014 fill için pre_net alanı mevcut - bu zaten net position timeline verisidir (ts + pre_net çiftleri traje"
+   ]
+  },
+  {
+   "stage": "gap",
+   "dimension": "gap_m1_m2_mechanism_test",
+   "id": "GAP-M2-3",
+   "title": "FIFO cost trajectory (cost >1 ise completion) testi eksik",
+   "severity": "important",
+   "verdict": "GÖZLEMSEL DESTEK",
+   "root_cause": "insufficient_or_selected_sample",
+   "refuted": 0,
+   "votes": 3,
+   "survives": true,
+   "refuter_reasons": []
+  }
+ ]
+}

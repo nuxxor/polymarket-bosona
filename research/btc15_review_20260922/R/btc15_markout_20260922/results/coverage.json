@@ -1,0 +1,251 @@
+[
+  {
+    "actor_fills": 9,
+    "actor_parents": 6,
+    "all_requested_points": 12717,
+    "book_origin": 1790022958075,
+    "buy_fills": 1218,
+    "buy_parents": 960,
+    "flow_metrics": {
+      "mapped_message_units": 33178539061,
+      "mapped_messages": 923,
+      "matched_taker_units": 33178539061,
+      "matches": 923,
+      "repeat_messages": 0,
+      "ws_messages": 923,
+      "ws_price_not_vwap": 90,
+      "ws_quantity_units": 33178539061
+    },
+    "frozen_data_gate": "PASS_OBSERVED_FLOW_GATE",
+    "input_events": "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_ws_validation_20260921/raw/events.jsonl.gz",
+    "input_events_sha256": "9e419725296b012752dd531a4dd5aefae1a24f4eebe9e334a3aae975bb187f4a",
+    "invalid_points": {
+      "complement_mismatch": 3,
+      "crossed_or_invalid_price": 2,
+      "empty_side": 222
+    },
+    "offline_status": "PASS_OBSERVED_FLOW_GATE",
+    "omitted": {
+      "maker_sell": 359,
+      "outside_received_window": 71
+    },
+    "reasons": [],
+    "replay_eligible": true,
+    "source_delay_ms": {
+      "max": 1020,
+      "median": 48.0
+    },
+    "start": 1790023500,
+    "winner": 0
+  },
+  {
+    "frozen_data_gate": "MISSING_DATA",
+    "offline_status": "MISSING_DATA",
+    "reasons": [
+      "frozen_data_gate_failed"
+    ],
+    "replay_eligible": false,
+    "start": 1790024400
+  },
+  {
+    "actor_fills": 0,
+    "actor_parents": 0,
+    "all_requested_points": 11204,
+    "book_origin": 1790025049932,
+    "buy_fills": 941,
+    "buy_parents": 686,
+    "flow_metrics": {
+      "mapped_message_units": 18718755827,
+      "mapped_messages": 718,
+      "matched_taker_units": 18718755827,
+      "matches": 718,
+      "repeat_messages": 0,
+      "ws_messages": 718,
+      "ws_price_not_vwap": 40,
+      "ws_quantity_units": 18718755827
+    },
+    "frozen_data_gate": "PASS_OBSERVED_FLOW_GATE",
+    "input_events": "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_ws_expansion_20260921/markets/1790025300/raw/events.jsonl.gz",
+    "input_events_sha256": "83a381ae6be6674268861924637188a852fb793396b53e94c23af4a4ef7e53c4",
+    "invalid_points": {
+      "complement_mismatch": 1,
+      "empty_side": 270
+    },
+    "offline_status": "PASS_OBSERVED_FLOW_GATE",
+    "omitted": {
+      "maker_sell": 189,
+      "outside_received_window": 10
+    },
+    "reasons": [],
+    "replay_eligible": true,
+    "source_delay_ms": {
+      "max": 559,
+      "median": 40
+    },
+    "start": 1790025300,
+    "winner": 0
+  },
+  {
+    "actor_fills": 2,
+    "actor_parents": 1,
+    "all_requested_points": 8307,
+    "book_origin": 1790025300453,
+    "buy_fills": 757,
+    "buy_parents": 500,
+    "flow_metrics": {
+      "mapped_message_units": 15586875540,
+      "mapped_messages": 511,
+      "matched_taker_units": 15586875540,
+      "matches": 511,
+      "repeat_messages": 0,
+      "ws_messages": 511,
+      "ws_price_not_vwap": 18,
+      "ws_quantity_units": 15586875540
+    },
+    "frozen_data_gate": "PASS_OBSERVED_FLOW_GATE",
+    "input_events": "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_ws_expansion_20260921/markets/1790026200/raw/events.jsonl.gz",
+    "input_events_sha256": "7439dc15f224c5b11d9a6315e1c0361873ffaa18aef79995cf90e628ec91e9d2",
+    "invalid_points": {
+      "empty_side": 244
+    },
+    "offline_status": "PASS_OBSERVED_FLOW_GATE",
+    "omitted": {
+      "maker_sell": 120,
+      "outside_received_window": 25
+    },
+    "reasons": [],
+    "replay_eligible": true,
+    "source_delay_ms": {
+      "max": 558,
+      "median": 39
+    },
+    "start": 1790026200,
+    "winner": 0
+  },
+  {
+    "actor_fills": 2,
+    "actor_parents": 1,
+    "all_requested_points": 4650,
+    "book_origin": 1790026201391,
+    "buy_fills": 426,
+    "buy_parents": 301,
+    "flow_metrics": {
+      "mapped_message_units": 14811437169,
+      "mapped_messages": 316,
+      "matched_taker_units": 14811437169,
+      "matches": 316,
+      "repeat_messages": 0,
+      "ws_messages": 316,
+      "ws_price_not_vwap": 20,
+      "ws_quantity_units": 14811437169
+    },
+    "frozen_data_gate": "PASS_OBSERVED_FLOW_GATE",
+    "input_events": "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_execution_reserve_20260921/markets/1790027100/raw/events.jsonl.gz",
+    "input_events_sha256": "517df5e9657dc6121fb8925cd1606eeb8ac42dd10d681019be6bcab9d9620219",
+    "invalid_points": {
+      "crossed_or_invalid_price": 7,
+      "empty_side": 102
+    },
+    "offline_status": "PASS_OBSERVED_FLOW_GATE",
+    "omitted": {
+      "maker_sell": 102,
+      "outside_received_window": 114
+    },
+    "reasons": [],
+    "replay_eligible": true,
+    "source_delay_ms": {
+      "max": 270,
+      "median": 40.0
+    },
+    "start": 1790027100,
+    "winner": 1
+  },
+  {
+    "actor_fills": 6,
+    "actor_parents": 4,
+    "all_requested_points": 13686,
+    "book_origin": 1790027102450,
+    "buy_fills": 1339,
+    "buy_parents": 1009,
+    "flow_metrics": {
+      "mapped_message_units": 30050883521,
+      "mapped_messages": 984,
+      "matched_taker_units": 30050883521,
+      "matches": 984,
+      "repeat_messages": 0,
+      "ws_messages": 984,
+      "ws_price_not_vwap": 71,
+      "ws_quantity_units": 30050883521
+    },
+    "frozen_data_gate": "PASS_OBSERVED_FLOW_GATE",
+    "input_events": "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_execution_reserve_20260921/markets/1790028000/raw/events.jsonl.gz",
+    "input_events_sha256": "500a7b46fed1f64aabb5a7a62f7e7e9d36fdf507d10224c8b21e079cfa3fae2e",
+    "invalid_points": {
+      "complement_mismatch": 5,
+      "crossed_or_invalid_price": 2,
+      "empty_side": 273
+    },
+    "offline_status": "PASS_OBSERVED_FLOW_GATE",
+    "omitted": {
+      "maker_sell": 358,
+      "outside_received_window": 78
+    },
+    "reasons": [],
+    "replay_eligible": true,
+    "source_delay_ms": {
+      "max": 759,
+      "median": 46
+    },
+    "start": 1790028000,
+    "winner": 0
+  },
+  {
+    "frozen_data_gate": "MISSING_DATA",
+    "offline_status": "MISSING_DATA",
+    "reasons": [
+      "frozen_data_gate_failed"
+    ],
+    "replay_eligible": false,
+    "start": 1790028900
+  },
+  {
+    "actor_fills": 3,
+    "actor_parents": 2,
+    "all_requested_points": 5875,
+    "book_origin": 1790031571596,
+    "buy_fills": 559,
+    "buy_parents": 448,
+    "flow_metrics": {
+      "mapped_message_units": 17990871607,
+      "mapped_messages": 355,
+      "matched_taker_units": 17990871607,
+      "matches": 355,
+      "repeat_messages": 0,
+      "ws_messages": 355,
+      "ws_price_not_vwap": 15,
+      "ws_quantity_units": 17990871607
+    },
+    "frozen_data_gate": "MISSING_DATA",
+    "input_events": "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_feed_integrity_20260922/channels/A/events.jsonl.gz",
+    "input_events_sha256": "7d9b8576e2ae7ec65f841018e5a7723fae9790619d438abc7dd45bcc20fc4f84",
+    "invalid_points": {
+      "complement_mismatch": 2,
+      "empty_side": 328
+    },
+    "offline_status": "RECONCILED_LATER",
+    "omitted": {
+      "maker_sell": 103,
+      "outside_received_window": 12
+    },
+    "reasons": [
+      "LATER_RECONCILED_API_ONLY"
+    ],
+    "replay_eligible": true,
+    "source_delay_ms": {
+      "max": 463,
+      "median": 38
+    },
+    "start": 1790031600,
+    "winner": 0
+  }
+]

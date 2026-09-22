@@ -1,0 +1,32 @@
+{
+  "actual_causal_contexts": 48,
+  "functional_checks": 10,
+  "lint": "ruff passed",
+  "python": "3.12.3",
+  "reproduction_outputs": 12,
+  "scope": "offline BTC15 markouts, matched controls and two frozen hypotheses",
+  "sha256": {
+    "RAPOR.md": "715006a301c5dc58b4c97d428b4f9267d46b793953adf8fc6726581ebbb40b3e",
+    "check.py": "71d52777d41743e3aadac5f51bbfff3e66b0f2f23595ae09bb1e66e13df6c015",
+    "design_frozen.md": "56b95927f9049db048eeea6e2ef84ea962ad7fef3b6904d2e3ee9313523c0f98",
+    "plan.md": "61c2847a00daaf211fdcab8cda12851dceb771e5f9c8104480045b1c35bc597d",
+    "protocol.json": "381fd63e5ae56a18f41304ad5aa4ac230f49fc97693b0c63f0ff872d6914df55",
+    "protocol.sha256": "4354066231d1853574bd0cee5a212cad0ba30596e24910821341b698e677418e",
+    "report.py": "809abe5113149c2b4de89e7ad8e40384dbfdc85399d0acd9e9657778816ddb5c",
+    "reproducibility.json": "2c1497bbf3a379bccafc40c72cf6fe588c5f9c3e9fec530a5fd366a24ece4fc6",
+    "research.py": "86a6959786e6448e46634b67d0937c6e246840a6359c9b8d770cf3c07b6624ce",
+    "results/counterexamples.json": "4ddc04085149befa6d83699b9b8af711eed91a3944c9ed17253dd655bb0e7173",
+    "results/coverage.json": "aba708e654c4bd25051ed04174ae72a66f0fa1dc11260405e49f40fdf26aa94a",
+    "results/fee_audit.json": "2c10f8fabe1037a6d8b8fbf7d38efb3719f418a8da0e43b5af46381a6be9095a",
+    "results/fills.json.gz": "7930bbaf4b82b9fd55bcfc96d95600e8a402fcfd818d34457d6c61745c217d08",
+    "results/grid.json.gz": "aac6e34008d6a66c2342a32d0cec848737119edae6fa9a10fc5933754f98d8d7",
+    "results/matches.json": "92428e8ad3d8d6e5fa28f8079bf902472f3337fd5f0672de24210413156349f1",
+    "results/stage1_markouts.json": "d2aa9448d236f1a859dbc0d23a8dea424b052e2795c1a59226593d5a474a236c",
+    "results/stage2_controls.json": "439adcf86925e54b717b32eccdefd12164957d08dfb4d3df8e236549ac71ec89",
+    "results/stage3_actor_free_grid.json": "0d465ca094675c8c2ae1da95043c5d00acbcea8094caf903c40bd4e82659b73e",
+    "results/stage3_hypotheses.json": "49bb9943dcb8dc54df9adc83f9d02290f1c2d2a915b1d295fcc8f7d45fc712ab",
+    "sources.json": "7f1806526611e8f5f35205afbc9e35f576b801ba3242b631b5d2d60a6743f48f",
+    "verification.json": "d9f1a12c9e110ef1b43ed9dde28d7b63863c4c4aa6f1870ddcdb21681418c730"
+  },
+  "syntax": "3 files passed"
+}

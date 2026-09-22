@@ -1,0 +1,822 @@
+{
+ "tape_first_ms": 1790000708915,
+ "tape_last_ms": 1790022807192,
+ "markets": [
+  {
+   "slug": "btc-updown-15m-1790000100",
+   "S": 1790000100,
+   "end": 1790001000,
+   "period": "S",
+   "winner": 0,
+   "full": false,
+   "fills": 2,
+   "roles": {
+    "maker": 2
+   },
+   "qty": [
+    0,
+    6.10125
+   ],
+   "cost": 0.09354,
+   "pnl": -0.09354,
+   "pnl_by_role": {
+    "maker": -0.0935,
+    "taker": 0
+   },
+   "late_adds": 1,
+   "late_roles": {
+    "maker": 1
+   },
+   "late_pnl": -0.01224,
+   "worst_outcome": -0.09354,
+   "best_outcome": 6.00771,
+   "other_activity": {
+    "REDEEM": 1
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "S": 1790001000,
+   "end": 1790001900,
+   "period": "S",
+   "winner": 0,
+   "full": true,
+   "fills": 41,
+   "roles": {
+    "maker": 39,
+    "taker": 2
+   },
+   "qty": [
+    553.811456,
+    1452.020626
+   ],
+   "cost": 353.041621,
+   "pnl": 200.769835,
+   "pnl_by_role": {
+    "maker": 180.6662,
+    "taker": 20.1036
+   },
+   "late_adds": 18,
+   "late_roles": {
+    "maker": 18
+   },
+   "late_pnl": -136.798601,
+   "worst_outcome": 200.769835,
+   "best_outcome": 1098.979005,
+   "other_activity": {
+    "REDEEM": 2
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "S": 1790001900,
+   "end": 1790002800,
+   "period": "S",
+   "winner": 0,
+   "full": true,
+   "fills": 20,
+   "roles": {
+    "maker": 18,
+    "taker": 2
+   },
+   "qty": [
+    0,
+    1224.661573
+   ],
+   "cost": 221.927132,
+   "pnl": -221.927132,
+   "pnl_by_role": {
+    "maker": -95.6271,
+    "taker": -126.3
+   },
+   "late_adds": 18,
+   "late_roles": {
+    "maker": 16,
+    "taker": 2
+   },
+   "late_pnl": -185.927132,
+   "worst_outcome": -221.927132,
+   "best_outcome": 1002.734441,
+   "other_activity": {
+    "REDEEM": 1
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790002800",
+   "S": 1790002800,
+   "end": 1790003700,
+   "period": "S",
+   "winner": 0,
+   "full": true,
+   "fills": 7,
+   "roles": {
+    "maker": 7
+   },
+   "qty": [
+    131.39,
+    0
+   ],
+   "cost": 90.6388,
+   "pnl": 40.7512,
+   "pnl_by_role": {
+    "maker": 40.7512,
+    "taker": 0
+   },
+   "late_adds": 0,
+   "late_roles": {},
+   "late_pnl": 0,
+   "worst_outcome": -90.6388,
+   "best_outcome": 40.7512,
+   "other_activity": {
+    "REDEEM": 1
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790003700",
+   "S": 1790003700,
+   "end": 1790004600,
+   "period": "S",
+   "winner": 1,
+   "full": true,
+   "fills": 5,
+   "roles": {
+    "maker": 4,
+    "taker": 1
+   },
+   "qty": [
+    263.011373,
+    8.26
+   ],
+   "cost": 134.456913,
+   "pnl": -126.196913,
+   "pnl_by_role": {
+    "maker": -128.8756,
+    "taker": 2.6787
+   },
+   "late_adds": 0,
+   "late_roles": {},
+   "late_pnl": 0,
+   "worst_outcome": -126.196913,
+   "best_outcome": 128.55446,
+   "other_activity": {
+    "MERGE": 1,
+    "REDEEM": 1
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790004600",
+   "S": 1790004600,
+   "end": 1790005500,
+   "period": "S",
+   "winner": 0,
+   "full": true,
+   "fills": 10,
+   "roles": {
+    "maker": 9,
+    "taker": 1
+   },
+   "qty": [
+    506.421708,
+    308.503328
+   ],
+   "cost": 570.4818,
+   "pnl": -64.060092,
+   "pnl_by_role": {
+    "maker": -59.5711,
+    "taker": -4.489
+   },
+   "late_adds": 5,
+   "late_roles": {
+    "maker": 5
+   },
+   "late_pnl": -21.005832,
+   "worst_outcome": -261.978472,
+   "best_outcome": -64.060092,
+   "other_activity": {
+    "REDEEM": 3
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790005500",
+   "S": 1790005500,
+   "end": 1790006400,
+   "period": "S",
+   "winner": 1,
+   "full": true,
+   "fills": 9,
+   "roles": {
+    "maker": 7,
+    "taker": 2
+   },
+   "qty": [
+    766.074103,
+    739.9100000000001
+   ],
+   "cost": 663.593083,
+   "pnl": 76.316917,
+   "pnl_by_role": {
+    "maker": 155.1842,
+    "taker": -78.8673
+   },
+   "late_adds": 1,
+   "late_roles": {
+    "maker": 1
+   },
+   "late_pnl": -1.25,
+   "worst_outcome": 76.316917,
+   "best_outcome": 102.48102,
+   "other_activity": {
+    "MERGE": 2,
+    "REDEEM": 2
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790006400",
+   "S": 1790006400,
+   "end": 1790007300,
+   "period": "S",
+   "winner": 1,
+   "full": true,
+   "fills": 6,
+   "roles": {
+    "maker": 5,
+    "taker": 1
+   },
+   "qty": [
+    285.25565,
+    11.31
+   ],
+   "cost": 33.126892,
+   "pnl": -21.816892,
+   "pnl_by_role": {
+    "maker": -18.1415,
+    "taker": -3.6754
+   },
+   "late_adds": 3,
+   "late_roles": {
+    "maker": 3
+   },
+   "late_pnl": -16.697252,
+   "worst_outcome": -21.816892,
+   "best_outcome": 252.128758,
+   "other_activity": {
+    "REDEEM": 2
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790007300",
+   "S": 1790007300,
+   "end": 1790008200,
+   "period": "S",
+   "winner": 0,
+   "full": true,
+   "fills": 0,
+   "roles": {},
+   "qty": [
+    0,
+    0
+   ],
+   "cost": 0,
+   "pnl": 0,
+   "pnl_by_role": {
+    "maker": 0,
+    "taker": 0
+   },
+   "late_adds": 0,
+   "late_roles": {},
+   "late_pnl": 0,
+   "worst_outcome": 0,
+   "best_outcome": 0,
+   "other_activity": {}
+  },
+  {
+   "slug": "btc-updown-15m-1790008200",
+   "S": 1790008200,
+   "end": 1790009100,
+   "period": "S",
+   "winner": 1,
+   "full": true,
+   "fills": 3,
+   "roles": {
+    "maker": 3
+   },
+   "qty": [
+    0,
+    319.218388
+   ],
+   "cost": 244.294088,
+   "pnl": 74.9243,
+   "pnl_by_role": {
+    "maker": 74.9243,
+    "taker": 0
+   },
+   "late_adds": 2,
+   "late_roles": {
+    "maker": 2
+   },
+   "late_pnl": 69.4843,
+   "worst_outcome": -244.294088,
+   "best_outcome": 74.9243,
+   "other_activity": {
+    "REDEEM": 1
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790009100",
+   "S": 1790009100,
+   "end": 1790010000,
+   "period": "S",
+   "winner": 0,
+   "full": true,
+   "fills": 0,
+   "roles": {},
+   "qty": [
+    0,
+    0
+   ],
+   "cost": 0,
+   "pnl": 0,
+   "pnl_by_role": {
+    "maker": 0,
+    "taker": 0
+   },
+   "late_adds": 0,
+   "late_roles": {},
+   "late_pnl": 0,
+   "worst_outcome": 0,
+   "best_outcome": 0,
+   "other_activity": {}
+  },
+  {
+   "slug": "btc-updown-15m-1790010000",
+   "S": 1790010000,
+   "end": 1790010900,
+   "period": "S",
+   "winner": 1,
+   "full": true,
+   "fills": 12,
+   "roles": {
+    "maker": 10,
+    "taker": 2
+   },
+   "qty": [
+    300.0,
+    579.344369
+   ],
+   "cost": 563.263181,
+   "pnl": 16.081188,
+   "pnl_by_role": {
+    "maker": -177.627,
+    "taker": 193.7082
+   },
+   "late_adds": 6,
+   "late_roles": {
+    "maker": 6
+   },
+   "late_pnl": 35.15,
+   "worst_outcome": -263.263181,
+   "best_outcome": 16.081188,
+   "other_activity": {
+    "MERGE": 1,
+    "REDEEM": 3
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790010900",
+   "S": 1790010900,
+   "end": 1790011800,
+   "period": "S",
+   "winner": 1,
+   "full": true,
+   "fills": 4,
+   "roles": {
+    "maker": 3,
+    "taker": 1
+   },
+   "qty": [
+    435.0,
+    447.263158
+   ],
+   "cost": 361.605588,
+   "pnl": 85.65757,
+   "pnl_by_role": {
+    "maker": 132.92,
+    "taker": -47.2624
+   },
+   "late_adds": 0,
+   "late_roles": {},
+   "late_pnl": 0,
+   "worst_outcome": 73.394412,
+   "best_outcome": 85.65757,
+   "other_activity": {
+    "MERGE": 1,
+    "REDEEM": 2
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790011800",
+   "S": 1790011800,
+   "end": 1790012700,
+   "period": "S",
+   "winner": 1,
+   "full": true,
+   "fills": 6,
+   "roles": {
+    "maker": 4,
+    "taker": 2
+   },
+   "qty": [
+    343.846154,
+    615.14
+   ],
+   "cost": 498.454614,
+   "pnl": 116.685386,
+   "pnl_by_role": {
+    "maker": 287.8304,
+    "taker": -171.1451
+   },
+   "late_adds": 1,
+   "late_roles": {
+    "maker": 1
+   },
+   "late_pnl": 2.8766,
+   "worst_outcome": -154.60846,
+   "best_outcome": 116.685386,
+   "other_activity": {
+    "REDEEM": 2
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790012700",
+   "S": 1790012700,
+   "end": 1790013600,
+   "period": "S",
+   "winner": 1,
+   "full": true,
+   "fills": 3,
+   "roles": {
+    "maker": 2,
+    "taker": 1
+   },
+   "qty": [
+    459.78,
+    459.78
+   ],
+   "cost": 471.33486,
+   "pnl": -11.55486,
+   "pnl_by_role": {
+    "maker": 177.912,
+    "taker": -189.4669
+   },
+   "late_adds": 0,
+   "late_roles": {},
+   "late_pnl": 0,
+   "worst_outcome": -11.55486,
+   "best_outcome": -11.55486,
+   "other_activity": {
+    "MERGE": 1
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790013600",
+   "S": 1790013600,
+   "end": 1790014500,
+   "period": "after_S",
+   "winner": 0,
+   "full": true,
+   "fills": 4,
+   "roles": {
+    "maker": 4
+   },
+   "qty": [
+    524.66,
+    494.664584
+   ],
+   "cost": 465.814784,
+   "pnl": 58.845216,
+   "pnl_by_role": {
+    "maker": 58.8452,
+    "taker": 0
+   },
+   "late_adds": 0,
+   "late_roles": {},
+   "late_pnl": 0,
+   "worst_outcome": 28.8498,
+   "best_outcome": 58.845216,
+   "other_activity": {
+    "MERGE": 1,
+    "REDEEM": 2
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790014500",
+   "S": 1790014500,
+   "end": 1790015400,
+   "period": "after_S",
+   "winner": 1,
+   "full": true,
+   "fills": 14,
+   "roles": {
+    "maker": 10,
+    "taker": 4
+   },
+   "qty": [
+    599.966952,
+    300.0
+   ],
+   "cost": 405.244856,
+   "pnl": -105.244856,
+   "pnl_by_role": {
+    "maker": -271.0398,
+    "taker": 165.7949
+   },
+   "late_adds": 7,
+   "late_roles": {
+    "maker": 7
+   },
+   "late_pnl": -75.425156,
+   "worst_outcome": -105.244856,
+   "best_outcome": 194.722096,
+   "other_activity": {
+    "REDEEM": 3
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790015400",
+   "S": 1790015400,
+   "end": 1790016300,
+   "period": "after_S",
+   "winner": 0,
+   "full": true,
+   "fills": 4,
+   "roles": {
+    "maker": 2,
+    "taker": 2
+   },
+   "qty": [
+    300.0,
+    591.7101299999999
+   ],
+   "cost": 340.59735,
+   "pnl": -40.59735,
+   "pnl_by_role": {
+    "maker": -202.0933,
+    "taker": 161.496
+   },
+   "late_adds": 0,
+   "late_roles": {},
+   "late_pnl": 0,
+   "worst_outcome": -40.59735,
+   "best_outcome": 251.11278,
+   "other_activity": {
+    "REDEEM": 2
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790016300",
+   "S": 1790016300,
+   "end": 1790017200,
+   "period": "after_S",
+   "winner": 0,
+   "full": true,
+   "fills": 0,
+   "roles": {},
+   "qty": [
+    0,
+    0
+   ],
+   "cost": 0,
+   "pnl": 0,
+   "pnl_by_role": {
+    "maker": 0,
+    "taker": 0
+   },
+   "late_adds": 0,
+   "late_roles": {},
+   "late_pnl": 0,
+   "worst_outcome": 0,
+   "best_outcome": 0,
+   "other_activity": {}
+  },
+  {
+   "slug": "btc-updown-15m-1790017200",
+   "S": 1790017200,
+   "end": 1790018100,
+   "period": "after_S",
+   "winner": 1,
+   "full": true,
+   "fills": 7,
+   "roles": {
+    "maker": 7
+   },
+   "qty": [
+    5.25,
+    445.028572
+   ],
+   "cost": 386.399572,
+   "pnl": 58.629,
+   "pnl_by_role": {
+    "maker": 58.629,
+    "taker": 0
+   },
+   "late_adds": 5,
+   "late_roles": {
+    "maker": 5
+   },
+   "late_pnl": 55.199,
+   "worst_outcome": -381.149572,
+   "best_outcome": 58.629,
+   "other_activity": {
+    "REDEEM": 3
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790018100",
+   "S": 1790018100,
+   "end": 1790019000,
+   "period": "after_S",
+   "winner": 0,
+   "full": true,
+   "fills": 0,
+   "roles": {},
+   "qty": [
+    0,
+    0
+   ],
+   "cost": 0,
+   "pnl": 0,
+   "pnl_by_role": {
+    "maker": 0,
+    "taker": 0
+   },
+   "late_adds": 0,
+   "late_roles": {},
+   "late_pnl": 0,
+   "worst_outcome": 0,
+   "best_outcome": 0,
+   "other_activity": {}
+  },
+  {
+   "slug": "btc-updown-15m-1790019000",
+   "S": 1790019000,
+   "end": 1790019900,
+   "period": "after_S",
+   "winner": 0,
+   "full": true,
+   "fills": 4,
+   "roles": {
+    "maker": 3,
+    "taker": 1
+   },
+   "qty": [
+    600.0,
+    600.0
+   ],
+   "cost": 375.3465,
+   "pnl": 224.6535,
+   "pnl_by_role": {
+    "maker": 230.0,
+    "taker": -5.3465
+   },
+   "late_adds": 0,
+   "late_roles": {},
+   "late_pnl": 0,
+   "worst_outcome": 224.6535,
+   "best_outcome": 224.6535,
+   "other_activity": {
+    "MERGE": 2
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790019900",
+   "S": 1790019900,
+   "end": 1790020800,
+   "period": "after_S",
+   "winner": 0,
+   "full": true,
+   "fills": 1,
+   "roles": {
+    "maker": 1
+   },
+   "qty": [
+    300.0,
+    0
+   ],
+   "cost": 183.0,
+   "pnl": 117.0,
+   "pnl_by_role": {
+    "maker": 117.0,
+    "taker": 0
+   },
+   "late_adds": 0,
+   "late_roles": {},
+   "late_pnl": 0,
+   "worst_outcome": -183.0,
+   "best_outcome": 117.0,
+   "other_activity": {
+    "REDEEM": 2
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790020800",
+   "S": 1790020800,
+   "end": 1790021700,
+   "period": "after_S",
+   "winner": 0,
+   "full": true,
+   "fills": 0,
+   "roles": {},
+   "qty": [
+    0,
+    0
+   ],
+   "cost": 0,
+   "pnl": 0,
+   "pnl_by_role": {
+    "maker": 0,
+    "taker": 0
+   },
+   "late_adds": 0,
+   "late_roles": {},
+   "late_pnl": 0,
+   "worst_outcome": 0,
+   "best_outcome": 0,
+   "other_activity": {}
+  },
+  {
+   "slug": "btc-updown-15m-1790021700",
+   "S": 1790021700,
+   "end": 1790022600,
+   "period": "after_S",
+   "winner": 0,
+   "full": true,
+   "fills": 1,
+   "roles": {
+    "maker": 1
+   },
+   "qty": [
+    0,
+    300.0
+   ],
+   "cost": 3.0,
+   "pnl": -3.0,
+   "pnl_by_role": {
+    "maker": -3.0,
+    "taker": 0
+   },
+   "late_adds": 0,
+   "late_roles": {},
+   "late_pnl": 0,
+   "worst_outcome": -3.0,
+   "best_outcome": 297.0,
+   "other_activity": {
+    "REDEEM": 1
+   }
+  }
+ ],
+ "S": {
+  "full_closed": 14,
+  "traded": 12,
+  "fills": 126,
+  "roles": {
+   "maker": 111,
+   "taker": 15
+  },
+  "pnl": 165.6305,
+  "pnl_by_role": {
+   "maker": 570.346,
+   "taker": -404.7156
+  },
+  "late_markets": 8,
+  "late_fills": 54,
+  "late_pnl": -254.1679,
+  "late_roles": {
+   "maker": 52,
+   "taker": 2
+  },
+  "pending_or_partial": [
+   "btc-updown-15m-1790000100"
+  ]
+ },
+ "after_S": {
+  "full_closed": 10,
+  "traded": 7,
+  "fills": 35,
+  "roles": {
+   "maker": 28,
+   "taker": 7
+  },
+  "pnl": 310.2855,
+  "pnl_by_role": {
+   "maker": -11.6589,
+   "taker": 321.9444
+  },
+  "late_markets": 2,
+  "late_fills": 12,
+  "late_pnl": -20.2262,
+  "late_roles": {
+   "maker": 12
+  },
+  "pending_or_partial": []
+ }
+}

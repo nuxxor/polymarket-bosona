@@ -1,0 +1,19 @@
+{
+  "checks_sha256": "758422feb6502cc67356555f58fd96637e04ed9fef96bb5e7746837af8126df0",
+  "hashes": {
+    "api_reconciliation": "4fcabdc289ceecd6d750d9859eea29d6f32306fb816ff26a4dfc3423e6578f73",
+    "book_samples": "1927f89c0cd66536bf66012d5b0b38fdf7b12596b4fa2cba33a8ae5275d8dc0b",
+    "execution": "c34b3fcca4f9a34c9ee076952e321dd3a2d5093d0e38b371041eb49bb0732134",
+    "flows": "e55b61868d5ed35da47fbe312a09f81144877b9db593010b6ff9445add1f3994",
+    "quote_probes": "824ed020419a39b7da84dd35c79351179e8454e1e0ce0d35803b072ad62e135e",
+    "report": "2c382fbaed1eaaa85f29ec0e103ef1a40a446f2ef6643a781821cd83b63e8de4"
+  },
+  "identical_runs": 2,
+  "ruff": "PASS",
+  "sources": {
+    "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_ws_validation_20260921/check.py": "ee209670dfc1647475e775cc109f150506d902dea53ac86251b7bb1a8a0ff767",
+    "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_ws_validation_20260921/execution.py": "c435296f1a6257106a787e2c2692631f13f554299b732c59927f2aeba01a6887",
+    "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_ws_validation_20260921/study.py": "fdd7f7e36a3993c8ce355fce8f8e3560370d7f7ccf0179a897f24cbcd64782d0"
+  },
+  "syntax": "PASS"
+}

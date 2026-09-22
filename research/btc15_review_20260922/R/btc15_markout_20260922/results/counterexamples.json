@@ -1,0 +1,1847 @@
+[
+  {
+    "highest_markout": {
+      "actor": true,
+      "anchors": {
+        "-500": {
+          "features": {
+            "1000": {
+              "H1": -1,
+              "H2": -1,
+              "bid": 0.37,
+              "flow_shares": -15.0,
+              "mid": 0.375,
+              "momentum_cents": -3.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": -1,
+              "H2": -1,
+              "bid": 0.38,
+              "flow_shares": -6.05,
+              "mid": 0.385,
+              "momentum_cents": -2.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": -2.0000000000000018,
+              "markout": -1.5000000000000013
+            },
+            "10000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 1.0000000000000009,
+              "markout": 1.5000000000000013
+            },
+            "5000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": -1.0000000000000009,
+              "markout": -0.5000000000000004
+            }
+          }
+        },
+        "0": {
+          "features": {
+            "1000": {
+              "H1": -1,
+              "H2": -1,
+              "bid": 0.36,
+              "flow_shares": -625.0,
+              "mid": 0.365,
+              "momentum_cents": -3.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": -1,
+              "H2": -1,
+              "bid": 0.37,
+              "flow_shares": -15.0,
+              "mid": 0.375,
+              "momentum_cents": -3.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": -0.5000000000000004,
+              "drift": -1.0000000000000009,
+              "markout": -1.5000000000000013
+            },
+            "10000": {
+              "arrival_gap": -0.5000000000000004,
+              "drift": 2.0000000000000018,
+              "markout": 1.5000000000000013
+            },
+            "5000": {
+              "arrival_gap": -0.5000000000000004,
+              "drift": 0.0,
+              "markout": -0.5000000000000004
+            }
+          }
+        }
+      },
+      "fee_units": 0,
+      "gross_units": 111000000,
+      "id": "0x6eaab1775cfa1457181c97bb156d8b177313ef4f83ff99848c3730218c12bf76:968",
+      "log": 968,
+      "market": 1790023500,
+      "match_log": 979,
+      "obs": 1790023749289,
+      "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+      "parent": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed:0x601fd21cddfc0933e9382cfc6f47fb74c984a0719fef23d07f36ec3464c82225",
+      "price": 0.37,
+      "qty": 300.0,
+      "quantity_units": 300000000,
+      "rcv": 1790023749424,
+      "remaining_seconds": 650.5759999752045,
+      "side": 0,
+      "tx": "0x6eaab1775cfa1457181c97bb156d8b177313ef4f83ff99848c3730218c12bf76",
+      "won": true
+    },
+    "hypothesis": "H1",
+    "lowest_markout": {
+      "actor": true,
+      "anchors": {
+        "-500": {
+          "features": {
+            "1000": {
+              "H1": -1,
+              "H2": -1,
+              "bid": 0.38,
+              "flow_shares": -68.618481,
+              "mid": 0.385,
+              "momentum_cents": -17.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.56,
+              "flow_shares": -75.359048,
+              "mid": 0.565,
+              "momentum_cents": 7.0,
+              "spread_cents": 0.9999999999999898
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 4.500000000000001,
+              "drift": -2.0000000000000018,
+              "markout": 2.4999999999999996
+            },
+            "10000": {
+              "arrival_gap": 4.500000000000001,
+              "drift": -4.000000000000001,
+              "markout": 0.5000000000000004
+            },
+            "5000": {
+              "arrival_gap": 4.500000000000001,
+              "drift": -2.0000000000000018,
+              "markout": 2.4999999999999996
+            }
+          }
+        },
+        "0": {
+          "features": {
+            "1000": {
+              "H1": -1,
+              "H2": -1,
+              "bid": 0.38,
+              "flow_shares": -88.808481,
+              "mid": 0.385,
+              "momentum_cents": -17.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.56,
+              "flow_shares": -75.359048,
+              "mid": 0.565,
+              "momentum_cents": 7.0,
+              "spread_cents": 0.9999999999999898
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 4.500000000000001,
+              "drift": -3.0000000000000027,
+              "markout": 1.4999999999999987
+            },
+            "10000": {
+              "arrival_gap": 4.500000000000001,
+              "drift": -4.000000000000001,
+              "markout": 0.5000000000000004
+            },
+            "5000": {
+              "arrival_gap": 4.500000000000001,
+              "drift": -2.0000000000000018,
+              "markout": 2.4999999999999996
+            }
+          }
+        }
+      },
+      "fee_units": 0,
+      "gross_units": 13008600,
+      "id": "0x23585f7f5400c5924cc33e5d37dc8876584ba289131cea1c9d93ed81697bfc63:1853",
+      "log": 1853,
+      "market": 1790028000,
+      "match_log": 1857,
+      "obs": 1790028741398,
+      "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+      "parent": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed:0x44a42d6c5e9cbaa3693b79737427edbfff6f8d19a6ee5bf066829f2157b0aa3d",
+      "price": 0.22,
+      "qty": 59.13,
+      "quantity_units": 59130000,
+      "rcv": 1790028741659,
+      "remaining_seconds": 158.34100008010864,
+      "side": 0,
+      "tx": "0x23585f7f5400c5924cc33e5d37dc8876584ba289131cea1c9d93ed81697bfc63",
+      "won": true
+    },
+    "sign": -1,
+    "won": true
+  },
+  {
+    "highest_markout": {
+      "actor": true,
+      "anchors": {
+        "-500": {
+          "features": {
+            "1000": {
+              "H1": 0,
+              "H2": -1,
+              "bid": 0.92,
+              "flow_shares": -296.438549,
+              "mid": 0.925,
+              "momentum_cents": 0.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.92,
+              "flow_shares": -117.488576,
+              "mid": 0.925,
+              "momentum_cents": 2.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 1.0000000000000009,
+              "markout": 1.5000000000000013
+            },
+            "10000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": -2.0000000000000018,
+              "markout": -1.5000000000000013
+            },
+            "5000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 0.0,
+              "markout": 0.5000000000000004
+            }
+          }
+        },
+        "0": {
+          "features": {
+            "1000": {
+              "H1": 0,
+              "H2": -1,
+              "bid": 0.92,
+              "flow_shares": -377.613063,
+              "mid": 0.925,
+              "momentum_cents": 0.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.92,
+              "flow_shares": -117.488576,
+              "mid": 0.925,
+              "momentum_cents": 2.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 1.0000000000000009,
+              "markout": 1.5000000000000013
+            },
+            "10000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": -1.0000000000000009,
+              "markout": -0.5000000000000004
+            },
+            "5000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 0.0,
+              "markout": 0.5000000000000004
+            }
+          }
+        }
+      },
+      "fee_units": 0,
+      "gross_units": 42406000,
+      "id": "0xfce9b9176fb4e36d361ba8e4f430792de9c7e704764b4606482f29e19c693fa2:125",
+      "log": 125,
+      "market": 1790031600,
+      "match_log": 130,
+      "obs": 1790031977446,
+      "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+      "parent": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed:0x60aaf4150b93c5fcf1fde32ad1a83905707264435b59ce8c33eba1c3b9f95642",
+      "price": 0.91,
+      "qty": 46.6,
+      "quantity_units": 46600000,
+      "rcv": 1790031977483,
+      "remaining_seconds": 522.5169999599457,
+      "side": 0,
+      "tx": "0xfce9b9176fb4e36d361ba8e4f430792de9c7e704764b4606482f29e19c693fa2",
+      "won": true
+    },
+    "hypothesis": "H1",
+    "lowest_markout": {
+      "actor": true,
+      "anchors": {
+        "-500": {
+          "features": {
+            "1000": {
+              "H1": 0,
+              "H2": -1,
+              "bid": 0.92,
+              "flow_shares": -296.438549,
+              "mid": 0.925,
+              "momentum_cents": 0.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.92,
+              "flow_shares": -117.488576,
+              "mid": 0.925,
+              "momentum_cents": 2.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 1.0000000000000009,
+              "markout": 1.5000000000000013
+            },
+            "10000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": -2.0000000000000018,
+              "markout": -1.5000000000000013
+            },
+            "5000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 0.0,
+              "markout": 0.5000000000000004
+            }
+          }
+        },
+        "0": {
+          "features": {
+            "1000": {
+              "H1": 0,
+              "H2": -1,
+              "bid": 0.92,
+              "flow_shares": -377.613063,
+              "mid": 0.925,
+              "momentum_cents": 0.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.92,
+              "flow_shares": -117.488576,
+              "mid": 0.925,
+              "momentum_cents": 2.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 1.0000000000000009,
+              "markout": 1.5000000000000013
+            },
+            "10000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": -1.0000000000000009,
+              "markout": -0.5000000000000004
+            },
+            "5000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 0.0,
+              "markout": 0.5000000000000004
+            }
+          }
+        }
+      },
+      "fee_units": 0,
+      "gross_units": 42406000,
+      "id": "0xfce9b9176fb4e36d361ba8e4f430792de9c7e704764b4606482f29e19c693fa2:125",
+      "log": 125,
+      "market": 1790031600,
+      "match_log": 130,
+      "obs": 1790031977446,
+      "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+      "parent": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed:0x60aaf4150b93c5fcf1fde32ad1a83905707264435b59ce8c33eba1c3b9f95642",
+      "price": 0.91,
+      "qty": 46.6,
+      "quantity_units": 46600000,
+      "rcv": 1790031977483,
+      "remaining_seconds": 522.5169999599457,
+      "side": 0,
+      "tx": "0xfce9b9176fb4e36d361ba8e4f430792de9c7e704764b4606482f29e19c693fa2",
+      "won": true
+    },
+    "sign": 0,
+    "won": true
+  },
+  {
+    "highest_markout": {
+      "actor": true,
+      "anchors": {
+        "-500": {
+          "features": {
+            "1000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.87,
+              "flow_shares": -488.095815,
+              "mid": 0.875,
+              "momentum_cents": 23.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.85,
+              "flow_shares": -314.649084,
+              "mid": 0.855,
+              "momentum_cents": 35.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": -0.49999999999998934,
+              "drift": 1.9999999999999907,
+              "markout": 1.5000000000000013
+            },
+            "10000": {
+              "arrival_gap": -0.49999999999998934,
+              "drift": 4.999999999999993,
+              "markout": 4.5000000000000036
+            },
+            "5000": {
+              "arrival_gap": -0.49999999999998934,
+              "drift": 3.9999999999999925,
+              "markout": 3.500000000000003
+            }
+          }
+        },
+        "0": {
+          "features": {
+            "1000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.89,
+              "flow_shares": -529.603184,
+              "mid": 0.895,
+              "momentum_cents": 4.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.89,
+              "flow_shares": -319.625758,
+              "mid": 0.895,
+              "momentum_cents": 34.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 1.0000000000000009,
+              "drift": 0.5000000000000004,
+              "markout": 1.5000000000000013
+            },
+            "10000": {
+              "arrival_gap": 1.0000000000000009,
+              "drift": 3.500000000000003,
+              "markout": 4.5000000000000036
+            },
+            "5000": {
+              "arrival_gap": 1.0000000000000009,
+              "drift": 0.5000000000000004,
+              "markout": 1.5000000000000013
+            }
+          }
+        }
+      },
+      "fee_units": 0,
+      "gross_units": 6636400,
+      "id": "0x8d86ddc743cc7cde88ebc06bfcd8ce3ea61ecf13ae1482e27b8c4c867aff47b0:332",
+      "log": 332,
+      "market": 1790028000,
+      "match_log": 345,
+      "obs": 1790028842432,
+      "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+      "parent": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed:0xb43fcddbfe73accf8564b37d27b59f3e26d68987f1401be9d53e1300a2610a96",
+      "price": 0.94,
+      "qty": 7.06,
+      "quantity_units": 7060000,
+      "rcv": 1790028842473,
+      "remaining_seconds": 57.526999950408936,
+      "side": 0,
+      "tx": "0x8d86ddc743cc7cde88ebc06bfcd8ce3ea61ecf13ae1482e27b8c4c867aff47b0",
+      "won": true
+    },
+    "hypothesis": "H1",
+    "lowest_markout": {
+      "actor": true,
+      "anchors": {
+        "-500": {
+          "features": {
+            "1000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.87,
+              "flow_shares": -488.095815,
+              "mid": 0.875,
+              "momentum_cents": 23.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.86,
+              "flow_shares": -187.407699,
+              "mid": 0.865,
+              "momentum_cents": 36.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": -1.4999999999999902,
+              "drift": 2.9999999999999916,
+              "markout": 1.5000000000000013
+            },
+            "10000": {
+              "arrival_gap": -1.4999999999999902,
+              "drift": 5.999999999999995,
+              "markout": 4.5000000000000036
+            },
+            "5000": {
+              "arrival_gap": -1.4999999999999902,
+              "drift": 4.999999999999993,
+              "markout": 3.500000000000003
+            }
+          }
+        },
+        "0": {
+          "features": {
+            "1000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.89,
+              "flow_shares": -529.603184,
+              "mid": 0.895,
+              "momentum_cents": 4.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.89,
+              "flow_shares": -319.625758,
+              "mid": 0.895,
+              "momentum_cents": 32.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 1.0000000000000009,
+              "drift": 0.5000000000000004,
+              "markout": 1.5000000000000013
+            },
+            "10000": {
+              "arrival_gap": 1.0000000000000009,
+              "drift": 3.500000000000003,
+              "markout": 4.5000000000000036
+            },
+            "5000": {
+              "arrival_gap": 1.0000000000000009,
+              "drift": 0.0,
+              "markout": 1.0000000000000009
+            }
+          }
+        }
+      },
+      "fee_units": 0,
+      "gross_units": 48880000,
+      "id": "0x5426f1ace23120fd4411e03f4ceebb15612ea33df6770eb9b52108f5db04451f:904",
+      "log": 904,
+      "market": 1790028000,
+      "match_log": 909,
+      "obs": 1790028842330,
+      "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+      "parent": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed:0xb43fcddbfe73accf8564b37d27b59f3e26d68987f1401be9d53e1300a2610a96",
+      "price": 0.94,
+      "qty": 52.0,
+      "quantity_units": 52000000,
+      "rcv": 1790028842393,
+      "remaining_seconds": 57.60700011253357,
+      "side": 0,
+      "tx": "0x5426f1ace23120fd4411e03f4ceebb15612ea33df6770eb9b52108f5db04451f",
+      "won": true
+    },
+    "sign": 1,
+    "won": true
+  },
+  {
+    "highest_markout": {
+      "actor": true,
+      "anchors": {
+        "-500": {
+          "features": {
+            "1000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.87,
+              "flow_shares": -488.095815,
+              "mid": 0.875,
+              "momentum_cents": 23.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.85,
+              "flow_shares": -314.649084,
+              "mid": 0.855,
+              "momentum_cents": 35.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": -0.49999999999998934,
+              "drift": 1.9999999999999907,
+              "markout": 1.5000000000000013
+            },
+            "10000": {
+              "arrival_gap": -0.49999999999998934,
+              "drift": 4.999999999999993,
+              "markout": 4.5000000000000036
+            },
+            "5000": {
+              "arrival_gap": -0.49999999999998934,
+              "drift": 3.9999999999999925,
+              "markout": 3.500000000000003
+            }
+          }
+        },
+        "0": {
+          "features": {
+            "1000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.89,
+              "flow_shares": -529.603184,
+              "mid": 0.895,
+              "momentum_cents": 4.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.89,
+              "flow_shares": -319.625758,
+              "mid": 0.895,
+              "momentum_cents": 34.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 1.0000000000000009,
+              "drift": 0.5000000000000004,
+              "markout": 1.5000000000000013
+            },
+            "10000": {
+              "arrival_gap": 1.0000000000000009,
+              "drift": 3.500000000000003,
+              "markout": 4.5000000000000036
+            },
+            "5000": {
+              "arrival_gap": 1.0000000000000009,
+              "drift": 0.5000000000000004,
+              "markout": 1.5000000000000013
+            }
+          }
+        }
+      },
+      "fee_units": 0,
+      "gross_units": 6636400,
+      "id": "0x8d86ddc743cc7cde88ebc06bfcd8ce3ea61ecf13ae1482e27b8c4c867aff47b0:332",
+      "log": 332,
+      "market": 1790028000,
+      "match_log": 345,
+      "obs": 1790028842432,
+      "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+      "parent": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed:0xb43fcddbfe73accf8564b37d27b59f3e26d68987f1401be9d53e1300a2610a96",
+      "price": 0.94,
+      "qty": 7.06,
+      "quantity_units": 7060000,
+      "rcv": 1790028842473,
+      "remaining_seconds": 57.526999950408936,
+      "side": 0,
+      "tx": "0x8d86ddc743cc7cde88ebc06bfcd8ce3ea61ecf13ae1482e27b8c4c867aff47b0",
+      "won": true
+    },
+    "hypothesis": "H2",
+    "lowest_markout": {
+      "actor": true,
+      "anchors": {
+        "-500": {
+          "features": {
+            "1000": {
+              "H1": 0,
+              "H2": -1,
+              "bid": 0.92,
+              "flow_shares": -296.438549,
+              "mid": 0.925,
+              "momentum_cents": 0.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.92,
+              "flow_shares": -117.488576,
+              "mid": 0.925,
+              "momentum_cents": 2.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 1.0000000000000009,
+              "markout": 1.5000000000000013
+            },
+            "10000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": -2.0000000000000018,
+              "markout": -1.5000000000000013
+            },
+            "5000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 0.0,
+              "markout": 0.5000000000000004
+            }
+          }
+        },
+        "0": {
+          "features": {
+            "1000": {
+              "H1": 0,
+              "H2": -1,
+              "bid": 0.92,
+              "flow_shares": -377.613063,
+              "mid": 0.925,
+              "momentum_cents": 0.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.92,
+              "flow_shares": -117.488576,
+              "mid": 0.925,
+              "momentum_cents": 2.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 1.0000000000000009,
+              "markout": 1.5000000000000013
+            },
+            "10000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": -1.0000000000000009,
+              "markout": -0.5000000000000004
+            },
+            "5000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 0.0,
+              "markout": 0.5000000000000004
+            }
+          }
+        }
+      },
+      "fee_units": 0,
+      "gross_units": 42406000,
+      "id": "0xfce9b9176fb4e36d361ba8e4f430792de9c7e704764b4606482f29e19c693fa2:125",
+      "log": 125,
+      "market": 1790031600,
+      "match_log": 130,
+      "obs": 1790031977446,
+      "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+      "parent": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed:0x60aaf4150b93c5fcf1fde32ad1a83905707264435b59ce8c33eba1c3b9f95642",
+      "price": 0.91,
+      "qty": 46.6,
+      "quantity_units": 46600000,
+      "rcv": 1790031977483,
+      "remaining_seconds": 522.5169999599457,
+      "side": 0,
+      "tx": "0xfce9b9176fb4e36d361ba8e4f430792de9c7e704764b4606482f29e19c693fa2",
+      "won": true
+    },
+    "sign": -1,
+    "won": true
+  },
+  {
+    "highest_markout": {
+      "actor": true,
+      "anchors": {
+        "-500": {
+          "features": {
+            "1000": {
+              "H1": -1,
+              "H2": 1,
+              "bid": 0.25,
+              "flow_shares": 21.117038,
+              "mid": 0.255,
+              "momentum_cents": -1.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": -1,
+              "H2": 1,
+              "bid": 0.26,
+              "flow_shares": 18.269231,
+              "mid": 0.265,
+              "momentum_cents": -1.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": -2.4999999999999996,
+              "drift": 14.999999999999996,
+              "markout": 12.499999999999996
+            },
+            "10000": {
+              "arrival_gap": -2.4999999999999996,
+              "drift": 4.999999999999999,
+              "markout": 2.4999999999999996
+            },
+            "5000": {
+              "arrival_gap": -2.4999999999999996,
+              "drift": 3.9999999999999982,
+              "markout": 1.4999999999999987
+            }
+          }
+        },
+        "0": {
+          "features": {
+            "1000": {
+              "H1": -1,
+              "H2": 1,
+              "bid": 0.25,
+              "flow_shares": 21.117038,
+              "mid": 0.255,
+              "momentum_cents": -1.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": -1,
+              "H2": 1,
+              "bid": 0.26,
+              "flow_shares": 55.306269,
+              "mid": 0.265,
+              "momentum_cents": -1.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 7.499999999999998,
+              "drift": 4.0000000000000036,
+              "markout": 11.500000000000002
+            },
+            "10000": {
+              "arrival_gap": 7.499999999999998,
+              "drift": -4.999999999999999,
+              "markout": 2.4999999999999996
+            },
+            "5000": {
+              "arrival_gap": 7.499999999999998,
+              "drift": -6.0,
+              "markout": 1.4999999999999987
+            }
+          }
+        }
+      },
+      "fee_units": 0,
+      "gross_units": 66000000,
+      "id": "0x4267245f38173b741bb019223f25a8cd7bedd9a0a983d96a2023339ed9c5e2ca:812",
+      "log": 812,
+      "market": 1790023500,
+      "match_log": 843,
+      "obs": 1790024236068,
+      "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+      "parent": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed:0x709d378d8473ad3dd20621196600d18089df6ab25b6ba76b872c98227a7d965e",
+      "price": 0.22,
+      "qty": 300.0,
+      "quantity_units": 300000000,
+      "rcv": 1790024236348,
+      "remaining_seconds": 163.65199995040894,
+      "side": 1,
+      "tx": "0x4267245f38173b741bb019223f25a8cd7bedd9a0a983d96a2023339ed9c5e2ca",
+      "won": false
+    },
+    "hypothesis": "H1",
+    "lowest_markout": {
+      "actor": true,
+      "anchors": {
+        "-500": {
+          "features": {
+            "1000": {
+              "H1": -1,
+              "H2": -1,
+              "bid": 0.3,
+              "flow_shares": -838.084193,
+              "mid": 0.305,
+              "momentum_cents": -1.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": -1,
+              "H2": -1,
+              "bid": 0.31,
+              "flow_shares": -450.077189,
+              "mid": 0.315,
+              "momentum_cents": -5.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": -1.0000000000000009,
+              "markout": -0.5000000000000004
+            },
+            "10000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": -7.999999999999999,
+              "markout": -7.499999999999998
+            },
+            "5000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": -1.0000000000000009,
+              "markout": -0.5000000000000004
+            }
+          }
+        },
+        "0": {
+          "features": {
+            "1000": {
+              "H1": -1,
+              "H2": -1,
+              "bid": 0.3,
+              "flow_shares": -838.084193,
+              "mid": 0.305,
+              "momentum_cents": -1.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": -1,
+              "H2": -1,
+              "bid": 0.31,
+              "flow_shares": -260.077189,
+              "mid": 0.315,
+              "momentum_cents": -5.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": -1.0000000000000009,
+              "markout": -0.5000000000000004
+            },
+            "10000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": -7.999999999999999,
+              "markout": -7.499999999999998
+            },
+            "5000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 0.0,
+              "markout": 0.5000000000000004
+            }
+          }
+        }
+      },
+      "fee_units": 0,
+      "gross_units": 77400000,
+      "id": "0x86d3d31820b6716359ab666e7ee50d8b72c86707fa16460fb3cb7b0639b2bec2:192",
+      "log": 192,
+      "market": 1790023500,
+      "match_log": 197,
+      "obs": 1790024160643,
+      "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+      "parent": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed:0x2be21bc9d4b18088ba8a42eb1d27d1863e487d9562fa704b0fa108ce246c41d3",
+      "price": 0.3,
+      "qty": 258.0,
+      "quantity_units": 258000000,
+      "rcv": 1790024160679,
+      "remaining_seconds": 239.32100009918213,
+      "side": 1,
+      "tx": "0x86d3d31820b6716359ab666e7ee50d8b72c86707fa16460fb3cb7b0639b2bec2",
+      "won": false
+    },
+    "sign": -1,
+    "won": false
+  },
+  {
+    "highest_markout": {
+      "actor": true,
+      "anchors": {
+        "-500": {
+          "features": {
+            "1000": {
+              "H1": -1,
+              "H2": 1,
+              "bid": 0.39,
+              "flow_shares": 177.019757,
+              "mid": 0.395,
+              "momentum_cents": -1.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": 1,
+              "H2": 1,
+              "bid": 0.4,
+              "flow_shares": 4.2,
+              "mid": 0.405,
+              "momentum_cents": 2.0,
+              "spread_cents": 0.9999999999999953
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": -1.5000000000000013,
+              "drift": 3.0000000000000027,
+              "markout": 1.5000000000000013
+            },
+            "10000": {
+              "arrival_gap": -1.5000000000000013,
+              "drift": 3.0000000000000027,
+              "markout": 1.5000000000000013
+            },
+            "5000": {
+              "arrival_gap": -1.5000000000000013,
+              "drift": 0.0,
+              "markout": -1.5000000000000013
+            }
+          }
+        },
+        "0": {
+          "features": {
+            "1000": {
+              "H1": 0,
+              "H2": 1,
+              "bid": 0.4,
+              "flow_shares": 177.019757,
+              "mid": 0.405,
+              "momentum_cents": 0.0,
+              "spread_cents": 0.9999999999999953
+            },
+            "5000": {
+              "H1": 1,
+              "H2": 1,
+              "bid": 0.4,
+              "flow_shares": 4.2,
+              "mid": 0.405,
+              "momentum_cents": 1.0,
+              "spread_cents": 0.9999999999999953
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 1.0000000000000009,
+              "markout": 1.5000000000000013
+            },
+            "10000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 1.0000000000000009,
+              "markout": 1.5000000000000013
+            },
+            "5000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 0.0,
+              "markout": 0.5000000000000004
+            }
+          }
+        }
+      },
+      "fee_units": 0,
+      "gross_units": 90460575,
+      "id": "0xb125aa58d535e5baf3ce9f0fdedc70e4f6d44b275f026a2c2b8338045e01f91f:284",
+      "log": 284,
+      "market": 1790028000,
+      "match_log": 289,
+      "obs": 1790028216657,
+      "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+      "parent": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed:0x1b0b9a98eea3790cb4913fad4e17584e7a36b5662a90fd2fe04a7d122e7d9d78",
+      "price": 0.36,
+      "qty": 251.279375,
+      "quantity_units": 251279375,
+      "rcv": 1790028217139,
+      "remaining_seconds": 682.8610000610352,
+      "side": 1,
+      "tx": "0xb125aa58d535e5baf3ce9f0fdedc70e4f6d44b275f026a2c2b8338045e01f91f",
+      "won": false
+    },
+    "hypothesis": "H1",
+    "lowest_markout": {
+      "actor": true,
+      "anchors": {
+        "-500": {
+          "features": {
+            "1000": {
+              "H1": -1,
+              "H2": 1,
+              "bid": 0.39,
+              "flow_shares": 177.019757,
+              "mid": 0.395,
+              "momentum_cents": -1.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": 1,
+              "H2": 1,
+              "bid": 0.4,
+              "flow_shares": 4.2,
+              "mid": 0.405,
+              "momentum_cents": 2.0,
+              "spread_cents": 0.9999999999999953
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": -1.5000000000000013,
+              "drift": 3.0000000000000027,
+              "markout": 1.5000000000000013
+            },
+            "10000": {
+              "arrival_gap": -1.5000000000000013,
+              "drift": 3.0000000000000027,
+              "markout": 1.5000000000000013
+            },
+            "5000": {
+              "arrival_gap": -1.5000000000000013,
+              "drift": 0.0,
+              "markout": -1.5000000000000013
+            }
+          }
+        },
+        "0": {
+          "features": {
+            "1000": {
+              "H1": 0,
+              "H2": 1,
+              "bid": 0.4,
+              "flow_shares": 177.019757,
+              "mid": 0.405,
+              "momentum_cents": 0.0,
+              "spread_cents": 0.9999999999999953
+            },
+            "5000": {
+              "H1": 1,
+              "H2": 1,
+              "bid": 0.4,
+              "flow_shares": 4.2,
+              "mid": 0.405,
+              "momentum_cents": 1.0,
+              "spread_cents": 0.9999999999999953
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 1.0000000000000009,
+              "markout": 1.5000000000000013
+            },
+            "10000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 1.0000000000000009,
+              "markout": 1.5000000000000013
+            },
+            "5000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 0.0,
+              "markout": 0.5000000000000004
+            }
+          }
+        }
+      },
+      "fee_units": 0,
+      "gross_units": 90460575,
+      "id": "0xb125aa58d535e5baf3ce9f0fdedc70e4f6d44b275f026a2c2b8338045e01f91f:284",
+      "log": 284,
+      "market": 1790028000,
+      "match_log": 289,
+      "obs": 1790028216657,
+      "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+      "parent": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed:0x1b0b9a98eea3790cb4913fad4e17584e7a36b5662a90fd2fe04a7d122e7d9d78",
+      "price": 0.36,
+      "qty": 251.279375,
+      "quantity_units": 251279375,
+      "rcv": 1790028217139,
+      "remaining_seconds": 682.8610000610352,
+      "side": 1,
+      "tx": "0xb125aa58d535e5baf3ce9f0fdedc70e4f6d44b275f026a2c2b8338045e01f91f",
+      "won": false
+    },
+    "sign": 0,
+    "won": false
+  },
+  {
+    "highest_markout": {
+      "actor": true,
+      "anchors": {
+        "-500": {
+          "features": {
+            "1000": {
+              "H1": 1,
+              "H2": 1,
+              "bid": 0.29,
+              "flow_shares": 112.518093,
+              "mid": 0.295,
+              "momentum_cents": 10.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.25,
+              "flow_shares": -106.812915,
+              "mid": 0.255,
+              "momentum_cents": 6.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 0.49997602595098223,
+              "drift": 0.0,
+              "markout": 0.49997602595098223
+            },
+            "10000": {
+              "arrival_gap": 0.49997602595098223,
+              "drift": -2.9999999999999973,
+              "markout": -2.500023974049015
+            },
+            "5000": {
+              "arrival_gap": 0.49997602595098223,
+              "drift": -1.9999999999999962,
+              "markout": -1.500023974049014
+            }
+          }
+        },
+        "0": {
+          "features": {
+            "1000": {
+              "H1": 1,
+              "H2": 1,
+              "bid": 0.29,
+              "flow_shares": 113.533477,
+              "mid": 0.295,
+              "momentum_cents": 4.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": 1,
+              "H2": -1,
+              "bid": 0.25,
+              "flow_shares": -101.732193,
+              "mid": 0.255,
+              "momentum_cents": 6.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 0.49997602595098223,
+              "drift": 0.0,
+              "markout": 0.49997602595098223
+            },
+            "10000": {
+              "arrival_gap": 0.49997602595098223,
+              "drift": -2.9999999999999973,
+              "markout": -2.500023974049015
+            },
+            "5000": {
+              "arrival_gap": 0.49997602595098223,
+              "drift": -1.9999999999999962,
+              "markout": -1.500023974049014
+            }
+          }
+        }
+      },
+      "fee_units": 0,
+      "gross_units": 314507,
+      "id": "0x74abc53321bfb4a2832910e94faae77403235d26de5bd97871151c306c49952b:435",
+      "log": 435,
+      "market": 1790023500,
+      "match_log": 440,
+      "obs": 1790024222634,
+      "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+      "parent": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed:0xf850227b7e71e43afc03faca4d079c7370311b24a796d5a70806512798ec8de0",
+      "price": 0.29000023974049016,
+      "qty": 1.084506,
+      "quantity_units": 1084506,
+      "rcv": 1790024222670,
+      "remaining_seconds": 177.32999992370605,
+      "side": 1,
+      "tx": "0x74abc53321bfb4a2832910e94faae77403235d26de5bd97871151c306c49952b",
+      "won": false
+    },
+    "hypothesis": "H1",
+    "lowest_markout": {
+      "actor": true,
+      "anchors": {
+        "-500": {
+          "features": {
+            "1000": {
+              "H1": 1,
+              "H2": 1,
+              "bid": 0.28,
+              "flow_shares": 6.678572,
+              "mid": 0.285,
+              "momentum_cents": 1.0,
+              "spread_cents": 0.9999999999999953
+            },
+            "5000": {
+              "H1": 0,
+              "H2": 1,
+              "bid": 0.27,
+              "flow_shares": 1.0,
+              "mid": 0.275,
+              "momentum_cents": 0.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 2.4999986626503548,
+              "drift": -1.9999999999999962,
+              "markout": 0.4999986626503583
+            },
+            "10000": {
+              "arrival_gap": 2.4999986626503548,
+              "drift": -11.999999999999996,
+              "markout": -9.500001337349643
+            },
+            "5000": {
+              "arrival_gap": 2.4999986626503548,
+              "drift": -9.999999999999998,
+              "markout": -7.5000013373496435
+            }
+          }
+        },
+        "0": {
+          "features": {
+            "1000": {
+              "H1": 1,
+              "H2": 1,
+              "bid": 0.28,
+              "flow_shares": 6.678572,
+              "mid": 0.285,
+              "momentum_cents": 1.0,
+              "spread_cents": 0.9999999999999953
+            },
+            "5000": {
+              "H1": 0,
+              "H2": 1,
+              "bid": 0.27,
+              "flow_shares": 1.0,
+              "mid": 0.275,
+              "momentum_cents": 0.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 0.4999986626503583,
+              "drift": 0.0,
+              "markout": 0.4999986626503583
+            },
+            "10000": {
+              "arrival_gap": 0.4999986626503583,
+              "drift": -5.000000000000002,
+              "markout": -4.5000013373496435
+            },
+            "5000": {
+              "arrival_gap": 0.4999986626503583,
+              "drift": -8.000000000000002,
+              "markout": -7.5000013373496435
+            }
+          }
+        }
+      },
+      "fee_units": 0,
+      "gross_units": 3499459,
+      "id": "0x490c3d4dab6306337e64b426d8222b059fba6a42dd229942584f9c51cf537834:271",
+      "log": 271,
+      "market": 1790023500,
+      "match_log": 276,
+      "obs": 1790024196312,
+      "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+      "parent": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed:0x91bab3dfccdf5a1e24aa8612c5b61014d49eaa339588c54570d910877b3d656c",
+      "price": 0.26000001337349643,
+      "qty": 13.459457,
+      "quantity_units": 13459457,
+      "rcv": 1790024196354,
+      "remaining_seconds": 203.64599990844727,
+      "side": 1,
+      "tx": "0x490c3d4dab6306337e64b426d8222b059fba6a42dd229942584f9c51cf537834",
+      "won": false
+    },
+    "sign": 1,
+    "won": false
+  },
+  {
+    "highest_markout": {
+      "actor": true,
+      "anchors": {
+        "-500": {
+          "features": {
+            "1000": {
+              "H1": -1,
+              "H2": -1,
+              "bid": 0.12,
+              "flow_shares": -114.697446,
+              "mid": 0.125,
+              "momentum_cents": -3.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": 0,
+              "H2": -1,
+              "bid": 0.15,
+              "flow_shares": -26.035293,
+              "mid": 0.155,
+              "momentum_cents": 0.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 0.0,
+              "markout": 0.5000000000000004
+            },
+            "10000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 0.0,
+              "markout": 0.5000000000000004
+            },
+            "5000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 0.0,
+              "markout": 0.5000000000000004
+            }
+          }
+        },
+        "0": {
+          "features": {
+            "1000": {
+              "H1": -1,
+              "H2": -1,
+              "bid": 0.11,
+              "flow_shares": -614.697446,
+              "mid": 0.115,
+              "momentum_cents": -4.0,
+              "spread_cents": 0.9999999999999996
+            },
+            "5000": {
+              "H1": 0,
+              "H2": -1,
+              "bid": 0.15,
+              "flow_shares": -26.035293,
+              "mid": 0.155,
+              "momentum_cents": 0.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 0.0,
+              "markout": 0.5000000000000004
+            },
+            "10000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 0.9999999999999996,
+              "markout": 1.5
+            },
+            "5000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 0.0,
+              "markout": 0.5000000000000004
+            }
+          }
+        }
+      },
+      "fee_units": 0,
+      "gross_units": 11000000,
+      "id": "0x9e4b9482ee97fe7d8bf3379cfe852d825de13718059ebd51f75dd908e29b5494:201",
+      "log": 201,
+      "market": 1790026200,
+      "match_log": 206,
+      "obs": 1790026449124,
+      "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+      "parent": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed:0xec7a36524074a4405452929535cad8b58c096b7423b658f65f194c15662c7f46",
+      "price": 0.11,
+      "qty": 100.0,
+      "quantity_units": 100000000,
+      "rcv": 1790026449162,
+      "remaining_seconds": 650.8380000591278,
+      "side": 1,
+      "tx": "0x9e4b9482ee97fe7d8bf3379cfe852d825de13718059ebd51f75dd908e29b5494",
+      "won": false
+    },
+    "hypothesis": "H2",
+    "lowest_markout": {
+      "actor": true,
+      "anchors": {
+        "-500": {
+          "features": {
+            "1000": {
+              "H1": -1,
+              "H2": -1,
+              "bid": 0.3,
+              "flow_shares": -838.084193,
+              "mid": 0.305,
+              "momentum_cents": -1.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": -1,
+              "H2": -1,
+              "bid": 0.31,
+              "flow_shares": -450.077189,
+              "mid": 0.315,
+              "momentum_cents": -5.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": -1.0000000000000009,
+              "markout": -0.5000000000000004
+            },
+            "10000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": -7.999999999999999,
+              "markout": -7.499999999999998
+            },
+            "5000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": -1.0000000000000009,
+              "markout": -0.5000000000000004
+            }
+          }
+        },
+        "0": {
+          "features": {
+            "1000": {
+              "H1": -1,
+              "H2": -1,
+              "bid": 0.3,
+              "flow_shares": -838.084193,
+              "mid": 0.305,
+              "momentum_cents": -1.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": -1,
+              "H2": -1,
+              "bid": 0.31,
+              "flow_shares": -260.077189,
+              "mid": 0.315,
+              "momentum_cents": -5.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": -1.0000000000000009,
+              "markout": -0.5000000000000004
+            },
+            "10000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": -7.999999999999999,
+              "markout": -7.499999999999998
+            },
+            "5000": {
+              "arrival_gap": 0.5000000000000004,
+              "drift": 0.0,
+              "markout": 0.5000000000000004
+            }
+          }
+        }
+      },
+      "fee_units": 0,
+      "gross_units": 77400000,
+      "id": "0x86d3d31820b6716359ab666e7ee50d8b72c86707fa16460fb3cb7b0639b2bec2:192",
+      "log": 192,
+      "market": 1790023500,
+      "match_log": 197,
+      "obs": 1790024160643,
+      "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+      "parent": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed:0x2be21bc9d4b18088ba8a42eb1d27d1863e487d9562fa704b0fa108ce246c41d3",
+      "price": 0.3,
+      "qty": 258.0,
+      "quantity_units": 258000000,
+      "rcv": 1790024160679,
+      "remaining_seconds": 239.32100009918213,
+      "side": 1,
+      "tx": "0x86d3d31820b6716359ab666e7ee50d8b72c86707fa16460fb3cb7b0639b2bec2",
+      "won": false
+    },
+    "sign": -1,
+    "won": false
+  },
+  {
+    "highest_markout": {
+      "actor": true,
+      "anchors": {
+        "-500": {
+          "features": {
+            "1000": {
+              "H1": -1,
+              "H2": 1,
+              "bid": 0.25,
+              "flow_shares": 21.117038,
+              "mid": 0.255,
+              "momentum_cents": -1.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": -1,
+              "H2": 1,
+              "bid": 0.26,
+              "flow_shares": 18.269231,
+              "mid": 0.265,
+              "momentum_cents": -1.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": -2.4999999999999996,
+              "drift": 14.999999999999996,
+              "markout": 12.499999999999996
+            },
+            "10000": {
+              "arrival_gap": -2.4999999999999996,
+              "drift": 4.999999999999999,
+              "markout": 2.4999999999999996
+            },
+            "5000": {
+              "arrival_gap": -2.4999999999999996,
+              "drift": 3.9999999999999982,
+              "markout": 1.4999999999999987
+            }
+          }
+        },
+        "0": {
+          "features": {
+            "1000": {
+              "H1": -1,
+              "H2": 1,
+              "bid": 0.25,
+              "flow_shares": 21.117038,
+              "mid": 0.255,
+              "momentum_cents": -1.0,
+              "spread_cents": 1.0000000000000009
+            },
+            "5000": {
+              "H1": -1,
+              "H2": 1,
+              "bid": 0.26,
+              "flow_shares": 55.306269,
+              "mid": 0.265,
+              "momentum_cents": -1.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 7.499999999999998,
+              "drift": 4.0000000000000036,
+              "markout": 11.500000000000002
+            },
+            "10000": {
+              "arrival_gap": 7.499999999999998,
+              "drift": -4.999999999999999,
+              "markout": 2.4999999999999996
+            },
+            "5000": {
+              "arrival_gap": 7.499999999999998,
+              "drift": -6.0,
+              "markout": 1.4999999999999987
+            }
+          }
+        }
+      },
+      "fee_units": 0,
+      "gross_units": 66000000,
+      "id": "0x4267245f38173b741bb019223f25a8cd7bedd9a0a983d96a2023339ed9c5e2ca:812",
+      "log": 812,
+      "market": 1790023500,
+      "match_log": 843,
+      "obs": 1790024236068,
+      "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+      "parent": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed:0x709d378d8473ad3dd20621196600d18089df6ab25b6ba76b872c98227a7d965e",
+      "price": 0.22,
+      "qty": 300.0,
+      "quantity_units": 300000000,
+      "rcv": 1790024236348,
+      "remaining_seconds": 163.65199995040894,
+      "side": 1,
+      "tx": "0x4267245f38173b741bb019223f25a8cd7bedd9a0a983d96a2023339ed9c5e2ca",
+      "won": false
+    },
+    "hypothesis": "H2",
+    "lowest_markout": {
+      "actor": true,
+      "anchors": {
+        "-500": {
+          "features": {
+            "1000": {
+              "H1": 1,
+              "H2": 1,
+              "bid": 0.28,
+              "flow_shares": 6.678572,
+              "mid": 0.285,
+              "momentum_cents": 1.0,
+              "spread_cents": 0.9999999999999953
+            },
+            "5000": {
+              "H1": 0,
+              "H2": 1,
+              "bid": 0.27,
+              "flow_shares": 1.0,
+              "mid": 0.275,
+              "momentum_cents": 0.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 2.4999986626503548,
+              "drift": -1.9999999999999962,
+              "markout": 0.4999986626503583
+            },
+            "10000": {
+              "arrival_gap": 2.4999986626503548,
+              "drift": -11.999999999999996,
+              "markout": -9.500001337349643
+            },
+            "5000": {
+              "arrival_gap": 2.4999986626503548,
+              "drift": -9.999999999999998,
+              "markout": -7.5000013373496435
+            }
+          }
+        },
+        "0": {
+          "features": {
+            "1000": {
+              "H1": 1,
+              "H2": 1,
+              "bid": 0.28,
+              "flow_shares": 6.678572,
+              "mid": 0.285,
+              "momentum_cents": 1.0,
+              "spread_cents": 0.9999999999999953
+            },
+            "5000": {
+              "H1": 0,
+              "H2": 1,
+              "bid": 0.27,
+              "flow_shares": 1.0,
+              "mid": 0.275,
+              "momentum_cents": 0.0,
+              "spread_cents": 1.0000000000000009
+            }
+          },
+          "markouts": {
+            "1000": {
+              "arrival_gap": 0.4999986626503583,
+              "drift": 0.0,
+              "markout": 0.4999986626503583
+            },
+            "10000": {
+              "arrival_gap": 0.4999986626503583,
+              "drift": -5.000000000000002,
+              "markout": -4.5000013373496435
+            },
+            "5000": {
+              "arrival_gap": 0.4999986626503583,
+              "drift": -8.000000000000002,
+              "markout": -7.5000013373496435
+            }
+          }
+        }
+      },
+      "fee_units": 0,
+      "gross_units": 3499459,
+      "id": "0x490c3d4dab6306337e64b426d8222b059fba6a42dd229942584f9c51cf537834:271",
+      "log": 271,
+      "market": 1790023500,
+      "match_log": 276,
+      "obs": 1790024196312,
+      "owner": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+      "parent": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed:0x91bab3dfccdf5a1e24aa8612c5b61014d49eaa339588c54570d910877b3d656c",
+      "price": 0.26000001337349643,
+      "qty": 13.459457,
+      "quantity_units": 13459457,
+      "rcv": 1790024196354,
+      "remaining_seconds": 203.64599990844727,
+      "side": 1,
+      "tx": "0x490c3d4dab6306337e64b426d8222b059fba6a42dd229942584f9c51cf537834",
+      "won": false
+    },
+    "sign": 1,
+    "won": false
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "checks_sha256": "c5f4e86c9082a74bc93372d3beb5e9fcf21d3ab20e78b27781e00cad6de10b24",
+  "hashes": {
+    "RAPOR.md": "d501d955dfa9a61ee4d2727166baee6c9731b4a3f4125c5a3884b2e4f48b90d0",
+    "markets/1790024400/results/api_reconciliation.json": "1e47087057f3e119b8e3ce58b3d32db35e23aa53ea324221a97fd7e3e61020a7",
+    "markets/1790024400/results/book_samples.json": "6209a0acc67b7ed2fef48dbebc3d2b54396bfea6fee2ba481140f57962f16733",
+    "markets/1790024400/results/eligibility.json": "76ce50f470616c54c38e442086242c10b92eb0abd132ac470db11b2c0f2c1c23",
+    "markets/1790024400/results/flows.json": "fc6226ee7cc21eb503679713134ca27c31329ec0a1dd95747d8a21d9adff454e",
+    "markets/1790024400/results/quote_probes.json": "21b3d94c6e97f25f088a376d58d6a096195dc7a1eb7da97d96971070d0ab8539",
+    "markets/1790024400/results/report.json": "77814f2b9835a0d460924ae4df7c2fccec94ec2ff8591ce30aa2a68efbb805d6",
+    "markets/1790025300/results/api_reconciliation.json": "4606840a4b1bef94c717c280f781c651aba5d604d541582a55f32fef4932e2f1",
+    "markets/1790025300/results/book_samples.json": "0a04f0c6b8cc77b52f28c016c7d7deb4ea00f49373372aec560df8fd123306de",
+    "markets/1790025300/results/eligibility.json": "0f25a395f338cebc5cc259259bac0244361339f4dc7850a9a8265d3088bb0f88",
+    "markets/1790025300/results/flows.json": "68da0359e1acd0cfb57c786eb040283aa463809af246fad5fb76b0632af71184",
+    "markets/1790025300/results/quote_probes.json": "21b3d94c6e97f25f088a376d58d6a096195dc7a1eb7da97d96971070d0ab8539",
+    "markets/1790025300/results/report.json": "fece57b10bee270add0653a8328a5fd666635c43d71126017a305ceaf42b2c79",
+    "markets/1790026200/results/api_reconciliation.json": "572daba4e3417ab28191072893b256e821a02aa0320cb7fc8e9e6f37ebdd3077",
+    "markets/1790026200/results/book_samples.json": "464e78142fa506a72ea43cca759a4407276fd17cedc586fd272f70ff0b47d442",
+    "markets/1790026200/results/eligibility.json": "0cc4b8f36fd6bc9359ec0a5c4c5ee4cedb917f47ba98dca80ed0a4857ec96d21",
+    "markets/1790026200/results/flows.json": "f353b2779f4917a50f928a4e112e46d49ab8c441cc293bc0a284b8bae6349017",
+    "markets/1790026200/results/quote_probes.json": "ce8181c2495363eac7fe58a5bab07dbc19af3b4deac9015e605604c378bd0f9e",
+    "markets/1790026200/results/report.json": "7c1f35908e4e745ffc4cc4cd20ab3bd822d3bb8e3fec0dc6886ea6b0e6d03790",
+    "results/replay.json": "d95f8a7b376f762e37aa9812892d4d81ea9ab7899e55b338a62deefa34ff43c1",
+    "results/summary.json": "4d8b856e81e4919fb52f027c1949ddef8102622630472dc423f098163f3a6bc9"
+  },
+  "identical_runs": 2,
+  "ruff": "PASS",
+  "sources": {
+    "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_ws_expansion_20260921/check.py": "312280f79ca047a0040234fb05640379ce447bdcbc9edd90887ea36d97c905be",
+    "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_ws_expansion_20260921/execution.py": "19176115b98c0fe73a167661922d069238cc90260977ebb2404704d612de9d82",
+    "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_ws_expansion_20260921/run.py": "df6e2a8787305c6a8d1aaae44eeee2406ec1fb22c04fd3151927fc533c8ea992"
+  },
+  "syntax": "PASS"
+}

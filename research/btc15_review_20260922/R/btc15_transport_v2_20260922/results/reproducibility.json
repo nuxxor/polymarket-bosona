@@ -1,0 +1,15 @@
+{
+  "identical": true,
+  "offline": true,
+  "sha256": {
+    "results/challenges.json": "6664b2d3c7b0289d111b057fa24e62559dd01b23eb2ebd380a06567ff3557337",
+    "results/cohort.json": "5fab2fcb13d81db5456af2465173690249c825259884dd1feaba67e48a7f9dd6",
+    "results/markets/1790023500.json": "f24fb77d2853be2a63726c90cc467e73220751fb908fd847163ffd2d7645bb37",
+    "results/markets/1790025300.json": "44f8b9b3f977bc0219353f626d0039f336d807bdfee34f00d9c11c7f85bc062b",
+    "results/markets/1790026200.json": "b3d7b814442d99b9fd8243065e203313b8f2e80459ec2326a14be87b7f78b1d2",
+    "results/markets/1790027100.json": "aa5d0ef835a2e73f0c91c5089e5dab15fd0e6ec65d0fd1ce84a7f0ddfa8f40ff",
+    "results/markets/1790028000.json": "34f67d756caf497177be50a83592a99a400d714055d15d6d1ff32d48d5d1e059",
+    "results/markets/1790031600.json": "d18f66ee420bbf57f9a50ceead497f75bf8ff1aa4f19596ed3eae8897d377d2b",
+    "results/summary.json": "c02794da8ea477c36eb41ba19690372ecfccd12f892033c84e3e7f550d3f1832"
+  }
+}

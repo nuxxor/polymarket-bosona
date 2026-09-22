@@ -1,0 +1,47 @@
+{
+ "720-600": {
+  "n": 5287,
+  "brier_model": 0.2167,
+  "brier_market": 0.2115,
+  "brier_drift": 0.3795,
+  "brier_coinflip": 0.25,
+  "hit_model": 0.678,
+  "hit_market": 0.653
+ },
+ "ALL": {
+  "n": 20487,
+  "brier_model": 0.1705,
+  "brier_market": 0.1725,
+  "brier_drift": 0.3028,
+  "brier_coinflip": 0.25,
+  "hit_model": 0.763,
+  "hit_market": 0.733
+ },
+ "600-300": {
+  "n": 7406,
+  "brier_model": 0.1868,
+  "brier_market": 0.1829,
+  "brier_drift": 0.3454,
+  "brier_coinflip": 0.25,
+  "hit_model": 0.749,
+  "hit_market": 0.728
+ },
+ "300-60": {
+  "n": 6273,
+  "brier_model": 0.1361,
+  "brier_market": 0.1452,
+  "brier_drift": 0.2351,
+  "brier_coinflip": 0.25,
+  "hit_model": 0.82,
+  "hit_market": 0.779
+ },
+ "<60": {
+  "n": 1521,
+  "brier_model": 0.0732,
+  "brier_market": 0.0988,
+  "brier_drift": 0.1082,
+  "brier_coinflip": 0.25,
+  "hit_model": 0.897,
+  "hit_market": 0.852
+ }
+}

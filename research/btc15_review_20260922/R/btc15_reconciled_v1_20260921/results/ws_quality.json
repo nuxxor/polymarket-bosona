@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "book": 40,
+    "last_trade_price": 19,
+    "price_change": 8355,
+    "tick_size_change": 4
+  },
+  "distinct_trade_hashes": 19,
+  "initial_books": 2,
+  "note": "Partial-market schema check only. Server timestamp is not yet receipt-validated match time; L2 does not reveal order ownership or exact queue position.",
+  "receive_minus_server_ms": {
+    "max": 401,
+    "median": 33.0,
+    "min": 30
+  }
+}

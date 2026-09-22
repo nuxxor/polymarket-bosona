@@ -1,0 +1,23 @@
+{
+  "checks": [
+    "genuine identical API fills keep multiplicity",
+    "absolute L2 sizes replace levels; future received delta excluded",
+    "out of order source clock is explicit",
+    "repeated WS match and opposite-token mint do not double volume",
+    "real receipt reconciles; duplicate log is rejected",
+    "fixed prospective market and economic gate retained",
+    "equal API row counts do not conceal duplicate and missing fills",
+    "real independent quote probes conserve volume, clip and fixed lifetime",
+    "real price move during assumed activation rejects crossing post-only quote",
+    "delayed partial fill keeps reserved cash and separate learning clock",
+    "physical fills cannot precede assumed acceptance",
+    "post-only crossing is rejected using arrival book, not decision bid",
+    "fill during cancel transit reconciles once despite later notification",
+    "cancelled venue order cannot fill while client awaits final status",
+    "equal source and lifecycle timestamps remain explicitly uncertain",
+    "repeated real-path hedges respect cash, net, loss, clip and reconciliation",
+    "invalid notification chronology is rejected before replay",
+    "six real WS scenarios preserve all money and known/venue ledger limits"
+  ],
+  "passed": true
+}

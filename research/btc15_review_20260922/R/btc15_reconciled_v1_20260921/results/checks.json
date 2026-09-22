@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "one share through price fills at most one share",
+    "partial fills accumulate without inventing volume",
+    "queue ahead consumes volume before our partial fill",
+    "implicit recording gap remains unknown before fill evaluation",
+    "repeated hedges reserve cash and keep five share clips",
+    "two individually affordable orders cannot oversubscribe shared cash",
+    "cancel request does not release reservation before acknowledgement",
+    "activation and cancellation clock boundaries",
+    "touch quote preserves observed subcent price",
+    "historical event time uses decision receipt deadline",
+    "condition identity and genuine equal fill multiplicity",
+    "real tape all paths respect final cash/net/risk and economic gate",
+    "raw rebuilt cash and corrected late maker phases reconcile",
+    "public recorder retains only verified condition and tokens",
+    "real websocket probe has initial books, deltas, trade clocks and hashes",
+    "existing REST recorder source still matches its startup hash"
+  ],
+  "passed": true
+}

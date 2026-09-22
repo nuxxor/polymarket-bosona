@@ -1,0 +1,27 @@
+{
+  "identical_outputs": 9,
+  "ruff_pass": true,
+  "sha256": {
+    "RAPOR.md": "1628c804865ab49e51dc4e6fb6a1979cc307c014a36c8848c942f272f5c19eea",
+    "check.py": "581cfd2d7ef07dcfa080f78db886c9a5b299dd34d884d0d6d6f3401ee55d3ed7",
+    "execution.py": "959997072f37c496c3fcf24b89b49584a7106f1372966d5b379ad7900b5f1d34",
+    "plan.md": "d6dcbe834d0677b977112d7a7691285c329fb9e2abc11f9d811af10352608eb4",
+    "protocol.json": "77438ca2bf822bdf3ca7b421417f0f9e3722488135e22c63882e82cd8607c554",
+    "protocol.sha256": "271181c9db34a117ec80c1a7f8db42dc73f3913d6efc7be41cc3b19ccde59eeb",
+    "results/challenges.json": "6664b2d3c7b0289d111b057fa24e62559dd01b23eb2ebd380a06567ff3557337",
+    "results/checks.json": "175cb8520d571b3b1d63af9bca42529a88f5bc63ad23df3aaac5ea886895d292",
+    "results/cohort.json": "5fab2fcb13d81db5456af2465173690249c825259884dd1feaba67e48a7f9dd6",
+    "results/markets/1790023500.json": "f24fb77d2853be2a63726c90cc467e73220751fb908fd847163ffd2d7645bb37",
+    "results/markets/1790025300.json": "44f8b9b3f977bc0219353f626d0039f336d807bdfee34f00d9c11c7f85bc062b",
+    "results/markets/1790026200.json": "b3d7b814442d99b9fd8243065e203313b8f2e80459ec2326a14be87b7f78b1d2",
+    "results/markets/1790027100.json": "aa5d0ef835a2e73f0c91c5089e5dab15fd0e6ec65d0fd1ce84a7f0ddfa8f40ff",
+    "results/markets/1790028000.json": "34f67d756caf497177be50a83592a99a400d714055d15d6d1ff32d48d5d1e059",
+    "results/markets/1790031600.json": "d18f66ee420bbf57f9a50ceead497f75bf8ff1aa4f19596ed3eae8897d377d2b",
+    "results/reproducibility.json": "693c18476de25a84d36eda527e763d730302cebbdddda4087c1bedc1f8a0fe5f",
+    "results/summary.json": "c02794da8ea477c36eb41ba19690372ecfccd12f892033c84e3e7f550d3f1832",
+    "run.py": "4bfb58adf9a4b9a73587b070cd9ba57990a5e02db6a2c1d08d466f46f2110ac6",
+    "sources.json": "c88d1950aa95d983525120c4d4e00f782a7239852cf116f39b2d79d527c6c0df"
+  },
+  "syntax_pass": true,
+  "tests": 17
+}

@@ -1,0 +1,6181 @@
+{
+  "economic_status": "MISSING_DATA",
+  "markets": [
+    {
+      "arms": {
+        "one_cent_back:queue_back": {
+          "cash": "9.198701",
+          "counters": {
+            "partial_fills": 2,
+            "reservation_rejected": 161
+          },
+          "diagnostic_pnl": "4.801299",
+          "end_worst": "-2.900001",
+          "fills": [
+            {
+              "cash": "1.10",
+              "kind": "maker",
+              "price": "0.22",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001603000
+            },
+            {
+              "cash": "0.298701",
+              "kind": "maker",
+              "price": "0.23",
+              "qty": "1.2987",
+              "side": 1,
+              "when": 1790001605000
+            },
+            {
+              "cash": "1.60",
+              "kind": "maker",
+              "price": "0.32",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001659000
+            },
+            {
+              "cash": "3.00",
+              "kind": "maker",
+              "price": "0.60",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001680000
+            },
+            {
+              "cash": "3.200",
+              "kind": "maker",
+              "price": "0.80",
+              "qty": "4.0",
+              "side": 0,
+              "when": 1790001732000
+            }
+          ],
+          "max_reserved": "10.898701",
+          "q": [
+            "14.0",
+            "6.2987"
+          ],
+          "uncertain": false
+        },
+        "one_cent_back:queue_front": {
+          "cash": "14.97925360",
+          "counters": {
+            "partial_fills": 2,
+            "reservation_rejected": 1275
+          },
+          "diagnostic_pnl": "-0.19236960",
+          "end_worst": "-0.19236960",
+          "fills": [
+            {
+              "cash": "3.20",
+              "kind": "maker",
+              "price": "0.64",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001066000
+            },
+            {
+              "cash": "1.75",
+              "kind": "maker",
+              "price": "0.35",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001068000
+            },
+            {
+              "cash": "2.7645",
+              "kind": "maker",
+              "price": "0.57",
+              "qty": "4.85",
+              "side": 1,
+              "when": 1790001098000
+            },
+            {
+              "cash": "1.91475360",
+              "kind": "maker",
+              "price": "0.40",
+              "qty": "4.786884",
+              "side": 0,
+              "when": 1790001098000
+            },
+            {
+              "cash": "3.05",
+              "kind": "maker",
+              "price": "0.61",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001191000
+            },
+            {
+              "cash": "1.50",
+              "kind": "maker",
+              "price": "0.30",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001204000
+            },
+            {
+              "cash": "0.80",
+              "kind": "maker",
+              "price": "0.16",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001276000
+            }
+          ],
+          "max_reserved": "14.97925360",
+          "q": [
+            "14.786884",
+            "19.85"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_back": {
+          "cash": "13.70",
+          "counters": {
+            "partial_fills": 2,
+            "reservation_rejected": 926
+          },
+          "diagnostic_pnl": "-3.70",
+          "end_worst": "-3.70",
+          "fills": [
+            {
+              "cash": "2.65",
+              "kind": "maker",
+              "price": "0.53",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001135000
+            },
+            {
+              "cash": "1.5",
+              "kind": "maker",
+              "price": "0.3",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001206000
+            },
+            {
+              "cash": "4.35",
+              "kind": "maker",
+              "price": "0.87",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001315000
+            },
+            {
+              "cash": "0.90",
+              "kind": "maker",
+              "price": "0.9",
+              "qty": "1.0",
+              "side": 0,
+              "when": 1790001407000
+            },
+            {
+              "cash": "3.60",
+              "kind": "maker",
+              "price": "0.9",
+              "qty": "4.0",
+              "side": 0,
+              "when": 1790001407000
+            },
+            {
+              "cash": "0.35",
+              "kind": "maker",
+              "price": "0.07",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001449000
+            },
+            {
+              "cash": "0.35",
+              "kind": "maker",
+              "price": "0.07",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001458000
+            }
+          ],
+          "max_reserved": "15.00",
+          "q": [
+            "10.0",
+            "20"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_front": {
+          "cash": "14.95",
+          "counters": {
+            "partial_fills": 0,
+            "reservation_rejected": 1513
+          },
+          "diagnostic_pnl": "5.05",
+          "end_worst": "0.05",
+          "fills": [
+            {
+              "cash": "3.10",
+              "kind": "maker",
+              "price": "0.62",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001032000
+            },
+            {
+              "cash": "1.80",
+              "kind": "maker",
+              "price": "0.36",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001068000
+            },
+            {
+              "cash": "1.70",
+              "kind": "maker",
+              "price": "0.34",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001071000
+            },
+            {
+              "cash": "3.25",
+              "kind": "maker",
+              "price": "0.65",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001087000
+            },
+            {
+              "cash": "1.95",
+              "kind": "maker",
+              "price": "0.39",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001096000
+            },
+            {
+              "cash": "2.05",
+              "kind": "maker",
+              "price": "0.41",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001098000
+            },
+            {
+              "cash": "1.10",
+              "kind": "maker",
+              "price": "0.22",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001216000
+            }
+          ],
+          "max_reserved": "15.00",
+          "q": [
+            "20",
+            "15"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_back": {
+          "cash": "14.610875",
+          "counters": {
+            "hedge_depth_missing": 1,
+            "hedge_execution_rejected": 4,
+            "partial_fills": 0,
+            "reservation_rejected": 651
+          },
+          "diagnostic_pnl": "0.389125",
+          "end_worst": "0.389125",
+          "fills": [
+            {
+              "cash": "2.65",
+              "kind": "maker",
+              "price": "0.53",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001135000
+            },
+            {
+              "cash": "1.5",
+              "kind": "maker",
+              "price": "0.3",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001206000
+            },
+            {
+              "cash": "3.815625",
+              "kind": "taker",
+              "price": "0.763125",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001208819
+            },
+            {
+              "cash": "3.911985",
+              "kind": "taker",
+              "price": "0.782397",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001210831
+            },
+            {
+              "cash": "0.35",
+              "kind": "maker",
+              "price": "0.07",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001449000
+            },
+            {
+              "cash": "0.35",
+              "kind": "maker",
+              "price": "0.07",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001458000
+            },
+            {
+              "cash": "2.033265",
+              "kind": "taker",
+              "price": "0.406653",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001613869
+            }
+          ],
+          "max_reserved": "14.964550",
+          "q": [
+            "15",
+            "20"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_front": {
+          "cash": "14.958065",
+          "counters": {
+            "hedge_depth_missing": 1,
+            "partial_fills": 0,
+            "reservation_rejected": 778
+          },
+          "diagnostic_pnl": "5.041935",
+          "end_worst": "0.041935",
+          "fills": [
+            {
+              "cash": "3.10",
+              "kind": "maker",
+              "price": "0.62",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001032000
+            },
+            {
+              "cash": "1.80",
+              "kind": "maker",
+              "price": "0.36",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001068000
+            },
+            {
+              "cash": "1.70",
+              "kind": "maker",
+              "price": "0.34",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001071000
+            },
+            {
+              "cash": "3.25",
+              "kind": "maker",
+              "price": "0.65",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001087000
+            },
+            {
+              "cash": "1.95",
+              "kind": "maker",
+              "price": "0.39",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001096000
+            },
+            {
+              "cash": "2.05",
+              "kind": "maker",
+              "price": "0.41",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001098000
+            },
+            {
+              "cash": "1.108065",
+              "kind": "taker",
+              "price": "0.221613",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001237823
+            }
+          ],
+          "max_reserved": "14.958065",
+          "q": [
+            "20",
+            "15"
+          ],
+          "uncertain": false
+        }
+      },
+      "economic_pnl": null,
+      "gate": "MISSING_MATCH_CLOCK_AND_L2_EVENTS",
+      "prints": {
+        "all_rows": 3568,
+        "maker_buy_rows": 1855,
+        "maker_rows": 2227,
+        "taker_rows": 1341,
+        "taker_rows_missing_in_all": 0
+      },
+      "slug": "btc-updown-15m-1790001000"
+    },
+    {
+      "arms": {
+        "one_cent_back:queue_back": {
+          "cash": "13.64500000",
+          "counters": {
+            "partial_fills": 2,
+            "reservation_rejected": 34
+          },
+          "diagnostic_pnl": "1.35500000",
+          "end_worst": "-3.64500000",
+          "fills": [
+            {
+              "cash": "2.54800026",
+              "kind": "maker",
+              "price": "0.78",
+              "qty": "3.266667",
+              "side": 0,
+              "when": 1790002708000
+            },
+            {
+              "cash": "1.35199974",
+              "kind": "maker",
+              "price": "0.78",
+              "qty": "1.733333",
+              "side": 0,
+              "when": 1790002708000
+            },
+            {
+              "cash": "1.40",
+              "kind": "maker",
+              "price": "0.28",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002710000
+            },
+            {
+              "cash": "1.445",
+              "kind": "maker",
+              "price": "0.289",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002717000
+            },
+            {
+              "cash": "3.45",
+              "kind": "maker",
+              "price": "0.69",
+              "qty": "5",
+              "side": 0,
+              "when": 1790002717000
+            },
+            {
+              "cash": "3.45",
+              "kind": "maker",
+              "price": "0.69",
+              "qty": "5",
+              "side": 0,
+              "when": 1790002719000
+            }
+          ],
+          "max_reserved": "14.89500000",
+          "q": [
+            "15.000000",
+            "10"
+          ],
+          "uncertain": false
+        },
+        "one_cent_back:queue_front": {
+          "cash": "14.60000000",
+          "counters": {
+            "partial_fills": 4,
+            "reservation_rejected": 1183
+          },
+          "diagnostic_pnl": "5.40000000",
+          "end_worst": "5.40000000",
+          "fills": [
+            {
+              "cash": "2.20",
+              "kind": "maker",
+              "price": "0.44",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001969000
+            },
+            {
+              "cash": "2.25",
+              "kind": "maker",
+              "price": "0.45",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001971000
+            },
+            {
+              "cash": "0.37060128",
+              "kind": "maker",
+              "price": "0.12",
+              "qty": "3.088344",
+              "side": 1,
+              "when": 1790002217000
+            },
+            {
+              "cash": "0.22939872",
+              "kind": "maker",
+              "price": "0.12",
+              "qty": "1.911656",
+              "side": 1,
+              "when": 1790002217000
+            },
+            {
+              "cash": "0.55",
+              "kind": "maker",
+              "price": "0.11",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002226000
+            },
+            {
+              "cash": "0.75",
+              "kind": "maker",
+              "price": "0.15",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002250000
+            },
+            {
+              "cash": "0.55",
+              "kind": "maker",
+              "price": "0.11",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002260000
+            },
+            {
+              "cash": "0.4482",
+              "kind": "maker",
+              "price": "0.83",
+              "qty": "0.54",
+              "side": 0,
+              "when": 1790002269000
+            },
+            {
+              "cash": "3.7018",
+              "kind": "maker",
+              "price": "0.83",
+              "qty": "4.46",
+              "side": 0,
+              "when": 1790002269000
+            },
+            {
+              "cash": "0.75",
+              "kind": "maker",
+              "price": "0.15",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002275000
+            },
+            {
+              "cash": "2.80",
+              "kind": "maker",
+              "price": "0.56",
+              "qty": "5",
+              "side": 0,
+              "when": 1790002720000
+            }
+          ],
+          "max_reserved": "14.60000000",
+          "q": [
+            "20.00",
+            "25.000000"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_back": {
+          "cash": "14.900",
+          "counters": {
+            "partial_fills": 2,
+            "reservation_rejected": 549
+          },
+          "diagnostic_pnl": "0.100",
+          "end_worst": "0.100",
+          "fills": [
+            {
+              "cash": "0.917",
+              "kind": "maker",
+              "price": "0.7",
+              "qty": "1.31",
+              "side": 0,
+              "when": 1790002070000
+            },
+            {
+              "cash": "2.583",
+              "kind": "maker",
+              "price": "0.7",
+              "qty": "3.69",
+              "side": 0,
+              "when": 1790002070000
+            },
+            {
+              "cash": "0.55",
+              "kind": "maker",
+              "price": "0.11",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002301000
+            },
+            {
+              "cash": "0.20",
+              "kind": "maker",
+              "price": "0.04",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002395000
+            },
+            {
+              "cash": "0.45",
+              "kind": "maker",
+              "price": "0.09",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002425000
+            },
+            {
+              "cash": "4.70",
+              "kind": "maker",
+              "price": "0.94",
+              "qty": "5",
+              "side": 0,
+              "when": 1790002451000
+            },
+            {
+              "cash": "0.25",
+              "kind": "maker",
+              "price": "0.05",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002524000
+            },
+            {
+              "cash": "4.85",
+              "kind": "maker",
+              "price": "0.97",
+              "qty": "5",
+              "side": 0,
+              "when": 1790002628000
+            },
+            {
+              "cash": "0.40",
+              "kind": "maker",
+              "price": "0.08",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002660000
+            }
+          ],
+          "max_reserved": "14.900",
+          "q": [
+            "15.00",
+            "25"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_front": {
+          "cash": "14.9524",
+          "counters": {
+            "partial_fills": 3,
+            "reservation_rejected": 1521
+          },
+          "diagnostic_pnl": "5.0476",
+          "end_worst": "2.1276",
+          "fills": [
+            {
+              "cash": "2.60",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001932000
+            },
+            {
+              "cash": "2.15",
+              "kind": "maker",
+              "price": "0.43",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001938000
+            },
+            {
+              "cash": "1.95",
+              "kind": "maker",
+              "price": "0.39",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001954000
+            },
+            {
+              "cash": "1.90",
+              "kind": "maker",
+              "price": "0.38",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001956000
+            },
+            {
+              "cash": "1.1024",
+              "kind": "maker",
+              "price": "0.53",
+              "qty": "2.08",
+              "side": 1,
+              "when": 1790001971000
+            },
+            {
+              "cash": "2.3140",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "4.45",
+              "side": 1,
+              "when": 1790001980000
+            },
+            {
+              "cash": "0.2860",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "0.55",
+              "side": 1,
+              "when": 1790001980000
+            },
+            {
+              "cash": "2.35",
+              "kind": "maker",
+              "price": "0.47",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001995000
+            },
+            {
+              "cash": "0.30",
+              "kind": "maker",
+              "price": "0.06",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002367000
+            }
+          ],
+          "max_reserved": "14.9524",
+          "q": [
+            "20",
+            "17.08"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_back": {
+          "cash": "14.507330",
+          "counters": {
+            "hedge_depth_missing": 2,
+            "partial_fills": 2,
+            "reservation_rejected": 541
+          },
+          "diagnostic_pnl": "0.492670",
+          "end_worst": "0.492670",
+          "fills": [
+            {
+              "cash": "0.917",
+              "kind": "maker",
+              "price": "0.7",
+              "qty": "1.31",
+              "side": 0,
+              "when": 1790002070000
+            },
+            {
+              "cash": "2.583",
+              "kind": "maker",
+              "price": "0.7",
+              "qty": "3.69",
+              "side": 0,
+              "when": 1790002070000
+            },
+            {
+              "cash": "0.55",
+              "kind": "maker",
+              "price": "0.11",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002301000
+            },
+            {
+              "cash": "0.20",
+              "kind": "maker",
+              "price": "0.04",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002395000
+            },
+            {
+              "cash": "0.45",
+              "kind": "maker",
+              "price": "0.09",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002425000
+            },
+            {
+              "cash": "4.578665",
+              "kind": "taker",
+              "price": "0.915733",
+              "qty": "5",
+              "side": 0,
+              "when": 1790002427941
+            },
+            {
+              "cash": "4.578665",
+              "kind": "taker",
+              "price": "0.915733",
+              "qty": "5",
+              "side": 0,
+              "when": 1790002428940
+            },
+            {
+              "cash": "0.25",
+              "kind": "maker",
+              "price": "0.05",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002524000
+            },
+            {
+              "cash": "0.40",
+              "kind": "maker",
+              "price": "0.08",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002660000
+            }
+          ],
+          "max_reserved": "14.507330",
+          "q": [
+            "15.00",
+            "25"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_front": {
+          "cash": "14.918665",
+          "counters": {
+            "partial_fills": 0,
+            "reservation_rejected": 1537
+          },
+          "diagnostic_pnl": "0.081335",
+          "end_worst": "0.081335",
+          "fills": [
+            {
+              "cash": "2.60",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001932000
+            },
+            {
+              "cash": "2.15",
+              "kind": "maker",
+              "price": "0.43",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001938000
+            },
+            {
+              "cash": "1.95",
+              "kind": "maker",
+              "price": "0.39",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001954000
+            },
+            {
+              "cash": "1.90",
+              "kind": "maker",
+              "price": "0.38",
+              "qty": "5",
+              "side": 0,
+              "when": 1790001956000
+            },
+            {
+              "cash": "3.0840",
+              "kind": "taker",
+              "price": "0.6168",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001958890
+            },
+            {
+              "cash": "3.034665",
+              "kind": "taker",
+              "price": "0.606933",
+              "qty": "5",
+              "side": 1,
+              "when": 1790001959941
+            },
+            {
+              "cash": "0.20",
+              "kind": "maker",
+              "price": "0.04",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002388000
+            }
+          ],
+          "max_reserved": "14.983665",
+          "q": [
+            "15",
+            "20"
+          ],
+          "uncertain": false
+        }
+      },
+      "economic_pnl": null,
+      "gate": "MISSING_MATCH_CLOCK_AND_L2_EVENTS",
+      "prints": {
+        "all_rows": 4133,
+        "maker_buy_rows": 2323,
+        "maker_rows": 2547,
+        "taker_rows": 1586,
+        "taker_rows_missing_in_all": 0
+      },
+      "slug": "btc-updown-15m-1790001900"
+    },
+    {
+      "arms": {
+        "one_cent_back:queue_back": {
+          "cash": "0",
+          "counters": {},
+          "diagnostic_pnl": "0",
+          "end_worst": "0",
+          "fills": [],
+          "max_reserved": "4.95",
+          "q": [
+            "0",
+            "0"
+          ],
+          "uncertain": false
+        },
+        "one_cent_back:queue_front": {
+          "cash": "13.4150",
+          "counters": {
+            "partial_fills": 1,
+            "reservation_rejected": 604
+          },
+          "diagnostic_pnl": "1.5850",
+          "end_worst": "1.5850",
+          "fills": [
+            {
+              "cash": "3.30",
+              "kind": "maker",
+              "price": "0.66",
+              "qty": "5",
+              "side": 0,
+              "when": 1790002920000
+            },
+            {
+              "cash": "1.50",
+              "kind": "maker",
+              "price": "0.30",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002926000
+            },
+            {
+              "cash": "3.45",
+              "kind": "maker",
+              "price": "0.69",
+              "qty": "5",
+              "side": 0,
+              "when": 1790002959000
+            },
+            {
+              "cash": "0.9150",
+              "kind": "maker",
+              "price": "0.25",
+              "qty": "3.66",
+              "side": 1,
+              "when": 1790002986000
+            },
+            {
+              "cash": "3.70",
+              "kind": "maker",
+              "price": "0.74",
+              "qty": "5",
+              "side": 0,
+              "when": 1790003035000
+            },
+            {
+              "cash": "0.35",
+              "kind": "maker",
+              "price": "0.07",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003257000
+            },
+            {
+              "cash": "0.15",
+              "kind": "maker",
+              "price": "0.03",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003272000
+            },
+            {
+              "cash": "0.05",
+              "kind": "maker",
+              "price": "0.01",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003343000
+            }
+          ],
+          "max_reserved": "14.6150",
+          "q": [
+            "15",
+            "23.66"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_back": {
+          "cash": "14.35",
+          "counters": {
+            "partial_fills": 0,
+            "reservation_rejected": 718
+          },
+          "diagnostic_pnl": "0.65",
+          "end_worst": "0.65",
+          "fills": [
+            {
+              "cash": "3.35",
+              "kind": "maker",
+              "price": "0.67",
+              "qty": "5",
+              "side": 0,
+              "when": 1790002920000
+            },
+            {
+              "cash": "1.55",
+              "kind": "maker",
+              "price": "0.31",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002926000
+            },
+            {
+              "cash": "3.80",
+              "kind": "maker",
+              "price": "0.76",
+              "qty": "5",
+              "side": 0,
+              "when": 1790003019000
+            },
+            {
+              "cash": "0.5",
+              "kind": "maker",
+              "price": "0.1",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003239000
+            },
+            {
+              "cash": "0.20",
+              "kind": "maker",
+              "price": "0.04",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003272000
+            },
+            {
+              "cash": "4.75",
+              "kind": "maker",
+              "price": "0.95",
+              "qty": "5",
+              "side": 0,
+              "when": 1790003274000
+            },
+            {
+              "cash": "0.10",
+              "kind": "maker",
+              "price": "0.02",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003311000
+            },
+            {
+              "cash": "0.10",
+              "kind": "maker",
+              "price": "0.02",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003343000
+            }
+          ],
+          "max_reserved": "14.35",
+          "q": [
+            "15",
+            "25"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_front": {
+          "cash": "14.9856",
+          "counters": {
+            "partial_fills": 3,
+            "reservation_rejected": 1358
+          },
+          "diagnostic_pnl": "-0.0256",
+          "end_worst": "-0.0256",
+          "fills": [
+            {
+              "cash": "1.85",
+              "kind": "maker",
+              "price": "0.37",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002837000
+            },
+            {
+              "cash": "1.80",
+              "kind": "maker",
+              "price": "0.36",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002839000
+            },
+            {
+              "cash": "3.0256",
+              "kind": "maker",
+              "price": "0.61",
+              "qty": "4.96",
+              "side": 0,
+              "when": 1790002861000
+            },
+            {
+              "cash": "2.3488",
+              "kind": "maker",
+              "price": "0.64",
+              "qty": "3.67",
+              "side": 0,
+              "when": 1790002867000
+            },
+            {
+              "cash": "0.8512",
+              "kind": "maker",
+              "price": "0.64",
+              "qty": "1.33",
+              "side": 0,
+              "when": 1790002867000
+            },
+            {
+              "cash": "1.75",
+              "kind": "maker",
+              "price": "0.35",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002882000
+            },
+            {
+              "cash": "3.35",
+              "kind": "maker",
+              "price": "0.67",
+              "qty": "5",
+              "side": 0,
+              "when": 1790002920000
+            },
+            {
+              "cash": "0.010",
+              "kind": "maker",
+              "price": "0.002",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003535000
+            }
+          ],
+          "max_reserved": "14.9956",
+          "q": [
+            "14.96",
+            "20"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_back": {
+          "cash": "14.35",
+          "counters": {
+            "hedge_depth_missing": 85,
+            "partial_fills": 0,
+            "reservation_rejected": 506
+          },
+          "diagnostic_pnl": "0.65",
+          "end_worst": "0.65",
+          "fills": [
+            {
+              "cash": "3.35",
+              "kind": "maker",
+              "price": "0.67",
+              "qty": "5",
+              "side": 0,
+              "when": 1790002920000
+            },
+            {
+              "cash": "1.55",
+              "kind": "maker",
+              "price": "0.31",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002926000
+            },
+            {
+              "cash": "3.80",
+              "kind": "maker",
+              "price": "0.76",
+              "qty": "5",
+              "side": 0,
+              "when": 1790003019000
+            },
+            {
+              "cash": "0.5",
+              "kind": "maker",
+              "price": "0.1",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003239000
+            },
+            {
+              "cash": "0.20",
+              "kind": "maker",
+              "price": "0.04",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003272000
+            },
+            {
+              "cash": "4.75",
+              "kind": "maker",
+              "price": "0.95",
+              "qty": "5",
+              "side": 0,
+              "when": 1790003274000
+            },
+            {
+              "cash": "0.10",
+              "kind": "maker",
+              "price": "0.02",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003311000
+            },
+            {
+              "cash": "0.10",
+              "kind": "maker",
+              "price": "0.02",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003343000
+            }
+          ],
+          "max_reserved": "14.35",
+          "q": [
+            "15",
+            "25"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_front": {
+          "cash": "14.996880",
+          "counters": {
+            "partial_fills": 1,
+            "reservation_rejected": 1376
+          },
+          "diagnostic_pnl": "-0.036880",
+          "end_worst": "-0.036880",
+          "fills": [
+            {
+              "cash": "1.85",
+              "kind": "maker",
+              "price": "0.37",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002837000
+            },
+            {
+              "cash": "1.80",
+              "kind": "maker",
+              "price": "0.36",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002839000
+            },
+            {
+              "cash": "3.280640",
+              "kind": "taker",
+              "price": "0.656128",
+              "qty": "5",
+              "side": 0,
+              "when": 1790002841964
+            },
+            {
+              "cash": "3.280640",
+              "kind": "taker",
+              "price": "0.656128",
+              "qty": "5",
+              "side": 0,
+              "when": 1790002842969
+            },
+            {
+              "cash": "3.0256",
+              "kind": "maker",
+              "price": "0.61",
+              "qty": "4.96",
+              "side": 0,
+              "when": 1790002861000
+            },
+            {
+              "cash": "1.75",
+              "kind": "maker",
+              "price": "0.35",
+              "qty": "5",
+              "side": 1,
+              "when": 1790002882000
+            },
+            {
+              "cash": "0.010",
+              "kind": "maker",
+              "price": "0.002",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003535000
+            }
+          ],
+          "max_reserved": "14.996880",
+          "q": [
+            "14.96",
+            "20"
+          ],
+          "uncertain": false
+        }
+      },
+      "economic_pnl": null,
+      "gate": "MISSING_MATCH_CLOCK_AND_L2_EVENTS",
+      "prints": {
+        "all_rows": 1634,
+        "maker_buy_rows": 886,
+        "maker_rows": 1001,
+        "taker_rows": 633,
+        "taker_rows_missing_in_all": 0
+      },
+      "slug": "btc-updown-15m-1790002800"
+    },
+    {
+      "arms": {
+        "one_cent_back:queue_back": {
+          "cash": "1.40",
+          "counters": {
+            "partial_fills": 0
+          },
+          "diagnostic_pnl": "-1.40",
+          "end_worst": "-1.40",
+          "fills": [
+            {
+              "cash": "1.40",
+              "kind": "maker",
+              "price": "0.28",
+              "qty": "5",
+              "side": 0,
+              "when": 1790003832000
+            }
+          ],
+          "max_reserved": "6.35",
+          "q": [
+            "5",
+            "0"
+          ],
+          "uncertain": false
+        },
+        "one_cent_back:queue_front": {
+          "cash": "11.850",
+          "counters": {
+            "partial_fills": 2,
+            "reservation_rejected": 690
+          },
+          "diagnostic_pnl": "-1.850",
+          "end_worst": "-1.850",
+          "fills": [
+            {
+              "cash": "2.85",
+              "kind": "maker",
+              "price": "0.57",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003743000
+            },
+            {
+              "cash": "0.812",
+              "kind": "maker",
+              "price": "0.29",
+              "qty": "2.8",
+              "side": 0,
+              "when": 1790003779000
+            },
+            {
+              "cash": "0.638",
+              "kind": "maker",
+              "price": "0.29",
+              "qty": "2.2",
+              "side": 0,
+              "when": 1790003779000
+            },
+            {
+              "cash": "1.40",
+              "kind": "maker",
+              "price": "0.28",
+              "qty": "5",
+              "side": 0,
+              "when": 1790003832000
+            },
+            {
+              "cash": "1.65",
+              "kind": "maker",
+              "price": "0.33",
+              "qty": "5",
+              "side": 0,
+              "when": 1790003865000
+            },
+            {
+              "cash": "3.95",
+              "kind": "maker",
+              "price": "0.79",
+              "qty": "5",
+              "side": 1,
+              "when": 1790004007000
+            },
+            {
+              "cash": "0.55",
+              "kind": "maker",
+              "price": "0.11",
+              "qty": "5",
+              "side": 0,
+              "when": 1790004114000
+            }
+          ],
+          "max_reserved": "12.300",
+          "q": [
+            "20.0",
+            "10"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_back": {
+          "cash": "11.8500",
+          "counters": {
+            "partial_fills": 2,
+            "reservation_rejected": 187
+          },
+          "diagnostic_pnl": "-1.8500",
+          "end_worst": "-1.8500",
+          "fills": [
+            {
+              "cash": "1.45",
+              "kind": "maker",
+              "price": "0.29",
+              "qty": "5",
+              "side": 0,
+              "when": 1790003832000
+            },
+            {
+              "cash": "0.60",
+              "kind": "maker",
+              "price": "0.12",
+              "qty": "5",
+              "side": 0,
+              "when": 1790004155000
+            },
+            {
+              "cash": "4.55",
+              "kind": "maker",
+              "price": "0.91",
+              "qty": "5",
+              "side": 1,
+              "when": 1790004170000
+            },
+            {
+              "cash": "0.1897",
+              "kind": "maker",
+              "price": "0.07",
+              "qty": "2.71",
+              "side": 0,
+              "when": 1790004174000
+            },
+            {
+              "cash": "0.1603",
+              "kind": "maker",
+              "price": "0.07",
+              "qty": "2.29",
+              "side": 0,
+              "when": 1790004174000
+            },
+            {
+              "cash": "4.90",
+              "kind": "maker",
+              "price": "0.98",
+              "qty": "5",
+              "side": 1,
+              "when": 1790004329000
+            }
+          ],
+          "max_reserved": "11.9000",
+          "q": [
+            "15.00",
+            "10"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_front": {
+          "cash": "15.0000",
+          "counters": {
+            "partial_fills": 2,
+            "reservation_rejected": 1162
+          },
+          "diagnostic_pnl": "0.0000",
+          "end_worst": "0.0000",
+          "fills": [
+            {
+              "cash": "2.95",
+              "kind": "maker",
+              "price": "0.59",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003731000
+            },
+            {
+              "cash": "2.0",
+              "kind": "maker",
+              "price": "0.4",
+              "qty": "5",
+              "side": 0,
+              "when": 1790003734000
+            },
+            {
+              "cash": "2.05",
+              "kind": "maker",
+              "price": "0.41",
+              "qty": "5",
+              "side": 0,
+              "when": 1790003742000
+            },
+            {
+              "cash": "2.90",
+              "kind": "maker",
+              "price": "0.58",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003743000
+            },
+            {
+              "cash": "1.2617",
+              "kind": "maker",
+              "price": "0.37",
+              "qty": "3.41",
+              "side": 0,
+              "when": 1790003766000
+            },
+            {
+              "cash": "3.10",
+              "kind": "maker",
+              "price": "0.62",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003766000
+            },
+            {
+              "cash": "0.5883",
+              "kind": "maker",
+              "price": "0.37",
+              "qty": "1.59",
+              "side": 0,
+              "when": 1790003766000
+            },
+            {
+              "cash": "0.15",
+              "kind": "maker",
+              "price": "0.03",
+              "qty": "5",
+              "side": 0,
+              "when": 1790004245000
+            }
+          ],
+          "max_reserved": "15.0000",
+          "q": [
+            "20.00",
+            "15"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_back": {
+          "cash": "11.804425",
+          "counters": {
+            "hedge_depth_missing": 190,
+            "partial_fills": 0,
+            "reservation_rejected": 188
+          },
+          "diagnostic_pnl": "-1.804425",
+          "end_worst": "-1.804425",
+          "fills": [
+            {
+              "cash": "1.45",
+              "kind": "maker",
+              "price": "0.29",
+              "qty": "5",
+              "side": 0,
+              "when": 1790003832000
+            },
+            {
+              "cash": "0.60",
+              "kind": "maker",
+              "price": "0.12",
+              "qty": "5",
+              "side": 0,
+              "when": 1790004155000
+            },
+            {
+              "cash": "4.625760",
+              "kind": "taker",
+              "price": "0.925152",
+              "qty": "5",
+              "side": 1,
+              "when": 1790004157079
+            },
+            {
+              "cash": "4.578665",
+              "kind": "taker",
+              "price": "0.915733",
+              "qty": "5",
+              "side": 1,
+              "when": 1790004158085
+            },
+            {
+              "cash": "0.45",
+              "kind": "maker",
+              "price": "0.09",
+              "qty": "5",
+              "side": 0,
+              "when": 1790004191000
+            },
+            {
+              "cash": "0.10",
+              "kind": "maker",
+              "price": "0.02",
+              "qty": "5",
+              "side": 0,
+              "when": 1790004282000
+            }
+          ],
+          "max_reserved": "12.154425",
+          "q": [
+            "20",
+            "10"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_front": {
+          "cash": "15.0000",
+          "counters": {
+            "partial_fills": 2,
+            "reservation_rejected": 1162
+          },
+          "diagnostic_pnl": "0.0000",
+          "end_worst": "0.0000",
+          "fills": [
+            {
+              "cash": "2.95",
+              "kind": "maker",
+              "price": "0.59",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003731000
+            },
+            {
+              "cash": "2.0",
+              "kind": "maker",
+              "price": "0.4",
+              "qty": "5",
+              "side": 0,
+              "when": 1790003734000
+            },
+            {
+              "cash": "2.05",
+              "kind": "maker",
+              "price": "0.41",
+              "qty": "5",
+              "side": 0,
+              "when": 1790003742000
+            },
+            {
+              "cash": "2.90",
+              "kind": "maker",
+              "price": "0.58",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003743000
+            },
+            {
+              "cash": "1.2617",
+              "kind": "maker",
+              "price": "0.37",
+              "qty": "3.41",
+              "side": 0,
+              "when": 1790003766000
+            },
+            {
+              "cash": "3.10",
+              "kind": "maker",
+              "price": "0.62",
+              "qty": "5",
+              "side": 1,
+              "when": 1790003766000
+            },
+            {
+              "cash": "0.5883",
+              "kind": "maker",
+              "price": "0.37",
+              "qty": "1.59",
+              "side": 0,
+              "when": 1790003766000
+            },
+            {
+              "cash": "0.15",
+              "kind": "maker",
+              "price": "0.03",
+              "qty": "5",
+              "side": 0,
+              "when": 1790004245000
+            }
+          ],
+          "max_reserved": "15.0000",
+          "q": [
+            "20.00",
+            "15"
+          ],
+          "uncertain": false
+        }
+      },
+      "economic_pnl": null,
+      "gate": "MISSING_MATCH_CLOCK_AND_L2_EVENTS",
+      "prints": {
+        "all_rows": 1488,
+        "maker_buy_rows": 800,
+        "maker_rows": 960,
+        "taker_rows": 528,
+        "taker_rows_missing_in_all": 0
+      },
+      "slug": "btc-updown-15m-1790003700"
+    },
+    {
+      "arms": {
+        "one_cent_back:queue_back": {
+          "cash": "3.45",
+          "counters": {
+            "partial_fills": 0,
+            "reservation_rejected": 246
+          },
+          "diagnostic_pnl": "-3.45",
+          "end_worst": "-3.45",
+          "fills": [
+            {
+              "cash": "2.45",
+              "kind": "maker",
+              "price": "0.49",
+              "qty": "5",
+              "side": 1,
+              "when": 1790004955000
+            },
+            {
+              "cash": "1.00",
+              "kind": "maker",
+              "price": "0.20",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005163000
+            }
+          ],
+          "max_reserved": "8.30",
+          "q": [
+            "0",
+            "10"
+          ],
+          "uncertain": false
+        },
+        "one_cent_back:queue_front": {
+          "cash": "15.00",
+          "counters": {
+            "partial_fills": 0,
+            "reservation_rejected": 1085
+          },
+          "diagnostic_pnl": "0.00",
+          "end_worst": "0.00",
+          "fills": [
+            {
+              "cash": "2.55",
+              "kind": "maker",
+              "price": "0.51",
+              "qty": "5",
+              "side": 1,
+              "when": 1790004683000
+            },
+            {
+              "cash": "3.00",
+              "kind": "maker",
+              "price": "0.60",
+              "qty": "5",
+              "side": 0,
+              "when": 1790004805000
+            },
+            {
+              "cash": "2.90",
+              "kind": "maker",
+              "price": "0.58",
+              "qty": "5",
+              "side": 0,
+              "when": 1790004823000
+            },
+            {
+              "cash": "1.85",
+              "kind": "maker",
+              "price": "0.37",
+              "qty": "5",
+              "side": 1,
+              "when": 1790004847000
+            },
+            {
+              "cash": "3.10",
+              "kind": "maker",
+              "price": "0.62",
+              "qty": "5",
+              "side": 0,
+              "when": 1790004970000
+            },
+            {
+              "cash": "1.55",
+              "kind": "maker",
+              "price": "0.31",
+              "qty": "5",
+              "side": 1,
+              "when": 1790004976000
+            },
+            {
+              "cash": "0.05",
+              "kind": "maker",
+              "price": "0.01",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005424000
+            }
+          ],
+          "max_reserved": "15.00",
+          "q": [
+            "15",
+            "20"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_back": {
+          "cash": "12.7000",
+          "counters": {
+            "partial_fills": 2,
+            "reservation_rejected": 648
+          },
+          "diagnostic_pnl": "-2.7000",
+          "end_worst": "-2.7000",
+          "fills": [
+            {
+              "cash": "3.05",
+              "kind": "maker",
+              "price": "0.61",
+              "qty": "5",
+              "side": 0,
+              "when": 1790004632000
+            },
+            {
+              "cash": "2.5",
+              "kind": "maker",
+              "price": "0.5",
+              "qty": "5",
+              "side": 1,
+              "when": 1790004955000
+            },
+            {
+              "cash": "0.0105",
+              "kind": "maker",
+              "price": "0.21",
+              "qty": "0.05",
+              "side": 1,
+              "when": 1790005162000
+            },
+            {
+              "cash": "1.0395",
+              "kind": "maker",
+              "price": "0.21",
+              "qty": "4.95",
+              "side": 1,
+              "when": 1790005162000
+            },
+            {
+              "cash": "0.45",
+              "kind": "maker",
+              "price": "0.09",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005207000
+            },
+            {
+              "cash": "4.35",
+              "kind": "maker",
+              "price": "0.87",
+              "qty": "5",
+              "side": 0,
+              "when": 1790005246000
+            },
+            {
+              "cash": "1.30",
+              "kind": "maker",
+              "price": "0.26",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005348000
+            }
+          ],
+          "max_reserved": "14.9500",
+          "q": [
+            "10",
+            "20.00"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_front": {
+          "cash": "15.000",
+          "counters": {
+            "partial_fills": 4,
+            "reservation_rejected": 1480
+          },
+          "diagnostic_pnl": "0.000",
+          "end_worst": "0.000",
+          "fills": [
+            {
+              "cash": "0.305",
+              "kind": "maker",
+              "price": "0.61",
+              "qty": "0.5",
+              "side": 0,
+              "when": 1790004632000
+            },
+            {
+              "cash": "2.745",
+              "kind": "maker",
+              "price": "0.61",
+              "qty": "4.5",
+              "side": 0,
+              "when": 1790004632000
+            },
+            {
+              "cash": "2.15",
+              "kind": "maker",
+              "price": "0.43",
+              "qty": "5",
+              "side": 1,
+              "when": 1790004659000
+            },
+            {
+              "cash": "1.540",
+              "kind": "maker",
+              "price": "0.55",
+              "qty": "2.8",
+              "side": 0,
+              "when": 1790004660000
+            },
+            {
+              "cash": "1.210",
+              "kind": "maker",
+              "price": "0.55",
+              "qty": "2.2",
+              "side": 0,
+              "when": 1790004660000
+            },
+            {
+              "cash": "2.60",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "5",
+              "side": 1,
+              "when": 1790004683000
+            },
+            {
+              "cash": "2.35",
+              "kind": "maker",
+              "price": "0.47",
+              "qty": "5",
+              "side": 0,
+              "when": 1790004701000
+            },
+            {
+              "cash": "1.90",
+              "kind": "maker",
+              "price": "0.38",
+              "qty": "5",
+              "side": 1,
+              "when": 1790004847000
+            },
+            {
+              "cash": "0.20",
+              "kind": "maker",
+              "price": "0.04",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005387000
+            }
+          ],
+          "max_reserved": "15.000",
+          "q": [
+            "15.0",
+            "20"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_back": {
+          "cash": "14.907345",
+          "counters": {
+            "hedge_execution_rejected": 1,
+            "partial_fills": 2,
+            "reservation_rejected": 670
+          },
+          "diagnostic_pnl": "0.092655",
+          "end_worst": "0.092655",
+          "fills": [
+            {
+              "cash": "3.05",
+              "kind": "maker",
+              "price": "0.61",
+              "qty": "5",
+              "side": 0,
+              "when": 1790004632000
+            },
+            {
+              "cash": "2.5",
+              "kind": "maker",
+              "price": "0.5",
+              "qty": "5",
+              "side": 1,
+              "when": 1790004955000
+            },
+            {
+              "cash": "0.0105",
+              "kind": "maker",
+              "price": "0.21",
+              "qty": "0.05",
+              "side": 1,
+              "when": 1790005162000
+            },
+            {
+              "cash": "1.0395",
+              "kind": "maker",
+              "price": "0.21",
+              "qty": "4.95",
+              "side": 1,
+              "when": 1790005162000
+            },
+            {
+              "cash": "0.45",
+              "kind": "maker",
+              "price": "0.09",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005207000
+            },
+            {
+              "cash": "4.625760",
+              "kind": "taker",
+              "price": "0.925152",
+              "qty": "5",
+              "side": 0,
+              "when": 1790005209255
+            },
+            {
+              "cash": "3.231585",
+              "kind": "taker",
+              "price": "0.646317",
+              "qty": "5",
+              "side": 0,
+              "when": 1790005282264
+            }
+          ],
+          "max_reserved": "14.957345",
+          "q": [
+            "15",
+            "15.00"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_front": {
+          "cash": "15.000",
+          "counters": {
+            "partial_fills": 4,
+            "reservation_rejected": 1480
+          },
+          "diagnostic_pnl": "0.000",
+          "end_worst": "0.000",
+          "fills": [
+            {
+              "cash": "0.305",
+              "kind": "maker",
+              "price": "0.61",
+              "qty": "0.5",
+              "side": 0,
+              "when": 1790004632000
+            },
+            {
+              "cash": "2.745",
+              "kind": "maker",
+              "price": "0.61",
+              "qty": "4.5",
+              "side": 0,
+              "when": 1790004632000
+            },
+            {
+              "cash": "2.15",
+              "kind": "maker",
+              "price": "0.43",
+              "qty": "5",
+              "side": 1,
+              "when": 1790004659000
+            },
+            {
+              "cash": "1.540",
+              "kind": "maker",
+              "price": "0.55",
+              "qty": "2.8",
+              "side": 0,
+              "when": 1790004660000
+            },
+            {
+              "cash": "1.210",
+              "kind": "maker",
+              "price": "0.55",
+              "qty": "2.2",
+              "side": 0,
+              "when": 1790004660000
+            },
+            {
+              "cash": "2.60",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "5",
+              "side": 1,
+              "when": 1790004683000
+            },
+            {
+              "cash": "2.35",
+              "kind": "maker",
+              "price": "0.47",
+              "qty": "5",
+              "side": 0,
+              "when": 1790004701000
+            },
+            {
+              "cash": "1.90",
+              "kind": "maker",
+              "price": "0.38",
+              "qty": "5",
+              "side": 1,
+              "when": 1790004847000
+            },
+            {
+              "cash": "0.20",
+              "kind": "maker",
+              "price": "0.04",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005387000
+            }
+          ],
+          "max_reserved": "15.000",
+          "q": [
+            "15.0",
+            "20"
+          ],
+          "uncertain": false
+        }
+      },
+      "economic_pnl": null,
+      "gate": "MISSING_MATCH_CLOCK_AND_L2_EVENTS",
+      "prints": {
+        "all_rows": 2555,
+        "maker_buy_rows": 1306,
+        "maker_rows": 1587,
+        "taker_rows": 968,
+        "taker_rows_missing_in_all": 0
+      },
+      "slug": "btc-updown-15m-1790004600"
+    },
+    {
+      "arms": {
+        "one_cent_back:queue_back": {
+          "cash": "3.0566",
+          "counters": {
+            "partial_fills": 1,
+            "reservation_rejected": 380
+          },
+          "diagnostic_pnl": "3.4334",
+          "end_worst": "-3.0566",
+          "fills": [
+            {
+              "cash": "0.5066",
+              "kind": "maker",
+              "price": "0.34",
+              "qty": "1.49",
+              "side": 1,
+              "when": 1790005852000
+            },
+            {
+              "cash": "2.55",
+              "kind": "maker",
+              "price": "0.51",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005954000
+            }
+          ],
+          "max_reserved": "6.4566",
+          "q": [
+            "0",
+            "6.49"
+          ],
+          "uncertain": false
+        },
+        "one_cent_back:queue_front": {
+          "cash": "14.8810",
+          "counters": {
+            "partial_fills": 3,
+            "reservation_rejected": 1173
+          },
+          "diagnostic_pnl": "3.2990",
+          "end_worst": "0.1190",
+          "fills": [
+            {
+              "cash": "2.85",
+              "kind": "maker",
+              "price": "0.57",
+              "qty": "5",
+              "side": 0,
+              "when": 1790005553000
+            },
+            {
+              "cash": "1.4310",
+              "kind": "maker",
+              "price": "0.45",
+              "qty": "3.18",
+              "side": 1,
+              "when": 1790005570000
+            },
+            {
+              "cash": "2.70",
+              "kind": "maker",
+              "price": "0.54",
+              "qty": "5",
+              "side": 0,
+              "when": 1790005615000
+            },
+            {
+              "cash": "2.15",
+              "kind": "maker",
+              "price": "0.43",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005792000
+            },
+            {
+              "cash": "2.70",
+              "kind": "maker",
+              "price": "0.54",
+              "qty": "5",
+              "side": 0,
+              "when": 1790005795000
+            },
+            {
+              "cash": "1.70",
+              "kind": "maker",
+              "price": "0.34",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005852000
+            },
+            {
+              "cash": "0.9855",
+              "kind": "maker",
+              "price": "0.27",
+              "qty": "3.65",
+              "side": 1,
+              "when": 1790005858000
+            },
+            {
+              "cash": "0.3645",
+              "kind": "maker",
+              "price": "0.27",
+              "qty": "1.35",
+              "side": 1,
+              "when": 1790005858000
+            }
+          ],
+          "max_reserved": "14.9810",
+          "q": [
+            "15",
+            "18.18"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_back": {
+          "cash": "14.7000000",
+          "counters": {
+            "partial_fills": 4,
+            "reservation_rejected": 1055
+          },
+          "diagnostic_pnl": "5.3000000",
+          "end_worst": "-4.7000000",
+          "fills": [
+            {
+              "cash": "1.8902606",
+              "kind": "maker",
+              "price": "0.58",
+              "qty": "3.25907",
+              "side": 0,
+              "when": 1790005553000
+            },
+            {
+              "cash": "1.0097394",
+              "kind": "maker",
+              "price": "0.58",
+              "qty": "1.74093",
+              "side": 0,
+              "when": 1790005553000
+            },
+            {
+              "cash": "2.20",
+              "kind": "maker",
+              "price": "0.44",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005627000
+            },
+            {
+              "cash": "0.900",
+              "kind": "maker",
+              "price": "0.45",
+              "qty": "2.0",
+              "side": 1,
+              "when": 1790005628000
+            },
+            {
+              "cash": "1.350",
+              "kind": "maker",
+              "price": "0.45",
+              "qty": "3.0",
+              "side": 1,
+              "when": 1790005628000
+            },
+            {
+              "cash": "2.80",
+              "kind": "maker",
+              "price": "0.56",
+              "qty": "5",
+              "side": 0,
+              "when": 1790005630000
+            },
+            {
+              "cash": "2.60",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005954000
+            },
+            {
+              "cash": "1.95",
+              "kind": "maker",
+              "price": "0.39",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005976000
+            }
+          ],
+          "max_reserved": "15.0000000",
+          "q": [
+            "10.00000",
+            "20.0"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_front": {
+          "cash": "15.00",
+          "counters": {
+            "partial_fills": 0,
+            "reservation_rejected": 1475
+          },
+          "diagnostic_pnl": "0.00",
+          "end_worst": "0.00",
+          "fills": [
+            {
+              "cash": "2.90",
+              "kind": "maker",
+              "price": "0.58",
+              "qty": "5",
+              "side": 0,
+              "when": 1790005553000
+            },
+            {
+              "cash": "2.40",
+              "kind": "maker",
+              "price": "0.48",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005564000
+            },
+            {
+              "cash": "2.20",
+              "kind": "maker",
+              "price": "0.44",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005565000
+            },
+            {
+              "cash": "2.70",
+              "kind": "maker",
+              "price": "0.54",
+              "qty": "5",
+              "side": 0,
+              "when": 1790005567000
+            },
+            {
+              "cash": "2.75",
+              "kind": "maker",
+              "price": "0.55",
+              "qty": "5",
+              "side": 0,
+              "when": 1790005615000
+            },
+            {
+              "cash": "1.90",
+              "kind": "maker",
+              "price": "0.38",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005652000
+            },
+            {
+              "cash": "0.15",
+              "kind": "maker",
+              "price": "0.03",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006288000
+            }
+          ],
+          "max_reserved": "15.00",
+          "q": [
+            "20",
+            "15"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_back": {
+          "cash": "14.9666250",
+          "counters": {
+            "hedge_depth_missing": 6,
+            "partial_fills": 4,
+            "reservation_rejected": 759
+          },
+          "diagnostic_pnl": "5.0333750",
+          "end_worst": "0.0333750",
+          "fills": [
+            {
+              "cash": "1.8902606",
+              "kind": "maker",
+              "price": "0.58",
+              "qty": "3.25907",
+              "side": 0,
+              "when": 1790005553000
+            },
+            {
+              "cash": "1.0097394",
+              "kind": "maker",
+              "price": "0.58",
+              "qty": "1.74093",
+              "side": 0,
+              "when": 1790005553000
+            },
+            {
+              "cash": "2.20",
+              "kind": "maker",
+              "price": "0.44",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005627000
+            },
+            {
+              "cash": "0.900",
+              "kind": "maker",
+              "price": "0.45",
+              "qty": "2.0",
+              "side": 1,
+              "when": 1790005628000
+            },
+            {
+              "cash": "1.350",
+              "kind": "maker",
+              "price": "0.45",
+              "qty": "3.0",
+              "side": 1,
+              "when": 1790005628000
+            },
+            {
+              "cash": "2.80",
+              "kind": "maker",
+              "price": "0.56",
+              "qty": "5",
+              "side": 0,
+              "when": 1790005630000
+            },
+            {
+              "cash": "2.60",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005954000
+            },
+            {
+              "cash": "1.95",
+              "kind": "maker",
+              "price": "0.39",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005976000
+            },
+            {
+              "cash": "0.266625",
+              "kind": "taker",
+              "price": "0.053325",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006271345
+            }
+          ],
+          "max_reserved": "15.0000000",
+          "q": [
+            "15.00000",
+            "20.0"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_front": {
+          "cash": "15.00",
+          "counters": {
+            "partial_fills": 0,
+            "reservation_rejected": 1475
+          },
+          "diagnostic_pnl": "0.00",
+          "end_worst": "0.00",
+          "fills": [
+            {
+              "cash": "2.90",
+              "kind": "maker",
+              "price": "0.58",
+              "qty": "5",
+              "side": 0,
+              "when": 1790005553000
+            },
+            {
+              "cash": "2.40",
+              "kind": "maker",
+              "price": "0.48",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005564000
+            },
+            {
+              "cash": "2.20",
+              "kind": "maker",
+              "price": "0.44",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005565000
+            },
+            {
+              "cash": "2.70",
+              "kind": "maker",
+              "price": "0.54",
+              "qty": "5",
+              "side": 0,
+              "when": 1790005567000
+            },
+            {
+              "cash": "2.75",
+              "kind": "maker",
+              "price": "0.55",
+              "qty": "5",
+              "side": 0,
+              "when": 1790005615000
+            },
+            {
+              "cash": "1.90",
+              "kind": "maker",
+              "price": "0.38",
+              "qty": "5",
+              "side": 1,
+              "when": 1790005652000
+            },
+            {
+              "cash": "0.15",
+              "kind": "maker",
+              "price": "0.03",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006288000
+            }
+          ],
+          "max_reserved": "15.00",
+          "q": [
+            "20",
+            "15"
+          ],
+          "uncertain": false
+        }
+      },
+      "economic_pnl": null,
+      "gate": "MISSING_MATCH_CLOCK_AND_L2_EVENTS",
+      "prints": {
+        "all_rows": 2799,
+        "maker_buy_rows": 1433,
+        "maker_rows": 1803,
+        "taker_rows": 996,
+        "taker_rows_missing_in_all": 0
+      },
+      "slug": "btc-updown-15m-1790005500"
+    },
+    {
+      "arms": {
+        "one_cent_back:queue_back": {
+          "cash": "1.50",
+          "counters": {
+            "partial_fills": 0
+          },
+          "diagnostic_pnl": "-1.50",
+          "end_worst": "-1.50",
+          "fills": [
+            {
+              "cash": "1.50",
+              "kind": "maker",
+              "price": "0.30",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006846000
+            }
+          ],
+          "max_reserved": "6.440",
+          "q": [
+            "5",
+            "0"
+          ],
+          "uncertain": false
+        },
+        "one_cent_back:queue_front": {
+          "cash": "11.690",
+          "counters": {
+            "partial_fills": 1,
+            "reservation_rejected": 1072
+          },
+          "diagnostic_pnl": "-2.690",
+          "end_worst": "-2.690",
+          "fills": [
+            {
+              "cash": "2.45",
+              "kind": "maker",
+              "price": "0.49",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006464000
+            },
+            {
+              "cash": "2.040",
+              "kind": "maker",
+              "price": "0.51",
+              "qty": "4.0",
+              "side": 1,
+              "when": 1790006468000
+            },
+            {
+              "cash": "2.60",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "5",
+              "side": 1,
+              "when": 1790006516000
+            },
+            {
+              "cash": "2.25",
+              "kind": "maker",
+              "price": "0.45",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006536000
+            },
+            {
+              "cash": "2.35",
+              "kind": "maker",
+              "price": "0.47",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006572000
+            }
+          ],
+          "max_reserved": "14.990",
+          "q": [
+            "15",
+            "9.0"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_back": {
+          "cash": "11.8479",
+          "counters": {
+            "partial_fills": 3,
+            "reservation_rejected": 842
+          },
+          "diagnostic_pnl": "-1.8479",
+          "end_worst": "-1.8479",
+          "fills": [
+            {
+              "cash": "1.60",
+              "kind": "maker",
+              "price": "0.32",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006656000
+            },
+            {
+              "cash": "1.60",
+              "kind": "maker",
+              "price": "0.8",
+              "qty": "2.0",
+              "side": 1,
+              "when": 1790006729000
+            },
+            {
+              "cash": "2.40",
+              "kind": "maker",
+              "price": "0.8",
+              "qty": "3.0",
+              "side": 1,
+              "when": 1790006729000
+            },
+            {
+              "cash": "4.10",
+              "kind": "maker",
+              "price": "0.82",
+              "qty": "5",
+              "side": 1,
+              "when": 1790006737000
+            },
+            {
+              "cash": "0.0979",
+              "kind": "maker",
+              "price": "0.11",
+              "qty": "0.89",
+              "side": 0,
+              "when": 1790006819000
+            },
+            {
+              "cash": "0.5",
+              "kind": "maker",
+              "price": "0.1",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006824000
+            },
+            {
+              "cash": "1.55",
+              "kind": "maker",
+              "price": "0.31",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006846000
+            }
+          ],
+          "max_reserved": "14.8979",
+          "q": [
+            "15.89",
+            "10.0"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_front": {
+          "cash": "14.6216",
+          "counters": {
+            "partial_fills": 2,
+            "reservation_rejected": 1371
+          },
+          "diagnostic_pnl": "-3.4516",
+          "end_worst": "-3.4516",
+          "fills": [
+            {
+              "cash": "2.5",
+              "kind": "maker",
+              "price": "0.5",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006432000
+            },
+            {
+              "cash": "2.60",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "5",
+              "side": 1,
+              "when": 1790006462000
+            },
+            {
+              "cash": "2.5",
+              "kind": "maker",
+              "price": "0.5",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006464000
+            },
+            {
+              "cash": "2.080",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "4.0",
+              "side": 1,
+              "when": 1790006468000
+            },
+            {
+              "cash": "1.0416",
+              "kind": "maker",
+              "price": "0.48",
+              "qty": "2.17",
+              "side": 1,
+              "when": 1790006483000
+            },
+            {
+              "cash": "2.30",
+              "kind": "maker",
+              "price": "0.46",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006536000
+            },
+            {
+              "cash": "1.60",
+              "kind": "maker",
+              "price": "0.32",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006656000
+            }
+          ],
+          "max_reserved": "14.9716",
+          "q": [
+            "20",
+            "11.17"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_back": {
+          "cash": "11.8479",
+          "counters": {
+            "partial_fills": 3,
+            "reservation_rejected": 842
+          },
+          "diagnostic_pnl": "-1.8479",
+          "end_worst": "-1.8479",
+          "fills": [
+            {
+              "cash": "1.60",
+              "kind": "maker",
+              "price": "0.32",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006656000
+            },
+            {
+              "cash": "1.60",
+              "kind": "maker",
+              "price": "0.8",
+              "qty": "2.0",
+              "side": 1,
+              "when": 1790006729000
+            },
+            {
+              "cash": "2.40",
+              "kind": "maker",
+              "price": "0.8",
+              "qty": "3.0",
+              "side": 1,
+              "when": 1790006729000
+            },
+            {
+              "cash": "4.10",
+              "kind": "maker",
+              "price": "0.82",
+              "qty": "5",
+              "side": 1,
+              "when": 1790006737000
+            },
+            {
+              "cash": "0.0979",
+              "kind": "maker",
+              "price": "0.11",
+              "qty": "0.89",
+              "side": 0,
+              "when": 1790006819000
+            },
+            {
+              "cash": "0.5",
+              "kind": "maker",
+              "price": "0.1",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006824000
+            },
+            {
+              "cash": "1.55",
+              "kind": "maker",
+              "price": "0.31",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006846000
+            }
+          ],
+          "max_reserved": "14.8979",
+          "q": [
+            "15.89",
+            "10.0"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_front": {
+          "cash": "14.6216",
+          "counters": {
+            "partial_fills": 2,
+            "reservation_rejected": 1371
+          },
+          "diagnostic_pnl": "-3.4516",
+          "end_worst": "-3.4516",
+          "fills": [
+            {
+              "cash": "2.5",
+              "kind": "maker",
+              "price": "0.5",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006432000
+            },
+            {
+              "cash": "2.60",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "5",
+              "side": 1,
+              "when": 1790006462000
+            },
+            {
+              "cash": "2.5",
+              "kind": "maker",
+              "price": "0.5",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006464000
+            },
+            {
+              "cash": "2.080",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "4.0",
+              "side": 1,
+              "when": 1790006468000
+            },
+            {
+              "cash": "1.0416",
+              "kind": "maker",
+              "price": "0.48",
+              "qty": "2.17",
+              "side": 1,
+              "when": 1790006483000
+            },
+            {
+              "cash": "2.30",
+              "kind": "maker",
+              "price": "0.46",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006536000
+            },
+            {
+              "cash": "1.60",
+              "kind": "maker",
+              "price": "0.32",
+              "qty": "5",
+              "side": 0,
+              "when": 1790006656000
+            }
+          ],
+          "max_reserved": "14.9716",
+          "q": [
+            "20",
+            "11.17"
+          ],
+          "uncertain": false
+        }
+      },
+      "economic_pnl": null,
+      "gate": "MISSING_MATCH_CLOCK_AND_L2_EVENTS",
+      "prints": {
+        "all_rows": 2107,
+        "maker_buy_rows": 1112,
+        "maker_rows": 1370,
+        "taker_rows": 737,
+        "taker_rows_missing_in_all": 0
+      },
+      "slug": "btc-updown-15m-1790006400"
+    },
+    {
+      "arms": {
+        "one_cent_back:queue_back": {
+          "cash": "2.15",
+          "counters": {
+            "partial_fills": 0,
+            "reservation_rejected": 84
+          },
+          "diagnostic_pnl": "-2.15",
+          "end_worst": "-2.15",
+          "fills": [
+            {
+              "cash": "1.35",
+              "kind": "maker",
+              "price": "0.27",
+              "qty": "5",
+              "side": 1,
+              "when": 1790007688000
+            },
+            {
+              "cash": "0.80",
+              "kind": "maker",
+              "price": "0.16",
+              "qty": "5",
+              "side": 1,
+              "when": 1790007965000
+            }
+          ],
+          "max_reserved": "7.05",
+          "q": [
+            "0",
+            "10"
+          ],
+          "uncertain": false
+        },
+        "one_cent_back:queue_front": {
+          "cash": "14.74470496",
+          "counters": {
+            "partial_fills": 3,
+            "reservation_rejected": 1225
+          },
+          "diagnostic_pnl": "1.25529504",
+          "end_worst": "1.25529504",
+          "fills": [
+            {
+              "cash": "3.000",
+              "kind": "maker",
+              "price": "0.75",
+              "qty": "4.0",
+              "side": 0,
+              "when": 1790007335000
+            },
+            {
+              "cash": "0.95",
+              "kind": "maker",
+              "price": "0.19",
+              "qty": "5",
+              "side": 1,
+              "when": 1790007382000
+            },
+            {
+              "cash": "1.480",
+              "kind": "maker",
+              "price": "0.74",
+              "qty": "2.0",
+              "side": 0,
+              "when": 1790007394000
+            },
+            {
+              "cash": "3.70",
+              "kind": "maker",
+              "price": "0.74",
+              "qty": "5",
+              "side": 0,
+              "when": 1790007398000
+            },
+            {
+              "cash": "0.56470496",
+              "kind": "maker",
+              "price": "0.16",
+              "qty": "3.529406",
+              "side": 1,
+              "when": 1790007445000
+            },
+            {
+              "cash": "1.05",
+              "kind": "maker",
+              "price": "0.21",
+              "qty": "5",
+              "side": 1,
+              "when": 1790007458000
+            },
+            {
+              "cash": "3.30",
+              "kind": "maker",
+              "price": "0.66",
+              "qty": "5",
+              "side": 0,
+              "when": 1790007489000
+            },
+            {
+              "cash": "0.70",
+              "kind": "maker",
+              "price": "0.14",
+              "qty": "5",
+              "side": 1,
+              "when": 1790007765000
+            }
+          ],
+          "max_reserved": "14.99470496",
+          "q": [
+            "16.0",
+            "18.529406"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_back": {
+          "cash": "10.42736868",
+          "counters": {
+            "partial_fills": 1,
+            "reservation_rejected": 698
+          },
+          "diagnostic_pnl": "-0.63789468",
+          "end_worst": "-0.63789468",
+          "fills": [
+            {
+              "cash": "3.92736868",
+              "kind": "maker",
+              "price": "0.82",
+              "qty": "4.789474",
+              "side": 0,
+              "when": 1790007380000
+            },
+            {
+              "cash": "1.10",
+              "kind": "maker",
+              "price": "0.22",
+              "qty": "5",
+              "side": 1,
+              "when": 1790007458000
+            },
+            {
+              "cash": "4.0",
+              "kind": "maker",
+              "price": "0.8",
+              "qty": "5",
+              "side": 0,
+              "when": 1790007461000
+            },
+            {
+              "cash": "1.40",
+              "kind": "maker",
+              "price": "0.28",
+              "qty": "5",
+              "side": 1,
+              "when": 1790007688000
+            }
+          ],
+          "max_reserved": "14.97736868",
+          "q": [
+            "9.789474",
+            "10"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_front": {
+          "cash": "14.940",
+          "counters": {
+            "partial_fills": 3,
+            "reservation_rejected": 1469
+          },
+          "diagnostic_pnl": "-0.940",
+          "end_worst": "-0.940",
+          "fills": [
+            {
+              "cash": "3.040",
+              "kind": "maker",
+              "price": "0.76",
+              "qty": "4.0",
+              "side": 0,
+              "when": 1790007335000
+            },
+            {
+              "cash": "1.05",
+              "kind": "maker",
+              "price": "0.21",
+              "qty": "5",
+              "side": 1,
+              "when": 1790007340000
+            },
+            {
+              "cash": "3.95",
+              "kind": "maker",
+              "price": "0.79",
+              "qty": "5",
+              "side": 0,
+              "when": 1790007343000
+            },
+            {
+              "cash": "1.0",
+              "kind": "maker",
+              "price": "0.2",
+              "qty": "5",
+              "side": 1,
+              "when": 1790007346000
+            },
+            {
+              "cash": "4.0",
+              "kind": "maker",
+              "price": "0.8",
+              "qty": "5",
+              "side": 0,
+              "when": 1790007350000
+            },
+            {
+              "cash": "0.95",
+              "kind": "maker",
+              "price": "0.19",
+              "qty": "5",
+              "side": 1,
+              "when": 1790007350000
+            },
+            {
+              "cash": "0.190",
+              "kind": "maker",
+              "price": "0.19",
+              "qty": "1.0",
+              "side": 1,
+              "when": 1790007352000
+            },
+            {
+              "cash": "0.760",
+              "kind": "maker",
+              "price": "0.19",
+              "qty": "4.0",
+              "side": 1,
+              "when": 1790007352000
+            }
+          ],
+          "max_reserved": "14.940",
+          "q": [
+            "14.0",
+            "20.0"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_back": {
+          "cash": "10.42736868",
+          "counters": {
+            "partial_fills": 1,
+            "reservation_rejected": 698
+          },
+          "diagnostic_pnl": "-0.63789468",
+          "end_worst": "-0.63789468",
+          "fills": [
+            {
+              "cash": "3.92736868",
+              "kind": "maker",
+              "price": "0.82",
+              "qty": "4.789474",
+              "side": 0,
+              "when": 1790007380000
+            },
+            {
+              "cash": "1.10",
+              "kind": "maker",
+              "price": "0.22",
+              "qty": "5",
+              "side": 1,
+              "when": 1790007458000
+            },
+            {
+              "cash": "4.0",
+              "kind": "maker",
+              "price": "0.8",
+              "qty": "5",
+              "side": 0,
+              "when": 1790007461000
+            },
+            {
+              "cash": "1.40",
+              "kind": "maker",
+              "price": "0.28",
+              "qty": "5",
+              "side": 1,
+              "when": 1790007688000
+            }
+          ],
+          "max_reserved": "14.97736868",
+          "q": [
+            "9.789474",
+            "10"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_front": {
+          "cash": "14.940",
+          "counters": {
+            "partial_fills": 3,
+            "reservation_rejected": 1469
+          },
+          "diagnostic_pnl": "-0.940",
+          "end_worst": "-0.940",
+          "fills": [
+            {
+              "cash": "3.040",
+              "kind": "maker",
+              "price": "0.76",
+              "qty": "4.0",
+              "side": 0,
+              "when": 1790007335000
+            },
+            {
+              "cash": "1.05",
+              "kind": "maker",
+              "price": "0.21",
+              "qty": "5",
+              "side": 1,
+              "when": 1790007340000
+            },
+            {
+              "cash": "3.95",
+              "kind": "maker",
+              "price": "0.79",
+              "qty": "5",
+              "side": 0,
+              "when": 1790007343000
+            },
+            {
+              "cash": "1.0",
+              "kind": "maker",
+              "price": "0.2",
+              "qty": "5",
+              "side": 1,
+              "when": 1790007346000
+            },
+            {
+              "cash": "4.0",
+              "kind": "maker",
+              "price": "0.8",
+              "qty": "5",
+              "side": 0,
+              "when": 1790007350000
+            },
+            {
+              "cash": "0.95",
+              "kind": "maker",
+              "price": "0.19",
+              "qty": "5",
+              "side": 1,
+              "when": 1790007350000
+            },
+            {
+              "cash": "0.190",
+              "kind": "maker",
+              "price": "0.19",
+              "qty": "1.0",
+              "side": 1,
+              "when": 1790007352000
+            },
+            {
+              "cash": "0.760",
+              "kind": "maker",
+              "price": "0.19",
+              "qty": "4.0",
+              "side": 1,
+              "when": 1790007352000
+            }
+          ],
+          "max_reserved": "14.940",
+          "q": [
+            "14.0",
+            "20.0"
+          ],
+          "uncertain": false
+        }
+      },
+      "economic_pnl": null,
+      "gate": "MISSING_MATCH_CLOCK_AND_L2_EVENTS",
+      "prints": {
+        "all_rows": 1818,
+        "maker_buy_rows": 886,
+        "maker_rows": 1121,
+        "taker_rows": 697,
+        "taker_rows_missing_in_all": 0
+      },
+      "slug": "btc-updown-15m-1790007300"
+    },
+    {
+      "arms": {
+        "one_cent_back:queue_back": {
+          "cash": "0",
+          "counters": {
+            "open_execution_tail": 1,
+            "unobserved_live_interval": 1
+          },
+          "diagnostic_pnl": null,
+          "end_worst": "0",
+          "fills": [],
+          "max_reserved": "4.85",
+          "q": [
+            "0",
+            "0"
+          ],
+          "uncertain": true
+        },
+        "one_cent_back:queue_front": {
+          "cash": "14.70",
+          "counters": {
+            "partial_fills": 0,
+            "reservation_rejected": 983
+          },
+          "diagnostic_pnl": "0.30",
+          "end_worst": "0.30",
+          "fills": [
+            {
+              "cash": "2.25",
+              "kind": "maker",
+              "price": "0.45",
+              "qty": "5",
+              "side": 1,
+              "when": 1790008361000
+            },
+            {
+              "cash": "2.10",
+              "kind": "maker",
+              "price": "0.42",
+              "qty": "5",
+              "side": 1,
+              "when": 1790008385000
+            },
+            {
+              "cash": "2.25",
+              "kind": "maker",
+              "price": "0.45",
+              "qty": "5",
+              "side": 0,
+              "when": 1790008430000
+            },
+            {
+              "cash": "3.25",
+              "kind": "maker",
+              "price": "0.65",
+              "qty": "5",
+              "side": 1,
+              "when": 1790008458000
+            },
+            {
+              "cash": "1.60",
+              "kind": "maker",
+              "price": "0.32",
+              "qty": "5",
+              "side": 0,
+              "when": 1790008463000
+            },
+            {
+              "cash": "0.95",
+              "kind": "maker",
+              "price": "0.19",
+              "qty": "5",
+              "side": 0,
+              "when": 1790008583000
+            },
+            {
+              "cash": "1.25",
+              "kind": "maker",
+              "price": "0.25",
+              "qty": "5",
+              "side": 0,
+              "when": 1790008622000
+            },
+            {
+              "cash": "1.05",
+              "kind": "maker",
+              "price": "0.21",
+              "qty": "5",
+              "side": 0,
+              "when": 1790008668000
+            }
+          ],
+          "max_reserved": "14.90",
+          "q": [
+            "25",
+            "15"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_back": {
+          "cash": "12.20",
+          "counters": {
+            "open_execution_tail": 1,
+            "partial_fills": 0,
+            "reservation_rejected": 232,
+            "unobserved_live_interval": 1
+          },
+          "diagnostic_pnl": null,
+          "end_worst": "-2.20",
+          "fills": [
+            {
+              "cash": "3.20",
+              "kind": "maker",
+              "price": "0.64",
+              "qty": "5",
+              "side": 0,
+              "when": 1790008304000
+            },
+            {
+              "cash": "3.80",
+              "kind": "maker",
+              "price": "0.76",
+              "qty": "5",
+              "side": 1,
+              "when": 1790008644000
+            },
+            {
+              "cash": "0.45",
+              "kind": "maker",
+              "price": "0.09",
+              "qty": "5",
+              "side": 0,
+              "when": 1790008721000
+            },
+            {
+              "cash": "4.75",
+              "kind": "maker",
+              "price": "0.95",
+              "qty": "5",
+              "side": 1,
+              "when": 1790008776000
+            }
+          ],
+          "max_reserved": "12.45",
+          "q": [
+            "10",
+            "10"
+          ],
+          "uncertain": true
+        },
+        "touch:queue_front": {
+          "cash": "14.95",
+          "counters": {
+            "partial_fills": 0,
+            "reservation_rejected": 1484
+          },
+          "diagnostic_pnl": "5.05",
+          "end_worst": "0.05",
+          "fills": [
+            {
+              "cash": "2.15",
+              "kind": "maker",
+              "price": "0.43",
+              "qty": "5",
+              "side": 1,
+              "when": 1790008242000
+            },
+            {
+              "cash": "2.0",
+              "kind": "maker",
+              "price": "0.4",
+              "qty": "5",
+              "side": 1,
+              "when": 1790008257000
+            },
+            {
+              "cash": "3.10",
+              "kind": "maker",
+              "price": "0.62",
+              "qty": "5",
+              "side": 0,
+              "when": 1790008263000
+            },
+            {
+              "cash": "1.75",
+              "kind": "maker",
+              "price": "0.35",
+              "qty": "5",
+              "side": 1,
+              "when": 1790008280000
+            },
+            {
+              "cash": "3.20",
+              "kind": "maker",
+              "price": "0.64",
+              "qty": "5",
+              "side": 0,
+              "when": 1790008283000
+            },
+            {
+              "cash": "1.70",
+              "kind": "maker",
+              "price": "0.34",
+              "qty": "5",
+              "side": 1,
+              "when": 1790008301000
+            },
+            {
+              "cash": "1.05",
+              "kind": "maker",
+              "price": "0.21",
+              "qty": "5",
+              "side": 0,
+              "when": 1790008479000
+            }
+          ],
+          "max_reserved": "15.00",
+          "q": [
+            "15",
+            "20"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_back": {
+          "cash": "12.20",
+          "counters": {
+            "open_execution_tail": 1,
+            "partial_fills": 0,
+            "reservation_rejected": 232,
+            "unobserved_live_interval": 1
+          },
+          "diagnostic_pnl": null,
+          "end_worst": "-2.20",
+          "fills": [
+            {
+              "cash": "3.20",
+              "kind": "maker",
+              "price": "0.64",
+              "qty": "5",
+              "side": 0,
+              "when": 1790008304000
+            },
+            {
+              "cash": "3.80",
+              "kind": "maker",
+              "price": "0.76",
+              "qty": "5",
+              "side": 1,
+              "when": 1790008644000
+            },
+            {
+              "cash": "0.45",
+              "kind": "maker",
+              "price": "0.09",
+              "qty": "5",
+              "side": 0,
+              "when": 1790008721000
+            },
+            {
+              "cash": "4.75",
+              "kind": "maker",
+              "price": "0.95",
+              "qty": "5",
+              "side": 1,
+              "when": 1790008776000
+            }
+          ],
+          "max_reserved": "12.45",
+          "q": [
+            "10",
+            "10"
+          ],
+          "uncertain": true
+        },
+        "touch_hedge:queue_front": {
+          "cash": "14.763170",
+          "counters": {
+            "hedge_depth_missing": 1,
+            "partial_fills": 0,
+            "reservation_rejected": 986
+          },
+          "diagnostic_pnl": "-4.763170",
+          "end_worst": "-4.763170",
+          "fills": [
+            {
+              "cash": "2.15",
+              "kind": "maker",
+              "price": "0.43",
+              "qty": "5",
+              "side": 1,
+              "when": 1790008242000
+            },
+            {
+              "cash": "2.0",
+              "kind": "maker",
+              "price": "0.4",
+              "qty": "5",
+              "side": 1,
+              "when": 1790008257000
+            },
+            {
+              "cash": "3.231585",
+              "kind": "taker",
+              "price": "0.646317",
+              "qty": "5",
+              "side": 0,
+              "when": 1790008258904
+            },
+            {
+              "cash": "3.231585",
+              "kind": "taker",
+              "price": "0.646317",
+              "qty": "5",
+              "side": 0,
+              "when": 1790008259900
+            },
+            {
+              "cash": "3.10",
+              "kind": "maker",
+              "price": "0.62",
+              "qty": "5",
+              "side": 0,
+              "when": 1790008263000
+            },
+            {
+              "cash": "1.05",
+              "kind": "maker",
+              "price": "0.21",
+              "qty": "5",
+              "side": 0,
+              "when": 1790008479000
+            }
+          ],
+          "max_reserved": "14.913170",
+          "q": [
+            "20",
+            "10"
+          ],
+          "uncertain": false
+        }
+      },
+      "economic_pnl": null,
+      "gate": "MISSING_MATCH_CLOCK_AND_L2_EVENTS",
+      "prints": {
+        "all_rows": 2736,
+        "maker_buy_rows": 1421,
+        "maker_rows": 1705,
+        "taker_rows": 1031,
+        "taker_rows_missing_in_all": 0
+      },
+      "slug": "btc-updown-15m-1790008200"
+    },
+    {
+      "arms": {
+        "one_cent_back:queue_back": {
+          "cash": "3.10",
+          "counters": {
+            "partial_fills": 0,
+            "reservation_rejected": 695
+          },
+          "diagnostic_pnl": "1.90",
+          "end_worst": "-3.10",
+          "fills": [
+            {
+              "cash": "3.10",
+              "kind": "maker",
+              "price": "0.62",
+              "qty": "5",
+              "side": 0,
+              "when": 1790009201000
+            }
+          ],
+          "max_reserved": "4.85",
+          "q": [
+            "5",
+            "0"
+          ],
+          "uncertain": false
+        },
+        "one_cent_back:queue_front": {
+          "cash": "14.80500968",
+          "counters": {
+            "partial_fills": 7,
+            "reservation_rejected": 1042
+          },
+          "diagnostic_pnl": "0.19499032",
+          "end_worst": "0.19499032",
+          "fills": [
+            {
+              "cash": "2.0444448",
+              "kind": "maker",
+              "price": "0.48",
+              "qty": "4.25926",
+              "side": 1,
+              "when": 1790009132000
+            },
+            {
+              "cash": "0.71186388",
+              "kind": "maker",
+              "price": "0.42",
+              "qty": "1.694914",
+              "side": 1,
+              "when": 1790009165000
+            },
+            {
+              "cash": "2.80",
+              "kind": "maker",
+              "price": "0.56",
+              "qty": "5",
+              "side": 0,
+              "when": 1790009172000
+            },
+            {
+              "cash": "3.10",
+              "kind": "maker",
+              "price": "0.62",
+              "qty": "5",
+              "side": 0,
+              "when": 1790009201000
+            },
+            {
+              "cash": "0.298701",
+              "kind": "maker",
+              "price": "0.23",
+              "qty": "1.2987",
+              "side": 1,
+              "when": 1790009283000
+            },
+            {
+              "cash": "0.95",
+              "kind": "maker",
+              "price": "0.19",
+              "qty": "5",
+              "side": 1,
+              "when": 1790009321000
+            },
+            {
+              "cash": "0.9933",
+              "kind": "maker",
+              "price": "0.77",
+              "qty": "1.29",
+              "side": 0,
+              "when": 1790009348000
+            },
+            {
+              "cash": "2.8567",
+              "kind": "maker",
+              "price": "0.77",
+              "qty": "3.71",
+              "side": 0,
+              "when": 1790009348000
+            },
+            {
+              "cash": "0.6340",
+              "kind": "maker",
+              "price": "0.20",
+              "qty": "3.17",
+              "side": 1,
+              "when": 1790009349000
+            },
+            {
+              "cash": "0.3660",
+              "kind": "maker",
+              "price": "0.20",
+              "qty": "1.83",
+              "side": 1,
+              "when": 1790009349000
+            },
+            {
+              "cash": "0.05",
+              "kind": "maker",
+              "price": "0.01",
+              "qty": "5",
+              "side": 1,
+              "when": 1790009735000
+            }
+          ],
+          "max_reserved": "14.95500968",
+          "q": [
+            "15.00",
+            "22.252874"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_back": {
+          "cash": "14.55",
+          "counters": {
+            "partial_fills": 0,
+            "reservation_rejected": 752
+          },
+          "diagnostic_pnl": "0.45",
+          "end_worst": "0.45",
+          "fills": [
+            {
+              "cash": "2.85",
+              "kind": "maker",
+              "price": "0.57",
+              "qty": "5",
+              "side": 0,
+              "when": 1790009172000
+            },
+            {
+              "cash": "1.80",
+              "kind": "maker",
+              "price": "0.36",
+              "qty": "5",
+              "side": 1,
+              "when": 1790009201000
+            },
+            {
+              "cash": "3.90",
+              "kind": "maker",
+              "price": "0.78",
+              "qty": "5",
+              "side": 0,
+              "when": 1790009279000
+            },
+            {
+              "cash": "1.05",
+              "kind": "maker",
+              "price": "0.21",
+              "qty": "5",
+              "side": 1,
+              "when": 1790009349000
+            },
+            {
+              "cash": "1.15",
+              "kind": "maker",
+              "price": "0.23",
+              "qty": "5",
+              "side": 1,
+              "when": 1790009351000
+            },
+            {
+              "cash": "3.70",
+              "kind": "maker",
+              "price": "0.74",
+              "qty": "5",
+              "side": 0,
+              "when": 1790009574000
+            },
+            {
+              "cash": "0.10",
+              "kind": "maker",
+              "price": "0.02",
+              "qty": "5",
+              "side": 1,
+              "when": 1790009735000
+            }
+          ],
+          "max_reserved": "15.00",
+          "q": [
+            "15",
+            "20"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_front": {
+          "cash": "14.9470374",
+          "counters": {
+            "partial_fills": 4,
+            "reservation_rejected": 1395
+          },
+          "diagnostic_pnl": "0.0529626",
+          "end_worst": "0.0529626",
+          "fills": [
+            {
+              "cash": "2.0870374",
+              "kind": "maker",
+              "price": "0.49",
+              "qty": "4.25926",
+              "side": 1,
+              "when": 1790009132000
+            },
+            {
+              "cash": "1.2100",
+              "kind": "maker",
+              "price": "0.44",
+              "qty": "2.75",
+              "side": 1,
+              "when": 1790009153000
+            },
+            {
+              "cash": "2.85",
+              "kind": "maker",
+              "price": "0.57",
+              "qty": "5",
+              "side": 0,
+              "when": 1790009172000
+            },
+            {
+              "cash": "1.95",
+              "kind": "maker",
+              "price": "0.39",
+              "qty": "5",
+              "side": 1,
+              "when": 1790009177000
+            },
+            {
+              "cash": "3.0",
+              "kind": "maker",
+              "price": "0.6",
+              "qty": "5",
+              "side": 0,
+              "when": 1790009199000
+            },
+            {
+              "cash": "3.15",
+              "kind": "maker",
+              "price": "0.63",
+              "qty": "5",
+              "side": 0,
+              "when": 1790009201000
+            },
+            {
+              "cash": "0.4254540",
+              "kind": "maker",
+              "price": "0.12",
+              "qty": "3.54545",
+              "side": 1,
+              "when": 1790009405000
+            },
+            {
+              "cash": "0.1745460",
+              "kind": "maker",
+              "price": "0.12",
+              "qty": "1.45455",
+              "side": 1,
+              "when": 1790009409000
+            },
+            {
+              "cash": "0.10",
+              "kind": "maker",
+              "price": "0.02",
+              "qty": "5",
+              "side": 1,
+              "when": 1790009703000
+            }
+          ],
+          "max_reserved": "14.9970374",
+          "q": [
+            "15",
+            "22.00926"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_back": {
+          "cash": "14.55",
+          "counters": {
+            "partial_fills": 0,
+            "reservation_rejected": 752
+          },
+          "diagnostic_pnl": "0.45",
+          "end_worst": "0.45",
+          "fills": [
+            {
+              "cash": "2.85",
+              "kind": "maker",
+              "price": "0.57",
+              "qty": "5",
+              "side": 0,
+              "when": 1790009172000
+            },
+            {
+              "cash": "1.80",
+              "kind": "maker",
+              "price": "0.36",
+              "qty": "5",
+              "side": 1,
+              "when": 1790009201000
+            },
+            {
+              "cash": "3.90",
+              "kind": "maker",
+              "price": "0.78",
+              "qty": "5",
+              "side": 0,
+              "when": 1790009279000
+            },
+            {
+              "cash": "1.05",
+              "kind": "maker",
+              "price": "0.21",
+              "qty": "5",
+              "side": 1,
+              "when": 1790009349000
+            },
+            {
+              "cash": "1.15",
+              "kind": "maker",
+              "price": "0.23",
+              "qty": "5",
+              "side": 1,
+              "when": 1790009351000
+            },
+            {
+              "cash": "3.70",
+              "kind": "maker",
+              "price": "0.74",
+              "qty": "5",
+              "side": 0,
+              "when": 1790009574000
+            },
+            {
+              "cash": "0.10",
+              "kind": "maker",
+              "price": "0.02",
+              "qty": "5",
+              "side": 1,
+              "when": 1790009735000
+            }
+          ],
+          "max_reserved": "15.00",
+          "q": [
+            "15",
+            "20"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_front": {
+          "cash": "14.9470374",
+          "counters": {
+            "partial_fills": 4,
+            "reservation_rejected": 1395
+          },
+          "diagnostic_pnl": "0.0529626",
+          "end_worst": "0.0529626",
+          "fills": [
+            {
+              "cash": "2.0870374",
+              "kind": "maker",
+              "price": "0.49",
+              "qty": "4.25926",
+              "side": 1,
+              "when": 1790009132000
+            },
+            {
+              "cash": "1.2100",
+              "kind": "maker",
+              "price": "0.44",
+              "qty": "2.75",
+              "side": 1,
+              "when": 1790009153000
+            },
+            {
+              "cash": "2.85",
+              "kind": "maker",
+              "price": "0.57",
+              "qty": "5",
+              "side": 0,
+              "when": 1790009172000
+            },
+            {
+              "cash": "1.95",
+              "kind": "maker",
+              "price": "0.39",
+              "qty": "5",
+              "side": 1,
+              "when": 1790009177000
+            },
+            {
+              "cash": "3.0",
+              "kind": "maker",
+              "price": "0.6",
+              "qty": "5",
+              "side": 0,
+              "when": 1790009199000
+            },
+            {
+              "cash": "3.15",
+              "kind": "maker",
+              "price": "0.63",
+              "qty": "5",
+              "side": 0,
+              "when": 1790009201000
+            },
+            {
+              "cash": "0.4254540",
+              "kind": "maker",
+              "price": "0.12",
+              "qty": "3.54545",
+              "side": 1,
+              "when": 1790009405000
+            },
+            {
+              "cash": "0.1745460",
+              "kind": "maker",
+              "price": "0.12",
+              "qty": "1.45455",
+              "side": 1,
+              "when": 1790009409000
+            },
+            {
+              "cash": "0.10",
+              "kind": "maker",
+              "price": "0.02",
+              "qty": "5",
+              "side": 1,
+              "when": 1790009703000
+            }
+          ],
+          "max_reserved": "14.9970374",
+          "q": [
+            "15",
+            "22.00926"
+          ],
+          "uncertain": false
+        }
+      },
+      "economic_pnl": null,
+      "gate": "MISSING_MATCH_CLOCK_AND_L2_EVENTS",
+      "prints": {
+        "all_rows": 1632,
+        "maker_buy_rows": 883,
+        "maker_rows": 1102,
+        "taker_rows": 530,
+        "taker_rows_missing_in_all": 0
+      },
+      "slug": "btc-updown-15m-1790009100"
+    },
+    {
+      "arms": {
+        "one_cent_back:queue_back": {
+          "cash": "2.10",
+          "counters": {
+            "partial_fills": 0,
+            "reservation_rejected": 54
+          },
+          "diagnostic_pnl": "7.90",
+          "end_worst": "-2.10",
+          "fills": [
+            {
+              "cash": "0.80",
+              "kind": "maker",
+              "price": "0.16",
+              "qty": "5",
+              "side": 1,
+              "when": 1790010783000
+            },
+            {
+              "cash": "1.30",
+              "kind": "maker",
+              "price": "0.26",
+              "qty": "5",
+              "side": 1,
+              "when": 1790010786000
+            }
+          ],
+          "max_reserved": "6.25",
+          "q": [
+            "0",
+            "10"
+          ],
+          "uncertain": false
+        },
+        "one_cent_back:queue_front": {
+          "cash": "13.91739184",
+          "counters": {
+            "partial_fills": 1,
+            "reservation_rejected": 1037
+          },
+          "diagnostic_pnl": "3.25652216",
+          "end_worst": "-3.91739184",
+          "fills": [
+            {
+              "cash": "2.90",
+              "kind": "maker",
+              "price": "0.58",
+              "qty": "5",
+              "side": 0,
+              "when": 1790010053000
+            },
+            {
+              "cash": "2.40",
+              "kind": "maker",
+              "price": "0.48",
+              "qty": "5",
+              "side": 1,
+              "when": 1790010075000
+            },
+            {
+              "cash": "1.21739184",
+              "kind": "maker",
+              "price": "0.56",
+              "qty": "2.173914",
+              "side": 1,
+              "when": 1790010189000
+            },
+            {
+              "cash": "2.55",
+              "kind": "maker",
+              "price": "0.51",
+              "qty": "5",
+              "side": 0,
+              "when": 1790010213000
+            },
+            {
+              "cash": "3.10",
+              "kind": "maker",
+              "price": "0.62",
+              "qty": "5",
+              "side": 1,
+              "when": 1790010272000
+            },
+            {
+              "cash": "1.75",
+              "kind": "maker",
+              "price": "0.35",
+              "qty": "5",
+              "side": 1,
+              "when": 1790010391000
+            }
+          ],
+          "max_reserved": "14.86739184",
+          "q": [
+            "10",
+            "17.173914"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_back": {
+          "cash": "14.74540000",
+          "counters": {
+            "partial_fills": 5,
+            "reservation_rejected": 557
+          },
+          "diagnostic_pnl": "4.32460000",
+          "end_worst": "0.25460000",
+          "fills": [
+            {
+              "cash": "2.60",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "5",
+              "side": 0,
+              "when": 1790010062000
+            },
+            {
+              "cash": "1.390",
+              "kind": "maker",
+              "price": "0.5",
+              "qty": "2.78",
+              "side": 1,
+              "when": 1790010203000
+            },
+            {
+              "cash": "1.110",
+              "kind": "maker",
+              "price": "0.5",
+              "qty": "2.22",
+              "side": 1,
+              "when": 1790010203000
+            },
+            {
+              "cash": "0.71866718",
+              "kind": "maker",
+              "price": "0.77",
+              "qty": "0.933334",
+              "side": 0,
+              "when": 1790010481000
+            },
+            {
+              "cash": "3.13133282",
+              "kind": "maker",
+              "price": "0.77",
+              "qty": "4.066666",
+              "side": 0,
+              "when": 1790010481000
+            },
+            {
+              "cash": "0.8954",
+              "kind": "maker",
+              "price": "0.22",
+              "qty": "4.07",
+              "side": 1,
+              "when": 1790010489000
+            },
+            {
+              "cash": "0.90",
+              "kind": "maker",
+              "price": "0.18",
+              "qty": "5",
+              "side": 1,
+              "when": 1790010495000
+            },
+            {
+              "cash": "0.55",
+              "kind": "maker",
+              "price": "0.11",
+              "qty": "5",
+              "side": 1,
+              "when": 1790010726000
+            },
+            {
+              "cash": "3.45",
+              "kind": "maker",
+              "price": "0.69",
+              "qty": "5",
+              "side": 0,
+              "when": 1790010802000
+            }
+          ],
+          "max_reserved": "14.99540000",
+          "q": [
+            "15.000000",
+            "19.07"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_front": {
+          "cash": "14.91545270",
+          "counters": {
+            "partial_fills": 8,
+            "reservation_rejected": 1531
+          },
+          "diagnostic_pnl": "-2.74153870",
+          "end_worst": "-2.74153870",
+          "fills": [
+            {
+              "cash": "1.19565270",
+              "kind": "maker",
+              "price": "0.55",
+              "qty": "2.173914",
+              "side": 1,
+              "when": 1790010045000
+            },
+            {
+              "cash": "2.95",
+              "kind": "maker",
+              "price": "0.59",
+              "qty": "5",
+              "side": 0,
+              "when": 1790010053000
+            },
+            {
+              "cash": "2.0",
+              "kind": "maker",
+              "price": "0.4",
+              "qty": "5",
+              "side": 1,
+              "when": 1790010054000
+            },
+            {
+              "cash": "1.0971",
+              "kind": "maker",
+              "price": "0.53",
+              "qty": "2.07",
+              "side": 0,
+              "when": 1790010060000
+            },
+            {
+              "cash": "0.2279",
+              "kind": "maker",
+              "price": "0.53",
+              "qty": "0.43",
+              "side": 0,
+              "when": 1790010060000
+            },
+            {
+              "cash": "1.560",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "3.0",
+              "side": 0,
+              "when": 1790010062000
+            },
+            {
+              "cash": "1.040",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "2.0",
+              "side": 0,
+              "when": 1790010062000
+            },
+            {
+              "cash": "1.54385968",
+              "kind": "maker",
+              "price": "0.44",
+              "qty": "3.508772",
+              "side": 1,
+              "when": 1790010066000
+            },
+            {
+              "cash": "0.65614032",
+              "kind": "maker",
+              "price": "0.44",
+              "qty": "1.491228",
+              "side": 1,
+              "when": 1790010069000
+            },
+            {
+              "cash": "1.1448",
+              "kind": "maker",
+              "price": "0.54",
+              "qty": "2.12",
+              "side": 0,
+              "when": 1790010072000
+            },
+            {
+              "cash": "1.5",
+              "kind": "maker",
+              "price": "0.3",
+              "qty": "5",
+              "side": 0,
+              "when": 1790010263000
+            }
+          ],
+          "max_reserved": "14.97065270",
+          "q": [
+            "19.62",
+            "12.173914"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_back": {
+          "cash": "14.74540000",
+          "counters": {
+            "partial_fills": 5,
+            "reservation_rejected": 557
+          },
+          "diagnostic_pnl": "4.32460000",
+          "end_worst": "0.25460000",
+          "fills": [
+            {
+              "cash": "2.60",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "5",
+              "side": 0,
+              "when": 1790010062000
+            },
+            {
+              "cash": "1.390",
+              "kind": "maker",
+              "price": "0.5",
+              "qty": "2.78",
+              "side": 1,
+              "when": 1790010203000
+            },
+            {
+              "cash": "1.110",
+              "kind": "maker",
+              "price": "0.5",
+              "qty": "2.22",
+              "side": 1,
+              "when": 1790010203000
+            },
+            {
+              "cash": "0.71866718",
+              "kind": "maker",
+              "price": "0.77",
+              "qty": "0.933334",
+              "side": 0,
+              "when": 1790010481000
+            },
+            {
+              "cash": "3.13133282",
+              "kind": "maker",
+              "price": "0.77",
+              "qty": "4.066666",
+              "side": 0,
+              "when": 1790010481000
+            },
+            {
+              "cash": "0.8954",
+              "kind": "maker",
+              "price": "0.22",
+              "qty": "4.07",
+              "side": 1,
+              "when": 1790010489000
+            },
+            {
+              "cash": "0.90",
+              "kind": "maker",
+              "price": "0.18",
+              "qty": "5",
+              "side": 1,
+              "when": 1790010495000
+            },
+            {
+              "cash": "0.55",
+              "kind": "maker",
+              "price": "0.11",
+              "qty": "5",
+              "side": 1,
+              "when": 1790010726000
+            },
+            {
+              "cash": "3.45",
+              "kind": "maker",
+              "price": "0.69",
+              "qty": "5",
+              "side": 0,
+              "when": 1790010802000
+            }
+          ],
+          "max_reserved": "14.99540000",
+          "q": [
+            "15.000000",
+            "19.07"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_front": {
+          "cash": "14.91545270",
+          "counters": {
+            "partial_fills": 8,
+            "reservation_rejected": 1531
+          },
+          "diagnostic_pnl": "-2.74153870",
+          "end_worst": "-2.74153870",
+          "fills": [
+            {
+              "cash": "1.19565270",
+              "kind": "maker",
+              "price": "0.55",
+              "qty": "2.173914",
+              "side": 1,
+              "when": 1790010045000
+            },
+            {
+              "cash": "2.95",
+              "kind": "maker",
+              "price": "0.59",
+              "qty": "5",
+              "side": 0,
+              "when": 1790010053000
+            },
+            {
+              "cash": "2.0",
+              "kind": "maker",
+              "price": "0.4",
+              "qty": "5",
+              "side": 1,
+              "when": 1790010054000
+            },
+            {
+              "cash": "1.0971",
+              "kind": "maker",
+              "price": "0.53",
+              "qty": "2.07",
+              "side": 0,
+              "when": 1790010060000
+            },
+            {
+              "cash": "0.2279",
+              "kind": "maker",
+              "price": "0.53",
+              "qty": "0.43",
+              "side": 0,
+              "when": 1790010060000
+            },
+            {
+              "cash": "1.560",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "3.0",
+              "side": 0,
+              "when": 1790010062000
+            },
+            {
+              "cash": "1.040",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "2.0",
+              "side": 0,
+              "when": 1790010062000
+            },
+            {
+              "cash": "1.54385968",
+              "kind": "maker",
+              "price": "0.44",
+              "qty": "3.508772",
+              "side": 1,
+              "when": 1790010066000
+            },
+            {
+              "cash": "0.65614032",
+              "kind": "maker",
+              "price": "0.44",
+              "qty": "1.491228",
+              "side": 1,
+              "when": 1790010069000
+            },
+            {
+              "cash": "1.1448",
+              "kind": "maker",
+              "price": "0.54",
+              "qty": "2.12",
+              "side": 0,
+              "when": 1790010072000
+            },
+            {
+              "cash": "1.5",
+              "kind": "maker",
+              "price": "0.3",
+              "qty": "5",
+              "side": 0,
+              "when": 1790010263000
+            }
+          ],
+          "max_reserved": "14.97065270",
+          "q": [
+            "19.62",
+            "12.173914"
+          ],
+          "uncertain": false
+        }
+      },
+      "economic_pnl": null,
+      "gate": "MISSING_MATCH_CLOCK_AND_L2_EVENTS",
+      "prints": {
+        "all_rows": 2645,
+        "maker_buy_rows": 1293,
+        "maker_rows": 1618,
+        "taker_rows": 1027,
+        "taker_rows_missing_in_all": 0
+      },
+      "slug": "btc-updown-15m-1790010000"
+    },
+    {
+      "arms": {
+        "one_cent_back:queue_back": {
+          "cash": "10.95",
+          "counters": {
+            "partial_fills": 0,
+            "reservation_rejected": 643
+          },
+          "diagnostic_pnl": "-0.95",
+          "end_worst": "-0.95",
+          "fills": [
+            {
+              "cash": "2.35",
+              "kind": "maker",
+              "price": "0.47",
+              "qty": "5",
+              "side": 0,
+              "when": 1790010934000
+            },
+            {
+              "cash": "3.25",
+              "kind": "maker",
+              "price": "0.65",
+              "qty": "5",
+              "side": 1,
+              "when": 1790011017000
+            },
+            {
+              "cash": "3.65",
+              "kind": "maker",
+              "price": "0.73",
+              "qty": "5",
+              "side": 1,
+              "when": 1790011032000
+            },
+            {
+              "cash": "0.95",
+              "kind": "maker",
+              "price": "0.19",
+              "qty": "5",
+              "side": 0,
+              "when": 1790011045000
+            },
+            {
+              "cash": "0.75",
+              "kind": "maker",
+              "price": "0.15",
+              "qty": "5",
+              "side": 0,
+              "when": 1790011267000
+            }
+          ],
+          "max_reserved": "15.00",
+          "q": [
+            "15",
+            "10"
+          ],
+          "uncertain": false
+        },
+        "one_cent_back:queue_front": {
+          "cash": "11.9068",
+          "counters": {
+            "partial_fills": 1,
+            "reservation_rejected": 1415
+          },
+          "diagnostic_pnl": "-1.9068",
+          "end_worst": "-1.9068",
+          "fills": [
+            {
+              "cash": "2.35",
+              "kind": "maker",
+              "price": "0.47",
+              "qty": "5",
+              "side": 0,
+              "when": 1790010934000
+            },
+            {
+              "cash": "2.65",
+              "kind": "maker",
+              "price": "0.53",
+              "qty": "5",
+              "side": 1,
+              "when": 1790010936000
+            },
+            {
+              "cash": "2.20",
+              "kind": "maker",
+              "price": "0.44",
+              "qty": "5",
+              "side": 0,
+              "when": 1790010939000
+            },
+            {
+              "cash": "0.9568",
+              "kind": "maker",
+              "price": "0.46",
+              "qty": "2.08",
+              "side": 0,
+              "when": 1790010963000
+            },
+            {
+              "cash": "2.50",
+              "kind": "maker",
+              "price": "0.50",
+              "qty": "5",
+              "side": 1,
+              "when": 1790010982000
+            },
+            {
+              "cash": "1.25",
+              "kind": "maker",
+              "price": "0.25",
+              "qty": "5",
+              "side": 0,
+              "when": 1790011035000
+            }
+          ],
+          "max_reserved": "13.0068",
+          "q": [
+            "17.08",
+            "10"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_back": {
+          "cash": "11.35000000",
+          "counters": {
+            "partial_fills": 2,
+            "reservation_rejected": 997
+          },
+          "diagnostic_pnl": "-1.35000000",
+          "end_worst": "-1.35000000",
+          "fills": [
+            {
+              "cash": "0.04142256",
+              "kind": "maker",
+              "price": "0.48",
+              "qty": "0.086297",
+              "side": 0,
+              "when": 1790010934000
+            },
+            {
+              "cash": "2.35857744",
+              "kind": "maker",
+              "price": "0.48",
+              "qty": "4.913703",
+              "side": 0,
+              "when": 1790010934000
+            },
+            {
+              "cash": "3.30",
+              "kind": "maker",
+              "price": "0.66",
+              "qty": "5",
+              "side": 1,
+              "when": 1790011017000
+            },
+            {
+              "cash": "3.70",
+              "kind": "maker",
+              "price": "0.74",
+              "qty": "5",
+              "side": 1,
+              "when": 1790011032000
+            },
+            {
+              "cash": "0.80",
+              "kind": "maker",
+              "price": "0.16",
+              "qty": "5",
+              "side": 0,
+              "when": 1790011062000
+            },
+            {
+              "cash": "0.80",
+              "kind": "maker",
+              "price": "0.16",
+              "qty": "5",
+              "side": 0,
+              "when": 1790011068000
+            },
+            {
+              "cash": "0.35",
+              "kind": "maker",
+              "price": "0.07",
+              "qty": "5",
+              "side": 0,
+              "when": 1790011360000
+            }
+          ],
+          "max_reserved": "15.00000000",
+          "q": [
+            "20.000000",
+            "10"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_front": {
+          "cash": "14.26990773",
+          "counters": {
+            "partial_fills": 4,
+            "reservation_rejected": 1478
+          },
+          "diagnostic_pnl": "-2.34683073",
+          "end_worst": "-2.34683073",
+          "fills": [
+            {
+              "cash": "2.40",
+              "kind": "maker",
+              "price": "0.48",
+              "qty": "5",
+              "side": 0,
+              "when": 1790010934000
+            },
+            {
+              "cash": "2.70",
+              "kind": "maker",
+              "price": "0.54",
+              "qty": "5",
+              "side": 1,
+              "when": 1790010936000
+            },
+            {
+              "cash": "0.74651805",
+              "kind": "maker",
+              "price": "0.45",
+              "qty": "1.658929",
+              "side": 0,
+              "when": 1790010939000
+            },
+            {
+              "cash": "1.50348195",
+              "kind": "maker",
+              "price": "0.45",
+              "qty": "3.341071",
+              "side": 0,
+              "when": 1790010939000
+            },
+            {
+              "cash": "0.94230773",
+              "kind": "maker",
+              "price": "0.49",
+              "qty": "1.923077",
+              "side": 1,
+              "when": 1790010948000
+            },
+            {
+              "cash": "2.60",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "5",
+              "side": 1,
+              "when": 1790010952000
+            },
+            {
+              "cash": "0.9776",
+              "kind": "maker",
+              "price": "0.47",
+              "qty": "2.08",
+              "side": 0,
+              "when": 1790010963000
+            },
+            {
+              "cash": "2.40",
+              "kind": "maker",
+              "price": "0.48",
+              "qty": "5",
+              "side": 0,
+              "when": 1790010984000
+            }
+          ],
+          "max_reserved": "14.26990773",
+          "q": [
+            "17.080000",
+            "11.923077"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_back": {
+          "cash": "14.97206500",
+          "counters": {
+            "hedge_depth_missing": 33,
+            "partial_fills": 2,
+            "reservation_rejected": 674
+          },
+          "diagnostic_pnl": "0.02793500",
+          "end_worst": "0.02793500",
+          "fills": [
+            {
+              "cash": "0.04142256",
+              "kind": "maker",
+              "price": "0.48",
+              "qty": "0.086297",
+              "side": 0,
+              "when": 1790010934000
+            },
+            {
+              "cash": "2.35857744",
+              "kind": "maker",
+              "price": "0.48",
+              "qty": "4.913703",
+              "side": 0,
+              "when": 1790010934000
+            },
+            {
+              "cash": "3.30",
+              "kind": "maker",
+              "price": "0.66",
+              "qty": "5",
+              "side": 1,
+              "when": 1790011017000
+            },
+            {
+              "cash": "3.70",
+              "kind": "maker",
+              "price": "0.74",
+              "qty": "5",
+              "side": 1,
+              "when": 1790011032000
+            },
+            {
+              "cash": "0.80",
+              "kind": "maker",
+              "price": "0.16",
+              "qty": "5",
+              "side": 0,
+              "when": 1790011062000
+            },
+            {
+              "cash": "0.80",
+              "kind": "maker",
+              "price": "0.16",
+              "qty": "5",
+              "side": 0,
+              "when": 1790011068000
+            },
+            {
+              "cash": "0.35",
+              "kind": "maker",
+              "price": "0.07",
+              "qty": "5",
+              "side": 0,
+              "when": 1790011360000
+            },
+            {
+              "cash": "3.622065",
+              "kind": "taker",
+              "price": "0.724413",
+              "qty": "5",
+              "side": 1,
+              "when": 1790011454133
+            }
+          ],
+          "max_reserved": "14.97206500",
+          "q": [
+            "20.000000",
+            "15"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_front": {
+          "cash": "14.26990773",
+          "counters": {
+            "partial_fills": 4,
+            "reservation_rejected": 1478
+          },
+          "diagnostic_pnl": "-2.34683073",
+          "end_worst": "-2.34683073",
+          "fills": [
+            {
+              "cash": "2.40",
+              "kind": "maker",
+              "price": "0.48",
+              "qty": "5",
+              "side": 0,
+              "when": 1790010934000
+            },
+            {
+              "cash": "2.70",
+              "kind": "maker",
+              "price": "0.54",
+              "qty": "5",
+              "side": 1,
+              "when": 1790010936000
+            },
+            {
+              "cash": "0.74651805",
+              "kind": "maker",
+              "price": "0.45",
+              "qty": "1.658929",
+              "side": 0,
+              "when": 1790010939000
+            },
+            {
+              "cash": "1.50348195",
+              "kind": "maker",
+              "price": "0.45",
+              "qty": "3.341071",
+              "side": 0,
+              "when": 1790010939000
+            },
+            {
+              "cash": "0.94230773",
+              "kind": "maker",
+              "price": "0.49",
+              "qty": "1.923077",
+              "side": 1,
+              "when": 1790010948000
+            },
+            {
+              "cash": "2.60",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "5",
+              "side": 1,
+              "when": 1790010952000
+            },
+            {
+              "cash": "0.9776",
+              "kind": "maker",
+              "price": "0.47",
+              "qty": "2.08",
+              "side": 0,
+              "when": 1790010963000
+            },
+            {
+              "cash": "2.40",
+              "kind": "maker",
+              "price": "0.48",
+              "qty": "5",
+              "side": 0,
+              "when": 1790010984000
+            }
+          ],
+          "max_reserved": "14.26990773",
+          "q": [
+            "17.080000",
+            "11.923077"
+          ],
+          "uncertain": false
+        }
+      },
+      "economic_pnl": null,
+      "gate": "MISSING_MATCH_CLOCK_AND_L2_EVENTS",
+      "prints": {
+        "all_rows": 2321,
+        "maker_buy_rows": 1257,
+        "maker_rows": 1556,
+        "taker_rows": 765,
+        "taker_rows_missing_in_all": 0
+      },
+      "slug": "btc-updown-15m-1790010900"
+    },
+    {
+      "arms": {
+        "one_cent_back:queue_back": {
+          "cash": "13.80000000",
+          "counters": {
+            "partial_fills": 2,
+            "reservation_rejected": 467
+          },
+          "diagnostic_pnl": "1.20000000",
+          "end_worst": "1.20000000",
+          "fills": [
+            {
+              "cash": "2.60",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "5",
+              "side": 1,
+              "when": 1790012041000
+            },
+            {
+              "cash": "1.85",
+              "kind": "maker",
+              "price": "0.37",
+              "qty": "5",
+              "side": 0,
+              "when": 1790012205000
+            },
+            {
+              "cash": "3.05",
+              "kind": "maker",
+              "price": "0.61",
+              "qty": "5",
+              "side": 0,
+              "when": 1790012274000
+            },
+            {
+              "cash": "2.75342880",
+              "kind": "maker",
+              "price": "0.60",
+              "qty": "4.589048",
+              "side": 1,
+              "when": 1790012587000
+            },
+            {
+              "cash": "0.24657120",
+              "kind": "maker",
+              "price": "0.60",
+              "qty": "0.410952",
+              "side": 1,
+              "when": 1790012587000
+            },
+            {
+              "cash": "1.95",
+              "kind": "maker",
+              "price": "0.39",
+              "qty": "5",
+              "side": 0,
+              "when": 1790012589000
+            },
+            {
+              "cash": "1.35",
+              "kind": "maker",
+              "price": "0.27",
+              "qty": "5",
+              "side": 1,
+              "when": 1790012626000
+            }
+          ],
+          "max_reserved": "15.00000000",
+          "q": [
+            "15",
+            "15.000000"
+          ],
+          "uncertain": false
+        },
+        "one_cent_back:queue_front": {
+          "cash": "14.62500",
+          "counters": {
+            "partial_fills": 1,
+            "reservation_rejected": 1090
+          },
+          "diagnostic_pnl": "0.37500",
+          "end_worst": "0.37500",
+          "fills": [
+            {
+              "cash": "2.90",
+              "kind": "maker",
+              "price": "0.58",
+              "qty": "5",
+              "side": 1,
+              "when": 1790011857000
+            },
+            {
+              "cash": "2.15",
+              "kind": "maker",
+              "price": "0.43",
+              "qty": "5",
+              "side": 0,
+              "when": 1790011875000
+            },
+            {
+              "cash": "2.45",
+              "kind": "maker",
+              "price": "0.49",
+              "qty": "5",
+              "side": 0,
+              "when": 1790011992000
+            },
+            {
+              "cash": "2.95",
+              "kind": "maker",
+              "price": "0.59",
+              "qty": "5",
+              "side": 1,
+              "when": 1790012032000
+            },
+            {
+              "cash": "1.75",
+              "kind": "maker",
+              "price": "0.35",
+              "qty": "5",
+              "side": 0,
+              "when": 1790012098000
+            },
+            {
+              "cash": "1.12500",
+              "kind": "maker",
+              "price": "0.36",
+              "qty": "3.125",
+              "side": 0,
+              "when": 1790012125000
+            },
+            {
+              "cash": "1.30",
+              "kind": "maker",
+              "price": "0.26",
+              "qty": "5",
+              "side": 1,
+              "when": 1790012511000
+            }
+          ],
+          "max_reserved": "15.00",
+          "q": [
+            "18.125",
+            "15"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_back": {
+          "cash": "13.86835826",
+          "counters": {
+            "partial_fills": 3,
+            "reservation_rejected": 1034
+          },
+          "diagnostic_pnl": "1.13164174",
+          "end_worst": "-0.79373126",
+          "fills": [
+            {
+              "cash": "2.60",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "5",
+              "side": 1,
+              "when": 1790011867000
+            },
+            {
+              "cash": "0.8362740",
+              "kind": "maker",
+              "price": "0.5",
+              "qty": "1.672548",
+              "side": 0,
+              "when": 1790011992000
+            },
+            {
+              "cash": "1.6637260",
+              "kind": "maker",
+              "price": "0.5",
+              "qty": "3.327452",
+              "side": 0,
+              "when": 1790011992000
+            },
+            {
+              "cash": "3.0",
+              "kind": "maker",
+              "price": "0.6",
+              "qty": "5",
+              "side": 1,
+              "when": 1790012032000
+            },
+            {
+              "cash": "1.16835826",
+              "kind": "maker",
+              "price": "0.38",
+              "qty": "3.074627",
+              "side": 0,
+              "when": 1790012205000
+            },
+            {
+              "cash": "1.5",
+              "kind": "maker",
+              "price": "0.3",
+              "qty": "5",
+              "side": 1,
+              "when": 1790012245000
+            },
+            {
+              "cash": "3.10",
+              "kind": "maker",
+              "price": "0.62",
+              "qty": "5",
+              "side": 0,
+              "when": 1790012274000
+            }
+          ],
+          "max_reserved": "14.96835826",
+          "q": [
+            "13.074627",
+            "15"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_front": {
+          "cash": "14.95",
+          "counters": {
+            "partial_fills": 0,
+            "reservation_rejected": 1562
+          },
+          "diagnostic_pnl": "0.05",
+          "end_worst": "0.05",
+          "fills": [
+            {
+              "cash": "1.70",
+              "kind": "maker",
+              "price": "0.34",
+              "qty": "5",
+              "side": 0,
+              "when": 1790011831000
+            },
+            {
+              "cash": "1.70",
+              "kind": "maker",
+              "price": "0.34",
+              "qty": "5",
+              "side": 0,
+              "when": 1790011833000
+            },
+            {
+              "cash": "3.25",
+              "kind": "maker",
+              "price": "0.65",
+              "qty": "5",
+              "side": 1,
+              "when": 1790011836000
+            },
+            {
+              "cash": "1.70",
+              "kind": "maker",
+              "price": "0.34",
+              "qty": "5",
+              "side": 0,
+              "when": 1790011840000
+            },
+            {
+              "cash": "2.95",
+              "kind": "maker",
+              "price": "0.59",
+              "qty": "5",
+              "side": 1,
+              "when": 1790011848000
+            },
+            {
+              "cash": "2.30",
+              "kind": "maker",
+              "price": "0.46",
+              "qty": "5",
+              "side": 0,
+              "when": 1790011873000
+            },
+            {
+              "cash": "1.35",
+              "kind": "maker",
+              "price": "0.27",
+              "qty": "5",
+              "side": 1,
+              "when": 1790012514000
+            }
+          ],
+          "max_reserved": "14.95",
+          "q": [
+            "20",
+            "15"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_back": {
+          "cash": "13.86835826",
+          "counters": {
+            "partial_fills": 3,
+            "reservation_rejected": 1034
+          },
+          "diagnostic_pnl": "1.13164174",
+          "end_worst": "-0.79373126",
+          "fills": [
+            {
+              "cash": "2.60",
+              "kind": "maker",
+              "price": "0.52",
+              "qty": "5",
+              "side": 1,
+              "when": 1790011867000
+            },
+            {
+              "cash": "0.8362740",
+              "kind": "maker",
+              "price": "0.5",
+              "qty": "1.672548",
+              "side": 0,
+              "when": 1790011992000
+            },
+            {
+              "cash": "1.6637260",
+              "kind": "maker",
+              "price": "0.5",
+              "qty": "3.327452",
+              "side": 0,
+              "when": 1790011992000
+            },
+            {
+              "cash": "3.0",
+              "kind": "maker",
+              "price": "0.6",
+              "qty": "5",
+              "side": 1,
+              "when": 1790012032000
+            },
+            {
+              "cash": "1.16835826",
+              "kind": "maker",
+              "price": "0.38",
+              "qty": "3.074627",
+              "side": 0,
+              "when": 1790012205000
+            },
+            {
+              "cash": "1.5",
+              "kind": "maker",
+              "price": "0.3",
+              "qty": "5",
+              "side": 1,
+              "when": 1790012245000
+            },
+            {
+              "cash": "3.10",
+              "kind": "maker",
+              "price": "0.62",
+              "qty": "5",
+              "side": 0,
+              "when": 1790012274000
+            }
+          ],
+          "max_reserved": "14.96835826",
+          "q": [
+            "13.074627",
+            "15"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_front": {
+          "cash": "14.157080",
+          "counters": {
+            "hedge_depth_missing": 1,
+            "partial_fills": 0,
+            "reservation_rejected": 803
+          },
+          "diagnostic_pnl": "-4.157080",
+          "end_worst": "-4.157080",
+          "fills": [
+            {
+              "cash": "1.70",
+              "kind": "maker",
+              "price": "0.34",
+              "qty": "5",
+              "side": 0,
+              "when": 1790011831000
+            },
+            {
+              "cash": "1.70",
+              "kind": "maker",
+              "price": "0.34",
+              "qty": "5",
+              "side": 0,
+              "when": 1790011833000
+            },
+            {
+              "cash": "3.378540",
+              "kind": "taker",
+              "price": "0.675708",
+              "qty": "5",
+              "side": 1,
+              "when": 1790011835154
+            },
+            {
+              "cash": "3.378540",
+              "kind": "taker",
+              "price": "0.675708",
+              "qty": "5",
+              "side": 1,
+              "when": 1790011836152
+            },
+            {
+              "cash": "1.70",
+              "kind": "maker",
+              "price": "0.34",
+              "qty": "5",
+              "side": 0,
+              "when": 1790011840000
+            },
+            {
+              "cash": "2.30",
+              "kind": "maker",
+              "price": "0.46",
+              "qty": "5",
+              "side": 0,
+              "when": 1790011873000
+            }
+          ],
+          "max_reserved": "14.207080",
+          "q": [
+            "20",
+            "10"
+          ],
+          "uncertain": false
+        }
+      },
+      "economic_pnl": null,
+      "gate": "MISSING_MATCH_CLOCK_AND_L2_EVENTS",
+      "prints": {
+        "all_rows": 3148,
+        "maker_buy_rows": 1599,
+        "maker_rows": 2045,
+        "taker_rows": 1103,
+        "taker_rows_missing_in_all": 0
+      },
+      "slug": "btc-updown-15m-1790011800"
+    },
+    {
+      "arms": {
+        "one_cent_back:queue_back": {
+          "cash": "13.575",
+          "counters": {
+            "partial_fills": 0,
+            "reservation_rejected": 177
+          },
+          "diagnostic_pnl": "1.425",
+          "end_worst": "-3.575",
+          "fills": [
+            {
+              "cash": "3.15",
+              "kind": "maker",
+              "price": "0.63",
+              "qty": "5",
+              "side": 1,
+              "when": 1790012868000
+            },
+            {
+              "cash": "1.45",
+              "kind": "maker",
+              "price": "0.29",
+              "qty": "5",
+              "side": 0,
+              "when": 1790013045000
+            },
+            {
+              "cash": "0.10",
+              "kind": "maker",
+              "price": "0.02",
+              "qty": "5",
+              "side": 0,
+              "when": 1790013399000
+            },
+            {
+              "cash": "4.460",
+              "kind": "maker",
+              "price": "0.892",
+              "qty": "5",
+              "side": 1,
+              "when": 1790013469000
+            },
+            {
+              "cash": "4.415",
+              "kind": "maker",
+              "price": "0.883",
+              "qty": "5",
+              "side": 1,
+              "when": 1790013540000
+            }
+          ],
+          "max_reserved": "14.530",
+          "q": [
+            "10",
+            "15"
+          ],
+          "uncertain": false
+        },
+        "one_cent_back:queue_front": {
+          "cash": "14.87970100",
+          "counters": {
+            "partial_fills": 4,
+            "reservation_rejected": 1357
+          },
+          "diagnostic_pnl": "-2.37970100",
+          "end_worst": "-2.37970100",
+          "fills": [
+            {
+              "cash": "1.550",
+              "kind": "maker",
+              "price": "0.62",
+              "qty": "2.5",
+              "side": 1,
+              "when": 1790012751000
+            },
+            {
+              "cash": "3.40",
+              "kind": "maker",
+              "price": "0.68",
+              "qty": "5",
+              "side": 1,
+              "when": 1790012766000
+            },
+            {
+              "cash": "1.50",
+              "kind": "maker",
+              "price": "0.30",
+              "qty": "5",
+              "side": 0,
+              "when": 1790012778000
+            },
+            {
+              "cash": "1.50",
+              "kind": "maker",
+              "price": "0.30",
+              "qty": "5",
+              "side": 0,
+              "when": 1790012779000
+            },
+            {
+              "cash": "3.15",
+              "kind": "maker",
+              "price": "0.63",
+              "qty": "5",
+              "side": 1,
+              "when": 1790012830000
+            },
+            {
+              "cash": "0.679701",
+              "kind": "maker",
+              "price": "0.33",
+              "qty": "2.0597",
+              "side": 0,
+              "when": 1790012836000
+            },
+            {
+              "cash": "1.80",
+              "kind": "maker",
+              "price": "0.36",
+              "qty": "5",
+              "side": 0,
+              "when": 1790012851000
+            },
+            {
+              "cash": "0.01710462",
+              "kind": "maker",
+              "price": "0.26",
+              "qty": "0.065787",
+              "side": 0,
+              "when": 1790012898000
+            },
+            {
+              "cash": "1.28289538",
+              "kind": "maker",
+              "price": "0.26",
+              "qty": "4.934213",
+              "side": 0,
+              "when": 1790012898000
+            }
+          ],
+          "max_reserved": "14.979701",
+          "q": [
+            "22.059700",
+            "12.5"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_back": {
+          "cash": "13.5735518",
+          "counters": {
+            "partial_fills": 3,
+            "reservation_rejected": 724
+          },
+          "diagnostic_pnl": "-1.1135518",
+          "end_worst": "-1.1135518",
+          "fills": [
+            {
+              "cash": "2.3182",
+              "kind": "maker",
+              "price": "0.67",
+              "qty": "3.46",
+              "side": 1,
+              "when": 1790012799000
+            },
+            {
+              "cash": "1.5",
+              "kind": "maker",
+              "price": "0.3",
+              "qty": "5",
+              "side": 0,
+              "when": 1790013045000
+            },
+            {
+              "cash": "1.2253518",
+              "kind": "maker",
+              "price": "0.3",
+              "qty": "4.084506",
+              "side": 0,
+              "when": 1790013046000
+            },
+            {
+              "cash": "3.920",
+              "kind": "maker",
+              "price": "0.98",
+              "qty": "4.0",
+              "side": 1,
+              "when": 1790013357000
+            },
+            {
+              "cash": "0.10",
+              "kind": "maker",
+              "price": "0.02",
+              "qty": "5",
+              "side": 0,
+              "when": 1790013363000
+            },
+            {
+              "cash": "4.510",
+              "kind": "maker",
+              "price": "0.902",
+              "qty": "5",
+              "side": 1,
+              "when": 1790013469000
+            }
+          ],
+          "max_reserved": "14.2735518",
+          "q": [
+            "14.084506",
+            "12.46"
+          ],
+          "uncertain": false
+        },
+        "touch:queue_front": {
+          "cash": "14.1200",
+          "counters": {
+            "partial_fills": 2,
+            "reservation_rejected": 1533
+          },
+          "diagnostic_pnl": "-3.5450",
+          "end_worst": "-3.5450",
+          "fills": [
+            {
+              "cash": "2.10",
+              "kind": "maker",
+              "price": "0.42",
+              "qty": "5",
+              "side": 0,
+              "when": 1790012734000
+            },
+            {
+              "cash": "2.05",
+              "kind": "maker",
+              "price": "0.41",
+              "qty": "5",
+              "side": 0,
+              "when": 1790012745000
+            },
+            {
+              "cash": "1.8450",
+              "kind": "maker",
+              "price": "0.6",
+              "qty": "3.075",
+              "side": 1,
+              "when": 1790012749000
+            },
+            {
+              "cash": "1.575",
+              "kind": "maker",
+              "price": "0.63",
+              "qty": "2.5",
+              "side": 1,
+              "when": 1790012751000
+            },
+            {
+              "cash": "3.5",
+              "kind": "maker",
+              "price": "0.7",
+              "qty": "5",
+              "side": 1,
+              "when": 1790012761000
+            },
+            {
+              "cash": "1.5",
+              "kind": "maker",
+              "price": "0.3",
+              "qty": "5",
+              "side": 0,
+              "when": 1790012767000
+            },
+            {
+              "cash": "1.55",
+              "kind": "maker",
+              "price": "0.31",
+              "qty": "5",
+              "side": 0,
+              "when": 1790012778000
+            }
+          ],
+          "max_reserved": "14.1200",
+          "q": [
+            "20",
+            "10.575"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_back": {
+          "cash": "13.5735518",
+          "counters": {
+            "partial_fills": 3,
+            "reservation_rejected": 724
+          },
+          "diagnostic_pnl": "-1.1135518",
+          "end_worst": "-1.1135518",
+          "fills": [
+            {
+              "cash": "2.3182",
+              "kind": "maker",
+              "price": "0.67",
+              "qty": "3.46",
+              "side": 1,
+              "when": 1790012799000
+            },
+            {
+              "cash": "1.5",
+              "kind": "maker",
+              "price": "0.3",
+              "qty": "5",
+              "side": 0,
+              "when": 1790013045000
+            },
+            {
+              "cash": "1.2253518",
+              "kind": "maker",
+              "price": "0.3",
+              "qty": "4.084506",
+              "side": 0,
+              "when": 1790013046000
+            },
+            {
+              "cash": "3.920",
+              "kind": "maker",
+              "price": "0.98",
+              "qty": "4.0",
+              "side": 1,
+              "when": 1790013357000
+            },
+            {
+              "cash": "0.10",
+              "kind": "maker",
+              "price": "0.02",
+              "qty": "5",
+              "side": 0,
+              "when": 1790013363000
+            },
+            {
+              "cash": "4.510",
+              "kind": "maker",
+              "price": "0.902",
+              "qty": "5",
+              "side": 1,
+              "when": 1790013469000
+            }
+          ],
+          "max_reserved": "14.2735518",
+          "q": [
+            "14.084506",
+            "12.46"
+          ],
+          "uncertain": false
+        },
+        "touch_hedge:queue_front": {
+          "cash": "13.613905",
+          "counters": {
+            "hedge_depth_missing": 7,
+            "hedge_execution_rejected": 3,
+            "partial_fills": 0,
+            "reservation_rejected": 782
+          },
+          "diagnostic_pnl": "-3.613905",
+          "end_worst": "-3.613905",
+          "fills": [
+            {
+              "cash": "2.10",
+              "kind": "maker",
+              "price": "0.42",
+              "qty": "5",
+              "side": 0,
+              "when": 1790012734000
+            },
+            {
+              "cash": "2.05",
+              "kind": "maker",
+              "price": "0.41",
+              "qty": "5",
+              "side": 0,
+              "when": 1790012745000
+            },
+            {
+              "cash": "3.133265",
+              "kind": "taker",
+              "price": "0.626653",
+              "qty": "5",
+              "side": 1,
+              "when": 1790012748232
+            },
+            {
+              "cash": "3.280640",
+              "kind": "taker",
+              "price": "0.656128",
+              "qty": "5",
+              "side": 1,
+              "when": 1790012751247
+            },
+            {
+              "cash": "1.5",
+              "kind": "maker",
+              "price": "0.3",
+              "qty": "5",
+              "side": 0,
+              "when": 1790012767000
+            },
+            {
+              "cash": "1.55",
+              "kind": "maker",
+              "price": "0.31",
+              "qty": "5",
+              "side": 0,
+              "when": 1790012778000
+            }
+          ],
+          "max_reserved": "13.613905",
+          "q": [
+            "20",
+            "10"
+          ],
+          "uncertain": false
+        }
+      },
+      "economic_pnl": null,
+      "gate": "MISSING_MATCH_CLOCK_AND_L2_EVENTS",
+      "prints": {
+        "all_rows": 2229,
+        "maker_buy_rows": 1215,
+        "maker_rows": 1519,
+        "taker_rows": 710,
+        "taker_rows_missing_in_all": 0
+      },
+      "slug": "btc-updown-15m-1790012700"
+    }
+  ],
+  "note": "Correction diagnostics only; block-clock prints and 1s snapshots do not validate execution. Queue scenarios are not mathematical PnL bounds. 250ms is an assumption, not measured latency.",
+  "open_tapes": [],
+  "summary": {
+    "one_cent_back:queue_back": {
+      "cash_cap_violations": 0,
+      "complete_scenarios": 13,
+      "diagnostic_pnl": "12.56469900",
+      "economic_pnl": null,
+      "fills": 39,
+      "markets": 14,
+      "max_cash": "13.80000000",
+      "max_reserved": "15.00",
+      "worst_cap_violations": 0
+    },
+    "one_cent_back:queue_front": {
+      "cash_cap_violations": 0,
+      "complete_scenarios": 14,
+      "diagnostic_pnl": "6.64693692",
+      "economic_pnl": null,
+      "fills": 108,
+      "markets": 14,
+      "max_cash": "15.00",
+      "max_reserved": "15.00",
+      "worst_cap_violations": 0
+    },
+    "touch:queue_back": {
+      "cash_cap_violations": 0,
+      "complete_scenarios": 13,
+      "diagnostic_pnl": "-1.24310474",
+      "economic_pnl": null,
+      "fills": 96,
+      "markets": 14,
+      "max_cash": "14.900",
+      "max_reserved": "15.00",
+      "worst_cap_violations": 0
+    },
+    "touch:queue_front": {
+      "cash_cap_violations": 0,
+      "complete_scenarios": 14,
+      "diagnostic_pnl": "2.19999317",
+      "economic_pnl": null,
+      "fills": 112,
+      "markets": 14,
+      "max_cash": "15.0000",
+      "max_reserved": "15.00",
+      "worst_cap_violations": 0
+    },
+    "touch_hedge:queue_back": {
+      "cash_cap_violations": 0,
+      "complete_scenarios": 13,
+      "diagnostic_pnl": "7.18823026",
+      "economic_pnl": null,
+      "fills": 98,
+      "markets": 14,
+      "max_cash": "14.97206500",
+      "max_reserved": "15.0000000",
+      "worst_cap_violations": 0
+    },
+    "touch_hedge:queue_front": {
+      "cash_cap_violations": 0,
+      "complete_scenarios": 14,
+      "diagnostic_pnl": "-16.87477183",
+      "economic_pnl": null,
+      "fills": 106,
+      "markets": 14,
+      "max_cash": "15.0000",
+      "max_reserved": "15.0000",
+      "worst_cap_violations": 0
+    }
+  }
+}

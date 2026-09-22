@@ -1,0 +1,472 @@
+{
+ "table": {
+  "ALL|maker": {
+   "records": 4387,
+   "shares": 221175.676,
+   "cash": 111520.13,
+   "pnl": 6021.43,
+   "markets": 594,
+   "cents_per_share": 2.722
+  },
+  "ALL|taker": {
+   "records": 1054,
+   "shares": 92002.14,
+   "cash": 48796.62,
+   "pnl": -1592.88,
+   "markets": 377,
+   "cents_per_share": -1.731
+  },
+  "add|ALL": {
+   "records": 2792,
+   "shares": 137793.615,
+   "cash": 68970.01,
+   "pnl": 5262.99,
+   "markets": 485,
+   "cents_per_share": 3.819
+  },
+  "add|maker": {
+   "records": 2682,
+   "shares": 124129.395,
+   "cash": 61166.82,
+   "pnl": 3903.8,
+   "markets": 480,
+   "cents_per_share": 3.145
+  },
+  "add|taker": {
+   "records": 110,
+   "shares": 13664.22,
+   "cash": 7803.2,
+   "pnl": 1359.18,
+   "markets": 84,
+   "cents_per_share": 9.947
+  },
+  "completion|ALL": {
+   "records": 1682,
+   "shares": 100679.202,
+   "cash": 50304.57,
+   "pnl": -3583.45,
+   "markets": 421,
+   "cents_per_share": -3.559
+  },
+  "completion|maker": {
+   "records": 820,
+   "shares": 34669.572,
+   "cash": 16343.51,
+   "pnl": -498.8,
+   "markets": 280,
+   "cents_per_share": -1.439
+  },
+  "completion|taker": {
+   "records": 862,
+   "shares": 66009.63,
+   "cash": 33961.06,
+   "pnl": -3084.65,
+   "markets": 340,
+   "cents_per_share": -4.673
+  },
+  "first|ALL": {
+   "records": 598,
+   "shares": 43010.855,
+   "cash": 23419.06,
+   "pnl": 2325.57,
+   "markets": 598,
+   "cents_per_share": 5.407
+  },
+  "first|maker": {
+   "records": 557,
+   "shares": 37134.865,
+   "cash": 19984.38,
+   "pnl": 2359.07,
+   "markets": 557,
+   "cents_per_share": 6.353
+  },
+  "first|taker": {
+   "records": 41,
+   "shares": 5875.99,
+   "cash": 3434.68,
+   "pnl": -33.5,
+   "markets": 41,
+   "cents_per_share": -0.57
+  },
+  "mixed|ALL": {
+   "records": 237,
+   "shares": 21712.84,
+   "cash": 12353.44,
+   "pnl": 465.01,
+   "markets": 166,
+   "cents_per_share": 2.142
+  },
+  "mixed|maker": {
+   "records": 204,
+   "shares": 16753.82,
+   "cash": 9578.88,
+   "pnl": 169.08,
+   "markets": 153,
+   "cents_per_share": 1.009
+  },
+  "mixed|taker": {
+   "records": 33,
+   "shares": 4959.02,
+   "cash": 2774.57,
+   "pnl": 295.92,
+   "markets": 29,
+   "cents_per_share": 5.967
+  },
+  "reopen|ALL": {
+   "records": 132,
+   "shares": 9981.304,
+   "cash": 5269.67,
+   "pnl": -41.56,
+   "markets": 108,
+   "cents_per_share": -0.416
+  },
+  "reopen|maker": {
+   "records": 124,
+   "shares": 8488.024,
+   "cash": 4446.55,
+   "pnl": 88.28,
+   "markets": 103,
+   "cents_per_share": 1.04
+  },
+  "reopen|taker": {
+   "records": 8,
+   "shares": 1493.28,
+   "cash": 823.12,
+   "pnl": -129.84,
+   "markets": 8,
+   "cents_per_share": -8.695
+  }
+ },
+ "day": {
+  "2026-09-13": {
+   "maker": 762.3717,
+   "n_maker": 313.0,
+   "taker": -703.7265,
+   "n_taker": 98.0
+  },
+  "2026-09-14": {
+   "maker": 112.096,
+   "n_maker": 296.0,
+   "taker": 117.0107,
+   "n_taker": 71.0
+  },
+  "2026-09-15": {
+   "maker": 513.0987,
+   "n_maker": 742.0,
+   "taker": 1485.8052,
+   "n_taker": 155.0
+  },
+  "2026-09-16": {
+   "maker": -459.1889,
+   "n_maker": 578.0,
+   "taker": 238.6175,
+   "n_taker": 144.0
+  },
+  "2026-09-17": {
+   "maker": 1339.606,
+   "n_maker": 561.0,
+   "taker": -616.6738,
+   "n_taker": 106.0
+  },
+  "2026-09-18": {
+   "maker": 3279.7959,
+   "n_maker": 903.0,
+   "taker": -993.4912,
+   "n_taker": 212.0
+  },
+  "2026-09-19": {
+   "maker": 1009.7247,
+   "n_maker": 696.0,
+   "taker": -613.2427,
+   "n_taker": 187.0
+  },
+  "2026-09-20": {
+   "maker": -536.0717,
+   "n_maker": 298.0,
+   "taker": -507.179,
+   "n_taker": 81.0
+  }
+ },
+ "late_add_day": {
+  "2026-09-13": {
+   "maker": 118.4019,
+   "n_maker": 110.0,
+   "taker": -92.2871,
+   "n_taker": 15.0
+  },
+  "2026-09-14": {
+   "maker": -62.0361,
+   "n_maker": 68.0,
+   "taker": -4.4524,
+   "n_taker": 5.0
+  },
+  "2026-09-15": {
+   "maker": 758.2063,
+   "n_maker": 182.0,
+   "taker": 309.2042,
+   "n_taker": 10.0
+  },
+  "2026-09-16": {
+   "maker": -111.4218,
+   "n_maker": 141.0,
+   "taker": -168.0048,
+   "n_taker": 10.0
+  },
+  "2026-09-17": {
+   "maker": 3.6706,
+   "n_maker": 106.0,
+   "taker": 128.0622,
+   "n_taker": 9.0
+  },
+  "2026-09-18": {
+   "maker": 1347.6929,
+   "n_maker": 236.0,
+   "taker": 228.6245,
+   "n_taker": 8.0
+  },
+  "2026-09-19": {
+   "maker": 542.3998,
+   "n_maker": 176.0,
+   "taker": 77.3487,
+   "n_taker": 13.0
+  },
+  "2026-09-20": {
+   "maker": 328.8965,
+   "n_maker": 80.0,
+   "taker": -14.3968,
+   "n_taker": 4.0
+  }
+ },
+ "late_add_concentration": {
+  "maker": {
+   "records": 1099,
+   "markets": 267,
+   "pnl": 2925.81,
+   "ex_top3": 1693.61,
+   "ex_top10": -4.89,
+   "positive_markets": 139,
+   "equal5_per_market": 63.93
+  },
+  "taker": {
+   "records": 74,
+   "markets": 58,
+   "pnl": 464.1,
+   "ex_top3": -137.93,
+   "ex_top10": -801.55,
+   "positive_markets": 32,
+   "equal5_per_market": 0.05
+  }
+ },
+ "total_concentration": {
+  "markets": 598,
+  "pnl": 4428.55,
+  "ex_top3": 3025.27,
+  "ex_top10": 611.6,
+  "ex_top20": -1847.8,
+  "top10_share": 0.862,
+  "positive_markets": 315,
+  "median_market": 2.58
+ },
+ "completions_by_role": {
+  "taker": {
+   "records": 895,
+   "pnl": -2788.72,
+   "worst_outcome_improvement": 30673.1,
+   "improved": 870
+  },
+  "maker": {
+   "records": 1024,
+   "pnl": -329.72,
+   "worst_outcome_improvement": 10032.27,
+   "improved": 830
+  }
+ },
+ "fees": {
+  "taker_fees_paid": 1253.07,
+  "maker_rebate_upper_20pct": 541.84,
+  "taker_rebate_gold_18pct": 225.55
+ },
+ "adverse_proxy": {
+  "maker|first|60": {
+   "n": 556,
+   "mean_c": 1.247,
+   "median_c": 0.5
+  },
+  "maker|ALL|60": {
+   "n": 4375,
+   "mean_c": 0.624,
+   "median_c": 0.5
+  },
+  "maker|first|120": {
+   "n": 555,
+   "mean_c": 1.006,
+   "median_c": 0.5
+  },
+  "maker|ALL|120": {
+   "n": 4317,
+   "mean_c": 2.374,
+   "median_c": 1.5
+  },
+  "maker|first|300": {
+   "n": 536,
+   "mean_c": 1.811,
+   "median_c": 0.5
+  },
+  "maker|ALL|300": {
+   "n": 3635,
+   "mean_c": 0.426,
+   "median_c": -1.95
+  },
+  "maker|add|60": {
+   "n": 2674,
+   "mean_c": 0.653,
+   "median_c": 0.5
+  },
+  "maker|add|120": {
+   "n": 2641,
+   "mean_c": 2.978,
+   "median_c": 1.5
+  },
+  "maker|add|300": {
+   "n": 2243,
+   "mean_c": 0.671,
+   "median_c": -1.5
+  },
+  "taker|completion|60": {
+   "n": 859,
+   "mean_c": 0.62,
+   "median_c": 0.5
+  },
+  "taker|ALL|60": {
+   "n": 1050,
+   "mean_c": 0.512,
+   "median_c": 0.5
+  },
+  "taker|completion|120": {
+   "n": 844,
+   "mean_c": 1.944,
+   "median_c": 2.5
+  },
+  "taker|ALL|120": {
+   "n": 1035,
+   "mean_c": 2.112,
+   "median_c": 3.269
+  },
+  "taker|completion|300": {
+   "n": 693,
+   "mean_c": 1.0,
+   "median_c": -0.5
+  },
+  "taker|ALL|300": {
+   "n": 822,
+   "mean_c": 0.542,
+   "median_c": -0.725
+  },
+  "maker|mixed|60": {
+   "n": 204,
+   "mean_c": -2.257,
+   "median_c": 0.5
+  },
+  "maker|mixed|120": {
+   "n": 199,
+   "mean_c": -1.039,
+   "median_c": 1.5
+  },
+  "maker|mixed|300": {
+   "n": 158,
+   "mean_c": 1.379,
+   "median_c": 3.5
+  },
+  "maker|completion|60": {
+   "n": 817,
+   "mean_c": 0.725,
+   "median_c": 0.5
+  },
+  "maker|completion|120": {
+   "n": 798,
+   "mean_c": 2.305,
+   "median_c": 0.5
+  },
+  "maker|completion|300": {
+   "n": 595,
+   "mean_c": -1.794,
+   "median_c": -2.95
+  },
+  "maker|reopen|60": {
+   "n": 124,
+   "mean_c": 1.277,
+   "median_c": 1.5
+  },
+  "maker|reopen|120": {
+   "n": 124,
+   "mean_c": 1.571,
+   "median_c": 3.225
+  },
+  "maker|reopen|300": {
+   "n": 103,
+   "mean_c": -0.744,
+   "median_c": -2.5
+  },
+  "taker|add|60": {
+   "n": 109,
+   "mean_c": -0.304,
+   "median_c": -0.5
+  },
+  "taker|add|120": {
+   "n": 109,
+   "mean_c": 3.18,
+   "median_c": 5.5
+  },
+  "taker|add|300": {
+   "n": 67,
+   "mean_c": -0.177,
+   "median_c": -2.5
+  },
+  "taker|first|60": {
+   "n": 41,
+   "mean_c": -2.936,
+   "median_c": -1.5
+  },
+  "taker|first|120": {
+   "n": 41,
+   "mean_c": -3.607,
+   "median_c": 2.264
+  },
+  "taker|first|300": {
+   "n": 38,
+   "mean_c": -3.306,
+   "median_c": 4.386
+  },
+  "taker|mixed|60": {
+   "n": 33,
+   "mean_c": 4.281,
+   "median_c": 2.5
+  },
+  "taker|mixed|120": {
+   "n": 33,
+   "mean_c": 10.644,
+   "median_c": 15.255
+  },
+  "taker|mixed|300": {
+   "n": 19,
+   "mean_c": -6.82,
+   "median_c": -6.156
+  },
+  "taker|reopen|60": {
+   "n": 8,
+   "mean_c": 2.174,
+   "median_c": 3.573
+  },
+  "taker|reopen|120": {
+   "n": 8,
+   "mean_c": -0.513,
+   "median_c": -8.35
+  },
+  "taker|reopen|300": {
+   "n": 5,
+   "mean_c": 4.025,
+   "median_c": -7.65
+  }
+ },
+ "classifier": "role_classifier.role (fee-relative tolerance)"
+}

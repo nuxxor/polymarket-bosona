@@ -1,0 +1,45 @@
+{
+  "checked_ms": 1790028649160,
+  "ws_status": {
+    "pid": 2201967,
+    "endpoint": "wss://ws-subscriptions-clob.polymarket.com/ws/market",
+    "start_ms": 1790022957418,
+    "end_ms": 1790030157418,
+    "seconds": 7200,
+    "max_raw_bytes": 1073741824,
+    "min_free_bytes": 2147483648,
+    "source_sha256": "9d474e64c7db5dde6895ad4e170d917a4cd693e83f8dfb3e2d92e8d85d914a83",
+    "running": true,
+    "received_ms": 1790028640003,
+    "counts": {
+      "connections": 2,
+      "book": 7444,
+      "price_change": 1107369,
+      "last_trade_price": 3712,
+      "PONG": 565,
+      "tick_size_change": 24,
+      "gaps": 1
+    },
+    "last_event_ms": 1790028640000,
+    "raw_bytes": 782993511,
+    "subscribed_tokens": 6,
+    "reason": "duration_complete"
+  },
+  "pid_exists": true,
+  "source_matches": true,
+  "status_fresh": true,
+  "rest_status": {
+    "pid": 1714322,
+    "received_ms": 1790028705762,
+    "S": 1790028000,
+    "counts": {
+      "snapshots": 27983,
+      "both_exchange_age_under_3s": 27983,
+      "gaps": 2
+    },
+    "running": true,
+    "elapsed_seconds": 27997
+  },
+  "rest_source_matches": true,
+  "rest_pid_exists": true
+}

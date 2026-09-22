@@ -1,0 +1,6189 @@
+{
+ "first_ms": 1790000708915,
+ "last_ms": 1790013940334,
+ "open_ended_files": [],
+ "summary": {
+  "P1a_touch_pess": {
+   "arm": "P1a_touch_pess",
+   "markets": 14,
+   "traded": 14,
+   "fills": 94,
+   "pnl": -6.85,
+   "ex_top3": -12.25,
+   "worst_market": -4.95,
+   "cash": 206.85,
+   "rebate_upper": 1.3825,
+   "taker_fee": 0.0
+  },
+  "P1a_touch_opt": {
+   "arm": "P1a_touch_opt",
+   "markets": 14,
+   "traded": 14,
+   "fills": 100,
+   "pnl": 9.55,
+   "ex_top3": -5.55,
+   "worst_market": -4.85,
+   "cash": 210.45,
+   "rebate_upper": 1.4429,
+   "taker_fee": 0.0
+  },
+  "P1b_touch1_pess": {
+   "arm": "P1b_touch1_pess",
+   "markets": 14,
+   "traded": 14,
+   "fills": 92,
+   "pnl": -4.8,
+   "ex_top3": -17.5,
+   "worst_market": -4.9,
+   "cash": 199.8,
+   "rebate_upper": 1.3578,
+   "taker_fee": 0.0
+  },
+  "P1b_touch1_opt": {
+   "arm": "P1b_touch1_opt",
+   "markets": 14,
+   "traded": 14,
+   "fills": 97,
+   "pnl": -12.35,
+   "ex_top3": -19.1,
+   "worst_market": -4.85,
+   "cash": 207.35,
+   "rebate_upper": 1.4392,
+   "taker_fee": 0.0
+  },
+  "P2_touch_hedge_pess": {
+   "arm": "P2_touch_hedge_pess",
+   "markets": 14,
+   "traded": 14,
+   "fills": 92,
+   "pnl": -4.5741,
+   "ex_top3": -5.4909,
+   "worst_market": -2.1941,
+   "cash": 254.5741,
+   "rebate_upper": 1.2249,
+   "taker_fee": 1.8241
+  },
+  "P2_touch_hedge_opt": {
+   "arm": "P2_touch_hedge_opt",
+   "markets": 14,
+   "traded": 14,
+   "fills": 93,
+   "pnl": 1.4783,
+   "ex_top3": -4.0332,
+   "worst_market": -2.0941,
+   "cash": 263.5217,
+   "rebate_upper": 1.1633,
+   "taker_fee": 2.1717
+  },
+  "P0_candidate_real_books": {
+   "arm": "P0_candidate_real_books",
+   "markets": 14,
+   "traded": 2,
+   "fills": 3,
+   "pnl": -1.3006,
+   "ex_top3": -1.8296,
+   "worst_market": -1.8296,
+   "cash": 6.3006,
+   "rebate_upper": 0.0,
+   "taker_fee": 0.0
+  }
+ },
+ "markets": [
+  {
+   "slug": "btc-updown-15m-1790000100",
+   "skipped": "partial_coverage",
+   "full": false
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "S": 1790001000,
+   "winner": 0,
+   "snapshots": 900,
+   "prints": {
+    "all_rows": 3568,
+    "taker_rows": 1341,
+    "maker_rows": 2227,
+    "maker_buy_rows": 1855
+   },
+   "full": true,
+   "arms": {
+    "P1a_touch_pess": {
+     "pnl": -4.950000000000001,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      10.0,
+      20.0
+     ],
+     "cash": 14.950000000000001,
+     "worst": -4.950000000000001,
+     "fee": 0.0,
+     "rebate": 0.093933,
+     "quotes_placed": 42,
+     "quotes_cancelled": 36,
+     "fill_log": [
+      {
+       "t": 53,
+       "side": 1,
+       "price": 0.67,
+       "queue_ahead": 260.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 63,
+       "side": 0,
+       "price": 0.35,
+       "queue_ahead": 1654.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 66,
+       "side": 1,
+       "price": 0.66,
+       "queue_ahead": 68.82,
+       "consumed": 0.0
+      },
+      {
+       "t": 68,
+       "side": 0,
+       "price": 0.35,
+       "queue_ahead": 187.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 69,
+       "side": 1,
+       "price": 0.65,
+       "queue_ahead": 180.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 203,
+       "side": 1,
+       "price": 0.31,
+       "queue_ahead": 215.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1a_touch_opt": {
+     "pnl": -4.850000000000001,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      10.0,
+      20.0
+     ],
+     "cash": 14.850000000000001,
+     "worst": -4.850000000000001,
+     "fee": 0.0,
+     "rebate": 0.093485,
+     "quotes_placed": 47,
+     "quotes_cancelled": 41,
+     "fill_log": [
+      {
+       "t": 39,
+       "side": 0,
+       "price": 0.33,
+       "queue_ahead": 899.0,
+       "consumed": 23.0
+      },
+      {
+       "t": 53,
+       "side": 1,
+       "price": 0.67,
+       "queue_ahead": 260.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 63,
+       "side": 0,
+       "price": 0.35,
+       "queue_ahead": 1654.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 65,
+       "side": 1,
+       "price": 0.65,
+       "queue_ahead": 306.0,
+       "consumed": 20.0
+      },
+      {
+       "t": 66,
+       "side": 1,
+       "price": 0.66,
+       "queue_ahead": 68.82,
+       "consumed": 0.0
+      },
+      {
+       "t": 203,
+       "side": 1,
+       "price": 0.31,
+       "queue_ahead": 215.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_pess": {
+     "pnl": -4.649999999999999,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      10.0,
+      20.0
+     ],
+     "cash": 14.649999999999999,
+     "worst": -4.649999999999999,
+     "fee": 0.0,
+     "rebate": 0.093877,
+     "quotes_placed": 64,
+     "quotes_cancelled": 58,
+     "fill_log": [
+      {
+       "t": 53,
+       "side": 1,
+       "price": 0.66,
+       "queue_ahead": 852.85,
+       "consumed": 0.0
+      },
+      {
+       "t": 63,
+       "side": 0,
+       "price": 0.34,
+       "queue_ahead": 669.46,
+       "consumed": 0.0
+      },
+      {
+       "t": 66,
+       "side": 1,
+       "price": 0.65,
+       "queue_ahead": 884.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 68,
+       "side": 0,
+       "price": 0.34,
+       "queue_ahead": 367.53,
+       "consumed": 0.0
+      },
+      {
+       "t": 69,
+       "side": 1,
+       "price": 0.64,
+       "queue_ahead": 374.0,
+       "consumed": 491.0
+      },
+      {
+       "t": 203,
+       "side": 1,
+       "price": 0.3,
+       "queue_ahead": 557.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_opt": {
+     "pnl": 0.15000000000000213,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      15.0,
+      15.0
+     ],
+     "cash": 14.849999999999998,
+     "worst": 0.15000000000000213,
+     "fee": 0.0,
+     "rebate": 0.09488500000000001,
+     "quotes_placed": 44,
+     "quotes_cancelled": 38,
+     "fill_log": [
+      {
+       "t": 53,
+       "side": 1,
+       "price": 0.66,
+       "queue_ahead": 852.85,
+       "consumed": 0.0
+      },
+      {
+       "t": 63,
+       "side": 0,
+       "price": 0.34,
+       "queue_ahead": 669.46,
+       "consumed": 0.0
+      },
+      {
+       "t": 66,
+       "side": 1,
+       "price": 0.65,
+       "queue_ahead": 884.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 68,
+       "side": 0,
+       "price": 0.34,
+       "queue_ahead": 367.53,
+       "consumed": 0.0
+      },
+      {
+       "t": 69,
+       "side": 1,
+       "price": 0.64,
+       "queue_ahead": 374.0,
+       "consumed": 24.0
+      },
+      {
+       "t": 71,
+       "side": 0,
+       "price": 0.34,
+       "queue_ahead": 783.0,
+       "consumed": 15.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_pess": {
+     "pnl": -2.1941300000000012,
+     "fills": 7,
+     "maker_fills": 6,
+     "hedges": 1,
+     "q": [
+      20.0,
+      20.0
+     ],
+     "cash": 22.19413,
+     "worst": -2.1941300000000012,
+     "fee": 0.14413,
+     "rebate": 0.093933,
+     "quotes_placed": 42,
+     "quotes_cancelled": 36,
+     "fill_log": [
+      {
+       "t": 53,
+       "side": 1,
+       "price": 0.67,
+       "queue_ahead": 260.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 63,
+       "side": 0,
+       "price": 0.35,
+       "queue_ahead": 1654.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 66,
+       "side": 1,
+       "price": 0.66,
+       "queue_ahead": 68.82,
+       "consumed": 0.0
+      },
+      {
+       "t": 68,
+       "side": 0,
+       "price": 0.35,
+       "queue_ahead": 187.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 69,
+       "side": 1,
+       "price": 0.65,
+       "queue_ahead": 180.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 203,
+       "side": 1,
+       "price": 0.31,
+       "queue_ahead": 215.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 203.82100009918213,
+       "side": 0,
+       "qty": 10.0,
+       "unit": 0.724413,
+       "fee": 0.14413,
+       "cash_after": 22.19413,
+       "over_cash_cap": true
+      }
+     ]
+    },
+    "P2_touch_hedge_opt": {
+     "pnl": -2.09413,
+     "fills": 7,
+     "maker_fills": 6,
+     "hedges": 1,
+     "q": [
+      20.0,
+      20.0
+     ],
+     "cash": 22.09413,
+     "worst": -2.09413,
+     "fee": 0.14413,
+     "rebate": 0.093485,
+     "quotes_placed": 47,
+     "quotes_cancelled": 41,
+     "fill_log": [
+      {
+       "t": 39,
+       "side": 0,
+       "price": 0.33,
+       "queue_ahead": 899.0,
+       "consumed": 23.0
+      },
+      {
+       "t": 53,
+       "side": 1,
+       "price": 0.67,
+       "queue_ahead": 260.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 63,
+       "side": 0,
+       "price": 0.35,
+       "queue_ahead": 1654.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 65,
+       "side": 1,
+       "price": 0.65,
+       "queue_ahead": 306.0,
+       "consumed": 20.0
+      },
+      {
+       "t": 66,
+       "side": 1,
+       "price": 0.66,
+       "queue_ahead": 68.82,
+       "consumed": 0.0
+      },
+      {
+       "t": 203,
+       "side": 1,
+       "price": 0.31,
+       "queue_ahead": 215.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 203.82100009918213,
+       "side": 0,
+       "qty": 10.0,
+       "unit": 0.724413,
+       "fee": 0.14413,
+       "cash_after": 22.09413,
+       "over_cash_cap": true
+      }
+     ]
+    },
+    "P0_candidate_real_books": {
+     "pnl": 0.0,
+     "fills": 0,
+     "q": [
+      0.0,
+      0.0
+     ],
+     "cash": 0.0,
+     "gaps": {},
+     "events": [],
+     "fee": 0.0,
+     "rebate": 0.0
+    }
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "S": 1790001900,
+   "winner": 0,
+   "snapshots": 900,
+   "prints": {
+    "all_rows": 4133,
+    "taker_rows": 1586,
+    "maker_rows": 2547,
+    "maker_buy_rows": 2323
+   },
+   "full": true,
+   "arms": {
+    "P1a_touch_pess": {
+     "pnl": 4.999999999999998,
+     "fills": 8,
+     "maker_fills": 8,
+     "hedges": 0,
+     "q": [
+      20.0,
+      20.0
+     ],
+     "cash": 15.000000000000002,
+     "worst": 4.999999999999998,
+     "fee": 0.0,
+     "rebate": 0.10105200000000002,
+     "quotes_placed": 72,
+     "quotes_cancelled": 64,
+     "fill_log": [
+      {
+       "t": 33,
+       "side": 0,
+       "price": 0.47,
+       "queue_ahead": 637.49,
+       "consumed": 0.0
+      },
+      {
+       "t": 59,
+       "side": 0,
+       "price": 0.4,
+       "queue_ahead": 1253.07,
+       "consumed": 0.0
+      },
+      {
+       "t": 164,
+       "side": 1,
+       "price": 0.28,
+       "queue_ahead": 573.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 170,
+       "side": 0,
+       "price": 0.7,
+       "queue_ahead": 438.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 171,
+       "side": 1,
+       "price": 0.3,
+       "queue_ahead": 10.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 173,
+       "side": 0,
+       "price": 0.71,
+       "queue_ahead": 15.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 317,
+       "side": 1,
+       "price": 0.11,
+       "queue_ahead": 172.46,
+       "consumed": 0.0
+      },
+      {
+       "t": 576,
+       "side": 1,
+       "price": 0.03,
+       "queue_ahead": 336.34,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1a_touch_opt": {
+     "pnl": 0.0,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      15.0,
+      20.0
+     ],
+     "cash": 15.0,
+     "worst": 0.0,
+     "fee": 0.0,
+     "rebate": 0.11043200000000002,
+     "quotes_placed": 30,
+     "quotes_cancelled": 23,
+     "fill_log": [
+      {
+       "t": 32,
+       "side": 1,
+       "price": 0.52,
+       "queue_ahead": 613.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 33,
+       "side": 0,
+       "price": 0.47,
+       "queue_ahead": 637.49,
+       "consumed": 0.0
+      },
+      {
+       "t": 38,
+       "side": 0,
+       "price": 0.43,
+       "queue_ahead": 803.0,
+       "consumed": 22.0
+      },
+      {
+       "t": 39,
+       "side": 0,
+       "price": 0.43,
+       "queue_ahead": 1203.84,
+       "consumed": 9.47
+      },
+      {
+       "t": 71,
+       "side": 1,
+       "price": 0.53,
+       "queue_ahead": 97.92,
+       "consumed": 2.08
+      },
+      {
+       "t": 80,
+       "side": 1,
+       "price": 0.52,
+       "queue_ahead": 209.07,
+       "consumed": 4.45
+      },
+      {
+       "t": 323,
+       "side": 1,
+       "price": 0.1,
+       "queue_ahead": 1488.5,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_pess": {
+     "pnl": 1.75,
+     "fills": 8,
+     "maker_fills": 8,
+     "hedges": 0,
+     "q": [
+      15.0,
+      25.0
+     ],
+     "cash": 13.25,
+     "worst": 1.75,
+     "fee": 0.0,
+     "rebate": 0.10212300000000002,
+     "quotes_placed": 131,
+     "quotes_cancelled": 123,
+     "fill_log": [
+      {
+       "t": 33,
+       "side": 0,
+       "price": 0.46,
+       "queue_ahead": 638.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 59,
+       "side": 0,
+       "price": 0.39,
+       "queue_ahead": 529.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 243,
+       "side": 1,
+       "price": 0.28,
+       "queue_ahead": 1578.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 245,
+       "side": 1,
+       "price": 0.3,
+       "queue_ahead": 1297.42,
+       "consumed": 0.0
+      },
+      {
+       "t": 251,
+       "side": 1,
+       "price": 0.28,
+       "queue_ahead": 323.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 266,
+       "side": 0,
+       "price": 0.75,
+       "queue_ahead": 786.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 317,
+       "side": 1,
+       "price": 0.1,
+       "queue_ahead": 503.26,
+       "consumed": 0.0
+      },
+      {
+       "t": 323,
+       "side": 1,
+       "price": 0.09,
+       "queue_ahead": 1108.74,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_opt": {
+     "pnl": 1.1500000000000004,
+     "fills": 8,
+     "maker_fills": 8,
+     "hedges": 0,
+     "q": [
+      15.0,
+      25.0
+     ],
+     "cash": 13.85,
+     "worst": 1.1500000000000004,
+     "fee": 0.0,
+     "rebate": 0.11203500000000001,
+     "quotes_placed": 118,
+     "quotes_cancelled": 110,
+     "fill_log": [
+      {
+       "t": 33,
+       "side": 0,
+       "price": 0.46,
+       "queue_ahead": 638.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 59,
+       "side": 0,
+       "price": 0.39,
+       "queue_ahead": 529.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 164,
+       "side": 1,
+       "price": 0.27,
+       "queue_ahead": 1233.0,
+       "consumed": 30.0
+      },
+      {
+       "t": 170,
+       "side": 0,
+       "price": 0.69,
+       "queue_ahead": 7132.93,
+       "consumed": 43.18
+      },
+      {
+       "t": 243,
+       "side": 1,
+       "price": 0.28,
+       "queue_ahead": 1578.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 245,
+       "side": 1,
+       "price": 0.3,
+       "queue_ahead": 1297.42,
+       "consumed": 0.0
+      },
+      {
+       "t": 251,
+       "side": 1,
+       "price": 0.28,
+       "queue_ahead": 323.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 317,
+       "side": 1,
+       "price": 0.1,
+       "queue_ahead": 503.26,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_pess": {
+     "pnl": -0.3432099999999991,
+     "fills": 6,
+     "maker_fills": 4,
+     "hedges": 2,
+     "q": [
+      20.0,
+      20.0
+     ],
+     "cash": 20.34321,
+     "worst": -0.3432099999999991,
+     "fee": 0.34321,
+     "rebate": 0.06855800000000001,
+     "quotes_placed": 24,
+     "quotes_cancelled": 20,
+     "fill_log": [
+      {
+       "t": 33,
+       "side": 0,
+       "price": 0.47,
+       "queue_ahead": 637.49,
+       "consumed": 0.0
+      },
+      {
+       "t": 59,
+       "side": 0,
+       "price": 0.4,
+       "queue_ahead": 1253.07,
+       "consumed": 0.0
+      },
+      {
+       "t": 60,
+       "side": 0,
+       "price": 0.41,
+       "queue_ahead": 543.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 69,
+       "side": 0,
+       "price": 0.46,
+       "queue_ahead": 1722.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 59.94099998474121,
+       "side": 1,
+       "qty": 10.0,
+       "unit": 0.606933,
+       "fee": 0.16933,
+       "cash_after": 10.419329999999999,
+       "over_cash_cap": false
+      },
+      {
+       "t": 69.90300011634827,
+       "side": 1,
+       "qty": 10.0,
+       "unit": 0.557388,
+       "fee": 0.17388,
+       "cash_after": 20.34321,
+       "over_cash_cap": true
+      }
+     ]
+    },
+    "P2_touch_hedge_opt": {
+     "pnl": -0.1215699999999984,
+     "fills": 5,
+     "maker_fills": 4,
+     "hedges": 1,
+     "q": [
+      15.0,
+      15.0
+     ],
+     "cash": 15.121569999999998,
+     "worst": -0.1215699999999984,
+     "fee": 0.17157,
+     "rebate": 0.069223,
+     "quotes_placed": 9,
+     "quotes_cancelled": 5,
+     "fill_log": [
+      {
+       "t": 32,
+       "side": 1,
+       "price": 0.52,
+       "queue_ahead": 613.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 33,
+       "side": 0,
+       "price": 0.47,
+       "queue_ahead": 637.49,
+       "consumed": 0.0
+      },
+      {
+       "t": 38,
+       "side": 0,
+       "price": 0.43,
+       "queue_ahead": 803.0,
+       "consumed": 22.0
+      },
+      {
+       "t": 39,
+       "side": 0,
+       "price": 0.43,
+       "queue_ahead": 1203.84,
+       "consumed": 9.47
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 39.91300010681152,
+       "side": 1,
+       "qty": 10.0,
+       "unit": 0.5871569999999999,
+       "fee": 0.17157,
+       "cash_after": 15.121569999999998,
+       "over_cash_cap": true
+      }
+     ]
+    },
+    "P0_candidate_real_books": {
+     "pnl": 0.0,
+     "fills": 0,
+     "q": [
+      0.0,
+      0.0
+     ],
+     "cash": 0.0,
+     "gaps": {},
+     "events": [],
+     "fee": 0.0,
+     "rebate": 0.0
+    }
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790002800",
+   "S": 1790002800,
+   "winner": 0,
+   "snapshots": 900,
+   "prints": {
+    "all_rows": 1634,
+    "taker_rows": 633,
+    "maker_rows": 1001,
+    "maker_buy_rows": 886
+   },
+   "full": true,
+   "arms": {
+    "P1a_touch_pess": {
+     "pnl": 0.05000000000000071,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      15.0,
+      20.0
+     ],
+     "cash": 14.95,
+     "worst": 0.05000000000000071,
+     "fee": 0.0,
+     "rebate": 0.09636900000000001,
+     "quotes_placed": 57,
+     "quotes_cancelled": 50,
+     "fill_log": [
+      {
+       "t": 33,
+       "side": 0,
+       "price": 0.58,
+       "queue_ahead": 1179.25,
+       "consumed": 5.95
+      },
+      {
+       "t": 51,
+       "side": 1,
+       "price": 0.36,
+       "queue_ahead": 36.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 52,
+       "side": 1,
+       "price": 0.38,
+       "queue_ahead": 608.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 67,
+       "side": 0,
+       "price": 0.65,
+       "queue_ahead": 1349.71,
+       "consumed": 0.0
+      },
+      {
+       "t": 94,
+       "side": 1,
+       "price": 0.3,
+       "queue_ahead": 24.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 97,
+       "side": 0,
+       "price": 0.7,
+       "queue_ahead": 201.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 511,
+       "side": 1,
+       "price": 0.02,
+       "queue_ahead": 483.18,
+       "consumed": 505.2608
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1a_touch_opt": {
+     "pnl": 0.0,
+     "fills": 8,
+     "maker_fills": 8,
+     "hedges": 0,
+     "q": [
+      15.0,
+      25.0
+     ],
+     "cash": 15.0,
+     "worst": 0.0,
+     "fee": 0.0,
+     "rebate": 0.10284400000000002,
+     "quotes_placed": 23,
+     "quotes_cancelled": 15,
+     "fill_log": [
+      {
+       "t": 33,
+       "side": 0,
+       "price": 0.58,
+       "queue_ahead": 1179.25,
+       "consumed": 5.95
+      },
+      {
+       "t": 37,
+       "side": 1,
+       "price": 0.37,
+       "queue_ahead": 242.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 39,
+       "side": 1,
+       "price": 0.36,
+       "queue_ahead": 547.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 42,
+       "side": 1,
+       "price": 0.36,
+       "queue_ahead": 590.07,
+       "consumed": 1.5625
+      },
+      {
+       "t": 61,
+       "side": 0,
+       "price": 0.61,
+       "queue_ahead": 412.67,
+       "consumed": 4.96
+      },
+      {
+       "t": 67,
+       "side": 0,
+       "price": 0.65,
+       "queue_ahead": 1349.71,
+       "consumed": 0.0
+      },
+      {
+       "t": 460,
+       "side": 1,
+       "price": 0.06,
+       "queue_ahead": 200.0,
+       "consumed": 6.0
+      },
+      {
+       "t": 517,
+       "side": 1,
+       "price": 0.01,
+       "queue_ahead": 1603.27,
+       "consumed": 8.9292
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_pess": {
+     "pnl": 0.05000000000000071,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      15.0,
+      15.0
+     ],
+     "cash": 14.95,
+     "worst": 0.05000000000000071,
+     "fee": 0.0,
+     "rebate": 0.08672300000000001,
+     "quotes_placed": 115,
+     "quotes_cancelled": 109,
+     "fill_log": [
+      {
+       "t": 51,
+       "side": 1,
+       "price": 0.35,
+       "queue_ahead": 251.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 52,
+       "side": 1,
+       "price": 0.37,
+       "queue_ahead": 477.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 246,
+       "side": 0,
+       "price": 0.72,
+       "queue_ahead": 651.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 262,
+       "side": 0,
+       "price": 0.65,
+       "queue_ahead": 453.92,
+       "consumed": 0.0
+      },
+      {
+       "t": 279,
+       "side": 0,
+       "price": 0.72,
+       "queue_ahead": 951.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 325,
+       "side": 1,
+       "price": 0.18,
+       "queue_ahead": 560.28,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_opt": {
+     "pnl": 0.05000000000000071,
+     "fills": 8,
+     "maker_fills": 8,
+     "hedges": 0,
+     "q": [
+      15.0,
+      25.0
+     ],
+     "cash": 14.95,
+     "worst": 0.05000000000000071,
+     "fee": 0.0,
+     "rebate": 0.10252900000000001,
+     "quotes_placed": 63,
+     "quotes_cancelled": 55,
+     "fill_log": [
+      {
+       "t": 33,
+       "side": 0,
+       "price": 0.57,
+       "queue_ahead": 618.97,
+       "consumed": 63.0
+      },
+      {
+       "t": 51,
+       "side": 1,
+       "price": 0.35,
+       "queue_ahead": 251.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 52,
+       "side": 1,
+       "price": 0.37,
+       "queue_ahead": 477.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 67,
+       "side": 0,
+       "price": 0.64,
+       "queue_ahead": 4652.33,
+       "consumed": 3.67
+      },
+      {
+       "t": 120,
+       "side": 0,
+       "price": 0.66,
+       "queue_ahead": 6072.09,
+       "consumed": 5.0
+      },
+      {
+       "t": 124,
+       "side": 1,
+       "price": 0.3,
+       "queue_ahead": 389.0,
+       "consumed": 20.0
+      },
+      {
+       "t": 457,
+       "side": 1,
+       "price": 0.07,
+       "queue_ahead": 641.29,
+       "consumed": 6.0
+      },
+      {
+       "t": 472,
+       "side": 1,
+       "price": 0.03,
+       "queue_ahead": 83.3,
+       "consumed": 34.929866
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_pess": {
+     "pnl": 0.05000000000000071,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      15.0,
+      20.0
+     ],
+     "cash": 14.95,
+     "worst": 0.05000000000000071,
+     "fee": 0.0,
+     "rebate": 0.09636900000000001,
+     "quotes_placed": 57,
+     "quotes_cancelled": 50,
+     "fill_log": [
+      {
+       "t": 33,
+       "side": 0,
+       "price": 0.58,
+       "queue_ahead": 1179.25,
+       "consumed": 5.95
+      },
+      {
+       "t": 51,
+       "side": 1,
+       "price": 0.36,
+       "queue_ahead": 36.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 52,
+       "side": 1,
+       "price": 0.38,
+       "queue_ahead": 608.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 67,
+       "side": 0,
+       "price": 0.65,
+       "queue_ahead": 1349.71,
+       "consumed": 0.0
+      },
+      {
+       "t": 94,
+       "side": 1,
+       "price": 0.3,
+       "queue_ahead": 24.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 97,
+       "side": 0,
+       "price": 0.7,
+       "queue_ahead": 201.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 511,
+       "side": 1,
+       "price": 0.02,
+       "queue_ahead": 483.18,
+       "consumed": 505.2608
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_opt": {
+     "pnl": 0.038719999999999644,
+     "fills": 6,
+     "maker_fills": 5,
+     "hedges": 1,
+     "q": [
+      15.0,
+      20.0
+     ],
+     "cash": 14.96128,
+     "worst": 0.038719999999999644,
+     "fee": 0.16128,
+     "rebate": 0.06631800000000002,
+     "quotes_placed": 10,
+     "quotes_cancelled": 5,
+     "fill_log": [
+      {
+       "t": 33,
+       "side": 0,
+       "price": 0.58,
+       "queue_ahead": 1179.25,
+       "consumed": 5.95
+      },
+      {
+       "t": 37,
+       "side": 1,
+       "price": 0.37,
+       "queue_ahead": 242.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 39,
+       "side": 1,
+       "price": 0.36,
+       "queue_ahead": 547.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 42,
+       "side": 1,
+       "price": 0.36,
+       "queue_ahead": 590.07,
+       "consumed": 1.5625
+      },
+      {
+       "t": 517,
+       "side": 1,
+       "price": 0.01,
+       "queue_ahead": 1603.27,
+       "consumed": 8.9292
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 42.96900010108948,
+       "side": 0,
+       "qty": 10.0,
+       "unit": 0.656128,
+       "fee": 0.16128,
+       "cash_after": 14.91128,
+       "over_cash_cap": false
+      }
+     ]
+    },
+    "P0_candidate_real_books": {
+     "pnl": 0.0,
+     "fills": 0,
+     "q": [
+      0.0,
+      0.0
+     ],
+     "cash": 0.0,
+     "gaps": {
+      "decision_book_missing": 3,
+      "decision_book_one_sided_or_stale": 1
+     },
+     "events": [],
+     "fee": 0.0,
+     "rebate": 0.0
+    }
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790003700",
+   "S": 1790003700,
+   "winner": 1,
+   "snapshots": 896,
+   "prints": {
+    "all_rows": 1488,
+    "taker_rows": 528,
+    "maker_rows": 960,
+    "maker_buy_rows": 800
+   },
+   "full": true,
+   "arms": {
+    "P1a_touch_pess": {
+     "pnl": -2.950000000000001,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      20.0,
+      10.0
+     ],
+     "cash": 12.950000000000001,
+     "worst": -2.950000000000001,
+     "fee": 0.0,
+     "rebate": 0.09030700000000001,
+     "quotes_placed": 65,
+     "quotes_cancelled": 59,
+     "fill_log": [
+      {
+       "t": 43,
+       "side": 1,
+       "price": 0.58,
+       "queue_ahead": 110.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 79,
+       "side": 0,
+       "price": 0.3,
+       "queue_ahead": 234.12,
+       "consumed": 0.0
+      },
+      {
+       "t": 81,
+       "side": 0,
+       "price": 0.34,
+       "queue_ahead": 266.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 88,
+       "side": 0,
+       "price": 0.35,
+       "queue_ahead": 71.12,
+       "consumed": 16.0
+      },
+      {
+       "t": 139,
+       "side": 1,
+       "price": 0.75,
+       "queue_ahead": 331.0,
+       "consumed": 30.0
+      },
+      {
+       "t": 142,
+       "side": 0,
+       "price": 0.27,
+       "queue_ahead": 473.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1a_touch_opt": {
+     "pnl": 1.7763568394002505e-15,
+     "fills": 8,
+     "maker_fills": 8,
+     "hedges": 0,
+     "q": [
+      25.0,
+      15.0
+     ],
+     "cash": 14.999999999999998,
+     "worst": 1.7763568394002505e-15,
+     "fee": 0.0,
+     "rebate": 0.10721200000000002,
+     "quotes_placed": 28,
+     "quotes_cancelled": 20,
+     "fill_log": [
+      {
+       "t": 31,
+       "side": 1,
+       "price": 0.59,
+       "queue_ahead": 593.0,
+       "consumed": 29.0
+      },
+      {
+       "t": 34,
+       "side": 0,
+       "price": 0.4,
+       "queue_ahead": 146.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 42,
+       "side": 0,
+       "price": 0.41,
+       "queue_ahead": 165.73,
+       "consumed": 12.86
+      },
+      {
+       "t": 43,
+       "side": 1,
+       "price": 0.58,
+       "queue_ahead": 110.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 45,
+       "side": 1,
+       "price": 0.56,
+       "queue_ahead": 689.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 66,
+       "side": 0,
+       "price": 0.37,
+       "queue_ahead": 212.11,
+       "consumed": 3.41
+      },
+      {
+       "t": 427,
+       "side": 0,
+       "price": 0.07,
+       "queue_ahead": 200.0,
+       "consumed": 21.0
+      },
+      {
+       "t": 551,
+       "side": 0,
+       "price": 0.02,
+       "queue_ahead": 781.58,
+       "consumed": 7.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_pess": {
+     "pnl": -2.3500000000000014,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      20.0,
+      10.0
+     ],
+     "cash": 12.350000000000001,
+     "worst": -2.3500000000000014,
+     "fee": 0.0,
+     "rebate": 0.088095,
+     "quotes_placed": 90,
+     "quotes_cancelled": 84,
+     "fill_log": [
+      {
+       "t": 43,
+       "side": 1,
+       "price": 0.57,
+       "queue_ahead": 285.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 79,
+       "side": 0,
+       "price": 0.29,
+       "queue_ahead": 629.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 81,
+       "side": 0,
+       "price": 0.33,
+       "queue_ahead": 612.12,
+       "consumed": 0.0
+      },
+      {
+       "t": 132,
+       "side": 0,
+       "price": 0.28,
+       "queue_ahead": 6.58,
+       "consumed": 23.42
+      },
+      {
+       "t": 139,
+       "side": 1,
+       "price": 0.74,
+       "queue_ahead": 185.79,
+       "consumed": 0.0
+      },
+      {
+       "t": 142,
+       "side": 0,
+       "price": 0.26,
+       "queue_ahead": 5749.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_opt": {
+     "pnl": -1.2000000000000028,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      20.0,
+      15.0
+     ],
+     "cash": 16.200000000000003,
+     "worst": -1.2000000000000028,
+     "fee": 0.0,
+     "rebate": 0.10410400000000002,
+     "quotes_placed": 66,
+     "quotes_cancelled": 59,
+     "fill_log": [
+      {
+       "t": 43,
+       "side": 1,
+       "price": 0.57,
+       "queue_ahead": 285.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 79,
+       "side": 0,
+       "price": 0.29,
+       "queue_ahead": 629.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 81,
+       "side": 0,
+       "price": 0.33,
+       "queue_ahead": 612.12,
+       "consumed": 0.0
+      },
+      {
+       "t": 88,
+       "side": 0,
+       "price": 0.34,
+       "queue_ahead": 370.72,
+       "consumed": 2.0
+      },
+      {
+       "t": 139,
+       "side": 1,
+       "price": 0.74,
+       "queue_ahead": 185.79,
+       "consumed": 0.0
+      },
+      {
+       "t": 142,
+       "side": 0,
+       "price": 0.26,
+       "queue_ahead": 5749.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 142,
+       "side": 1,
+       "price": 0.71,
+       "queue_ahead": 508.11,
+       "consumed": 5.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_pess": {
+     "pnl": 0.04292000000000051,
+     "fills": 6,
+     "maker_fills": 5,
+     "hedges": 1,
+     "q": [
+      20.0,
+      15.0
+     ],
+     "cash": 14.95708,
+     "worst": 0.04292000000000051,
+     "fee": 0.15708,
+     "rebate": 0.067942,
+     "quotes_placed": 41,
+     "quotes_cancelled": 36,
+     "fill_log": [
+      {
+       "t": 43,
+       "side": 1,
+       "price": 0.58,
+       "queue_ahead": 110.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 79,
+       "side": 0,
+       "price": 0.3,
+       "queue_ahead": 234.12,
+       "consumed": 0.0
+      },
+      {
+       "t": 81,
+       "side": 0,
+       "price": 0.34,
+       "queue_ahead": 266.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 88,
+       "side": 0,
+       "price": 0.35,
+       "queue_ahead": 71.12,
+       "consumed": 16.0
+      },
+      {
+       "t": 474,
+       "side": 0,
+       "price": 0.07,
+       "queue_ahead": 127.29,
+       "consumed": 190.0
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 88.10199999809265,
+       "side": 1,
+       "qty": 10.0,
+       "unit": 0.675708,
+       "fee": 0.15708,
+       "cash_after": 14.60708,
+       "over_cash_cap": false
+      }
+     ]
+    },
+    "P2_touch_hedge_opt": {
+     "pnl": 0.18628000000000355,
+     "fills": 9,
+     "maker_fills": 8,
+     "hedges": 1,
+     "q": [
+      25.0,
+      25.0
+     ],
+     "cash": 24.813719999999996,
+     "worst": 0.18628000000000355,
+     "fee": 0.01372,
+     "rebate": 0.10721200000000002,
+     "quotes_placed": 28,
+     "quotes_cancelled": 20,
+     "fill_log": [
+      {
+       "t": 31,
+       "side": 1,
+       "price": 0.59,
+       "queue_ahead": 593.0,
+       "consumed": 29.0
+      },
+      {
+       "t": 34,
+       "side": 0,
+       "price": 0.4,
+       "queue_ahead": 146.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 42,
+       "side": 0,
+       "price": 0.41,
+       "queue_ahead": 165.73,
+       "consumed": 12.86
+      },
+      {
+       "t": 43,
+       "side": 1,
+       "price": 0.58,
+       "queue_ahead": 110.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 45,
+       "side": 1,
+       "price": 0.56,
+       "queue_ahead": 689.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 66,
+       "side": 0,
+       "price": 0.37,
+       "queue_ahead": 212.11,
+       "consumed": 3.41
+      },
+      {
+       "t": 427,
+       "side": 0,
+       "price": 0.07,
+       "queue_ahead": 200.0,
+       "consumed": 21.0
+      },
+      {
+       "t": 551,
+       "side": 0,
+       "price": 0.02,
+       "queue_ahead": 781.58,
+       "consumed": 7.0
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 551.0889999866486,
+       "side": 1,
+       "qty": 10.0,
+       "unit": 0.981372,
+       "fee": 0.01372,
+       "cash_after": 24.813719999999996,
+       "over_cash_cap": true
+      }
+     ]
+    },
+    "P0_candidate_real_books": {
+     "pnl": 0.0,
+     "fills": 0,
+     "q": [
+      0.0,
+      0.0
+     ],
+     "cash": 0.0,
+     "gaps": {
+      "stale_or_missing_spot": 1,
+      "decision_book_one_sided_or_stale": 4
+     },
+     "events": [],
+     "fee": 0.0,
+     "rebate": 0.0
+    }
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790004600",
+   "S": 1790004600,
+   "winner": 0,
+   "snapshots": 900,
+   "prints": {
+    "all_rows": 2555,
+    "taker_rows": 968,
+    "maker_rows": 1587,
+    "maker_buy_rows": 1306
+   },
+   "full": true,
+   "arms": {
+    "P1a_touch_pess": {
+     "pnl": 0.049999999999998934,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      15.0,
+      20.0
+     ],
+     "cash": 14.950000000000001,
+     "worst": 0.049999999999998934,
+     "fee": 0.0,
+     "rebate": 0.106715,
+     "quotes_placed": 63,
+     "quotes_cancelled": 56,
+     "fill_log": [
+      {
+       "t": 32,
+       "side": 0,
+       "price": 0.61,
+       "queue_ahead": 33.93,
+       "consumed": 100.5
+      },
+      {
+       "t": 38,
+       "side": 1,
+       "price": 0.37,
+       "queue_ahead": 245.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 50,
+       "side": 1,
+       "price": 0.47,
+       "queue_ahead": 463.51,
+       "consumed": 0.0
+      },
+      {
+       "t": 75,
+       "side": 0,
+       "price": 0.5,
+       "queue_ahead": 69.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 83,
+       "side": 1,
+       "price": 0.52,
+       "queue_ahead": 581.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 95,
+       "side": 0,
+       "price": 0.46,
+       "queue_ahead": 305.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 761,
+       "side": 1,
+       "price": 0.06,
+       "queue_ahead": 50.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1a_touch_opt": {
+     "pnl": -1.7763568394002505e-15,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      15.0,
+      20.0
+     ],
+     "cash": 15.000000000000002,
+     "worst": -1.7763568394002505e-15,
+     "fee": 0.0,
+     "rebate": 0.10633000000000001,
+     "quotes_placed": 34,
+     "quotes_cancelled": 27,
+     "fill_log": [
+      {
+       "t": 32,
+       "side": 0,
+       "price": 0.61,
+       "queue_ahead": 33.93,
+       "consumed": 0.5
+      },
+      {
+       "t": 38,
+       "side": 1,
+       "price": 0.37,
+       "queue_ahead": 245.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 50,
+       "side": 1,
+       "price": 0.47,
+       "queue_ahead": 463.51,
+       "consumed": 0.0
+      },
+      {
+       "t": 54,
+       "side": 0,
+       "price": 0.51,
+       "queue_ahead": 467.89,
+       "consumed": 26.0
+      },
+      {
+       "t": 59,
+       "side": 1,
+       "price": 0.43,
+       "queue_ahead": 190.0,
+       "consumed": 10.0
+      },
+      {
+       "t": 60,
+       "side": 0,
+       "price": 0.55,
+       "queue_ahead": 182.72,
+       "consumed": 2.8
+      },
+      {
+       "t": 761,
+       "side": 1,
+       "price": 0.06,
+       "queue_ahead": 50.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_pess": {
+     "pnl": 0.049999999999998934,
+     "fills": 8,
+     "maker_fills": 8,
+     "hedges": 0,
+     "q": [
+      15.0,
+      25.0
+     ],
+     "cash": 14.950000000000001,
+     "worst": 0.049999999999998934,
+     "fee": 0.0,
+     "rebate": 0.10745700000000001,
+     "quotes_placed": 204,
+     "quotes_cancelled": 196,
+     "fill_log": [
+      {
+       "t": 75,
+       "side": 0,
+       "price": 0.49,
+       "queue_ahead": 324.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 83,
+       "side": 1,
+       "price": 0.51,
+       "queue_ahead": 1537.22,
+       "consumed": 0.0
+      },
+      {
+       "t": 205,
+       "side": 0,
+       "price": 0.6,
+       "queue_ahead": 953.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 206,
+       "side": 1,
+       "price": 0.39,
+       "queue_ahead": 511.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 223,
+       "side": 0,
+       "price": 0.58,
+       "queue_ahead": 1059.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 376,
+       "side": 1,
+       "price": 0.31,
+       "queue_ahead": 1808.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 619,
+       "side": 1,
+       "price": 0.1,
+       "queue_ahead": 345.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 824,
+       "side": 1,
+       "price": 0.01,
+       "queue_ahead": 2965.41,
+       "consumed": 4416.98
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_opt": {
+     "pnl": 0.0,
+     "fills": 8,
+     "maker_fills": 8,
+     "hedges": 0,
+     "q": [
+      15.0,
+      25.0
+     ],
+     "cash": 15.0,
+     "worst": 0.0,
+     "fee": 0.0,
+     "rebate": 0.11096400000000002,
+     "quotes_placed": 132,
+     "quotes_cancelled": 124,
+     "fill_log": [
+      {
+       "t": 38,
+       "side": 1,
+       "price": 0.36,
+       "queue_ahead": 739.42,
+       "consumed": 23.4375
+      },
+      {
+       "t": 50,
+       "side": 1,
+       "price": 0.46,
+       "queue_ahead": 1060.0,
+       "consumed": 7.0
+      },
+      {
+       "t": 75,
+       "side": 0,
+       "price": 0.49,
+       "queue_ahead": 324.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 83,
+       "side": 1,
+       "price": 0.51,
+       "queue_ahead": 1537.22,
+       "consumed": 0.0
+      },
+      {
+       "t": 95,
+       "side": 0,
+       "price": 0.45,
+       "queue_ahead": 324.0,
+       "consumed": 12.96
+      },
+      {
+       "t": 205,
+       "side": 0,
+       "price": 0.6,
+       "queue_ahead": 953.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 619,
+       "side": 1,
+       "price": 0.1,
+       "queue_ahead": 345.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 787,
+       "side": 1,
+       "price": 0.03,
+       "queue_ahead": 504.34,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_pess": {
+     "pnl": 0.049999999999998934,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      15.0,
+      20.0
+     ],
+     "cash": 14.950000000000001,
+     "worst": 0.049999999999998934,
+     "fee": 0.0,
+     "rebate": 0.106715,
+     "quotes_placed": 63,
+     "quotes_cancelled": 56,
+     "fill_log": [
+      {
+       "t": 32,
+       "side": 0,
+       "price": 0.61,
+       "queue_ahead": 33.93,
+       "consumed": 100.5
+      },
+      {
+       "t": 38,
+       "side": 1,
+       "price": 0.37,
+       "queue_ahead": 245.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 50,
+       "side": 1,
+       "price": 0.47,
+       "queue_ahead": 463.51,
+       "consumed": 0.0
+      },
+      {
+       "t": 75,
+       "side": 0,
+       "price": 0.5,
+       "queue_ahead": 69.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 83,
+       "side": 1,
+       "price": 0.52,
+       "queue_ahead": 581.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 95,
+       "side": 0,
+       "price": 0.46,
+       "queue_ahead": 305.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 761,
+       "side": 1,
+       "price": 0.06,
+       "queue_ahead": 50.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_opt": {
+     "pnl": -1.7763568394002505e-15,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      15.0,
+      20.0
+     ],
+     "cash": 15.000000000000002,
+     "worst": -1.7763568394002505e-15,
+     "fee": 0.0,
+     "rebate": 0.10633000000000001,
+     "quotes_placed": 34,
+     "quotes_cancelled": 27,
+     "fill_log": [
+      {
+       "t": 32,
+       "side": 0,
+       "price": 0.61,
+       "queue_ahead": 33.93,
+       "consumed": 0.5
+      },
+      {
+       "t": 38,
+       "side": 1,
+       "price": 0.37,
+       "queue_ahead": 245.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 50,
+       "side": 1,
+       "price": 0.47,
+       "queue_ahead": 463.51,
+       "consumed": 0.0
+      },
+      {
+       "t": 54,
+       "side": 0,
+       "price": 0.51,
+       "queue_ahead": 467.89,
+       "consumed": 26.0
+      },
+      {
+       "t": 59,
+       "side": 1,
+       "price": 0.43,
+       "queue_ahead": 190.0,
+       "consumed": 10.0
+      },
+      {
+       "t": 60,
+       "side": 0,
+       "price": 0.55,
+       "queue_ahead": 182.72,
+       "consumed": 2.8
+      },
+      {
+       "t": 761,
+       "side": 1,
+       "price": 0.06,
+       "queue_ahead": 50.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P0_candidate_real_books": {
+     "pnl": 0.0,
+     "fills": 0,
+     "q": [
+      0.0,
+      0.0
+     ],
+     "cash": 0.0,
+     "gaps": {
+      "decision_book_one_sided_or_stale": 1
+     },
+     "events": [],
+     "fee": 0.0,
+     "rebate": 0.0
+    }
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790005500",
+   "S": 1790005500,
+   "winner": 1,
+   "snapshots": 900,
+   "prints": {
+    "all_rows": 2799,
+    "taker_rows": 996,
+    "maker_rows": 1803,
+    "maker_buy_rows": 1433
+   },
+   "full": true,
+   "arms": {
+    "P1a_touch_pess": {
+     "pnl": 0.09999999999999787,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      15.0,
+      15.0
+     ],
+     "cash": 14.900000000000002,
+     "worst": 0.09999999999999787,
+     "fee": 0.0,
+     "rebate": 0.10389400000000001,
+     "quotes_placed": 46,
+     "quotes_cancelled": 40,
+     "fill_log": [
+      {
+       "t": 53,
+       "side": 0,
+       "price": 0.58,
+       "queue_ahead": 315.02,
+       "consumed": 0.0
+      },
+      {
+       "t": 65,
+       "side": 1,
+       "price": 0.44,
+       "queue_ahead": 683.85,
+       "consumed": 0.0
+      },
+      {
+       "t": 67,
+       "side": 0,
+       "price": 0.54,
+       "queue_ahead": 332.25,
+       "consumed": 0.0
+      },
+      {
+       "t": 67,
+       "side": 1,
+       "price": 0.45,
+       "queue_ahead": 541.18,
+       "consumed": 0.0
+      },
+      {
+       "t": 70,
+       "side": 1,
+       "price": 0.46,
+       "queue_ahead": 743.0,
+       "consumed": 35.0
+      },
+      {
+       "t": 79,
+       "side": 0,
+       "price": 0.51,
+       "queue_ahead": 95.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1a_touch_opt": {
+     "pnl": 4.999999999999998,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      15.0,
+      20.0
+     ],
+     "cash": 15.000000000000002,
+     "worst": -1.7763568394002505e-15,
+     "fee": 0.0,
+     "rebate": 0.10792600000000002,
+     "quotes_placed": 30,
+     "quotes_cancelled": 23,
+     "fill_log": [
+      {
+       "t": 35,
+       "side": 0,
+       "price": 0.57,
+       "queue_ahead": 779.48,
+       "consumed": 35.0
+      },
+      {
+       "t": 64,
+       "side": 1,
+       "price": 0.48,
+       "queue_ahead": 350.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 65,
+       "side": 1,
+       "price": 0.44,
+       "queue_ahead": 683.85,
+       "consumed": 0.0
+      },
+      {
+       "t": 67,
+       "side": 0,
+       "price": 0.54,
+       "queue_ahead": 332.25,
+       "consumed": 0.0
+      },
+      {
+       "t": 67,
+       "side": 1,
+       "price": 0.45,
+       "queue_ahead": 541.18,
+       "consumed": 0.0
+      },
+      {
+       "t": 70,
+       "side": 1,
+       "price": 0.46,
+       "queue_ahead": 743.0,
+       "consumed": 35.0
+      },
+      {
+       "t": 769,
+       "side": 0,
+       "price": 0.06,
+       "queue_ahead": 208.0,
+       "consumed": 40.744666
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_pess": {
+     "pnl": 0.34999999999999787,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      15.0,
+      15.0
+     ],
+     "cash": 14.650000000000002,
+     "worst": 0.34999999999999787,
+     "fee": 0.0,
+     "rebate": 0.09940700000000002,
+     "quotes_placed": 182,
+     "quotes_cancelled": 176,
+     "fill_log": [
+      {
+       "t": 67,
+       "side": 0,
+       "price": 0.53,
+       "queue_ahead": 554.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 67,
+       "side": 1,
+       "price": 0.44,
+       "queue_ahead": 538.51,
+       "consumed": 0.0
+      },
+      {
+       "t": 130,
+       "side": 0,
+       "price": 0.55,
+       "queue_ahead": 507.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 200,
+       "side": 1,
+       "price": 0.32,
+       "queue_ahead": 677.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 202,
+       "side": 0,
+       "price": 0.68,
+       "queue_ahead": 648.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 260,
+       "side": 1,
+       "price": 0.41,
+       "queue_ahead": 597.64,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_opt": {
+     "pnl": -1.7763568394002505e-15,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      20.0,
+      15.0
+     ],
+     "cash": 15.000000000000002,
+     "worst": -1.7763568394002505e-15,
+     "fee": 0.0,
+     "rebate": 0.10897600000000003,
+     "quotes_placed": 56,
+     "quotes_cancelled": 49,
+     "fill_log": [
+      {
+       "t": 53,
+       "side": 0,
+       "price": 0.57,
+       "queue_ahead": 630.72,
+       "consumed": 20.0
+      },
+      {
+       "t": 65,
+       "side": 1,
+       "price": 0.43,
+       "queue_ahead": 351.0,
+       "consumed": 8.0
+      },
+      {
+       "t": 67,
+       "side": 0,
+       "price": 0.53,
+       "queue_ahead": 554.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 67,
+       "side": 1,
+       "price": 0.44,
+       "queue_ahead": 538.51,
+       "consumed": 0.0
+      },
+      {
+       "t": 70,
+       "side": 1,
+       "price": 0.45,
+       "queue_ahead": 596.41,
+       "consumed": 3.18
+      },
+      {
+       "t": 79,
+       "side": 0,
+       "price": 0.5,
+       "queue_ahead": 207.0,
+       "consumed": 25.0
+      },
+      {
+       "t": 778,
+       "side": 0,
+       "price": 0.08,
+       "queue_ahead": 443.49,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_pess": {
+     "pnl": 0.09999999999999787,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      15.0,
+      15.0
+     ],
+     "cash": 14.900000000000002,
+     "worst": 0.09999999999999787,
+     "fee": 0.0,
+     "rebate": 0.10389400000000001,
+     "quotes_placed": 46,
+     "quotes_cancelled": 40,
+     "fill_log": [
+      {
+       "t": 53,
+       "side": 0,
+       "price": 0.58,
+       "queue_ahead": 315.02,
+       "consumed": 0.0
+      },
+      {
+       "t": 65,
+       "side": 1,
+       "price": 0.44,
+       "queue_ahead": 683.85,
+       "consumed": 0.0
+      },
+      {
+       "t": 67,
+       "side": 0,
+       "price": 0.54,
+       "queue_ahead": 332.25,
+       "consumed": 0.0
+      },
+      {
+       "t": 67,
+       "side": 1,
+       "price": 0.45,
+       "queue_ahead": 541.18,
+       "consumed": 0.0
+      },
+      {
+       "t": 70,
+       "side": 1,
+       "price": 0.46,
+       "queue_ahead": 743.0,
+       "consumed": 35.0
+      },
+      {
+       "t": 79,
+       "side": 0,
+       "price": 0.51,
+       "queue_ahead": 95.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_opt": {
+     "pnl": -0.2738800000000019,
+     "fills": 7,
+     "maker_fills": 6,
+     "hedges": 1,
+     "q": [
+      20.0,
+      20.0
+     ],
+     "cash": 20.273880000000002,
+     "worst": -0.2738800000000019,
+     "fee": 0.17388,
+     "rebate": 0.10397800000000003,
+     "quotes_placed": 29,
+     "quotes_cancelled": 23,
+     "fill_log": [
+      {
+       "t": 35,
+       "side": 0,
+       "price": 0.57,
+       "queue_ahead": 779.48,
+       "consumed": 35.0
+      },
+      {
+       "t": 64,
+       "side": 1,
+       "price": 0.48,
+       "queue_ahead": 350.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 65,
+       "side": 1,
+       "price": 0.44,
+       "queue_ahead": 683.85,
+       "consumed": 0.0
+      },
+      {
+       "t": 67,
+       "side": 0,
+       "price": 0.54,
+       "queue_ahead": 332.25,
+       "consumed": 0.0
+      },
+      {
+       "t": 67,
+       "side": 1,
+       "price": 0.45,
+       "queue_ahead": 541.18,
+       "consumed": 0.0
+      },
+      {
+       "t": 70,
+       "side": 1,
+       "price": 0.46,
+       "queue_ahead": 743.0,
+       "consumed": 35.0
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 70.28800010681152,
+       "side": 0,
+       "qty": 10.0,
+       "unit": 0.557388,
+       "fee": 0.17388,
+       "cash_after": 20.273880000000002,
+       "over_cash_cap": true
+      }
+     ]
+    },
+    "P0_candidate_real_books": {
+     "pnl": 0.0,
+     "fills": 0,
+     "q": [
+      0.0,
+      0.0
+     ],
+     "cash": 0.0,
+     "gaps": {
+      "decision_book_one_sided_or_stale": 1
+     },
+     "events": [],
+     "fee": 0.0,
+     "rebate": 0.0
+    }
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790006400",
+   "S": 1790006400,
+   "winner": 1,
+   "snapshots": 900,
+   "prints": {
+    "all_rows": 2107,
+    "taker_rows": 737,
+    "maker_rows": 1370,
+    "maker_buy_rows": 1112
+   },
+   "full": true,
+   "arms": {
+    "P1a_touch_pess": {
+     "pnl": 0.09999999999999787,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      20.0,
+      15.0
+     ],
+     "cash": 14.900000000000002,
+     "worst": 0.09999999999999787,
+     "fee": 0.0,
+     "rebate": 0.11074000000000002,
+     "quotes_placed": 116,
+     "quotes_cancelled": 109,
+     "fill_log": [
+      {
+       "t": 52,
+       "side": 0,
+       "price": 0.39,
+       "queue_ahead": 721.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 64,
+       "side": 0,
+       "price": 0.5,
+       "queue_ahead": 453.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 68,
+       "side": 1,
+       "price": 0.52,
+       "queue_ahead": 25.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 74,
+       "side": 1,
+       "price": 0.47,
+       "queue_ahead": 105.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 116,
+       "side": 1,
+       "price": 0.53,
+       "queue_ahead": 706.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 136,
+       "side": 0,
+       "price": 0.46,
+       "queue_ahead": 268.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 407,
+       "side": 0,
+       "price": 0.11,
+       "queue_ahead": 711.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1a_touch_opt": {
+     "pnl": 0.0,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      20.0,
+      15.0
+     ],
+     "cash": 15.0,
+     "worst": 0.0,
+     "fee": 0.0,
+     "rebate": 0.11033400000000002,
+     "quotes_placed": 47,
+     "quotes_cancelled": 40,
+     "fill_log": [
+      {
+       "t": 32,
+       "side": 0,
+       "price": 0.5,
+       "queue_ahead": 533.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 52,
+       "side": 0,
+       "price": 0.39,
+       "queue_ahead": 721.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 62,
+       "side": 1,
+       "price": 0.52,
+       "queue_ahead": 400.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 64,
+       "side": 0,
+       "price": 0.5,
+       "queue_ahead": 453.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 68,
+       "side": 1,
+       "price": 0.52,
+       "queue_ahead": 25.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 74,
+       "side": 1,
+       "price": 0.47,
+       "queue_ahead": 105.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 404,
+       "side": 0,
+       "price": 0.1,
+       "queue_ahead": 499.58,
+       "consumed": 1.10588
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_pess": {
+     "pnl": -2.8999999999999986,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      20.0,
+      10.0
+     ],
+     "cash": 12.899999999999999,
+     "worst": -2.8999999999999986,
+     "fee": 0.0,
+     "rebate": 0.095004,
+     "quotes_placed": 233,
+     "quotes_cancelled": 227,
+     "fill_log": [
+      {
+       "t": 68,
+       "side": 1,
+       "price": 0.51,
+       "queue_ahead": 10.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 136,
+       "side": 0,
+       "price": 0.45,
+       "queue_ahead": 478.0,
+       "consumed": 100.0
+      },
+      {
+       "t": 172,
+       "side": 0,
+       "price": 0.47,
+       "queue_ahead": 410.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 277,
+       "side": 0,
+       "price": 0.35,
+       "queue_ahead": 436.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 280,
+       "side": 1,
+       "price": 0.62,
+       "queue_ahead": 1022.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 319,
+       "side": 0,
+       "price": 0.18,
+       "queue_ahead": 586.48,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_opt": {
+     "pnl": -4.1,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      20.0,
+      10.0
+     ],
+     "cash": 14.1,
+     "worst": -4.1,
+     "fee": 0.0,
+     "rebate": 0.10371200000000001,
+     "quotes_placed": 137,
+     "quotes_cancelled": 131,
+     "fill_log": [
+      {
+       "t": 52,
+       "side": 0,
+       "price": 0.38,
+       "queue_ahead": 636.18,
+       "consumed": 5.0
+      },
+      {
+       "t": 64,
+       "side": 0,
+       "price": 0.49,
+       "queue_ahead": 757.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 68,
+       "side": 1,
+       "price": 0.51,
+       "queue_ahead": 10.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 116,
+       "side": 1,
+       "price": 0.52,
+       "queue_ahead": 620.2,
+       "consumed": 0.0
+      },
+      {
+       "t": 136,
+       "side": 0,
+       "price": 0.45,
+       "queue_ahead": 478.0,
+       "consumed": 100.0
+      },
+      {
+       "t": 172,
+       "side": 0,
+       "price": 0.47,
+       "queue_ahead": 410.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_pess": {
+     "pnl": 0.05069999999999908,
+     "fills": 6,
+     "maker_fills": 4,
+     "hedges": 2,
+     "q": [
+      20.0,
+      20.0
+     ],
+     "cash": 19.9493,
+     "worst": 0.05069999999999908,
+     "fee": 0.3493,
+     "rebate": 0.06906200000000001,
+     "quotes_placed": 57,
+     "quotes_cancelled": 53,
+     "fill_log": [
+      {
+       "t": 52,
+       "side": 0,
+       "price": 0.39,
+       "queue_ahead": 721.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 64,
+       "side": 0,
+       "price": 0.5,
+       "queue_ahead": 453.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 68,
+       "side": 1,
+       "price": 0.52,
+       "queue_ahead": 25.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 74,
+       "side": 1,
+       "price": 0.47,
+       "queue_ahead": 105.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 64.38299989700317,
+       "side": 1,
+       "qty": 10.0,
+       "unit": 0.507493,
+       "fee": 0.17493,
+       "cash_after": 9.524930000000001,
+       "over_cash_cap": false
+      },
+      {
+       "t": 74.36800003051758,
+       "side": 0,
+       "qty": 10.0,
+       "unit": 0.5474370000000001,
+       "fee": 0.17437,
+       "cash_after": 19.9493,
+       "over_cash_cap": true
+      }
+     ]
+    },
+    "P2_touch_hedge_opt": {
+     "pnl": 0.03347000000000122,
+     "fills": 6,
+     "maker_fills": 5,
+     "hedges": 1,
+     "q": [
+      20.0,
+      15.0
+     ],
+     "cash": 14.966529999999999,
+     "worst": 0.03347000000000122,
+     "fee": 0.16653,
+     "rebate": 0.06755000000000001,
+     "quotes_placed": 46,
+     "quotes_cancelled": 41,
+     "fill_log": [
+      {
+       "t": 32,
+       "side": 0,
+       "price": 0.5,
+       "queue_ahead": 533.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 52,
+       "side": 0,
+       "price": 0.39,
+       "queue_ahead": 721.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 62,
+       "side": 1,
+       "price": 0.52,
+       "queue_ahead": 400.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 256,
+       "side": 0,
+       "price": 0.32,
+       "queue_ahead": 35.0,
+       "consumed": 42.0
+      },
+      {
+       "t": 734,
+       "side": 0,
+       "price": 0.01,
+       "queue_ahead": 4024.52,
+       "consumed": 7.14
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 52.35700011253357,
+       "side": 1,
+       "qty": 10.0,
+       "unit": 0.6266529999999999,
+       "fee": 0.16653,
+       "cash_after": 10.716529999999999,
+       "over_cash_cap": false
+      }
+     ]
+    },
+    "P0_candidate_real_books": {
+     "pnl": 0.0,
+     "fills": 0,
+     "q": [
+      0.0,
+      0.0
+     ],
+     "cash": 0.0,
+     "gaps": {
+      "decision_book_one_sided_or_stale": 2
+     },
+     "events": [],
+     "fee": 0.0,
+     "rebate": 0.0
+    }
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790007300",
+   "S": 1790007300,
+   "winner": 0,
+   "snapshots": 897,
+   "prints": {
+    "all_rows": 1818,
+    "taker_rows": 697,
+    "maker_rows": 1121,
+    "maker_buy_rows": 886
+   },
+   "full": true,
+   "arms": {
+    "P1a_touch_pess": {
+     "pnl": 0.10000000000000142,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      15.0,
+      20.0
+     ],
+     "cash": 14.899999999999999,
+     "worst": 0.10000000000000142,
+     "fee": 0.0,
+     "rebate": 0.07842800000000001,
+     "quotes_placed": 54,
+     "quotes_cancelled": 47,
+     "fill_log": [
+      {
+       "t": 35,
+       "side": 0,
+       "price": 0.76,
+       "queue_ahead": 58.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 82,
+       "side": 1,
+       "price": 0.2,
+       "queue_ahead": 692.33,
+       "consumed": 0.0
+      },
+      {
+       "t": 89,
+       "side": 1,
+       "price": 0.23,
+       "queue_ahead": 64.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 94,
+       "side": 0,
+       "price": 0.75,
+       "queue_ahead": 764.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 97,
+       "side": 1,
+       "price": 0.25,
+       "queue_ahead": 480.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 98,
+       "side": 0,
+       "price": 0.75,
+       "queue_ahead": 667.23,
+       "consumed": 0.0
+      },
+      {
+       "t": 735,
+       "side": 1,
+       "price": 0.04,
+       "queue_ahead": 118.64,
+       "consumed": 124.99415
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1a_touch_opt": {
+     "pnl": 0.0,
+     "fills": 8,
+     "maker_fills": 8,
+     "hedges": 0,
+     "q": [
+      15.0,
+      25.0
+     ],
+     "cash": 15.0,
+     "worst": 0.0,
+     "fee": 0.0,
+     "rebate": 0.072548,
+     "quotes_placed": 19,
+     "quotes_cancelled": 11,
+     "fill_log": [
+      {
+       "t": 35,
+       "side": 0,
+       "price": 0.76,
+       "queue_ahead": 58.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 40,
+       "side": 1,
+       "price": 0.21,
+       "queue_ahead": 265.0,
+       "consumed": 15.0
+      },
+      {
+       "t": 43,
+       "side": 0,
+       "price": 0.79,
+       "queue_ahead": 567.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 46,
+       "side": 1,
+       "price": 0.2,
+       "queue_ahead": 446.18,
+       "consumed": 12.2
+      },
+      {
+       "t": 50,
+       "side": 0,
+       "price": 0.8,
+       "queue_ahead": 583.0,
+       "consumed": 22.3
+      },
+      {
+       "t": 50,
+       "side": 1,
+       "price": 0.19,
+       "queue_ahead": 431.38,
+       "consumed": 8.0
+      },
+      {
+       "t": 734,
+       "side": 1,
+       "price": 0.04,
+       "queue_ahead": 118.64,
+       "consumed": 1.35415
+      },
+      {
+       "t": 756,
+       "side": 1,
+       "price": 0.01,
+       "queue_ahead": 1049.13,
+       "consumed": 20.202
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_pess": {
+     "pnl": 0.1999999999999993,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      15.0,
+      15.0
+     ],
+     "cash": 14.8,
+     "worst": 0.1999999999999993,
+     "fee": 0.0,
+     "rebate": 0.06917400000000001,
+     "quotes_placed": 88,
+     "quotes_cancelled": 82,
+     "fill_log": [
+      {
+       "t": 43,
+       "side": 0,
+       "price": 0.78,
+       "queue_ahead": 590.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 89,
+       "side": 1,
+       "price": 0.22,
+       "queue_ahead": 1073.2,
+       "consumed": 0.0
+      },
+      {
+       "t": 94,
+       "side": 0,
+       "price": 0.74,
+       "queue_ahead": 616.26,
+       "consumed": 0.0
+      },
+      {
+       "t": 112,
+       "side": 1,
+       "price": 0.23,
+       "queue_ahead": 508.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 140,
+       "side": 0,
+       "price": 0.83,
+       "queue_ahead": 157.33,
+       "consumed": 35.0
+      },
+      {
+       "t": 145,
+       "side": 1,
+       "price": 0.16,
+       "queue_ahead": 730.66,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_opt": {
+     "pnl": 0.6000000000000014,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      15.0,
+      15.0
+     ],
+     "cash": 14.399999999999999,
+     "worst": 0.6000000000000014,
+     "fee": 0.0,
+     "rebate": 0.07561400000000001,
+     "quotes_placed": 85,
+     "quotes_cancelled": 79,
+     "fill_log": [
+      {
+       "t": 35,
+       "side": 0,
+       "price": 0.75,
+       "queue_ahead": 988.0,
+       "consumed": 4.0
+      },
+      {
+       "t": 82,
+       "side": 1,
+       "price": 0.19,
+       "queue_ahead": 569.61,
+       "consumed": 15.0
+      },
+      {
+       "t": 89,
+       "side": 1,
+       "price": 0.22,
+       "queue_ahead": 1073.2,
+       "consumed": 0.0
+      },
+      {
+       "t": 94,
+       "side": 0,
+       "price": 0.74,
+       "queue_ahead": 616.26,
+       "consumed": 0.0
+      },
+      {
+       "t": 97,
+       "side": 1,
+       "price": 0.24,
+       "queue_ahead": 686.34,
+       "consumed": 35.0
+      },
+      {
+       "t": 98,
+       "side": 0,
+       "price": 0.74,
+       "queue_ahead": 645.8,
+       "consumed": 5.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_pess": {
+     "pnl": 0.10000000000000142,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      15.0,
+      20.0
+     ],
+     "cash": 14.899999999999999,
+     "worst": 0.10000000000000142,
+     "fee": 0.0,
+     "rebate": 0.07842800000000001,
+     "quotes_placed": 54,
+     "quotes_cancelled": 47,
+     "fill_log": [
+      {
+       "t": 35,
+       "side": 0,
+       "price": 0.76,
+       "queue_ahead": 58.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 82,
+       "side": 1,
+       "price": 0.2,
+       "queue_ahead": 692.33,
+       "consumed": 0.0
+      },
+      {
+       "t": 89,
+       "side": 1,
+       "price": 0.23,
+       "queue_ahead": 64.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 94,
+       "side": 0,
+       "price": 0.75,
+       "queue_ahead": 764.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 97,
+       "side": 1,
+       "price": 0.25,
+       "queue_ahead": 480.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 98,
+       "side": 0,
+       "price": 0.75,
+       "queue_ahead": 667.23,
+       "consumed": 0.0
+      },
+      {
+       "t": 735,
+       "side": 1,
+       "price": 0.04,
+       "queue_ahead": 118.64,
+       "consumed": 124.99415
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_opt": {
+     "pnl": 0.09306999999999732,
+     "fills": 9,
+     "maker_fills": 8,
+     "hedges": 1,
+     "q": [
+      25.0,
+      25.0
+     ],
+     "cash": 24.906930000000003,
+     "worst": 0.09306999999999732,
+     "fee": 0.00693,
+     "rebate": 0.072548,
+     "quotes_placed": 19,
+     "quotes_cancelled": 11,
+     "fill_log": [
+      {
+       "t": 35,
+       "side": 0,
+       "price": 0.76,
+       "queue_ahead": 58.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 40,
+       "side": 1,
+       "price": 0.21,
+       "queue_ahead": 265.0,
+       "consumed": 15.0
+      },
+      {
+       "t": 43,
+       "side": 0,
+       "price": 0.79,
+       "queue_ahead": 567.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 46,
+       "side": 1,
+       "price": 0.2,
+       "queue_ahead": 446.18,
+       "consumed": 12.2
+      },
+      {
+       "t": 50,
+       "side": 0,
+       "price": 0.8,
+       "queue_ahead": 583.0,
+       "consumed": 22.3
+      },
+      {
+       "t": 50,
+       "side": 1,
+       "price": 0.19,
+       "queue_ahead": 431.38,
+       "consumed": 8.0
+      },
+      {
+       "t": 734,
+       "side": 1,
+       "price": 0.04,
+       "queue_ahead": 118.64,
+       "consumed": 1.35415
+      },
+      {
+       "t": 756,
+       "side": 1,
+       "price": 0.01,
+       "queue_ahead": 1049.13,
+       "consumed": 20.202
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 756.8129999637604,
+       "side": 0,
+       "qty": 10.0,
+       "unit": 0.990693,
+       "fee": 0.00693,
+       "cash_after": 24.906930000000003,
+       "over_cash_cap": true
+      }
+     ]
+    },
+    "P0_candidate_real_books": {
+     "pnl": -1.82963,
+     "fills": 1,
+     "q": [
+      0.0,
+      5.0
+     ],
+     "cash": 1.82963,
+     "gaps": {
+      "decision_book_one_sided_or_stale": 1
+     },
+     "events": [
+      {
+       "side": 1,
+       "qty": 5.0,
+       "kind": "first",
+       "price": 0.35,
+       "cost": 1.82963,
+       "time": 1790007481.457
+      }
+     ],
+     "fee": 0.0,
+     "rebate": 0.0
+    }
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790008200",
+   "S": 1790008200,
+   "winner": 1,
+   "snapshots": 896,
+   "prints": {
+    "all_rows": 2736,
+    "taker_rows": 1031,
+    "maker_rows": 1705,
+    "maker_buy_rows": 1421
+   },
+   "full": true,
+   "arms": {
+    "P1a_touch_pess": {
+     "pnl": -4.800000000000001,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      20.0,
+      10.0
+     ],
+     "cash": 14.8,
+     "worst": -4.800000000000001,
+     "fee": 0.0,
+     "rebate": 0.093366,
+     "quotes_placed": 72,
+     "quotes_cancelled": 66,
+     "fill_log": [
+      {
+       "t": 36,
+       "side": 1,
+       "price": 0.42,
+       "queue_ahead": 523.95,
+       "consumed": 0.0
+      },
+      {
+       "t": 42,
+       "side": 1,
+       "price": 0.43,
+       "queue_ahead": 591.09,
+       "consumed": 0.0
+      },
+      {
+       "t": 72,
+       "side": 0,
+       "price": 0.64,
+       "queue_ahead": 684.01,
+       "consumed": 0.0
+      },
+      {
+       "t": 77,
+       "side": 0,
+       "price": 0.64,
+       "queue_ahead": 501.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 104,
+       "side": 0,
+       "price": 0.64,
+       "queue_ahead": 5.0,
+       "consumed": 64.0
+      },
+      {
+       "t": 383,
+       "side": 0,
+       "price": 0.19,
+       "queue_ahead": 132.17,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1a_touch_opt": {
+     "pnl": 5.0,
+     "fills": 8,
+     "maker_fills": 8,
+     "hedges": 0,
+     "q": [
+      20.0,
+      20.0
+     ],
+     "cash": 15.0,
+     "worst": 5.0,
+     "fee": 0.0,
+     "rebate": 0.10878000000000002,
+     "quotes_placed": 45,
+     "quotes_cancelled": 37,
+     "fill_log": [
+      {
+       "t": 36,
+       "side": 1,
+       "price": 0.42,
+       "queue_ahead": 523.95,
+       "consumed": 0.0
+      },
+      {
+       "t": 42,
+       "side": 1,
+       "price": 0.43,
+       "queue_ahead": 591.09,
+       "consumed": 0.0
+      },
+      {
+       "t": 72,
+       "side": 0,
+       "price": 0.64,
+       "queue_ahead": 684.01,
+       "consumed": 0.0
+      },
+      {
+       "t": 77,
+       "side": 0,
+       "price": 0.64,
+       "queue_ahead": 501.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 80,
+       "side": 1,
+       "price": 0.35,
+       "queue_ahead": 116.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 81,
+       "side": 1,
+       "price": 0.35,
+       "queue_ahead": 332.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 491,
+       "side": 0,
+       "price": 0.14,
+       "queue_ahead": 574.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 602,
+       "side": 0,
+       "price": 0.03,
+       "queue_ahead": 598.24,
+       "consumed": 28.64
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_pess": {
+     "pnl": 5.300000000000001,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      15.0,
+      20.0
+     ],
+     "cash": 14.7,
+     "worst": 0.3000000000000007,
+     "fee": 0.0,
+     "rebate": 0.11267200000000002,
+     "quotes_placed": 190,
+     "quotes_cancelled": 183,
+     "fill_log": [
+      {
+       "t": 36,
+       "side": 1,
+       "price": 0.41,
+       "queue_ahead": 409.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 63,
+       "side": 1,
+       "price": 0.38,
+       "queue_ahead": 621.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 72,
+       "side": 0,
+       "price": 0.63,
+       "queue_ahead": 649.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 134,
+       "side": 1,
+       "price": 0.35,
+       "queue_ahead": 215.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 167,
+       "side": 0,
+       "price": 0.53,
+       "queue_ahead": 496.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 185,
+       "side": 1,
+       "price": 0.4,
+       "queue_ahead": 326.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 281,
+       "side": 0,
+       "price": 0.24,
+       "queue_ahead": 367.96,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_opt": {
+     "pnl": 5.0,
+     "fills": 9,
+     "maker_fills": 9,
+     "hedges": 0,
+     "q": [
+      25.0,
+      20.0
+     ],
+     "cash": 15.0,
+     "worst": 5.0,
+     "fee": 0.0,
+     "rebate": 0.11593400000000002,
+     "quotes_placed": 150,
+     "quotes_cancelled": 141,
+     "fill_log": [
+      {
+       "t": 36,
+       "side": 1,
+       "price": 0.41,
+       "queue_ahead": 409.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 63,
+       "side": 1,
+       "price": 0.38,
+       "queue_ahead": 621.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 72,
+       "side": 0,
+       "price": 0.63,
+       "queue_ahead": 649.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 131,
+       "side": 1,
+       "price": 0.29,
+       "queue_ahead": 555.82,
+       "consumed": 10.0
+      },
+      {
+       "t": 167,
+       "side": 0,
+       "price": 0.53,
+       "queue_ahead": 496.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 185,
+       "side": 1,
+       "price": 0.4,
+       "queue_ahead": 326.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 258,
+       "side": 0,
+       "price": 0.33,
+       "queue_ahead": 305.0,
+       "consumed": 35.0
+      },
+      {
+       "t": 624,
+       "side": 0,
+       "price": 0.01,
+       "queue_ahead": 1499.44,
+       "consumed": 3.33
+      },
+      {
+       "t": 635,
+       "side": 0,
+       "price": 0.02,
+       "queue_ahead": 467.0,
+       "consumed": 24.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_pess": {
+     "pnl": -0.8156999999999996,
+     "fills": 6,
+     "maker_fills": 4,
+     "hedges": 2,
+     "q": [
+      20.0,
+      20.0
+     ],
+     "cash": 20.8157,
+     "worst": -0.8156999999999996,
+     "fee": 0.3157,
+     "rebate": 0.06556200000000001,
+     "quotes_placed": 71,
+     "quotes_cancelled": 67,
+     "fill_log": [
+      {
+       "t": 36,
+       "side": 1,
+       "price": 0.42,
+       "queue_ahead": 523.95,
+       "consumed": 0.0
+      },
+      {
+       "t": 42,
+       "side": 1,
+       "price": 0.43,
+       "queue_ahead": 591.09,
+       "consumed": 0.0
+      },
+      {
+       "t": 63,
+       "side": 1,
+       "price": 0.39,
+       "queue_ahead": 208.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 131,
+       "side": 1,
+       "price": 0.3,
+       "queue_ahead": 152.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 42.90400004386902,
+       "side": 0,
+       "qty": 10.0,
+       "unit": 0.5871569999999999,
+       "fee": 0.17157,
+       "cash_after": 10.121569999999998,
+       "over_cash_cap": false
+      },
+      {
+       "t": 131.91499996185303,
+       "side": 0,
+       "qty": 10.0,
+       "unit": 0.724413,
+       "fee": 0.14413,
+       "cash_after": 20.8157,
+       "over_cash_cap": true
+      }
+     ]
+    },
+    "P2_touch_hedge_opt": {
+     "pnl": -0.08956999999999837,
+     "fills": 6,
+     "maker_fills": 4,
+     "hedges": 2,
+     "q": [
+      20.0,
+      20.0
+     ],
+     "cash": 20.08957,
+     "worst": -0.08956999999999837,
+     "fee": 0.33957000000000004,
+     "rebate": 0.06717900000000002,
+     "quotes_placed": 33,
+     "quotes_cancelled": 29,
+     "fill_log": [
+      {
+       "t": 36,
+       "side": 1,
+       "price": 0.42,
+       "queue_ahead": 523.95,
+       "consumed": 0.0
+      },
+      {
+       "t": 42,
+       "side": 1,
+       "price": 0.43,
+       "queue_ahead": 591.09,
+       "consumed": 0.0
+      },
+      {
+       "t": 62,
+       "side": 1,
+       "price": 0.37,
+       "queue_ahead": 674.42,
+       "consumed": 0.85
+      },
+      {
+       "t": 63,
+       "side": 1,
+       "price": 0.39,
+       "queue_ahead": 208.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 42.90400004386902,
+       "side": 0,
+       "qty": 10.0,
+       "unit": 0.5871569999999999,
+       "fee": 0.17157,
+       "cash_after": 10.121569999999998,
+       "over_cash_cap": false
+      },
+      {
+       "t": 63.907999992370605,
+       "side": 0,
+       "qty": 10.0,
+       "unit": 0.6168,
+       "fee": 0.168,
+       "cash_after": 20.08957,
+       "over_cash_cap": true
+      }
+     ]
+    },
+    "P0_candidate_real_books": {
+     "pnl": 0.0,
+     "fills": 0,
+     "q": [
+      0.0,
+      0.0
+     ],
+     "cash": 0.0,
+     "gaps": {},
+     "events": [],
+     "fee": 0.0,
+     "rebate": 0.0
+    }
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790009100",
+   "S": 1790009100,
+   "winner": 0,
+   "snapshots": 900,
+   "prints": {
+    "all_rows": 1632,
+    "taker_rows": 530,
+    "maker_rows": 1102,
+    "maker_buy_rows": 883
+   },
+   "full": true,
+   "arms": {
+    "P1a_touch_pess": {
+     "pnl": 0.05000000000000249,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      15.0,
+      20.0
+     ],
+     "cash": 14.949999999999998,
+     "worst": 0.05000000000000249,
+     "fee": 0.0,
+     "rebate": 0.09482900000000001,
+     "quotes_placed": 74,
+     "quotes_cancelled": 67,
+     "fill_log": [
+      {
+       "t": 32,
+       "side": 1,
+       "price": 0.51,
+       "queue_ahead": 1011.04,
+       "consumed": 0.0
+      },
+      {
+       "t": 44,
+       "side": 1,
+       "price": 0.47,
+       "queue_ahead": 607.46,
+       "consumed": 0.0
+      },
+      {
+       "t": 72,
+       "side": 0,
+       "price": 0.57,
+       "queue_ahead": 25.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 99,
+       "side": 0,
+       "price": 0.63,
+       "queue_ahead": 108.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 101,
+       "side": 0,
+       "price": 0.64,
+       "queue_ahead": 120.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 362,
+       "side": 1,
+       "price": 0.15,
+       "queue_ahead": 367.67,
+       "consumed": 0.0
+      },
+      {
+       "t": 635,
+       "side": 1,
+       "price": 0.02,
+       "queue_ahead": 277.89,
+       "consumed": 24.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1a_touch_opt": {
+     "pnl": -4.449999999999999,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      10.0,
+      20.0
+     ],
+     "cash": 14.45,
+     "worst": -4.449999999999999,
+     "fee": 0.0,
+     "rebate": 0.100289,
+     "quotes_placed": 35,
+     "quotes_cancelled": 29,
+     "fill_log": [
+      {
+       "t": 32,
+       "side": 1,
+       "price": 0.51,
+       "queue_ahead": 1011.04,
+       "consumed": 0.0
+      },
+      {
+       "t": 44,
+       "side": 1,
+       "price": 0.47,
+       "queue_ahead": 607.46,
+       "consumed": 0.0
+      },
+      {
+       "t": 72,
+       "side": 0,
+       "price": 0.57,
+       "queue_ahead": 25.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 77,
+       "side": 1,
+       "price": 0.39,
+       "queue_ahead": 393.37,
+       "consumed": 5.0
+      },
+      {
+       "t": 99,
+       "side": 0,
+       "price": 0.63,
+       "queue_ahead": 108.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 105,
+       "side": 1,
+       "price": 0.32,
+       "queue_ahead": 5.0,
+       "consumed": 15.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_pess": {
+     "pnl": -3.549999999999999,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      10.0,
+      20.0
+     ],
+     "cash": 13.549999999999999,
+     "worst": -3.549999999999999,
+     "fee": 0.0,
+     "rebate": 0.09460500000000002,
+     "quotes_placed": 72,
+     "quotes_cancelled": 66,
+     "fill_log": [
+      {
+       "t": 32,
+       "side": 1,
+       "price": 0.5,
+       "queue_ahead": 706.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 65,
+       "side": 1,
+       "price": 0.42,
+       "queue_ahead": 441.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 99,
+       "side": 0,
+       "price": 0.62,
+       "queue_ahead": 463.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 101,
+       "side": 0,
+       "price": 0.63,
+       "queue_ahead": 354.78,
+       "consumed": 0.0
+      },
+      {
+       "t": 107,
+       "side": 1,
+       "price": 0.32,
+       "queue_ahead": 614.0,
+       "consumed": 85.0
+      },
+      {
+       "t": 180,
+       "side": 1,
+       "price": 0.22,
+       "queue_ahead": 630.69,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_opt": {
+     "pnl": 0.09999999999999787,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      15.0,
+      20.0
+     ],
+     "cash": 14.900000000000002,
+     "worst": 0.09999999999999787,
+     "fee": 0.0,
+     "rebate": 0.09683800000000002,
+     "quotes_placed": 50,
+     "quotes_cancelled": 43,
+     "fill_log": [
+      {
+       "t": 32,
+       "side": 1,
+       "price": 0.5,
+       "queue_ahead": 706.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 44,
+       "side": 1,
+       "price": 0.46,
+       "queue_ahead": 430.4,
+       "consumed": 1.6
+      },
+      {
+       "t": 72,
+       "side": 0,
+       "price": 0.56,
+       "queue_ahead": 437.53,
+       "consumed": 36.0
+      },
+      {
+       "t": 99,
+       "side": 0,
+       "price": 0.62,
+       "queue_ahead": 463.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 101,
+       "side": 0,
+       "price": 0.63,
+       "queue_ahead": 354.78,
+       "consumed": 0.0
+      },
+      {
+       "t": 177,
+       "side": 1,
+       "price": 0.2,
+       "queue_ahead": 813.79,
+       "consumed": 11.31
+      },
+      {
+       "t": 635,
+       "side": 1,
+       "price": 0.01,
+       "queue_ahead": 1215.43,
+       "consumed": 307.88
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_pess": {
+     "pnl": -0.979140000000001,
+     "fills": 6,
+     "maker_fills": 4,
+     "hedges": 2,
+     "q": [
+      20.0,
+      20.0
+     ],
+     "cash": 20.97914,
+     "worst": -0.979140000000001,
+     "fee": 0.32914,
+     "rebate": 0.067319,
+     "quotes_placed": 41,
+     "quotes_cancelled": 37,
+     "fill_log": [
+      {
+       "t": 32,
+       "side": 1,
+       "price": 0.51,
+       "queue_ahead": 1011.04,
+       "consumed": 0.0
+      },
+      {
+       "t": 44,
+       "side": 1,
+       "price": 0.47,
+       "queue_ahead": 607.46,
+       "consumed": 0.0
+      },
+      {
+       "t": 65,
+       "side": 1,
+       "price": 0.43,
+       "queue_ahead": 720.48,
+       "consumed": 0.0
+      },
+      {
+       "t": 105,
+       "side": 1,
+       "price": 0.32,
+       "queue_ahead": 5.0,
+       "consumed": 15.0
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 44.926000118255615,
+       "side": 0,
+       "qty": 10.0,
+       "unit": 0.5474370000000001,
+       "fee": 0.17437,
+       "cash_after": 10.374369999999999,
+       "over_cash_cap": false
+      },
+      {
+       "t": 105.94199991226196,
+       "side": 0,
+       "qty": 10.0,
+       "unit": 0.685477,
+       "fee": 0.15477,
+       "cash_after": 20.97914,
+       "over_cash_cap": true
+      }
+     ]
+    },
+    "P2_touch_hedge_opt": {
+     "pnl": -0.5959399999999988,
+     "fills": 6,
+     "maker_fills": 4,
+     "hedges": 2,
+     "q": [
+      20.0,
+      20.0
+     ],
+     "cash": 20.59594,
+     "worst": -0.5959399999999988,
+     "fee": 0.34594,
+     "rebate": 0.06933500000000001,
+     "quotes_placed": 29,
+     "quotes_cancelled": 25,
+     "fill_log": [
+      {
+       "t": 32,
+       "side": 1,
+       "price": 0.51,
+       "queue_ahead": 1011.04,
+       "consumed": 0.0
+      },
+      {
+       "t": 44,
+       "side": 1,
+       "price": 0.47,
+       "queue_ahead": 607.46,
+       "consumed": 0.0
+      },
+      {
+       "t": 53,
+       "side": 1,
+       "price": 0.44,
+       "queue_ahead": 625.25,
+       "consumed": 2.75
+      },
+      {
+       "t": 65,
+       "side": 1,
+       "price": 0.43,
+       "queue_ahead": 720.48,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 44.926000118255615,
+       "side": 0,
+       "qty": 10.0,
+       "unit": 0.5474370000000001,
+       "fee": 0.17437,
+       "cash_after": 10.374369999999999,
+       "over_cash_cap": false
+      },
+      {
+       "t": 65.92600011825562,
+       "side": 0,
+       "qty": 10.0,
+       "unit": 0.5871569999999999,
+       "fee": 0.17157,
+       "cash_after": 20.59594,
+       "over_cash_cap": true
+      }
+     ]
+    },
+    "P0_candidate_real_books": {
+     "pnl": 0.0,
+     "fills": 0,
+     "q": [
+      0.0,
+      0.0
+     ],
+     "cash": 0.0,
+     "gaps": {
+      "decision_book_one_sided_or_stale": 1,
+      "decision_book_missing": 1
+     },
+     "events": [],
+     "fee": 0.0,
+     "rebate": 0.0
+    }
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790010000",
+   "S": 1790010000,
+   "winner": 1,
+   "snapshots": 900,
+   "prints": {
+    "all_rows": 2645,
+    "taker_rows": 1027,
+    "maker_rows": 1618,
+    "maker_buy_rows": 1293
+   },
+   "full": true,
+   "arms": {
+    "P1a_touch_pess": {
+     "pnl": 0.05000000000000071,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      20.0,
+      15.0
+     ],
+     "cash": 14.95,
+     "worst": 0.05000000000000071,
+     "fee": 0.0,
+     "rebate": 0.106869,
+     "quotes_placed": 40,
+     "quotes_cancelled": 33,
+     "fill_log": [
+      {
+       "t": 38,
+       "side": 1,
+       "price": 0.52,
+       "queue_ahead": 370.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 53,
+       "side": 0,
+       "price": 0.59,
+       "queue_ahead": 443.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 54,
+       "side": 1,
+       "price": 0.43,
+       "queue_ahead": 405.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 59,
+       "side": 0,
+       "price": 0.53,
+       "queue_ahead": 264.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 60,
+       "side": 0,
+       "price": 0.53,
+       "queue_ahead": 607.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 258,
+       "side": 0,
+       "price": 0.3,
+       "queue_ahead": 937.7,
+       "consumed": 0.0
+      },
+      {
+       "t": 775,
+       "side": 1,
+       "price": 0.09,
+       "queue_ahead": 261.12,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1a_touch_opt": {
+     "pnl": 5.100000000000001,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      15.0,
+      20.0
+     ],
+     "cash": 14.899999999999999,
+     "worst": 0.10000000000000142,
+     "fee": 0.0,
+     "rebate": 0.10682000000000001,
+     "quotes_placed": 30,
+     "quotes_cancelled": 23,
+     "fill_log": [
+      {
+       "t": 33,
+       "side": 0,
+       "price": 0.5,
+       "queue_ahead": 439.64,
+       "consumed": 3.36
+      },
+      {
+       "t": 38,
+       "side": 1,
+       "price": 0.52,
+       "queue_ahead": 370.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 45,
+       "side": 1,
+       "price": 0.55,
+       "queue_ahead": 749.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 53,
+       "side": 0,
+       "price": 0.59,
+       "queue_ahead": 443.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 54,
+       "side": 1,
+       "price": 0.43,
+       "queue_ahead": 405.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 258,
+       "side": 0,
+       "price": 0.3,
+       "queue_ahead": 937.7,
+       "consumed": 0.0
+      },
+      {
+       "t": 706,
+       "side": 1,
+       "price": 0.09,
+       "queue_ahead": 275.0,
+       "consumed": 59.8
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_pess": {
+     "pnl": 5.65,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      10.0,
+      20.0
+     ],
+     "cash": 14.35,
+     "worst": -4.35,
+     "fee": 0.0,
+     "rebate": 0.09615900000000001,
+     "quotes_placed": 191,
+     "quotes_cancelled": 185,
+     "fill_log": [
+      {
+       "t": 38,
+       "side": 1,
+       "price": 0.51,
+       "queue_ahead": 857.87,
+       "consumed": 0.0
+      },
+      {
+       "t": 53,
+       "side": 0,
+       "price": 0.58,
+       "queue_ahead": 588.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 54,
+       "side": 1,
+       "price": 0.42,
+       "queue_ahead": 851.24,
+       "consumed": 0.0
+      },
+      {
+       "t": 75,
+       "side": 1,
+       "price": 0.48,
+       "queue_ahead": 837.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 400,
+       "side": 0,
+       "price": 0.67,
+       "queue_ahead": 509.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 504,
+       "side": 1,
+       "price": 0.21,
+       "queue_ahead": 292.4,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_opt": {
+     "pnl": -4.849999999999998,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      20.0,
+      10.0
+     ],
+     "cash": 14.849999999999998,
+     "worst": -4.849999999999998,
+     "fee": 0.0,
+     "rebate": 0.103593,
+     "quotes_placed": 49,
+     "quotes_cancelled": 43,
+     "fill_log": [
+      {
+       "t": 38,
+       "side": 1,
+       "price": 0.51,
+       "queue_ahead": 857.87,
+       "consumed": 0.0
+      },
+      {
+       "t": 53,
+       "side": 0,
+       "price": 0.58,
+       "queue_ahead": 588.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 54,
+       "side": 1,
+       "price": 0.42,
+       "queue_ahead": 851.24,
+       "consumed": 0.0
+      },
+      {
+       "t": 59,
+       "side": 0,
+       "price": 0.52,
+       "queue_ahead": 1007.68,
+       "consumed": 4.5625
+      },
+      {
+       "t": 60,
+       "side": 0,
+       "price": 0.52,
+       "queue_ahead": 1010.68,
+       "consumed": 2.07
+      },
+      {
+       "t": 192,
+       "side": 0,
+       "price": 0.42,
+       "queue_ahead": 126.84,
+       "consumed": 37.16
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_pess": {
+     "pnl": -1.4523200000000003,
+     "fills": 7,
+     "maker_fills": 6,
+     "hedges": 1,
+     "q": [
+      20.0,
+      20.0
+     ],
+     "cash": 21.45232,
+     "worst": -1.4523200000000003,
+     "fee": 0.15232,
+     "rebate": 0.10113600000000002,
+     "quotes_placed": 29,
+     "quotes_cancelled": 23,
+     "fill_log": [
+      {
+       "t": 38,
+       "side": 1,
+       "price": 0.52,
+       "queue_ahead": 370.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 53,
+       "side": 0,
+       "price": 0.59,
+       "queue_ahead": 443.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 54,
+       "side": 1,
+       "price": 0.43,
+       "queue_ahead": 405.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 59,
+       "side": 0,
+       "price": 0.53,
+       "queue_ahead": 264.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 60,
+       "side": 0,
+       "price": 0.53,
+       "queue_ahead": 607.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 258,
+       "side": 0,
+       "price": 0.3,
+       "queue_ahead": 937.7,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 258.0199999809265,
+       "side": 1,
+       "qty": 10.0,
+       "unit": 0.6952320000000001,
+       "fee": 0.15232,
+       "cash_after": 21.45232,
+       "over_cash_cap": true
+      }
+     ]
+    },
+    "P2_touch_hedge_opt": {
+     "pnl": 5.100000000000001,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      15.0,
+      20.0
+     ],
+     "cash": 14.899999999999999,
+     "worst": 0.10000000000000142,
+     "fee": 0.0,
+     "rebate": 0.10682000000000001,
+     "quotes_placed": 30,
+     "quotes_cancelled": 23,
+     "fill_log": [
+      {
+       "t": 33,
+       "side": 0,
+       "price": 0.5,
+       "queue_ahead": 439.64,
+       "consumed": 3.36
+      },
+      {
+       "t": 38,
+       "side": 1,
+       "price": 0.52,
+       "queue_ahead": 370.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 45,
+       "side": 1,
+       "price": 0.55,
+       "queue_ahead": 749.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 53,
+       "side": 0,
+       "price": 0.59,
+       "queue_ahead": 443.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 54,
+       "side": 1,
+       "price": 0.43,
+       "queue_ahead": 405.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 258,
+       "side": 0,
+       "price": 0.3,
+       "queue_ahead": 937.7,
+       "consumed": 0.0
+      },
+      {
+       "t": 706,
+       "side": 1,
+       "price": 0.09,
+       "queue_ahead": 275.0,
+       "consumed": 59.8
+      }
+     ],
+     "hedge_log": []
+    },
+    "P0_candidate_real_books": {
+     "pnl": 0.0,
+     "fills": 0,
+     "q": [
+      0.0,
+      0.0
+     ],
+     "cash": 0.0,
+     "gaps": {},
+     "events": [],
+     "fee": 0.0,
+     "rebate": 0.0
+    }
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790010900",
+   "S": 1790010900,
+   "winner": 1,
+   "snapshots": 899,
+   "prints": {
+    "all_rows": 2321,
+    "taker_rows": 765,
+    "maker_rows": 1556,
+    "maker_buy_rows": 1257
+   },
+   "full": true,
+   "arms": {
+    "P1a_touch_pess": {
+     "pnl": 0.0,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      15.0,
+      15.0
+     ],
+     "cash": 15.0,
+     "worst": 0.0,
+     "fee": 0.0,
+     "rebate": 0.10427200000000002,
+     "quotes_placed": 31,
+     "quotes_cancelled": 25,
+     "fill_log": [
+      {
+       "t": 34,
+       "side": 0,
+       "price": 0.48,
+       "queue_ahead": 257.03,
+       "consumed": 0.0
+      },
+      {
+       "t": 36,
+       "side": 1,
+       "price": 0.54,
+       "queue_ahead": 742.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 39,
+       "side": 0,
+       "price": 0.45,
+       "queue_ahead": 36.66,
+       "consumed": 0.0
+      },
+      {
+       "t": 48,
+       "side": 1,
+       "price": 0.49,
+       "queue_ahead": 713.65,
+       "consumed": 0.0
+      },
+      {
+       "t": 63,
+       "side": 0,
+       "price": 0.47,
+       "queue_ahead": 853.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 64,
+       "side": 1,
+       "price": 0.57,
+       "queue_ahead": 728.93,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1a_touch_opt": {
+     "pnl": 5.000000000000002,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      15.0,
+      20.0
+     ],
+     "cash": 14.999999999999998,
+     "worst": 1.7763568394002505e-15,
+     "fee": 0.0,
+     "rebate": 0.10731000000000002,
+     "quotes_placed": 25,
+     "quotes_cancelled": 18,
+     "fill_log": [
+      {
+       "t": 34,
+       "side": 0,
+       "price": 0.48,
+       "queue_ahead": 257.03,
+       "consumed": 0.0
+      },
+      {
+       "t": 36,
+       "side": 1,
+       "price": 0.54,
+       "queue_ahead": 742.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 39,
+       "side": 0,
+       "price": 0.45,
+       "queue_ahead": 36.66,
+       "consumed": 0.0
+      },
+      {
+       "t": 43,
+       "side": 1,
+       "price": 0.48,
+       "queue_ahead": 52.54,
+       "consumed": 8.0
+      },
+      {
+       "t": 48,
+       "side": 1,
+       "price": 0.49,
+       "queue_ahead": 713.65,
+       "consumed": 0.0
+      },
+      {
+       "t": 52,
+       "side": 1,
+       "price": 0.52,
+       "queue_ahead": 553.88,
+       "consumed": 35.0
+      },
+      {
+       "t": 736,
+       "side": 0,
+       "price": 0.04,
+       "queue_ahead": 446.8,
+       "consumed": 25.01
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_pess": {
+     "pnl": 0.049999999999998934,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      20.0,
+      15.0
+     ],
+     "cash": 14.950000000000001,
+     "worst": 0.049999999999998934,
+     "fee": 0.0,
+     "rebate": 0.10499300000000002,
+     "quotes_placed": 98,
+     "quotes_cancelled": 91,
+     "fill_log": [
+      {
+       "t": 34,
+       "side": 0,
+       "price": 0.47,
+       "queue_ahead": 105.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 36,
+       "side": 1,
+       "price": 0.53,
+       "queue_ahead": 678.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 64,
+       "side": 1,
+       "price": 0.56,
+       "queue_ahead": 378.92,
+       "consumed": 0.0
+      },
+      {
+       "t": 67,
+       "side": 0,
+       "price": 0.43,
+       "queue_ahead": 270.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 117,
+       "side": 1,
+       "price": 0.65,
+       "queue_ahead": 522.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 144,
+       "side": 0,
+       "price": 0.23,
+       "queue_ahead": 105.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 387,
+       "side": 0,
+       "price": 0.12,
+       "queue_ahead": 55.48,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_opt": {
+     "pnl": -4.450000000000001,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      20.0,
+      10.0
+     ],
+     "cash": 14.450000000000001,
+     "worst": -4.450000000000001,
+     "fee": 0.0,
+     "rebate": 0.10391500000000002,
+     "quotes_placed": 32,
+     "quotes_cancelled": 26,
+     "fill_log": [
+      {
+       "t": 34,
+       "side": 0,
+       "price": 0.47,
+       "queue_ahead": 105.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 36,
+       "side": 1,
+       "price": 0.53,
+       "queue_ahead": 678.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 39,
+       "side": 0,
+       "price": 0.44,
+       "queue_ahead": 272.8,
+       "consumed": 16.8
+      },
+      {
+       "t": 63,
+       "side": 0,
+       "price": 0.46,
+       "queue_ahead": 593.11,
+       "consumed": 2.08
+      },
+      {
+       "t": 64,
+       "side": 1,
+       "price": 0.56,
+       "queue_ahead": 378.92,
+       "consumed": 0.0
+      },
+      {
+       "t": 67,
+       "side": 0,
+       "price": 0.43,
+       "queue_ahead": 270.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_pess": {
+     "pnl": 0.0,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      15.0,
+      15.0
+     ],
+     "cash": 15.0,
+     "worst": 0.0,
+     "fee": 0.0,
+     "rebate": 0.10427200000000002,
+     "quotes_placed": 31,
+     "quotes_cancelled": 25,
+     "fill_log": [
+      {
+       "t": 34,
+       "side": 0,
+       "price": 0.48,
+       "queue_ahead": 257.03,
+       "consumed": 0.0
+      },
+      {
+       "t": 36,
+       "side": 1,
+       "price": 0.54,
+       "queue_ahead": 742.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 39,
+       "side": 0,
+       "price": 0.45,
+       "queue_ahead": 36.66,
+       "consumed": 0.0
+      },
+      {
+       "t": 48,
+       "side": 1,
+       "price": 0.49,
+       "queue_ahead": 713.65,
+       "consumed": 0.0
+      },
+      {
+       "t": 63,
+       "side": 0,
+       "price": 0.47,
+       "queue_ahead": 853.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 64,
+       "side": 1,
+       "price": 0.57,
+       "queue_ahead": 728.93,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_opt": {
+     "pnl": 0.22528000000000148,
+     "fills": 7,
+     "maker_fills": 6,
+     "hedges": 1,
+     "q": [
+      20.0,
+      20.0
+     ],
+     "cash": 19.77472,
+     "worst": 0.22528000000000148,
+     "fee": 0.17472,
+     "rebate": 0.104622,
+     "quotes_placed": 22,
+     "quotes_cancelled": 16,
+     "fill_log": [
+      {
+       "t": 34,
+       "side": 0,
+       "price": 0.48,
+       "queue_ahead": 257.03,
+       "consumed": 0.0
+      },
+      {
+       "t": 36,
+       "side": 1,
+       "price": 0.54,
+       "queue_ahead": 742.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 39,
+       "side": 0,
+       "price": 0.45,
+       "queue_ahead": 36.66,
+       "consumed": 0.0
+      },
+      {
+       "t": 43,
+       "side": 1,
+       "price": 0.48,
+       "queue_ahead": 52.54,
+       "consumed": 8.0
+      },
+      {
+       "t": 48,
+       "side": 1,
+       "price": 0.49,
+       "queue_ahead": 713.65,
+       "consumed": 0.0
+      },
+      {
+       "t": 52,
+       "side": 1,
+       "price": 0.52,
+       "queue_ahead": 553.88,
+       "consumed": 35.0
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 52.07800006866455,
+       "side": 0,
+       "qty": 10.0,
+       "unit": 0.49747199999999997,
+       "fee": 0.17472,
+       "cash_after": 19.77472,
+       "over_cash_cap": true
+      }
+     ]
+    },
+    "P0_candidate_real_books": {
+     "pnl": 0.0,
+     "fills": 0,
+     "q": [
+      0.0,
+      0.0
+     ],
+     "cash": 0.0,
+     "gaps": {
+      "decision_book_one_sided_or_stale": 1
+     },
+     "events": [],
+     "fee": 0.0,
+     "rebate": 0.0
+    }
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790011800",
+   "S": 1790011800,
+   "winner": 1,
+   "snapshots": 900,
+   "prints": {
+    "all_rows": 3148,
+    "taker_rows": 1103,
+    "maker_rows": 2045,
+    "maker_buy_rows": 1599
+   },
+   "full": true,
+   "arms": {
+    "P1a_touch_pess": {
+     "pnl": 0.3000000000000007,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      15.0,
+      15.0
+     ],
+     "cash": 14.7,
+     "worst": 0.3000000000000007,
+     "fee": 0.0,
+     "rebate": 0.10131800000000002,
+     "quotes_placed": 29,
+     "quotes_cancelled": 23,
+     "fill_log": [
+      {
+       "t": 40,
+       "side": 0,
+       "price": 0.34,
+       "queue_ahead": 205.53,
+       "consumed": 212.469697
+      },
+      {
+       "t": 49,
+       "side": 1,
+       "price": 0.6,
+       "queue_ahead": 420.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 51,
+       "side": 0,
+       "price": 0.41,
+       "queue_ahead": 433.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 57,
+       "side": 1,
+       "price": 0.59,
+       "queue_ahead": 848.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 64,
+       "side": 0,
+       "price": 0.48,
+       "queue_ahead": 15.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 67,
+       "side": 1,
+       "price": 0.52,
+       "queue_ahead": 133.0,
+       "consumed": 172.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1a_touch_opt": {
+     "pnl": -1.25,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      20.0,
+      15.0
+     ],
+     "cash": 16.25,
+     "worst": -1.25,
+     "fee": 0.0,
+     "rebate": 0.11343500000000001,
+     "quotes_placed": 10,
+     "quotes_cancelled": 3,
+     "fill_log": [
+      {
+       "t": 31,
+       "side": 0,
+       "price": 0.34,
+       "queue_ahead": 205.53,
+       "consumed": 8.0
+      },
+      {
+       "t": 33,
+       "side": 0,
+       "price": 0.34,
+       "queue_ahead": 162.41,
+       "consumed": 20.47
+      },
+      {
+       "t": 36,
+       "side": 1,
+       "price": 0.65,
+       "queue_ahead": 435.0,
+       "consumed": 211.0
+      },
+      {
+       "t": 40,
+       "side": 0,
+       "price": 0.34,
+       "queue_ahead": 572.03,
+       "consumed": 100.0
+      },
+      {
+       "t": 48,
+       "side": 1,
+       "price": 0.59,
+       "queue_ahead": 282.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 49,
+       "side": 1,
+       "price": 0.6,
+       "queue_ahead": 420.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 49,
+       "side": 0,
+       "price": 0.39,
+       "queue_ahead": 190.0,
+       "consumed": 15.147541
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_pess": {
+     "pnl": -4.9,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      20.0,
+      10.0
+     ],
+     "cash": 14.9,
+     "worst": -4.9,
+     "fee": 0.0,
+     "rebate": 0.10346000000000001,
+     "quotes_placed": 130,
+     "quotes_cancelled": 124,
+     "fill_log": [
+      {
+       "t": 51,
+       "side": 0,
+       "price": 0.4,
+       "queue_ahead": 247.94,
+       "consumed": 0.0
+      },
+      {
+       "t": 64,
+       "side": 0,
+       "price": 0.47,
+       "queue_ahead": 25.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 84,
+       "side": 1,
+       "price": 0.55,
+       "queue_ahead": 463.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 225,
+       "side": 0,
+       "price": 0.49,
+       "queue_ahead": 327.7,
+       "consumed": 0.0
+      },
+      {
+       "t": 232,
+       "side": 1,
+       "price": 0.59,
+       "queue_ahead": 383.37,
+       "consumed": 0.0
+      },
+      {
+       "t": 243,
+       "side": 0,
+       "price": 0.48,
+       "queue_ahead": 371.0,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_opt": {
+     "pnl": -4.800000000000001,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      20.0,
+      10.0
+     ],
+     "cash": 14.8,
+     "worst": -4.800000000000001,
+     "fee": 0.0,
+     "rebate": 0.10287200000000002,
+     "quotes_placed": 72,
+     "quotes_cancelled": 66,
+     "fill_log": [
+      {
+       "t": 49,
+       "side": 1,
+       "price": 0.59,
+       "queue_ahead": 671.36,
+       "consumed": 19.0
+      },
+      {
+       "t": 51,
+       "side": 0,
+       "price": 0.4,
+       "queue_ahead": 247.94,
+       "consumed": 0.0
+      },
+      {
+       "t": 57,
+       "side": 1,
+       "price": 0.58,
+       "queue_ahead": 759.62,
+       "consumed": 6.0
+      },
+      {
+       "t": 64,
+       "side": 0,
+       "price": 0.47,
+       "queue_ahead": 25.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 75,
+       "side": 0,
+       "price": 0.43,
+       "queue_ahead": 195.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 192,
+       "side": 0,
+       "price": 0.49,
+       "queue_ahead": 299.0,
+       "consumed": 74.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_pess": {
+     "pnl": 0.3000000000000007,
+     "fills": 6,
+     "maker_fills": 6,
+     "hedges": 0,
+     "q": [
+      15.0,
+      15.0
+     ],
+     "cash": 14.7,
+     "worst": 0.3000000000000007,
+     "fee": 0.0,
+     "rebate": 0.10131800000000002,
+     "quotes_placed": 29,
+     "quotes_cancelled": 23,
+     "fill_log": [
+      {
+       "t": 40,
+       "side": 0,
+       "price": 0.34,
+       "queue_ahead": 205.53,
+       "consumed": 212.469697
+      },
+      {
+       "t": 49,
+       "side": 1,
+       "price": 0.6,
+       "queue_ahead": 420.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 51,
+       "side": 0,
+       "price": 0.41,
+       "queue_ahead": 433.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 57,
+       "side": 1,
+       "price": 0.59,
+       "queue_ahead": 848.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 64,
+       "side": 0,
+       "price": 0.48,
+       "queue_ahead": 15.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 67,
+       "side": 1,
+       "price": 0.52,
+       "queue_ahead": 133.0,
+       "consumed": 172.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_opt": {
+     "pnl": -0.10707999999999984,
+     "fills": 5,
+     "maker_fills": 4,
+     "hedges": 1,
+     "q": [
+      15.0,
+      15.0
+     ],
+     "cash": 15.10708,
+     "worst": -0.10707999999999984,
+     "fee": 0.15708,
+     "rebate": 0.06304900000000001,
+     "quotes_placed": 4,
+     "quotes_cancelled": 0,
+     "fill_log": [
+      {
+       "t": 31,
+       "side": 0,
+       "price": 0.34,
+       "queue_ahead": 205.53,
+       "consumed": 8.0
+      },
+      {
+       "t": 33,
+       "side": 0,
+       "price": 0.34,
+       "queue_ahead": 162.41,
+       "consumed": 20.47
+      },
+      {
+       "t": 36,
+       "side": 0,
+       "price": 0.34,
+       "queue_ahead": 100.21,
+       "consumed": 46.969697
+      },
+      {
+       "t": 36,
+       "side": 1,
+       "price": 0.65,
+       "queue_ahead": 435.0,
+       "consumed": 211.0
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 33.157999992370605,
+       "side": 1,
+       "qty": 10.0,
+       "unit": 0.675708,
+       "fee": 0.15708,
+       "cash_after": 10.15708,
+       "over_cash_cap": false
+      }
+     ]
+    },
+    "P0_candidate_real_books": {
+     "pnl": 0.5290599999999994,
+     "fills": 2,
+     "q": [
+      5.0,
+      5.0
+     ],
+     "cash": 4.470940000000001,
+     "gaps": {
+      "execution_rejected_complete": 1
+     },
+     "events": [
+      {
+       "side": 1,
+       "qty": 5.0,
+       "kind": "first",
+       "price": 0.4600000000000001,
+       "cost": 2.38694,
+       "time": 1790011981.173
+      },
+      {
+       "side": 0,
+       "qty": 5.0,
+       "kind": "complete",
+       "price": 0.4,
+       "cost": 2.084,
+       "time": 1790012101.174
+      }
+     ],
+     "fee": 0.0,
+     "rebate": 0.0
+    }
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790012700",
+   "S": 1790012700,
+   "winner": 1,
+   "snapshots": 900,
+   "prints": {
+    "all_rows": 2229,
+    "taker_rows": 710,
+    "maker_rows": 1519,
+    "maker_buy_rows": 1215
+   },
+   "full": true,
+   "arms": {
+    "P1a_touch_pess": {
+     "pnl": 0.05000000000000071,
+     "fills": 8,
+     "maker_fills": 8,
+     "hedges": 0,
+     "q": [
+      25.0,
+      15.0
+     ],
+     "cash": 14.95,
+     "worst": 0.05000000000000071,
+     "fee": 0.0,
+     "rebate": 0.100373,
+     "quotes_placed": 71,
+     "quotes_cancelled": 63,
+     "fill_log": [
+      {
+       "t": 51,
+       "side": 1,
+       "price": 0.63,
+       "queue_ahead": 875.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 78,
+       "side": 0,
+       "price": 0.31,
+       "queue_ahead": 1152.04,
+       "consumed": 0.0
+      },
+      {
+       "t": 79,
+       "side": 0,
+       "price": 0.31,
+       "queue_ahead": 1569.04,
+       "consumed": 0.0
+      },
+      {
+       "t": 97,
+       "side": 1,
+       "price": 0.67,
+       "queue_ahead": 34.18,
+       "consumed": 38.36
+      },
+      {
+       "t": 97,
+       "side": 0,
+       "price": 0.32,
+       "queue_ahead": 607.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 130,
+       "side": 1,
+       "price": 0.64,
+       "queue_ahead": 635.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 522,
+       "side": 0,
+       "price": 0.06,
+       "queue_ahead": 931.52,
+       "consumed": 0.0
+      },
+      {
+       "t": 561,
+       "side": 0,
+       "price": 0.05,
+       "queue_ahead": 268.99,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1a_touch_opt": {
+     "pnl": 0.0,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      20.0,
+      15.0
+     ],
+     "cash": 15.0,
+     "worst": 0.0,
+     "fee": 0.0,
+     "rebate": 0.09518600000000002,
+     "quotes_placed": 21,
+     "quotes_cancelled": 14,
+     "fill_log": [
+      {
+       "t": 34,
+       "side": 0,
+       "price": 0.42,
+       "queue_ahead": 501.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 45,
+       "side": 0,
+       "price": 0.41,
+       "queue_ahead": 201.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 49,
+       "side": 1,
+       "price": 0.6,
+       "queue_ahead": 619.0,
+       "consumed": 3.075
+      },
+      {
+       "t": 51,
+       "side": 1,
+       "price": 0.63,
+       "queue_ahead": 875.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 60,
+       "side": 1,
+       "price": 0.7,
+       "queue_ahead": 574.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 223,
+       "side": 0,
+       "price": 0.22,
+       "queue_ahead": 239.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 615,
+       "side": 0,
+       "price": 0.02,
+       "queue_ahead": 831.27,
+       "consumed": 11.5612
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_pess": {
+     "pnl": 0.14999999999999858,
+     "fills": 8,
+     "maker_fills": 8,
+     "hedges": 0,
+     "q": [
+      25.0,
+      15.0
+     ],
+     "cash": 14.850000000000001,
+     "worst": 0.14999999999999858,
+     "fee": 0.0,
+     "rebate": 0.10405500000000002,
+     "quotes_placed": 117,
+     "quotes_cancelled": 109,
+     "fill_log": [
+      {
+       "t": 51,
+       "side": 1,
+       "price": 0.62,
+       "queue_ahead": 641.4,
+       "consumed": 0.0
+      },
+      {
+       "t": 145,
+       "side": 0,
+       "price": 0.34,
+       "queue_ahead": 453.2,
+       "consumed": 0.0
+      },
+      {
+       "t": 151,
+       "side": 0,
+       "price": 0.36,
+       "queue_ahead": 492.81,
+       "consumed": 0.0
+      },
+      {
+       "t": 154,
+       "side": 1,
+       "price": 0.61,
+       "queue_ahead": 306.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 166,
+       "side": 1,
+       "price": 0.63,
+       "queue_ahead": 514.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 198,
+       "side": 0,
+       "price": 0.26,
+       "queue_ahead": 381.18,
+       "consumed": 0.0
+      },
+      {
+       "t": 507,
+       "side": 0,
+       "price": 0.13,
+       "queue_ahead": 605.88,
+       "consumed": 0.0
+      },
+      {
+       "t": 699,
+       "side": 0,
+       "price": 0.02,
+       "queue_ahead": 969.19,
+       "consumed": 991.11
+      }
+     ],
+     "hedge_log": []
+    },
+    "P1b_touch1_opt": {
+     "pnl": -1.7763568394002505e-15,
+     "fills": 7,
+     "maker_fills": 7,
+     "hedges": 0,
+     "q": [
+      20.0,
+      15.0
+     ],
+     "cash": 15.000000000000002,
+     "worst": -1.7763568394002505e-15,
+     "fee": 0.0,
+     "rebate": 0.10322200000000001,
+     "quotes_placed": 62,
+     "quotes_cancelled": 55,
+     "fill_log": [
+      {
+       "t": 51,
+       "side": 1,
+       "price": 0.62,
+       "queue_ahead": 641.4,
+       "consumed": 0.0
+      },
+      {
+       "t": 78,
+       "side": 0,
+       "price": 0.3,
+       "queue_ahead": 62.0,
+       "consumed": 7.0
+      },
+      {
+       "t": 79,
+       "side": 0,
+       "price": 0.3,
+       "queue_ahead": 302.0,
+       "consumed": 8.0
+      },
+      {
+       "t": 97,
+       "side": 1,
+       "price": 0.66,
+       "queue_ahead": 365.89,
+       "consumed": 0.11
+      },
+      {
+       "t": 97,
+       "side": 0,
+       "price": 0.31,
+       "queue_ahead": 445.82,
+       "consumed": 30.0
+      },
+      {
+       "t": 130,
+       "side": 1,
+       "price": 0.63,
+       "queue_ahead": 603.0,
+       "consumed": 9.0
+      },
+      {
+       "t": 390,
+       "side": 0,
+       "price": 0.18,
+       "queue_ahead": 558.56,
+       "consumed": 10.29
+      }
+     ],
+     "hedge_log": []
+    },
+    "P2_touch_hedge_pess": {
+     "pnl": 0.5167500000000018,
+     "fills": 9,
+     "maker_fills": 8,
+     "hedges": 1,
+     "q": [
+      25.0,
+      25.0
+     ],
+     "cash": 24.483249999999998,
+     "worst": 0.5167500000000018,
+     "fee": 0.03325,
+     "rebate": 0.100373,
+     "quotes_placed": 71,
+     "quotes_cancelled": 63,
+     "fill_log": [
+      {
+       "t": 51,
+       "side": 1,
+       "price": 0.63,
+       "queue_ahead": 875.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 78,
+       "side": 0,
+       "price": 0.31,
+       "queue_ahead": 1152.04,
+       "consumed": 0.0
+      },
+      {
+       "t": 79,
+       "side": 0,
+       "price": 0.31,
+       "queue_ahead": 1569.04,
+       "consumed": 0.0
+      },
+      {
+       "t": 97,
+       "side": 1,
+       "price": 0.67,
+       "queue_ahead": 34.18,
+       "consumed": 38.36
+      },
+      {
+       "t": 97,
+       "side": 0,
+       "price": 0.32,
+       "queue_ahead": 607.0,
+       "consumed": 0.0
+      },
+      {
+       "t": 130,
+       "side": 1,
+       "price": 0.64,
+       "queue_ahead": 635.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 522,
+       "side": 0,
+       "price": 0.06,
+       "queue_ahead": 931.52,
+       "consumed": 0.0
+      },
+      {
+       "t": 561,
+       "side": 0,
+       "price": 0.05,
+       "queue_ahead": 268.99,
+       "consumed": 0.0
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 561.2939999103546,
+       "side": 1,
+       "qty": 10.0,
+       "unit": 0.9533250000000001,
+       "fee": 0.03325,
+       "cash_after": 24.483249999999998,
+       "over_cash_cap": true
+      }
+     ]
+    },
+    "P2_touch_hedge_opt": {
+     "pnl": -0.9163300000000021,
+     "fills": 6,
+     "maker_fills": 4,
+     "hedges": 2,
+     "q": [
+      20.0,
+      20.0
+     ],
+     "cash": 20.916330000000002,
+     "worst": -0.9163300000000021,
+     "fee": 0.31633,
+     "rebate": 0.06561800000000001,
+     "quotes_placed": 19,
+     "quotes_cancelled": 15,
+     "fill_log": [
+      {
+       "t": 34,
+       "side": 0,
+       "price": 0.42,
+       "queue_ahead": 501.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 45,
+       "side": 0,
+       "price": 0.41,
+       "queue_ahead": 201.0,
+       "consumed": 5.0
+      },
+      {
+       "t": 46,
+       "side": 0,
+       "price": 0.41,
+       "queue_ahead": 141.0,
+       "consumed": 33.0
+      },
+      {
+       "t": 67,
+       "side": 0,
+       "price": 0.3,
+       "queue_ahead": 281.0,
+       "consumed": 14.2
+      }
+     ],
+     "hedge_log": [
+      {
+       "t": 45.246999979019165,
+       "side": 1,
+       "qty": 10.0,
+       "unit": 0.606933,
+       "fee": 0.16933,
+       "cash_after": 10.21933,
+       "over_cash_cap": false
+      },
+      {
+       "t": 67.23900008201599,
+       "side": 1,
+       "qty": 10.0,
+       "unit": 0.7147,
+       "fee": 0.147,
+       "cash_after": 20.916330000000002,
+       "over_cash_cap": true
+      }
+     ]
+    },
+    "P0_candidate_real_books": {
+     "pnl": 0.0,
+     "fills": 0,
+     "q": [
+      0.0,
+      0.0
+     ],
+     "cash": 0.0,
+     "gaps": {},
+     "events": [],
+     "fee": 0.0,
+     "rebate": 0.0
+    }
+   }
+  },
+  {
+   "slug": "btc-updown-15m-1790013600",
+   "skipped": "partial_coverage",
+   "full": false
+  }
+ ],
+ "note": "Bounded queue replay; PESS=no cancels ahead, OPT=first in queue. Not an executed result. Rebate is an upper-bound line, not in pnl."
+}

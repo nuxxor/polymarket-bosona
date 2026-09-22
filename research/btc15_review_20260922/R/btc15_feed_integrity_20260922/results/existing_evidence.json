@@ -1,0 +1,162 @@
+{
+  "captured_public_messages": [
+    {
+      "k": "last_trade_price",
+      "mono": 120858027264314,
+      "p": {
+        "asset_id": "10562523159003953361907559216699653646261803062415540153283805148518870190433",
+        "event_type": "last_trade_price",
+        "fee_rate_bps": "0",
+        "market": "0xec091cbcce50a6b072e050e9bebe9f5f2c02359e7dafc6419826751322c3e68c",
+        "price": "0.48",
+        "side": "BUY",
+        "size": "7.833334",
+        "timestamp": "1790029298418",
+        "transaction_hash": "0x8a52f8ddce9884442c3f6987005e276139fc6967a3477b091c53046ceba31ce2"
+      },
+      "rcv": 1790029298648
+    }
+  ],
+  "conclusion": "Missing quantity is real. Equal price/size cannot supply the missing trade identity or time. Public source timestamps are not demonstrated venue match timestamps.",
+  "distinct_equal_summary_matches": [
+    {
+      "active": {
+        "cash_cost": 3896860,
+        "counterparty": "0xe111180000d2663c0091e4f400237545b87b996b",
+        "fee": 136860,
+        "log_index": 423,
+        "order_hash": "0x32d1bf77351d87cf7eae8c75652f458ee80f63b69d2f9896ba5ed54ce639c9c3",
+        "owner": "0x22b3fe25e68ae4325f07e8ab2bf2f74495bca018",
+        "qty": 7833334,
+        "role": "taker",
+        "side": 0,
+        "token": "10562523159003953361907559216699653646261803062415540153283805148518870190433",
+        "tx": "0x38653423aa33191fa36714e9463daed61a437d5043c4325bd38f46a064f90003"
+      },
+      "gross": 3760000,
+      "makers": [
+        {
+          "cash_cost": 868400,
+          "counterparty": "0x22b3fe25e68ae4325f07e8ab2bf2f74495bca018",
+          "fee": 0,
+          "log_index": 417,
+          "order_hash": "0xb4f8af0c1d971eca6a659e4d2712576ae1b5d56da8ff302f0ee4d9a6654e08f9",
+          "owner": "0xc744f6ff45e68aed5b8a12f52c58c0761efc3e25",
+          "qty": 1670000,
+          "role": "maker",
+          "side": 0,
+          "token": "66404953886284880347512480136123868122690221812307969563972738842716107125529",
+          "tx": "0x38653423aa33191fa36714e9463daed61a437d5043c4325bd38f46a064f90003"
+        },
+        {
+          "cash_cost": 3204934,
+          "counterparty": "0x22b3fe25e68ae4325f07e8ab2bf2f74495bca018",
+          "fee": 0,
+          "log_index": 419,
+          "order_hash": "0x424de2ade8e8d0b0be0ac3c8bf6faccb169ae9e8f3a4461f1522d1892e95502f",
+          "owner": "0x21f4c1a1be34a39a7bc20985df4b7e5a39fb691d",
+          "qty": 6163334,
+          "role": "maker",
+          "side": 0,
+          "token": "66404953886284880347512480136123868122690221812307969563972738842716107125529",
+          "tx": "0x38653423aa33191fa36714e9463daed61a437d5043c4325bd38f46a064f90003"
+        }
+      ],
+      "match_log": 424,
+      "tx": "0x38653423aa33191fa36714e9463daed61a437d5043c4325bd38f46a064f90003"
+    },
+    {
+      "active": {
+        "cash_cost": 3896860,
+        "counterparty": "0xe111180000d2663c0091e4f400237545b87b996b",
+        "fee": 136860,
+        "log_index": 329,
+        "order_hash": "0xdb4c253cba10533ff1275c5d7428004700d5a95d070ebd53e6d7af5e8253bc4c",
+        "owner": "0x5d3cc45e538130b02c8f3c821638ec9cd350c298",
+        "qty": 7833334,
+        "role": "taker",
+        "side": 0,
+        "token": "10562523159003953361907559216699653646261803062415540153283805148518870190433",
+        "tx": "0x8a52f8ddce9884442c3f6987005e276139fc6967a3477b091c53046ceba31ce2"
+      },
+      "gross": 3760000,
+      "makers": [
+        {
+          "cash_cost": 1991600,
+          "counterparty": "0x5d3cc45e538130b02c8f3c821638ec9cd350c298",
+          "fee": 0,
+          "log_index": 323,
+          "order_hash": "0x424de2ade8e8d0b0be0ac3c8bf6faccb169ae9e8f3a4461f1522d1892e95502f",
+          "owner": "0x21f4c1a1be34a39a7bc20985df4b7e5a39fb691d",
+          "qty": 3830000,
+          "role": "maker",
+          "side": 0,
+          "token": "66404953886284880347512480136123868122690221812307969563972738842716107125529",
+          "tx": "0x8a52f8ddce9884442c3f6987005e276139fc6967a3477b091c53046ceba31ce2"
+        },
+        {
+          "cash_cost": 2081734,
+          "counterparty": "0x5d3cc45e538130b02c8f3c821638ec9cd350c298",
+          "fee": 0,
+          "log_index": 325,
+          "order_hash": "0x30e93b60d9a4ef121a9e873910d48c2f7ce116490d165ee5b9415ab447c4b4cb",
+          "owner": "0xb27bc932bf8110d8f78e55da7d5f0497a18b5b82",
+          "qty": 4003334,
+          "role": "maker",
+          "side": 0,
+          "token": "66404953886284880347512480136123868122690221812307969563972738842716107125529",
+          "tx": "0x8a52f8ddce9884442c3f6987005e276139fc6967a3477b091c53046ceba31ce2"
+        }
+      ],
+      "match_log": 330,
+      "tx": "0x8a52f8ddce9884442c3f6987005e276139fc6967a3477b091c53046ceba31ce2"
+    }
+  ],
+  "public_clocks": [
+    {
+      "log_index": 685,
+      "observed_matched_ns": 1790028014343809892,
+      "oid": "0x6c5a8728795fb308fbd4b129eee7dce429d2de34a432ffa448d984c0de9d838d",
+      "private_exchange_match_ms": null,
+      "public_after_matched_ms": "-638.809892",
+      "public_source_ms": 1790028013705,
+      "tx": "0x6845dd851f0678174d31ab6fa49f99a708374538c3791d907f084e2b0a7f88fe"
+    },
+    {
+      "log_index": 359,
+      "observed_matched_ns": 1790028041594866460,
+      "oid": "0x3925b5c57af0320c637118ed04a94c2f3218ab36b8735fb542a6b8d0b56aa2ca",
+      "private_exchange_match_ms": null,
+      "public_after_matched_ms": "-113.86646",
+      "public_source_ms": 1790028041481,
+      "tx": "0xbd6a821b129ae08f7b7aa8a22a2a32d56457aed199e476a1a8cfaa17cd542bcc"
+    },
+    {
+      "log_index": 381,
+      "observed_matched_ns": 1790028041594866460,
+      "oid": "0x3925b5c57af0320c637118ed04a94c2f3218ab36b8735fb542a6b8d0b56aa2ca",
+      "private_exchange_match_ms": null,
+      "public_after_matched_ms": "-38.86646",
+      "public_source_ms": 1790028041556,
+      "tx": "0x113166cf8eac9f5b5e8cc0d408e7db7e2e4db9ff667c199a053893bf0e8b8a74"
+    },
+    {
+      "log_index": 240,
+      "observed_matched_ns": 1790028640801458662,
+      "oid": "0xc1217c5693bf3e33cf2590fa8b67a8902d885cb55e9132362bca944c39036970",
+      "private_exchange_match_ms": null,
+      "public_after_matched_ms": "141.541338",
+      "public_source_ms": 1790028640943,
+      "tx": "0x7f2d2c503a465b78eb84e85dffc6d4f7d29aaa1e1617a2cde42e5a227f1381e4"
+    },
+    {
+      "log_index": 566,
+      "observed_matched_ns": 1790028707046263030,
+      "oid": "0xf158b17e313e08577548bb65f297d6bd46cc0b169571039b95144e2123c207e9",
+      "private_exchange_match_ms": null,
+      "public_after_matched_ms": "-94.26303",
+      "public_source_ms": 1790028706952,
+      "tx": "0xdf3154ada376c6a75632e1ebb426c407ed547fce78b26e822f6a00e184ca92c4"
+    }
+  ]
+}

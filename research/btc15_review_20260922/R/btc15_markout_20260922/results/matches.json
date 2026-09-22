@@ -1,0 +1,452 @@
+{
+  "primary": [
+    {
+      "actor_id": "0x6eaab1775cfa1457181c97bb156d8b177313ef4f83ff99848c3730218c12bf76:968",
+      "control_id": "0xbf6abd6e78f7252f60221abf1756fa089eb7af9ca5213064a459ff8db61c4886:550",
+      "eligible": 37,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 1361
+    },
+    {
+      "actor_id": "0xbb49133767212e012a435e65713d92975cdba79b441657e1868824740411e5db:144",
+      "control_id": "0x89b3bcb8f67617854048259c9b16f8fd18a990b6e8da2c1cbda6e08d97f073fb:270",
+      "eligible": 33,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": -495
+    },
+    {
+      "actor_id": "0x86d3d31820b6716359ab666e7ee50d8b72c86707fa16460fb3cb7b0639b2bec2:192",
+      "control_id": "0xbb49133767212e012a435e65713d92975cdba79b441657e1868824740411e5db:140",
+      "eligible": 35,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 241
+    },
+    {
+      "actor_id": "0xa0e287b8e1de3d6612937414a7776743bb2059052a08880aa5fd5c5c38ddd39b:144",
+      "control_id": "0x89b3bcb8f67617854048259c9b16f8fd18a990b6e8da2c1cbda6e08d97f073fb:270",
+      "eligible": 31,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 1453
+    },
+    {
+      "actor_id": "0x490c3d4dab6306337e64b426d8222b059fba6a42dd229942584f9c51cf537834:271",
+      "control_id": "0x8a96b9103d71694e52e77501954a3f1156624b3a15612dbdafa96a14a361be34:307",
+      "eligible": 21,
+      "price_difference_cents": -6.802649460402321e-06,
+      "time_difference_ms": -3149
+    },
+    {
+      "actor_id": "0x74abc53321bfb4a2832910e94faae77403235d26de5bd97871151c306c49952b:435",
+      "control_id": "0xbc391a0c73cbb1eba8e650f272b81635bff6dcc17319066fa8c60933dae4396e:381",
+      "eligible": 9,
+      "price_difference_cents": 2.3974049018216093e-05,
+      "time_difference_ms": -1302
+    },
+    {
+      "actor_id": "0x5b27137eb2a5365cb017b4fa5c695f6832010fe45b36143dfb02fd6860177cf0:239",
+      "control_id": "0xbc391a0c73cbb1eba8e650f272b81635bff6dcc17319066fa8c60933dae4396e:381",
+      "eligible": 12,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": -429
+    },
+    {
+      "actor_id": "0xbc391a0c73cbb1eba8e650f272b81635bff6dcc17319066fa8c60933dae4396e:379",
+      "control_id": "0x74abc53321bfb4a2832910e94faae77403235d26de5bd97871151c306c49952b:431",
+      "eligible": 11,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 1302
+    },
+    {
+      "actor_id": "0x4267245f38173b741bb019223f25a8cd7bedd9a0a983d96a2023339ed9c5e2ca:812",
+      "control_id": "0x51fc59188582f457b77d00ff695660146b9fa8a391da82c226cac357887ecf66:543",
+      "eligible": 16,
+      "price_difference_cents": -1.0000008528482263,
+      "time_difference_ms": 17
+    },
+    {
+      "actor_id": "0x3e1c71c210731339cd246d99212ac819a201ca170714fca4347862ff57bf2688:428",
+      "control_id": "0x4aff677958b92d5033e094993566b6ff9bf70331deac9ff3cda9ab6eca822173:243",
+      "eligible": 56,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 3
+    },
+    {
+      "actor_id": "0x9e4b9482ee97fe7d8bf3379cfe852d825de13718059ebd51f75dd908e29b5494:201",
+      "control_id": "0x3ae68c3194e205efbb1bb01644e06b58574aba2ade3206750ab252e2714ae35e:363",
+      "eligible": 57,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": -60
+    },
+    {
+      "actor_id": "0x4d0bc6d0fdbab15baaaefdd55a98c170eb56dc85ea6e0a080b9b693228bd874d:380",
+      "control_id": "0xd1b29c246388a0116e9051b726f5044e06b2d540024f697b0ed1f9ab40d01653:665",
+      "eligible": 40,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": -457
+    },
+    {
+      "actor_id": "0xe074077db709f9cb11ccae15696d9449de3bd461ff66031895e16bee030c79ba:309",
+      "control_id": "0xd1b29c246388a0116e9051b726f5044e06b2d540024f697b0ed1f9ab40d01653:665",
+      "eligible": 40,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": -455
+    },
+    {
+      "actor_id": "0xb125aa58d535e5baf3ce9f0fdedc70e4f6d44b275f026a2c2b8338045e01f91f:284",
+      "control_id": "0xc6626e8112f14280aba73b6a2fa312d21e55fb5abf11d957dffaa74acb76b831:557",
+      "eligible": 2,
+      "price_difference_cents": 1.9999944835825512,
+      "time_difference_ms": 292
+    },
+    {
+      "actor_id": "0x23585f7f5400c5924cc33e5d37dc8876584ba289131cea1c9d93ed81697bfc63:1853",
+      "control_id": "0xdbb388144041a37fc90aed67240d8734b197b35a66614893d621f39248e8b7af:1010",
+      "eligible": 16,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": -8641
+    },
+    {
+      "actor_id": "0x6ff4e4d9ceab9387a8e07e13657449d5a306c372f6a6ed2e962b62ed258cf288:576",
+      "control_id": "0x0ab5adca8d8ffaca4217104d1bef226832629082ab679c65a925b705bba12595:418",
+      "eligible": 5,
+      "price_difference_cents": -1.0000000000000009,
+      "time_difference_ms": -8741
+    },
+    {
+      "actor_id": "0x5426f1ace23120fd4411e03f4ceebb15612ea33df6770eb9b52108f5db04451f:904",
+      "control_id": "0x8d86ddc743cc7cde88ebc06bfcd8ce3ea61ecf13ae1482e27b8c4c867aff47b0:334",
+      "eligible": 27,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": -80
+    },
+    {
+      "actor_id": "0x745595f092cd911593d3dd6182baf6019541a6ce7d727a2796913a70fcf46cd0:393",
+      "control_id": "0x8d86ddc743cc7cde88ebc06bfcd8ce3ea61ecf13ae1482e27b8c4c867aff47b0:334",
+      "eligible": 26,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": -38
+    },
+    {
+      "actor_id": "0x8d86ddc743cc7cde88ebc06bfcd8ce3ea61ecf13ae1482e27b8c4c867aff47b0:332",
+      "control_id": "0x8d8baf29030f199a7d8797241ecd4e96f898225e474dc2dd2edc0b2924f1dad3:571",
+      "eligible": 16,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": -42
+    },
+    {
+      "actor_id": "0x152a0a3db2f0706ddc5cc136b807da9cf66116699163079767aa68aceb7e9f77:747",
+      "control_id": "0x6f1e95791c797a49465bf623d718e36695099fc800e146feb08fbd67ab44f171:724",
+      "eligible": 41,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 31
+    },
+    {
+      "actor_id": "0x3da7b54d0edd7672b622eda56ae8a638fbe6b651900784dd45e835fde50ee8e9:767",
+      "control_id": "0x152a0a3db2f0706ddc5cc136b807da9cf66116699163079767aa68aceb7e9f77:745",
+      "eligible": 42,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 1
+    },
+    {
+      "actor_id": "0xfce9b9176fb4e36d361ba8e4f430792de9c7e704764b4606482f29e19c693fa2:125",
+      "control_id": "0x2e759424bc67c90dab972beeb025d621a4b667663351b2e30ae2d7be8ba8e827:214",
+      "eligible": 43,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 2081
+    }
+  ],
+  "same_match": [
+    {
+      "actor_id": "0x6eaab1775cfa1457181c97bb156d8b177313ef4f83ff99848c3730218c12bf76:968",
+      "control_id": "0x6eaab1775cfa1457181c97bb156d8b177313ef4f83ff99848c3730218c12bf76:970",
+      "eligible": 3,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 0
+    },
+    {
+      "actor_id": "0xbb49133767212e012a435e65713d92975cdba79b441657e1868824740411e5db:144",
+      "control_id": "0xbb49133767212e012a435e65713d92975cdba79b441657e1868824740411e5db:140",
+      "eligible": 2,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 0
+    },
+    {
+      "actor_id": "0x86d3d31820b6716359ab666e7ee50d8b72c86707fa16460fb3cb7b0639b2bec2:192",
+      "control_id": null,
+      "eligible": 0
+    },
+    {
+      "actor_id": "0xa0e287b8e1de3d6612937414a7776743bb2059052a08880aa5fd5c5c38ddd39b:144",
+      "control_id": "0xa0e287b8e1de3d6612937414a7776743bb2059052a08880aa5fd5c5c38ddd39b:142",
+      "eligible": 4,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 0
+    },
+    {
+      "actor_id": "0x490c3d4dab6306337e64b426d8222b059fba6a42dd229942584f9c51cf537834:271",
+      "control_id": "0x490c3d4dab6306337e64b426d8222b059fba6a42dd229942584f9c51cf537834:267",
+      "eligible": 2,
+      "price_difference_cents": -1.9999986626503596,
+      "time_difference_ms": 0
+    },
+    {
+      "actor_id": "0x74abc53321bfb4a2832910e94faae77403235d26de5bd97871151c306c49952b:435",
+      "control_id": "0x74abc53321bfb4a2832910e94faae77403235d26de5bd97871151c306c49952b:431",
+      "eligible": 2,
+      "price_difference_cents": 2.3974049018216093e-05,
+      "time_difference_ms": 0
+    },
+    {
+      "actor_id": "0x5b27137eb2a5365cb017b4fa5c695f6832010fe45b36143dfb02fd6860177cf0:239",
+      "control_id": null,
+      "eligible": 0
+    },
+    {
+      "actor_id": "0xbc391a0c73cbb1eba8e650f272b81635bff6dcc17319066fa8c60933dae4396e:379",
+      "control_id": "0xbc391a0c73cbb1eba8e650f272b81635bff6dcc17319066fa8c60933dae4396e:381",
+      "eligible": 1,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 0
+    },
+    {
+      "actor_id": "0x4267245f38173b741bb019223f25a8cd7bedd9a0a983d96a2023339ed9c5e2ca:812",
+      "control_id": "0x4267245f38173b741bb019223f25a8cd7bedd9a0a983d96a2023339ed9c5e2ca:808",
+      "eligible": 16,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 0
+    },
+    {
+      "actor_id": "0x3e1c71c210731339cd246d99212ac819a201ca170714fca4347862ff57bf2688:428",
+      "control_id": null,
+      "eligible": 0
+    },
+    {
+      "actor_id": "0x9e4b9482ee97fe7d8bf3379cfe852d825de13718059ebd51f75dd908e29b5494:201",
+      "control_id": null,
+      "eligible": 0
+    },
+    {
+      "actor_id": "0x4d0bc6d0fdbab15baaaefdd55a98c170eb56dc85ea6e0a080b9b693228bd874d:380",
+      "control_id": null,
+      "eligible": 0
+    },
+    {
+      "actor_id": "0xe074077db709f9cb11ccae15696d9449de3bd461ff66031895e16bee030c79ba:309",
+      "control_id": null,
+      "eligible": 0
+    },
+    {
+      "actor_id": "0xb125aa58d535e5baf3ce9f0fdedc70e4f6d44b275f026a2c2b8338045e01f91f:284",
+      "control_id": "0xb125aa58d535e5baf3ce9f0fdedc70e4f6d44b275f026a2c2b8338045e01f91f:274",
+      "eligible": 4,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 0
+    },
+    {
+      "actor_id": "0x23585f7f5400c5924cc33e5d37dc8876584ba289131cea1c9d93ed81697bfc63:1853",
+      "control_id": null,
+      "eligible": 0
+    },
+    {
+      "actor_id": "0x6ff4e4d9ceab9387a8e07e13657449d5a306c372f6a6ed2e962b62ed258cf288:576",
+      "control_id": "0x6ff4e4d9ceab9387a8e07e13657449d5a306c372f6a6ed2e962b62ed258cf288:567",
+      "eligible": 9,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 0
+    },
+    {
+      "actor_id": "0x5426f1ace23120fd4411e03f4ceebb15612ea33df6770eb9b52108f5db04451f:904",
+      "control_id": null,
+      "eligible": 0
+    },
+    {
+      "actor_id": "0x745595f092cd911593d3dd6182baf6019541a6ce7d727a2796913a70fcf46cd0:393",
+      "control_id": "0x745595f092cd911593d3dd6182baf6019541a6ce7d727a2796913a70fcf46cd0:387",
+      "eligible": 1,
+      "price_difference_cents": -1.0000000000000009,
+      "time_difference_ms": 0
+    },
+    {
+      "actor_id": "0x8d86ddc743cc7cde88ebc06bfcd8ce3ea61ecf13ae1482e27b8c4c867aff47b0:332",
+      "control_id": "0x8d86ddc743cc7cde88ebc06bfcd8ce3ea61ecf13ae1482e27b8c4c867aff47b0:334",
+      "eligible": 11,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 0
+    },
+    {
+      "actor_id": "0x152a0a3db2f0706ddc5cc136b807da9cf66116699163079767aa68aceb7e9f77:747",
+      "control_id": "0x152a0a3db2f0706ddc5cc136b807da9cf66116699163079767aa68aceb7e9f77:745",
+      "eligible": 1,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 0
+    },
+    {
+      "actor_id": "0x3da7b54d0edd7672b622eda56ae8a638fbe6b651900784dd45e835fde50ee8e9:767",
+      "control_id": null,
+      "eligible": 0
+    },
+    {
+      "actor_id": "0xfce9b9176fb4e36d361ba8e4f430792de9c7e704764b4606482f29e19c693fa2:125",
+      "control_id": "0xfce9b9176fb4e36d361ba8e4f430792de9c7e704764b4606482f29e19c693fa2:121",
+      "eligible": 5,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 0
+    }
+  ],
+  "wide": [
+    {
+      "actor_id": "0x6eaab1775cfa1457181c97bb156d8b177313ef4f83ff99848c3730218c12bf76:968",
+      "control_id": "0xbf6abd6e78f7252f60221abf1756fa089eb7af9ca5213064a459ff8db61c4886:550",
+      "eligible": 110,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 1361
+    },
+    {
+      "actor_id": "0xbb49133767212e012a435e65713d92975cdba79b441657e1868824740411e5db:144",
+      "control_id": "0x89b3bcb8f67617854048259c9b16f8fd18a990b6e8da2c1cbda6e08d97f073fb:270",
+      "eligible": 79,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": -495
+    },
+    {
+      "actor_id": "0x86d3d31820b6716359ab666e7ee50d8b72c86707fa16460fb3cb7b0639b2bec2:192",
+      "control_id": "0xbb49133767212e012a435e65713d92975cdba79b441657e1868824740411e5db:140",
+      "eligible": 81,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 241
+    },
+    {
+      "actor_id": "0xa0e287b8e1de3d6612937414a7776743bb2059052a08880aa5fd5c5c38ddd39b:144",
+      "control_id": "0x89b3bcb8f67617854048259c9b16f8fd18a990b6e8da2c1cbda6e08d97f073fb:270",
+      "eligible": 77,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 1453
+    },
+    {
+      "actor_id": "0x490c3d4dab6306337e64b426d8222b059fba6a42dd229942584f9c51cf537834:271",
+      "control_id": "0x8a96b9103d71694e52e77501954a3f1156624b3a15612dbdafa96a14a361be34:307",
+      "eligible": 88,
+      "price_difference_cents": -6.802649460402321e-06,
+      "time_difference_ms": -3149
+    },
+    {
+      "actor_id": "0x74abc53321bfb4a2832910e94faae77403235d26de5bd97871151c306c49952b:435",
+      "control_id": "0xbc391a0c73cbb1eba8e650f272b81635bff6dcc17319066fa8c60933dae4396e:381",
+      "eligible": 47,
+      "price_difference_cents": 2.3974049018216093e-05,
+      "time_difference_ms": -1302
+    },
+    {
+      "actor_id": "0x5b27137eb2a5365cb017b4fa5c695f6832010fe45b36143dfb02fd6860177cf0:239",
+      "control_id": "0xbc391a0c73cbb1eba8e650f272b81635bff6dcc17319066fa8c60933dae4396e:381",
+      "eligible": 46,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": -429
+    },
+    {
+      "actor_id": "0xbc391a0c73cbb1eba8e650f272b81635bff6dcc17319066fa8c60933dae4396e:379",
+      "control_id": "0x74abc53321bfb4a2832910e94faae77403235d26de5bd97871151c306c49952b:431",
+      "eligible": 45,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 1302
+    },
+    {
+      "actor_id": "0x4267245f38173b741bb019223f25a8cd7bedd9a0a983d96a2023339ed9c5e2ca:812",
+      "control_id": "0x51fc59188582f457b77d00ff695660146b9fa8a391da82c226cac357887ecf66:543",
+      "eligible": 54,
+      "price_difference_cents": -1.0000008528482263,
+      "time_difference_ms": 17
+    },
+    {
+      "actor_id": "0x3e1c71c210731339cd246d99212ac819a201ca170714fca4347862ff57bf2688:428",
+      "control_id": "0x4aff677958b92d5033e094993566b6ff9bf70331deac9ff3cda9ab6eca822173:243",
+      "eligible": 104,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 3
+    },
+    {
+      "actor_id": "0x9e4b9482ee97fe7d8bf3379cfe852d825de13718059ebd51f75dd908e29b5494:201",
+      "control_id": "0x3ae68c3194e205efbb1bb01644e06b58574aba2ade3206750ab252e2714ae35e:363",
+      "eligible": 104,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": -60
+    },
+    {
+      "actor_id": "0x4d0bc6d0fdbab15baaaefdd55a98c170eb56dc85ea6e0a080b9b693228bd874d:380",
+      "control_id": "0xd1b29c246388a0116e9051b726f5044e06b2d540024f697b0ed1f9ab40d01653:665",
+      "eligible": 54,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": -457
+    },
+    {
+      "actor_id": "0xe074077db709f9cb11ccae15696d9449de3bd461ff66031895e16bee030c79ba:309",
+      "control_id": "0xd1b29c246388a0116e9051b726f5044e06b2d540024f697b0ed1f9ab40d01653:665",
+      "eligible": 54,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": -455
+    },
+    {
+      "actor_id": "0xb125aa58d535e5baf3ce9f0fdedc70e4f6d44b275f026a2c2b8338045e01f91f:284",
+      "control_id": "0xc6626e8112f14280aba73b6a2fa312d21e55fb5abf11d957dffaa74acb76b831:557",
+      "eligible": 62,
+      "price_difference_cents": 1.9999944835825512,
+      "time_difference_ms": 292
+    },
+    {
+      "actor_id": "0x23585f7f5400c5924cc33e5d37dc8876584ba289131cea1c9d93ed81697bfc63:1853",
+      "control_id": "0xdbb388144041a37fc90aed67240d8734b197b35a66614893d621f39248e8b7af:1010",
+      "eligible": 46,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": -8641
+    },
+    {
+      "actor_id": "0x6ff4e4d9ceab9387a8e07e13657449d5a306c372f6a6ed2e962b62ed258cf288:576",
+      "control_id": "0x0ab5adca8d8ffaca4217104d1bef226832629082ab679c65a925b705bba12595:418",
+      "eligible": 20,
+      "price_difference_cents": -1.0000000000000009,
+      "time_difference_ms": -8741
+    },
+    {
+      "actor_id": "0x5426f1ace23120fd4411e03f4ceebb15612ea33df6770eb9b52108f5db04451f:904",
+      "control_id": "0x8d86ddc743cc7cde88ebc06bfcd8ce3ea61ecf13ae1482e27b8c4c867aff47b0:334",
+      "eligible": 68,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": -80
+    },
+    {
+      "actor_id": "0x745595f092cd911593d3dd6182baf6019541a6ce7d727a2796913a70fcf46cd0:393",
+      "control_id": "0x8d86ddc743cc7cde88ebc06bfcd8ce3ea61ecf13ae1482e27b8c4c867aff47b0:334",
+      "eligible": 67,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": -38
+    },
+    {
+      "actor_id": "0x8d86ddc743cc7cde88ebc06bfcd8ce3ea61ecf13ae1482e27b8c4c867aff47b0:332",
+      "control_id": "0x8d8baf29030f199a7d8797241ecd4e96f898225e474dc2dd2edc0b2924f1dad3:571",
+      "eligible": 57,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": -42
+    },
+    {
+      "actor_id": "0x152a0a3db2f0706ddc5cc136b807da9cf66116699163079767aa68aceb7e9f77:747",
+      "control_id": "0x6f1e95791c797a49465bf623d718e36695099fc800e146feb08fbd67ab44f171:724",
+      "eligible": 83,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 31
+    },
+    {
+      "actor_id": "0x3da7b54d0edd7672b622eda56ae8a638fbe6b651900784dd45e835fde50ee8e9:767",
+      "control_id": "0x152a0a3db2f0706ddc5cc136b807da9cf66116699163079767aa68aceb7e9f77:745",
+      "eligible": 84,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 1
+    },
+    {
+      "actor_id": "0xfce9b9176fb4e36d361ba8e4f430792de9c7e704764b4606482f29e19c693fa2:125",
+      "control_id": "0x2e759424bc67c90dab972beeb025d621a4b667663351b2e30ae2d7be8ba8e827:214",
+      "eligible": 55,
+      "price_difference_cents": 0.0,
+      "time_difference_ms": 2081
+    }
+  ]
+}

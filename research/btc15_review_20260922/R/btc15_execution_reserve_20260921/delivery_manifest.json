@@ -1,0 +1,16 @@
+{
+  "sha256": {
+    "run.py": "127d06de2fccebb0127f9f84322b92f2e93ca692f888698fd0e7bf5e832cc997",
+    "execution.py": "9c60ae679baba452cb97e4f162ec7ea741bf7f7a475a4c943f14edf9ea1082c8",
+    "telemetry.py": "caec3f96b8d056ef17ae262c3f719801493e0f849e8935888c05e410e96826de",
+    "check.py": "195eb275eda05d70e2359f06950c0c047d73527cc608fa62fec84f43dab15d55",
+    "protocol.json": "da61404e9b791a2827000e924cf1f50c3816695534b1d8514f5c71c20468170f",
+    "plan.md": "8bdf0d1078563f06d2870023a43b61fd40852c691989242053c04ecc663c30e5",
+    "RAPOR.md": "a43e88e23cdc8d8534f80b612cedb7a93934541745baff46c90dfe44b54cd45b"
+  },
+  "verified_result_hashes": 25,
+  "tests_passed": 17,
+  "syntax_files": 4,
+  "ruff": "passed",
+  "economic_status": "UNPROVEN"
+}

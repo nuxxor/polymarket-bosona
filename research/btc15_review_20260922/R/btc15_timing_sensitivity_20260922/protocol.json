@@ -1,0 +1,80 @@
+{
+  "arms": [
+    "M1_bid",
+    "M1_bid_minus_cent",
+    "M2_bid",
+    "M2_reserved"
+  ],
+  "created_utc": "2026-09-21T23:35:46.978953+00:00",
+  "data_status": "legacy immutable gate plus separate offline reconciliation; no late information in policy",
+  "economic_pnl": null,
+  "limits": {
+    "cash": 15,
+    "clip": 5,
+    "net": 10,
+    "worst_loss": 5
+  },
+  "new_channel": "A",
+  "profiles": [
+    {
+      "accept": 250,
+      "cancel": 250,
+      "learn": 0,
+      "name": "legacy_fast",
+      "shift": 0
+    },
+    {
+      "accept": 750,
+      "cancel": 750,
+      "learn": 500,
+      "name": "legacy_slow",
+      "shift": 0
+    },
+    {
+      "accept": 250,
+      "cancel": 250,
+      "learn": 0,
+      "name": "earlier_trade",
+      "shift": -500
+    },
+    {
+      "accept": 750,
+      "cancel": 250,
+      "learn": 500,
+      "name": "slow_accept_fast_cancel",
+      "shift": -500
+    },
+    {
+      "accept": 250,
+      "cancel": 750,
+      "learn": 500,
+      "name": "fast_accept_slow_cancel",
+      "shift": -500
+    },
+    {
+      "accept": 250,
+      "cancel": 250,
+      "learn": 500,
+      "name": "late_notice",
+      "shift": 0
+    }
+  ],
+  "queues": [
+    "queue_back",
+    "queue_front"
+  ],
+  "starts": [
+    1790023500,
+    1790024400,
+    1790025300,
+    1790026200,
+    1790027100,
+    1790028000,
+    1790028900,
+    1790031600
+  ],
+  "ties": [
+    "print_first",
+    "lifecycle_first"
+  ]
+}

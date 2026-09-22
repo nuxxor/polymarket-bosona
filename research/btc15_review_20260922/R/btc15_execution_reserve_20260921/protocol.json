@@ -1,0 +1,23 @@
+{
+  "scope": "Local BTC15 public replay and closed generic execution telemetry only",
+  "assigned_starts": [1790027100, 1790028000, 1790028900],
+  "receive_cutoff_seconds_after_end": 120,
+  "holdout": "Assigned before PnL analysis; first two markets had already ended. Not a clean blind test.",
+  "paired_change": "Only M2 send guard: max over pending-fill vertices of cash + abs(q_up - q_down) <= 15",
+  "cash_includes_taker_fees": true,
+  "clip": 5,
+  "net_cap_and_hedge_trigger": 10,
+  "cash_cap": 15,
+  "worst_loss_cap": 5,
+  "decision_ages_seconds": [30, 839],
+  "decision_interval_seconds": 1,
+  "cancel_age_seconds": 840,
+  "delay_scenarios_ms": [250, 750],
+  "extra_maker_learning_ms": [0, 500],
+  "queue_scenarios": ["queue_back", "queue_front"],
+  "timing_status": "Uncalibrated. Same aggregate timing scenarios retained in both arms. itode hold is not additional measured latency.",
+  "economic_pnl": null,
+  "p0": "Original candidate source frozen; decision-time limit preserved in causal book adapter",
+  "missing_data": "Retain assigned market; do not score unknown as zero",
+  "live_or_shadow_deployment": false
+}

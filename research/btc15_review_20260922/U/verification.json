@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "offline": true,
+  "tracked": 16,
+  "before": {
+    "accounting/result.json": "2f24f8e2645a09819924a894b39192ef5c9561bdae12e56c8a0f36b36e1a938e",
+    "accounting/collision_result.json": "5376e98ff02c5614dfffd91404d15a7430718ec12085776ba651974531126398",
+    "accounting/selection_audit.json": "31d10945e7e6f5bc1eaac19c3a9dfa582c3ee95c4262cec10de7450e714b2eaf",
+    "onchain/results.json": "9f03ee2fb4fa25ab249482ba132c5896cf21264bf996102d04c212c69368a58d",
+    "execution/results.json": "ee315ff3652b60348769db23538701bcdb5da3eda6cce87a6e95e1bf9feb4231",
+    "execution/calibration.json": "08191421748e5dd48a8e6b3cc290b39bd4faf643bf310eb92fc74e4a94e8eb1a",
+    "execution/s_candidate_replay.json": "6f85aad1a562a42a3d0d7d33f14444e2a4b830252ba1e8573a50732dbdf2b940",
+    "statistics/audit.json": "474b1ae6f4525a0003a677a229dce9abcfe74fadaeec299be9444d877caa36c2",
+    "statistics/merge_corrected/hypothesis_models.json": "22c393e01f2c40dbde60b47709c3f26bc4c43d071f57b8de640326ef1522d7a3",
+    "execution/history_policy_sensitivity.json": "c29e20bc336f75eca28bcb966433a442ca7aac59a33ed8d38065a1f1f8303ae0",
+    "execution/calibration_market_comparison.json": "bdd16e32f423e3cb6a8dfc965fb3a2b2dfd330dd310c99d921c8de4b7f10c0f1",
+    "onchain/postclose_results.json": "734599db4ff03ae2ead04a12eb5a14a070a88a328b0343c9df910bcac1525532",
+    "onchain/selection_checks.json": "cf8813e5ec220dbc3fa1419fd8d703d0d2ec2e65ddf0c1858a697a87ad7511d4",
+    "case_paths.json": "8ccfe22c67c82742f72b0d8c1af5d8da315de6df1c8fefb82a9d81e2ed59aba1",
+    "new_period/results/summary.json": "46a7121bb105a73d082f3c6f925181a8dd17e5506f218466c718c311cb8a8b6f",
+    "new_period/results/windows.json": "8dbd76fd3765cc620d4ac1ba89f22104a0123d62b69eb4b061f4950f8a936e85"
+  },
+  "after": {
+    "accounting/result.json": "2f24f8e2645a09819924a894b39192ef5c9561bdae12e56c8a0f36b36e1a938e",
+    "accounting/collision_result.json": "5376e98ff02c5614dfffd91404d15a7430718ec12085776ba651974531126398",
+    "accounting/selection_audit.json": "31d10945e7e6f5bc1eaac19c3a9dfa582c3ee95c4262cec10de7450e714b2eaf",
+    "onchain/results.json": "9f03ee2fb4fa25ab249482ba132c5896cf21264bf996102d04c212c69368a58d",
+    "execution/results.json": "ee315ff3652b60348769db23538701bcdb5da3eda6cce87a6e95e1bf9feb4231",
+    "execution/calibration.json": "08191421748e5dd48a8e6b3cc290b39bd4faf643bf310eb92fc74e4a94e8eb1a",
+    "execution/s_candidate_replay.json": "6f85aad1a562a42a3d0d7d33f14444e2a4b830252ba1e8573a50732dbdf2b940",
+    "statistics/audit.json": "474b1ae6f4525a0003a677a229dce9abcfe74fadaeec299be9444d877caa36c2",
+    "statistics/merge_corrected/hypothesis_models.json": "22c393e01f2c40dbde60b47709c3f26bc4c43d071f57b8de640326ef1522d7a3",
+    "execution/history_policy_sensitivity.json": "c29e20bc336f75eca28bcb966433a442ca7aac59a33ed8d38065a1f1f8303ae0",
+    "execution/calibration_market_comparison.json": "bdd16e32f423e3cb6a8dfc965fb3a2b2dfd330dd310c99d921c8de4b7f10c0f1",
+    "onchain/postclose_results.json": "734599db4ff03ae2ead04a12eb5a14a070a88a328b0343c9df910bcac1525532",
+    "onchain/selection_checks.json": "cf8813e5ec220dbc3fa1419fd8d703d0d2ec2e65ddf0c1858a697a87ad7511d4",
+    "case_paths.json": "8ccfe22c67c82742f72b0d8c1af5d8da315de6df1c8fefb82a9d81e2ed59aba1",
+    "new_period/results/summary.json": "46a7121bb105a73d082f3c6f925181a8dd17e5506f218466c718c311cb8a8b6f",
+    "new_period/results/windows.json": "8dbd76fd3765cc620d4ac1ba89f22104a0123d62b69eb4b061f4950f8a936e85"
+  },
+  "changed": [],
+  "syntax_files": 17,
+  "lint": "passed",
+  "no_shared_source_writes": true,
+  "commands": [
+    [
+      "accounting/audit.py"
+    ],
+    [
+      "accounting/collision_check.py"
+    ],
+    [
+      "accounting/check.py"
+    ],
+    [
+      "accounting/selection_audit.py"
+    ],
+    [
+      "onchain/probe.py"
+    ],
+    [
+      "onchain/check.py"
+    ],
+    [
+      "onchain/postclose.py"
+    ],
+    [
+      "execution/audit.py"
+    ],
+    [
+      "execution/sensitivity.py"
+    ],
+    [
+      "execution/check.py"
+    ],
+    [
+      "snapshot.py",
+      "--offline"
+    ],
+    [
+      "F/analyze.py via redirected OUT"
+    ],
+    [
+      "statistical_audit.py"
+    ],
+    [
+      "case_paths.py"
+    ],
+    [
+      "provenance.py"
+    ]
+  ]
+}

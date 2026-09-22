@@ -1,0 +1,4522 @@
+{
+  "assumptions": {
+    "clocks": "public WS server clock proxies venue; public receive proxies private learning",
+    "delays_ms": [
+      250,
+      750
+    ],
+    "extra_maker_learning_ms": [
+      0,
+      500
+    ],
+    "market_impact": "ignored",
+    "portfolio": "each arm is independent; no cross-arm cash sharing",
+    "queue": "visible static queue back or first in queue; no cancellation credit",
+    "rebate": 0,
+    "scope": "three consecutive assigned markets; missing markets are not zero PnL"
+  },
+  "markets": [
+    {
+      "arms": {},
+      "control": {},
+      "data_gate": "MISSING_DATA",
+      "economic_pnl": null,
+      "reason": "incomplete observed feed; whole assigned market retained",
+      "start": 1790024400,
+      "tick_events": [
+        {
+          "k": "tick_size_change",
+          "mono": 116556518877449,
+          "p": {
+            "asset_id": "49938838205796412546038161676703022208953567943585540323141587715049426335819",
+            "event_type": "tick_size_change",
+            "market": "0x785c304206acc4348e330c644e9659e74ed99cba9ca277a528143a90fd04a405",
+            "new_tick_size": "0.001",
+            "old_tick_size": "0.01",
+            "timestamp": "1790024997104"
+          },
+          "rcv": 1790024997140
+        },
+        {
+          "k": "tick_size_change",
+          "mono": 116556519372501,
+          "p": {
+            "asset_id": "9551161420353142414944976375192814438728066963242700230081305055052435941797",
+            "event_type": "tick_size_change",
+            "market": "0x785c304206acc4348e330c644e9659e74ed99cba9ca277a528143a90fd04a405",
+            "new_tick_size": "0.001",
+            "old_tick_size": "0.01",
+            "timestamp": "1790024997104"
+          },
+          "rcv": 1790024997140
+        },
+        {
+          "k": "tick_size_change",
+          "mono": 116556519779440,
+          "p": {
+            "asset_id": "49938838205796412546038161676703022208953567943585540323141587715049426335819",
+            "event_type": "tick_size_change",
+            "market": "0x785c304206acc4348e330c644e9659e74ed99cba9ca277a528143a90fd04a405",
+            "new_tick_size": "0.001",
+            "old_tick_size": "0.01",
+            "timestamp": "1790024997104"
+          },
+          "rcv": 1790024997141
+        },
+        {
+          "k": "tick_size_change",
+          "mono": 116556520164924,
+          "p": {
+            "asset_id": "9551161420353142414944976375192814438728066963242700230081305055052435941797",
+            "event_type": "tick_size_change",
+            "market": "0x785c304206acc4348e330c644e9659e74ed99cba9ca277a528143a90fd04a405",
+            "new_tick_size": "0.001",
+            "old_tick_size": "0.01",
+            "timestamp": "1790024997104"
+          },
+          "rcv": 1790024997141
+        }
+      ]
+    },
+    {
+      "arms": {
+        "M1_bid:queue_back:250": {
+          "actual": {
+            "cash": "11.03440477",
+            "q": [
+              "10.0",
+              "15.202381"
+            ]
+          },
+          "client": {
+            "cash": "11.03440477",
+            "q": [
+              "10.0",
+              "15.202381"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "3.05",
+              "kind": "maker",
+              "order": 65,
+              "price": "0.61",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025504901
+            },
+            {
+              "cash": "2.91199920",
+              "kind": "maker",
+              "order": 227,
+              "price": "0.66",
+              "qty": "4.412120",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025662812
+            },
+            {
+              "cash": "0.38800080",
+              "kind": "maker",
+              "order": 227,
+              "price": "0.66",
+              "qty": "0.587880",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025662812
+            },
+            {
+              "cash": "0.03440477",
+              "kind": "maker",
+              "order": 391,
+              "price": "0.17",
+              "qty": "0.202381",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025899819
+            },
+            {
+              "cash": "0.80",
+              "kind": "maker",
+              "order": 400,
+              "price": "0.16",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025906038
+            },
+            {
+              "cash": "1.850",
+              "kind": "maker",
+              "order": 573,
+              "price": "0.74",
+              "qty": "2.5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026043351
+            },
+            {
+              "cash": "1.850",
+              "kind": "maker",
+              "order": 573,
+              "price": "0.74",
+              "qty": "2.5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026043761
+            },
+            {
+              "cash": "0.15",
+              "kind": "maker",
+              "order": 696,
+              "price": "0.03",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026136659
+            }
+          ],
+          "conditional_pnl": "-1.03440477",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "3.05",
+              "exchange_proxy_ms": 1790025504862,
+              "order": 65,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025504901,
+              "side": 0
+            },
+            {
+              "cash": "2.91199920",
+              "exchange_proxy_ms": 1790025662673,
+              "order": 227,
+              "qty": "4.412120",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025662812,
+              "side": 1
+            },
+            {
+              "cash": "0.38800080",
+              "exchange_proxy_ms": 1790025662673,
+              "order": 227,
+              "qty": "0.587880",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025662812,
+              "side": 1
+            },
+            {
+              "cash": "0.03440477",
+              "exchange_proxy_ms": 1790025899781,
+              "order": 391,
+              "qty": "0.202381",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025899819,
+              "side": 1
+            },
+            {
+              "cash": "0.80",
+              "exchange_proxy_ms": 1790025905999,
+              "order": 400,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025906038,
+              "side": 1
+            },
+            {
+              "cash": "1.850",
+              "exchange_proxy_ms": 1790026043308,
+              "order": 573,
+              "qty": "2.5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026043351,
+              "side": 0
+            },
+            {
+              "cash": "1.850",
+              "exchange_proxy_ms": 1790026043723,
+              "order": 573,
+              "qty": "2.5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026043761,
+              "side": 0
+            },
+            {
+              "cash": "0.15",
+              "exchange_proxy_ms": 1790026136621,
+              "order": 696,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026136659,
+              "side": 1
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 252,
+            "cancel_requested": 248,
+            "final_status_reconciled": 273,
+            "post_only_rejected": 21,
+            "reservation_rejected_maker": 429,
+            "submitted_maker": 273
+          },
+          "max_cash": "11.03440477",
+          "max_net": "5.202381",
+          "max_notification_delay_ms": 139,
+          "max_reserved": "14.93440477",
+          "min_worst": "-3.05",
+          "reservations": {
+            "reservation_rejected": 429
+          },
+          "unknown": []
+        },
+        "M1_bid:queue_back:750": {
+          "actual": {
+            "cash": "10.0000",
+            "q": [
+              "5.00",
+              "15"
+            ]
+          },
+          "client": {
+            "cash": "10.0000",
+            "q": [
+              "5.00",
+              "15"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "3.30",
+              "kind": "maker",
+              "order": 105,
+              "price": "0.66",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025663352
+            },
+            {
+              "cash": "3.9042",
+              "kind": "maker",
+              "order": 166,
+              "price": "0.81",
+              "qty": "4.82",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025736272
+            },
+            {
+              "cash": "0.1458",
+              "kind": "maker",
+              "order": 166,
+              "price": "0.81",
+              "qty": "0.18",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025736281
+            },
+            {
+              "cash": "2.5",
+              "kind": "maker",
+              "order": 262,
+              "price": "0.5",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025834965
+            },
+            {
+              "cash": "0.15",
+              "kind": "maker",
+              "order": 630,
+              "price": "0.03",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026137436
+            }
+          ],
+          "conditional_pnl": null,
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "3.30",
+              "exchange_proxy_ms": 1790025662714,
+              "order": 105,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025663352,
+              "side": 1
+            },
+            {
+              "cash": "3.9042",
+              "exchange_proxy_ms": 1790025735508,
+              "order": 166,
+              "qty": "4.82",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025736272,
+              "side": 0
+            },
+            {
+              "cash": "0.1458",
+              "exchange_proxy_ms": 1790025735517,
+              "order": 166,
+              "qty": "0.18",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025736281,
+              "side": 0
+            },
+            {
+              "cash": "2.5",
+              "exchange_proxy_ms": 1790025834404,
+              "order": 262,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025834965,
+              "side": 1
+            },
+            {
+              "cash": "0.15",
+              "exchange_proxy_ms": 1790026136898,
+              "order": 630,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026137436,
+              "side": 1
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 191,
+            "cancel_requested": 213,
+            "final_status_reconciled": 214,
+            "post_only_rejected": 23,
+            "reservation_rejected_maker": 419,
+            "submitted_maker": 214
+          },
+          "max_cash": "10.0000",
+          "max_net": "10.00",
+          "max_notification_delay_ms": 764,
+          "max_reserved": "14.8500",
+          "min_worst": "-5.0000",
+          "reservations": {
+            "reservation_rejected": 419
+          },
+          "unknown": [
+            "source_clock_lifecycle_tie"
+          ]
+        },
+        "M1_bid:queue_front:250": {
+          "actual": {
+            "cash": "14.50000000",
+            "q": [
+              "10",
+              "20.000000"
+            ]
+          },
+          "client": {
+            "cash": "14.50000000",
+            "q": [
+              "10",
+              "20.000000"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "2.20",
+              "kind": "maker",
+              "order": 1,
+              "price": "0.44",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025330364
+            },
+            {
+              "cash": "2.75",
+              "kind": "maker",
+              "order": 2,
+              "price": "0.55",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025331290
+            },
+            {
+              "cash": "0.96078465",
+              "kind": "maker",
+              "order": 6,
+              "price": "0.49",
+              "qty": "1.960785",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025334522
+            },
+            {
+              "cash": "2.5",
+              "kind": "maker",
+              "order": 5,
+              "price": "0.5",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025334572
+            },
+            {
+              "cash": "0.96078465",
+              "kind": "maker",
+              "order": 6,
+              "price": "0.49",
+              "qty": "1.960785",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025335861
+            },
+            {
+              "cash": "0.52843070",
+              "kind": "maker",
+              "order": 6,
+              "price": "0.49",
+              "qty": "1.078430",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025335978
+            },
+            {
+              "cash": "2.45",
+              "kind": "maker",
+              "order": 8,
+              "price": "0.49",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025337164
+            },
+            {
+              "cash": "1.50877196",
+              "kind": "maker",
+              "order": 14,
+              "price": "0.43",
+              "qty": "3.508772",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025343801
+            },
+            {
+              "cash": "0.64122804",
+              "kind": "maker",
+              "order": 14,
+              "price": "0.43",
+              "qty": "1.491228",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025345987
+            }
+          ],
+          "conditional_pnl": "-4.50000000",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "2.20",
+              "exchange_proxy_ms": 1790025330327,
+              "order": 1,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025330364,
+              "side": 0
+            },
+            {
+              "cash": "2.75",
+              "exchange_proxy_ms": 1790025331216,
+              "order": 2,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025331290,
+              "side": 1
+            },
+            {
+              "cash": "0.96078465",
+              "exchange_proxy_ms": 1790025334485,
+              "order": 6,
+              "qty": "1.960785",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025334522,
+              "side": 1
+            },
+            {
+              "cash": "2.5",
+              "exchange_proxy_ms": 1790025334535,
+              "order": 5,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025334572,
+              "side": 0
+            },
+            {
+              "cash": "0.96078465",
+              "exchange_proxy_ms": 1790025335821,
+              "order": 6,
+              "qty": "1.960785",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025335861,
+              "side": 1
+            },
+            {
+              "cash": "0.52843070",
+              "exchange_proxy_ms": 1790025335939,
+              "order": 6,
+              "qty": "1.078430",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025335978,
+              "side": 1
+            },
+            {
+              "cash": "2.45",
+              "exchange_proxy_ms": 1790025337104,
+              "order": 8,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025337164,
+              "side": 1
+            },
+            {
+              "cash": "1.50877196",
+              "exchange_proxy_ms": 1790025343764,
+              "order": 14,
+              "qty": "3.508772",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025343801,
+              "side": 1
+            },
+            {
+              "cash": "0.64122804",
+              "exchange_proxy_ms": 1790025345948,
+              "order": 14,
+              "qty": "1.491228",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025345987,
+              "side": 1
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 9,
+            "cancel_requested": 3,
+            "final_status_reconciled": 10,
+            "post_only_rejected": 1,
+            "reservation_rejected_maker": 1596,
+            "submitted_maker": 10
+          },
+          "max_cash": "14.50000000",
+          "max_net": "10.000000",
+          "max_notification_delay_ms": 74,
+          "max_reserved": "14.85000000",
+          "min_worst": "-4.50000000",
+          "reservations": {
+            "reservation_rejected": 1596
+          },
+          "unknown": []
+        },
+        "M1_bid:queue_front:750": {
+          "actual": {
+            "cash": "15.00000000",
+            "q": [
+              "15",
+              "15.000000"
+            ]
+          },
+          "client": {
+            "cash": "15.00000000",
+            "q": [
+              "15",
+              "15.000000"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "2.75",
+              "kind": "maker",
+              "order": 2,
+              "price": "0.55",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025331790
+            },
+            {
+              "cash": "1.50877196",
+              "kind": "maker",
+              "order": 13,
+              "price": "0.43",
+              "qty": "3.508772",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025344301
+            },
+            {
+              "cash": "0.64122804",
+              "kind": "maker",
+              "order": 13,
+              "price": "0.43",
+              "qty": "1.491228",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025346487
+            },
+            {
+              "cash": "2.95",
+              "kind": "maker",
+              "order": 15,
+              "price": "0.59",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025357405
+            },
+            {
+              "cash": "2.85",
+              "kind": "maker",
+              "order": 26,
+              "price": "0.57",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025360384
+            },
+            {
+              "cash": "2.75",
+              "kind": "maker",
+              "order": 31,
+              "price": "0.55",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025365997
+            },
+            {
+              "cash": "1.55",
+              "kind": "maker",
+              "order": 712,
+              "price": "0.31",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025708798
+            }
+          ],
+          "conditional_pnl": "0E-8",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "2.75",
+              "exchange_proxy_ms": 1790025331216,
+              "order": 2,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025331790,
+              "side": 1
+            },
+            {
+              "cash": "1.50877196",
+              "exchange_proxy_ms": 1790025343764,
+              "order": 13,
+              "qty": "3.508772",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025344301,
+              "side": 1
+            },
+            {
+              "cash": "0.64122804",
+              "exchange_proxy_ms": 1790025345948,
+              "order": 13,
+              "qty": "1.491228",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025346487,
+              "side": 1
+            },
+            {
+              "cash": "2.95",
+              "exchange_proxy_ms": 1790025356850,
+              "order": 15,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025357405,
+              "side": 0
+            },
+            {
+              "cash": "2.85",
+              "exchange_proxy_ms": 1790025359846,
+              "order": 26,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025360384,
+              "side": 0
+            },
+            {
+              "cash": "2.75",
+              "exchange_proxy_ms": 1790025365459,
+              "order": 31,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025365997,
+              "side": 0
+            },
+            {
+              "cash": "1.55",
+              "exchange_proxy_ms": 1790025708244,
+              "order": 712,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025708798,
+              "side": 1
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 11,
+            "cancel_requested": 9,
+            "final_status_reconciled": 12,
+            "post_only_rejected": 1,
+            "reservation_rejected_maker": 1564,
+            "submitted_maker": 12
+          },
+          "max_cash": "15.00000000",
+          "max_net": "10.000000",
+          "max_notification_delay_ms": 574,
+          "max_reserved": "15.00000000",
+          "min_worst": "-4.90000000",
+          "reservations": {
+            "reservation_rejected": 1564
+          },
+          "unknown": []
+        },
+        "M1_bid_minus_cent:queue_back:250": {
+          "actual": {
+            "cash": "9.10",
+            "q": [
+              "5",
+              "15"
+            ]
+          },
+          "client": {
+            "cash": "9.10",
+            "q": [
+              "5",
+              "15"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "3.65",
+              "kind": "maker",
+              "order": 312,
+              "price": "0.73",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026043761
+            },
+            {
+              "cash": "2.65",
+              "kind": "maker",
+              "order": 347,
+              "price": "0.53",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026068325
+            },
+            {
+              "cash": "1.80",
+              "kind": "maker",
+              "order": 356,
+              "price": "0.36",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026091596
+            },
+            {
+              "cash": "1.00",
+              "kind": "maker",
+              "order": 357,
+              "price": "0.20",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026092432
+            }
+          ],
+          "conditional_pnl": "-4.10",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "3.65",
+              "exchange_proxy_ms": 1790026043723,
+              "order": 312,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026043761,
+              "side": 0
+            },
+            {
+              "cash": "2.65",
+              "exchange_proxy_ms": 1790026068159,
+              "order": 347,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026068325,
+              "side": 1
+            },
+            {
+              "cash": "1.80",
+              "exchange_proxy_ms": 1790026091420,
+              "order": 356,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026091596,
+              "side": 1
+            },
+            {
+              "cash": "1.00",
+              "exchange_proxy_ms": 1790026092385,
+              "order": 357,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026092432,
+              "side": 1
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 338,
+            "cancel_requested": 335,
+            "final_status_reconciled": 346,
+            "post_only_rejected": 8,
+            "reservation_rejected_maker": 70,
+            "submitted_maker": 346
+          },
+          "max_cash": "9.10",
+          "max_net": "10",
+          "max_notification_delay_ms": 176,
+          "max_reserved": "13.95",
+          "min_worst": "-4.10",
+          "reservations": {
+            "reservation_rejected": 70
+          },
+          "unknown": []
+        },
+        "M1_bid_minus_cent:queue_back:750": {
+          "actual": {
+            "cash": "8.25",
+            "q": [
+              "5",
+              "10"
+            ]
+          },
+          "client": {
+            "cash": "8.25",
+            "q": [
+              "5",
+              "10"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "4.00",
+              "kind": "maker",
+              "order": 131,
+              "price": "0.80",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025736272
+            },
+            {
+              "cash": "2.45",
+              "kind": "maker",
+              "order": 241,
+              "price": "0.49",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025835156
+            },
+            {
+              "cash": "1.80",
+              "kind": "maker",
+              "order": 466,
+              "price": "0.36",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026092475
+            }
+          ],
+          "conditional_pnl": null,
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "4.00",
+              "exchange_proxy_ms": 1790025735508,
+              "order": 131,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025736272,
+              "side": 0
+            },
+            {
+              "cash": "2.45",
+              "exchange_proxy_ms": 1790025834595,
+              "order": 241,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025835156,
+              "side": 1
+            },
+            {
+              "cash": "1.80",
+              "exchange_proxy_ms": 1790026091937,
+              "order": 466,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026092475,
+              "side": 1
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 232,
+            "cancel_requested": 252,
+            "final_status_reconciled": 252,
+            "post_only_rejected": 20,
+            "reservation_rejected_maker": 234,
+            "submitted_maker": 252
+          },
+          "max_cash": "8.25",
+          "max_net": "5",
+          "max_notification_delay_ms": 764,
+          "max_reserved": "13.15",
+          "min_worst": "-4.00",
+          "reservations": {
+            "reservation_rejected": 234
+          },
+          "unknown": [
+            "source_clock_lifecycle_tie"
+          ]
+        },
+        "M1_bid_minus_cent:queue_front:250": {
+          "actual": {
+            "cash": "14.85102272",
+            "q": [
+              "12.591112",
+              "20"
+            ]
+          },
+          "client": {
+            "cash": "14.85102272",
+            "q": [
+              "12.591112",
+              "20"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "2.70",
+              "kind": "maker",
+              "order": 2,
+              "price": "0.54",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025332103
+            },
+            {
+              "cash": "2.25",
+              "kind": "maker",
+              "order": 9,
+              "price": "0.45",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025339101
+            },
+            {
+              "cash": "2.90",
+              "kind": "maker",
+              "order": 19,
+              "price": "0.58",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025356905
+            },
+            {
+              "cash": "0.0448",
+              "kind": "maker",
+              "order": 30,
+              "price": "0.56",
+              "qty": "0.08",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025361799
+            },
+            {
+              "cash": "1.40622272",
+              "kind": "maker",
+              "order": 30,
+              "price": "0.56",
+              "qty": "2.511112",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025361846
+            },
+            {
+              "cash": "2.30",
+              "kind": "maker",
+              "order": 37,
+              "price": "0.46",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025385175
+            },
+            {
+              "cash": "0.0063",
+              "kind": "maker",
+              "order": 79,
+              "price": "0.63",
+              "qty": "0.01",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025420333
+            },
+            {
+              "cash": "3.1437",
+              "kind": "maker",
+              "order": 79,
+              "price": "0.63",
+              "qty": "4.99",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025420420
+            },
+            {
+              "cash": "0.10",
+              "kind": "maker",
+              "order": 1500,
+              "price": "0.02",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026136439
+            }
+          ],
+          "conditional_pnl": "-2.25991072",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "2.70",
+              "exchange_proxy_ms": 1790025331984,
+              "order": 2,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025332103,
+              "side": 1
+            },
+            {
+              "cash": "2.25",
+              "exchange_proxy_ms": 1790025339047,
+              "order": 9,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025339101,
+              "side": 1
+            },
+            {
+              "cash": "2.90",
+              "exchange_proxy_ms": 1790025356850,
+              "order": 19,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025356905,
+              "side": 0
+            },
+            {
+              "cash": "0.0448",
+              "exchange_proxy_ms": 1790025361598,
+              "order": 30,
+              "qty": "0.08",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025361799,
+              "side": 0
+            },
+            {
+              "cash": "1.40622272",
+              "exchange_proxy_ms": 1790025361790,
+              "order": 30,
+              "qty": "2.511112",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025361846,
+              "side": 0
+            },
+            {
+              "cash": "2.30",
+              "exchange_proxy_ms": 1790025384960,
+              "order": 37,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025385175,
+              "side": 1
+            },
+            {
+              "cash": "0.0063",
+              "exchange_proxy_ms": 1790025420285,
+              "order": 79,
+              "qty": "0.01",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025420333,
+              "side": 0
+            },
+            {
+              "cash": "3.1437",
+              "exchange_proxy_ms": 1790025420381,
+              "order": 79,
+              "qty": "4.99",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025420420,
+              "side": 0
+            },
+            {
+              "cash": "0.10",
+              "exchange_proxy_ms": 1790026136400,
+              "order": 1500,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026136439,
+              "side": 1
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 27,
+            "cancel_requested": 24,
+            "final_status_reconciled": 27,
+            "reservation_rejected_maker": 1477,
+            "submitted_maker": 27
+          },
+          "max_cash": "14.85102272",
+          "max_net": "10",
+          "max_notification_delay_ms": 215,
+          "max_reserved": "14.95102272",
+          "min_worst": "-4.95",
+          "reservations": {
+            "reservation_rejected": 1477
+          },
+          "unknown": []
+        },
+        "M1_bid_minus_cent:queue_front:750": {
+          "actual": {
+            "cash": "14.95102272",
+            "q": [
+              "12.591112",
+              "20"
+            ]
+          },
+          "client": {
+            "cash": "14.95102272",
+            "q": [
+              "12.591112",
+              "20"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "2.70",
+              "kind": "maker",
+              "order": 2,
+              "price": "0.54",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025332603
+            },
+            {
+              "cash": "2.25",
+              "kind": "maker",
+              "order": 9,
+              "price": "0.45",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025339601
+            },
+            {
+              "cash": "2.90",
+              "kind": "maker",
+              "order": 19,
+              "price": "0.58",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025357405
+            },
+            {
+              "cash": "0.0448",
+              "kind": "maker",
+              "order": 30,
+              "price": "0.56",
+              "qty": "0.08",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025362299
+            },
+            {
+              "cash": "1.40622272",
+              "kind": "maker",
+              "order": 30,
+              "price": "0.56",
+              "qty": "2.511112",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025362346
+            },
+            {
+              "cash": "2.30",
+              "kind": "maker",
+              "order": 35,
+              "price": "0.46",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025385675
+            },
+            {
+              "cash": "3.10",
+              "kind": "maker",
+              "order": 77,
+              "price": "0.62",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025427322
+            },
+            {
+              "cash": "0.25",
+              "kind": "maker",
+              "order": 1466,
+              "price": "0.05",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026121320
+            }
+          ],
+          "conditional_pnl": "-2.35991072",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "2.70",
+              "exchange_proxy_ms": 1790025331984,
+              "order": 2,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025332603,
+              "side": 1
+            },
+            {
+              "cash": "2.25",
+              "exchange_proxy_ms": 1790025339047,
+              "order": 9,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025339601,
+              "side": 1
+            },
+            {
+              "cash": "2.90",
+              "exchange_proxy_ms": 1790025356850,
+              "order": 19,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025357405,
+              "side": 0
+            },
+            {
+              "cash": "0.0448",
+              "exchange_proxy_ms": 1790025361598,
+              "order": 30,
+              "qty": "0.08",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025362299,
+              "side": 0
+            },
+            {
+              "cash": "1.40622272",
+              "exchange_proxy_ms": 1790025361790,
+              "order": 30,
+              "qty": "2.511112",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025362346,
+              "side": 0
+            },
+            {
+              "cash": "2.30",
+              "exchange_proxy_ms": 1790025384960,
+              "order": 35,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025385675,
+              "side": 1
+            },
+            {
+              "cash": "3.10",
+              "exchange_proxy_ms": 1790025426654,
+              "order": 77,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025427322,
+              "side": 0
+            },
+            {
+              "cash": "0.25",
+              "exchange_proxy_ms": 1790026120782,
+              "order": 1466,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026121320,
+              "side": 1
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 19,
+            "cancel_requested": 20,
+            "final_status_reconciled": 20,
+            "post_only_rejected": 1,
+            "reservation_rejected_maker": 1483,
+            "submitted_maker": 20
+          },
+          "max_cash": "14.95102272",
+          "max_net": "10",
+          "max_notification_delay_ms": 715,
+          "max_reserved": "14.95102272",
+          "min_worst": "-4.95",
+          "reservations": {
+            "reservation_rejected": 1483
+          },
+          "unknown": []
+        },
+        "M2_bid_hedge:queue_back:250": {
+          "actual": {
+            "cash": "11.03440477",
+            "q": [
+              "10.0",
+              "15.202381"
+            ]
+          },
+          "client": {
+            "cash": "11.03440477",
+            "q": [
+              "10.0",
+              "15.202381"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "3.05",
+              "kind": "maker",
+              "order": 65,
+              "price": "0.61",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025504901
+            },
+            {
+              "cash": "2.91199920",
+              "kind": "maker",
+              "order": 227,
+              "price": "0.66",
+              "qty": "4.412120",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025662812
+            },
+            {
+              "cash": "0.38800080",
+              "kind": "maker",
+              "order": 227,
+              "price": "0.66",
+              "qty": "0.587880",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025662812
+            },
+            {
+              "cash": "0.03440477",
+              "kind": "maker",
+              "order": 391,
+              "price": "0.17",
+              "qty": "0.202381",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025899819
+            },
+            {
+              "cash": "0.80",
+              "kind": "maker",
+              "order": 400,
+              "price": "0.16",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025906038
+            },
+            {
+              "cash": "1.850",
+              "kind": "maker",
+              "order": 573,
+              "price": "0.74",
+              "qty": "2.5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026043351
+            },
+            {
+              "cash": "1.850",
+              "kind": "maker",
+              "order": 573,
+              "price": "0.74",
+              "qty": "2.5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026043761
+            },
+            {
+              "cash": "0.15",
+              "kind": "maker",
+              "order": 696,
+              "price": "0.03",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026136659
+            }
+          ],
+          "conditional_pnl": "-1.03440477",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "3.05",
+              "exchange_proxy_ms": 1790025504862,
+              "order": 65,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025504901,
+              "side": 0
+            },
+            {
+              "cash": "2.91199920",
+              "exchange_proxy_ms": 1790025662673,
+              "order": 227,
+              "qty": "4.412120",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025662812,
+              "side": 1
+            },
+            {
+              "cash": "0.38800080",
+              "exchange_proxy_ms": 1790025662673,
+              "order": 227,
+              "qty": "0.587880",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025662812,
+              "side": 1
+            },
+            {
+              "cash": "0.03440477",
+              "exchange_proxy_ms": 1790025899781,
+              "order": 391,
+              "qty": "0.202381",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025899819,
+              "side": 1
+            },
+            {
+              "cash": "0.80",
+              "exchange_proxy_ms": 1790025905999,
+              "order": 400,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025906038,
+              "side": 1
+            },
+            {
+              "cash": "1.850",
+              "exchange_proxy_ms": 1790026043308,
+              "order": 573,
+              "qty": "2.5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026043351,
+              "side": 0
+            },
+            {
+              "cash": "1.850",
+              "exchange_proxy_ms": 1790026043723,
+              "order": 573,
+              "qty": "2.5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026043761,
+              "side": 0
+            },
+            {
+              "cash": "0.15",
+              "exchange_proxy_ms": 1790026136621,
+              "order": 696,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026136659,
+              "side": 1
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 252,
+            "cancel_requested": 248,
+            "final_status_reconciled": 273,
+            "post_only_rejected": 21,
+            "reservation_rejected_maker": 429,
+            "submitted_maker": 273
+          },
+          "max_cash": "11.03440477",
+          "max_net": "5.202381",
+          "max_notification_delay_ms": 139,
+          "max_reserved": "14.93440477",
+          "min_worst": "-3.05",
+          "reservations": {
+            "reservation_rejected": 429
+          },
+          "unknown": []
+        },
+        "M2_bid_hedge:queue_back:750": {
+          "actual": {
+            "cash": "10.0000",
+            "q": [
+              "5.00",
+              "15"
+            ]
+          },
+          "client": {
+            "cash": "10.0000",
+            "q": [
+              "5.00",
+              "15"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "3.30",
+              "kind": "maker",
+              "order": 105,
+              "price": "0.66",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025663352
+            },
+            {
+              "cash": "3.9042",
+              "kind": "maker",
+              "order": 166,
+              "price": "0.81",
+              "qty": "4.82",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025736272
+            },
+            {
+              "cash": "0.1458",
+              "kind": "maker",
+              "order": 166,
+              "price": "0.81",
+              "qty": "0.18",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025736281
+            },
+            {
+              "cash": "2.5",
+              "kind": "maker",
+              "order": 262,
+              "price": "0.5",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025834965
+            },
+            {
+              "cash": "0.15",
+              "kind": "maker",
+              "order": 630,
+              "price": "0.03",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026137436
+            }
+          ],
+          "conditional_pnl": null,
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "3.30",
+              "exchange_proxy_ms": 1790025662714,
+              "order": 105,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025663352,
+              "side": 1
+            },
+            {
+              "cash": "3.9042",
+              "exchange_proxy_ms": 1790025735508,
+              "order": 166,
+              "qty": "4.82",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025736272,
+              "side": 0
+            },
+            {
+              "cash": "0.1458",
+              "exchange_proxy_ms": 1790025735517,
+              "order": 166,
+              "qty": "0.18",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025736281,
+              "side": 0
+            },
+            {
+              "cash": "2.5",
+              "exchange_proxy_ms": 1790025834404,
+              "order": 262,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025834965,
+              "side": 1
+            },
+            {
+              "cash": "0.15",
+              "exchange_proxy_ms": 1790026136898,
+              "order": 630,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026137436,
+              "side": 1
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 191,
+            "cancel_requested": 213,
+            "final_status_reconciled": 214,
+            "post_only_rejected": 23,
+            "reservation_rejected_maker": 417,
+            "submitted_maker": 214
+          },
+          "max_cash": "10.0000",
+          "max_net": "10.00",
+          "max_notification_delay_ms": 764,
+          "max_reserved": "14.8500",
+          "min_worst": "-5.0000",
+          "reservations": {
+            "reservation_rejected": 417
+          },
+          "unknown": [
+            "source_clock_lifecycle_tie"
+          ]
+        },
+        "M2_bid_hedge:queue_front:250": {
+          "actual": {
+            "cash": "14.50000000",
+            "q": [
+              "10",
+              "20.000000"
+            ]
+          },
+          "client": {
+            "cash": "14.50000000",
+            "q": [
+              "10",
+              "20.000000"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "2.20",
+              "kind": "maker",
+              "order": 1,
+              "price": "0.44",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025330364
+            },
+            {
+              "cash": "2.75",
+              "kind": "maker",
+              "order": 2,
+              "price": "0.55",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025331290
+            },
+            {
+              "cash": "0.96078465",
+              "kind": "maker",
+              "order": 6,
+              "price": "0.49",
+              "qty": "1.960785",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025334522
+            },
+            {
+              "cash": "2.5",
+              "kind": "maker",
+              "order": 5,
+              "price": "0.5",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025334572
+            },
+            {
+              "cash": "0.96078465",
+              "kind": "maker",
+              "order": 6,
+              "price": "0.49",
+              "qty": "1.960785",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025335861
+            },
+            {
+              "cash": "0.52843070",
+              "kind": "maker",
+              "order": 6,
+              "price": "0.49",
+              "qty": "1.078430",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025335978
+            },
+            {
+              "cash": "2.45",
+              "kind": "maker",
+              "order": 8,
+              "price": "0.49",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025337164
+            },
+            {
+              "cash": "1.50877196",
+              "kind": "maker",
+              "order": 14,
+              "price": "0.43",
+              "qty": "3.508772",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025343801
+            },
+            {
+              "cash": "0.64122804",
+              "kind": "maker",
+              "order": 14,
+              "price": "0.43",
+              "qty": "1.491228",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025345987
+            }
+          ],
+          "conditional_pnl": "-4.50000000",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "2.20",
+              "exchange_proxy_ms": 1790025330327,
+              "order": 1,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025330364,
+              "side": 0
+            },
+            {
+              "cash": "2.75",
+              "exchange_proxy_ms": 1790025331216,
+              "order": 2,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025331290,
+              "side": 1
+            },
+            {
+              "cash": "0.96078465",
+              "exchange_proxy_ms": 1790025334485,
+              "order": 6,
+              "qty": "1.960785",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025334522,
+              "side": 1
+            },
+            {
+              "cash": "2.5",
+              "exchange_proxy_ms": 1790025334535,
+              "order": 5,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025334572,
+              "side": 0
+            },
+            {
+              "cash": "0.96078465",
+              "exchange_proxy_ms": 1790025335821,
+              "order": 6,
+              "qty": "1.960785",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025335861,
+              "side": 1
+            },
+            {
+              "cash": "0.52843070",
+              "exchange_proxy_ms": 1790025335939,
+              "order": 6,
+              "qty": "1.078430",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025335978,
+              "side": 1
+            },
+            {
+              "cash": "2.45",
+              "exchange_proxy_ms": 1790025337104,
+              "order": 8,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025337164,
+              "side": 1
+            },
+            {
+              "cash": "1.50877196",
+              "exchange_proxy_ms": 1790025343764,
+              "order": 14,
+              "qty": "3.508772",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025343801,
+              "side": 1
+            },
+            {
+              "cash": "0.64122804",
+              "exchange_proxy_ms": 1790025345948,
+              "order": 14,
+              "qty": "1.491228",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025345987,
+              "side": 1
+            }
+          ],
+          "first_blocked_hedge": {
+            "cash_after": "17.58400000",
+            "cash_before": "14.50000000",
+            "cash_exceeded": true,
+            "cash_required": "3.0840",
+            "loss_exceeded": false,
+            "net_exceeded": false,
+            "q_before": [
+              "10",
+              "20.000000"
+            ],
+            "qty": "5",
+            "side": 0,
+            "time_ms": 1790025346000,
+            "worst_after": "-2.58400000"
+          },
+          "lifecycle": {
+            "accepted_maker": 9,
+            "cancel_requested": 3,
+            "final_status_reconciled": 10,
+            "post_only_rejected": 1,
+            "reservation_rejected_maker": 8,
+            "reservation_rejected_taker": 794,
+            "submitted_maker": 10
+          },
+          "max_cash": "14.50000000",
+          "max_net": "10.000000",
+          "max_notification_delay_ms": 74,
+          "max_reserved": "14.85000000",
+          "min_worst": "-4.50000000",
+          "reservations": {
+            "reservation_rejected": 802
+          },
+          "unknown": []
+        },
+        "M2_bid_hedge:queue_front:750": {
+          "actual": {
+            "cash": "14.96800000",
+            "q": [
+              "15",
+              "15.000000"
+            ]
+          },
+          "client": {
+            "cash": "14.96800000",
+            "q": [
+              "15",
+              "15.000000"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "2.75",
+              "kind": "maker",
+              "order": 2,
+              "price": "0.55",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025331790
+            },
+            {
+              "cash": "1.50877196",
+              "kind": "maker",
+              "order": 13,
+              "price": "0.43",
+              "qty": "3.508772",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025344301
+            },
+            {
+              "cash": "0.64122804",
+              "kind": "maker",
+              "order": 13,
+              "price": "0.43",
+              "qty": "1.491228",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025346487
+            },
+            {
+              "cash": "3.0840",
+              "kind": "taker",
+              "order": 14,
+              "price": "0.6168",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025349500
+            },
+            {
+              "cash": "3.0840",
+              "kind": "taker",
+              "order": 15,
+              "price": "0.6168",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025351500
+            },
+            {
+              "cash": "2.95",
+              "kind": "maker",
+              "order": 16,
+              "price": "0.59",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790025357405
+            },
+            {
+              "cash": "0.95",
+              "kind": "maker",
+              "order": 1089,
+              "price": "0.19",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790025898514
+            }
+          ],
+          "conditional_pnl": "0.03200000",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "2.75",
+              "exchange_proxy_ms": 1790025331216,
+              "order": 2,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025331790,
+              "side": 1
+            },
+            {
+              "cash": "1.50877196",
+              "exchange_proxy_ms": 1790025343764,
+              "order": 13,
+              "qty": "3.508772",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025344301,
+              "side": 1
+            },
+            {
+              "cash": "0.64122804",
+              "exchange_proxy_ms": 1790025345948,
+              "order": 13,
+              "qty": "1.491228",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025346487,
+              "side": 1
+            },
+            {
+              "cash": "3.0840",
+              "exchange_proxy_ms": 1790025348750,
+              "order": 14,
+              "qty": "5",
+              "role": "taker",
+              "scheduled_notification_ms": 1790025349500,
+              "side": 0
+            },
+            {
+              "cash": "3.0840",
+              "exchange_proxy_ms": 1790025350750,
+              "order": 15,
+              "qty": "5",
+              "role": "taker",
+              "scheduled_notification_ms": 1790025351500,
+              "side": 0
+            },
+            {
+              "cash": "2.95",
+              "exchange_proxy_ms": 1790025356850,
+              "order": 16,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025357405,
+              "side": 0
+            },
+            {
+              "cash": "0.95",
+              "exchange_proxy_ms": 1790025897970,
+              "order": 1089,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790025898514,
+              "side": 1
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 9,
+            "cancel_requested": 9,
+            "final_status_reconciled": 12,
+            "post_only_rejected": 1,
+            "reservation_rejected_maker": 1562,
+            "submitted_maker": 10,
+            "submitted_taker": 2
+          },
+          "max_cash": "14.96800000",
+          "max_net": "10.000000",
+          "max_notification_delay_ms": 750,
+          "max_reserved": "14.96800000",
+          "min_worst": "-4.90000000",
+          "reservations": {
+            "reservation_rejected": 1562
+          },
+          "unknown": []
+        }
+      },
+      "bosona": {
+        "buys": 0,
+        "fills": 0,
+        "note": "All public trades for this contract, including pre-start. No rebate or transfer-balance claim; not equal-risk policy comparison.",
+        "q": [
+          "0",
+          "0"
+        ],
+        "roles": {},
+        "trade_cash": "0",
+        "trade_pnl": "0"
+      },
+      "control": {
+        "250": {
+          "conditional_pnl": 0.0,
+          "economic_pnl": null,
+          "gaps": {},
+          "state": {
+            "added": false,
+            "cash": 0.0,
+            "entered": false,
+            "events": [],
+            "lots": [
+              [],
+              []
+            ],
+            "peak_risk": 0.0,
+            "q": [
+              0.0,
+              0.0
+            ]
+          },
+          "trace": [
+            {
+              "age": 180,
+              "context": {
+                "S": 1790025300,
+                "distance": 0.29017158248249136,
+                "final_drift_shift": -292.4595086743939,
+                "final_drift_up_prob": 0.001481665419439393,
+                "final_known_seconds": 0,
+                "final_mean": 86614.53712540999,
+                "final_sd": 89.4344111312341,
+                "final_up_prob": 0.6173712987732841,
+                "final_z": 0.2985840950658605,
+                "momentum10": -0.39081071272081913,
+                "now": 1790025480.0,
+                "ref": 86587.83343269462,
+                "reference_received_ms": 1790025300972,
+                "sigma": 3.429653106791905,
+                "spot": 86614.53712540999,
+                "twap": 86629.10596008925
+              },
+              "intent": null,
+              "prices": [
+                0.57,
+                0.44
+              ]
+            }
+          ]
+        },
+        "750": {
+          "conditional_pnl": 0.0,
+          "economic_pnl": null,
+          "gaps": {},
+          "state": {
+            "added": false,
+            "cash": 0.0,
+            "entered": false,
+            "events": [],
+            "lots": [
+              [],
+              []
+            ],
+            "peak_risk": 0.0,
+            "q": [
+              0.0,
+              0.0
+            ]
+          },
+          "trace": [
+            {
+              "age": 180,
+              "context": {
+                "S": 1790025300,
+                "distance": 0.29017158248249136,
+                "final_drift_shift": -292.4595086743939,
+                "final_drift_up_prob": 0.001481665419439393,
+                "final_known_seconds": 0,
+                "final_mean": 86614.53712540999,
+                "final_sd": 89.4344111312341,
+                "final_up_prob": 0.6173712987732841,
+                "final_z": 0.2985840950658605,
+                "momentum10": -0.39081071272081913,
+                "now": 1790025480.0,
+                "ref": 86587.83343269462,
+                "reference_received_ms": 1790025300972,
+                "sigma": 3.429653106791905,
+                "spot": 86614.53712540999,
+                "twap": 86629.10596008925
+              },
+              "intent": null,
+              "prices": [
+                0.57,
+                0.44
+              ]
+            }
+          ]
+        }
+      },
+      "data_gate": "PASS_OBSERVED_FLOW_GATE",
+      "reference_matches": true,
+      "start": 1790025300,
+      "tick_events": [
+        {
+          "k": "tick_size_change",
+          "mono": 117853597784330,
+          "p": {
+            "asset_id": "44156635061437401582417466502660133492893881469673353617325568856336213344110",
+            "event_type": "tick_size_change",
+            "market": "0x78ee162527944fce2031c28091a99e1c600bf34a72580d82d131c38c15efb261",
+            "new_tick_size": "0.001",
+            "old_tick_size": "0.01",
+            "timestamp": "1790026294159"
+          },
+          "rcv": 1790026294219
+        },
+        {
+          "k": "tick_size_change",
+          "mono": 117853597862203,
+          "p": {
+            "asset_id": "42067293534755051584221342142781265421926192215213473419608286315034036879660",
+            "event_type": "tick_size_change",
+            "market": "0x78ee162527944fce2031c28091a99e1c600bf34a72580d82d131c38c15efb261",
+            "new_tick_size": "0.001",
+            "old_tick_size": "0.01",
+            "timestamp": "1790026294159"
+          },
+          "rcv": 1790026294219
+        },
+        {
+          "k": "tick_size_change",
+          "mono": 117853598068288,
+          "p": {
+            "asset_id": "44156635061437401582417466502660133492893881469673353617325568856336213344110",
+            "event_type": "tick_size_change",
+            "market": "0x78ee162527944fce2031c28091a99e1c600bf34a72580d82d131c38c15efb261",
+            "new_tick_size": "0.001",
+            "old_tick_size": "0.01",
+            "timestamp": "1790026294159"
+          },
+          "rcv": 1790026294219
+        },
+        {
+          "k": "tick_size_change",
+          "mono": 117853598141728,
+          "p": {
+            "asset_id": "42067293534755051584221342142781265421926192215213473419608286315034036879660",
+            "event_type": "tick_size_change",
+            "market": "0x78ee162527944fce2031c28091a99e1c600bf34a72580d82d131c38c15efb261",
+            "new_tick_size": "0.001",
+            "old_tick_size": "0.01",
+            "timestamp": "1790026294159"
+          },
+          "rcv": 1790026294219
+        }
+      ],
+      "winner": 0
+    },
+    {
+      "arms": {
+        "M1_bid:queue_back:250": {
+          "actual": {
+            "cash": "10.80593047",
+            "q": [
+              "10",
+              "14.754783"
+            ]
+          },
+          "client": {
+            "cash": "10.80593047",
+            "q": [
+              "10",
+              "14.754783"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "4.40",
+              "kind": "maker",
+              "order": 58,
+              "price": "0.88",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026458486
+            },
+            {
+              "cash": "0.02743047",
+              "kind": "maker",
+              "order": 109,
+              "price": "0.09",
+              "qty": "0.304783",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026502487
+            },
+            {
+              "cash": "0.5",
+              "kind": "maker",
+              "order": 183,
+              "price": "0.1",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026572287
+            },
+            {
+              "cash": "0.5785",
+              "kind": "maker",
+              "order": 196,
+              "price": "0.13",
+              "qty": "4.45",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026606676
+            },
+            {
+              "cash": "0.22",
+              "kind": "maker",
+              "order": 200,
+              "price": "0.11",
+              "qty": "2",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026615179
+            },
+            {
+              "cash": "0.33",
+              "kind": "maker",
+              "order": 200,
+              "price": "0.11",
+              "qty": "3",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026615179
+            },
+            {
+              "cash": "4.75",
+              "kind": "maker",
+              "order": 410,
+              "price": "0.95",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026815653
+            }
+          ],
+          "conditional_pnl": "-0.80593047",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "4.40",
+              "exchange_proxy_ms": 1790026458447,
+              "order": 58,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026458486,
+              "side": 0
+            },
+            {
+              "cash": "0.02743047",
+              "exchange_proxy_ms": 1790026502449,
+              "order": 109,
+              "qty": "0.304783",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026502487,
+              "side": 1
+            },
+            {
+              "cash": "0.5",
+              "exchange_proxy_ms": 1790026572242,
+              "order": 183,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026572287,
+              "side": 1
+            },
+            {
+              "cash": "0.5785",
+              "exchange_proxy_ms": 1790026606608,
+              "order": 196,
+              "qty": "4.45",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026606676,
+              "side": 1
+            },
+            {
+              "cash": "0.22",
+              "exchange_proxy_ms": 1790026615140,
+              "order": 200,
+              "qty": "2",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026615179,
+              "side": 1
+            },
+            {
+              "cash": "0.33",
+              "exchange_proxy_ms": 1790026615140,
+              "order": 200,
+              "qty": "3",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026615179,
+              "side": 1
+            },
+            {
+              "cash": "4.75",
+              "exchange_proxy_ms": 1790026815613,
+              "order": 410,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026815653,
+              "side": 0
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 107,
+            "cancel_requested": 104,
+            "final_status_reconciled": 111,
+            "post_only_rejected": 4,
+            "reservation_rejected_maker": 435,
+            "submitted_maker": 111
+          },
+          "max_cash": "10.80593047",
+          "max_net": "9.754783",
+          "max_notification_delay_ms": 68,
+          "max_reserved": "11.05593047",
+          "min_worst": "-4.40",
+          "reservations": {
+            "reservation_rejected": 435
+          },
+          "unknown": []
+        },
+        "M1_bid:queue_back:750": {
+          "actual": {
+            "cash": "14.80",
+            "q": [
+              "15",
+              "20"
+            ]
+          },
+          "client": {
+            "cash": "14.80",
+            "q": [
+              "15",
+              "20"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "3.35",
+              "kind": "maker",
+              "order": 19,
+              "price": "0.67",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026318672
+            },
+            {
+              "cash": "0.95",
+              "kind": "maker",
+              "order": 88,
+              "price": "0.19",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026382638
+            },
+            {
+              "cash": "4.40",
+              "kind": "maker",
+              "order": 113,
+              "price": "0.88",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026459542
+            },
+            {
+              "cash": "0.5",
+              "kind": "maker",
+              "order": 235,
+              "price": "0.1",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026572787
+            },
+            {
+              "cash": "0.22",
+              "kind": "maker",
+              "order": 249,
+              "price": "0.11",
+              "qty": "2",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026615679
+            },
+            {
+              "cash": "0.33",
+              "kind": "maker",
+              "order": 249,
+              "price": "0.11",
+              "qty": "3",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026615679
+            },
+            {
+              "cash": "0.35",
+              "kind": "maker",
+              "order": 255,
+              "price": "0.07",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026653056
+            },
+            {
+              "cash": "4.70",
+              "kind": "maker",
+              "order": 292,
+              "price": "0.94",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026700225
+            }
+          ],
+          "conditional_pnl": "0.20",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "3.35",
+              "exchange_proxy_ms": 1790026318133,
+              "order": 19,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026318672,
+              "side": 0
+            },
+            {
+              "cash": "0.95",
+              "exchange_proxy_ms": 1790026382088,
+              "order": 88,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026382638,
+              "side": 1
+            },
+            {
+              "cash": "4.40",
+              "exchange_proxy_ms": 1790026459003,
+              "order": 113,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026459542,
+              "side": 0
+            },
+            {
+              "cash": "0.5",
+              "exchange_proxy_ms": 1790026572242,
+              "order": 235,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026572787,
+              "side": 1
+            },
+            {
+              "cash": "0.22",
+              "exchange_proxy_ms": 1790026615140,
+              "order": 249,
+              "qty": "2",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026615679,
+              "side": 1
+            },
+            {
+              "cash": "0.33",
+              "exchange_proxy_ms": 1790026615140,
+              "order": 249,
+              "qty": "3",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026615679,
+              "side": 1
+            },
+            {
+              "cash": "0.35",
+              "exchange_proxy_ms": 1790026652512,
+              "order": 255,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026653056,
+              "side": 1
+            },
+            {
+              "cash": "4.70",
+              "exchange_proxy_ms": 1790026699482,
+              "order": 292,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026700225,
+              "side": 0
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 85,
+            "cancel_requested": 90,
+            "final_status_reconciled": 93,
+            "post_only_rejected": 8,
+            "reservation_rejected_maker": 533,
+            "submitted_maker": 93
+          },
+          "max_cash": "14.80",
+          "max_net": "10",
+          "max_notification_delay_ms": 743,
+          "max_reserved": "15.00",
+          "min_worst": "-3.70",
+          "reservations": {
+            "reservation_rejected": 533
+          },
+          "unknown": []
+        },
+        "M1_bid:queue_front:250": {
+          "actual": {
+            "cash": "13.2166668",
+            "q": [
+              "10",
+              "16.666667"
+            ]
+          },
+          "client": {
+            "cash": "13.2166668",
+            "q": [
+              "10",
+              "16.666667"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "2.35",
+              "kind": "maker",
+              "order": 2,
+              "price": "0.47",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026230740
+            },
+            {
+              "cash": "2.30",
+              "kind": "maker",
+              "order": 5,
+              "price": "0.46",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026240351
+            },
+            {
+              "cash": "2.95",
+              "kind": "maker",
+              "order": 18,
+              "price": "0.59",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026251666
+            },
+            {
+              "cash": "1.3333328",
+              "kind": "maker",
+              "order": 22,
+              "price": "0.4",
+              "qty": "3.333332",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026254884
+            },
+            {
+              "cash": "0.6666668",
+              "kind": "maker",
+              "order": 22,
+              "price": "0.4",
+              "qty": "1.666667",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026260550
+            },
+            {
+              "cash": "2.95",
+              "kind": "maker",
+              "order": 21,
+              "price": "0.59",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026263529
+            },
+            {
+              "cash": "4E-7",
+              "kind": "maker",
+              "order": 22,
+              "price": "0.4",
+              "qty": "0.000001",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026271397
+            },
+            {
+              "cash": "0.6666668",
+              "kind": "maker",
+              "order": 32,
+              "price": "0.4",
+              "qty": "1.666667",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026275905
+            }
+          ],
+          "conditional_pnl": "-3.2166668",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "2.35",
+              "exchange_proxy_ms": 1790026230701,
+              "order": 2,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026230740,
+              "side": 1
+            },
+            {
+              "cash": "2.30",
+              "exchange_proxy_ms": 1790026240042,
+              "order": 5,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026240351,
+              "side": 1
+            },
+            {
+              "cash": "2.95",
+              "exchange_proxy_ms": 1790026251584,
+              "order": 18,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026251666,
+              "side": 0
+            },
+            {
+              "cash": "1.3333328",
+              "exchange_proxy_ms": 1790026254845,
+              "order": 22,
+              "qty": "3.333332",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026254884,
+              "side": 1
+            },
+            {
+              "cash": "0.6666668",
+              "exchange_proxy_ms": 1790026260470,
+              "order": 22,
+              "qty": "1.666667",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026260550,
+              "side": 1
+            },
+            {
+              "cash": "2.95",
+              "exchange_proxy_ms": 1790026263490,
+              "order": 21,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026263529,
+              "side": 0
+            },
+            {
+              "cash": "4E-7",
+              "exchange_proxy_ms": 1790026271358,
+              "order": 22,
+              "qty": "0.000001",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026271397,
+              "side": 1
+            },
+            {
+              "cash": "0.6666668",
+              "exchange_proxy_ms": 1790026275864,
+              "order": 32,
+              "qty": "1.666667",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026275905,
+              "side": 1
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 12,
+            "cancel_requested": 7,
+            "final_status_reconciled": 12,
+            "reservation_rejected_maker": 1341,
+            "submitted_maker": 12
+          },
+          "max_cash": "13.2166668",
+          "max_net": "10",
+          "max_notification_delay_ms": 309,
+          "max_reserved": "14.5500000",
+          "min_worst": "-4.65",
+          "reservations": {
+            "reservation_rejected": 1341
+          },
+          "unknown": []
+        },
+        "M1_bid:queue_front:750": {
+          "actual": {
+            "cash": "14.90666680",
+            "q": [
+              "12.500000",
+              "18.766667"
+            ]
+          },
+          "client": {
+            "cash": "14.90666680",
+            "q": [
+              "12.500000",
+              "18.766667"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "2.30",
+              "kind": "maker",
+              "order": 4,
+              "price": "0.46",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026240851
+            },
+            {
+              "cash": "2.10",
+              "kind": "maker",
+              "order": 7,
+              "price": "0.42",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026246446
+            },
+            {
+              "cash": "2.95",
+              "kind": "maker",
+              "order": 13,
+              "price": "0.59",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026264029
+            },
+            {
+              "cash": "1.43902475",
+              "kind": "maker",
+              "order": 28,
+              "price": "0.59",
+              "qty": "2.439025",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026271400
+            },
+            {
+              "cash": "0.84",
+              "kind": "maker",
+              "order": 29,
+              "price": "0.4",
+              "qty": "2.1",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026271897
+            },
+            {
+              "cash": "1.51097525",
+              "kind": "maker",
+              "order": 28,
+              "price": "0.59",
+              "qty": "2.560975",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026274063
+            },
+            {
+              "cash": "0.6666668",
+              "kind": "maker",
+              "order": 29,
+              "price": "0.4",
+              "qty": "1.666667",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026276405
+            },
+            {
+              "cash": "1.50",
+              "kind": "maker",
+              "order": 55,
+              "price": "0.6",
+              "qty": "2.5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026301288
+            },
+            {
+              "cash": "1.60",
+              "kind": "maker",
+              "order": 83,
+              "price": "0.32",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026317530
+            }
+          ],
+          "conditional_pnl": "-2.40666680",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "2.30",
+              "exchange_proxy_ms": 1790026240042,
+              "order": 4,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026240851,
+              "side": 1
+            },
+            {
+              "cash": "2.10",
+              "exchange_proxy_ms": 1790026245883,
+              "order": 7,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026246446,
+              "side": 1
+            },
+            {
+              "cash": "2.95",
+              "exchange_proxy_ms": 1790026263490,
+              "order": 13,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026264029,
+              "side": 0
+            },
+            {
+              "cash": "1.43902475",
+              "exchange_proxy_ms": 1790026270861,
+              "order": 28,
+              "qty": "2.439025",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026271400,
+              "side": 0
+            },
+            {
+              "cash": "0.84",
+              "exchange_proxy_ms": 1790026271358,
+              "order": 29,
+              "qty": "2.1",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026271897,
+              "side": 1
+            },
+            {
+              "cash": "1.51097525",
+              "exchange_proxy_ms": 1790026273525,
+              "order": 28,
+              "qty": "2.560975",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026274063,
+              "side": 0
+            },
+            {
+              "cash": "0.6666668",
+              "exchange_proxy_ms": 1790026275864,
+              "order": 29,
+              "qty": "1.666667",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026276405,
+              "side": 1
+            },
+            {
+              "cash": "1.50",
+              "exchange_proxy_ms": 1790026300750,
+              "order": 55,
+              "qty": "2.5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026301288,
+              "side": 0
+            },
+            {
+              "cash": "1.60",
+              "exchange_proxy_ms": 1790026316807,
+              "order": 83,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026317530,
+              "side": 1
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 14,
+            "cancel_requested": 10,
+            "final_status_reconciled": 14,
+            "reservation_rejected_maker": 1309,
+            "submitted_maker": 14
+          },
+          "max_cash": "14.90666680",
+          "max_net": "10",
+          "max_notification_delay_ms": 809,
+          "max_reserved": "14.90666680",
+          "min_worst": "-4.40",
+          "reservations": {
+            "reservation_rejected": 1309
+          },
+          "unknown": []
+        },
+        "M1_bid_minus_cent:queue_back:250": {
+          "actual": {
+            "cash": "5.35",
+            "q": [
+              "5",
+              "5"
+            ]
+          },
+          "client": {
+            "cash": "5.35",
+            "q": [
+              "5",
+              "5"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "0.65",
+              "kind": "maker",
+              "order": 56,
+              "price": "0.13",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026447925
+            },
+            {
+              "cash": "4.70",
+              "kind": "maker",
+              "order": 136,
+              "price": "0.94",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026815653
+            }
+          ],
+          "conditional_pnl": "-0.35",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "0.65",
+              "exchange_proxy_ms": 1790026447885,
+              "order": 56,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026447925,
+              "side": 1
+            },
+            {
+              "cash": "4.70",
+              "exchange_proxy_ms": 1790026815613,
+              "order": 136,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026815653,
+              "side": 0
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 142,
+            "cancel_requested": 140,
+            "final_status_reconciled": 142,
+            "reservation_rejected_maker": 104,
+            "submitted_maker": 142
+          },
+          "max_cash": "5.35",
+          "max_net": "5",
+          "max_notification_delay_ms": 40,
+          "max_reserved": "10.20",
+          "min_worst": "-0.65",
+          "reservations": {
+            "reservation_rejected": 104
+          },
+          "unknown": []
+        },
+        "M1_bid_minus_cent:queue_back:750": {
+          "actual": {
+            "cash": "3.30",
+            "q": [
+              "5",
+              "0"
+            ]
+          },
+          "client": {
+            "cash": "3.30",
+            "q": [
+              "5",
+              "0"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "1.32",
+              "kind": "maker",
+              "order": 19,
+              "price": "0.66",
+              "qty": "2",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026320230
+            },
+            {
+              "cash": "1.98",
+              "kind": "maker",
+              "order": 19,
+              "price": "0.66",
+              "qty": "3",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026320230
+            }
+          ],
+          "conditional_pnl": "1.70",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "1.32",
+              "exchange_proxy_ms": 1790026319688,
+              "order": 19,
+              "qty": "2",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026320230,
+              "side": 0
+            },
+            {
+              "cash": "1.98",
+              "exchange_proxy_ms": 1790026319688,
+              "order": 19,
+              "qty": "3",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026320230,
+              "side": 0
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 76,
+            "cancel_requested": 76,
+            "final_status_reconciled": 76,
+            "reservation_rejected_maker": 616,
+            "submitted_maker": 76
+          },
+          "max_cash": "3.30",
+          "max_net": "5",
+          "max_notification_delay_ms": 542,
+          "max_reserved": "4.90",
+          "min_worst": "-3.30",
+          "reservations": {
+            "reservation_rejected": 616
+          },
+          "unknown": []
+        },
+        "M1_bid_minus_cent:queue_front:250": {
+          "actual": {
+            "cash": "14.2000",
+            "q": [
+              "10",
+              "20.00"
+            ]
+          },
+          "client": {
+            "cash": "14.2000",
+            "q": [
+              "10",
+              "20.00"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "0.0270",
+              "kind": "maker",
+              "order": 4,
+              "price": "0.45",
+              "qty": "0.06",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026240355
+            },
+            {
+              "cash": "2.2230",
+              "kind": "maker",
+              "order": 4,
+              "price": "0.45",
+              "qty": "4.94",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026240397
+            },
+            {
+              "cash": "2.00",
+              "kind": "maker",
+              "order": 10,
+              "price": "0.40",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026249140
+            },
+            {
+              "cash": "3.30",
+              "kind": "maker",
+              "order": 82,
+              "price": "0.66",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026319730
+            },
+            {
+              "cash": "1.60",
+              "kind": "maker",
+              "order": 88,
+              "price": "0.32",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026335199
+            },
+            {
+              "cash": "4.00",
+              "kind": "maker",
+              "order": 142,
+              "price": "0.80",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026385507
+            },
+            {
+              "cash": "1.05",
+              "kind": "maker",
+              "order": 146,
+              "price": "0.21",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026388727
+            }
+          ],
+          "conditional_pnl": "-4.2000",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "0.0270",
+              "exchange_proxy_ms": 1790026240069,
+              "order": 4,
+              "qty": "0.06",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026240355,
+              "side": 1
+            },
+            {
+              "cash": "2.2230",
+              "exchange_proxy_ms": 1790026240120,
+              "order": 4,
+              "qty": "4.94",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026240397,
+              "side": 1
+            },
+            {
+              "cash": "2.00",
+              "exchange_proxy_ms": 1790026249101,
+              "order": 10,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026249140,
+              "side": 1
+            },
+            {
+              "cash": "3.30",
+              "exchange_proxy_ms": 1790026319688,
+              "order": 82,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026319730,
+              "side": 0
+            },
+            {
+              "cash": "1.60",
+              "exchange_proxy_ms": 1790026335161,
+              "order": 88,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026335199,
+              "side": 1
+            },
+            {
+              "cash": "4.00",
+              "exchange_proxy_ms": 1790026385183,
+              "order": 142,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026385507,
+              "side": 0
+            },
+            {
+              "cash": "1.05",
+              "exchange_proxy_ms": 1790026388688,
+              "order": 146,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026388727,
+              "side": 1
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 25,
+            "cancel_requested": 21,
+            "final_status_reconciled": 25,
+            "reservation_rejected_maker": 1184,
+            "submitted_maker": 25
+          },
+          "max_cash": "14.2000",
+          "max_net": "10.00",
+          "max_notification_delay_ms": 324,
+          "max_reserved": "14.2000",
+          "min_worst": "-4.2500",
+          "reservations": {
+            "reservation_rejected": 1184
+          },
+          "unknown": []
+        },
+        "M1_bid_minus_cent:queue_front:750": {
+          "actual": {
+            "cash": "14.00000000",
+            "q": [
+              "10.000000",
+              "20.00"
+            ]
+          },
+          "client": {
+            "cash": "14.00000000",
+            "q": [
+              "10.000000",
+              "20.00"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "0.0270",
+              "kind": "maker",
+              "order": 4,
+              "price": "0.45",
+              "qty": "0.06",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026240855
+            },
+            {
+              "cash": "2.2230",
+              "kind": "maker",
+              "order": 4,
+              "price": "0.45",
+              "qty": "4.94",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026240897
+            },
+            {
+              "cash": "2.00",
+              "kind": "maker",
+              "order": 9,
+              "price": "0.40",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026249640
+            },
+            {
+              "cash": "3.30",
+              "kind": "maker",
+              "order": 82,
+              "price": "0.66",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026320230
+            },
+            {
+              "cash": "1.60",
+              "kind": "maker",
+              "order": 88,
+              "price": "0.32",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026335699
+            },
+            {
+              "cash": "2.67692388",
+              "kind": "maker",
+              "order": 219,
+              "price": "0.87",
+              "qty": "3.076924",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026459517
+            },
+            {
+              "cash": "1.67307612",
+              "kind": "maker",
+              "order": 219,
+              "price": "0.87",
+              "qty": "1.923076",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026459542
+            },
+            {
+              "cash": "0.50",
+              "kind": "maker",
+              "order": 248,
+              "price": "0.10",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026479165
+            }
+          ],
+          "conditional_pnl": "-4.00000000",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "0.0270",
+              "exchange_proxy_ms": 1790026240069,
+              "order": 4,
+              "qty": "0.06",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026240855,
+              "side": 1
+            },
+            {
+              "cash": "2.2230",
+              "exchange_proxy_ms": 1790026240120,
+              "order": 4,
+              "qty": "4.94",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026240897,
+              "side": 1
+            },
+            {
+              "cash": "2.00",
+              "exchange_proxy_ms": 1790026249101,
+              "order": 9,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026249640,
+              "side": 1
+            },
+            {
+              "cash": "3.30",
+              "exchange_proxy_ms": 1790026319688,
+              "order": 82,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026320230,
+              "side": 0
+            },
+            {
+              "cash": "1.60",
+              "exchange_proxy_ms": 1790026335161,
+              "order": 88,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026335699,
+              "side": 1
+            },
+            {
+              "cash": "2.67692388",
+              "exchange_proxy_ms": 1790026458975,
+              "order": 219,
+              "qty": "3.076924",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026459517,
+              "side": 0
+            },
+            {
+              "cash": "1.67307612",
+              "exchange_proxy_ms": 1790026459003,
+              "order": 219,
+              "qty": "1.923076",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026459542,
+              "side": 0
+            },
+            {
+              "cash": "0.50",
+              "exchange_proxy_ms": 1790026478627,
+              "order": 248,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026479165,
+              "side": 1
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 33,
+            "cancel_requested": 34,
+            "final_status_reconciled": 35,
+            "post_only_rejected": 2,
+            "reservation_rejected_maker": 1094,
+            "submitted_maker": 35
+          },
+          "max_cash": "14.00000000",
+          "max_net": "10.00",
+          "max_notification_delay_ms": 786,
+          "max_reserved": "14.05000000",
+          "min_worst": "-4.2500",
+          "reservations": {
+            "reservation_rejected": 1094
+          },
+          "unknown": []
+        },
+        "M2_bid_hedge:queue_back:250": {
+          "actual": {
+            "cash": "10.80593047",
+            "q": [
+              "10",
+              "14.754783"
+            ]
+          },
+          "client": {
+            "cash": "10.80593047",
+            "q": [
+              "10",
+              "14.754783"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "4.40",
+              "kind": "maker",
+              "order": 58,
+              "price": "0.88",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026458486
+            },
+            {
+              "cash": "0.02743047",
+              "kind": "maker",
+              "order": 109,
+              "price": "0.09",
+              "qty": "0.304783",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026502487
+            },
+            {
+              "cash": "0.5",
+              "kind": "maker",
+              "order": 183,
+              "price": "0.1",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026572287
+            },
+            {
+              "cash": "0.5785",
+              "kind": "maker",
+              "order": 196,
+              "price": "0.13",
+              "qty": "4.45",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026606676
+            },
+            {
+              "cash": "0.22",
+              "kind": "maker",
+              "order": 200,
+              "price": "0.11",
+              "qty": "2",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026615179
+            },
+            {
+              "cash": "0.33",
+              "kind": "maker",
+              "order": 200,
+              "price": "0.11",
+              "qty": "3",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026615179
+            },
+            {
+              "cash": "4.75",
+              "kind": "maker",
+              "order": 410,
+              "price": "0.95",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026815653
+            }
+          ],
+          "conditional_pnl": "-0.80593047",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "4.40",
+              "exchange_proxy_ms": 1790026458447,
+              "order": 58,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026458486,
+              "side": 0
+            },
+            {
+              "cash": "0.02743047",
+              "exchange_proxy_ms": 1790026502449,
+              "order": 109,
+              "qty": "0.304783",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026502487,
+              "side": 1
+            },
+            {
+              "cash": "0.5",
+              "exchange_proxy_ms": 1790026572242,
+              "order": 183,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026572287,
+              "side": 1
+            },
+            {
+              "cash": "0.5785",
+              "exchange_proxy_ms": 1790026606608,
+              "order": 196,
+              "qty": "4.45",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026606676,
+              "side": 1
+            },
+            {
+              "cash": "0.22",
+              "exchange_proxy_ms": 1790026615140,
+              "order": 200,
+              "qty": "2",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026615179,
+              "side": 1
+            },
+            {
+              "cash": "0.33",
+              "exchange_proxy_ms": 1790026615140,
+              "order": 200,
+              "qty": "3",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026615179,
+              "side": 1
+            },
+            {
+              "cash": "4.75",
+              "exchange_proxy_ms": 1790026815613,
+              "order": 410,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026815653,
+              "side": 0
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 107,
+            "cancel_requested": 104,
+            "final_status_reconciled": 111,
+            "post_only_rejected": 4,
+            "reservation_rejected_maker": 435,
+            "submitted_maker": 111
+          },
+          "max_cash": "10.80593047",
+          "max_net": "9.754783",
+          "max_notification_delay_ms": 68,
+          "max_reserved": "11.05593047",
+          "min_worst": "-4.40",
+          "reservations": {
+            "reservation_rejected": 435
+          },
+          "unknown": []
+        },
+        "M2_bid_hedge:queue_back:750": {
+          "actual": {
+            "cash": "14.819740",
+            "q": [
+              "15",
+              "20"
+            ]
+          },
+          "client": {
+            "cash": "14.819740",
+            "q": [
+              "15",
+              "20"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "3.35",
+              "kind": "maker",
+              "order": 19,
+              "price": "0.67",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026318672
+            },
+            {
+              "cash": "0.95",
+              "kind": "maker",
+              "order": 88,
+              "price": "0.19",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026382638
+            },
+            {
+              "cash": "4.40",
+              "kind": "maker",
+              "order": 113,
+              "price": "0.88",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026459542
+            },
+            {
+              "cash": "0.5",
+              "kind": "maker",
+              "order": 235,
+              "price": "0.1",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026572787
+            },
+            {
+              "cash": "0.22",
+              "kind": "maker",
+              "order": 249,
+              "price": "0.11",
+              "qty": "2",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026615679
+            },
+            {
+              "cash": "0.33",
+              "kind": "maker",
+              "order": 249,
+              "price": "0.11",
+              "qty": "3",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026615679
+            },
+            {
+              "cash": "0.35",
+              "kind": "maker",
+              "order": 255,
+              "price": "0.07",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026653056
+            },
+            {
+              "cash": "4.719740",
+              "kind": "taker",
+              "order": 256,
+              "price": "0.943948",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026656500
+            }
+          ],
+          "conditional_pnl": "0.180260",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "3.35",
+              "exchange_proxy_ms": 1790026318133,
+              "order": 19,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026318672,
+              "side": 0
+            },
+            {
+              "cash": "0.95",
+              "exchange_proxy_ms": 1790026382088,
+              "order": 88,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026382638,
+              "side": 1
+            },
+            {
+              "cash": "4.40",
+              "exchange_proxy_ms": 1790026459003,
+              "order": 113,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026459542,
+              "side": 0
+            },
+            {
+              "cash": "0.5",
+              "exchange_proxy_ms": 1790026572242,
+              "order": 235,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026572787,
+              "side": 1
+            },
+            {
+              "cash": "0.22",
+              "exchange_proxy_ms": 1790026615140,
+              "order": 249,
+              "qty": "2",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026615679,
+              "side": 1
+            },
+            {
+              "cash": "0.33",
+              "exchange_proxy_ms": 1790026615140,
+              "order": 249,
+              "qty": "3",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026615679,
+              "side": 1
+            },
+            {
+              "cash": "0.35",
+              "exchange_proxy_ms": 1790026652512,
+              "order": 255,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026653056,
+              "side": 1
+            },
+            {
+              "cash": "4.719740",
+              "exchange_proxy_ms": 1790026655750,
+              "order": 256,
+              "qty": "5",
+              "role": "taker",
+              "scheduled_notification_ms": 1790026656500,
+              "side": 0
+            }
+          ],
+          "first_blocked_hedge": {
+            "cash_after": "19.539480",
+            "cash_before": "14.819740",
+            "cash_exceeded": true,
+            "cash_required": "4.719740",
+            "loss_exceeded": false,
+            "net_exceeded": false,
+            "q_before": [
+              "15",
+              "20"
+            ],
+            "qty": "5",
+            "side": 0,
+            "time_ms": 1790026657000,
+            "worst_after": "0.460520"
+          },
+          "lifecycle": {
+            "accepted_maker": 70,
+            "cancel_requested": 75,
+            "final_status_reconciled": 79,
+            "post_only_rejected": 8,
+            "reservation_rejected_maker": 177,
+            "reservation_rejected_taker": 280,
+            "submitted_maker": 78,
+            "submitted_taker": 1
+          },
+          "max_cash": "14.819740",
+          "max_net": "10",
+          "max_notification_delay_ms": 750,
+          "max_reserved": "14.819740",
+          "min_worst": "-3.70",
+          "reservations": {
+            "reservation_rejected": 457
+          },
+          "unknown": []
+        },
+        "M2_bid_hedge:queue_front:250": {
+          "actual": {
+            "cash": "14.97052000",
+            "q": [
+              "15",
+              "15.000000"
+            ]
+          },
+          "client": {
+            "cash": "14.97052000",
+            "q": [
+              "15",
+              "15.000000"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "2.35",
+              "kind": "maker",
+              "order": 2,
+              "price": "0.47",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026230740
+            },
+            {
+              "cash": "2.30",
+              "kind": "maker",
+              "order": 5,
+              "price": "0.46",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026240351
+            },
+            {
+              "cash": "2.985260",
+              "kind": "taker",
+              "order": 7,
+              "price": "0.597052",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026243500
+            },
+            {
+              "cash": "2.985260",
+              "kind": "taker",
+              "order": 8,
+              "price": "0.597052",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026244500
+            },
+            {
+              "cash": "2.95",
+              "kind": "maker",
+              "order": 16,
+              "price": "0.59",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026251666
+            },
+            {
+              "cash": "0.38888892",
+              "kind": "maker",
+              "order": 218,
+              "price": "0.28",
+              "qty": "1.388889",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026357005
+            },
+            {
+              "cash": "1.01111108",
+              "kind": "maker",
+              "order": 218,
+              "price": "0.28",
+              "qty": "3.611111",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026362402
+            }
+          ],
+          "conditional_pnl": "0.02948000",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "2.35",
+              "exchange_proxy_ms": 1790026230701,
+              "order": 2,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026230740,
+              "side": 1
+            },
+            {
+              "cash": "2.30",
+              "exchange_proxy_ms": 1790026240042,
+              "order": 5,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026240351,
+              "side": 1
+            },
+            {
+              "cash": "2.985260",
+              "exchange_proxy_ms": 1790026243250,
+              "order": 7,
+              "qty": "5",
+              "role": "taker",
+              "scheduled_notification_ms": 1790026243500,
+              "side": 0
+            },
+            {
+              "cash": "2.985260",
+              "exchange_proxy_ms": 1790026244250,
+              "order": 8,
+              "qty": "5",
+              "role": "taker",
+              "scheduled_notification_ms": 1790026244500,
+              "side": 0
+            },
+            {
+              "cash": "2.95",
+              "exchange_proxy_ms": 1790026251584,
+              "order": 16,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026251666,
+              "side": 0
+            },
+            {
+              "cash": "0.38888892",
+              "exchange_proxy_ms": 1790026356966,
+              "order": 218,
+              "qty": "1.388889",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026357005,
+              "side": 1
+            },
+            {
+              "cash": "1.01111108",
+              "exchange_proxy_ms": 1790026362363,
+              "order": 218,
+              "qty": "3.611111",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026362402,
+              "side": 1
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 9,
+            "cancel_requested": 5,
+            "final_status_reconciled": 12,
+            "hedge_rejected": 1,
+            "reservation_rejected_maker": 1365,
+            "submitted_maker": 9,
+            "submitted_taker": 3
+          },
+          "max_cash": "14.97052000",
+          "max_net": "10",
+          "max_notification_delay_ms": 309,
+          "max_reserved": "14.970520",
+          "min_worst": "-4.65",
+          "reservations": {
+            "reservation_rejected": 1365
+          },
+          "unknown": []
+        },
+        "M2_bid_hedge:queue_front:750": {
+          "actual": {
+            "cash": "14.96800000",
+            "q": [
+              "15",
+              "20.000000"
+            ]
+          },
+          "client": {
+            "cash": "14.96800000",
+            "q": [
+              "15",
+              "20.000000"
+            ]
+          },
+          "client_updates": [
+            {
+              "cash": "2.30",
+              "kind": "maker",
+              "order": 4,
+              "price": "0.46",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026240851
+            },
+            {
+              "cash": "2.10",
+              "kind": "maker",
+              "order": 7,
+              "price": "0.42",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026246446
+            },
+            {
+              "cash": "3.0840",
+              "kind": "taker",
+              "order": 9,
+              "price": "0.6168",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026251500
+            },
+            {
+              "cash": "3.0840",
+              "kind": "taker",
+              "order": 10,
+              "price": "0.6168",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026253500
+            },
+            {
+              "cash": "2.95",
+              "kind": "maker",
+              "order": 11,
+              "price": "0.59",
+              "qty": "5",
+              "side": 0,
+              "source": "fill_notification",
+              "when": 1790026264029
+            },
+            {
+              "cash": "0.38888892",
+              "kind": "maker",
+              "order": 196,
+              "price": "0.28",
+              "qty": "1.388889",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026357505
+            },
+            {
+              "cash": "1.01111108",
+              "kind": "maker",
+              "order": 196,
+              "price": "0.28",
+              "qty": "3.611111",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026362902
+            },
+            {
+              "cash": "0.05",
+              "kind": "maker",
+              "order": 1287,
+              "price": "0.01",
+              "qty": "5",
+              "side": 1,
+              "source": "fill_notification",
+              "when": 1790026905856
+            }
+          ],
+          "conditional_pnl": "0.03200000",
+          "economic_pnl": null,
+          "fills": [
+            {
+              "cash": "2.30",
+              "exchange_proxy_ms": 1790026240042,
+              "order": 4,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026240851,
+              "side": 1
+            },
+            {
+              "cash": "2.10",
+              "exchange_proxy_ms": 1790026245883,
+              "order": 7,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026246446,
+              "side": 1
+            },
+            {
+              "cash": "3.0840",
+              "exchange_proxy_ms": 1790026250750,
+              "order": 9,
+              "qty": "5",
+              "role": "taker",
+              "scheduled_notification_ms": 1790026251500,
+              "side": 0
+            },
+            {
+              "cash": "3.0840",
+              "exchange_proxy_ms": 1790026252750,
+              "order": 10,
+              "qty": "5",
+              "role": "taker",
+              "scheduled_notification_ms": 1790026253500,
+              "side": 0
+            },
+            {
+              "cash": "2.95",
+              "exchange_proxy_ms": 1790026263490,
+              "order": 11,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026264029,
+              "side": 0
+            },
+            {
+              "cash": "0.38888892",
+              "exchange_proxy_ms": 1790026356966,
+              "order": 196,
+              "qty": "1.388889",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026357505,
+              "side": 1
+            },
+            {
+              "cash": "1.01111108",
+              "exchange_proxy_ms": 1790026362363,
+              "order": 196,
+              "qty": "3.611111",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026362902,
+              "side": 1
+            },
+            {
+              "cash": "0.05",
+              "exchange_proxy_ms": 1790026905314,
+              "order": 1287,
+              "qty": "5",
+              "role": "maker",
+              "scheduled_notification_ms": 1790026905856,
+              "side": 1
+            }
+          ],
+          "first_blocked_hedge": null,
+          "lifecycle": {
+            "accepted_maker": 10,
+            "cancel_requested": 6,
+            "final_status_reconciled": 13,
+            "hedge_rejected": 1,
+            "reservation_rejected_maker": 1339,
+            "submitted_maker": 10,
+            "submitted_taker": 3
+          },
+          "max_cash": "14.96800000",
+          "max_net": "10",
+          "max_notification_delay_ms": 809,
+          "max_reserved": "14.96800000",
+          "min_worst": "-4.40",
+          "reservations": {
+            "reservation_rejected": 1339
+          },
+          "unknown": []
+        }
+      },
+      "bosona": {
+        "buys": 2,
+        "fills": 2,
+        "note": "All public trades for this contract, including pre-start. No rebate or transfer-balance claim; not equal-risk policy comparison.",
+        "q": [
+          "0",
+          "200"
+        ],
+        "roles": {
+          "maker": 2
+        },
+        "trade_cash": "22",
+        "trade_pnl": "-22"
+      },
+      "control": {
+        "250": {
+          "conditional_pnl": 0.0,
+          "economic_pnl": null,
+          "gaps": {},
+          "state": {
+            "added": false,
+            "cash": 0.0,
+            "entered": false,
+            "events": [],
+            "lots": [
+              [],
+              []
+            ],
+            "peak_risk": 0.0,
+            "q": [
+              0.0,
+              0.0
+            ]
+          },
+          "trace": [
+            {
+              "age": 180,
+              "context": {
+                "S": 1790026200,
+                "distance": 2.214516548000519,
+                "final_drift_shift": 765.1089974232746,
+                "final_drift_up_prob": 1.0,
+                "final_known_seconds": 0,
+                "final_mean": 86706.71435385579,
+                "final_sd": 37.79168507194722,
+                "final_up_prob": 0.9886581046463645,
+                "final_z": 2.278718728540571,
+                "momentum10": 2.4195378362480677,
+                "now": 1790026380.0,
+                "ref": 86620.59773329923,
+                "reference_received_ms": 1790026201232,
+                "sigma": 1.4492449659864668,
+                "spot": 86706.71435385579,
+                "twap": 86691.0004931692
+              },
+              "intent": null,
+              "prices": [
+                0.77,
+                0.24
+              ]
+            }
+          ]
+        },
+        "750": {
+          "conditional_pnl": 0.0,
+          "economic_pnl": null,
+          "gaps": {},
+          "state": {
+            "added": false,
+            "cash": 0.0,
+            "entered": false,
+            "events": [],
+            "lots": [
+              [],
+              []
+            ],
+            "peak_risk": 0.0,
+            "q": [
+              0.0,
+              0.0
+            ]
+          },
+          "trace": [
+            {
+              "age": 180,
+              "context": {
+                "S": 1790026200,
+                "distance": 2.214516548000519,
+                "final_drift_shift": 765.1089974232746,
+                "final_drift_up_prob": 1.0,
+                "final_known_seconds": 0,
+                "final_mean": 86706.71435385579,
+                "final_sd": 37.79168507194722,
+                "final_up_prob": 0.9886581046463645,
+                "final_z": 2.278718728540571,
+                "momentum10": 2.4195378362480677,
+                "now": 1790026380.0,
+                "ref": 86620.59773329923,
+                "reference_received_ms": 1790026201232,
+                "sigma": 1.4492449659864668,
+                "spot": 86706.71435385579,
+                "twap": 86691.0004931692
+              },
+              "intent": null,
+              "prices": [
+                0.77,
+                0.24
+              ]
+            }
+          ]
+        }
+      },
+      "data_gate": "PASS_OBSERVED_FLOW_GATE",
+      "reference_matches": true,
+      "start": 1790026200,
+      "tick_events": [
+        {
+          "k": "tick_size_change",
+          "mono": 118596634881393,
+          "p": {
+            "asset_id": "15316396630441644994597549619212639896760418377074407190434091096518436863016",
+            "event_type": "tick_size_change",
+            "market": "0x4aec5b32878cfa15f70eb41dc69af1229a7586d038cf1993650b150d40f13a1d",
+            "new_tick_size": "0.001",
+            "old_tick_size": "0.01",
+            "timestamp": "1790027037216"
+          },
+          "rcv": 1790027037256
+        },
+        {
+          "k": "tick_size_change",
+          "mono": 118596635358101,
+          "p": {
+            "asset_id": "39197698141295504696701313034669179817857808203246134595074371778353205496554",
+            "event_type": "tick_size_change",
+            "market": "0x4aec5b32878cfa15f70eb41dc69af1229a7586d038cf1993650b150d40f13a1d",
+            "new_tick_size": "0.001",
+            "old_tick_size": "0.01",
+            "timestamp": "1790027037216"
+          },
+          "rcv": 1790027037256
+        },
+        {
+          "k": "tick_size_change",
+          "mono": 118596635688278,
+          "p": {
+            "asset_id": "15316396630441644994597549619212639896760418377074407190434091096518436863016",
+            "event_type": "tick_size_change",
+            "market": "0x4aec5b32878cfa15f70eb41dc69af1229a7586d038cf1993650b150d40f13a1d",
+            "new_tick_size": "0.001",
+            "old_tick_size": "0.01",
+            "timestamp": "1790027037216"
+          },
+          "rcv": 1790027037257
+        },
+        {
+          "k": "tick_size_change",
+          "mono": 118596636031903,
+          "p": {
+            "asset_id": "39197698141295504696701313034669179817857808203246134595074371778353205496554",
+            "event_type": "tick_size_change",
+            "market": "0x4aec5b32878cfa15f70eb41dc69af1229a7586d038cf1993650b150d40f13a1d",
+            "new_tick_size": "0.001",
+            "old_tick_size": "0.01",
+            "timestamp": "1790027037216"
+          },
+          "rcv": 1790027037257
+        }
+      ],
+      "winner": 0
+    }
+  ],
+  "status": "CONDITIONAL_UNCALIBRATED"
+}

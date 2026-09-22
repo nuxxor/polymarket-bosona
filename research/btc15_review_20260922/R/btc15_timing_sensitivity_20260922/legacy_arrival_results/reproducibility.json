@@ -1,0 +1,13 @@
+{
+  "identical": true,
+  "sha256": {
+    "results/cohort.json": "a2c17ee7187727b3226d796cdc23712ba7b8f784c16598a09602616aee295ce6",
+    "results/markets/1790023500.json": "56c6bec4e30ecae08becec4ac2b47d728b08721b7e8628308e7a39e57cee6192",
+    "results/markets/1790025300.json": "f27553b8d984efe881f7000892ba907981547457e08c504ca12a1203bcb5d8a9",
+    "results/markets/1790026200.json": "dbed072b48c6e972a1c7e6e608e595e8ae48acc981e4f2ec4fad357766dba4da",
+    "results/markets/1790027100.json": "df28c39f98398225decc7b983750badcb986a9cacf27d5c03e084c889c276fb3",
+    "results/markets/1790028000.json": "89b977729b0cf3e1eb408f73e659ed5aa26568b8635d922ff8be3a0e3a50e3a5",
+    "results/markets/1790031600.json": "86bc55ff522ba04d3e3275ae7acbec614ecbc70760610400a3d1377a19daaf7b",
+    "results/summary.json": "da08c2ec987ee4a8d93f801b349a2bd1b0c1a25a93e75c3722d342ad0e75ec4d"
+  }
+}

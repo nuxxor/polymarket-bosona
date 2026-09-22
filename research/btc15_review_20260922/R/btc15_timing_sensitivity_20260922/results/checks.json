@@ -1,0 +1,28 @@
+{
+  "checks": [
+    "delayed partial fill keeps reserved cash and separate learning clock",
+    "physical fills cannot precede assumed acceptance",
+    "post-only crossing is rejected using arrival book, not decision bid",
+    "fill during cancel transit reconciles once despite later notification",
+    "cancelled venue order cannot fill while client awaits final status",
+    "equal source and lifecycle timestamps remain explicitly uncertain",
+    "repeated real-path hedges respect cash, net, loss, clip and reconciliation",
+    "invalid notification chronology is rejected before replay",
+    "default engine is exactly equivalent to frozen reserve engine in eight timing/queue/funding paths",
+    "both same-ms acceptance/cancel orderings are explicit, including late fill reports",
+    "cancel delay varies independently of acceptance and can change actual fill",
+    "earlier trade proxy changes venue fills without moving the client notification backward",
+    "future books and later trades cannot change prior decisions or known inventory",
+    "decision input with future receipt time is rejected",
+    "frozen P0 decision and 55-cent sent protection survive unfavorable future execution price",
+    "arrival spread widening does not erase an observed book; decision spread, stale and crossed checks remain",
+    "P0 also separates arrival validity from decision spread without changing intent or sent price cap",
+    "initial metadata tick becomes usable only after its actual receive time",
+    "real assigned cohort retains missing markets, later reconciliation labels, all risk caps and null economics",
+    "arrival fix leaves all previously defined real paths and P0 controls identical; only false-null paths change",
+    "all 72 real P0 contexts are identical after deleting every later received price/reference",
+    "16 actual-market baseline paths match frozen engine exactly before timing interventions",
+    "altering final result/reference and later API metadata cannot change policy path or fills"
+  ],
+  "passed": true
+}

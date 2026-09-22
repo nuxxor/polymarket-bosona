@@ -1,0 +1,133 @@
+{
+  "rows": [
+    {
+      "difference": {
+        "api": {
+          "gross": 0,
+          "qty": 0,
+          "rows": 0
+        },
+        "chain": {
+          "gross": 4995000,
+          "qty": 5000000,
+          "rows": 1
+        },
+        "key": [
+          "0x5e4df61d3d65c1b423cac070fcd5507d9933c1ce885abbc9dc13816feeca31cd",
+          "0x822279ae008c54b7ab4dd733994c76a711258b4e",
+          "79534031949157420870171061614076271228142595997081545704723811628956567612675",
+          "SELL"
+        ]
+      },
+      "inference": "Initial and confirmed whole-market taker API differ from exchange logs. User-filtered and later queries are separate observations, not replacements for the frozen gate.",
+      "later_api_rows": 363,
+      "later_market_taker": [
+        {
+          "asset": "79534031949157420870171061614076271228142595997081545704723811628956567612675",
+          "bio": "",
+          "conditionId": "0xc78d2bdd7abbb29d92dc0d0d8498da0d3eeb372d0f3fa77246b3a492836b8dbd",
+          "eventSlug": "btc-updown-15m-1790031600",
+          "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
+          "name": "joelntemuse",
+          "outcome": "Up",
+          "outcomeIndex": 0,
+          "price": 0.999,
+          "profileImage": "",
+          "profileImageOptimized": "",
+          "proxyWallet": "0x822279ae008c54b7ab4dd733994c76a711258b4e",
+          "pseudonym": "Sweltering-Laborer",
+          "side": "SELL",
+          "size": 5,
+          "slug": "btc-updown-15m-1790031600",
+          "timestamp": 1790032438,
+          "title": "Bitcoin Up or Down - September 21, 7:00PM-7:15PM ET",
+          "transactionHash": "0x5e4df61d3d65c1b423cac070fcd5507d9933c1ce885abbc9dc13816feeca31cd"
+        }
+      ],
+      "only_missing_row_added": true,
+      "receipt": [
+        {
+          "active": {
+            "cash_cost": -4994660,
+            "counterparty": "0xe111180000d2663c0091e4f400237545b87b996b",
+            "fee": 340,
+            "log_index": 444,
+            "order_hash": "0xdaebb7b23a0090edfae1189e6ebdb95cb5e26d26863cad492894618765d4deac",
+            "owner": "0x822279ae008c54b7ab4dd733994c76a711258b4e",
+            "qty": 5000000,
+            "role": "taker",
+            "side": 1,
+            "token": "79534031949157420870171061614076271228142595997081545704723811628956567612675",
+            "tx": "0x5e4df61d3d65c1b423cac070fcd5507d9933c1ce885abbc9dc13816feeca31cd"
+          },
+          "gross": 4995000,
+          "makers": [
+            {
+              "cash_cost": 4995000,
+              "counterparty": "0x822279ae008c54b7ab4dd733994c76a711258b4e",
+              "fee": 0,
+              "log_index": 441,
+              "order_hash": "0x1522c3aeda190fcec2f5ddae497fd0c275d3db2c3ab6a9dddc38d21cf31ae1d4",
+              "owner": "0x107f6c8c78c66f1d3a281cbf504e4c3c5562bb8c",
+              "qty": 5000000,
+              "role": "maker",
+              "side": 0,
+              "token": "79534031949157420870171061614076271228142595997081545704723811628956567612675",
+              "tx": "0x5e4df61d3d65c1b423cac070fcd5507d9933c1ce885abbc9dc13816feeca31cd"
+            }
+          ],
+          "match_log": 445,
+          "tx": "0x5e4df61d3d65c1b423cac070fcd5507d9933c1ce885abbc9dc13816feeca31cd"
+        }
+      ],
+      "user_filtered": {
+        "false": [
+          {
+            "asset": "79534031949157420870171061614076271228142595997081545704723811628956567612675",
+            "bio": "",
+            "conditionId": "0xc78d2bdd7abbb29d92dc0d0d8498da0d3eeb372d0f3fa77246b3a492836b8dbd",
+            "eventSlug": "btc-updown-15m-1790031600",
+            "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
+            "name": "joelntemuse",
+            "outcome": "Up",
+            "outcomeIndex": 0,
+            "price": 0.999,
+            "profileImage": "",
+            "profileImageOptimized": "",
+            "proxyWallet": "0x822279ae008c54b7ab4dd733994c76a711258b4e",
+            "pseudonym": "Sweltering-Laborer",
+            "side": "SELL",
+            "size": 5,
+            "slug": "btc-updown-15m-1790031600",
+            "timestamp": 1790032438,
+            "title": "Bitcoin Up or Down - September 21, 7:00PM-7:15PM ET",
+            "transactionHash": "0x5e4df61d3d65c1b423cac070fcd5507d9933c1ce885abbc9dc13816feeca31cd"
+          }
+        ],
+        "true": [
+          {
+            "asset": "79534031949157420870171061614076271228142595997081545704723811628956567612675",
+            "bio": "",
+            "conditionId": "0xc78d2bdd7abbb29d92dc0d0d8498da0d3eeb372d0f3fa77246b3a492836b8dbd",
+            "eventSlug": "btc-updown-15m-1790031600",
+            "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
+            "name": "joelntemuse",
+            "outcome": "Up",
+            "outcomeIndex": 0,
+            "price": 0.999,
+            "profileImage": "",
+            "profileImageOptimized": "",
+            "proxyWallet": "0x822279ae008c54b7ab4dd733994c76a711258b4e",
+            "pseudonym": "Sweltering-Laborer",
+            "side": "SELL",
+            "size": 5,
+            "slug": "btc-updown-15m-1790031600",
+            "timestamp": 1790032438,
+            "title": "Bitcoin Up or Down - September 21, 7:00PM-7:15PM ET",
+            "transactionHash": "0x5e4df61d3d65c1b423cac070fcd5507d9933c1ce885abbc9dc13816feeca31cd"
+          }
+        ]
+      }
+    }
+  ]
+}

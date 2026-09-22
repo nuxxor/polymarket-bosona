@@ -1,0 +1,26 @@
+{
+  "checks": [
+    "delayed partial fill keeps reserved cash and separate learning clock",
+    "physical fills cannot precede assumed acceptance",
+    "post-only crossing is rejected using arrival book, not decision bid",
+    "fill during cancel transit reconciles once despite later notification",
+    "cancelled venue order cannot fill while client awaits final status",
+    "equal source and lifecycle timestamps remain explicitly uncertain",
+    "repeated real-path hedges respect cash, net, loss, clip and reconciliation",
+    "invalid notification chronology is rejected before replay",
+    "750ms scenario rejects preacceptance print and adds 500ms learning delay",
+    "tick change during transmission rejects invalid arrival grid",
+    "decision tick excludes not-yet-received future tick change",
+    "book initialization never uses a complete snapshot received after market start",
+    "P0 future price changes execution only, never the submitted decision or limit",
+    "P0 missing context retained explicitly, not silently scored as no trade",
+    "all assigned real markets retained and every replay obeys risk and money limits",
+    "all 36 planned contexts available with already received opening reference"
+  ],
+  "context_counts": {
+    "1790024400": 12,
+    "1790025300": 12,
+    "1790026200": 12
+  },
+  "passed": true
+}

@@ -1,0 +1,20 @@
+{
+  "network_blocked": true,
+  "outputs": 12,
+  "runs": 2,
+  "same_sha256": true,
+  "sha256": {
+    "RAPOR.md": "715006a301c5dc58b4c97d428b4f9267d46b793953adf8fc6726581ebbb40b3e",
+    "results/counterexamples.json": "4ddc04085149befa6d83699b9b8af711eed91a3944c9ed17253dd655bb0e7173",
+    "results/coverage.json": "aba708e654c4bd25051ed04174ae72a66f0fa1dc11260405e49f40fdf26aa94a",
+    "results/fee_audit.json": "2c10f8fabe1037a6d8b8fbf7d38efb3719f418a8da0e43b5af46381a6be9095a",
+    "results/fills.json.gz": "7930bbaf4b82b9fd55bcfc96d95600e8a402fcfd818d34457d6c61745c217d08",
+    "results/grid.json.gz": "aac6e34008d6a66c2342a32d0cec848737119edae6fa9a10fc5933754f98d8d7",
+    "results/matches.json": "92428e8ad3d8d6e5fa28f8079bf902472f3337fd5f0672de24210413156349f1",
+    "results/stage1_markouts.json": "d2aa9448d236f1a859dbc0d23a8dea424b052e2795c1a59226593d5a474a236c",
+    "results/stage2_controls.json": "439adcf86925e54b717b32eccdefd12164957d08dfb4d3df8e236549ac71ec89",
+    "results/stage3_actor_free_grid.json": "0d465ca094675c8c2ae1da95043c5d00acbcea8094caf903c40bd4e82659b73e",
+    "results/stage3_hypotheses.json": "49bb9943dcb8dc54df9adc83f9d02290f1c2d2a915b1d295fcc8f7d45fc712ab",
+    "verification.json": "d9f1a12c9e110ef1b43ed9dde28d7b63863c4c4aa6f1870ddcdb21681418c730"
+  }
+}

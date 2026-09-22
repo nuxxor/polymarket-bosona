@@ -1,0 +1,355 @@
+{
+  "note": "Exploratory execution checks at existing entry/add/last-control times. Outcome already known; not a new preregistered policy test. Independent quotes, no M2 inventory, no profit claim. 250ms acceptance and 1250ms cancellation are assumptions; queue front/back are scenarios.",
+  "rows": [
+    {
+      "activation_assumed_ms": 1790023530250,
+      "age": 30,
+      "ahead": 70.56,
+      "cancel_assumed_ms": 1790023531250,
+      "decision_ms": 1790023530000,
+      "economic_pnl": null,
+      "eligible_shares": 0.0,
+      "flows": [],
+      "observed_tick": 0.01,
+      "price": 0.54,
+      "price_offset": 0.0,
+      "queue_back_shares": 0.0,
+      "queue_front_shares": 0.0,
+      "side": 0,
+      "status": "conditional"
+    },
+    {
+      "activation_assumed_ms": 1790023530250,
+      "age": 30,
+      "ahead": 556.0,
+      "cancel_assumed_ms": 1790023531250,
+      "decision_ms": 1790023530000,
+      "economic_pnl": null,
+      "eligible_shares": 0.0,
+      "flows": [],
+      "observed_tick": 0.01,
+      "price": 0.53,
+      "price_offset": 0.01,
+      "queue_back_shares": 0.0,
+      "queue_front_shares": 0.0,
+      "side": 0,
+      "status": "conditional"
+    },
+    {
+      "activation_assumed_ms": 1790023530250,
+      "age": 30,
+      "ahead": 831.0,
+      "cancel_assumed_ms": 1790023531250,
+      "decision_ms": 1790023530000,
+      "economic_pnl": null,
+      "eligible_shares": 33.963634,
+      "flows": [
+        [
+          "0xc4521c6e4f3ccb3ac13bdf2880b8426c5e45b48db5d81ff51e14f6bbb8771b99",
+          558
+        ],
+        [
+          "0x504b460de2079c49a312fc68050c3559123e3902248f6df6cb231cf6b2e2dfd9",
+          299
+        ]
+      ],
+      "observed_tick": 0.01,
+      "price": 0.45,
+      "price_offset": 0.0,
+      "queue_back_shares": 0.0,
+      "queue_front_shares": 5.0,
+      "side": 1,
+      "status": "conditional"
+    },
+    {
+      "activation_assumed_ms": 1790023530250,
+      "age": 30,
+      "ahead": 576.46,
+      "cancel_assumed_ms": 1790023531250,
+      "decision_ms": 1790023530000,
+      "economic_pnl": null,
+      "eligible_shares": 0.0,
+      "flows": [],
+      "observed_tick": 0.01,
+      "price": 0.44,
+      "price_offset": 0.01,
+      "queue_back_shares": 0.0,
+      "queue_front_shares": 0.0,
+      "side": 1,
+      "status": "conditional"
+    },
+    {
+      "activation_assumed_ms": 1790023680250,
+      "age": 180,
+      "ahead": 299.14,
+      "cancel_assumed_ms": 1790023681250,
+      "decision_ms": 1790023680000,
+      "economic_pnl": null,
+      "eligible_shares": 18.0,
+      "flows": [
+        [
+          "0xc89d938865e41f9a34df64fcf421ea1097b20bf8a14b189cf7387016bc2eceaf",
+          536
+        ]
+      ],
+      "observed_tick": 0.01,
+      "price": 0.46,
+      "price_offset": 0.0,
+      "queue_back_shares": 0.0,
+      "queue_front_shares": 5.0,
+      "side": 0,
+      "status": "conditional"
+    },
+    {
+      "activation_assumed_ms": 1790023680250,
+      "age": 180,
+      "ahead": 139.0,
+      "cancel_assumed_ms": 1790023681250,
+      "decision_ms": 1790023680000,
+      "economic_pnl": null,
+      "eligible_shares": 0.0,
+      "flows": [],
+      "observed_tick": 0.01,
+      "price": 0.45,
+      "price_offset": 0.01,
+      "queue_back_shares": 0.0,
+      "queue_front_shares": 0.0,
+      "side": 0,
+      "status": "conditional"
+    },
+    {
+      "activation_assumed_ms": 1790023680250,
+      "age": 180,
+      "ahead": 767.61,
+      "cancel_assumed_ms": 1790023681250,
+      "decision_ms": 1790023680000,
+      "economic_pnl": null,
+      "eligible_shares": 0.0,
+      "flows": [],
+      "observed_tick": 0.01,
+      "price": 0.53,
+      "price_offset": 0.0,
+      "queue_back_shares": 0.0,
+      "queue_front_shares": 0.0,
+      "side": 1,
+      "status": "conditional"
+    },
+    {
+      "activation_assumed_ms": 1790023680250,
+      "age": 180,
+      "ahead": 691.0,
+      "cancel_assumed_ms": 1790023681250,
+      "decision_ms": 1790023680000,
+      "economic_pnl": null,
+      "eligible_shares": 0.0,
+      "flows": [],
+      "observed_tick": 0.01,
+      "price": 0.52,
+      "price_offset": 0.01,
+      "queue_back_shares": 0.0,
+      "queue_front_shares": 0.0,
+      "side": 1,
+      "status": "conditional"
+    },
+    {
+      "activation_assumed_ms": 1790024100250,
+      "age": 600,
+      "ahead": 327.0,
+      "cancel_assumed_ms": 1790024101250,
+      "decision_ms": 1790024100000,
+      "economic_pnl": null,
+      "eligible_shares": 10.0,
+      "flows": [
+        [
+          "0x3c5f927e02f04c2b0b27f11f1662b8313aa193c7a600cd0370704edc67e40542",
+          782
+        ]
+      ],
+      "observed_tick": 0.01,
+      "price": 0.52,
+      "price_offset": 0.0,
+      "queue_back_shares": 0.0,
+      "queue_front_shares": 5.0,
+      "side": 0,
+      "status": "conditional"
+    },
+    {
+      "activation_assumed_ms": 1790024100250,
+      "age": 600,
+      "ahead": 312.0,
+      "cancel_assumed_ms": 1790024101250,
+      "decision_ms": 1790024100000,
+      "economic_pnl": null,
+      "eligible_shares": 0.0,
+      "flows": [],
+      "observed_tick": 0.01,
+      "price": 0.51,
+      "price_offset": 0.01,
+      "queue_back_shares": 0.0,
+      "queue_front_shares": 0.0,
+      "side": 0,
+      "status": "conditional"
+    },
+    {
+      "activation_assumed_ms": 1790024100250,
+      "age": 600,
+      "ahead": 95.0,
+      "cancel_assumed_ms": 1790024101250,
+      "decision_ms": 1790024100000,
+      "economic_pnl": null,
+      "eligible_shares": 2.0,
+      "flows": [
+        [
+          "0x18759711bbe4de5ce6cd7221e643bd26f2f9b98b90b28fa1afb5cf1fd9200b12",
+          324
+        ]
+      ],
+      "observed_tick": 0.01,
+      "price": 0.47,
+      "price_offset": 0.0,
+      "queue_back_shares": 0.0,
+      "queue_front_shares": 2.0,
+      "side": 1,
+      "status": "conditional"
+    },
+    {
+      "activation_assumed_ms": 1790024100250,
+      "age": 600,
+      "ahead": 523.0,
+      "cancel_assumed_ms": 1790024101250,
+      "decision_ms": 1790024100000,
+      "economic_pnl": null,
+      "eligible_shares": 0.0,
+      "flows": [],
+      "observed_tick": 0.01,
+      "price": 0.46,
+      "price_offset": 0.01,
+      "queue_back_shares": 0.0,
+      "queue_front_shares": 0.0,
+      "side": 1,
+      "status": "conditional"
+    },
+    {
+      "activation_assumed_ms": 1790024340250,
+      "age": 840,
+      "arrival_ask": 0.87,
+      "cancel_assumed_ms": 1790024341250,
+      "decision_ms": 1790024340000,
+      "economic_pnl": null,
+      "price": 0.87,
+      "price_offset": 0.0,
+      "side": 0,
+      "status": "post_only_rejected"
+    },
+    {
+      "activation_assumed_ms": 1790024340250,
+      "age": 840,
+      "ahead": 15.0,
+      "cancel_assumed_ms": 1790024341250,
+      "decision_ms": 1790024340000,
+      "economic_pnl": null,
+      "eligible_shares": 33.666667,
+      "flows": [
+        [
+          "0x9ddd32965269e31f66f4e6938395a4c846779540e2a1474fbf2bef8fe9a84c76",
+          162
+        ],
+        [
+          "0x9ddd32965269e31f66f4e6938395a4c846779540e2a1474fbf2bef8fe9a84c76",
+          164
+        ],
+        [
+          "0x9ddd32965269e31f66f4e6938395a4c846779540e2a1474fbf2bef8fe9a84c76",
+          166
+        ],
+        [
+          "0x9ddd32965269e31f66f4e6938395a4c846779540e2a1474fbf2bef8fe9a84c76",
+          168
+        ]
+      ],
+      "observed_tick": 0.01,
+      "price": 0.86,
+      "price_offset": 0.01,
+      "queue_back_shares": 5.0,
+      "queue_front_shares": 5.0,
+      "side": 0,
+      "status": "conditional"
+    },
+    {
+      "activation_assumed_ms": 1790024340250,
+      "age": 840,
+      "ahead": 484.34,
+      "cancel_assumed_ms": 1790024341250,
+      "decision_ms": 1790024340000,
+      "economic_pnl": null,
+      "eligible_shares": 232.694263,
+      "flows": [
+        [
+          "0x46d1577df5e068057481f818f4038a5a17e5a8de3e31306371fefbd152d97e18",
+          408
+        ],
+        [
+          "0x46d1577df5e068057481f818f4038a5a17e5a8de3e31306371fefbd152d97e18",
+          410
+        ],
+        [
+          "0x46d1577df5e068057481f818f4038a5a17e5a8de3e31306371fefbd152d97e18",
+          412
+        ],
+        [
+          "0x46d1577df5e068057481f818f4038a5a17e5a8de3e31306371fefbd152d97e18",
+          414
+        ],
+        [
+          "0x46d1577df5e068057481f818f4038a5a17e5a8de3e31306371fefbd152d97e18",
+          416
+        ],
+        [
+          "0x46d1577df5e068057481f818f4038a5a17e5a8de3e31306371fefbd152d97e18",
+          418
+        ]
+      ],
+      "observed_tick": 0.01,
+      "price": 0.12,
+      "price_offset": 0.0,
+      "queue_back_shares": 0.0,
+      "queue_front_shares": 5.0,
+      "side": 1,
+      "status": "conditional"
+    },
+    {
+      "activation_assumed_ms": 1790024340250,
+      "age": 840,
+      "ahead": 458.1,
+      "cancel_assumed_ms": 1790024341250,
+      "decision_ms": 1790024340000,
+      "economic_pnl": null,
+      "eligible_shares": 124.354263,
+      "flows": [
+        [
+          "0x46d1577df5e068057481f818f4038a5a17e5a8de3e31306371fefbd152d97e18",
+          414
+        ],
+        [
+          "0x46d1577df5e068057481f818f4038a5a17e5a8de3e31306371fefbd152d97e18",
+          416
+        ],
+        [
+          "0x46d1577df5e068057481f818f4038a5a17e5a8de3e31306371fefbd152d97e18",
+          418
+        ]
+      ],
+      "observed_tick": 0.01,
+      "price": 0.11,
+      "price_offset": 0.01,
+      "queue_back_shares": 0.0,
+      "queue_front_shares": 5.0,
+      "side": 1,
+      "status": "conditional"
+    }
+  ],
+  "status_counts": {
+    "conditional": 15,
+    "post_only_rejected": 1
+  }
+}

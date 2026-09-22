@@ -1,0 +1,20 @@
+[
+  {
+    "age_received": -250.0680000782013,
+    "backwards_ms": 1,
+    "kind": "book",
+    "obs": 1790025044002,
+    "previous_obs": 1790025044003,
+    "received": 1790025049932,
+    "side": 1
+  },
+  {
+    "age_received": -250.0680000782013,
+    "backwards_ms": 1,
+    "kind": "book",
+    "obs": 1790025044002,
+    "previous_obs": 1790025044003,
+    "received": 1790025049932,
+    "side": 0
+  }
+]

@@ -1,0 +1,280 @@
+{
+  "actor_with_nonzero_fee": 0,
+  "maker_with_nonzero_fee": 34,
+  "owners": 9,
+  "records": [
+    {
+      "fee_units": 25500,
+      "gross_units": 5100000,
+      "id": "0xc3a470ec3b1f2209d69b4a52be8d2400a47db829b087b3df5b32c9800ba74dac:273",
+      "market": 1790023500,
+      "owner": "0x502d28356bf8801e08db151a5574d669bf97e2c3",
+      "quantity_units": 10000000
+    },
+    {
+      "fee_units": 11750,
+      "gross_units": 2350000,
+      "id": "0xe412894b95ac0ebc759658b7ebac3325d057aa1662bf865e08c8b2c3c90aa001:765",
+      "market": 1790023500,
+      "owner": "0x502d28356bf8801e08db151a5574d669bf97e2c3",
+      "quantity_units": 5000000
+    },
+    {
+      "fee_units": 11750,
+      "gross_units": 2350000,
+      "id": "0x1182de70fe55f065682f8d6f0ca5efa1a021222fd90cf1387a6c4afbfeca6a72:291",
+      "market": 1790023500,
+      "owner": "0x502d28356bf8801e08db151a5574d669bf97e2c3",
+      "quantity_units": 5000000
+    },
+    {
+      "fee_units": 10010,
+      "gross_units": 2002500,
+      "id": "0x2313aaa7970ac19c281cab35159ab3b07831dc763eaf3a9c80a8dce54cb2e09e:332",
+      "market": 1790023500,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 4450000
+    },
+    {
+      "fee_units": 12480,
+      "gross_units": 2497500,
+      "id": "0x6c41c371400d79ed5c2a64b6999276e48d425fdb3cc780016d7f0bfe02430b4c:300",
+      "market": 1790023500,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 5550000
+    },
+    {
+      "fee_units": 25020,
+      "gross_units": 5004000,
+      "id": "0x39c193afe39de88c7bb656e325b74690c4846dea80c400fe98731c564bead785:383",
+      "market": 1790023500,
+      "owner": "0xaac41f0cb029f10e55b702af7829a64ed1be62f9",
+      "quantity_units": 5560000
+    },
+    {
+      "fee_units": 440,
+      "gross_units": 4425300,
+      "id": "0x9740e47338456925c7d4c6c00e9c90d0eff8a9179c991f0fccfb7287ddfd5d9b:709",
+      "market": 1790023500,
+      "owner": "0x2277c18fb73d4cfbd61384be80ef9339a9496604",
+      "quantity_units": 4470000
+    },
+    {
+      "fee_units": 9900,
+      "gross_units": 99000000,
+      "id": "0xd1c5f04c32b6fbc9cb0420db0e3c7bdb4dd8b94e184322c379aa7111e62bfe86:496",
+      "market": 1790023500,
+      "owner": "0x2277c18fb73d4cfbd61384be80ef9339a9496604",
+      "quantity_units": 100000000
+    },
+    {
+      "fee_units": 490,
+      "gross_units": 4950000,
+      "id": "0xc0f2a9704191f8a56fa18dafba4801ca7767413fb6912e8f7ca458293ed90a2a:690",
+      "market": 1790023500,
+      "owner": "0x2277c18fb73d4cfbd61384be80ef9339a9496604",
+      "quantity_units": 5000000
+    },
+    {
+      "fee_units": 22500,
+      "gross_units": 4500000,
+      "id": "0xd1811283d60d2f1f63794b6dff1595f3f157744090d4f062129f6005de3019bc:316",
+      "market": 1790025300,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 10000000
+    },
+    {
+      "fee_units": 220,
+      "gross_units": 44000,
+      "id": "0x964cc00af7cbd72eb3190d0fbf9ed8390b6e9e629ede4451ea47a52e0f6b0bf4:1235",
+      "market": 1790025300,
+      "owner": "0xc26a91664e5998d40720c1f2120fd3484a090dea",
+      "quantity_units": 80000
+    },
+    {
+      "fee_units": 6900,
+      "gross_units": 1381112,
+      "id": "0xcec781e0ec65835ed445c9007aa30f678915546f5165fcb387cfdc3352b25300:1419",
+      "market": 1790025300,
+      "owner": "0xc26a91664e5998d40720c1f2120fd3484a090dea",
+      "quantity_units": 2511112
+    },
+    {
+      "fee_units": 22500,
+      "gross_units": 4500000,
+      "id": "0xa77b4df79800c2ba48a46900c181a9ae8473ddfe8a4ec8c416980f11c82d4d12:368",
+      "market": 1790026200,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 10000000
+    },
+    {
+      "fee_units": 15000,
+      "gross_units": 3000000,
+      "id": "0xa95d4732534a5e9a7673b8fdeef32f4764d7d8fa1921dbc86bb610eaffacff02:210",
+      "market": 1790026200,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 10000000
+    },
+    {
+      "fee_units": 2500,
+      "gross_units": 500000,
+      "id": "0x18e4c158afc541181a6a3af9766bd5085a531dbc8dd05ccbe4054504e0b3f0ee:878",
+      "market": 1790026200,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 5000000
+    },
+    {
+      "fee_units": 2500,
+      "gross_units": 500000,
+      "id": "0xba4c3b039250fd26d6121443e7151a53930b53b9381e6bbf8d6313d6ba3db69c:899",
+      "market": 1790026200,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 5000000
+    },
+    {
+      "fee_units": 2500,
+      "gross_units": 500000,
+      "id": "0x7ae15a9d72a60d87d5427a1c1ace637b74bc29a1db49eb2aa3e5b261056383c6:964",
+      "market": 1790026200,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 5000000
+    },
+    {
+      "fee_units": 2220,
+      "gross_units": 444444,
+      "id": "0x45fde576df493a1ba50c4c11fe935dfc22c71fd072ca6f37b16a0d3f83d68ad0:145",
+      "market": 1790026200,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 4444440
+    },
+    {
+      "fee_units": 270,
+      "gross_units": 55000,
+      "id": "0xaea3601c0c6a299b7564784a3e7cca697819fda8ac55306e44bc9e0e14859f33:605",
+      "market": 1790026200,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 550000
+    },
+    {
+      "fee_units": 11860,
+      "gross_units": 2372728,
+      "id": "0xb86b4aeb6a8cc9d4e73bcaf09cfa1fcecb48bd7ef574bdf20d44e49b70e77755:280",
+      "market": 1790028000,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 5272728
+    },
+    {
+      "fee_units": 10620,
+      "gross_units": 2124000,
+      "id": "0x4682bf682b53dacef84b8f7ba85b090e9bd76fb6486161d75493bbdbf30978fb:688",
+      "market": 1790028000,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 4720000
+    },
+    {
+      "fee_units": 7240,
+      "gross_units": 1449000,
+      "id": "0x337dbe5d030672f55318b4af3fa96d146d0636ee4fe917627f9512626a06f83d:1642",
+      "market": 1790028000,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 4830000
+    },
+    {
+      "fee_units": 7750,
+      "gross_units": 1550100,
+      "id": "0x637253a915897acff0850ce61bfc75458ab01ff6e153159c6c682987a3156e74:7849",
+      "market": 1790028000,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 5167000
+    },
+    {
+      "fee_units": 500000,
+      "gross_units": 100000000,
+      "id": "0x61730d80994d7fec035a8b914030e6847fb47121bd39560c8bb2e76f2635b5dc:190",
+      "market": 1790028000,
+      "owner": "0x31df4fc9be9ee644acda671e9243c4cb14fb35e1",
+      "quantity_units": 200000000
+    },
+    {
+      "fee_units": 14820,
+      "gross_units": 2964000,
+      "id": "0x5e6d00ad671ce40c9e7656ef10d4774c2dee654e6c76b21f3165899d34c926f1:990",
+      "market": 1790031600,
+      "owner": "0x0e37f54993a25404beeb924e631eb2c5a79242ec",
+      "quantity_units": 5700000
+    },
+    {
+      "fee_units": 14820,
+      "gross_units": 2964000,
+      "id": "0x5e6d00ad671ce40c9e7656ef10d4774c2dee654e6c76b21f3165899d34c926f1:993",
+      "market": 1790031600,
+      "owner": "0x911e88da4e2137422bb631ddc0c9da165eb869a2",
+      "quantity_units": 5700000
+    },
+    {
+      "fee_units": 22500,
+      "gross_units": 4500000,
+      "id": "0x935dc0e2611e91a9cea48d085d001963b2f19dd10de7c2bd3259bb2cfaaf0740:291",
+      "market": 1790031600,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 10000000
+    },
+    {
+      "fee_units": 500,
+      "gross_units": 5001500,
+      "id": "0x81a425c4e547ff532607a3989e1f71e0029cf1d3350c1492dd1ca071b9a62b65:401",
+      "market": 1790031600,
+      "owner": "0x9ff3bf94151f6deb699daf90e9f58c68c2c78590",
+      "quantity_units": 14290000
+    },
+    {
+      "fee_units": 8500,
+      "gross_units": 1700000,
+      "id": "0x29abd2c1db8f2a1326f96db7ad8d459792e883cbaf7ef34c5118baa45cd88b87:315",
+      "market": 1790031600,
+      "owner": "0x502d28356bf8801e08db151a5574d669bf97e2c3",
+      "quantity_units": 5000000
+    },
+    {
+      "fee_units": 15000,
+      "gross_units": 3000000,
+      "id": "0x86aa492e91a51987d48857e58e5ccff670a2c08e3f0bb3b5796098a6e4979b3b:687",
+      "market": 1790031600,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 10000000
+    },
+    {
+      "fee_units": 2500,
+      "gross_units": 500000,
+      "id": "0xaa5a3585d2de30321406c1652074b916454872ab4f83e2d7f68a487a08794798:588",
+      "market": 1790031600,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 5000000
+    },
+    {
+      "fee_units": 3030,
+      "gross_units": 606666,
+      "id": "0x76ab6f0ba358748c111551dd7a277e9be314d887a50f9e1cd24465033e450828:381",
+      "market": 1790031600,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 6066660
+    },
+    {
+      "fee_units": 3100,
+      "gross_units": 620000,
+      "id": "0xa1f4448812561324ecb632422ce3fa5af03920afeb1e3122e5f293f91692ec25:340",
+      "market": 1790031600,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 6200000
+    },
+    {
+      "fee_units": 1360,
+      "gross_units": 273000,
+      "id": "0xe7eff1a35d5be1e34f92b53eb6c039be8678064a47329728facb92960e225901:744",
+      "market": 1790031600,
+      "owner": "0x9957a5a22b6b2a1ec498af9f034a065d11a4fae5",
+      "quantity_units": 2730000
+    }
+  ],
+  "total_fee_units": 808050
+}

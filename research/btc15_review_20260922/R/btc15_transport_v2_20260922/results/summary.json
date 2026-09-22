@@ -1,0 +1,1047 @@
+{
+  "assigned": 8,
+  "economic_pnl": null,
+  "eligible": 6,
+  "scenarios": {
+    "M1_bid:legacy_fast:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-2.69533524",
+      "per_market": [
+        "0.10",
+        "-1.03440477",
+        "-0.80593047",
+        "-1.555",
+        "0.10000000",
+        "0.50"
+      ],
+      "without_best": "-3.19533524"
+    },
+    "M1_bid:legacy_fast:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-2.69533524",
+      "per_market": [
+        "0.10",
+        "-1.03440477",
+        "-0.80593047",
+        "-1.555",
+        "0.10000000",
+        "0.50"
+      ],
+      "without_best": "-3.19533524"
+    },
+    "M1_bid:legacy_fast:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-11.08888945",
+      "per_market": [
+        "0E-8",
+        "-4.50000000",
+        "-3.2166668",
+        "-3.75000000",
+        "0.37777735",
+        "0.000"
+      ],
+      "without_best": "-11.46666680"
+    },
+    "M1_bid:legacy_fast:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-11.08888945",
+      "per_market": [
+        "0E-8",
+        "-4.50000000",
+        "-3.2166668",
+        "-3.75000000",
+        "0.37777735",
+        "0.000"
+      ],
+      "without_best": "-11.46666680"
+    },
+    "M1_bid:legacy_slow:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-5.70000000",
+      "per_market": [
+        "0.25",
+        "-5.0000",
+        "0.20",
+        "-1.85000000",
+        "1.00000000",
+        "-0.30"
+      ],
+      "without_best": "-6.70000000"
+    },
+    "M1_bid:legacy_slow:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-5.70000000",
+      "per_market": [
+        "0.25",
+        "-5.0000",
+        "0.20",
+        "-1.85000000",
+        "1.00000000",
+        "-0.30"
+      ],
+      "without_best": "-6.70000000"
+    },
+    "M1_bid:legacy_slow:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-10.12888945",
+      "per_market": [
+        "0E-8",
+        "0E-8",
+        "-2.40666680",
+        "-3.65000000",
+        "0.92777735",
+        "-5.00"
+      ],
+      "without_best": "-11.05666680"
+    },
+    "M1_bid:legacy_slow:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-10.12888945",
+      "per_market": [
+        "0E-8",
+        "0E-8",
+        "-2.40666680",
+        "-3.65000000",
+        "0.92777735",
+        "-5.00"
+      ],
+      "without_best": "-11.05666680"
+    },
+    "M1_bid:observed_max:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-1.70550000",
+      "per_market": [
+        "-2.00",
+        "-3.4505",
+        "1.55",
+        "-0.15500000",
+        "2.35",
+        "0.00"
+      ],
+      "without_best": "-4.05550000"
+    },
+    "M1_bid:observed_max:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-1.70550000",
+      "per_market": [
+        "-2.00",
+        "-3.4505",
+        "1.55",
+        "-0.15500000",
+        "2.35",
+        "0.00"
+      ],
+      "without_best": "-4.05550000"
+    },
+    "M1_bid:observed_max:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-2.69398945",
+      "per_market": [
+        "0.00",
+        "0E-8",
+        "0.02823320",
+        "-3.65000000",
+        "0.92777735",
+        "0.00"
+      ],
+      "without_best": "-3.62176680"
+    },
+    "M1_bid:observed_max:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-2.69398945",
+      "per_market": [
+        "0.00",
+        "0E-8",
+        "0.02823320",
+        "-3.65000000",
+        "0.92777735",
+        "0.00"
+      ],
+      "without_best": "-3.62176680"
+    },
+    "M1_bid:observed_p50:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-2.28940477",
+      "per_market": [
+        "5.00",
+        "-1.03440477",
+        "-0.40000000",
+        "-1.55500000",
+        "0.15000000",
+        "-4.4500"
+      ],
+      "without_best": "-7.28940477"
+    },
+    "M1_bid:observed_p50:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-2.28940477",
+      "per_market": [
+        "5.00",
+        "-1.03440477",
+        "-0.40000000",
+        "-1.55500000",
+        "0.15000000",
+        "-4.4500"
+      ],
+      "without_best": "-7.28940477"
+    },
+    "M1_bid:observed_p50:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-6.23888945",
+      "per_market": [
+        "5.00000000",
+        "-4.60000000",
+        "-3.2166668",
+        "-3.80000000",
+        "0.37777735",
+        "0E-7"
+      ],
+      "without_best": "-11.23888945"
+    },
+    "M1_bid:observed_p50:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-6.23888945",
+      "per_market": [
+        "5.00000000",
+        "-4.60000000",
+        "-3.2166668",
+        "-3.80000000",
+        "0.37777735",
+        "0E-7"
+      ],
+      "without_best": "-11.23888945"
+    },
+    "M1_bid:observed_p95:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "3.70000000",
+      "per_market": [
+        "0.00",
+        "-2.10",
+        "0.3500",
+        "-1.2500",
+        "5.05000000",
+        "1.6500"
+      ],
+      "without_best": "-1.35000000"
+    },
+    "M1_bid:observed_p95:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "3.70000000",
+      "per_market": [
+        "0.00",
+        "-2.10",
+        "0.3500",
+        "-1.2500",
+        "5.05000000",
+        "1.6500"
+      ],
+      "without_best": "-1.35000000"
+    },
+    "M1_bid:observed_p95:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-11.63888945",
+      "per_market": [
+        "0E-8",
+        "-5.00000000",
+        "-3.2166668",
+        "-3.80000000",
+        "0.37777735",
+        "0E-7"
+      ],
+      "without_best": "-12.01666680"
+    },
+    "M1_bid:observed_p95:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-11.63888945",
+      "per_market": [
+        "0E-8",
+        "-5.00000000",
+        "-3.2166668",
+        "-3.80000000",
+        "0.37777735",
+        "0E-7"
+      ],
+      "without_best": "-12.01666680"
+    },
+    "M1_bid_minus_cent:legacy_fast:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-11.95000000",
+      "per_market": [
+        "-0.75",
+        "-4.10",
+        "-0.35",
+        "0.20",
+        "-3.80000000",
+        "-3.15"
+      ],
+      "without_best": "-12.15000000"
+    },
+    "M1_bid_minus_cent:legacy_fast:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-11.95000000",
+      "per_market": [
+        "-0.75",
+        "-4.10",
+        "-0.35",
+        "0.20",
+        "-3.80000000",
+        "-3.15"
+      ],
+      "without_best": "-12.15000000"
+    },
+    "M1_bid_minus_cent:legacy_fast:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-14.65991072",
+      "per_market": [
+        "0.00",
+        "-2.25991072",
+        "-4.2000",
+        "-4.25000000",
+        "0.15",
+        "-4.10"
+      ],
+      "without_best": "-14.80991072"
+    },
+    "M1_bid_minus_cent:legacy_fast:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-14.65991072",
+      "per_market": [
+        "0.00",
+        "-2.25991072",
+        "-4.2000",
+        "-4.25000000",
+        "0.15",
+        "-4.10"
+      ],
+      "without_best": "-14.80991072"
+    },
+    "M1_bid_minus_cent:legacy_slow:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-6.65000000",
+      "per_market": [
+        "0.70000000",
+        "-3.25",
+        "1.70",
+        "-1.00",
+        "-3.95",
+        "-0.85"
+      ],
+      "without_best": "-8.35000000"
+    },
+    "M1_bid_minus_cent:legacy_slow:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-6.65000000",
+      "per_market": [
+        "0.70000000",
+        "-3.25",
+        "1.70",
+        "-1.00",
+        "-3.95",
+        "-0.85"
+      ],
+      "without_best": "-8.35000000"
+    },
+    "M1_bid_minus_cent:legacy_slow:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-4.05991072",
+      "per_market": [
+        "5.20000000",
+        "-2.35991072",
+        "-4.00000000",
+        "-3.90000000",
+        "5.00",
+        "-4.00"
+      ],
+      "without_best": "-9.25991072"
+    },
+    "M1_bid_minus_cent:legacy_slow:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-4.05991072",
+      "per_market": [
+        "5.20000000",
+        "-2.35991072",
+        "-4.00000000",
+        "-3.90000000",
+        "5.00",
+        "-4.00"
+      ],
+      "without_best": "-9.25991072"
+    },
+    "M1_bid_minus_cent:observed_max:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "3.25",
+      "per_market": [
+        "2.20",
+        "1.00",
+        "1.70",
+        "0",
+        "-1.65",
+        "0"
+      ],
+      "without_best": "1.05"
+    },
+    "M1_bid_minus_cent:observed_max:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "3.25",
+      "per_market": [
+        "2.20",
+        "1.00",
+        "1.70",
+        "0",
+        "-1.65",
+        "0"
+      ],
+      "without_best": "1.05"
+    },
+    "M1_bid_minus_cent:observed_max:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-12.52397568",
+      "per_market": [
+        "0.125",
+        "-2.24991072",
+        "-4.10",
+        "-3.75000000",
+        "0.15",
+        "-2.69906496"
+      ],
+      "without_best": "-12.67397568"
+    },
+    "M1_bid_minus_cent:observed_max:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-12.52397568",
+      "per_market": [
+        "0.125",
+        "-2.24991072",
+        "-4.10",
+        "-3.75000000",
+        "0.15",
+        "-2.69906496"
+      ],
+      "without_best": "-12.67397568"
+    },
+    "M1_bid_minus_cent:observed_p50:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-2.2768850",
+      "per_market": [
+        "-0.20",
+        "-1.950000",
+        "-0.3500",
+        "1.20",
+        "1.5263150",
+        "-2.5032"
+      ],
+      "without_best": "-3.8032000"
+    },
+    "M1_bid_minus_cent:observed_p50:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-2.2768850",
+      "per_market": [
+        "-0.20",
+        "-1.950000",
+        "-0.3500",
+        "1.20",
+        "1.5263150",
+        "-2.5032"
+      ],
+      "without_best": "-3.8032000"
+    },
+    "M1_bid_minus_cent:observed_p50:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-14.54991032",
+      "per_market": [
+        "0.05",
+        "-2.59991032",
+        "-3.4000",
+        "-4.25000000",
+        "0.10",
+        "-4.4500"
+      ],
+      "without_best": "-14.64991032"
+    },
+    "M1_bid_minus_cent:observed_p50:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-14.54991032",
+      "per_market": [
+        "0.05",
+        "-2.59991032",
+        "-3.4000",
+        "-4.25000000",
+        "0.10",
+        "-4.4500"
+      ],
+      "without_best": "-14.64991032"
+    },
+    "M1_bid_minus_cent:observed_p95:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "3.6968",
+      "per_market": [
+        "0.9500",
+        "1.00",
+        "1.70",
+        "1.20",
+        "-0.10",
+        "-1.0532"
+      ],
+      "without_best": "1.9968"
+    },
+    "M1_bid_minus_cent:observed_p95:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "3.6968",
+      "per_market": [
+        "0.9500",
+        "1.00",
+        "1.70",
+        "1.20",
+        "-0.10",
+        "-1.0532"
+      ],
+      "without_best": "1.9968"
+    },
+    "M1_bid_minus_cent:observed_p95:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-14.90991072",
+      "per_market": [
+        "0.20",
+        "-2.15991072",
+        "-3.9500",
+        "-4.35000000",
+        "0.15",
+        "-4.80"
+      ],
+      "without_best": "-15.10991072"
+    },
+    "M1_bid_minus_cent:observed_p95:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-14.90991072",
+      "per_market": [
+        "0.20",
+        "-2.15991072",
+        "-3.9500",
+        "-4.35000000",
+        "0.15",
+        "-4.80"
+      ],
+      "without_best": "-15.10991072"
+    },
+    "M2_bid:legacy_fast:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-2.76801024",
+      "per_market": [
+        "0.10",
+        "-1.03440477",
+        "-0.80593047",
+        "-1.203865",
+        "0.10000000",
+        "0.076190"
+      ],
+      "without_best": "-2.86801024"
+    },
+    "M2_bid:legacy_fast:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-2.76801024",
+      "per_market": [
+        "0.10",
+        "-1.03440477",
+        "-0.80593047",
+        "-1.203865",
+        "0.10000000",
+        "0.076190"
+      ],
+      "without_best": "-2.86801024"
+    },
+    "M2_bid:legacy_fast:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-2.78847265",
+      "per_market": [
+        "5.02752000",
+        "-4.50000000",
+        "0.02948000",
+        "-3.75000000",
+        "0.37777735",
+        "0.026750"
+      ],
+      "without_best": "-7.81599265"
+    },
+    "M2_bid:legacy_fast:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-2.78847265",
+      "per_market": [
+        "5.02752000",
+        "-4.50000000",
+        "0.02948000",
+        "-3.75000000",
+        "0.37777735",
+        "0.026750"
+      ],
+      "without_best": "-7.81599265"
+    },
+    "M2_bid:legacy_slow:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-5.67074500",
+      "per_market": [
+        "0.25",
+        "-5.0000",
+        "0.180260",
+        "-1.28696000",
+        "0.48595500",
+        "-0.30"
+      ],
+      "without_best": "-6.15670000"
+    },
+    "M2_bid:legacy_slow:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-5.67074500",
+      "per_market": [
+        "0.25",
+        "-5.0000",
+        "0.180260",
+        "-1.28696000",
+        "0.48595500",
+        "-0.30"
+      ],
+      "without_best": "-6.15670000"
+    },
+    "M2_bid:legacy_slow:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-5.29568765",
+      "per_market": [
+        "0E-8",
+        "0.03200000",
+        "0.03200000",
+        "-3.65000000",
+        "0.92777735",
+        "-2.637465"
+      ],
+      "without_best": "-6.22346500"
+    },
+    "M2_bid:legacy_slow:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-5.29568765",
+      "per_market": [
+        "0E-8",
+        "0.03200000",
+        "0.03200000",
+        "-3.65000000",
+        "0.92777735",
+        "-2.637465"
+      ],
+      "without_best": "-6.22346500"
+    },
+    "M2_bid:observed_max:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "0.49228260",
+      "per_market": [
+        "0.169870",
+        "-3.4505",
+        "1.55",
+        "-0.12708740",
+        "2.35",
+        "0.00"
+      ],
+      "without_best": "-1.85771740"
+    },
+    "M2_bid:observed_max:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "0.49228260",
+      "per_market": [
+        "0.169870",
+        "-3.4505",
+        "1.55",
+        "-0.12708740",
+        "2.35",
+        "0.00"
+      ],
+      "without_best": "-1.85771740"
+    },
+    "M2_bid:observed_max:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-2.66198945",
+      "per_market": [
+        "0.00",
+        "0.03200000",
+        "0.02823320",
+        "-3.65000000",
+        "0.92777735",
+        "0.00"
+      ],
+      "without_best": "-3.58976680"
+    },
+    "M2_bid:observed_max:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-2.66198945",
+      "per_market": [
+        "0.00",
+        "0.03200000",
+        "0.02823320",
+        "-3.65000000",
+        "0.92777735",
+        "0.00"
+      ],
+      "without_best": "-3.58976680"
+    },
+    "M2_bid:observed_p50:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-4.20688477",
+      "per_market": [
+        "0.037460",
+        "-1.03440477",
+        "0.03147000",
+        "-1.203865",
+        "0.49939500",
+        "-2.536940"
+      ],
+      "without_best": "-4.70627977"
+    },
+    "M2_bid:observed_p50:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-4.20688477",
+      "per_market": [
+        "0.037460",
+        "-1.03440477",
+        "0.03147000",
+        "-1.203865",
+        "0.49939500",
+        "-2.536940"
+      ],
+      "without_best": "-4.70627977"
+    },
+    "M2_bid:observed_p50:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-7.93969765",
+      "per_market": [
+        "0.02682000",
+        "-4.60000000",
+        "0.02895500",
+        "-3.80000000",
+        "0.37777735",
+        "0.026750"
+      ],
+      "without_best": "-8.31747500"
+    },
+    "M2_bid:observed_p50:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-7.93969765",
+      "per_market": [
+        "0.02682000",
+        "-4.60000000",
+        "0.02895500",
+        "-3.80000000",
+        "0.37777735",
+        "0.026750"
+      ],
+      "without_best": "-8.31747500"
+    },
+    "M2_bid:observed_p95:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-0.63563000",
+      "per_market": [
+        "0.089735",
+        "-2.10",
+        "0.6870",
+        "-0.969740",
+        "0.00737500",
+        "1.6500"
+      ],
+      "without_best": "-2.28563000"
+    },
+    "M2_bid:observed_p95:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-0.63563000",
+      "per_market": [
+        "0.089735",
+        "-2.10",
+        "0.6870",
+        "-0.969740",
+        "0.00737500",
+        "1.6500"
+      ],
+      "without_best": "-2.28563000"
+    },
+    "M2_bid:observed_p95:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-3.31252765",
+      "per_market": [
+        "0.02587500",
+        "0.02759000",
+        "0.02948000",
+        "-3.80000000",
+        "0.37777735",
+        "0.026750"
+      ],
+      "without_best": "-3.69030500"
+    },
+    "M2_bid:observed_p95:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-3.31252765",
+      "per_market": [
+        "0.02587500",
+        "0.02759000",
+        "0.02948000",
+        "-3.80000000",
+        "0.37777735",
+        "0.026750"
+      ],
+      "without_best": "-3.69030500"
+    },
+    "M2_reserved:legacy_fast:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-1.71414524",
+      "per_market": [
+        "-0.65",
+        "-0.88440477",
+        "-0.25593047",
+        "-0.40",
+        "0.70000000",
+        "-0.223810"
+      ],
+      "without_best": "-2.41414524"
+    },
+    "M2_reserved:legacy_fast:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-1.71414524",
+      "per_market": [
+        "-0.65",
+        "-0.88440477",
+        "-0.25593047",
+        "-0.40",
+        "0.70000000",
+        "-0.223810"
+      ],
+      "without_best": "-2.41414524"
+    },
+    "M2_reserved:legacy_fast:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-3.23847265",
+      "per_market": [
+        "-0.272480",
+        "0.10000000",
+        "-0.620520",
+        "-0.25000000",
+        "-1.87222265",
+        "-0.323250"
+      ],
+      "without_best": "-3.33847265"
+    },
+    "M2_reserved:legacy_fast:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-3.23847265",
+      "per_market": [
+        "-0.272480",
+        "0.10000000",
+        "-0.620520",
+        "-0.25000000",
+        "-1.87222265",
+        "-0.323250"
+      ],
+      "without_best": "-3.33847265"
+    },
+    "M2_reserved:legacy_slow:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-5.10000000",
+      "per_market": [
+        "0.40",
+        "-4.8500",
+        "0.55",
+        "-0.90000000",
+        "0E-8",
+        "-0.30"
+      ],
+      "without_best": "-5.65000000"
+    },
+    "M2_reserved:legacy_slow:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-5.10000000",
+      "per_market": [
+        "0.40",
+        "-4.8500",
+        "0.55",
+        "-0.90000000",
+        "0E-8",
+        "-0.30"
+      ],
+      "without_best": "-5.65000000"
+    },
+    "M2_reserved:legacy_slow:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-4.25822265",
+      "per_market": [
+        "0.10000000",
+        "-1.06800000",
+        "-0.5680",
+        "-0.25000000",
+        "-1.87222265",
+        "-0.60"
+      ],
+      "without_best": "-4.35822265"
+    },
+    "M2_reserved:legacy_slow:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-4.25822265",
+      "per_market": [
+        "0.10000000",
+        "-1.06800000",
+        "-0.5680",
+        "-0.25000000",
+        "-1.87222265",
+        "-0.60"
+      ],
+      "without_best": "-4.35822265"
+    },
+    "M2_reserved:observed_max:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-2.65050000",
+      "per_market": [
+        "-0.70",
+        "-3.4505",
+        "1.55",
+        "-0.10000000",
+        "0.05",
+        "0.00"
+      ],
+      "without_best": "-4.20050000"
+    },
+    "M2_reserved:observed_max:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-2.65050000",
+      "per_market": [
+        "-0.70",
+        "-3.4505",
+        "1.55",
+        "-0.10000000",
+        "0.05",
+        "0.00"
+      ],
+      "without_best": "-4.20050000"
+    },
+    "M2_reserved:observed_max:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-4.55688945",
+      "per_market": [
+        "0.10",
+        "-1.06800000",
+        "-0.7666668",
+        "-0.25000000",
+        "-1.87222265",
+        "-0.70"
+      ],
+      "without_best": "-4.65688945"
+    },
+    "M2_reserved:observed_max:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-4.55688945",
+      "per_market": [
+        "0.10",
+        "-1.06800000",
+        "-0.7666668",
+        "-0.25000000",
+        "-1.87222265",
+        "-0.70"
+      ],
+      "without_best": "-4.65688945"
+    },
+    "M2_reserved:observed_p50:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-2.63500977",
+      "per_market": [
+        "0.65",
+        "-0.88440477",
+        "0.30000000",
+        "-0.40000000",
+        "-1.10060500",
+        "-1.2000"
+      ],
+      "without_best": "-3.28500977"
+    },
+    "M2_reserved:observed_p50:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-2.63500977",
+      "per_market": [
+        "0.65",
+        "-0.88440477",
+        "0.30000000",
+        "-0.40000000",
+        "-1.10060500",
+        "-1.2000"
+      ],
+      "without_best": "-3.28500977"
+    },
+    "M2_reserved:observed_p50:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-3.08969765",
+      "per_market": [
+        "-0.173180",
+        "0.10000000",
+        "-0.571045",
+        "-0.25000000",
+        "-1.87222265",
+        "-0.323250"
+      ],
+      "without_best": "-3.18969765"
+    },
+    "M2_reserved:observed_p50:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-3.08969765",
+      "per_market": [
+        "-0.173180",
+        "0.10000000",
+        "-0.571045",
+        "-0.25000000",
+        "-1.87222265",
+        "-0.323250"
+      ],
+      "without_best": "-3.18969765"
+    },
+    "M2_reserved:observed_p95:queue_back:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-1.473265",
+      "per_market": [
+        "-0.760265",
+        "-2.10",
+        "1.0370",
+        "-0.9000",
+        "-0.05",
+        "1.3000"
+      ],
+      "without_best": "-2.773265"
+    },
+    "M2_reserved:observed_p95:queue_back:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-1.473265",
+      "per_market": [
+        "-0.760265",
+        "-2.10",
+        "1.0370",
+        "-0.9000",
+        "-0.05",
+        "1.3000"
+      ],
+      "without_best": "-2.773265"
+    },
+    "M2_reserved:observed_p95:queue_front:lifecycle_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-3.21599265",
+      "per_market": [
+        "0.15000000",
+        "-0.35000000",
+        "-0.620520",
+        "-0.25000000",
+        "-1.87222265",
+        "-0.273250"
+      ],
+      "without_best": "-3.36599265"
+    },
+    "M2_reserved:observed_p95:queue_front:print_first": {
+      "all_assigned_total": null,
+      "conditional_total": "-3.21599265",
+      "per_market": [
+        "0.15000000",
+        "-0.35000000",
+        "-0.620520",
+        "-0.25000000",
+        "-1.87222265",
+        "-0.273250"
+      ],
+      "without_best": "-3.36599265"
+    }
+  }
+}

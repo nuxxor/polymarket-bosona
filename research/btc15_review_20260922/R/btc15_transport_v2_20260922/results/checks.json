@@ -1,0 +1,23 @@
+{
+  "checks": [
+    "delayed partial fill keeps reserved cash and separate learning clock",
+    "physical fills cannot precede assumed acceptance",
+    "post-only crossing is rejected using arrival book, not decision bid",
+    "fill during cancel transit reconciles once despite later notification",
+    "cancelled venue order cannot fill while client awaits final status",
+    "equal source and lifecycle timestamps remain explicitly uncertain",
+    "repeated real-path hedges respect cash, net, loss, clip and reconciliation",
+    "invalid notification chronology is rejected before replay",
+    "BTC15 decision branch is unchanged, including entry, repricing, hedge trigger and time limits",
+    "cancel waits for POST order id; reserve survives venue cancellation until observed final status",
+    "venue fill before POST reply is real but not prematurely available to the SDK decision client",
+    "partial fill during cancellation and later fill notification debit quantity/cash only once",
+    "later book and trade changes cannot alter earlier decisions with split clocks",
+    "four synthetic legacy paths remain exactly equal to the frozen engine",
+    "clock profile extraction keeps negative observed ordering and valid causal upper bounds",
+    "480 real BTC15 paths: all caps, client reconciliation, 192 baseline equivalents and missing-data exclusions intact",
+    "288 post-result falsification paths preserve policy/risk; only declared clocks differ"
+  ],
+  "offline": true,
+  "passed": true
+}

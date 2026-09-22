@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "artifacts": 16,
+  "sha256": {
+    "results/book_quality.json": "6bd93242365f6bf4bffb35a53b92c4066883deaaf057af047b40210f98184b23",
+    "results/btc5_audit.json": "068b81ac6bee6c17dcc9380866c7660071d86b326bab9e65e08a460a6408722e",
+    "results/checks.json": "431a394b1f12059f7f7ee67eda32d665d9c35f37167ebfda1d487d3a2235f3bc",
+    "results/entry_rows.json": "07a7ddcee0fee619cae9661cf8ab5b3db31368092b3355308235e6f9527bb2d3",
+    "results/hypothesis_models.json": "d442472d89c0b369fe58eafee2193818dd00e662fa3d6d950ae5fa4ff68c726f",
+    "results/late_events.json": "486a201b23f02d1389b6438c4982f1047805b3e43670bc34783a689a20d088a6",
+    "results/matched_win_loss.json": "d3baf6909227f994871b74f9af77d7fc8b06738aa48b740e8eb865746f603a9e",
+    "results/miss_rows.json": "7a99cc9424afe60497877af0843b81b062c300fc860007ed504b871f86e603ff",
+    "results/misses.json": "8f179c663d5adf345b65d04f3fad27d6ec6497b909cec983cb4bf28fff994e32",
+    "results/new_period_activity_check.json": "fa0b4bc23e9d2fa036b28a2461c5da676ea028dfe95a342f610ad842d7841fa6",
+    "results/new_period_rows.json": "1a67ef861d77ef36ac220e1cece741543a98e11561eb59ae2cf33719ac3c663a",
+    "results/new_period_summary.json": "6381e08ff1ec1d5a288a427aefd2b2300c0f794b5db9e4fde9e187cc3f580bd3",
+    "results/no_add_controls.json": "42182cb2d2fb8afaecebec04a64cf647c295d95bc3c27c28d709e0844ada76f6",
+    "results/own_btc5_audit.json": "cd3fc0d5e720829c38c6b2d2797b8e78e1bbd6133e52a45569836dfa24704914",
+    "results/prediction_rows.json": "8b9f63e2dec8878eab602a5f7953b881d028ae83cf5385a477ca564935003703",
+    "results/risk_set.json": "93447666d46bb6a9f209cdabe097da543fe72f1b859cd322daf2c2238f7a4145"
+  },
+  "commands": [
+    [
+      "audit.py",
+      "--offline"
+    ],
+    [
+      "analyze.py"
+    ],
+    [
+      "book_quality.py"
+    ],
+    [
+      "new_period.py",
+      "--offline"
+    ],
+    [
+      "check.py"
+    ]
+  ]
+}

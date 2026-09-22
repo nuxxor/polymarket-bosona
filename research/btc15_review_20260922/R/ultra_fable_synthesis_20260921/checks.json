@@ -1,0 +1,382 @@
+{
+  "source_hashes": {
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/fable_review_20260921/code/passive_replay.py": "02f94a70e6465eb4867efb6b4e43ecf801f89df4edd1cd829747f1c022d5158b",
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/fable_review_20260921/code/test_passive_replay.py": "33ef1870b4bc8ae4b5b07fa24a148a5154a951df2231630c72805a3ebef302e9",
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/fable_review_20260921/code/role_classifier.py": "30cb108ebc05ecd8fd2f76ad48769dc506738478a08625654329280f2eff47df",
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/fable_review_20260921/code/s_period_level_age.py": "04ba487cb89255fd7f514dec46b5a0d5cf61c7b5a362dd60b5fa142102968e34",
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/candidate.py": "0141e195dec72a41dff71a2ae7a78451827394aa28b428217f827f0e48004a2a",
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/protocol.json": "34c976d72f99660a8223d036824071a6bcab2b381491812200312b2a4b4a27c5",
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/fable_review_20260921/results/replay_s_period/replay.json": "284a1b25bf3a0e3457848c82c615524a9a3f31ddd4882728f158398787c5875a",
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/fable_review_20260921/results/replay_after_s/replay.json": "6488781299fd8219bde755ba8bdcdce4a82f196808ce03d10a17789e559ad837"
+  },
+  "existing_tests_passed": 5,
+  "roles": {
+    "maker": 4387,
+    "taker": 1054
+  },
+  "late_roles_before_ultra_phase_fix": {
+    "maker": 1099,
+    "taker": 74
+  },
+  "one_share_print_simulated_fill": 5.0,
+  "implicit_gap_simulated_fill": 5.0,
+  "hedge_cash": 20.336,
+  "fixed_intent": {
+    "side": 0,
+    "qty": 5.0,
+    "kind": "first"
+  },
+  "fixed_ceiling_execution_acceptance": {
+    "0.4": true,
+    "0.8": false
+  },
+  "cached_replays": {
+    "replay_s_period": {
+      "cash_over_15": [
+        {
+          "slug": "btc-updown-15m-1790001000",
+          "arm": "P2_touch_hedge_pess",
+          "cash": 22.19413
+        },
+        {
+          "slug": "btc-updown-15m-1790001000",
+          "arm": "P2_touch_hedge_opt",
+          "cash": 22.09413
+        },
+        {
+          "slug": "btc-updown-15m-1790001900",
+          "arm": "P2_touch_hedge_pess",
+          "cash": 20.34321
+        },
+        {
+          "slug": "btc-updown-15m-1790001900",
+          "arm": "P2_touch_hedge_opt",
+          "cash": 15.121569999999998
+        },
+        {
+          "slug": "btc-updown-15m-1790003700",
+          "arm": "P1b_touch1_opt",
+          "cash": 16.200000000000003
+        },
+        {
+          "slug": "btc-updown-15m-1790003700",
+          "arm": "P2_touch_hedge_opt",
+          "cash": 24.813719999999996
+        },
+        {
+          "slug": "btc-updown-15m-1790005500",
+          "arm": "P2_touch_hedge_opt",
+          "cash": 20.273880000000002
+        },
+        {
+          "slug": "btc-updown-15m-1790006400",
+          "arm": "P2_touch_hedge_pess",
+          "cash": 19.9493
+        },
+        {
+          "slug": "btc-updown-15m-1790007300",
+          "arm": "P2_touch_hedge_opt",
+          "cash": 24.906930000000003
+        },
+        {
+          "slug": "btc-updown-15m-1790008200",
+          "arm": "P2_touch_hedge_pess",
+          "cash": 20.8157
+        },
+        {
+          "slug": "btc-updown-15m-1790008200",
+          "arm": "P2_touch_hedge_opt",
+          "cash": 20.08957
+        },
+        {
+          "slug": "btc-updown-15m-1790009100",
+          "arm": "P2_touch_hedge_pess",
+          "cash": 20.97914
+        },
+        {
+          "slug": "btc-updown-15m-1790009100",
+          "arm": "P2_touch_hedge_opt",
+          "cash": 20.59594
+        },
+        {
+          "slug": "btc-updown-15m-1790010000",
+          "arm": "P2_touch_hedge_pess",
+          "cash": 21.45232
+        },
+        {
+          "slug": "btc-updown-15m-1790010900",
+          "arm": "P2_touch_hedge_opt",
+          "cash": 19.77472
+        },
+        {
+          "slug": "btc-updown-15m-1790011800",
+          "arm": "P1a_touch_opt",
+          "cash": 16.25
+        },
+        {
+          "slug": "btc-updown-15m-1790011800",
+          "arm": "P2_touch_hedge_opt",
+          "cash": 15.10708
+        },
+        {
+          "slug": "btc-updown-15m-1790012700",
+          "arm": "P2_touch_hedge_pess",
+          "cash": 24.483249999999998
+        },
+        {
+          "slug": "btc-updown-15m-1790012700",
+          "arm": "P2_touch_hedge_opt",
+          "cash": 20.916330000000002
+        }
+      ],
+      "distinct_markets": 12,
+      "passive_only_cases": 2,
+      "summary": {
+        "P1a_touch_pess": {
+          "arm": "P1a_touch_pess",
+          "markets": 14,
+          "traded": 14,
+          "fills": 94,
+          "pnl": -6.85,
+          "ex_top3": -12.25,
+          "worst_market": -4.95,
+          "cash": 206.85,
+          "rebate_upper": 1.3825,
+          "taker_fee": 0.0
+        },
+        "P1a_touch_opt": {
+          "arm": "P1a_touch_opt",
+          "markets": 14,
+          "traded": 14,
+          "fills": 100,
+          "pnl": 9.55,
+          "ex_top3": -5.55,
+          "worst_market": -4.85,
+          "cash": 210.45,
+          "rebate_upper": 1.4429,
+          "taker_fee": 0.0
+        },
+        "P1b_touch1_pess": {
+          "arm": "P1b_touch1_pess",
+          "markets": 14,
+          "traded": 14,
+          "fills": 92,
+          "pnl": -4.8,
+          "ex_top3": -17.5,
+          "worst_market": -4.9,
+          "cash": 199.8,
+          "rebate_upper": 1.3578,
+          "taker_fee": 0.0
+        },
+        "P1b_touch1_opt": {
+          "arm": "P1b_touch1_opt",
+          "markets": 14,
+          "traded": 14,
+          "fills": 97,
+          "pnl": -12.35,
+          "ex_top3": -19.1,
+          "worst_market": -4.85,
+          "cash": 207.35,
+          "rebate_upper": 1.4392,
+          "taker_fee": 0.0
+        },
+        "P2_touch_hedge_pess": {
+          "arm": "P2_touch_hedge_pess",
+          "markets": 14,
+          "traded": 14,
+          "fills": 92,
+          "pnl": -4.5741,
+          "ex_top3": -5.4909,
+          "worst_market": -2.1941,
+          "cash": 254.5741,
+          "rebate_upper": 1.2249,
+          "taker_fee": 1.8241
+        },
+        "P2_touch_hedge_opt": {
+          "arm": "P2_touch_hedge_opt",
+          "markets": 14,
+          "traded": 14,
+          "fills": 93,
+          "pnl": 1.4783,
+          "ex_top3": -4.0332,
+          "worst_market": -2.0941,
+          "cash": 263.5217,
+          "rebate_upper": 1.1633,
+          "taker_fee": 2.1717
+        },
+        "P0_candidate_real_books": {
+          "arm": "P0_candidate_real_books",
+          "markets": 14,
+          "traded": 2,
+          "fills": 3,
+          "pnl": -1.3006,
+          "ex_top3": -1.8296,
+          "worst_market": -1.8296,
+          "cash": 6.3006,
+          "rebate_upper": 0.0,
+          "taker_fee": 0.0
+        }
+      }
+    },
+    "replay_after_s": {
+      "cash_over_15": [
+        {
+          "slug": "btc-updown-15m-1790010900",
+          "arm": "P2_touch_hedge_opt",
+          "cash": 19.77472
+        },
+        {
+          "slug": "btc-updown-15m-1790011800",
+          "arm": "P1a_touch_opt",
+          "cash": 16.25
+        },
+        {
+          "slug": "btc-updown-15m-1790011800",
+          "arm": "P2_touch_hedge_opt",
+          "cash": 15.10708
+        },
+        {
+          "slug": "btc-updown-15m-1790012700",
+          "arm": "P2_touch_hedge_pess",
+          "cash": 24.483249999999998
+        },
+        {
+          "slug": "btc-updown-15m-1790012700",
+          "arm": "P2_touch_hedge_opt",
+          "cash": 20.916330000000002
+        },
+        {
+          "slug": "btc-updown-15m-1790013600",
+          "arm": "P1a_touch_pess",
+          "cash": 16.650000000000002
+        },
+        {
+          "slug": "btc-updown-15m-1790013600",
+          "arm": "P1b_touch1_opt",
+          "cash": 16.400000000000002
+        },
+        {
+          "slug": "btc-updown-15m-1790013600",
+          "arm": "P2_touch_hedge_pess",
+          "cash": 16.650000000000002
+        },
+        {
+          "slug": "btc-updown-15m-1790013600",
+          "arm": "P2_touch_hedge_opt",
+          "cash": 20.118000000000002
+        },
+        {
+          "slug": "btc-updown-15m-1790014500",
+          "arm": "P2_touch_hedge_pess",
+          "cash": 20.36492
+        },
+        {
+          "slug": "btc-updown-15m-1790014500",
+          "arm": "P2_touch_hedge_opt",
+          "cash": 15.20925
+        },
+        {
+          "slug": "btc-updown-15m-1790015400",
+          "arm": "P2_touch_hedge_pess",
+          "cash": 19.52157
+        },
+        {
+          "slug": "btc-updown-15m-1790015400",
+          "arm": "P2_touch_hedge_opt",
+          "cash": 24.880180000000003
+        }
+      ],
+      "distinct_markets": 6,
+      "passive_only_cases": 3,
+      "summary": {
+        "P1a_touch_pess": {
+          "arm": "P1a_touch_pess",
+          "markets": 6,
+          "traded": 6,
+          "fills": 42,
+          "pnl": 8.9,
+          "ex_top3": 0.2,
+          "worst_market": 0.0,
+          "cash": 91.1,
+          "rebate_upper": 0.6523,
+          "taker_fee": 0.0
+        },
+        "P1a_touch_opt": {
+          "arm": "P1a_touch_opt",
+          "markets": 6,
+          "traded": 6,
+          "fills": 44,
+          "pnl": 8.75,
+          "ex_top3": -1.25,
+          "worst_market": -1.25,
+          "cash": 91.25,
+          "rebate_upper": 0.6368,
+          "taker_fee": 0.0
+        },
+        "P1b_touch1_pess": {
+          "arm": "P1b_touch1_pess",
+          "markets": 6,
+          "traded": 6,
+          "fills": 42,
+          "pnl": 10.45,
+          "ex_top3": -4.7,
+          "worst_market": -4.9,
+          "cash": 89.55,
+          "rebate_upper": 0.6507,
+          "taker_fee": 0.0
+        },
+        "P1b_touch1_opt": {
+          "arm": "P1b_touch1_opt",
+          "markets": 6,
+          "traded": 6,
+          "fills": 41,
+          "pnl": -0.6,
+          "ex_top3": -9.25,
+          "worst_market": -4.8,
+          "cash": 90.6,
+          "rebate_upper": 0.6625,
+          "taker_fee": 0.0
+        },
+        "P2_touch_hedge_pess": {
+          "arm": "P2_touch_hedge_pess",
+          "markets": 6,
+          "traded": 6,
+          "fills": 42,
+          "pnl": 4.2803,
+          "ex_top3": -0.0649,
+          "worst_market": -0.3649,
+          "cash": 110.7197,
+          "rebate_upper": 0.6276,
+          "taker_fee": 0.3697
+        },
+        "P2_touch_hedge_opt": {
+          "arm": "P2_touch_hedge_opt",
+          "markets": 6,
+          "traded": 6,
+          "fills": 38,
+          "pnl": -1.0056,
+          "ex_top3": -1.2436,
+          "worst_market": -0.9163,
+          "cash": 116.0056,
+          "rebate_upper": 0.4724,
+          "taker_fee": 1.1556
+        },
+        "P0_candidate_real_books": {
+          "arm": "P0_candidate_real_books",
+          "markets": 6,
+          "traded": 1,
+          "fills": 2,
+          "pnl": 0.5291,
+          "ex_top3": 0.0,
+          "worst_market": 0.0,
+          "cash": 4.4709,
+          "rebate_upper": 0.0,
+          "taker_fee": 0.0
+        }
+      }
+    }
+  },
+  "baseline_hashes_unchanged": true,
+  "fable_verification_manifest_exists": false,
+  "scope": "Limited claim review. No full study or chain decoder rerun."
+}

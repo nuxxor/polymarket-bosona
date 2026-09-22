@@ -1,0 +1,18 @@
+{
+  "assigned": 8,
+  "changed_arrival_paths": 14,
+  "checks_passed": 23,
+  "core_sources": {
+    "check.py": "985ddd244e9495115efe24e2eedce2e4efb5022f3ebc72a2a0684b7b63f64bbc",
+    "execution.py": "bae6bd64fe63ab4b9b5563352f7731c30b56a5f69d57943417e687c4b5dc6040",
+    "run.py": "2a36c5028795e278cdefad69c13418b918b111a4799a96005ba3737c92ee7d7a"
+  },
+  "economic_pnl": null,
+  "identical_compute_artifacts": 8,
+  "paths": 576,
+  "reconciled": 6,
+  "report_same_hash_twice": "f27fdab548b55395f3852b9448a9e3e18056d69c9258008084705a91a9cdea59",
+  "ruff": "PASS",
+  "syntax": "PASS",
+  "unchanged_paths": 562
+}

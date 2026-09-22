@@ -1,0 +1,309 @@
+{
+  "accepted": 12,
+  "accepted_post_ms": {
+    "max": 125.20961,
+    "median": 57.401672000000005,
+    "min": 28.086073,
+    "n": 12,
+    "p95": 125.20961
+  },
+  "cancel_live_after_ack": 1,
+  "cancel_live_overlap": 1,
+  "cancel_terminal_confirmation_ms": {
+    "max": 286.553083,
+    "median": 20.388682,
+    "min": 15.607661,
+    "n": 9,
+    "p95": 286.553083
+  },
+  "events": 624,
+  "final_states": {
+    "CANCELED": 8,
+    "MATCHED": 4
+  },
+  "local_fill_processing_ms": {
+    "max": 0.204759,
+    "median": 0.1856175,
+    "min": 0.164447,
+    "n": 4,
+    "p95": 0.204759
+  },
+  "missing_gets": [
+    {
+      "order_id": "0x3d24e0916091e2b6a6aeda9c57a33aed61055fdfcfd8c62adf60ac295f717aaf",
+      "seq": 31
+    },
+    {
+      "order_id": "0x6c5a8728795fb308fbd4b129eee7dce429d2de34a432ffa448d984c0de9d838d",
+      "seq": 185
+    }
+  ],
+  "orders": [
+    {
+      "cancels": [
+        {
+          "ack_to_first_later_terminal_response_ms": 18.443911,
+          "acknowledged": true,
+          "initiated_after_ack_live_responses": 0,
+          "overlapping_live_responses": 1,
+          "sdk_ms": 42.478444
+        }
+      ],
+      "fills": [],
+      "final_status": "CANCELED",
+      "matched": 0.0,
+      "order_id": "0xc9d704cd4616d31d059eb5238d9707c16d3fb600db6229407ba937cf77d06cd2",
+      "post_sdk_ms": 122.072765,
+      "price": 0.71,
+      "quantity": 5.0
+    },
+    {
+      "cancels": [
+        {
+          "ack_to_first_later_terminal_response_ms": 15.607661,
+          "acknowledged": true,
+          "initiated_after_ack_live_responses": 0,
+          "overlapping_live_responses": 0,
+          "sdk_ms": 22.898578
+        }
+      ],
+      "fills": [],
+      "final_status": "CANCELED",
+      "matched": 0.0,
+      "order_id": "0x6f7d477d2c9edb792a6c637fc3cf2ad39ff557617c603cbf6dff0551e31b2b80",
+      "post_sdk_ms": 69.151979,
+      "price": 0.74,
+      "quantity": 5.0
+    },
+    {
+      "cancels": [
+        {
+          "ack_to_first_later_terminal_response_ms": 18.183427,
+          "acknowledged": true,
+          "initiated_after_ack_live_responses": 0,
+          "overlapping_live_responses": 0,
+          "sdk_ms": 23.746376
+        }
+      ],
+      "fills": [],
+      "final_status": "CANCELED",
+      "matched": 0.0,
+      "order_id": "0x3d24e0916091e2b6a6aeda9c57a33aed61055fdfcfd8c62adf60ac295f717aaf",
+      "post_sdk_ms": 43.978882,
+      "price": 0.74,
+      "quantity": 5.0
+    },
+    {
+      "cancels": [
+        {
+          "ack_to_first_later_terminal_response_ms": 286.553083,
+          "acknowledged": true,
+          "initiated_after_ack_live_responses": 1,
+          "overlapping_live_responses": 0,
+          "sdk_ms": 45.783495
+        }
+      ],
+      "fills": [],
+      "final_status": "CANCELED",
+      "matched": 0.0,
+      "order_id": "0xdd363cfc29142228905610501b04bb41ca7194ffcc75315a8a35fd0a8aae44be",
+      "post_sdk_ms": 39.724486,
+      "price": 0.82,
+      "quantity": 5.0
+    },
+    {
+      "cancels": [],
+      "fills": [
+        {
+          "delta": 5.0,
+          "exchange_time": null,
+          "get_end_to_local_observation_ms": 0.164447,
+          "last_zero_to_positive_response_ms": null,
+          "match_to_observation_ms": null,
+          "source": "yoklama"
+        }
+      ],
+      "final_status": "MATCHED",
+      "matched": 5.0,
+      "order_id": "0x6c5a8728795fb308fbd4b129eee7dce429d2de34a432ffa448d984c0de9d838d",
+      "post_sdk_ms": 125.20961,
+      "price": 0.48,
+      "quantity": 5.0
+    },
+    {
+      "cancels": [],
+      "fills": [
+        {
+          "delta": 5.0,
+          "exchange_time": null,
+          "get_end_to_local_observation_ms": 0.204759,
+          "last_zero_to_positive_response_ms": 515.831978,
+          "match_to_observation_ms": null,
+          "source": "yoklama"
+        }
+      ],
+      "final_status": "MATCHED",
+      "matched": 5.0,
+      "order_id": "0x3925b5c57af0320c637118ed04a94c2f3218ab36b8735fb542a6b8d0b56aa2ca",
+      "post_sdk_ms": 28.086073,
+      "price": 0.5,
+      "quantity": 5.0
+    },
+    {
+      "cancels": [
+        {
+          "ack_to_first_later_terminal_response_ms": 23.148953,
+          "acknowledged": true,
+          "initiated_after_ack_live_responses": 0,
+          "overlapping_live_responses": 0,
+          "sdk_ms": 29.876533
+        }
+      ],
+      "fills": [],
+      "final_status": "CANCELED",
+      "matched": 0.0,
+      "order_id": "0xb4b9a2019a606aec653528a730bfa41a7568cdfaad20b1f97d2750f7cccba503",
+      "post_sdk_ms": 62.451422,
+      "price": 0.61,
+      "quantity": 5.0
+    },
+    {
+      "cancels": [],
+      "fills": [
+        {
+          "delta": 5.0,
+          "exchange_time": null,
+          "get_end_to_local_observation_ms": 0.194426,
+          "last_zero_to_positive_response_ms": null,
+          "match_to_observation_ms": null,
+          "source": "yoklama"
+        }
+      ],
+      "final_status": "MATCHED",
+      "matched": 5.0,
+      "order_id": "0xc1217c5693bf3e33cf2590fa8b67a8902d885cb55e9132362bca944c39036970",
+      "post_sdk_ms": 29.862076,
+      "price": 0.5,
+      "quantity": 5.0
+    },
+    {
+      "cancels": [
+        {
+          "ack_to_first_later_terminal_response_ms": 20.388682,
+          "acknowledged": true,
+          "initiated_after_ack_live_responses": 0,
+          "overlapping_live_responses": 0,
+          "sdk_ms": 74.704255
+        }
+      ],
+      "fills": [],
+      "final_status": "CANCELED",
+      "matched": 0.0,
+      "order_id": "0x1892011dd38aff9372451d3d4cfa6a1724a07fea2e181d61c1a5ef0efae2977a",
+      "post_sdk_ms": 71.446674,
+      "price": 0.48,
+      "quantity": 5.0
+    },
+    {
+      "cancels": [
+        {
+          "ack_to_first_later_terminal_response_ms": 15.697991,
+          "acknowledged": true,
+          "initiated_after_ack_live_responses": 0,
+          "overlapping_live_responses": 0,
+          "sdk_ms": 20.389315
+        }
+      ],
+      "fills": [],
+      "final_status": "CANCELED",
+      "matched": 0.0,
+      "order_id": "0xa7b347cd764aed1f46ad16e7e88396a938ae77a7da5d558a5e35cf5a1121994f",
+      "post_sdk_ms": 52.351922,
+      "price": 0.48,
+      "quantity": 5.0
+    },
+    {
+      "cancels": [
+        {
+          "ack_to_first_later_terminal_response_ms": 27.246294,
+          "acknowledged": true,
+          "initiated_after_ack_live_responses": 0,
+          "overlapping_live_responses": 0,
+          "sdk_ms": 21.8874
+        }
+      ],
+      "fills": [],
+      "final_status": "CANCELED",
+      "matched": 0.0,
+      "order_id": "0x6bd44cce0104845e4611f0965d681d0d69af74e0851110235132f8077841e746",
+      "post_sdk_ms": 64.221347,
+      "price": 0.48,
+      "quantity": 5.0
+    },
+    {
+      "cancels": [
+        {
+          "ack_to_first_later_terminal_response_ms": 28.430004,
+          "acknowledged": false,
+          "initiated_after_ack_live_responses": 0,
+          "overlapping_live_responses": 0,
+          "sdk_ms": 20.240867
+        }
+      ],
+      "fills": [
+        {
+          "delta": 5.0,
+          "exchange_time": null,
+          "get_end_to_local_observation_ms": 0.176809,
+          "last_zero_to_positive_response_ms": 541.056375,
+          "match_to_observation_ms": null,
+          "source": "kapat:taze_yenile"
+        }
+      ],
+      "final_status": "MATCHED",
+      "matched": 5.0,
+      "order_id": "0xf158b17e313e08577548bb65f297d6bd46cc0b169571039b95144e2123c207e9",
+      "post_sdk_ms": 33.55941,
+      "price": 0.48,
+      "quantity": 5.0
+    }
+  ],
+  "rejected": 2,
+  "requests": 309,
+  "sdk_ms": {
+    "cancel": {
+      "max": 74.704255,
+      "median": 23.746376,
+      "min": 20.240867,
+      "n": 9,
+      "p95": 74.704255
+    },
+    "get_order": {
+      "max": 242.226939,
+      "median": 16.597076,
+      "min": 13.027107,
+      "n": 285,
+      "p95": 32.115258
+    },
+    "open_orders": {
+      "max": 22.685713,
+      "median": 22.685713,
+      "min": 22.685713,
+      "n": 1,
+      "p95": 22.685713
+    },
+    "post_batch": {
+      "max": 125.20961,
+      "median": 48.165402,
+      "min": 28.086073,
+      "n": 14,
+      "p95": 125.20961
+    }
+  },
+  "unobservable": [
+    "exchange_accept_time",
+    "exchange_cancel_time",
+    "match_time",
+    "private_notification_delay"
+  ]
+}

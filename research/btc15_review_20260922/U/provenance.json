@@ -1,0 +1,178 @@
+{
+  "checked_ms": 1790017918239,
+  "python": "3.12.3",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.8.0",
+    "ruff": "0.15.7"
+  },
+  "manifests": {
+    "R": {
+      "checked": 11782,
+      "changed": [
+        {
+          "path": "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/plan.md",
+          "expected": "dc3d101ab23600a39c7e21642e57afda9426209d796c0c2b2ceb2612021c31b4",
+          "actual": "348c94deb6a2907230b2804987bb4ce4b4c5f62e541c50c23f5719d8458cd5ed"
+        }
+      ],
+      "missing": []
+    },
+    "F": {
+      "checked": 187,
+      "changed": [
+        {
+          "path": "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/btc15_followup/plan.md",
+          "expected": "8883cc674406ea82e047d8a2d1b05c311d1e447638f370f745eaf9527dadd154",
+          "actual": "da3984b8e6f8c5a52d416cee282e4e8a51d2efde418b4650c02c714d697cb763"
+        }
+      ],
+      "missing": []
+    },
+    "S": {
+      "checked": 72,
+      "changed": [],
+      "missing": []
+    },
+    "protected": {
+      "checked": 5,
+      "changed": [],
+      "missing": []
+    }
+  },
+  "sources": [
+    {
+      "original": "/home/taygun/Masaüstü/polymarket-bosona/analiz/izleme/bosona_gec_arastirma.py",
+      "frozen": "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/src/bosona_gec_arastirma.py",
+      "declared_sha256": "2051f552765d257942bbc672f62f32f4e47280d48ac892678a6a70125d303c4c",
+      "frozen_sha256": "2051f552765d257942bbc672f62f32f4e47280d48ac892678a6a70125d303c4c",
+      "current_main_sha256": "c5168e5ad7334149c21de0484d99dec264f2a18f1b6c3be3a04967b4cb15e6ff",
+      "frozen_matches": true,
+      "main_matches_frozen": false
+    },
+    {
+      "original": "/home/taygun/Masaüstü/polymarket-bosona/analiz/izleme/bosona_coklu.py",
+      "frozen": "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/src/bosona_coklu.py",
+      "declared_sha256": "481627f8f5d3cc0f54848dd332c4aca3f43540ae53ef0ecfddfc712224ecf594",
+      "frozen_sha256": "481627f8f5d3cc0f54848dd332c4aca3f43540ae53ef0ecfddfc712224ecf594",
+      "current_main_sha256": "481627f8f5d3cc0f54848dd332c4aca3f43540ae53ef0ecfddfc712224ecf594",
+      "frozen_matches": true,
+      "main_matches_frozen": true
+    },
+    {
+      "original": "/home/taygun/Masaüstü/polymarket-bosona/analiz/izleme/bosona_derin.py",
+      "frozen": "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/src/bosona_derin.py",
+      "declared_sha256": "fd9a5e0903802f5fffae2bb7413571e50c59b5605edab871c9cadbfceb630b91",
+      "frozen_sha256": "fd9a5e0903802f5fffae2bb7413571e50c59b5605edab871c9cadbfceb630b91",
+      "current_main_sha256": "3fd35f1b172cabf1b3fa2e7f06c59b03196f94486b5831e5dfbcd89ea9241c98",
+      "frozen_matches": true,
+      "main_matches_frozen": false
+    },
+    {
+      "original": "/home/taygun/Masaüstü/polymarket-bosona/analiz/izleme/shadow_bosona.py",
+      "frozen": "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/src/shadow_bosona.py",
+      "declared_sha256": "fb5a56da3ac8103a7107f8bbe517639667939b6de801b3896d342bc9fffe55a5",
+      "frozen_sha256": "fb5a56da3ac8103a7107f8bbe517639667939b6de801b3896d342bc9fffe55a5",
+      "current_main_sha256": "fb5a56da3ac8103a7107f8bbe517639667939b6de801b3896d342bc9fffe55a5",
+      "frozen_matches": true,
+      "main_matches_frozen": true
+    },
+    {
+      "original": "/home/taygun/Masaüstü/polymarket-bosona/analiz/izleme/muhasebe.py",
+      "frozen": "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/src/muhasebe.py",
+      "declared_sha256": "9f14e2531a770dd97fef6e1d323fde9269b477cf92a139e1d345274fa9f4961f",
+      "frozen_sha256": "9f14e2531a770dd97fef6e1d323fde9269b477cf92a139e1d345274fa9f4961f",
+      "current_main_sha256": "9f14e2531a770dd97fef6e1d323fde9269b477cf92a139e1d345274fa9f4961f",
+      "frozen_matches": true,
+      "main_matches_frozen": true
+    }
+  ],
+  "input_files": {
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/plan.md": {
+      "bytes": 5595,
+      "sha256": "348c94deb6a2907230b2804987bb4ce4b4c5f62e541c50c23f5719d8458cd5ed"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/btc15_followup/plan.md": {
+      "bytes": 3679,
+      "sha256": "da3984b8e6f8c5a52d416cee282e4e8a51d2efde418b4650c02c714d697cb763"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona/plan.md": {
+      "bytes": 45323,
+      "sha256": "25075adb81cc4506c7a182b7986ac0ef91ad0d8ed1f74eb3c48bbd210409f53d"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/BOSONA_NONBTC5_ULTRA_FABLE_PROMPT.md": {
+      "bytes": 39562,
+      "sha256": "6b1de11dfbdd993eaf0013c8d60123bfc65b159129f71ddf13c5fc2aef74293e"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/RAPOR.md": {
+      "bytes": 19122,
+      "sha256": "4e1a16e31c1a2ec31512ac426cd119df4c76e2b414241b75a09ff1fe7caca682"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/btc15_followup/RAPOR.md": {
+      "bytes": 15671,
+      "sha256": "451094d74e42ca9f9483b9f77a444d160d660eeb1e25b86f74a99231c0461054"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/btc15_followup/status_20260921_1800/OKUMA.md": {
+      "bytes": 3022,
+      "sha256": "ff805a2404dd1918917015a682be6521f8e7e20798bb57a5c6a8b7f89fed7fc1"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/candidate.py": {
+      "bytes": 13237,
+      "sha256": "0141e195dec72a41dff71a2ae7a78451827394aa28b428217f827f0e48004a2a"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/research.py": {
+      "bytes": 31727,
+      "sha256": "ce0c421c69378de779031e4019aa77750378c201edb780a3dd53cd113341ff80"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/report.py": {
+      "bytes": 23556,
+      "sha256": "83ef3ed1c79cc6656faf4d9d177da1bacb0665be79f287809988b00988d51033"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/check_research.py": {
+      "bytes": 4158,
+      "sha256": "9dd73ce39b8d6b3c09796153c1973b2b410fbb48d8b35b0b209019040c553161"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/btc15_context.py": {
+      "bytes": 4625,
+      "sha256": "5705b47dd2ee44b6a7469823546dc74ff92289ddb33cb3e434657e56aa3b659f"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/study.py": {
+      "bytes": 17134,
+      "sha256": "fdf90263cfbc1aa43f19be89b23bf0fffcd44be988ee78a9fef4f0aff774e74c"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/btc15_followup/book_quality.py": {
+      "bytes": 3655,
+      "sha256": "89fda548b86599dac2bf66aec7aaa99e7a83ca624e12feddfbf600195f831104"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/btc15_followup/record_books.py": {
+      "bytes": 5205,
+      "sha256": "279198c3812c78fd988fde2fc371bd41dd40e371f42c745aeb7641176668df88"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/btc15_followup/new_period.py": {
+      "bytes": 3871,
+      "sha256": "cb7ce1911d912536f57d728d9f9fdaf516907aaadd64c0d0615650142d4e53bc"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/btc15_followup/analyze.py": {
+      "bytes": 16383,
+      "sha256": "092031fa4ee0074d032eb01486988826025e65d0edbfa6b86961c96c3c760d03"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/btc15_followup/check.py": {
+      "bytes": 4101,
+      "sha256": "8c4b8f2978c7ac2126755edf3ed3369030d576167447fbd03f8760bf8cfd5f29"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/btc15_followup/audit.py": {
+      "bytes": 8152,
+      "sha256": "6bc12d828c74e53c8ed9aa2f56eebe7f65d54b87f9eb6db121561298e10d271a"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/btc15_followup/hypotheses.py": {
+      "bytes": 1424,
+      "sha256": "504a3d1f16066727005944238a7934de625edf192b6c12cc3498c8a154e9c0c7"
+    },
+    "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/btc15_followup/status_20260921_1800/check.py": {
+      "bytes": 6371,
+      "sha256": "3bfa49fe74a5cb69a08abfd6330971b2fbe4757275ca571a1a8b4855a27bfa59"
+    }
+  },
+  "note": "Historical manifests may precede later documentation; distinguish core data/code from plan changes."
+}

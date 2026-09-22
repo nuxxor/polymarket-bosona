@@ -1,0 +1,18 @@
+{
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_execution_reserve_20260921/delivery_manifest.json": "a37914a7e724c92a06abf7abd6ad8af2761deb4b2f269c981b6c6a5632977a03",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_feed_integrity_20260922/delivery_manifest.json": "0e6773e51523078365143e7b36edbc2c06e70164ba3cb940df42dc8c596da730",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_reconciled_v1_20260921/replay.py": "13e99bc5462041eb9c07c3c6740fcfd4c544cb4ad05f6e83f018557aafb657eb",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_timing_sensitivity_20260922/delivery_manifest.json": "3c811a20ae5927649df67051f03df0fb3417bb0992484911042a0c18f7b69e31",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_timing_sensitivity_20260922/run.py": "2a36c5028795e278cdefad69c13418b918b111a4799a96005ba3737c92ee7d7a",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_ws_expansion_20260921/run.py": "df6e2a8787305c6a8d1aaae44eeee2406ec1fb22c04fd3151927fc533c8ea992",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_ws_validation_20260921/study.py": "fdd7f7e36a3993c8ce355fce8f8e3560370d7f7ccf0179a897f24cbcd64782d0",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/candidate.py": "0141e195dec72a41dff71a2ae7a78451827394aa28b428217f827f0e48004a2a",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/fable_review_20260921/code/passive_replay.py": "028531f989f0ee457f860f2f49dcf453e6bad3fb73da3f7370a927b55dbd267a",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/protocol.json": "34c976d72f99660a8223d036824071a6bcab2b381491812200312b2a4b4a27c5",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/research.py": "ce0c421c69378de779031e4019aa77750378c201edb780a3dd53cd113341ff80",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/src/bosona_coklu.py": "481627f8f5d3cc0f54848dd332c4aca3f43540ae53ef0ecfddfc712224ecf594",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/src/bosona_derin.py": "fd9a5e0903802f5fffae2bb7413571e50c59b5605edab871c9cadbfceb630b91",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/src/bosona_gec_arastirma.py": "2051f552765d257942bbc672f62f32f4e47280d48ac892678a6a70125d303c4c",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/data/analysis/btc5m_maker_feasibility_20260921/replay.py": "f8e42f83a4ca06dddba61136c37647cadd87fa00d49a224c76bcc0812b058023",
+  "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/data/analysis/btc5m_order_identity_20260921/check.py": "bbabe1303f37ee1bd7cd34bcca266f0ea276dd6d81bfafff20cbe4ed227a58cd"
+}

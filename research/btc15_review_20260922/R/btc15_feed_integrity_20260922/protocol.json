@@ -1,0 +1,19 @@
+{
+  "assigned_start": 1790031600,
+  "channels": [
+    "A",
+    "B"
+  ],
+  "economic_pnl": null,
+  "end": 1790032500,
+  "gate": "each channel separately; observed receipt volume, raw parse, clocks, >=95% book samples, zero unresolved in-window missing matches",
+  "max_raw_bytes": 536870912,
+  "min_free_bytes": 2147483648,
+  "private_execution_clock": "unobserved",
+  "receipt_budget": 1000,
+  "receive_cutoff_ms": 1790032620000,
+  "record_stop_ms": 1790032630000,
+  "sample_status": "single prospectively assigned data-integrity market, not economic holdout",
+  "source_clock": "publication proxy only; never impute a missing match timestamp",
+  "strategy_changes": false
+}

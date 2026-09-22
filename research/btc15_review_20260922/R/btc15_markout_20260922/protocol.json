@@ -1,0 +1,46 @@
+{
+  "anchor_shifts_ms": [
+    0,
+    -500
+  ],
+  "calipers": [
+    {
+      "ms": 30000,
+      "name": "primary",
+      "price": 0.02
+    },
+    {
+      "ms": 60000,
+      "name": "wide",
+      "price": 0.05
+    }
+  ],
+  "created_utc": "2026-09-22T00:11:22.776278+00:00",
+  "design_sha256": "56b95927f9049db048eeea6e2ef84ea962ad7fef3b6904d2e3ee9313523c0f98",
+  "economic_pnl": null,
+  "feature_guards_ms": [
+    1000,
+    5000
+  ],
+  "feature_lookback_ms": 5000,
+  "horizons_ms": [
+    1000,
+    5000,
+    10000
+  ],
+  "hypotheses": [
+    "H1_positive_5s_mid_momentum",
+    "H2_positive_5s_public_aggressor_flow"
+  ],
+  "starts": [
+    1790023500,
+    1790024400,
+    1790025300,
+    1790026200,
+    1790027100,
+    1790028000,
+    1790028900,
+    1790031600
+  ],
+  "status": "seen historical single UTC day; local design freeze only"
+}

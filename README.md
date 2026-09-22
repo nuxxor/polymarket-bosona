@@ -1,5 +1,7 @@
 # polymarket-bosona — BTC 5dk Up/Down'da "bosona" mekanizması ve kol C botu
 
+**BTC15 araştırması:** [kod, rapor ve kanıt paketi](research/btc15_review_20260922/README.md) · [PRO / ULTRA için İngilizce inceleme promptu](docs/BOSONA_BTC15_PRO_ULTRA_PROMPT.md).
+
 Bu depo, Polymarket BTC 5 dakikalık Up/Down pazarında en kârlı cüzdanlardan `bosona`
 (`0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed`) üzerine yapılan çalışmanın ve ona göre
 kurulan botun kaynak kodlarını, araştırma raporlarını ve seçilmiş verilerini içerir.

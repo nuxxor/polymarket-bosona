@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "two readers retain malformed/unknown/binary frames, sequence clocks and finite close hashes",
+    "combined size guard ends both local reader loops without extending budget",
+    "unknown, malformed and wrong-token messages remain explicit coverage failures",
+    "sequence gap is rejected rather than becoming zero events",
+    "two genuine equal-summary trades survive; repeated same-log WS message adds no volume",
+    "public clock after observed MATCHED remains a calibration counterexample",
+    "a missing cached RPC log is detected against independently fetched receipts without changing raw files",
+    "real streams are gated separately and no public completeness test claims calibrated fills"
+  ],
+  "passed": true
+}

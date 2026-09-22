@@ -1,0 +1,2478 @@
+{
+  "coverage": {
+    "btc-updown-15m-1789372800": {
+      "decoded": 2,
+      "historical_complete": true,
+      "historical_total": 2
+    },
+    "btc-updown-15m-1789420500": {
+      "decoded": 6,
+      "historical_complete": true,
+      "historical_total": 6
+    },
+    "btc-updown-15m-1789499700": {
+      "decoded": 4,
+      "historical_complete": true,
+      "historical_total": 4
+    },
+    "btc-updown-15m-1789528500": {
+      "decoded": 5,
+      "historical_complete": true,
+      "historical_total": 5
+    },
+    "btc-updown-15m-1789530300": {
+      "decoded": 18,
+      "historical_complete": true,
+      "historical_total": 18
+    },
+    "btc-updown-15m-1789537500": {
+      "decoded": 29,
+      "historical_complete": true,
+      "historical_total": 29
+    },
+    "btc-updown-15m-1789564500": {
+      "decoded": 15,
+      "historical_complete": true,
+      "historical_total": 15
+    },
+    "btc-updown-15m-1789583400": {
+      "decoded": 16,
+      "historical_complete": true,
+      "historical_total": 16
+    },
+    "btc-updown-15m-1789594200": {
+      "decoded": 11,
+      "historical_complete": true,
+      "historical_total": 11
+    },
+    "btc-updown-15m-1789641000": {
+      "decoded": 9,
+      "historical_complete": true,
+      "historical_total": 9
+    },
+    "btc-updown-15m-1789680600": {
+      "decoded": 13,
+      "historical_complete": true,
+      "historical_total": 13
+    },
+    "btc-updown-15m-1789686000": {
+      "decoded": 11,
+      "historical_complete": true,
+      "historical_total": 11
+    },
+    "btc-updown-15m-1789686900": {
+      "decoded": 7,
+      "historical_complete": true,
+      "historical_total": 7
+    },
+    "btc-updown-15m-1789707600": {
+      "decoded": 34,
+      "historical_complete": true,
+      "historical_total": 34
+    },
+    "btc-updown-15m-1789708500": {
+      "decoded": 31,
+      "historical_complete": true,
+      "historical_total": 31
+    },
+    "btc-updown-15m-1789713900": {
+      "decoded": 14,
+      "historical_complete": true,
+      "historical_total": 14
+    },
+    "btc-updown-15m-1789752600": {
+      "decoded": 10,
+      "historical_complete": true,
+      "historical_total": 10
+    },
+    "btc-updown-15m-1789775100": {
+      "decoded": 26,
+      "historical_complete": true,
+      "historical_total": 26
+    },
+    "btc-updown-15m-1789861500": {
+      "decoded": 22,
+      "historical_complete": true,
+      "historical_total": 22
+    }
+  },
+  "parents": [
+    {
+      "condition": "0x15b9fdef699ccbe2c215acb2b32b622471cf23056ac6d0c6ea0b305015ce8f81",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 723,
+      "last_age": 723,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x1ebc19af6389513135570cb163a198dc69dfae8c4e7ace43cf6f68ab8d388529",
+      "public_fill_span": 0,
+      "qty": "100",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789861500"
+    },
+    {
+      "condition": "0x15b9fdef699ccbe2c215acb2b32b622471cf23056ac6d0c6ea0b305015ce8f81",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 856,
+      "last_age": 856,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x45225ae62aac4a71aa40e0ab1e62c866eb6a44cc5a5c3d29c32c972baa7ac74d",
+      "public_fill_span": 0,
+      "qty": "300",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789861500"
+    },
+    {
+      "condition": "0x15b9fdef699ccbe2c215acb2b32b622471cf23056ac6d0c6ea0b305015ce8f81",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 874,
+      "last_age": 874,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 9,
+      "order_hash": "0x4f6b6be70b5506a14b33b35b0854cc6eb1ab7bba15d64f263350426f24bfeb7b",
+      "public_fill_span": 0,
+      "qty": "158.85",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789861500"
+    },
+    {
+      "condition": "0x15b9fdef699ccbe2c215acb2b32b622471cf23056ac6d0c6ea0b305015ce8f81",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 846,
+      "last_age": 846,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x5ed157ff49ab4209de00603806d7772d3dd80bd91911d3b0c45b4b30ca1b9ae9",
+      "public_fill_span": 0,
+      "qty": "97",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789861500"
+    },
+    {
+      "condition": "0x15b9fdef699ccbe2c215acb2b32b622471cf23056ac6d0c6ea0b305015ce8f81",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 79,
+      "last_age": 79,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x634b4a7b6148991192e72f437e44831047d65d2caab250a87ffe5a123bee1123",
+      "public_fill_span": 0,
+      "qty": "100",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789861500"
+    },
+    {
+      "condition": "0x15b9fdef699ccbe2c215acb2b32b622471cf23056ac6d0c6ea0b305015ce8f81",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 745,
+      "last_age": 747,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 4,
+      "order_hash": "0x66c269a3ccdc0ef73ae7b747dbcdafd74358dfc588bf99f1e3e6bfce9a807c85",
+      "public_fill_span": 2,
+      "qty": "100.00",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789861500"
+    },
+    {
+      "condition": "0x15b9fdef699ccbe2c215acb2b32b622471cf23056ac6d0c6ea0b305015ce8f81",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 888,
+      "last_age": 888,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xb6675ffe42c772bd5a4174a35bd0223c9a5083d8cc615c9616e4e04f364328af",
+      "public_fill_span": 0,
+      "qty": "300",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789861500"
+    },
+    {
+      "condition": "0x15b9fdef699ccbe2c215acb2b32b622471cf23056ac6d0c6ea0b305015ce8f81",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 16,
+      "last_age": 16,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xe75d2ff7cb2fd4aa3ff33f6543f97fd4a4fb28d06d7528f37221bc2a0cc9e728",
+      "public_fill_span": 0,
+      "qty": "100",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789861500"
+    },
+    {
+      "condition": "0x15b9fdef699ccbe2c215acb2b32b622471cf23056ac6d0c6ea0b305015ce8f81",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 856,
+      "last_age": 856,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 3,
+      "order_hash": "0xfffac306b49b2de1546f163160a599dd36531896ce42a9dfea65b5458a86ee08",
+      "public_fill_span": 0,
+      "qty": "123.68",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789861500"
+    },
+    {
+      "condition": "0x2235d6122da8ac20a90b656c88548afd53db9c09699de627bb76803048b84cf5",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 720,
+      "last_age": 720,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x01a55b1190a830581b96c710bcd39bd1d92914317f2bcfa51418fd5bea14d025",
+      "public_fill_span": 0,
+      "qty": "300",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789499700"
+    },
+    {
+      "condition": "0x2235d6122da8ac20a90b656c88548afd53db9c09699de627bb76803048b84cf5",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 673,
+      "last_age": 673,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x0ec93f7962ac9748d967d166d339022870456b6637a681be76a05911cb41a408",
+      "public_fill_span": 0,
+      "qty": "118.37",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789499700"
+    },
+    {
+      "condition": "0x2235d6122da8ac20a90b656c88548afd53db9c09699de627bb76803048b84cf5",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 865,
+      "last_age": 865,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x22c8f608d72c2070074b28b1bbdd7e22d1444e29171704e8026545e15259c4b4",
+      "public_fill_span": 0,
+      "qty": "14.57",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789499700"
+    },
+    {
+      "condition": "0x2235d6122da8ac20a90b656c88548afd53db9c09699de627bb76803048b84cf5",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 618,
+      "last_age": 618,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x3a33c843b87ef070020766d3517916b9c4d82f96390cb6436120822ed0d57c73",
+      "public_fill_span": 0,
+      "qty": "12",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789499700"
+    },
+    {
+      "condition": "0x30c0e87b0381ffd22ac3ce6dd2e6549f38b5dc73176681a540fb810c6ae86dd4",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 544,
+      "last_age": 544,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 4,
+      "order_hash": "0x0a35dc5891010a0537c6d54eed366fbf5cc1b9790a7a0db374e6e6b84305dce9",
+      "public_fill_span": 0,
+      "qty": "54.243244",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789707600"
+    },
+    {
+      "condition": "0x30c0e87b0381ffd22ac3ce6dd2e6549f38b5dc73176681a540fb810c6ae86dd4",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 606,
+      "last_age": 606,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x23c773da75d104e2eaf2dddcb31d957ea6a66df4b5b6c172fadec59f5a57abaa",
+      "public_fill_span": 0,
+      "qty": "10",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789707600"
+    },
+    {
+      "condition": "0x30c0e87b0381ffd22ac3ce6dd2e6549f38b5dc73176681a540fb810c6ae86dd4",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 18,
+      "last_age": 18,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x4f39b33e66898e38855819062e3bc930b01d0e6b30aa18c72810be11ba9b1d04",
+      "public_fill_span": 0,
+      "qty": "150",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789707600"
+    },
+    {
+      "condition": "0x30c0e87b0381ffd22ac3ce6dd2e6549f38b5dc73176681a540fb810c6ae86dd4",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 268,
+      "last_age": 268,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x56efaf4d1511de36cd2bf7cf6d7b90bfa5f9319e44fd2d4481f347ca873619e1",
+      "public_fill_span": 0,
+      "qty": "74",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789707600"
+    },
+    {
+      "condition": "0x30c0e87b0381ffd22ac3ce6dd2e6549f38b5dc73176681a540fb810c6ae86dd4",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 609,
+      "last_age": 609,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x5de15423e02ff42f07f1ec2ee22c2e791b0075af9cf0afaf1e8d248338368aa8",
+      "public_fill_span": 0,
+      "qty": "23.25",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789707600"
+    },
+    {
+      "condition": "0x30c0e87b0381ffd22ac3ce6dd2e6549f38b5dc73176681a540fb810c6ae86dd4",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 648,
+      "last_age": 648,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x6bc396b8e0dec6ab3b9056a7a1994eaeb806a2821d791014854e56ab2fec211d",
+      "public_fill_span": 0,
+      "qty": "100",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789707600"
+    },
+    {
+      "condition": "0x30c0e87b0381ffd22ac3ce6dd2e6549f38b5dc73176681a540fb810c6ae86dd4",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 603,
+      "last_age": 603,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x8d7b552dc0d5389afa13c014201878f933bb23dcb01e1e9e210b36c6f2aafbc1",
+      "public_fill_span": 0,
+      "qty": "104.2",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789707600"
+    },
+    {
+      "condition": "0x30c0e87b0381ffd22ac3ce6dd2e6549f38b5dc73176681a540fb810c6ae86dd4",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 258,
+      "last_age": 258,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x8f46384e9e9e2a6d8db12b449715b65515d012cb85b293d8117dbe69029c595d",
+      "public_fill_span": 0,
+      "qty": "6.82",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789707600"
+    },
+    {
+      "condition": "0x30c0e87b0381ffd22ac3ce6dd2e6549f38b5dc73176681a540fb810c6ae86dd4",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 613,
+      "last_age": 613,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x9671bfdc761c553746b1ee68db57575106a984117ee74b68824b4acd0350a37e",
+      "public_fill_span": 0,
+      "qty": "16.567163",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789707600"
+    },
+    {
+      "condition": "0x30c0e87b0381ffd22ac3ce6dd2e6549f38b5dc73176681a540fb810c6ae86dd4",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 535,
+      "last_age": 535,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xa526a7f18fa416f634eb8ef0401f96e02cdd52afd7946f2468bba891d04f9d1b",
+      "public_fill_span": 0,
+      "qty": "98.82",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789707600"
+    },
+    {
+      "condition": "0x30c0e87b0381ffd22ac3ce6dd2e6549f38b5dc73176681a540fb810c6ae86dd4",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 652,
+      "last_age": 652,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xae37e9e507a0e1fe948c23e762b72e484167d6446e5ae64027562c8d31973ff5",
+      "public_fill_span": 0,
+      "qty": "100",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789707600"
+    },
+    {
+      "condition": "0x30c0e87b0381ffd22ac3ce6dd2e6549f38b5dc73176681a540fb810c6ae86dd4",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 664,
+      "last_age": 664,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xb16c546a2088995cadb3f15663f816d9593a4f0e13f7f8a402cdc5fbac440fe3",
+      "public_fill_span": 0,
+      "qty": "34.77",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789707600"
+    },
+    {
+      "condition": "0x30c0e87b0381ffd22ac3ce6dd2e6549f38b5dc73176681a540fb810c6ae86dd4",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 658,
+      "last_age": 658,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xb849ff9d53a6eed8c74f46ecc1fe72119191736efd738b2949538cb25a81c52c",
+      "public_fill_span": 0,
+      "qty": "100",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789707600"
+    },
+    {
+      "condition": "0x30c0e87b0381ffd22ac3ce6dd2e6549f38b5dc73176681a540fb810c6ae86dd4",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 523,
+      "last_age": 523,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 4,
+      "order_hash": "0xd06d73fd283a72765f5d238947887c0cef2b893e8c8d64405aacc2e962ffaeb4",
+      "public_fill_span": 0,
+      "qty": "150.00",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789707600"
+    },
+    {
+      "condition": "0x30c0e87b0381ffd22ac3ce6dd2e6549f38b5dc73176681a540fb810c6ae86dd4",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 676,
+      "last_age": 676,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0xd2691da49448303bb786b32a375c71e2ff124bb36c0720acfa0c4fbc67914dba",
+      "public_fill_span": 0,
+      "qty": "100",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789707600"
+    },
+    {
+      "condition": "0x30c0e87b0381ffd22ac3ce6dd2e6549f38b5dc73176681a540fb810c6ae86dd4",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 637,
+      "last_age": 637,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 8,
+      "order_hash": "0xe37c33da1802e377259274d0cd22bcf743c4618b8a776b03f30d15b549dc9be5",
+      "public_fill_span": 0,
+      "qty": "126.518178",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789707600"
+    },
+    {
+      "condition": "0x30c0e87b0381ffd22ac3ce6dd2e6549f38b5dc73176681a540fb810c6ae86dd4",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 534,
+      "last_age": 534,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xf5bbaab9027fa7a700ea9c19bdbc1b012ca5905a59a550c550b533f8e9cb3ed0",
+      "public_fill_span": 0,
+      "qty": "12",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789707600"
+    },
+    {
+      "condition": "0x30c0e87b0381ffd22ac3ce6dd2e6549f38b5dc73176681a540fb810c6ae86dd4",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 216,
+      "last_age": 217,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 3,
+      "order_hash": "0xfb782356aeb35a7daa1b108d726ac650c8fc3482c11c42c16a040849be4a4b62",
+      "public_fill_span": 1,
+      "qty": "30",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789707600"
+    },
+    {
+      "condition": "0x46115394ffd40395ec9e766c615b5fbccbf7c3270ed9322d261677c626256194",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 535,
+      "last_age": 535,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x0eacf26c12b702cc80f7e0275d667d4c19b7d14c1448dcc53f598c85c16a9a28",
+      "public_fill_span": 0,
+      "qty": "57.692304",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789594200"
+    },
+    {
+      "condition": "0x46115394ffd40395ec9e766c615b5fbccbf7c3270ed9322d261677c626256194",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 580,
+      "last_age": 580,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0x1beae4e9d9bb39b3f6711726a437725894281ac326b84f713682cfbc6e3b287e",
+      "public_fill_span": 0,
+      "qty": "55",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789594200"
+    },
+    {
+      "condition": "0x46115394ffd40395ec9e766c615b5fbccbf7c3270ed9322d261677c626256194",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 628,
+      "last_age": 628,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x811a66d9f8b680301e6cb3068e3740e1244075795312507da38450eee3d8361c",
+      "public_fill_span": 0,
+      "qty": "1.136358",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789594200"
+    },
+    {
+      "condition": "0x46115394ffd40395ec9e766c615b5fbccbf7c3270ed9322d261677c626256194",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 642,
+      "last_age": 642,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xb7813af560df6f329a56c8a9ddc89b5e90ba66d9b8ff7be8e4f5bad483a8b988",
+      "public_fill_span": 0,
+      "qty": "300",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789594200"
+    },
+    {
+      "condition": "0x46115394ffd40395ec9e766c615b5fbccbf7c3270ed9322d261677c626256194",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 484,
+      "last_age": 486,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 6,
+      "order_hash": "0xba90bdb06724d507fb2f3b600dce558a0f69044bef892d46534f1e1c673d475f",
+      "public_fill_span": 2,
+      "qty": "149.62270",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789594200"
+    },
+    {
+      "condition": "0x472e2f74bc7238ebf45cc0aa0faf8a59132ff1f7a06d415d95bf16c1af9d9c6c",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 331,
+      "last_age": 340,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 3,
+      "order_hash": "0x172c830d3c2788fbf1cc0d39ac98bb4985dfe0be885964c0969f2f3fde53cd12",
+      "public_fill_span": 9,
+      "qty": "36.412836",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789686000"
+    },
+    {
+      "condition": "0x472e2f74bc7238ebf45cc0aa0faf8a59132ff1f7a06d415d95bf16c1af9d9c6c",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 282,
+      "last_age": 282,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x613909fc2a55a382cf5cd67eff9158e79656188df4d8c52bfe35d1fd7661d5ac",
+      "public_fill_span": 0,
+      "qty": "0.412703",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789686000"
+    },
+    {
+      "condition": "0x472e2f74bc7238ebf45cc0aa0faf8a59132ff1f7a06d415d95bf16c1af9d9c6c",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 699,
+      "last_age": 699,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x647bcc281820b3d7d3aebc5a0dbd8385bf1247c742301b157acd53d376bea27b",
+      "public_fill_span": 0,
+      "qty": "300",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789686000"
+    },
+    {
+      "condition": "0x472e2f74bc7238ebf45cc0aa0faf8a59132ff1f7a06d415d95bf16c1af9d9c6c",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 267,
+      "last_age": 271,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 5,
+      "order_hash": "0x875325767d5f5c51981e7a042fe57c9b84fab0dbb27fd7ed0ec7103087a16d48",
+      "public_fill_span": 4,
+      "qty": "38.813334",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789686000"
+    },
+    {
+      "condition": "0x472e2f74bc7238ebf45cc0aa0faf8a59132ff1f7a06d415d95bf16c1af9d9c6c",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 228,
+      "last_age": 228,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xe9e129755cbd7f3ee23275bc499e5a0bf8dca73dffc6df22c5cdd32f31d83ad1",
+      "public_fill_span": 0,
+      "qty": "30",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789686000"
+    },
+    {
+      "condition": "0x569b31230bd8d3ffb7da36f7da9fcef428395d5b3873a6faa1978858d3ca4eff",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 304,
+      "last_age": 304,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x11977f793ae39cf5cb1944a2b3e2a30a6855cf0297bf62b9673be0f7db772740",
+      "public_fill_span": 0,
+      "qty": "13.03",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789713900"
+    },
+    {
+      "condition": "0x569b31230bd8d3ffb7da36f7da9fcef428395d5b3873a6faa1978858d3ca4eff",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 841,
+      "last_age": 841,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x3b089986124d02f0027f58e8223d933a7a6742661319289d5680d5da8e3aeddc",
+      "public_fill_span": 0,
+      "qty": "150",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789713900"
+    },
+    {
+      "condition": "0x569b31230bd8d3ffb7da36f7da9fcef428395d5b3873a6faa1978858d3ca4eff",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 601,
+      "last_age": 601,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0x3b99c085c7b081fa15dbcc991d48f829e232042c9422ebe32eaf6cd3dd93c726",
+      "public_fill_span": 0,
+      "qty": "65",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789713900"
+    },
+    {
+      "condition": "0x569b31230bd8d3ffb7da36f7da9fcef428395d5b3873a6faa1978858d3ca4eff",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 831,
+      "last_age": 831,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0x7113008a938a3de3b576b19914ac11e08ee1a84bd5dd4787e0d2e1a8d6f9b0e0",
+      "public_fill_span": 0,
+      "qty": "150.00",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789713900"
+    },
+    {
+      "condition": "0x569b31230bd8d3ffb7da36f7da9fcef428395d5b3873a6faa1978858d3ca4eff",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 829,
+      "last_age": 829,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x7a3521b3964b28351f5bfcfd3ec03a924c5314a379a2a9aafec4335cefd6ada9",
+      "public_fill_span": 0,
+      "qty": "5",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789713900"
+    },
+    {
+      "condition": "0x569b31230bd8d3ffb7da36f7da9fcef428395d5b3873a6faa1978858d3ca4eff",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 837,
+      "last_age": 837,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 3,
+      "order_hash": "0x97a8fa6bb7f206cc9a38c23f003e912438c457883a6f6eb4a9f2eaaaed857d34",
+      "public_fill_span": 0,
+      "qty": "36.984286",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789713900"
+    },
+    {
+      "condition": "0x569b31230bd8d3ffb7da36f7da9fcef428395d5b3873a6faa1978858d3ca4eff",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 310,
+      "last_age": 310,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0xcf18b20b2d04c00ac67f41741c6585b467e454653cbb84a225af9b6cd843001d",
+      "public_fill_span": 0,
+      "qty": "1.544115",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789713900"
+    },
+    {
+      "condition": "0x569b31230bd8d3ffb7da36f7da9fcef428395d5b3873a6faa1978858d3ca4eff",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 820,
+      "last_age": 820,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xd5b34253f2776dade678a76c4da9c95aec173cf10b986bcbad7a43ddab66effe",
+      "public_fill_span": 0,
+      "qty": "79.57",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789713900"
+    },
+    {
+      "condition": "0x569b31230bd8d3ffb7da36f7da9fcef428395d5b3873a6faa1978858d3ca4eff",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 831,
+      "last_age": 831,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xdbc438d541e5bea140db7f85dd5ac97c6cefd2dccb55d68adbc4c47764f6f76b",
+      "public_fill_span": 0,
+      "qty": "11.67",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789713900"
+    },
+    {
+      "condition": "0x6e80ba130a25eb2b6288d8696722cd60b10a6ebe6f6fcd9fe57e2da8abc61408",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 244,
+      "last_age": 244,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x0c38ba925ec754a37fd86267bdfb4c8fcc5c85cbf4dbf57a036ee4b291a2ffcd",
+      "public_fill_span": 0,
+      "qty": "300",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789420500"
+    },
+    {
+      "condition": "0x6e80ba130a25eb2b6288d8696722cd60b10a6ebe6f6fcd9fe57e2da8abc61408",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 6,
+      "last_age": 6,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x8fea7bd585ac14d0aa10efb1bfd98ffb539406953f77e06448e1c54bd266dbff",
+      "public_fill_span": 0,
+      "qty": "14.09",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789420500"
+    },
+    {
+      "condition": "0x6e80ba130a25eb2b6288d8696722cd60b10a6ebe6f6fcd9fe57e2da8abc61408",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 633,
+      "last_age": 633,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xc3a128b5abc112d6cdeb9f0f96e4de37405344950b4841d68ab1454138ed950f",
+      "public_fill_span": 0,
+      "qty": "0.072464",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789420500"
+    },
+    {
+      "condition": "0x6e80ba130a25eb2b6288d8696722cd60b10a6ebe6f6fcd9fe57e2da8abc61408",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 667,
+      "last_age": 667,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xc647908866de6c7cee2bc9ac4b07acae331bbac1c226d3fef5789eed7885434f",
+      "public_fill_span": 0,
+      "qty": "300",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789420500"
+    },
+    {
+      "condition": "0x6e80ba130a25eb2b6288d8696722cd60b10a6ebe6f6fcd9fe57e2da8abc61408",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 207,
+      "last_age": 207,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xcb6b3a1592008cafccb3047c7125061c72d6355dad45ed8fe1a8168faa3438b5",
+      "public_fill_span": 0,
+      "qty": "12",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789420500"
+    },
+    {
+      "condition": "0x6e80ba130a25eb2b6288d8696722cd60b10a6ebe6f6fcd9fe57e2da8abc61408",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 666,
+      "last_age": 666,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xe4ffa88b416cf081e5c7d01df4e83a423baa6c88a5622b65b4752507fa5b3f7e",
+      "public_fill_span": 0,
+      "qty": "33.507691",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789420500"
+    },
+    {
+      "condition": "0x90eb4f9c7237c480c11a39479c8f710913a5a0dc441bbe2c4af706e693f51109",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 874,
+      "last_age": 876,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 3,
+      "order_hash": "0x3c945d0130e2d25ac1f9185ee4fafa62c8f447863936f6aa80445953791e1a20",
+      "public_fill_span": 2,
+      "qty": "62.85",
+      "roles": [
+        "maker",
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789537500"
+    },
+    {
+      "condition": "0x90eb4f9c7237c480c11a39479c8f710913a5a0dc441bbe2c4af706e693f51109",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 627,
+      "last_age": 627,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x4f1ad9566b0d47c3f0cd29d5c2c13c6bc19f0cc0c93dfbe973c4cb285080386f",
+      "public_fill_span": 0,
+      "qty": "22.77777",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789537500"
+    },
+    {
+      "condition": "0x90eb4f9c7237c480c11a39479c8f710913a5a0dc441bbe2c4af706e693f51109",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 856,
+      "last_age": 856,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 3,
+      "order_hash": "0x4f7d5901b20111f15f9e1f7b9b73c8334797c187efe7f7ed3547ca2cfa4c8004",
+      "public_fill_span": 0,
+      "qty": "38.705117",
+      "roles": [
+        "maker",
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789537500"
+    },
+    {
+      "condition": "0x90eb4f9c7237c480c11a39479c8f710913a5a0dc441bbe2c4af706e693f51109",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 856,
+      "last_age": 856,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x7e434c08071e6f74640df3097e7182c9b60f36e86dc883329c0479228f13ca49",
+      "public_fill_span": 0,
+      "qty": "72",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789537500"
+    },
+    {
+      "condition": "0x90eb4f9c7237c480c11a39479c8f710913a5a0dc441bbe2c4af706e693f51109",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 702,
+      "last_age": 702,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x97d21266e2b2b44f4510a29085c65015f6fcaa777aafd5216f3bc20fac203101",
+      "public_fill_span": 0,
+      "qty": "300",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789537500"
+    },
+    {
+      "condition": "0x90eb4f9c7237c480c11a39479c8f710913a5a0dc441bbe2c4af706e693f51109",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 531,
+      "last_age": 531,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0x9cc971ca7c988229a17e374498b2a1ed5c1467cc753d7dfbab6cc536a5f5008b",
+      "public_fill_span": 0,
+      "qty": "146.745163",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789537500"
+    },
+    {
+      "condition": "0x90eb4f9c7237c480c11a39479c8f710913a5a0dc441bbe2c4af706e693f51109",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 856,
+      "last_age": 856,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xa4df0bb419c5156327d5622662c04aad84052945aa0726c8bc06bbcc23148c63",
+      "public_fill_span": 0,
+      "qty": "34.56",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789537500"
+    },
+    {
+      "condition": "0x90eb4f9c7237c480c11a39479c8f710913a5a0dc441bbe2c4af706e693f51109",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 877,
+      "last_age": 877,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0xa78e7e45e5ec63c90a8aa281cb0f2ea36e655d6b6182fb7751a015583fe8cce0",
+      "public_fill_span": 0,
+      "qty": "82.803334",
+      "roles": [
+        "maker",
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789537500"
+    },
+    {
+      "condition": "0x90eb4f9c7237c480c11a39479c8f710913a5a0dc441bbe2c4af706e693f51109",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 301,
+      "last_age": 306,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 10,
+      "order_hash": "0xc3e4ec2625483347633e71dbe3e6473e12f206a2bb3a50b56359cdaad0b0c612",
+      "public_fill_span": 5,
+      "qty": "68.558811",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789537500"
+    },
+    {
+      "condition": "0x90eb4f9c7237c480c11a39479c8f710913a5a0dc441bbe2c4af706e693f51109",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 850,
+      "last_age": 850,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 5,
+      "order_hash": "0xe0e641698b1c445e6010709b1916c5649f157b2e35d85178ff26c9051f58a15c",
+      "public_fill_span": 0,
+      "qty": "149.985791",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789537500"
+    },
+    {
+      "condition": "0x9468ce6f08dc3501a53bb9bc584e91fae703d65f2f94ae8cc7cf03fbfd0fe52f",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 562,
+      "last_age": 562,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 6,
+      "order_hash": "0x128461ba545f478fb48ead09caf4a234318f5ab2d9b4d35734dbf969d8779430",
+      "public_fill_span": 0,
+      "qty": "299.993328",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789752600"
+    },
+    {
+      "condition": "0x9468ce6f08dc3501a53bb9bc584e91fae703d65f2f94ae8cc7cf03fbfd0fe52f",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 484,
+      "last_age": 484,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0x7c1e6bbae040183364750bded32027a41e2e6ec2adf4489a2161bba25a96ae09",
+      "public_fill_span": 0,
+      "qty": "63",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789752600"
+    },
+    {
+      "condition": "0x9468ce6f08dc3501a53bb9bc584e91fae703d65f2f94ae8cc7cf03fbfd0fe52f",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 861,
+      "last_age": 861,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xa3b435241308e0c23db432ec5b6495756af00649a7e00b64536605c9727a6d89",
+      "public_fill_span": 0,
+      "qty": "300",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789752600"
+    },
+    {
+      "condition": "0x9468ce6f08dc3501a53bb9bc584e91fae703d65f2f94ae8cc7cf03fbfd0fe52f",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 541,
+      "last_age": 541,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xb1d14894dc14d1d70d80e2d8b841fabe11ffd5b59f6c98c33bfa2c668246b93f",
+      "public_fill_span": 0,
+      "qty": "43.75",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789752600"
+    },
+    {
+      "condition": "0x94759769b9e77ba01740778a4de4233f88b1d097537ec855f8387fca277eba5d",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 739,
+      "last_age": 739,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x38a728d43ff9064057f20f5e55365d1ad97e1af2182fbbb472974e384374af74",
+      "public_fill_span": 0,
+      "qty": "150",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789686900"
+    },
+    {
+      "condition": "0x94759769b9e77ba01740778a4de4233f88b1d097537ec855f8387fca277eba5d",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 870,
+      "last_age": 871,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 3,
+      "order_hash": "0x5533d2c56b994e022e8578b356fc67fd7616a794396e57868ff1890f99814a7f",
+      "public_fill_span": 1,
+      "qty": "104.5804",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789686900"
+    },
+    {
+      "condition": "0x94759769b9e77ba01740778a4de4233f88b1d097537ec855f8387fca277eba5d",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 822,
+      "last_age": 822,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x95d4ca4830cb0d077044e97862257a5c5dac3452611a36066ce14f96e7cf3f2c",
+      "public_fill_span": 0,
+      "qty": "150",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789686900"
+    },
+    {
+      "condition": "0x94759769b9e77ba01740778a4de4233f88b1d097537ec855f8387fca277eba5d",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 676,
+      "last_age": 676,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xc2061457f5fb06799174725e23a09880250d547dee31bb8a675e1127918b625c",
+      "public_fill_span": 0,
+      "qty": "150",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789686900"
+    },
+    {
+      "condition": "0x94759769b9e77ba01740778a4de4233f88b1d097537ec855f8387fca277eba5d",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 778,
+      "last_age": 778,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xe6e95f07ec22e7e5c585e399f71b9c73b18308df4b6e5658048bd09a02e1b25e",
+      "public_fill_span": 0,
+      "qty": "150",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789686900"
+    },
+    {
+      "condition": "0x9a4c0a037b06d45b82c44ca49fc5a479c9d6cd14334405c1f4ba202e8e43633b",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 640,
+      "last_age": 640,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x03657531f0772b97e737f231d98a818ef308b343168124a5b9b032b544de11bf",
+      "public_fill_span": 0,
+      "qty": "104.137379",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789583400"
+    },
+    {
+      "condition": "0x9a4c0a037b06d45b82c44ca49fc5a479c9d6cd14334405c1f4ba202e8e43633b",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 603,
+      "last_age": 603,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x1d182065d1640f23a88d8f6f301580ba68c5038048a06da4ff4592571421127c",
+      "public_fill_span": 0,
+      "qty": "47",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789583400"
+    },
+    {
+      "condition": "0x9a4c0a037b06d45b82c44ca49fc5a479c9d6cd14334405c1f4ba202e8e43633b",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 729,
+      "last_age": 729,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x2894b2d61d0088b1027f1421125989cfe0d99f38262ef0da408a34442a35d388",
+      "public_fill_span": 0,
+      "qty": "225.64",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789583400"
+    },
+    {
+      "condition": "0x9a4c0a037b06d45b82c44ca49fc5a479c9d6cd14334405c1f4ba202e8e43633b",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 705,
+      "last_age": 706,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0x2b37c1dcd46bb105d8c162b84a28391680a49b4bf728e3728501d864fd2ceedc",
+      "public_fill_span": 1,
+      "qty": "59.952016",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789583400"
+    },
+    {
+      "condition": "0x9a4c0a037b06d45b82c44ca49fc5a479c9d6cd14334405c1f4ba202e8e43633b",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 724,
+      "last_age": 724,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x5b29e48f2163e456696f9101d4ee1f2b04fc87b462752e77258a077bd44eadc6",
+      "public_fill_span": 0,
+      "qty": "5",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789583400"
+    },
+    {
+      "condition": "0x9a4c0a037b06d45b82c44ca49fc5a479c9d6cd14334405c1f4ba202e8e43633b",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 573,
+      "last_age": 573,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x6bfcca127c72c34c5e48a423cb1e668d444c001dfe7e5ff9256f639b79769708",
+      "public_fill_span": 0,
+      "qty": "202.02",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789583400"
+    },
+    {
+      "condition": "0x9a4c0a037b06d45b82c44ca49fc5a479c9d6cd14334405c1f4ba202e8e43633b",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 736,
+      "last_age": 736,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xa24cb13c1f59dcd75cfaebfda1ed5952ab147e43ad683a14fd67aa08b1cb6722",
+      "public_fill_span": 0,
+      "qty": "16.66",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789583400"
+    },
+    {
+      "condition": "0x9a4c0a037b06d45b82c44ca49fc5a479c9d6cd14334405c1f4ba202e8e43633b",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 606,
+      "last_age": 607,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0xb83ed8648499590d088ab4dccb67216a070e4d3ff5f8c824bfe8d050e18cf75e",
+      "public_fill_span": 1,
+      "qty": "47.839954",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789583400"
+    },
+    {
+      "condition": "0x9a4c0a037b06d45b82c44ca49fc5a479c9d6cd14334405c1f4ba202e8e43633b",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 510,
+      "last_age": 510,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0xbc633cb546868a50185c4242e6489b8ccf2af35345dab87ae766b3e45ff36522",
+      "public_fill_span": 0,
+      "qty": "22.340426",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789583400"
+    },
+    {
+      "condition": "0x9a4c0a037b06d45b82c44ca49fc5a479c9d6cd14334405c1f4ba202e8e43633b",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 504,
+      "last_age": 504,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xbe3cf6f13b260198329729bea6d603d527793a30f86102cdfdd202b191ec1b1a",
+      "public_fill_span": 0,
+      "qty": "129.68254",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789583400"
+    },
+    {
+      "condition": "0x9a4c0a037b06d45b82c44ca49fc5a479c9d6cd14334405c1f4ba202e8e43633b",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 612,
+      "last_age": 612,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xc6cd710c598a3c720306a11893d7eb945c2d3b13ee4a6bb75639a3d766d98e4c",
+      "public_fill_span": 0,
+      "qty": "102.63",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789583400"
+    },
+    {
+      "condition": "0x9a4c0a037b06d45b82c44ca49fc5a479c9d6cd14334405c1f4ba202e8e43633b",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 513,
+      "last_age": 513,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xd567fd43740316accbcb5288588e35cee64d193115182abe0b2febc1e09978ff",
+      "public_fill_span": 0,
+      "qty": "50",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789583400"
+    },
+    {
+      "condition": "0x9a4c0a037b06d45b82c44ca49fc5a479c9d6cd14334405c1f4ba202e8e43633b",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 583,
+      "last_age": 583,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xef6adab504106d287cae788138f9b784bb2fd546211e7d9629127d1b48877748",
+      "public_fill_span": 0,
+      "qty": "47",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789583400"
+    },
+    {
+      "condition": "0xba205b151130dca311cbb1559157db72797a84af718e580438616951716302de",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 816,
+      "last_age": 816,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x166e11f7d6f9d295c2ba962c25745a756a4d6afabf80b4732f6483d7da5b2dd0",
+      "public_fill_span": 0,
+      "qty": "10",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789528500"
+    },
+    {
+      "condition": "0xba205b151130dca311cbb1559157db72797a84af718e580438616951716302de",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 285,
+      "last_age": 288,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 3,
+      "order_hash": "0x1ce7a5f3c8772af9af9e8ed393e4cd2bd2293ca94041e3f59effd005e46d9e88",
+      "public_fill_span": 3,
+      "qty": "15.326664",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789528500"
+    },
+    {
+      "condition": "0xba205b151130dca311cbb1559157db72797a84af718e580438616951716302de",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 802,
+      "last_age": 802,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xabae081175aae26394247f6edac8ac0606f91581bd2b134ea6d484bfdb2ee850",
+      "public_fill_span": 0,
+      "qty": "13",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789528500"
+    },
+    {
+      "condition": "0xc4d907477ad16a587a20879c15da64be2c8edb8a6b5c9a3f32f633cf49544dd7",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 696,
+      "last_age": 696,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0x36a5dc4a9ab92bc08379cda53acaf758fb86965301ba85adc7b01056da241823",
+      "public_fill_span": 0,
+      "qty": "149.998824",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789372800"
+    },
+    {
+      "condition": "0xc5b1c9dc06ad0b0291fbb4c2b4de25d9b75b66f5f1dad555e7d767127afa36c5",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 67,
+      "last_age": 67,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x04f26411c71573de4ed103ff3ccde571c75f522b59727787cf77ee94a2a88a4b",
+      "public_fill_span": 0,
+      "qty": "150",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789641000"
+    },
+    {
+      "condition": "0xc5b1c9dc06ad0b0291fbb4c2b4de25d9b75b66f5f1dad555e7d767127afa36c5",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 828,
+      "last_age": 828,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x1c546b1ad6a74438955d0fea12548a24676d73a7d835c050d42ce8db92ce680b",
+      "public_fill_span": 0,
+      "qty": "127",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789641000"
+    },
+    {
+      "condition": "0xc5b1c9dc06ad0b0291fbb4c2b4de25d9b75b66f5f1dad555e7d767127afa36c5",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 837,
+      "last_age": 837,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x27585034e2422fd3d528fbd9a6805c2a605b64e50c184284512baa1817fda48f",
+      "public_fill_span": 0,
+      "qty": "19",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789641000"
+    },
+    {
+      "condition": "0xc5b1c9dc06ad0b0291fbb4c2b4de25d9b75b66f5f1dad555e7d767127afa36c5",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 288,
+      "last_age": 288,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x4757de90839500042527e7fe56300d9fc98f22d8574153d496b9f65257c0d2ee",
+      "public_fill_span": 0,
+      "qty": "11.04762",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789641000"
+    },
+    {
+      "condition": "0xc5b1c9dc06ad0b0291fbb4c2b4de25d9b75b66f5f1dad555e7d767127afa36c5",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 757,
+      "last_age": 757,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x5ecc0ae55897c305debfa728649055938a98dd0911d5fe0136997854f698ddb6",
+      "public_fill_span": 0,
+      "qty": "140.702128",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789641000"
+    },
+    {
+      "condition": "0xc5b1c9dc06ad0b0291fbb4c2b4de25d9b75b66f5f1dad555e7d767127afa36c5",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 711,
+      "last_age": 711,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x65968ac4bd777401b68a0f50088c91886c987322155af5defcfe5c4e7aa006ad",
+      "public_fill_span": 0,
+      "qty": "150",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789641000"
+    },
+    {
+      "condition": "0xc5b1c9dc06ad0b0291fbb4c2b4de25d9b75b66f5f1dad555e7d767127afa36c5",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 397,
+      "last_age": 397,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x9bf867f812ba88ebb31515a5e9a94aeb0cae125ca98ac7907dc0e661939adf17",
+      "public_fill_span": 0,
+      "qty": "150",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789641000"
+    },
+    {
+      "condition": "0xc5b1c9dc06ad0b0291fbb4c2b4de25d9b75b66f5f1dad555e7d767127afa36c5",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 18,
+      "last_age": 18,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xc891b96179375aa12888314c4ebc47a8bd3beb93319c5b8d18c6a8f1abd8b57d",
+      "public_fill_span": 0,
+      "qty": "150",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789641000"
+    },
+    {
+      "condition": "0xc5b1c9dc06ad0b0291fbb4c2b4de25d9b75b66f5f1dad555e7d767127afa36c5",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 10,
+      "last_age": 10,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xd46202d4d478e516d775e8826dcc8ad61d850a6bd986320fd533e5554758f090",
+      "public_fill_span": 0,
+      "qty": "5.55",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789641000"
+    },
+    {
+      "condition": "0xde6e0ebf5b4085c13973e8285746d6d4812b5e6dd5507820bf3f1502c9d5dfa9",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 846,
+      "last_age": 846,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x0e300251b8d6b16e0bb62b69e1c36e588bb3313a2e46ead18796deb58574ebcf",
+      "public_fill_span": 0,
+      "qty": "35.16",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789775100"
+    },
+    {
+      "condition": "0xde6e0ebf5b4085c13973e8285746d6d4812b5e6dd5507820bf3f1502c9d5dfa9",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 861,
+      "last_age": 861,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x124ff671d2d28c24b1746f0e2f62eb0e5ac2e0d4d2b0e2a9630ae18d7ca8b527",
+      "public_fill_span": 0,
+      "qty": "88.65",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789775100"
+    },
+    {
+      "condition": "0xde6e0ebf5b4085c13973e8285746d6d4812b5e6dd5507820bf3f1502c9d5dfa9",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 840,
+      "last_age": 841,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 3,
+      "order_hash": "0x38721b79243102a0fb244f3df0b12ffeb6f250abeb2336b340275ffcb50a3788",
+      "public_fill_span": 1,
+      "qty": "41",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789775100"
+    },
+    {
+      "condition": "0xde6e0ebf5b4085c13973e8285746d6d4812b5e6dd5507820bf3f1502c9d5dfa9",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 775,
+      "last_age": 775,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x3acdacf5506f3a090c0d1e22ee7f0528abc930f64748e3f3ca46e092a6ffcaed",
+      "public_fill_span": 0,
+      "qty": "141.163334",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789775100"
+    },
+    {
+      "condition": "0xde6e0ebf5b4085c13973e8285746d6d4812b5e6dd5507820bf3f1502c9d5dfa9",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 691,
+      "last_age": 693,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0x40c997e7d1c78ba264fe8b528baa652e323a1858d3290fa50582bea95edcf2f3",
+      "public_fill_span": 2,
+      "qty": "13.115097",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789775100"
+    },
+    {
+      "condition": "0xde6e0ebf5b4085c13973e8285746d6d4812b5e6dd5507820bf3f1502c9d5dfa9",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 730,
+      "last_age": 730,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x5947f00fb4c363da8062b442e7b063889dbec05fdb367fe03bb7c4a83b392043",
+      "public_fill_span": 0,
+      "qty": "100",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789775100"
+    },
+    {
+      "condition": "0xde6e0ebf5b4085c13973e8285746d6d4812b5e6dd5507820bf3f1502c9d5dfa9",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 840,
+      "last_age": 841,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0x66d1362c2154e521b3703d4c5be819d78c7e15c9f8ede68d22e4a3bf7011de39",
+      "public_fill_span": 1,
+      "qty": "65",
+      "roles": [
+        "maker",
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789775100"
+    },
+    {
+      "condition": "0xde6e0ebf5b4085c13973e8285746d6d4812b5e6dd5507820bf3f1502c9d5dfa9",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 858,
+      "last_age": 858,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x68d0e1dd787f06bef4a0433bcabacd3d7f975260d7f9c4d26a3baaa7b8b7d934",
+      "public_fill_span": 0,
+      "qty": "150",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789775100"
+    },
+    {
+      "condition": "0xde6e0ebf5b4085c13973e8285746d6d4812b5e6dd5507820bf3f1502c9d5dfa9",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 828,
+      "last_age": 828,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x6fbced67b052ccde576d885f236aa0f0eb1b07faceeaec8e8d6311d5a6df79b6",
+      "public_fill_span": 0,
+      "qty": "150",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789775100"
+    },
+    {
+      "condition": "0xde6e0ebf5b4085c13973e8285746d6d4812b5e6dd5507820bf3f1502c9d5dfa9",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 10,
+      "last_age": 19,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 4,
+      "order_hash": "0x8c699a9d477a0e8d869e4a946e51a7ad88ab06ee1c675c868aa9f69c0eda92c7",
+      "public_fill_span": 9,
+      "qty": "149.996667",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789775100"
+    },
+    {
+      "condition": "0xde6e0ebf5b4085c13973e8285746d6d4812b5e6dd5507820bf3f1502c9d5dfa9",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 630,
+      "last_age": 630,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 3,
+      "order_hash": "0xa09bc780c300bc78ff95f6671de92dbe5b266551419e5d2cbb417c3b08eb713b",
+      "public_fill_span": 0,
+      "qty": "150.00",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789775100"
+    },
+    {
+      "condition": "0xde6e0ebf5b4085c13973e8285746d6d4812b5e6dd5507820bf3f1502c9d5dfa9",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 705,
+      "last_age": 705,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xad1ae4d71befaa7cd7995d1a0a576bb13633aa7f76ceebbd6406aab1abc3c048",
+      "public_fill_span": 0,
+      "qty": "100",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789775100"
+    },
+    {
+      "condition": "0xde6e0ebf5b4085c13973e8285746d6d4812b5e6dd5507820bf3f1502c9d5dfa9",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 714,
+      "last_age": 714,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xe05d949c98c82ed33c9781f5138902facf9260381f3ee4b45d3ed0fb76c9686c",
+      "public_fill_span": 0,
+      "qty": "53",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789775100"
+    },
+    {
+      "condition": "0xde6e0ebf5b4085c13973e8285746d6d4812b5e6dd5507820bf3f1502c9d5dfa9",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 724,
+      "last_age": 724,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0xe29dd537e2949f4d16567b2dd34f41c618445e782d583878162bfcac29025924",
+      "public_fill_span": 0,
+      "qty": "51",
+      "roles": [
+        "maker",
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789775100"
+    },
+    {
+      "condition": "0xde6e0ebf5b4085c13973e8285746d6d4812b5e6dd5507820bf3f1502c9d5dfa9",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 834,
+      "last_age": 834,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xeaf8f4b898df231f8b80306ddf991c0e7de1eb72f08a65a0a314004596c18d28",
+      "public_fill_span": 0,
+      "qty": "150",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789775100"
+    },
+    {
+      "condition": "0xde6e0ebf5b4085c13973e8285746d6d4812b5e6dd5507820bf3f1502c9d5dfa9",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 735,
+      "last_age": 735,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xf59f81e3c052b0ee8174bdca03d696c07bfb31b90b190324bc93ac3b77ec3aff",
+      "public_fill_span": 0,
+      "qty": "9.11",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789775100"
+    },
+    {
+      "condition": "0xe03189b2347ef342f5b2c6ca5b02dea2cfef068b78725e3053d1fabf0ed12540",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 604,
+      "last_age": 604,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x1589ac91b8d46b1de833de0400d82bf0f8fde3f3514096355e0ca272b14f0ecd",
+      "public_fill_span": 0,
+      "qty": "232.1",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789564500"
+    },
+    {
+      "condition": "0xe03189b2347ef342f5b2c6ca5b02dea2cfef068b78725e3053d1fabf0ed12540",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 279,
+      "last_age": 279,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x1f57557f0436b3761412c4611db011de114a46b7a98680706a8bec3d8e32317d",
+      "public_fill_span": 0,
+      "qty": "68.96",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789564500"
+    },
+    {
+      "condition": "0xe03189b2347ef342f5b2c6ca5b02dea2cfef068b78725e3053d1fabf0ed12540",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 855,
+      "last_age": 855,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0x29315846b84dc4200ac99fe70e03a0f3b13fb1cece0c52dc9c26ec2f0093494c",
+      "public_fill_span": 0,
+      "qty": "21.786884",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789564500"
+    },
+    {
+      "condition": "0xe03189b2347ef342f5b2c6ca5b02dea2cfef068b78725e3053d1fabf0ed12540",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 321,
+      "last_age": 321,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x3c8a42a1ba3cb13cab8573e281cf4343b745645041a1492624b48ce7cb4a4acd",
+      "public_fill_span": 0,
+      "qty": "68.96",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789564500"
+    },
+    {
+      "condition": "0xe03189b2347ef342f5b2c6ca5b02dea2cfef068b78725e3053d1fabf0ed12540",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 670,
+      "last_age": 670,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x99df1a0c2e3f41c220d85312e03dae53e15608d00c5d86953192a52d9f542bba",
+      "public_fill_span": 0,
+      "qty": "112.1",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789564500"
+    },
+    {
+      "condition": "0xe03189b2347ef342f5b2c6ca5b02dea2cfef068b78725e3053d1fabf0ed12540",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 669,
+      "last_age": 669,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xa7e798c87623295b2ad98113d71ea9413fe98fd5e39912751b9619f151d32a12",
+      "public_fill_span": 0,
+      "qty": "120",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789564500"
+    },
+    {
+      "condition": "0xe03189b2347ef342f5b2c6ca5b02dea2cfef068b78725e3053d1fabf0ed12540",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 849,
+      "last_age": 849,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 6,
+      "order_hash": "0xb8bcb2e5a076d6906467b2f020a7298f02775af1ed86369105cf03a1abf1a314",
+      "public_fill_span": 0,
+      "qty": "300",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789564500"
+    },
+    {
+      "condition": "0xe03189b2347ef342f5b2c6ca5b02dea2cfef068b78725e3053d1fabf0ed12540",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 777,
+      "last_age": 777,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xc7c79d52f9892153f4763bb7d6cce615aa1bd9966e175f3f57014d0efe39c5db",
+      "public_fill_span": 0,
+      "qty": "185.09",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789564500"
+    },
+    {
+      "condition": "0xe03189b2347ef342f5b2c6ca5b02dea2cfef068b78725e3053d1fabf0ed12540",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 778,
+      "last_age": 778,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xd4f54c558523d8c86f782420eb013106f3b9a4c7c3ea50b48e9706d4abd72e9a",
+      "public_fill_span": 0,
+      "qty": "76",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789564500"
+    },
+    {
+      "condition": "0xecbb4eb9bfbf52943610100c24e2930c281b97cc9144f52dde5070ad411c6491",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 838,
+      "last_age": 838,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x0780609a634787acac4e7a06287a2d93905463b9b7d86fa66d7ecb6916d31292",
+      "public_fill_span": 0,
+      "qty": "872.12",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789680600"
+    },
+    {
+      "condition": "0xecbb4eb9bfbf52943610100c24e2930c281b97cc9144f52dde5070ad411c6491",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 382,
+      "last_age": 382,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x107e84e45878656499e7fe0e76fe8ad8d6ba04fc4c1fdfd138b6cdc2978620c8",
+      "public_fill_span": 0,
+      "qty": "388.18",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789680600"
+    },
+    {
+      "condition": "0xecbb4eb9bfbf52943610100c24e2930c281b97cc9144f52dde5070ad411c6491",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 373,
+      "last_age": 373,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x1617fb6bbefe42970f5bee15254ebc0b4a871657f041d404565c07532efaf4b4",
+      "public_fill_span": 0,
+      "qty": "300",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789680600"
+    },
+    {
+      "condition": "0xecbb4eb9bfbf52943610100c24e2930c281b97cc9144f52dde5070ad411c6491",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 543,
+      "last_age": 544,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0x407e962305f55d73837776254d97b83d5738a8fc624169c97ba1fbca23590307",
+      "public_fill_span": 1,
+      "qty": "32.894737",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789680600"
+    },
+    {
+      "condition": "0xecbb4eb9bfbf52943610100c24e2930c281b97cc9144f52dde5070ad411c6491",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 705,
+      "last_age": 705,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x9cb843891a51cb7144a052f741cd2bd957b73395bb5714546c15226da41fb7db",
+      "public_fill_span": 0,
+      "qty": "165.2",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789680600"
+    },
+    {
+      "condition": "0xecbb4eb9bfbf52943610100c24e2930c281b97cc9144f52dde5070ad411c6491",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 718,
+      "last_age": 718,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xa18f1b9c922bebb535e5af094598ca1a9a6666f93ff01f4a2d000a8dfb6ad741",
+      "public_fill_span": 0,
+      "qty": "300",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789680600"
+    },
+    {
+      "condition": "0xecbb4eb9bfbf52943610100c24e2930c281b97cc9144f52dde5070ad411c6491",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 708,
+      "last_age": 708,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xe859c44576448eb5fddbd5ecfe58ba1d822e68ef00afff0d3a50191412cbb79c",
+      "public_fill_span": 0,
+      "qty": "300",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789680600"
+    },
+    {
+      "condition": "0xecbb4eb9bfbf52943610100c24e2930c281b97cc9144f52dde5070ad411c6491",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 81,
+      "last_age": 88,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 3,
+      "order_hash": "0xeb53adcc1b87a0401a2c2aad66d8a1debf6aaa2dd918eb87b55fbcd81fab3c80",
+      "public_fill_span": 7,
+      "qty": "88.184325",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789680600"
+    },
+    {
+      "condition": "0xecbb4eb9bfbf52943610100c24e2930c281b97cc9144f52dde5070ad411c6491",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 711,
+      "last_age": 711,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0xfb40d830f0dad9b793718d8d82cded25af54bf265030ba5348570d1f51fd05a0",
+      "public_fill_span": 0,
+      "qty": "258.93",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789680600"
+    },
+    {
+      "condition": "0xf2a74c8954d8769f17bac22e357422717c2e5f3d5f79b973ef194465b8d08589",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 802,
+      "last_age": 802,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x0d9975b7160ab029bbc5b69536ba0bce4e40905e1e6a69de8a4d1580a301b3f5",
+      "public_fill_span": 0,
+      "qty": "150",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789530300"
+    },
+    {
+      "condition": "0xf2a74c8954d8769f17bac22e357422717c2e5f3d5f79b973ef194465b8d08589",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 552,
+      "last_age": 553,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 3,
+      "order_hash": "0x1129472e80cc007b17dc0390b416e0a78225d4b95f33c7e0dbaca20eba9c52db",
+      "public_fill_span": 1,
+      "qty": "20.666924",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789530300"
+    },
+    {
+      "condition": "0xf2a74c8954d8769f17bac22e357422717c2e5f3d5f79b973ef194465b8d08589",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 772,
+      "last_age": 772,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x156cd0cda90140985db436129a29cb02838d8e61d3ced6f7fb2c332d2a7935f0",
+      "public_fill_span": 0,
+      "qty": "150",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789530300"
+    },
+    {
+      "condition": "0xf2a74c8954d8769f17bac22e357422717c2e5f3d5f79b973ef194465b8d08589",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 751,
+      "last_age": 751,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x2ce5d503559d132aa2da9f83fabb59c200e714a09d1163b4b7c412621f653cff",
+      "public_fill_span": 0,
+      "qty": "22",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789530300"
+    },
+    {
+      "condition": "0xf2a74c8954d8769f17bac22e357422717c2e5f3d5f79b973ef194465b8d08589",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 693,
+      "last_age": 693,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x305de189832262dc58d00f1839621abad76b3202322e5b8d2ef2e2e576e20172",
+      "public_fill_span": 0,
+      "qty": "99.78",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789530300"
+    },
+    {
+      "condition": "0xf2a74c8954d8769f17bac22e357422717c2e5f3d5f79b973ef194465b8d08589",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 709,
+      "last_age": 709,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x3901807895937b4009061b9f6b15e1e11d1dc428a4c870a58f326bc79eda91f0",
+      "public_fill_span": 0,
+      "qty": "127",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789530300"
+    },
+    {
+      "condition": "0xf2a74c8954d8769f17bac22e357422717c2e5f3d5f79b973ef194465b8d08589",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 535,
+      "last_age": 535,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x3fa77eb5191140c83ec2e1e4bda632ca41f9cea0c61b1d1febeef0cf9d59cb5b",
+      "public_fill_span": 0,
+      "qty": "3.081082",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789530300"
+    },
+    {
+      "condition": "0xf2a74c8954d8769f17bac22e357422717c2e5f3d5f79b973ef194465b8d08589",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 733,
+      "last_age": 735,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0xb7acd5eb95c124714ceffc29a69ddcf6ec3272ee154d7d8d9b4a9c532882f8a6",
+      "public_fill_span": 2,
+      "qty": "10",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789530300"
+    },
+    {
+      "condition": "0xf2a74c8954d8769f17bac22e357422717c2e5f3d5f79b973ef194465b8d08589",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 651,
+      "last_age": 651,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xcae2c431c930f2202832c8da47c30cc5f73e39debb7002e5a89dcfaa6a4318dd",
+      "public_fill_span": 0,
+      "qty": "109.87",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789530300"
+    },
+    {
+      "condition": "0xf2a74c8954d8769f17bac22e357422717c2e5f3d5f79b973ef194465b8d08589",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 559,
+      "last_age": 561,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 6,
+      "order_hash": "0xef9420c339783fcde7d4795f44d42aab5890032b968c30cae11703bb74e27ecf",
+      "public_fill_span": 2,
+      "qty": "86.126667",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789530300"
+    },
+    {
+      "condition": "0xf4702daaff27e0d206206fb70c18b3a18d061db8035a3862bf6c478c758ee12e",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 79,
+      "last_age": 81,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 2,
+      "order_hash": "0x021d3a806d7efa6527c33336f55d69f0807f3943ea81e2f002125935fb3c95e1",
+      "public_fill_span": 2,
+      "qty": "11.594575",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789708500"
+    },
+    {
+      "condition": "0xf4702daaff27e0d206206fb70c18b3a18d061db8035a3862bf6c478c758ee12e",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 375,
+      "last_age": 375,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x05af0b9102d5686435ff293176a2d0bd9a6d2f214ca3cd3c86a57dd327eb47d4",
+      "public_fill_span": 0,
+      "qty": "12.5",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789708500"
+    },
+    {
+      "condition": "0xf4702daaff27e0d206206fb70c18b3a18d061db8035a3862bf6c478c758ee12e",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 843,
+      "last_age": 843,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x0ff5bd80d37fe9b31ec5820d0143bb14a5371aacc6d9a9fdf22aa58dbfc05ad4",
+      "public_fill_span": 0,
+      "qty": "300",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789708500"
+    },
+    {
+      "condition": "0xf4702daaff27e0d206206fb70c18b3a18d061db8035a3862bf6c478c758ee12e",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 835,
+      "last_age": 835,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x25154acae34e371127bcbd44eaf9bea192915c928fc99279d9d65d077742bfc0",
+      "public_fill_span": 0,
+      "qty": "300",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789708500"
+    },
+    {
+      "condition": "0xf4702daaff27e0d206206fb70c18b3a18d061db8035a3862bf6c478c758ee12e",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 834,
+      "last_age": 834,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x4cce39da425bed7d786600134849414feeed27a6bd6c08494c33f3b389cb0072",
+      "public_fill_span": 0,
+      "qty": "120",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789708500"
+    },
+    {
+      "condition": "0xf4702daaff27e0d206206fb70c18b3a18d061db8035a3862bf6c478c758ee12e",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 847,
+      "last_age": 847,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x55ff4ca6fa0ff1592c7fee853b802a997a22695b11dae28379eff799b79d1b83",
+      "public_fill_span": 0,
+      "qty": "15",
+      "roles": [
+        "taker"
+      ],
+      "slug": "btc-updown-15m-1789708500"
+    },
+    {
+      "condition": "0xf4702daaff27e0d206206fb70c18b3a18d061db8035a3862bf6c478c758ee12e",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 834,
+      "last_age": 834,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 3,
+      "order_hash": "0x634e2f62e4810e728b0e168730446041eb7651f5718b54f98a2102473f4fc135",
+      "public_fill_span": 0,
+      "qty": "32",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789708500"
+    },
+    {
+      "condition": "0xf4702daaff27e0d206206fb70c18b3a18d061db8035a3862bf6c478c758ee12e",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 832,
+      "last_age": 832,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x6ba784abc362f65f0f33b0a3d6130ef6e56444a3ed68b29cceb5ce68b938c941",
+      "public_fill_span": 0,
+      "qty": "0.56",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789708500"
+    },
+    {
+      "condition": "0xf4702daaff27e0d206206fb70c18b3a18d061db8035a3862bf6c478c758ee12e",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 823,
+      "last_age": 823,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x6e1a5daeba6c2d5243d94fb21ca48d990dd0cca1cd324ebd04bf61b7c51f8106",
+      "public_fill_span": 0,
+      "qty": "232.16",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789708500"
+    },
+    {
+      "condition": "0xf4702daaff27e0d206206fb70c18b3a18d061db8035a3862bf6c478c758ee12e",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 522,
+      "last_age": 522,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0x8f23f6b7ac7c273f3421f3b9dc8165dd66beb9511f2cec58b0a8ceeb2d3238df",
+      "public_fill_span": 0,
+      "qty": "50",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789708500"
+    },
+    {
+      "condition": "0xf4702daaff27e0d206206fb70c18b3a18d061db8035a3862bf6c478c758ee12e",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 400,
+      "last_age": 400,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 1,
+      "order_hash": "0xa0331590284c3b8d249817692e9f0f175c0d92dedd77411d7e4a055a58ef5a78",
+      "public_fill_span": 0,
+      "qty": "4.16",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789708500"
+    },
+    {
+      "condition": "0xf4702daaff27e0d206206fb70c18b3a18d061db8035a3862bf6c478c758ee12e",
+      "exchange": "0xe111180000d2663c0091e4f400237545b87b996b",
+      "first_age": 852,
+      "last_age": 852,
+      "note": "Observed sample only; no claim that first fill equals order submission.",
+      "observed_fills": 17,
+      "order_hash": "0xbf23b3fb1b0b5bef6988026524c8cfc4650de7557828fe7e8d3d4134f7f18fa8",
+      "public_fill_span": 0,
+      "qty": "173.978479",
+      "roles": [
+        "maker"
+      ],
+      "slug": "btc-updown-15m-1789708500"
+    }
+  ],
+  "summary": {
+    "btc15_rows": 283,
+    "excluded_other_official_groups": {
+      "btc_1h": 20
+    },
+    "first_submit_clock_available": 0,
+    "historical_complete": 19,
+    "markets": 19,
+    "matched_clock_available": 0,
+    "note": "Selected diagnostic cohort, not population maker/parent frequency estimate.",
+    "parents": 157,
+    "roles": {
+      "maker": 242,
+      "taker": 41
+    },
+    "source_rows": 303
+  }
+}

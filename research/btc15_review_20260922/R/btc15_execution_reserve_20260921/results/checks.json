@@ -1,0 +1,22 @@
+{
+  "checks": [
+    "delayed partial fill keeps reserved cash and separate learning clock",
+    "physical fills cannot precede assumed acceptance",
+    "post-only crossing is rejected using arrival book, not decision bid",
+    "fill during cancel transit reconciles once despite later notification",
+    "cancelled venue order cannot fill while client awaits final status",
+    "equal source and lifecycle timestamps remain explicitly uncertain",
+    "repeated real-path hedges respect cash, net, loss, clip and reconciliation",
+    "invalid notification chronology is rejected before replay",
+    "old risk/cash-valid inventory can lack full hedge cash",
+    "pending vertex bound includes opposing and partial fills",
+    "one dollar per unmatched share funds either outcome including stated taker fee",
+    "unfunded engine equals frozen source in all four timing/queue cases",
+    "funded hedge fills, refuses new unfunded quotes and preserves limits",
+    "funding retained across cancel and late partial-fill notification, accounted once",
+    "all accepted/unfilled orders retained; missing GETs and cancel races distinguished",
+    "missing exchange timestamps stay unknown; damaged trace rejected",
+    "real funded paths obey invariant; M1 and P0 controls exactly unchanged"
+  ],
+  "passed": true
+}

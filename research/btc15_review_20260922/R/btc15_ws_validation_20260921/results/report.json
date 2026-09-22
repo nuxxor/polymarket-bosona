@@ -1,0 +1,134 @@
+{
+  "api_differences": {
+    "false": 0,
+    "true_confirmed": 0,
+    "true_initial": 4
+  },
+  "bad_flow_clocks": 0,
+  "block_minus_server_ms": {
+    "max": 3883,
+    "median": 2197,
+    "min": 1022,
+    "n": 923
+  },
+  "book_issues": {},
+  "book_samples": 901,
+  "chain_matches_without_ws": [
+    {
+      "block_ms": 1790022801000,
+      "in_window_by_block_clock": false,
+      "log": 367,
+      "tx": "0x13488c2b16486acfaeaadd8b235d6f7e434049b1b9ddb953b36c20bfc49918e3"
+    },
+    {
+      "block_ms": 1790022619000,
+      "in_window_by_block_clock": false,
+      "log": 1599,
+      "tx": "0x6e75a3cbd00b5357a6e179513c31e9d21968409049d69649cb283b1c8039ad28"
+    },
+    {
+      "block_ms": 1790022619000,
+      "in_window_by_block_clock": false,
+      "log": 1914,
+      "tx": "0x741693b41fbbb104ee6a51344037f6625bdd2288eeb5751871967045060ae5cf"
+    },
+    {
+      "block_ms": 1790022619000,
+      "in_window_by_block_clock": false,
+      "log": 1622,
+      "tx": "0x91a466b93e4764909dc309367d28161846486a9f7de859fc643b5e648b5f2424"
+    },
+    {
+      "block_ms": 1790022604000,
+      "in_window_by_block_clock": false,
+      "log": 993,
+      "tx": "0xa1f2574f576c73ad5a189613a66b7c6db1ab4f5c0e20e84fcf94e4198b6e80b2"
+    },
+    {
+      "block_ms": 1790022628000,
+      "in_window_by_block_clock": false,
+      "log": 214,
+      "tx": "0xa49c76f56510323aedf6e2b53901dabac0186f658b2099ac0faa9b1801337e61"
+    },
+    {
+      "block_ms": 1790022606000,
+      "in_window_by_block_clock": false,
+      "log": 345,
+      "tx": "0xb221ce42d3cbf28f2e912d1909b257c8aea24d6962cc24921ca6d86f130dea42"
+    },
+    {
+      "block_ms": 1790022619000,
+      "in_window_by_block_clock": false,
+      "log": 1144,
+      "tx": "0xc03a5cb8b9e29b96ee48733e3085c20f2684eafd794847f393ee4b0c5033a2a4"
+    },
+    {
+      "block_ms": 1790022802000,
+      "in_window_by_block_clock": false,
+      "log": 186,
+      "tx": "0xf2b28d9a96ff8e8678427a890597d0399fa85710c7f7f63feba294d5d841bee9"
+    }
+  ],
+  "cutoff_ms": 1790024520000,
+  "data_gate": "PASS_OBSERVED_FLOW_GATE",
+  "economic_pnl": null,
+  "economic_status": "ONE_MARKET_AND_UNCALIBRATED_EXECUTION",
+  "end": 1790024400,
+  "events": {
+    "book": 1848,
+    "connect": 1,
+    "last_trade_price": 923,
+    "price_change": 286203
+  },
+  "explicit_gaps": [],
+  "flow_errors": [],
+  "invalid_book_reasons": {},
+  "metrics": {
+    "mapped_message_units": 33178539061,
+    "mapped_messages": 923,
+    "matched_taker_units": 33178539061,
+    "matches": 923,
+    "repeat_messages": 0,
+    "ws_messages": 923,
+    "ws_price_not_vwap": 90,
+    "ws_quantity_units": 33178539061
+  },
+  "note": "Observed public flow reconciliation is not order acceptance/cancel calibration or true queue position.",
+  "public_transactions_without_ws": [
+    "0x13488c2b16486acfaeaadd8b235d6f7e434049b1b9ddb953b36c20bfc49918e3",
+    "0x6e75a3cbd00b5357a6e179513c31e9d21968409049d69649cb283b1c8039ad28",
+    "0x741693b41fbbb104ee6a51344037f6625bdd2288eeb5751871967045060ae5cf",
+    "0x91a466b93e4764909dc309367d28161846486a9f7de859fc643b5e648b5f2424",
+    "0xa1f2574f576c73ad5a189613a66b7c6db1ab4f5c0e20e84fcf94e4198b6e80b2",
+    "0xa49c76f56510323aedf6e2b53901dabac0186f658b2099ac0faa9b1801337e61",
+    "0xb221ce42d3cbf28f2e912d1909b257c8aea24d6962cc24921ca6d86f130dea42",
+    "0xc03a5cb8b9e29b96ee48733e3085c20f2684eafd794847f393ee4b0c5033a2a4",
+    "0xf2b28d9a96ff8e8678427a890597d0399fa85710c7f7f63feba294d5d841bee9"
+  ],
+  "quote_probe_status": {
+    "conditional": 15,
+    "post_only_rejected": 1
+  },
+  "receipt_failures": [],
+  "receive_minus_server_ms": {
+    "max": 1054,
+    "median": 44,
+    "min": 34,
+    "n": 923
+  },
+  "slug": "btc-updown-15m-1790023500",
+  "source_hashes": {
+    "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_reconciled_v1_20260921/common.py": "0259dabd94f7996235dc0d711a8a4e82d1666efb472e1f226697684931aeec0c",
+    "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_ws_validation_20260921/study.py": "fdd7f7e36a3993c8ce355fce8f8e3560370d7f7ccf0179a897f24cbcd64782d0",
+    "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/fable_review_20260921/code/fetch_new_period.py": "eea327dbbe811753ee73a54bb154d02e275b42ca86887979f053cd7e194c1f09",
+    "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/data/analysis/btc5m_maker_feasibility_20260921/replay.py": "f8e42f83a4ca06dddba61136c37647cadd87fa00d49a224c76bcc0812b058023",
+    "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/data/analysis/btc5m_order_identity_20260921/check.py": "bbabe1303f37ee1bd7cd34bcca266f0ea276dd6d81bfafff20cbe4ed227a58cd"
+  },
+  "start": 1790023500,
+  "trade_time_segments": {
+    "after_end": 2,
+    "before_start": 29,
+    "in_window": 892
+  },
+  "valid_book_samples": 901
+}

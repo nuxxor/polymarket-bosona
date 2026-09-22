@@ -1,0 +1,8 @@
+{
+  "global_tape": "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona-nonbtc5-research-20260921/btc15_reconciled_v1_20260921/raw/ws_pilot_v1/events_20260921_22.jsonl.gz",
+  "global_ws_messages_for_tx": 0,
+  "interpretation": "No source match timestamp for this chain trade; do not insert it at block time or treat it as zero volume.",
+  "messages": [],
+  "tape_sha256": "117017e02cf61cb7457f0abfff7a42e3247ce69bfdedb2c8f4eb00166e143a37",
+  "tx": "0x38653423aa33191fa36714e9463daed61a437d5043c4325bd38f46a064f90003"
+}

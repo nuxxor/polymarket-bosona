@@ -1,0 +1,35 @@
+{
+  "code_sha256": "f387a3faaa9bcaffa64874649aa03fb8ca052bab058804f1a6c08327c2613736",
+  "condition": "0x0756e30d2faca7b6c8bd7a718c2cf3195e846327e950f3f27a727c4a0cedcdca",
+  "counts": {
+    "PONG": 8,
+    "best_bid_ask": 72,
+    "book": 40,
+    "last_trade_price": 19,
+    "new_market": 301,
+    "price_change": 8355,
+    "tick_size_change": 4
+  },
+  "duration_limit_seconds": 90,
+  "end_ms": 1790022483567,
+  "endpoint": "wss://ws-subscriptions-clob.polymarket.com/ws/market",
+  "errors": [],
+  "files": {
+    "events.jsonl.gz": "9f0ed6755a17de1dc6b0b5528b1d3193f763c5003b88fe063aed66f166539d62",
+    "market.json": "d38775e2485f6cdd083611f45dccd78b34be300f2640b236c7b1274e04bb4e38"
+  },
+  "first_receive_ms": 1790022393720,
+  "last_receive_ms": 1790022483496,
+  "note": "Finite feed/schema probe; partial market, no strategy PnL. Existing recorders untouched.",
+  "path": "/home/taygun/Masaüstü/polymarket-bosona-nonbtc5-research-20260921/btc15_reconciled_v1_20260921/raw/ws_probe_1790022393434303187",
+  "slug": "btc-updown-15m-1790021700",
+  "start_ms": 1790022393434,
+  "subscription": {
+    "assets_ids": [
+      "11921997965500808079177095916948718756967285708705973357423730611454572194946",
+      "43579637633170045575600911776190155244507887855108088592277155139116768598728"
+    ],
+    "custom_feature_enabled": true,
+    "type": "market"
+  }
+}

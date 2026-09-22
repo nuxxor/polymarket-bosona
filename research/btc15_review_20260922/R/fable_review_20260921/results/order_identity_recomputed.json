@@ -1,0 +1,90 @@
+{
+ "scope": {
+  "a_s_period_markets": [
+   "btc-updown-15m-1790000100",
+   "btc-updown-15m-1790001000",
+   "btc-updown-15m-1790001900",
+   "btc-updown-15m-1790002800",
+   "btc-updown-15m-1790003700",
+   "btc-updown-15m-1790004600",
+   "btc-updown-15m-1790005500",
+   "btc-updown-15m-1790006400",
+   "btc-updown-15m-1790008200",
+   "btc-updown-15m-1790010000",
+   "btc-updown-15m-1790010900",
+   "btc-updown-15m-1790011800",
+   "btc-updown-15m-1790012700",
+   "btc-updown-15m-1790013600"
+  ],
+  "b_historical_markets": [
+   "btc-updown-15m-1789708500",
+   "btc-updown-15m-1789564500",
+   "btc-updown-15m-1789641000",
+   "btc-updown-15m-1789530300"
+  ],
+  "c_late_addition_markets": [
+   "btc-updown-15m-1789583400",
+   "btc-updown-15m-1789499700",
+   "btc-updown-15m-1789707600",
+   "btc-updown-15m-1789713900",
+   "btc-updown-15m-1789420500",
+   "btc-updown-15m-1789861500",
+   "btc-updown-15m-1789372800",
+   "btc-updown-15m-1789537500",
+   "btc-updown-15m-1789686900",
+   "btc-updown-15m-1789528500",
+   "btc-updown-15m-1789686000",
+   "btc-updown-15m-1789594200",
+   "bitcoin-up-or-down-september-12-2026-8pm-et",
+   "btc-updown-15m-1789752600",
+   "btc-updown-15m-1789775100",
+   "btc-updown-15m-1789680600"
+  ]
+ },
+ "markets": 34,
+ "activity_rows": 303,
+ "bosona_chain_fills": 303,
+ "all_party_fills_in_receipts": 1076,
+ "note_d3_headline": "D3 agent counted fills of ALL parties (1076) → \"3.55 fills/tx\" is an owner-filter artifact; Bosona-only fills reconcile 1:1 with activity rows.",
+ "reconciled_qty_cash": 303,
+ "fee_role_vs_chain_role": {
+  "maker|maker": 262,
+  "taker|taker": 41
+ },
+ "distinct_orders": 165,
+ "fills_per_order": {
+  "1": 114,
+  "2": 22,
+  "3": 13,
+  "4": 5,
+  "5": 2,
+  "6": 4,
+  "8": 2,
+  "9": 1,
+  "10": 1,
+  "17": 1
+ },
+ "orders_multi_fill": 51,
+ "shares_in_multi_fill_orders": 4473.825021,
+ "shares_total": 17766.006371,
+ "multi_fill_order_public_ts_span": {
+  "median": 0,
+  "max": 9,
+  "dist": {
+   "0": 28,
+   "1": 9,
+   "2": 7,
+   "3": 1,
+   "4": 1,
+   "5": 2,
+   "7": 1,
+   "9": 2
+  }
+ },
+ "orders_mixed_role": 5,
+ "late_orders": {
+  "continuing_pre600_order": 0,
+  "first_filled_after_600": 105
+ },
+ "limits": "Order placement/cancel time not observable on chain; lifetime = span of public fill timestamps (lower bound)."
+}

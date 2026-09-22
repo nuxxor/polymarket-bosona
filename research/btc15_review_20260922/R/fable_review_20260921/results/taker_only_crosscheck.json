@@ -1,0 +1,1412 @@
+{
+ "confusion": {
+  "maker|maker": 139,
+  "taker|taker": 17
+ },
+ "rows": [
+  {
+   "slug": "btc-updown-15m-1789530300",
+   "ts": 1789530835,
+   "price": 0.6300001104,
+   "cash_price": 0.6300001103508442,
+   "qty": 3.081082,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789530300",
+   "ts": 1789530852,
+   "price": 0.74,
+   "cash_price": 0.74,
+   "qty": 5.09,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789530300",
+   "ts": 1789530853,
+   "price": 0.7400000339,
+   "cash_price": 0.740000033913039,
+   "qty": 7.076924,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789530300",
+   "ts": 1789530853,
+   "price": 0.74,
+   "cash_price": 0.74,
+   "qty": 8.5,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789530300",
+   "ts": 1789530859,
+   "price": 0.7000000152,
+   "cash_price": 0.7000000152284257,
+   "qty": 6.566667,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789530300",
+   "ts": 1789530859,
+   "price": 0.7,
+   "cash_price": 0.7,
+   "qty": 23.8,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789530300",
+   "ts": 1789530859,
+   "price": 0.7,
+   "cash_price": 0.7000000000000001,
+   "qty": 26.5,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789530300",
+   "ts": 1789530861,
+   "price": 0.7,
+   "cash_price": 0.7000000000000001,
+   "qty": 5.5,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789530300",
+   "ts": 1789530861,
+   "price": 0.7,
+   "cash_price": 0.7000000000000001,
+   "qty": 13.26,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789530300",
+   "ts": 1789530861,
+   "price": 0.7,
+   "cash_price": 0.7,
+   "qty": 10.5,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789530300",
+   "ts": 1789530951,
+   "price": 0.381808501,
+   "cash_price": 0.39833057249476655,
+   "qty": 109.87,
+   "fee_role": "taker",
+   "server_role": "taker"
+  },
+  {
+   "slug": "btc-updown-15m-1789530300",
+   "ts": 1789530993,
+   "price": 0.66,
+   "cash_price": 0.6599999999999999,
+   "qty": 99.78,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789530300",
+   "ts": 1789531009,
+   "price": 0.51,
+   "cash_price": 0.51,
+   "qty": 127.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789530300",
+   "ts": 1789531033,
+   "price": 0.62,
+   "cash_price": 0.62,
+   "qty": 5.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789530300",
+   "ts": 1789531035,
+   "price": 0.62,
+   "cash_price": 0.62,
+   "qty": 5.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789530300",
+   "ts": 1789531051,
+   "price": 0.56,
+   "cash_price": 0.5772477272727273,
+   "qty": 22.0,
+   "fee_role": "taker",
+   "server_role": "taker"
+  },
+  {
+   "slug": "btc-updown-15m-1789530300",
+   "ts": 1789531072,
+   "price": 0.59,
+   "cash_price": 0.59,
+   "qty": 150.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789530300",
+   "ts": 1789531102,
+   "price": 0.79,
+   "cash_price": 0.801613,
+   "qty": 150.0,
+   "fee_role": "taker",
+   "server_role": "taker"
+  },
+  {
+   "slug": "btc-updown-15m-1789564500",
+   "ts": 1789564779,
+   "price": 0.42,
+   "cash_price": 0.42000000000000004,
+   "qty": 68.96,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789564500",
+   "ts": 1789564821,
+   "price": 0.4,
+   "cash_price": 0.41679988399071927,
+   "qty": 68.96,
+   "fee_role": "taker",
+   "server_role": "taker"
+  },
+  {
+   "slug": "btc-updown-15m-1789564500",
+   "ts": 1789565104,
+   "price": 0.8,
+   "cash_price": 0.8112,
+   "qty": 232.1,
+   "fee_role": "taker",
+   "server_role": "taker"
+  },
+  {
+   "slug": "btc-updown-15m-1789564500",
+   "ts": 1789565169,
+   "price": 0.56,
+   "cash_price": 0.5772480000000001,
+   "qty": 120.0,
+   "fee_role": "taker",
+   "server_role": "taker"
+  },
+  {
+   "slug": "btc-updown-15m-1789564500",
+   "ts": 1789565170,
+   "price": 0.61,
+   "cash_price": 0.6266529884032115,
+   "qty": 112.1,
+   "fee_role": "taker",
+   "server_role": "taker"
+  },
+  {
+   "slug": "btc-updown-15m-1789564500",
+   "ts": 1789565277,
+   "price": 0.79,
+   "cash_price": 0.79,
+   "qty": 185.09,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789564500",
+   "ts": 1789565278,
+   "price": 0.79,
+   "cash_price": 0.79,
+   "qty": 76.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789564500",
+   "ts": 1789565349,
+   "price": 0.54,
+   "cash_price": 0.54,
+   "qty": 37.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789564500",
+   "ts": 1789565349,
+   "price": 0.54,
+   "cash_price": 0.54,
+   "qty": 10.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789564500",
+   "ts": 1789565349,
+   "price": 0.54,
+   "cash_price": 0.54,
+   "qty": 5.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789564500",
+   "ts": 1789565349,
+   "price": 0.54,
+   "cash_price": 0.54,
+   "qty": 10.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789564500",
+   "ts": 1789565349,
+   "price": 0.54,
+   "cash_price": 0.54,
+   "qty": 10.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789564500",
+   "ts": 1789565349,
+   "price": 0.54,
+   "cash_price": 0.54,
+   "qty": 228.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789564500",
+   "ts": 1789565355,
+   "price": 0.3900000143,
+   "cash_price": 0.39000001429687603,
+   "qty": 16.786884,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789564500",
+   "ts": 1789565355,
+   "price": 0.39,
+   "cash_price": 0.39,
+   "qty": 5.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789641000",
+   "ts": 1789641010,
+   "price": 0.57,
+   "cash_price": 0.5700000000000001,
+   "qty": 5.55,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789641000",
+   "ts": 1789641018,
+   "price": 0.56,
+   "cash_price": 0.56,
+   "qty": 150.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789641000",
+   "ts": 1789641067,
+   "price": 0.49,
+   "cash_price": 0.507493,
+   "qty": 150.0,
+   "fee_role": "taker",
+   "server_role": "taker"
+  },
+  {
+   "slug": "btc-updown-15m-1789641000",
+   "ts": 1789641288,
+   "price": 0.5800000362,
+   "cash_price": 0.5800000362068933,
+   "qty": 11.04762,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789641000",
+   "ts": 1789641397,
+   "price": 0.32,
+   "cash_price": 0.32,
+   "qty": 150.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789641000",
+   "ts": 1789641711,
+   "price": 0.52,
+   "cash_price": 0.52,
+   "qty": 150.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789641000",
+   "ts": 1789641757,
+   "price": 0.5300000011,
+   "cash_price": 0.5300000011371542,
+   "qty": 140.702128,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789641000",
+   "ts": 1789641828,
+   "price": 0.37,
+   "cash_price": 0.37,
+   "qty": 127.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789641000",
+   "ts": 1789641837,
+   "price": 0.4,
+   "cash_price": 0.39999999999999997,
+   "qty": 19.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789708579,
+   "price": 0.4100000295,
+   "cash_price": 0.4100000295000044,
+   "qty": 8.474575,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789708581,
+   "price": 0.41,
+   "cash_price": 0.41,
+   "qty": 3.12,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789708875,
+   "price": 0.26,
+   "cash_price": 0.26,
+   "qty": 12.5,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789708900,
+   "price": 0.25,
+   "cash_price": 0.25,
+   "qty": 4.16,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709022,
+   "price": 0.28,
+   "cash_price": 0.28,
+   "qty": 50.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709323,
+   "price": 0.3,
+   "cash_price": 0.3,
+   "qty": 232.16,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709332,
+   "price": 0.64,
+   "cash_price": 0.6399999999999999,
+   "qty": 0.56,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709334,
+   "price": 0.56,
+   "cash_price": 0.56,
+   "qty": 13.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709334,
+   "price": 0.56,
+   "cash_price": 0.56,
+   "qty": 8.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709334,
+   "price": 0.56,
+   "cash_price": 0.56,
+   "qty": 11.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709334,
+   "price": 0.575,
+   "cash_price": 0.575,
+   "qty": 120.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709335,
+   "price": 0.594927,
+   "cash_price": 0.6117962,
+   "qty": 300.0,
+   "fee_role": "taker",
+   "server_role": "taker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709343,
+   "price": 0.416,
+   "cash_price": 0.416,
+   "qty": 300.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709347,
+   "price": 0.601,
+   "cash_price": 0.6177853333333334,
+   "qty": 15.0,
+   "fee_role": "taker",
+   "server_role": "taker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709352,
+   "price": 0.599,
+   "cash_price": 0.599,
+   "qty": 7.22,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709352,
+   "price": 0.599,
+   "cash_price": 0.599,
+   "qty": 8.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709352,
+   "price": 0.599,
+   "cash_price": 0.599,
+   "qty": 38.8,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709352,
+   "price": 0.599,
+   "cash_price": 0.599,
+   "qty": 8.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709352,
+   "price": 0.599,
+   "cash_price": 0.5989999999999999,
+   "qty": 16.35,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709352,
+   "price": 0.599,
+   "cash_price": 0.599,
+   "qty": 5.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709352,
+   "price": 0.599,
+   "cash_price": 0.599,
+   "qty": 8.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709352,
+   "price": 0.599,
+   "cash_price": 0.599,
+   "qty": 8.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709352,
+   "price": 0.599,
+   "cash_price": 0.599,
+   "qty": 8.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709352,
+   "price": 0.599,
+   "cash_price": 0.599,
+   "qty": 8.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709352,
+   "price": 0.599,
+   "cash_price": 0.599,
+   "qty": 8.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709352,
+   "price": 0.599,
+   "cash_price": 0.599,
+   "qty": 8.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709352,
+   "price": 0.599,
+   "cash_price": 0.599,
+   "qty": 5.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709352,
+   "price": 0.599,
+   "cash_price": 0.599,
+   "qty": 8.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709352,
+   "price": 0.599,
+   "cash_price": 0.599,
+   "qty": 8.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709352,
+   "price": 0.5990000048,
+   "cash_price": 0.5990000047566066,
+   "qty": 16.608479,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1789708500",
+   "ts": 1789709352,
+   "price": 0.599,
+   "cash_price": 0.599,
+   "qty": 5.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001005,
+   "price": 0.45,
+   "cash_price": 0.45,
+   "qty": 90.91,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001005,
+   "price": 0.45,
+   "cash_price": 0.45,
+   "qty": 6.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001299,
+   "price": 0.13,
+   "cash_price": 0.13,
+   "qty": 96.91,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001309,
+   "price": 0.12,
+   "cash_price": 0.12,
+   "qty": 6.66,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001410,
+   "price": 0.1,
+   "cash_price": 0.09999999999999999,
+   "qty": 11.11111,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001423,
+   "price": 0.09,
+   "cash_price": 0.09000000000000001,
+   "qty": 18.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001425,
+   "price": 0.11,
+   "cash_price": 0.10999999999999999,
+   "qty": 0.76,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001425,
+   "price": 0.1100000114,
+   "cash_price": 0.11000001139199987,
+   "qty": 7.022472,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001428,
+   "price": 0.1200000352,
+   "cash_price": 0.1200000352001746,
+   "qty": 1.136358,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001431,
+   "price": 0.1400000035,
+   "cash_price": 0.1400000034888445,
+   "qty": 11.465114,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001440,
+   "price": 0.110000089,
+   "cash_price": 0.11000008900043609,
+   "qty": 1.12359,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001440,
+   "price": 0.11,
+   "cash_price": 0.11,
+   "qty": 298.87,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001543,
+   "price": 0.11,
+   "cash_price": 0.11000000000000001,
+   "qty": 99.63,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001543,
+   "price": 0.110000089,
+   "cash_price": 0.11000008900043609,
+   "qty": 1.12359,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001612,
+   "price": 0.4200000417,
+   "cash_price": 0.42000004169132893,
+   "qty": 8.155173,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001612,
+   "price": 0.4200000688,
+   "cash_price": 0.4200000688135512,
+   "qty": 2.034483,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001624,
+   "price": 0.2700000263,
+   "cash_price": 0.2700000263063054,
+   "qty": 6.082192,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001627,
+   "price": 0.21,
+   "cash_price": 0.221613,
+   "qty": 20.0,
+   "fee_role": "taker",
+   "server_role": "taker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001633,
+   "price": 0.23,
+   "cash_price": 0.23000000000000004,
+   "qty": 7.14,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001633,
+   "price": 0.23,
+   "cash_price": 0.23000000000000004,
+   "qty": 3.57,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001636,
+   "price": 0.2300000008,
+   "cash_price": 0.23000000076049382,
+   "qty": 210.389608,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001639,
+   "price": 0.24,
+   "cash_price": 0.24,
+   "qty": 192.6,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001644,
+   "price": 0.33,
+   "cash_price": 0.34547619047619044,
+   "qty": 6.93,
+   "fee_role": "taker",
+   "server_role": "taker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001680,
+   "price": 0.42,
+   "cash_price": 0.42,
+   "qty": 0.27,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001684,
+   "price": 0.3900000244,
+   "cash_price": 0.390000024400004,
+   "qty": 8.19672,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001705,
+   "price": 0.26,
+   "cash_price": 0.26,
+   "qty": 100.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001708,
+   "price": 0.2700000913,
+   "cash_price": 0.2700000912500342,
+   "qty": 2.739725,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001708,
+   "price": 0.27,
+   "cash_price": 0.27,
+   "qty": 100.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001708,
+   "price": 0.27,
+   "cash_price": 0.27,
+   "qty": 5.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001710,
+   "price": 0.2700000321,
+   "cash_price": 0.270000032120005,
+   "qty": 6.849314,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001717,
+   "price": 0.17,
+   "cash_price": 0.17,
+   "qty": 43.16,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001719,
+   "price": 0.16,
+   "cash_price": 0.16,
+   "qty": 95.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001719,
+   "price": 0.16,
+   "cash_price": 0.16,
+   "qty": 4.31,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001719,
+   "price": 0.16,
+   "cash_price": 0.16,
+   "qty": 10.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001719,
+   "price": 0.16,
+   "cash_price": 0.16,
+   "qty": 50.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001719,
+   "price": 0.16,
+   "cash_price": 0.16,
+   "qty": 10.5,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001722,
+   "price": 0.12,
+   "cash_price": 0.12,
+   "qty": 1.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001729,
+   "price": 0.1700000044,
+   "cash_price": 0.17000000442835364,
+   "qty": 31.614458,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001755,
+   "price": 0.12,
+   "cash_price": 0.12,
+   "qty": 5.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001756,
+   "price": 0.12,
+   "cash_price": 0.12000000000000001,
+   "qty": 124.568175,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001000",
+   "ts": 1790001791,
+   "price": 0.07,
+   "cash_price": 0.07,
+   "qty": 300.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002299,
+   "price": 0.12,
+   "cash_price": 0.12,
+   "qty": 100.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002299,
+   "price": 0.12,
+   "cash_price": 0.12,
+   "qty": 200.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002653,
+   "price": 0.0550000293,
+   "cash_price": 0.05500002930248368,
+   "qty": 1.365072,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002659,
+   "price": 0.0810000597,
+   "cash_price": 0.08100005973523505,
+   "qty": 1.088135,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002669,
+   "price": 0.0570000321,
+   "cash_price": 0.057000032062223344,
+   "qty": 1.060438,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002675,
+   "price": 0.099000015,
+   "cash_price": 0.09900001495661771,
+   "qty": 5.549383,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002677,
+   "price": 0.099,
+   "cash_price": 0.099,
+   "qty": 5.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002677,
+   "price": 0.0990000008,
+   "cash_price": 0.09900000078387003,
+   "qty": 110.987787,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002678,
+   "price": 0.0910000006,
+   "cash_price": 0.09100000064139563,
+   "qty": 28.063802,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002678,
+   "price": 0.0920000009,
+   "cash_price": 0.09200000092316647,
+   "qty": 30.330391,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002683,
+   "price": 0.0990000093,
+   "cash_price": 0.099000009310341,
+   "qty": 6.659262,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002683,
+   "price": 0.099,
+   "cash_price": 0.099,
+   "qty": 5.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002687,
+   "price": 0.0920000046,
+   "cash_price": 0.09200000462254754,
+   "qty": 12.114532,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002690,
+   "price": 0.092,
+   "cash_price": 0.092,
+   "qty": 10.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002702,
+   "price": 0.1,
+   "cash_price": 0.1063,
+   "qty": 300.0,
+   "fee_role": "taker",
+   "server_role": "taker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002705,
+   "price": 0.397,
+   "cash_price": 0.397,
+   "qty": 8.83,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002705,
+   "price": 0.3970000047,
+   "cash_price": 0.3970000046501373,
+   "qty": 72.470979,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002713,
+   "price": 0.2330000057,
+   "cash_price": 0.23300000568148221,
+   "qty": 19.009124,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002717,
+   "price": 0.2990000376,
+   "cash_price": 0.29900003757359794,
+   "qty": 7.132668,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790001900",
+   "ts": 1790002719,
+   "price": 0.3,
+   "cash_price": 0.3147,
+   "qty": 300.0,
+   "fee_role": "taker",
+   "server_role": "taker"
+  },
+  {
+   "slug": "btc-updown-15m-1790004600",
+   "ts": 1790004615,
+   "price": 0.5900000329,
+   "cash_price": 0.5900000328958652,
+   "qty": 8.511708,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790004600",
+   "ts": 1790004671,
+   "price": 0.51,
+   "cash_price": 0.5274923619271445,
+   "qty": 8.51,
+   "fee_role": "taker",
+   "server_role": "taker"
+  },
+  {
+   "slug": "btc-updown-15m-1790004600",
+   "ts": 1790005351,
+   "price": 0.25,
+   "cash_price": 0.25,
+   "qty": 215.97,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790004600",
+   "ts": 1790005351,
+   "price": 0.25,
+   "cash_price": 0.25,
+   "qty": 6.49,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790004600",
+   "ts": 1790005351,
+   "price": 0.25,
+   "cash_price": 0.25,
+   "qty": 8.426664,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790004600",
+   "ts": 1790005351,
+   "price": 0.25,
+   "cash_price": 0.25,
+   "qty": 19.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790004600",
+   "ts": 1790005351,
+   "price": 0.25,
+   "cash_price": 0.25,
+   "qty": 40.106664,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790004600",
+   "ts": 1790005351,
+   "price": 0.25,
+   "cash_price": 0.25,
+   "qty": 10.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790004600",
+   "ts": 1790005426,
+   "price": 0.98,
+   "cash_price": 0.98,
+   "qty": 299.99,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790004600",
+   "ts": 1790005433,
+   "price": 0.97,
+   "cash_price": 0.9700000000000001,
+   "qty": 197.92,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790010000",
+   "ts": 1790010543,
+   "price": 0.85,
+   "cash_price": 0.85,
+   "qty": 300.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790010000",
+   "ts": 1790010604,
+   "price": 0.22,
+   "cash_price": 0.232012,
+   "qty": 205.0,
+   "fee_role": "taker",
+   "server_role": "taker"
+  },
+  {
+   "slug": "btc-updown-15m-1790010000",
+   "ts": 1790010741,
+   "price": 0.24,
+   "cash_price": 0.2527678203543469,
+   "qty": 48.54,
+   "fee_role": "taker",
+   "server_role": "taker"
+  },
+  {
+   "slug": "btc-updown-15m-1790010000",
+   "ts": 1790010783,
+   "price": 0.1500000027,
+   "cash_price": 0.15000000273637445,
+   "qty": 36.544706,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790010000",
+   "ts": 1790010784,
+   "price": 0.1500000061,
+   "cash_price": 0.15000000610632355,
+   "qty": 8.188233,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790010000",
+   "ts": 1790010849,
+   "price": 0.86,
+   "cash_price": 0.86,
+   "qty": 30.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790010000",
+   "ts": 1790010849,
+   "price": 0.86,
+   "cash_price": 0.86,
+   "qty": 30.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790010000",
+   "ts": 1790010850,
+   "price": 0.8600000168,
+   "cash_price": 0.860000016799998,
+   "qty": 7.142858,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790010000",
+   "ts": 1790010850,
+   "price": 0.86,
+   "cash_price": 0.86,
+   "qty": 100.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790010000",
+   "ts": 1790010850,
+   "price": 0.86,
+   "cash_price": 0.8600000000000001,
+   "qty": 45.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790010000",
+   "ts": 1790010850,
+   "price": 0.8600000028,
+   "cash_price": 0.860000002765432,
+   "qty": 28.928572,
+   "fee_role": "maker",
+   "server_role": "maker"
+  },
+  {
+   "slug": "btc-updown-15m-1790010000",
+   "ts": 1790010850,
+   "price": 0.86,
+   "cash_price": 0.86,
+   "qty": 40.0,
+   "fee_role": "maker",
+   "server_role": "maker"
+  }
+ ]
+}

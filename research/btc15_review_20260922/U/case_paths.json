@@ -1,0 +1,1667 @@
+[
+  {
+    "slug": "btc-updown-15m-1790001900",
+    "winner": "Up",
+    "pnl": -221.927132,
+    "steps": [
+      {
+        "age": 399,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x94585af9152becadcc4ea68e53285edc37c44486d5b641169501a6d8d1858791",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "first",
+        "qty": "100",
+        "cash": "12",
+        "pre_qty": [
+          "0",
+          "0"
+        ],
+        "pre_cash": "0",
+        "before_payout_pnl": [
+          "0",
+          "0"
+        ],
+        "after_payout_pnl": [
+          "-12",
+          "88"
+        ],
+        "worst_improvement": "-12",
+        "hold_to_settlement": "0",
+        "after_to_settlement": "-12",
+        "incremental_terminal": "-12",
+        "book_minus5": {
+          "requested_ms": 1790002293780,
+          "received_ms": 1790002293920,
+          "observed_ms": 1790002293888,
+          "age_ms": 112,
+          "bid": 0.12,
+          "ask": 0.13,
+          "cash_5": 0.68959,
+          "unit_5": 0.137918
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 399,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x94585af9152becadcc4ea68e53285edc37c44486d5b641169501a6d8d1858791",
+        "parent_origin": "same_second_parent_fragment",
+        "phase": "add",
+        "qty": "200",
+        "cash": "24",
+        "pre_qty": [
+          "0",
+          "100"
+        ],
+        "pre_cash": "12",
+        "before_payout_pnl": [
+          "-12",
+          "88"
+        ],
+        "after_payout_pnl": [
+          "-36",
+          "264"
+        ],
+        "worst_improvement": "-24",
+        "hold_to_settlement": "-12",
+        "after_to_settlement": "-36",
+        "incremental_terminal": "-24",
+        "book_minus5": {
+          "requested_ms": 1790002293780,
+          "received_ms": 1790002293920,
+          "observed_ms": 1790002293888,
+          "age_ms": 112,
+          "bid": 0.12,
+          "ask": 0.13,
+          "cash_5": 0.68959,
+          "unit_5": 0.137918
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 753,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x4484b409a7f29493479bc9af16165b9ed2e1dedbe1dd43a9e2c5d795d36ff11c",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "add",
+        "qty": "1.365072",
+        "cash": "0.075079",
+        "pre_qty": [
+          "0",
+          "300"
+        ],
+        "pre_cash": "36",
+        "before_payout_pnl": [
+          "-36",
+          "264"
+        ],
+        "after_payout_pnl": [
+          "-36.075079",
+          "265.289993"
+        ],
+        "worst_improvement": "-0.075079",
+        "hold_to_settlement": "-36",
+        "after_to_settlement": "-36.075079",
+        "incremental_terminal": "-0.075079",
+        "book_minus5": {
+          "requested_ms": 1790002647810,
+          "received_ms": 1790002647954,
+          "observed_ms": 1790002647915,
+          "age_ms": 85,
+          "bid": 0.05,
+          "ask": 0.058,
+          "cash_5": 0.30912000000000006,
+          "unit_5": 0.06182400000000001
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 759,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x5ae36ea28678c81c256ce0ed409d7b99f31775228373d69b79b30b00dc350be5",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "add",
+        "qty": "1.088135",
+        "cash": "0.088139",
+        "pre_qty": [
+          "0",
+          "301.365072"
+        ],
+        "pre_cash": "36.075079",
+        "before_payout_pnl": [
+          "-36.075079",
+          "265.289993"
+        ],
+        "after_payout_pnl": [
+          "-36.163218",
+          "266.289989"
+        ],
+        "worst_improvement": "-0.088139",
+        "hold_to_settlement": "-36.075079",
+        "after_to_settlement": "-36.163218",
+        "incremental_terminal": "-0.088139",
+        "book_minus5": {
+          "requested_ms": 1790002653811,
+          "received_ms": 1790002653955,
+          "observed_ms": 1790002653915,
+          "age_ms": 85,
+          "bid": 0.04,
+          "ask": 0.05,
+          "cash_5": 0.26663,
+          "unit_5": 0.053326
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 769,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x0f5a8c76d1f87e220d47d57c769774334663dddfb50630b70756ac7d095187e6",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "add",
+        "qty": "1.060438",
+        "cash": "0.060445",
+        "pre_qty": [
+          "0",
+          "302.453207"
+        ],
+        "pre_cash": "36.163218",
+        "before_payout_pnl": [
+          "-36.163218",
+          "266.289989"
+        ],
+        "after_payout_pnl": [
+          "-36.223663",
+          "267.289982"
+        ],
+        "worst_improvement": "-0.060445",
+        "hold_to_settlement": "-36.163218",
+        "after_to_settlement": "-36.223663",
+        "incremental_terminal": "-0.060445",
+        "book_minus5": {
+          "requested_ms": 1790002663812,
+          "received_ms": 1790002663960,
+          "observed_ms": 1790002663923,
+          "age_ms": 77,
+          "bid": 0.059,
+          "ask": 0.06,
+          "cash_5": 0.31973999999999997,
+          "unit_5": 0.06394799999999999
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 775,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x76ee8786e15821ab7cbad2b62e076a8dcce98faaa9fcbca4d9da229f3b3373b8",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "add",
+        "qty": "5.549383",
+        "cash": "0.549389",
+        "pre_qty": [
+          "0",
+          "303.513645"
+        ],
+        "pre_cash": "36.223663",
+        "before_payout_pnl": [
+          "-36.223663",
+          "267.289982"
+        ],
+        "after_payout_pnl": [
+          "-36.773052",
+          "272.289976"
+        ],
+        "worst_improvement": "-0.549389",
+        "hold_to_settlement": "-36.223663",
+        "after_to_settlement": "-36.773052",
+        "incremental_terminal": "-0.549389",
+        "book_minus5": {
+          "requested_ms": 1790002669812,
+          "received_ms": 1790002669959,
+          "observed_ms": 1790002669904,
+          "age_ms": 96,
+          "bid": 0.041,
+          "ask": 0.05,
+          "cash_5": 0.26663,
+          "unit_5": 0.053326
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 777,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x7d2685b105173c040188dda90f9237dab47c13d2ae2e4543620df0fa25990036",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "add",
+        "qty": "5",
+        "cash": "0.495",
+        "pre_qty": [
+          "0",
+          "309.063028"
+        ],
+        "pre_cash": "36.773052",
+        "before_payout_pnl": [
+          "-36.773052",
+          "272.289976"
+        ],
+        "after_payout_pnl": [
+          "-37.268052",
+          "276.794976"
+        ],
+        "worst_improvement": "-0.495000",
+        "hold_to_settlement": "-36.773052",
+        "after_to_settlement": "-37.268052",
+        "incremental_terminal": "-0.495000",
+        "book_minus5": {
+          "requested_ms": 1790002671812,
+          "received_ms": 1790002671990,
+          "observed_ms": 1790002671929,
+          "age_ms": 71,
+          "bid": 0.046,
+          "ask": 0.05,
+          "cash_5": 0.26663,
+          "unit_5": 0.053326
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 777,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x7d2685b105173c040188dda90f9237dab47c13d2ae2e4543620df0fa25990036",
+        "parent_origin": "same_second_parent_fragment",
+        "phase": "add",
+        "qty": "110.987787",
+        "cash": "10.987791",
+        "pre_qty": [
+          "0",
+          "314.063028"
+        ],
+        "pre_cash": "37.268052",
+        "before_payout_pnl": [
+          "-37.268052",
+          "276.794976"
+        ],
+        "after_payout_pnl": [
+          "-48.255843",
+          "376.794972"
+        ],
+        "worst_improvement": "-10.987791",
+        "hold_to_settlement": "-37.268052",
+        "after_to_settlement": "-48.255843",
+        "incremental_terminal": "-10.987791",
+        "book_minus5": {
+          "requested_ms": 1790002671812,
+          "received_ms": 1790002671990,
+          "observed_ms": 1790002671929,
+          "age_ms": 71,
+          "bid": 0.046,
+          "ask": 0.05,
+          "cash_5": 0.26663,
+          "unit_5": 0.053326
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 778,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x963768f354b1a8d7fbbdcf3e3f662d0e7d09bf0ab62d93387a31e04c27496976",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "add",
+        "qty": "30.330391",
+        "cash": "2.790396",
+        "pre_qty": [
+          "0",
+          "425.050815"
+        ],
+        "pre_cash": "48.255843",
+        "before_payout_pnl": [
+          "-48.255843",
+          "376.794972"
+        ],
+        "after_payout_pnl": [
+          "-51.046239",
+          "404.334967"
+        ],
+        "worst_improvement": "-2.790396",
+        "hold_to_settlement": "-48.255843",
+        "after_to_settlement": "-51.046239",
+        "incremental_terminal": "-2.790396",
+        "book_minus5": {
+          "requested_ms": 1790002672813,
+          "received_ms": 1790002672959,
+          "observed_ms": 1790002672914,
+          "age_ms": 86,
+          "bid": 0.048,
+          "ask": 0.058,
+          "cash_5": 0.30912000000000006,
+          "unit_5": 0.06182400000000001
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 778,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x3552caa99326f1325ed4ed395ccfd52f4d13e8ec5be9f632a82a17877001ba6b",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "add",
+        "qty": "28.063802",
+        "cash": "2.553806",
+        "pre_qty": [
+          "0",
+          "455.381206"
+        ],
+        "pre_cash": "51.046239",
+        "before_payout_pnl": [
+          "-51.046239",
+          "404.334967"
+        ],
+        "after_payout_pnl": [
+          "-53.600045",
+          "429.844963"
+        ],
+        "worst_improvement": "-2.553806",
+        "hold_to_settlement": "-51.046239",
+        "after_to_settlement": "-53.600045",
+        "incremental_terminal": "-2.553806",
+        "book_minus5": {
+          "requested_ms": 1790002672813,
+          "received_ms": 1790002672959,
+          "observed_ms": 1790002672914,
+          "age_ms": 86,
+          "bid": 0.048,
+          "ask": 0.058,
+          "cash_5": 0.30912000000000006,
+          "unit_5": 0.06182400000000001
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 783,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0xf03240bf50069923edadf1e245a7634bc566d6670a53998e4e55cd5b9def0fc1",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "add",
+        "qty": "5",
+        "cash": "0.495",
+        "pre_qty": [
+          "0",
+          "483.445008"
+        ],
+        "pre_cash": "53.600045",
+        "before_payout_pnl": [
+          "-53.600045",
+          "429.844963"
+        ],
+        "after_payout_pnl": [
+          "-54.095045",
+          "434.349963"
+        ],
+        "worst_improvement": "-0.495000",
+        "hold_to_settlement": "-53.600045",
+        "after_to_settlement": "-54.095045",
+        "incremental_terminal": "-0.495000",
+        "book_minus5": {
+          "requested_ms": 1790002677813,
+          "received_ms": 1790002677954,
+          "observed_ms": 1790002677912,
+          "age_ms": 88,
+          "bid": 0.04,
+          "ask": 0.05,
+          "cash_5": 0.26663,
+          "unit_5": 0.053326
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 783,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0xf03240bf50069923edadf1e245a7634bc566d6670a53998e4e55cd5b9def0fc1",
+        "parent_origin": "same_second_parent_fragment",
+        "phase": "add",
+        "qty": "6.659262",
+        "cash": "0.659267",
+        "pre_qty": [
+          "0",
+          "488.445008"
+        ],
+        "pre_cash": "54.095045",
+        "before_payout_pnl": [
+          "-54.095045",
+          "434.349963"
+        ],
+        "after_payout_pnl": [
+          "-54.754312",
+          "440.349958"
+        ],
+        "worst_improvement": "-0.659267",
+        "hold_to_settlement": "-54.095045",
+        "after_to_settlement": "-54.754312",
+        "incremental_terminal": "-0.659267",
+        "book_minus5": {
+          "requested_ms": 1790002677813,
+          "received_ms": 1790002677954,
+          "observed_ms": 1790002677912,
+          "age_ms": 88,
+          "bid": 0.04,
+          "ask": 0.05,
+          "cash_5": 0.26663,
+          "unit_5": 0.053326
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 787,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0xa4e5f22da4979d7caaa30893f8551f6d79196231df795ce2564d2ab46896cd5a",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "add",
+        "qty": "12.114532",
+        "cash": "1.114537",
+        "pre_qty": [
+          "0",
+          "495.10427"
+        ],
+        "pre_cash": "54.754312",
+        "before_payout_pnl": [
+          "-54.754312",
+          "440.349958"
+        ],
+        "after_payout_pnl": [
+          "-55.868849",
+          "451.349953"
+        ],
+        "worst_improvement": "-1.114537",
+        "hold_to_settlement": "-54.754312",
+        "after_to_settlement": "-55.868849",
+        "incremental_terminal": "-1.114537",
+        "book_minus5": {
+          "requested_ms": 1790002681813,
+          "received_ms": 1790002681948,
+          "observed_ms": 1790002681727,
+          "age_ms": 273,
+          "bid": 0.097,
+          "ask": 0.099,
+          "cash_5": 0.52622,
+          "unit_5": 0.105244
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 790,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0xa4e5f22da4979d7caaa30893f8551f6d79196231df795ce2564d2ab46896cd5a",
+        "parent_origin": "parent_seen_earlier_second",
+        "phase": "add",
+        "qty": "10",
+        "cash": "0.92",
+        "pre_qty": [
+          "0",
+          "507.218802"
+        ],
+        "pre_cash": "55.868849",
+        "before_payout_pnl": [
+          "-55.868849",
+          "451.349953"
+        ],
+        "after_payout_pnl": [
+          "-56.788849",
+          "460.429953"
+        ],
+        "worst_improvement": "-0.920000",
+        "hold_to_settlement": "-55.868849",
+        "after_to_settlement": "-56.788849",
+        "incremental_terminal": "-0.920000",
+        "book_minus5": {
+          "requested_ms": 1790002684814,
+          "received_ms": 1790002684953,
+          "observed_ms": 1790002684915,
+          "age_ms": 85,
+          "bid": 0.09,
+          "ask": 0.1,
+          "cash_5": 0.5315,
+          "unit_5": 0.10629999999999999
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 802,
+        "side": "Down",
+        "role": "taker",
+        "parent": "0xa7444b2763aa475b71f53d616a6a8fc5f62a19c317a7ca2f3222b8a09521930e",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "add",
+        "qty": "300",
+        "cash": "31.89",
+        "pre_qty": [
+          "0",
+          "517.218802"
+        ],
+        "pre_cash": "56.788849",
+        "before_payout_pnl": [
+          "-56.788849",
+          "460.429953"
+        ],
+        "after_payout_pnl": [
+          "-88.678849",
+          "728.539953"
+        ],
+        "worst_improvement": "-31.890000",
+        "hold_to_settlement": "-56.788849",
+        "after_to_settlement": "-88.678849",
+        "incremental_terminal": "-31.890000",
+        "book_minus5": {
+          "requested_ms": 1790002696815,
+          "received_ms": 1790002696955,
+          "observed_ms": 1790002696906,
+          "age_ms": 94,
+          "bid": 0.08,
+          "ask": 0.089,
+          "cash_5": 0.47337999999999997,
+          "unit_5": 0.094676
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 805,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x907ea6c1d05ca9604b96d2799435d8ed95da9218c1252c02d0cd78ccd6adefc1",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "add",
+        "qty": "8.83",
+        "cash": "3.50551",
+        "pre_qty": [
+          "0",
+          "817.218802"
+        ],
+        "pre_cash": "88.678849",
+        "before_payout_pnl": [
+          "-88.678849",
+          "728.539953"
+        ],
+        "after_payout_pnl": [
+          "-92.184359",
+          "733.864443"
+        ],
+        "worst_improvement": "-3.505510",
+        "hold_to_settlement": "-88.678849",
+        "after_to_settlement": "-92.184359",
+        "incremental_terminal": "-3.505510",
+        "book_minus5": {
+          "requested_ms": 1790002699815,
+          "received_ms": 1790002699982,
+          "observed_ms": 1790002699933,
+          "age_ms": 67,
+          "bid": 0.093,
+          "ask": 0.1,
+          "cash_5": 0.5315,
+          "unit_5": 0.10629999999999999
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 805,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x907ea6c1d05ca9604b96d2799435d8ed95da9218c1252c02d0cd78ccd6adefc1",
+        "parent_origin": "same_second_parent_fragment",
+        "phase": "add",
+        "qty": "72.470979",
+        "cash": "28.770979",
+        "pre_qty": [
+          "0",
+          "826.048802"
+        ],
+        "pre_cash": "92.184359",
+        "before_payout_pnl": [
+          "-92.184359",
+          "733.864443"
+        ],
+        "after_payout_pnl": [
+          "-120.955338",
+          "777.564443"
+        ],
+        "worst_improvement": "-28.770979",
+        "hold_to_settlement": "-92.184359",
+        "after_to_settlement": "-120.955338",
+        "incremental_terminal": "-28.770979",
+        "book_minus5": {
+          "requested_ms": 1790002699815,
+          "received_ms": 1790002699982,
+          "observed_ms": 1790002699933,
+          "age_ms": 67,
+          "bid": 0.093,
+          "ask": 0.1,
+          "cash_5": 0.5315,
+          "unit_5": 0.10629999999999999
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 813,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0xf045c8bce99596f24b8e522d3ed0a65fcf9e8130fdc485b94586b9371761dcd5",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "add",
+        "qty": "19.009124",
+        "cash": "4.429126",
+        "pre_qty": [
+          "0",
+          "898.519781"
+        ],
+        "pre_cash": "120.955338",
+        "before_payout_pnl": [
+          "-120.955338",
+          "777.564443"
+        ],
+        "after_payout_pnl": [
+          "-125.384464",
+          "792.144441"
+        ],
+        "worst_improvement": "-4.429126",
+        "hold_to_settlement": "-120.955338",
+        "after_to_settlement": "-125.384464",
+        "incremental_terminal": "-4.429126",
+        "book_minus5": {
+          "requested_ms": 1790002707816,
+          "received_ms": 1790002707954,
+          "observed_ms": 1790002707920,
+          "age_ms": 80,
+          "bid": 0.26,
+          "ask": 0.27,
+          "cash_5": 1.41899,
+          "unit_5": 0.283798
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 817,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x3d79e30a22b975be26c970587bc3e9d3cdd85efe411ce24f8d4214fd21840541",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "add",
+        "qty": "7.132668",
+        "cash": "2.132668",
+        "pre_qty": [
+          "0",
+          "917.528905"
+        ],
+        "pre_cash": "125.384464",
+        "before_payout_pnl": [
+          "-125.384464",
+          "792.144441"
+        ],
+        "after_payout_pnl": [
+          "-127.517132",
+          "797.144441"
+        ],
+        "worst_improvement": "-2.132668",
+        "hold_to_settlement": "-125.384464",
+        "after_to_settlement": "-127.517132",
+        "incremental_terminal": "-2.132668",
+        "book_minus5": {
+          "requested_ms": 1790002711817,
+          "received_ms": 1790002711955,
+          "observed_ms": 1790002711919,
+          "age_ms": 81,
+          "bid": 0.235,
+          "ask": 0.25,
+          "cash_5": 1.31563,
+          "unit_5": 0.263126
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 819,
+        "side": "Down",
+        "role": "taker",
+        "parent": "0xaa95130bb92a029c3885622ceacc119146673e30e9c27f426dd5547f7bfc8fe2",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "add",
+        "qty": "300",
+        "cash": "94.41",
+        "pre_qty": [
+          "0",
+          "924.661573"
+        ],
+        "pre_cash": "127.517132",
+        "before_payout_pnl": [
+          "-127.517132",
+          "797.144441"
+        ],
+        "after_payout_pnl": [
+          "-221.927132",
+          "1002.734441"
+        ],
+        "worst_improvement": "-94.410000",
+        "hold_to_settlement": "-127.517132",
+        "after_to_settlement": "-221.927132",
+        "incremental_terminal": "-94.410000",
+        "book_minus5": {
+          "requested_ms": 1790002713817,
+          "received_ms": 1790002713964,
+          "observed_ms": 1790002713923,
+          "age_ms": 77,
+          "bid": 0.21,
+          "ask": 0.22,
+          "cash_5": 1.16006,
+          "unit_5": 0.23201200000000002
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      }
+    ],
+    "no_add_control": null
+  },
+  {
+    "slug": "btc-updown-15m-1790002800",
+    "winner": "Up",
+    "pnl": 40.7512,
+    "steps": [
+      {
+        "age": 67,
+        "side": "Up",
+        "role": "maker",
+        "parent": "0x6e68e356ba394c0253c1fee6b7af6175cfd9f713958edd263cdca55be2f1b21e",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "first",
+        "qty": "3.67",
+        "cash": "2.3488",
+        "pre_qty": [
+          "0",
+          "0"
+        ],
+        "pre_cash": "0",
+        "before_payout_pnl": [
+          "0",
+          "0"
+        ],
+        "after_payout_pnl": [
+          "1.3212",
+          "-2.3488"
+        ],
+        "worst_improvement": "-2.3488",
+        "hold_to_settlement": "0",
+        "after_to_settlement": "1.3212",
+        "incremental_terminal": "1.3212",
+        "book_minus5": {
+          "requested_ms": 1790002861830,
+          "received_ms": 1790002861967,
+          "observed_ms": 1790002861927,
+          "age_ms": 73,
+          "bid": 0.62,
+          "ask": 0.63,
+          "cash_5": 3.2315899999999997,
+          "unit_5": 0.646318
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 76,
+        "side": "Up",
+        "role": "maker",
+        "parent": "0xdc7b9c0bd7349218d9db38ea2bcee8ec145a872e1e6a45611199c6db86126cf8",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "add",
+        "qty": "75",
+        "cash": "48.75",
+        "pre_qty": [
+          "3.67",
+          "0"
+        ],
+        "pre_cash": "2.3488",
+        "before_payout_pnl": [
+          "1.3212",
+          "-2.3488"
+        ],
+        "after_payout_pnl": [
+          "27.5712",
+          "-51.0988"
+        ],
+        "worst_improvement": "-48.7500",
+        "hold_to_settlement": "1.3212",
+        "after_to_settlement": "27.5712",
+        "incremental_terminal": "26.2500",
+        "book_minus5": {
+          "requested_ms": 1790002870830,
+          "received_ms": 1790002870969,
+          "observed_ms": 1790002870933,
+          "age_ms": 67,
+          "bid": 0.66,
+          "ask": 0.67,
+          "cash_5": 3.42739,
+          "unit_5": 0.685478
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 210,
+        "side": "Up",
+        "role": "maker",
+        "parent": "0x90b423bdd5abb04d5bc6e142424325a8cbd6f670108aad8f97bfd2c38763b10e",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "add",
+        "qty": "9.72",
+        "cash": "7.29",
+        "pre_qty": [
+          "78.67",
+          "0"
+        ],
+        "pre_cash": "51.0988",
+        "before_payout_pnl": [
+          "27.5712",
+          "-51.0988"
+        ],
+        "after_payout_pnl": [
+          "30.0012",
+          "-58.3888"
+        ],
+        "worst_improvement": "-7.2900",
+        "hold_to_settlement": "27.5712",
+        "after_to_settlement": "30.0012",
+        "incremental_terminal": "2.4300",
+        "book_minus5": {
+          "requested_ms": 1790003004841,
+          "received_ms": 1790003004985,
+          "observed_ms": 1790003004949,
+          "age_ms": 51,
+          "bid": 0.73,
+          "ask": 0.74,
+          "cash_5": 3.7673400000000004,
+          "unit_5": 0.753468
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 210,
+        "side": "Up",
+        "role": "maker",
+        "parent": "0x90b423bdd5abb04d5bc6e142424325a8cbd6f670108aad8f97bfd2c38763b10e",
+        "parent_origin": "same_second_parent_fragment",
+        "phase": "add",
+        "qty": "5",
+        "cash": "3.75",
+        "pre_qty": [
+          "88.39",
+          "0"
+        ],
+        "pre_cash": "58.3888",
+        "before_payout_pnl": [
+          "30.0012",
+          "-58.3888"
+        ],
+        "after_payout_pnl": [
+          "31.2512",
+          "-62.1388"
+        ],
+        "worst_improvement": "-3.7500",
+        "hold_to_settlement": "30.0012",
+        "after_to_settlement": "31.2512",
+        "incremental_terminal": "1.2500",
+        "book_minus5": {
+          "requested_ms": 1790003004841,
+          "received_ms": 1790003004985,
+          "observed_ms": 1790003004949,
+          "age_ms": 51,
+          "bid": 0.73,
+          "ask": 0.74,
+          "cash_5": 3.7673400000000004,
+          "unit_5": 0.753468
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 211,
+        "side": "Up",
+        "role": "maker",
+        "parent": "0x90b423bdd5abb04d5bc6e142424325a8cbd6f670108aad8f97bfd2c38763b10e",
+        "parent_origin": "parent_seen_earlier_second",
+        "phase": "add",
+        "qty": "5",
+        "cash": "3.75",
+        "pre_qty": [
+          "93.39",
+          "0"
+        ],
+        "pre_cash": "62.1388",
+        "before_payout_pnl": [
+          "31.2512",
+          "-62.1388"
+        ],
+        "after_payout_pnl": [
+          "32.5012",
+          "-65.8888"
+        ],
+        "worst_improvement": "-3.7500",
+        "hold_to_settlement": "31.2512",
+        "after_to_settlement": "32.5012",
+        "incremental_terminal": "1.2500",
+        "book_minus5": {
+          "requested_ms": 1790003005841,
+          "received_ms": 1790003005987,
+          "observed_ms": 1790003005950,
+          "age_ms": 50,
+          "bid": 0.75,
+          "ask": 0.76,
+          "cash_5": 3.8638399999999997,
+          "unit_5": 0.7727679999999999
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 211,
+        "side": "Up",
+        "role": "maker",
+        "parent": "0x90b423bdd5abb04d5bc6e142424325a8cbd6f670108aad8f97bfd2c38763b10e",
+        "parent_origin": "parent_seen_earlier_second",
+        "phase": "add",
+        "qty": "5",
+        "cash": "3.75",
+        "pre_qty": [
+          "98.39",
+          "0"
+        ],
+        "pre_cash": "65.8888",
+        "before_payout_pnl": [
+          "32.5012",
+          "-65.8888"
+        ],
+        "after_payout_pnl": [
+          "33.7512",
+          "-69.6388"
+        ],
+        "worst_improvement": "-3.7500",
+        "hold_to_settlement": "32.5012",
+        "after_to_settlement": "33.7512",
+        "incremental_terminal": "1.2500",
+        "book_minus5": {
+          "requested_ms": 1790003005841,
+          "received_ms": 1790003005987,
+          "observed_ms": 1790003005950,
+          "age_ms": 50,
+          "bid": 0.75,
+          "ask": 0.76,
+          "cash_5": 3.8638399999999997,
+          "unit_5": 0.7727679999999999
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 211,
+        "side": "Up",
+        "role": "maker",
+        "parent": "0x90b423bdd5abb04d5bc6e142424325a8cbd6f670108aad8f97bfd2c38763b10e",
+        "parent_origin": "parent_seen_earlier_second",
+        "phase": "add",
+        "qty": "28",
+        "cash": "21",
+        "pre_qty": [
+          "103.39",
+          "0"
+        ],
+        "pre_cash": "69.6388",
+        "before_payout_pnl": [
+          "33.7512",
+          "-69.6388"
+        ],
+        "after_payout_pnl": [
+          "40.7512",
+          "-90.6388"
+        ],
+        "worst_improvement": "-21.0000",
+        "hold_to_settlement": "33.7512",
+        "after_to_settlement": "40.7512",
+        "incremental_terminal": "7.0000",
+        "book_minus5": {
+          "requested_ms": 1790003005841,
+          "received_ms": 1790003005987,
+          "observed_ms": 1790003005950,
+          "age_ms": 50,
+          "bid": 0.75,
+          "ask": 0.76,
+          "cash_5": 3.8638399999999997,
+          "unit_5": 0.7727679999999999
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      }
+    ],
+    "no_add_control": {
+      "age": 600,
+      "qty": [
+        "131.39",
+        "0"
+      ],
+      "cash": "90.6388",
+      "before_payout_pnl": [
+        "40.7512",
+        "-90.6388"
+      ],
+      "books": [
+        {
+          "requested_ms": 1790003398875,
+          "received_ms": 1790003399012,
+          "observed_ms": 1790003398969,
+          "age_ms": 1031,
+          "bid": 0.98,
+          "ask": 0.99,
+          "cash_5": 4.95347,
+          "unit_5": 0.9906940000000001
+        },
+        {
+          "requested_ms": 1790003398875,
+          "received_ms": 1790003399012,
+          "observed_ms": 1790003398969,
+          "age_ms": 1031,
+          "bid": 0.01,
+          "ask": 0.02,
+          "cash_5": 0.10686000000000001,
+          "unit_5": 0.021372000000000002
+        }
+      ],
+      "observed_action": "No fill in [600,900); orders and cancellations unknown",
+      "held_side": "Up",
+      "official_winner": "Up",
+      "terminal": "40.7512"
+    }
+  },
+  {
+    "slug": "btc-updown-15m-1790008200",
+    "winner": "Down",
+    "pnl": 74.9243,
+    "steps": [
+      {
+        "age": 879,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x9935c74f365ef40bfea6ee9cfe8fcc4065cc5d3adfa8e7e2585524a4047fa1ae",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "first",
+        "qty": "17.548388",
+        "cash": "12.108388",
+        "pre_qty": [
+          "0",
+          "0"
+        ],
+        "pre_cash": "0",
+        "before_payout_pnl": [
+          "0",
+          "0"
+        ],
+        "after_payout_pnl": [
+          "-12.108388",
+          "5.440000"
+        ],
+        "worst_improvement": "-12.108388",
+        "hold_to_settlement": "0",
+        "after_to_settlement": "5.440000",
+        "incremental_terminal": "5.440000",
+        "book_minus5": {
+          "requested_ms": 1790009073776,
+          "received_ms": 1790009073928,
+          "observed_ms": 1790009073846,
+          "age_ms": 154,
+          "bid": 0.95,
+          "ask": 0.96,
+          "cash_5": 4.81344,
+          "unit_5": 0.962688
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 881,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0xcac16c236d9495590d84b149f8be2ef3f5fb9c6d395305c285997e3f7dfea328",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "add",
+        "qty": "1.67",
+        "cash": "1.1857",
+        "pre_qty": [
+          "0",
+          "17.548388"
+        ],
+        "pre_cash": "12.108388",
+        "before_payout_pnl": [
+          "-12.108388",
+          "5.440000"
+        ],
+        "after_payout_pnl": [
+          "-13.294088",
+          "5.924300"
+        ],
+        "worst_improvement": "-1.185700",
+        "hold_to_settlement": "5.440000",
+        "after_to_settlement": "5.924300",
+        "incremental_terminal": "0.484300",
+        "book_minus5": {
+          "requested_ms": 1790009075776,
+          "received_ms": 1790009075920,
+          "observed_ms": 1790009075885,
+          "age_ms": 115,
+          "bid": 0.97,
+          "ask": 0.98,
+          "cash_5": 4.90686,
+          "unit_5": 0.981372
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 881,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0xc6b3ea1de71a65e515276c9b54474e2ed6f6b0c4d89fb327d8b0b21f60e19f3c",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "add",
+        "qty": "300",
+        "cash": "231",
+        "pre_qty": [
+          "0",
+          "19.218388"
+        ],
+        "pre_cash": "13.294088",
+        "before_payout_pnl": [
+          "-13.294088",
+          "5.924300"
+        ],
+        "after_payout_pnl": [
+          "-244.294088",
+          "74.924300"
+        ],
+        "worst_improvement": "-231.000000",
+        "hold_to_settlement": "5.924300",
+        "after_to_settlement": "74.924300",
+        "incremental_terminal": "69.000000",
+        "book_minus5": {
+          "requested_ms": 1790009075776,
+          "received_ms": 1790009075920,
+          "observed_ms": 1790009075885,
+          "age_ms": 115,
+          "bid": 0.97,
+          "ask": 0.98,
+          "cash_5": 4.90686,
+          "unit_5": 0.981372
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      }
+    ],
+    "no_add_control": null
+  },
+  {
+    "slug": "btc-updown-15m-1790010000",
+    "winner": "Down",
+    "pnl": 16.081188,
+    "steps": [
+      {
+        "age": 543,
+        "side": "Up",
+        "role": "maker",
+        "parent": "0x4bd1d69145063c5be0cf1a2b0f3f93e8ec2d7e3a1517a52e11f258cb780e511c",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "first",
+        "qty": "300",
+        "cash": "255",
+        "pre_qty": [
+          "0",
+          "0"
+        ],
+        "pre_cash": "0",
+        "before_payout_pnl": [
+          "0",
+          "0"
+        ],
+        "after_payout_pnl": [
+          "45",
+          "-255"
+        ],
+        "worst_improvement": "-255",
+        "hold_to_settlement": "0",
+        "after_to_settlement": "-255",
+        "incremental_terminal": "-255",
+        "book_minus5": {
+          "requested_ms": 1790010536902,
+          "received_ms": 1790010537059,
+          "observed_ms": 1790010537002,
+          "age_ms": 998,
+          "bid": 0.81,
+          "ask": 0.82,
+          "cash_5": 4.15166,
+          "unit_5": 0.830332
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 604,
+        "side": "Down",
+        "role": "taker",
+        "parent": "0xcf686791e0b3d379c2e8394d2af00f7c424e04234bd7ed16cb629a3afd1bfa0f",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "completion",
+        "qty": "205",
+        "cash": "47.56246",
+        "pre_qty": [
+          "300",
+          "0"
+        ],
+        "pre_cash": "255",
+        "before_payout_pnl": [
+          "45",
+          "-255"
+        ],
+        "after_payout_pnl": [
+          "-2.56246",
+          "-97.56246"
+        ],
+        "worst_improvement": "157.43754",
+        "hold_to_settlement": "-255",
+        "after_to_settlement": "-97.56246",
+        "incremental_terminal": "157.43754",
+        "book_minus5": {
+          "requested_ms": 1790010597908,
+          "received_ms": 1790010598051,
+          "observed_ms": 1790010598011,
+          "age_ms": 989,
+          "bid": 0.22,
+          "ask": 0.23,
+          "cash_5": 1.2119900000000001,
+          "unit_5": 0.24239800000000003
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 741,
+        "side": "Down",
+        "role": "taker",
+        "parent": "0x0a69ca5c8f86fea07032484002ddd390ebd29b20ab3742602ebdc08eb1d30121",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "completion",
+        "qty": "48.54",
+        "cash": "12.26935",
+        "pre_qty": [
+          "300",
+          "205"
+        ],
+        "pre_cash": "302.56246",
+        "before_payout_pnl": [
+          "-2.56246",
+          "-97.56246"
+        ],
+        "after_payout_pnl": [
+          "-14.83181",
+          "-61.29181"
+        ],
+        "worst_improvement": "36.27065",
+        "hold_to_settlement": "-97.56246",
+        "after_to_settlement": "-61.29181",
+        "incremental_terminal": "36.27065",
+        "book_minus5": {
+          "requested_ms": 1790010734919,
+          "received_ms": 1790010735059,
+          "observed_ms": 1790010735018,
+          "age_ms": 982,
+          "bid": 0.1,
+          "ask": 0.11,
+          "cash_5": 0.5842700000000001,
+          "unit_5": 0.11685400000000001
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 783,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0xebeba132fcb678a4fc6be9e65fc8b94ed298e28f17b08153c7fd16e5902ded45",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "completion",
+        "qty": "36.544706",
+        "cash": "5.481706",
+        "pre_qty": [
+          "300",
+          "253.54"
+        ],
+        "pre_cash": "314.83181",
+        "before_payout_pnl": [
+          "-14.83181",
+          "-61.29181"
+        ],
+        "after_payout_pnl": [
+          "-20.313516",
+          "-30.228810"
+        ],
+        "worst_improvement": "31.063000",
+        "hold_to_settlement": "-61.29181",
+        "after_to_settlement": "-30.228810",
+        "incremental_terminal": "31.063000",
+        "book_minus5": {
+          "requested_ms": 1790010776923,
+          "received_ms": 1790010777070,
+          "observed_ms": 1790010777003,
+          "age_ms": 997,
+          "bid": 0.08,
+          "ask": 0.09,
+          "cash_5": 0.47866,
+          "unit_5": 0.095732
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 784,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0xebeba132fcb678a4fc6be9e65fc8b94ed298e28f17b08153c7fd16e5902ded45",
+        "parent_origin": "parent_seen_earlier_second",
+        "phase": "completion",
+        "qty": "8.188233",
+        "cash": "1.228235",
+        "pre_qty": [
+          "300",
+          "290.084706"
+        ],
+        "pre_cash": "320.313516",
+        "before_payout_pnl": [
+          "-20.313516",
+          "-30.228810"
+        ],
+        "after_payout_pnl": [
+          "-21.541751",
+          "-23.268812"
+        ],
+        "worst_improvement": "6.959998",
+        "hold_to_settlement": "-30.228810",
+        "after_to_settlement": "-23.268812",
+        "incremental_terminal": "6.959998",
+        "book_minus5": {
+          "requested_ms": 1790010777923,
+          "received_ms": 1790010778057,
+          "observed_ms": 1790010778014,
+          "age_ms": 986,
+          "bid": 0.08,
+          "ask": 0.09,
+          "cash_5": 0.47866,
+          "unit_5": 0.095732
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 849,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x9caa67c235f26fa5336052bac6d2c97fa44dd0c1637502a2faa9e82bb7469c9f",
+        "parent_origin": "first_observed_parent_fill",
+        "phase": "reopen",
+        "qty": "30",
+        "cash": "25.8",
+        "pre_qty": [
+          "1.727061",
+          "0"
+        ],
+        "pre_cash": "23.268812",
+        "before_payout_pnl": [
+          "-21.541751",
+          "-23.268812"
+        ],
+        "after_payout_pnl": [
+          "-47.341751",
+          "-19.068812"
+        ],
+        "worst_improvement": "-24.072939",
+        "hold_to_settlement": "-23.268812",
+        "after_to_settlement": "-19.068812",
+        "incremental_terminal": "4.200000",
+        "book_minus5": {
+          "requested_ms": 1790010842929,
+          "received_ms": 1790010843074,
+          "observed_ms": 1790010843039,
+          "age_ms": 961,
+          "bid": 0.63,
+          "ask": 0.64,
+          "cash_5": 3.28064,
+          "unit_5": 0.656128
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 849,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x9caa67c235f26fa5336052bac6d2c97fa44dd0c1637502a2faa9e82bb7469c9f",
+        "parent_origin": "same_second_parent_fragment",
+        "phase": "add",
+        "qty": "30",
+        "cash": "25.8",
+        "pre_qty": [
+          "1.727061",
+          "30"
+        ],
+        "pre_cash": "49.068812",
+        "before_payout_pnl": [
+          "-47.341751",
+          "-19.068812"
+        ],
+        "after_payout_pnl": [
+          "-73.141751",
+          "-14.868812"
+        ],
+        "worst_improvement": "-25.800000",
+        "hold_to_settlement": "-19.068812",
+        "after_to_settlement": "-14.868812",
+        "incremental_terminal": "4.200000",
+        "book_minus5": {
+          "requested_ms": 1790010842929,
+          "received_ms": 1790010843074,
+          "observed_ms": 1790010843039,
+          "age_ms": 961,
+          "bid": 0.63,
+          "ask": 0.64,
+          "cash_5": 3.28064,
+          "unit_5": 0.656128
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 850,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x9caa67c235f26fa5336052bac6d2c97fa44dd0c1637502a2faa9e82bb7469c9f",
+        "parent_origin": "parent_seen_earlier_second",
+        "phase": "add",
+        "qty": "45",
+        "cash": "38.7",
+        "pre_qty": [
+          "1.727061",
+          "60"
+        ],
+        "pre_cash": "74.868812",
+        "before_payout_pnl": [
+          "-73.141751",
+          "-14.868812"
+        ],
+        "after_payout_pnl": [
+          "-111.841751",
+          "-8.568812"
+        ],
+        "worst_improvement": "-38.700000",
+        "hold_to_settlement": "-14.868812",
+        "after_to_settlement": "-8.568812",
+        "incremental_terminal": "6.300000",
+        "book_minus5": {
+          "requested_ms": 1790010843929,
+          "received_ms": 1790010844087,
+          "observed_ms": 1790010844045,
+          "age_ms": 955,
+          "bid": 0.64,
+          "ask": 0.65,
+          "cash_5": 3.33461,
+          "unit_5": 0.666922
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 850,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x9caa67c235f26fa5336052bac6d2c97fa44dd0c1637502a2faa9e82bb7469c9f",
+        "parent_origin": "parent_seen_earlier_second",
+        "phase": "add",
+        "qty": "28.928572",
+        "cash": "24.878572",
+        "pre_qty": [
+          "1.727061",
+          "105"
+        ],
+        "pre_cash": "113.568812",
+        "before_payout_pnl": [
+          "-111.841751",
+          "-8.568812"
+        ],
+        "after_payout_pnl": [
+          "-136.720323",
+          "-4.518812"
+        ],
+        "worst_improvement": "-24.878572",
+        "hold_to_settlement": "-8.568812",
+        "after_to_settlement": "-4.518812",
+        "incremental_terminal": "4.050000",
+        "book_minus5": {
+          "requested_ms": 1790010843929,
+          "received_ms": 1790010844087,
+          "observed_ms": 1790010844045,
+          "age_ms": 955,
+          "bid": 0.64,
+          "ask": 0.65,
+          "cash_5": 3.33461,
+          "unit_5": 0.666922
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 850,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x9caa67c235f26fa5336052bac6d2c97fa44dd0c1637502a2faa9e82bb7469c9f",
+        "parent_origin": "parent_seen_earlier_second",
+        "phase": "add",
+        "qty": "40",
+        "cash": "34.4",
+        "pre_qty": [
+          "1.727061",
+          "133.928572"
+        ],
+        "pre_cash": "138.447384",
+        "before_payout_pnl": [
+          "-136.720323",
+          "-4.518812"
+        ],
+        "after_payout_pnl": [
+          "-171.120323",
+          "1.081188"
+        ],
+        "worst_improvement": "-34.400000",
+        "hold_to_settlement": "-4.518812",
+        "after_to_settlement": "1.081188",
+        "incremental_terminal": "5.600000",
+        "book_minus5": {
+          "requested_ms": 1790010843929,
+          "received_ms": 1790010844087,
+          "observed_ms": 1790010844045,
+          "age_ms": 955,
+          "bid": 0.64,
+          "ask": 0.65,
+          "cash_5": 3.33461,
+          "unit_5": 0.666922
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 850,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x9caa67c235f26fa5336052bac6d2c97fa44dd0c1637502a2faa9e82bb7469c9f",
+        "parent_origin": "parent_seen_earlier_second",
+        "phase": "add",
+        "qty": "100",
+        "cash": "86",
+        "pre_qty": [
+          "1.727061",
+          "173.928572"
+        ],
+        "pre_cash": "172.847384",
+        "before_payout_pnl": [
+          "-171.120323",
+          "1.081188"
+        ],
+        "after_payout_pnl": [
+          "-257.120323",
+          "15.081188"
+        ],
+        "worst_improvement": "-86.000000",
+        "hold_to_settlement": "1.081188",
+        "after_to_settlement": "15.081188",
+        "incremental_terminal": "14.000000",
+        "book_minus5": {
+          "requested_ms": 1790010843929,
+          "received_ms": 1790010844087,
+          "observed_ms": 1790010844045,
+          "age_ms": 955,
+          "bid": 0.64,
+          "ask": 0.65,
+          "cash_5": 3.33461,
+          "unit_5": 0.666922
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      },
+      {
+        "age": 850,
+        "side": "Down",
+        "role": "maker",
+        "parent": "0x9caa67c235f26fa5336052bac6d2c97fa44dd0c1637502a2faa9e82bb7469c9f",
+        "parent_origin": "parent_seen_earlier_second",
+        "phase": "add",
+        "qty": "7.142858",
+        "cash": "6.142858",
+        "pre_qty": [
+          "1.727061",
+          "273.928572"
+        ],
+        "pre_cash": "258.847384",
+        "before_payout_pnl": [
+          "-257.120323",
+          "15.081188"
+        ],
+        "after_payout_pnl": [
+          "-263.263181",
+          "16.081188"
+        ],
+        "worst_improvement": "-6.142858",
+        "hold_to_settlement": "15.081188",
+        "after_to_settlement": "16.081188",
+        "incremental_terminal": "1.000000",
+        "book_minus5": {
+          "requested_ms": 1790010843929,
+          "received_ms": 1790010844087,
+          "observed_ms": 1790010844045,
+          "age_ms": 955,
+          "bid": 0.64,
+          "ask": 0.65,
+          "cash_5": 3.33461,
+          "unit_5": 0.666922
+        },
+        "note": "Book precedes public chain second; actual order decision/placement time unavailable."
+      }
+    ],
+    "no_add_control": null
+  }
+]

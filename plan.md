@@ -1241,3 +1241,13 @@ verinin açıkladığı sorun varsa önerilir; yeni eşik taraması yapılmaz.
 - Yeni kimlik dosyaları, özel hesap olayları, canlı state/log ve ham arşivler hariçtir. Mevcut public Git geçmişi yeniden yazılmaz.
 - Kabul: Git geçmişi + yayın ağacında secret taraması, syntax/mock testleri, diff kontrolü; uzak main commit ve PUBLIC görünürlüğü doğrulanır.
 - Yayın kontrollerinin sonuçları ve mevcut sınırlamalar: `docs/YAYIN_KONTROLU_20260922.md`. Secret taraması yeni içerikte temiz; 8 çevrimdışı kontrol geçti. Eski muhasebe testi, lint ve arşiv sınırlamaları raporda açıkça kayıtlı.
+
+
+## 22 Eylül 2026 — Eksik BTC15 araştırması ve PRO/ULTRA inceleme promptu
+
+Operatörün konusu yalnız Bosona BTC15'tir. Önceki ana repo yayını ayrı BTC15 araştırma dizinini içermiyordu; bu yayında eksik BTC15 rapor/kod/kanıt paketi ve ortak İngilizce prompt eklendi. Diğer stratejiler, ana yerel çalışma ağacı/index, çalışan süreçler ve bütçeler değiştirilmez.
+
+- Paket: `research/btc15_review_20260922/`; kapsam ve ham veri/yeniden üretim sınırları README'de.
+- Prompt: `docs/BOSONA_BTC15_PRO_ULTRA_PROMPT.md`; iki inceleyici aynı kanıtla, bağımsız olarak BTC15 hipotezlerini ve tek sonraki deneyi değerlendirecek.
+- Kabul: özgün kopya hash'leri, BTC15 miktar/nakit/rol/geç-ekleme toplamları, prompt yolları ve secret taraması; aynı public depoya normal commit/push, uzak commit teyidi.
+- Bu bir araştırma teslimidir; yeni analiz sonucu, kârlı strateji, tam ham veri yeniden üretimi veya deploy iddiası değildir.

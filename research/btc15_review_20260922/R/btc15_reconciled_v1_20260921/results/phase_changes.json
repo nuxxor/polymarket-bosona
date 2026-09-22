@@ -1,0 +1,5802 @@
+[
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.696",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-12-2026-8pm-et",
+    "ts": 1789258294,
+    "tx": "0x693e252f5a7159fcb53f87e2c0da8f608e6a23e0dee59f46da4f33eee70d7cc0"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.696",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-12-2026-8pm-et",
+    "ts": 1789258294,
+    "tx": "0x78065bc553288057d3cacc8e878877419d7d54e0cb21774951aa5d274ba50e12"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.696",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-12-2026-8pm-et",
+    "ts": 1789258294,
+    "tx": "0xb59b3064fd46de04223791f35a7f14d92f270ab239f3741e770b7aa7b44a76c5"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.704",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-12-2026-9pm-et",
+    "ts": 1789261906,
+    "tx": "0x5e256e0a380d1c16052c146ecf56464a4b1643c662531e71b8aaf6fb2dc9cde7"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.704",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-12-2026-9pm-et",
+    "ts": 1789261906,
+    "tx": "0x6cdd6eba8f4e02ceb1e034c0c8460cd5dc81a4670ae289ba4ec9aea24f92e82d"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.704",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-12-2026-9pm-et",
+    "ts": 1789261906,
+    "tx": "0x9c1366d7e037326ade449c1f2f0f0544d21511171d271d7c14fb1918e2532526"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.704",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-12-2026-9pm-et",
+    "ts": 1789261906,
+    "tx": "0xb50e700b9f0e04d58e1ca6e81d982a26f9d97fb169153a4d5c1b7dde57c8307e"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.704",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-12-2026-9pm-et",
+    "ts": 1789261906,
+    "tx": "0xc981747431a23948a66bc7bd32a5575c2c2c4fb7cc58b1d0291115af0289de56"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.704",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-12-2026-9pm-et",
+    "ts": 1789261906,
+    "tx": "0xd0dba7e35f07ef92baa6cff8dda7f6f9c875fb313e436867a77ad57fb0e32583"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.9",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-13-2026-10pm-et",
+    "ts": 1789351783,
+    "tx": "0xbbbcbf027c9ad70e220fa3221413b9111ae4527b1084f8704cbcebd1358a3449"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "5.124",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-13-2026-2pm-et",
+    "ts": 1789322751,
+    "tx": "0x6f27ea5237193ecd07ba79966249d5c1e40472f2d41b50a9ff52c926d5af7e78"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.464",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-13-2026-2pm-et",
+    "ts": 1789322751,
+    "tx": "0xd32f62f5ec0626adaf20d414118ebf5616a3240dac28d5aa44fab17e0c63c198"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.5",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-13-2026-5am-et",
+    "ts": 1789291521,
+    "tx": "0x863d28850faab923f014153bd33153a0b3bd5d96f0c330a3513cbba1cda74b4e"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.5",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-13-2026-5am-et",
+    "ts": 1789291521,
+    "tx": "0xc92dd171086eeca0dbd0d2d975df3fa0bda822d8a488e9e7d8c284cf47adcf23"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.032",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-13-2026-6am-et",
+    "ts": 1789293615,
+    "tx": "0xa7da7904fdec759789572244f83f82cbf1c7698441504701894d3c1cf4e68e56"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-18.75",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-13-2026-8pm-et",
+    "ts": 1789344499,
+    "tx": "0xceeb1da39c787224ba72ec4b5e9ce82785e6dd12577be528958aaf2a2c6b87e7"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-18.75",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-13-2026-8pm-et",
+    "ts": 1789344499,
+    "tx": "0xd21915d31621eccc3f8c15e77feb8c11ab00d19f7505fdd7983680c43a7077e7"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-18.75",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-13-2026-8pm-et",
+    "ts": 1789344499,
+    "tx": "0xd66253e0935ce6f9e680e8a3685c962436d6b42e3e54cc821bd56598ec9a02a9"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "2.642",
+    "role": "taker",
+    "slug": "bitcoin-up-or-down-september-13-2026-8pm-et",
+    "ts": 1789345369,
+    "tx": "0xe7e883318a4acb67912abedde0eaec0149fef3b519466e1b1b02048f58339f11"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "13.75",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-14-2026-1pm-et",
+    "ts": 1789405263,
+    "tx": "0x4c7b2d175918ac36aad6dc1eac4c5bf54b95bb4b68e52537842264e5d19ac9dc"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "13.75",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-14-2026-1pm-et",
+    "ts": 1789405263,
+    "tx": "0xd96528874a32f20a133fc9fcf809ee22a5ca90ad5e81490873252270fcf67832"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "10.45",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-14-2026-1pm-et",
+    "ts": 1789405263,
+    "tx": "0xf79f938c5f1598593bdcfac416c0d7194d718ec2f9059ccbf90fd54cf9ddb2ba"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-44.754098",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-14-2026-3pm-et",
+    "ts": 1789412410,
+    "tx": "0xa12a2445c548af5b4542b39f08e1d03dd2ef02b8981020bcf0781a931d984d43"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-7.8771",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-14-2026-7am-et",
+    "ts": 1789385572,
+    "tx": "0x68fcec000db7e4961742dda63b111eee54a211bd268fc1ebde147bfc85bc0acb"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-13.02",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-14-2026-7am-et",
+    "ts": 1789385572,
+    "tx": "0xd8a3b86b92a3305808b1a899340f5630a5a843259da5565b214eb01a5d42056b"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-13.02",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-14-2026-7am-et",
+    "ts": 1789385572,
+    "tx": "0xe5f04c6e6661c31be371eccfe3be1021761d11817a7a3d90df6065cf1f66796e"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "29.9414",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-14-2026-7am-et",
+    "ts": 1789386292,
+    "tx": "0x806b63570dedddc375ec6f54b57d89a01b10e0116d7a3720d5da93de2cfa3f88"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "7.700000",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-14-2026-8am-et",
+    "ts": 1789388211,
+    "tx": "0x7ddf5fe5a21fedb600326d4caaed4e11483ce13575a03d0c24a3f40851459692"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "22.8",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-14-2026-8am-et",
+    "ts": 1789388211,
+    "tx": "0xef95ef093ce8ac25987f62b41e664efb159003ea0ced420e625831032b8f8973"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-40.8",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-14-2026-9am-et",
+    "ts": 1789390806,
+    "tx": "0x7bfd63ba26727d148d4acd61f1bc28f414c937b18e4846ca674e19454c043c2e"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "50.1323",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-15-2026-12am-et",
+    "ts": 1789444809,
+    "tx": "0x578d468159c1a113b2fa04c060285792c06c07f6b231d8c594fc2cdbcd73e393"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.5064",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-15-2026-12pm-et",
+    "ts": 1789491270,
+    "tx": "0x82b9fd14e773c5dc6cd2a30fda49bc67f3c70394453ad69c3254c754873e47dd"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "10.0368",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-15-2026-12pm-et",
+    "ts": 1789491270,
+    "tx": "0x8c7ccb13f80b0f750876877df68444b837ce1c614c9c1190d62ee69238921560"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.16",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-15-2026-12pm-et",
+    "ts": 1789491270,
+    "tx": "0xa9e858f4080567cf032ddab4b1f1a5e0d023804bbb98cd159cb961e418965ea1"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "15.12",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-15-2026-12pm-et",
+    "ts": 1789491270,
+    "tx": "0xade86c29605889df8175897fce2b702e0612b7fa09aa3cbee77a1dfb5ddefd13"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.25",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-15-2026-12pm-et",
+    "ts": 1789491270,
+    "tx": "0xd01a898600effe9cad42f45320a2b70900aa5926f84b5e2fd258b226c241c045"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "15.12",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-15-2026-12pm-et",
+    "ts": 1789491270,
+    "tx": "0xfe36db9b166a267ca271d046a344fd9536aa9b9ba2d1d3cfb16aa3efdf12c9e9"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-12.8699",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-15-2026-1am-et",
+    "ts": 1789448410,
+    "tx": "0x61d461aca9b5243d1806e9913f91b7324ee7c00b01bbcb5fb0c6f0843852e1be"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "23.1",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-15-2026-3am-et",
+    "ts": 1789455609,
+    "tx": "0xa9c1eeedc14bf16e3c78927cf2c084d211f349e1ac84c8f4f93ca9cfa7c0bfd0"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "11.9",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-15-2026-8pm-et",
+    "ts": 1789517127,
+    "tx": "0xda94bfb40c0eae330c4da1775b8aa0ac46022466d6e7898bab686a265f2cd7e8"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.68",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-15-2026-9am-et",
+    "ts": 1789479091,
+    "tx": "0xa3500dfea015c7d90709b632afcdf86a981391bd5f9aaad725fdfe365766f237"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "16.2",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-16-2026-2pm-et",
+    "ts": 1789581705,
+    "tx": "0x3174233fc7c711f3caa841f7a88e5d1f102c07034df9b71f1c894a8fdeaac648"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "16.2",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-16-2026-2pm-et",
+    "ts": 1789581705,
+    "tx": "0xf0b6bc3137cb2e641639eccda12547b2ce0eb6d12e1717d6ef5c34e934b52031"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-9.8",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-16-2026-3am-et",
+    "ts": 1789542240,
+    "tx": "0x775913aea830b4f985563027d9245c2eae3249f3f9a98fd857788932d741ded1"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.675",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-16-2026-3am-et",
+    "ts": 1789542240,
+    "tx": "0xb25c661cdddbc43b832c132b5005cc74963fbe68b4aed98565f08b79ee9f5569"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "11.7",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-16-2026-4pm-et",
+    "ts": 1789589181,
+    "tx": "0x67162d59bac8a74c25e6001c491973d0ca78ebcf5f5f87d4110bdb85d95e2873"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.5753",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-16-2026-7am-et",
+    "ts": 1789558950,
+    "tx": "0xd25baae467164185c0e749dd798b4504f2d93f00d7adef2c3adfa83978eeb4ce"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-12.279770",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-16-2026-7am-et",
+    "ts": 1789558950,
+    "tx": "0xf585dc44efff675049c052d3132f15f72f018429ca172b9d698cd56208b16ccb"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "7.190000",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-17-2026-12pm-et",
+    "ts": 1789663770,
+    "tx": "0x320eafa3b0f6978a0c4173dee2a6ff66ee8996c9af72911f441e62cf32099278"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "19.1576",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-17-2026-7am-et",
+    "ts": 1789644805,
+    "tx": "0xfe8c66af5f69291fc49119079fb6b41a32a7ee603720fab48f413b5876ebf0a3"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "15.96",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-18-2026-12am-et",
+    "ts": 1789704067,
+    "tx": "0xe6a8a4048918c3374e8a40e5b0ed12f8077b06b3b4e46e4561939cc4f0a8d81e"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-22.05",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-18-2026-1am-et",
+    "ts": 1789707685,
+    "tx": "0x8a09a8c630bb1a09243870cb0f85fb28ece54b5fdcba0041304546bd92546b7b"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-19.74",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-18-2026-8pm-et",
+    "ts": 1789776216,
+    "tx": "0xca8c77c6d370c2f4e3a0240a8e717509c415324b37b0cf88d4d9ec87b2cbdb15"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "9.52",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-19-2026-12pm-et",
+    "ts": 1789833609,
+    "tx": "0xf6e40555f5e82d3c307cc2540a03fa9619ebaae6e020aa36465c5e54e0768c1f"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-14.85",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-19-2026-1am-et",
+    "ts": 1789794391,
+    "tx": "0xca1d56ed2de8b9f452a19c98199ce331eadbe5e261323e11fbbd378b6ba0e763"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "24.03235",
+    "role": "taker",
+    "slug": "bitcoin-up-or-down-september-19-2026-1am-et",
+    "ts": 1789797498,
+    "tx": "0x00c07f5d3db40841a4cd7774e80105e91762339578e26ffba0bce464c44310a8"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.724138",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-19-2026-1pm-et",
+    "ts": 1789837208,
+    "tx": "0x23351f6f88cd799775afd843ce530e6345642f968a2393d32dbca13a22bcd996"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.724138",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-19-2026-1pm-et",
+    "ts": 1789837208,
+    "tx": "0x737c4d90f1d95d2e07fc7532653919020380b7af5e2e4251d19c6d113c303366"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "61.8963",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-19-2026-4am-et",
+    "ts": 1789804866,
+    "tx": "0xee1582f36db447027f19f23cd7c8db9eb6a52026d2ac71cdbea83439a4e58867"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.000000",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-19-2026-9pm-et",
+    "ts": 1789867093,
+    "tx": "0x86eafe8af9bb3491d940f806229a56bdcc55614619b83f7344b5c6e94ca3b668"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.7",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-19-2026-9pm-et",
+    "ts": 1789867093,
+    "tx": "0xc79f77548eeeee7d6d14b7fa1c7cc9139da4310337c733712c2415760f3d0140"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-19.32",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-20-2026-10pm-et",
+    "ts": 1789956010,
+    "tx": "0xda20db8aea571fffd7723a1cfd4700a1e537f3016ae3ea75486648956aefd36b"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "-1.6768",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-20-2026-11am-et",
+    "ts": 1789918830,
+    "tx": "0xbfb2f69706c9773f25ee930d8e8e024a7d97456767e2a6973b53ab389a3ddc7c"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.023457",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-20-2026-1am-et",
+    "ts": 1789881103,
+    "tx": "0x72bfbf3f6e96947700ae920bd0202b5e2616b9e97419ef51a09c18aa5fa4b9d9"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.008642",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-20-2026-1am-et",
+    "ts": 1789881103,
+    "tx": "0xc19fbe8ab8ce7aaee6dbc8b19eb3e56f90e6facd73a72a8180db1d731ab8672d"
+  },
+  {
+    "group": "btc_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-39.6",
+    "role": "maker",
+    "slug": "bitcoin-up-or-down-september-20-2026-8am-et",
+    "ts": 1789907766,
+    "tx": "0xb68c531e381f6fa567099e04c38ab25c26733a3b876eb9e90055677eca4d917e"
+  },
+  {
+    "group": "bnb_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.12",
+    "role": "maker",
+    "slug": "bnb-up-or-down-september-13-2026-3am-et",
+    "ts": 1789282815,
+    "tx": "0xb81633591eaa7157dd43d33cf903ead35293605cad7cff70f6246b851500ab76"
+  },
+  {
+    "group": "bnb_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.18",
+    "role": "maker",
+    "slug": "bnb-up-or-down-september-15-2026-12am-et",
+    "ts": 1789446354,
+    "tx": "0x2b9d42a45a62fd1f4fcb392b08827811e3e3794fecbc7f3b281f0bf2f21aa95b"
+  },
+  {
+    "group": "bnb_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.8",
+    "role": "maker",
+    "slug": "bnb-up-or-down-september-19-2026-12am-et",
+    "ts": 1789791412,
+    "tx": "0x7418b26407e747af473e1f91af6c69b6d3505a43582e437d066d8ab025d51151"
+  },
+  {
+    "group": "bnb_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.625",
+    "role": "maker",
+    "slug": "bnb-updown-15m-1789698600",
+    "ts": 1789699474,
+    "tx": "0xf5dc70a05d17edcf2086e6a5613c3deee950632811e29c82b82d8f98cdc7100c"
+  },
+  {
+    "group": "bnb_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "5.520000",
+    "role": "maker",
+    "slug": "bnb-updown-15m-1789983000",
+    "ts": 1789983797,
+    "tx": "0x301e35898bf5a8396f0343b2e8d21956db78a966a0f7bcd41d00c60cfeb7ecbf"
+  },
+  {
+    "group": "bnb_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "5.06000",
+    "role": "maker",
+    "slug": "bnb-updown-15m-1789983000",
+    "ts": 1789983797,
+    "tx": "0x4e55d20622486558e346aa2715ff1e8c05e181329cc1fe0e8172f471cfbbae50"
+  },
+  {
+    "group": "bnb_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.080000",
+    "role": "maker",
+    "slug": "bnb-updown-15m-1789983000",
+    "ts": 1789983797,
+    "tx": "0x99c04c6cb7a781ca728f9d036556428d5747b3adc586f15cfdc4f50b4aedfbbe"
+  },
+  {
+    "group": "bnb_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.210000",
+    "role": "maker",
+    "slug": "bnb-updown-15m-1789983000",
+    "ts": 1789983797,
+    "tx": "0xa8ab2bd17a3062b8250e1c3569297131b20e90ee831eb9993473a3d10027883e"
+  },
+  {
+    "group": "bnb_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.1872",
+    "role": "maker",
+    "slug": "bnb-updown-5m-1789548000",
+    "ts": 1789548300,
+    "tx": "0xfe751f1557ba03ff00c0e74c88f0db049b45f1b190537715d9e21a15bdf11035"
+  },
+  {
+    "group": "bnb_5m",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "0.05613",
+    "role": "taker",
+    "slug": "bnb-updown-5m-1789559100",
+    "ts": 1789559328,
+    "tx": "0x66c06e1c71b1c5cc627c1fceb7e517b40ea03cd4df2cc3286fb2139d04b93f8d"
+  },
+  {
+    "group": "bnb_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.950000",
+    "role": "maker",
+    "slug": "bnb-updown-5m-1789649700",
+    "ts": 1789649751,
+    "tx": "0x61c48c6f0fae438d55c44361e1ad91a95f1d4fb148f58aa336734b050391bc41"
+  },
+  {
+    "group": "bnb_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.60123",
+    "role": "taker",
+    "slug": "bnb-updown-5m-1789726200",
+    "ts": 1789726462,
+    "tx": "0x5bf1ee03ea9c16b5a839f1ebea57e02f6e5b363969b0f0a1726ce16e3b69345f"
+  },
+  {
+    "group": "bnb_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.822100",
+    "role": "maker",
+    "slug": "bnb-updown-5m-1789726500",
+    "ts": 1789726509,
+    "tx": "0xe50692259d9ff8fae13a44d25d433a7f50585d912d0d3c53fa0b6295117d7ce9"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "44.328",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789257600",
+    "ts": 1789257676,
+    "tx": "0xa39e67f268491744888f1a92df5d7342e8e73801d3058ab6854cab934c4cb481"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-44.604",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789258500",
+    "ts": 1789258932,
+    "tx": "0x537c7f8fd5096553919d067e57961d3051a4a0f2654bf18059acc6fe2121f61e"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.75842",
+    "role": "taker",
+    "slug": "btc-updown-15m-1789265700",
+    "ts": 1789266336,
+    "tx": "0x033480acebfd8688ebea1be1eb035a8f60227540403b1f08879b4174203106e5"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.5344",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789265700",
+    "ts": 1789266336,
+    "tx": "0x08655e553f0494bb6decd7d9cc28ba156d13c26473bad09226a23a0c26b95cd2"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-39.93",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789266600",
+    "ts": 1789266682,
+    "tx": "0xd30090afff726f545b202a2b531740123b8ee1a077954225fe13fb38e8e2d5fa"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "14.364",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789267500",
+    "ts": 1789267503,
+    "tx": "0x6a00ff93e947b161679ba5a230f9800dc8e34e0a1bce75fe7867520763eaff01"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.150000",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789288200",
+    "ts": 1789288227,
+    "tx": "0x1a89bd6fba5c499a6408a9870bd15eb82fbbad0e52c6965c2f5c709d746ca6cc"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.200000",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789310700",
+    "ts": 1789311516,
+    "tx": "0x0b34bb43dd9445260bc74dba9a5a7b3436571ebfebd3664d29582e1e35a2ae88"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.12",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789310700",
+    "ts": 1789311516,
+    "tx": "0x0b779a871d36b5a411c6fb6af2880db0b6210a052a2d785a329262964af21f71"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.12",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789310700",
+    "ts": 1789311516,
+    "tx": "0x207993108aa70af0f34b7eca9563fd0a203f0808b8949ef477391e5c4773a617"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.200000",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789310700",
+    "ts": 1789311516,
+    "tx": "0x4617b2df8301de5e825a1e077d76c942065ae42c5dddbac60db09dd66f616b0d"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.200000",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789310700",
+    "ts": 1789311516,
+    "tx": "0x6687839cf6594e1c3e4cca76271553fa5042cc83dadc48237ed99db0fcababf1"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.353",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789313400",
+    "ts": 1789313784,
+    "tx": "0xe8a768d2ea7405fc53a75a951d1d29754aa9de76b2fea049eaf6987168f42024"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.7238",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789313400",
+    "ts": 1789313784,
+    "tx": "0xfdaf0412e5fd7f4cea2efce2042b2721a68290a7cc82573c3a7d205dcc3d6485"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "23.33724",
+    "role": "taker",
+    "slug": "btc-updown-15m-1789317000",
+    "ts": 1789317066,
+    "tx": "0xbeaac9f2237be1d5534d378bae7120c64f1f1831454b84e95ad83ffd37826f56"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "19.6256",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789317000",
+    "ts": 1789317066,
+    "tx": "0xdd34de63aeb9b665d2d1f8764d3f35f5ac95132720129f9ae4dc8d8571dff81d"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-4.8372",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789322400",
+    "ts": 1789323034,
+    "tx": "0xe3912677d7ef15ed55164693be66ab081898553a34d94a059ec287aea29e19d4"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "58.4598",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789330500",
+    "ts": 1789330752,
+    "tx": "0xcd133e444fb72b2960707f0cb1205a9c6c55bf222abd45f944df3f387caf344f"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "37.73396",
+    "role": "taker",
+    "slug": "btc-updown-15m-1789333200",
+    "ts": 1789333819,
+    "tx": "0x174087b9eebcb280b3b05fce17b0171ba80be3a6bcea941d7b3a5b27a89127f2"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789341300",
+    "ts": 1789342152,
+    "tx": "0x61dc3cce3089e8d08f5dfeadc895784626a5bbb7942eb5a876533d228e8aab91"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "23.266",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789341300",
+    "ts": 1789342152,
+    "tx": "0x85075960679fe4cfdf202cc117edbe02e6d77a5f334579050b776fb8a8a92f7e"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-13.77",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789348500",
+    "ts": 1789348978,
+    "tx": "0xe56390ae81961a8f073db3088935e3e19cdcbc305efb81ea3b9eeeee87c63670"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "34.998600",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789350300",
+    "ts": 1789350651,
+    "tx": "0x6324d24bcb37d94bc2d702ae1394872f8849f2aabb6a19ade35907341dc2b5d6"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.415",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789355700",
+    "ts": 1789356357,
+    "tx": "0x2073ab55aa485da2f93639c6cf8a7761b6c35100442467461b4ff59330fee263"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.5",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789355700",
+    "ts": 1789356357,
+    "tx": "0x3b2740abdd31ee81b58f16af8912f76abd180ad8dd0ac687571984fa0eb93723"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.51",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789355700",
+    "ts": 1789356357,
+    "tx": "0xbfaf66eece1e5c8bfdc6924524d9b025a8e7e030ccfb0397854ef13b79ddcbe7"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-15.9246",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789360200",
+    "ts": 1789360398,
+    "tx": "0x5b6a5c25d4146978e7babbf7b691a930c79009d0a522387c2324cb9753654801"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "15.8922",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789362900",
+    "ts": 1789363135,
+    "tx": "0x65f4763455efac35e067bfa5eb06412a1b8259ca82c2cef04f2c32fd3b84db3f"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.7",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789362900",
+    "ts": 1789363135,
+    "tx": "0x95e935250086c3ad08f842995f6ed278ec5ed4e9a2172378ff32d98c179a9a81"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "16.2",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789362900",
+    "ts": 1789363135,
+    "tx": "0xcfb2798589a95acc6f2da516ea589a6e19da5afd614e41bd295f93dc3d151eb7"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-4.169432",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789366500",
+    "ts": 1789366507,
+    "tx": "0xedcae378461ab1490c98353e7be966b7a1dff77e35273bbbfea550fe7ffa2f3c"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "5.903900",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789372800",
+    "ts": 1789373496,
+    "tx": "0x9d5abbcd0c75f810004df843b6c87c4a710b30bc076097c3abe0409ba4c6cf24"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "24.6",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789378200",
+    "ts": 1789378203,
+    "tx": "0xd4ca4a804af07b5ba9b4e7fc4431cb4c4d190ae4624dad59e60fb2be32eca723"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.1",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789381800",
+    "ts": 1789382598,
+    "tx": "0x3b72413be1cb83e602915b786459a18cd26e537bca23bb34ca938e40833d88ea"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.668795",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789404300",
+    "ts": 1789404433,
+    "tx": "0x3fce3a93fbe7297e339f3aa85037a6c1e7fd87c4e2d74652ee74c2dc62e83576"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-4.487590",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789404300",
+    "ts": 1789404433,
+    "tx": "0x6b6cfe38ca9c8e39735dc6aedbe2a96219162c94605c6a9bf56898e16a83095a"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.0102",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789404300",
+    "ts": 1789404433,
+    "tx": "0xd3f08429193521c8fc2d62fa00324446ccfa1053f730d487f9f2731102177a44"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.069156",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789404300",
+    "ts": 1789404433,
+    "tx": "0xf434fb68611306b44c3ff669a1b2555b5fb258a4247b7645f7d95d85efadee96"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.04",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789405200",
+    "ts": 1789405579,
+    "tx": "0x4242ae2234963250c93c76099617d1070d3514b2ef18a403d357a64557f9b66e"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.42",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789405200",
+    "ts": 1789405579,
+    "tx": "0x520083974130487903fa6e9e2299913a5ab1dd2385d4d473bf19deef1695223a"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.9645",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789410600",
+    "ts": 1789410640,
+    "tx": "0xbe8b95519029dbe6537d13c99159cc5c65bab02488d81275d14699a916f4d137"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-5.202",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789423200",
+    "ts": 1789423257,
+    "tx": "0xb7e6f40cd1858960482d1b2c9e5e3fa09d3195a93abb516824e62ddf4c9f6466"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "5.000000",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789427700",
+    "ts": 1789427719,
+    "tx": "0xcc039efee10980a1cb5ed4c23b655d2ec4d86eac099519143c398a65a3775828"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.770000",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789433100",
+    "ts": 1789433107,
+    "tx": "0x945659e04515eff89901846830772c25a9dd0f938a2af32f55bb5f8436d74f74"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-13.7148",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789434900",
+    "ts": 1789434904,
+    "tx": "0xf362ab03fbcd93664bc5b16ce2b663e6a4800717a20359293d5c94f07064bb50"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.531791",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789436700",
+    "ts": 1789436722,
+    "tx": "0x6ab1a4f981dc02ce107b7c811dcf9b0674a6bef956abf9eb02009dcecfa85872"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-51.04",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789449300",
+    "ts": 1789449334,
+    "tx": "0x3e167f24192294af92793f8dd270e0e9fb6d9862790ac42ad45e7be0a79643f9"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-23.49",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789449300",
+    "ts": 1789449334,
+    "tx": "0x7ed1aa9087606767e19a52157456127f436cf98763e6fe04aea1e52ab910e0c8"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-8.58",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789465500",
+    "ts": 1789465696,
+    "tx": "0x88774c263919a1044692b801adc0051fd5cc7a881fa9a4bb7e77149bff30f2b6"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-5.2",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789465500",
+    "ts": 1789465696,
+    "tx": "0xaf3542480406318304e105cda4a13b1c062ece02b03c4379a2d527ac42fd69b7"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "26.95",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789476300",
+    "ts": 1789476547,
+    "tx": "0x52bdb4bc0652dd5cdb912b5f246de7d2947af223724a0a059edaa49819fdcadc"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "30.8",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789476300",
+    "ts": 1789476547,
+    "tx": "0x8377a2592ee9e3ae703a23a0dcf28a6c760aa8564dfcaea41c899b740a82cced"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.899999",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789476300",
+    "ts": 1789476547,
+    "tx": "0xec52cd52da2b3bc6d231e4942638027b690cd06a56d0f4069a5fdca5e005a9b2"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "13.26",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789479000",
+    "ts": 1789479039,
+    "tx": "0xd9443a761499bc96e2c7909b23cf050dc2c46490caa50fd8e577ecdc7d902ccf"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.000000",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789481700",
+    "ts": 1789482559,
+    "tx": "0xefc831f79d3b57529e86e27345557cc659f0eaf1455cb4fea8faff5b02469012"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "32.12984",
+    "role": "taker",
+    "slug": "btc-updown-15m-1789483500",
+    "ts": 1789483869,
+    "tx": "0xb0efb3a87eb3e3fc39182de3a74771c414660c44782ac8a7c35d123e1192b01a"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.76",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789484400",
+    "ts": 1789484716,
+    "tx": "0xc7dded76c1e6325065d8c14e6f6350edf0822a8fa1ed3d7818b026a0a323c101"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.225352",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789485300",
+    "ts": 1789485814,
+    "tx": "0xb14980df131833b8c3138f5788acfd019fa10dfb5534c4ae222e5a5592468bc7"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-40.909091",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789492500",
+    "ts": 1789492521,
+    "tx": "0xf287ab0b6009dbf7b086f9dfefc3da0634f307d082a83fe5c2191d10e2fdee31"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.000000",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789497000",
+    "ts": 1789497067,
+    "tx": "0xbfbaad0dee18fe898922e0fffc21b7727b25c6857fca9e0e024cbbb32b97e1f8"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "3.6828",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789501500",
+    "ts": 1789502196,
+    "tx": "0x89be797745254f53dacbfe6cea7e08fc66838af99fd1752a280432e058937cd9"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "28.46737",
+    "role": "taker",
+    "slug": "btc-updown-15m-1789504200",
+    "ts": 1789504243,
+    "tx": "0xfa5fdce9cb40457c6c1c47201cbe68fb42404cf5e17070caa9e8093eb630339d"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "5.73612",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789505100",
+    "ts": 1789505892,
+    "tx": "0x4cad5b3c7823c67706b5770758de5da6c24e4380b8a17c050f23fa02470eb5b6"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "30.94",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789506000",
+    "ts": 1789506732,
+    "tx": "0x8c7835fd07959c9958134a54edda82215b7d7e1ec479b8ddd9a3b78b6c8d59ec"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.9",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789506000",
+    "ts": 1789506732,
+    "tx": "0xcfbca34071de3717c40c7c9e11c7ecec7720e685ace1199b653864e971f76c26"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.75",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789528500",
+    "ts": 1789528785,
+    "tx": "0x7fd1c7569fc161a51aa7fad84df1de239998c0c20420055451c9a268de206380"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "5.5",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789529400",
+    "ts": 1789529542,
+    "tx": "0x882c960cf9311c47311e676b4a1cf25cd39e8f85b1b7a355df6c867b727b996e"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "33",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789529400",
+    "ts": 1789529542,
+    "tx": "0xa8906aa3c2cc8e52c6a1063d69a41baed938c27a0f39f47b70eec1f1ce84e8ed"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-47.38",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789536600",
+    "ts": 1789536955,
+    "tx": "0xb0dd1fbb6b5a448604ff44f25b79ca6b1808b9d37c92a00682809e99b20a35c2"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-90.3125",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789542000",
+    "ts": 1789542243,
+    "tx": "0x64a032f7335be731534e0d8bb2412a34efb6c24617c7b2221dfeed645ca55ab2"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "16.960000",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789546500",
+    "ts": 1789546503,
+    "tx": "0xd2f62cc2042dcb21549c707ff56a8cf4125371f6ec216fb3368dcbe607178f0f"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.849999",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789551900",
+    "ts": 1789551906,
+    "tx": "0xa6898af5ff872d59c2913e2c029492efebf034dc10f744113e1944d173eb0244"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.7307",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789552800",
+    "ts": 1789552804,
+    "tx": "0xb78c090990550e9a9a02ba521965c3e0c6a2d51f24f9e0cbbe44c2450fe30e4f"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.508772",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789553700",
+    "ts": 1789553736,
+    "tx": "0x4f8bafa374c475bd01eb25063229bfb65b7a194941aeb69794a1ca93f015f453"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.591",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789553700",
+    "ts": 1789553736,
+    "tx": "0x61effd729b732422063fc350ac4e924d67c2d5149038dfac2e9510f113df3cb5"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "7.410000",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789559100",
+    "ts": 1789559122,
+    "tx": "0x826566f2587dca216eaea21263ca83ef208a2ffa2a1ad1b972d4b4a543e7b3df"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.000000",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789559100",
+    "ts": 1789559122,
+    "tx": "0xb1a12db466a4c528044d34cdd81b1cf995f2190d03c02ad44279b0318f8fe399"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.612903",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789560000",
+    "ts": 1789560024,
+    "tx": "0x9b7d4307eaaa95542c542eab7c6030eb6c8cf8d4e59e67ac3705af648a609ca0"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-12.583884",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789560000",
+    "ts": 1789560024,
+    "tx": "0xcebc3cf870b14523c533969b3bd4100a2e5e26e0f863ea3b2c4fc3372794cd29"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.409678",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789560000",
+    "ts": 1789560024,
+    "tx": "0xd1d60a780ce38ced35bf1fa8a683ec2aec7b270a789228fbe438e8c0d5d7c586"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "5.36",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789570800",
+    "ts": 1789571189,
+    "tx": "0xcb9a5983ecb60d25a65393ea5ea53296f9f7a800af98b9c7d392f0a717fb7aa5"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "9.6",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789575300",
+    "ts": 1789576028,
+    "tx": "0x5ac8fb019676c4068e653646f1ad5ab98682d90b3640996fb0517ce88809e2f7"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "5.00",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789575300",
+    "ts": 1789576028,
+    "tx": "0x68334cbf16bd0f0a84f262067ad5b3458bbd01ec195e06e43c114081fd96b34e"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.8",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789575300",
+    "ts": 1789576028,
+    "tx": "0xfa4dd0841975d7a66fcf20816dd4455bf6a7bd46a56644afe35f3ea0d27bf844"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-18.62",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789582500",
+    "ts": 1789582728,
+    "tx": "0x76dd7e6b7b6974f7a5cb27117dd4b1055cb115b7834f0e128d9f170f755b82f6"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-4.803922",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789582500",
+    "ts": 1789582728,
+    "tx": "0xa3c1c88394f2535fc1c09be356e7fadfbb0f879f19ebab0c00ad6ed57b21d9dd"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.026666",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789600500",
+    "ts": 1789600609,
+    "tx": "0xff9911bb3faffb46a3bb2b8bfe74db68a346f9ed809c32a8552809ac51916ab8"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.15",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789605900",
+    "ts": 1789606230,
+    "tx": "0x70401597a387475f119c540a5b0545c0624f14ff00e177591f5e86903d389240"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.15",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789605900",
+    "ts": 1789606230,
+    "tx": "0xa82fc79b093884830475be3b7c37959f9f2a3ae6f2164e822c21f04788c213bc"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.3",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789616700",
+    "ts": 1789616727,
+    "tx": "0x88f9e4635b0fa6930d4a6700d7017242fe186b741a505bd6985a89d0aab0b489"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-16.74",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789621200",
+    "ts": 1789621204,
+    "tx": "0x8a2ca154d63de163ac06280774156751b8f242d438ded1f2c4ade8a6f1f19786"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.25",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789627500",
+    "ts": 1789627639,
+    "tx": "0x8bc8f1d39d4bee2fd380ce2cdcfe50febdcb2f49916c2a0344695c20732a0208"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.299999",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789627500",
+    "ts": 1789627639,
+    "tx": "0xbe12d380f442ac78129b74285570de74426d8da8efc45ac5874b96de2d6979ae"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.5625",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789638300",
+    "ts": 1789638495,
+    "tx": "0xa74927269bf222131505c447c8a4dec245815b5608b21561470690b998d274ae"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-11.3048",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789652700",
+    "ts": 1789652712,
+    "tx": "0xc576ea5edb46a002c39a67e7310d4fc2f7a84f79d4beacad0e34bd205a547834"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-5.1675",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789652700",
+    "ts": 1789652712,
+    "tx": "0xf2ddfda6df06a5eda6c131a8a2bf0bcece85c7b21fdf414a041305c7fd49fa3b"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.3",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789659900",
+    "ts": 1789660006,
+    "tx": "0x5bfd1375e4c07497ede905b9fd39e085bb827c30810984ff980253a9c28da275"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.33",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789673400",
+    "ts": 1789673676,
+    "tx": "0x6d34b6e06623e0944bdfae4496d1d356d21552fa912129e11d2e18bf2579ef4a"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "32.67164",
+    "role": "taker",
+    "slug": "btc-updown-15m-1789679700",
+    "ts": 1789679973,
+    "tx": "0x06205018e73b50a4048df3834e5a9bc23c62d15e74d4027e5abefdd955f2b13a"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "12.3794",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789685100",
+    "ts": 1789685884,
+    "tx": "0x650fa803b149d562a405cc95e8df96cb82aca36fae003f4fa6c7df860f765030"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "45.7152",
+    "role": "taker",
+    "slug": "btc-updown-15m-1789687800",
+    "ts": 1789687860,
+    "tx": "0x3add3433bb798a14524182719bfd3df9c1155fa3e06b16d71e176b17b03e8a91"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.95",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789687800",
+    "ts": 1789687860,
+    "tx": "0x6b62a23ae39efbd04163d4414dfc1f4dde3533743bb3a2c58889c5552b34f614"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "1.5736",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789687800",
+    "ts": 1789688223,
+    "tx": "0x85012b7756f6ddb927ecc980b47ee2be4ec99fd39721aaa9c5ee9eeaaca8fa15"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.325",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789697700",
+    "ts": 1789697722,
+    "tx": "0xa271e0681c24c616b10b7117c5e3599ea776d667e9609172c88cbe69937fdec5"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.000000",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789697700",
+    "ts": 1789697722,
+    "tx": "0xe7f58be6ffbe05af0112b2b2f4a965915d0b36ba531548915e69dbf94988a4a7"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "5.88000",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789697700",
+    "ts": 1789697722,
+    "tx": "0xed5cf9af57bdf8664c2e76b7817fc2a46d754d26d29912885c939783e630fdb2"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "11.76000",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789697700",
+    "ts": 1789697722,
+    "tx": "0xfa65ec61c26aff19230a5768a22dfe8225c1fdc02e5de1d19fce1af50186e533"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "20.000000",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789714800",
+    "ts": 1789714804,
+    "tx": "0x349180d2cef286a41608ea21257715b119c91019822f330e5a254b720a4e1c28"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-27.816",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789722900",
+    "ts": 1789722904,
+    "tx": "0xc1784b1107840d63af6191511efad5e4f8e9ce419a13ff715a2a10f61b0f03fd"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.634615",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789731900",
+    "ts": 1789731958,
+    "tx": "0xf8e788d8bc1cfb6f8c18a3396faa00c3e12e62bcad9a67f4253685ba00386dcb"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-6.147183",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789732800",
+    "ts": 1789733103,
+    "tx": "0xa19ee140b61b47f2ccf200dc427fb5ef5338c05e927be558511aad6fac1c9bad"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.063380",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789732800",
+    "ts": 1789733103,
+    "tx": "0xa63628b88608ce8d67f446a66d1ae5c7440b96a779545859c41b4d854cb4c00a"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-10.435915",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789732800",
+    "ts": 1789733103,
+    "tx": "0xd9f7d81d751e073f6bb2543aa8a992c8db3277b7312239ae9274296801760b1b"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-27.198732",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789732800",
+    "ts": 1789733103,
+    "tx": "0xfd94dc5027df9e5dec2b153b9a9f490a01d4d885afba3b9a462340ffced8452f"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.4397",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789733700",
+    "ts": 1789734038,
+    "tx": "0xf469632ce64ce03cae2dfdb5a386bc67c52a04c632a70a278d51cf4b043b2d93"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789737300",
+    "ts": 1789737692,
+    "tx": "0xd0407adbc2075ffeb4097d44c54560d1664d358e6adeb999fda7a218f9aab87e"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.998",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789742700",
+    "ts": 1789742710,
+    "tx": "0x5d835956cc1d1db177e2c4db73c24547f48404933659bb0342818b6242df548c"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "5.4114",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789744500",
+    "ts": 1789744555,
+    "tx": "0xa54a7be714d47da5cbb19ff859de23749c86d215fe4194e2a283a15444db4513"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "-2.18401",
+    "role": "taker",
+    "slug": "btc-updown-15m-1789746300",
+    "ts": 1789746664,
+    "tx": "0x7403672401439f146ebd54c5b106d1c07936531cc41e4aeabe6be2419ccb69cd"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "10.32",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789752600",
+    "ts": 1789753084,
+    "tx": "0xce515ff7b87b359f2fb641704bbcd3737fadd0c1f29701198853a3ec8e4d228f"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.7667",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789753500",
+    "ts": 1789753753,
+    "tx": "0xc8f4901830fe0b5174dc2e74ca8e4a3e02ffb973364157ffb9d62f856ee287f7"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "42.4",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789755300",
+    "ts": 1789755385,
+    "tx": "0xd6239e1fd0d74f631afe3d9ad6fb6d43852e9a24905970e2c26d5544b389c7fb"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.35",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789757100",
+    "ts": 1789757277,
+    "tx": "0x6d4200ecce2544ce9245c6b18037027ab4d0ec381365e40f8b05bee62fec6231"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "41.54",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789757100",
+    "ts": 1789757277,
+    "tx": "0x964abdc3a1b40ddcec0e70ca44c704b178f74fa833ee1fba30641f3f4dbc00f4"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.9462",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789764300",
+    "ts": 1789764808,
+    "tx": "0xe52f7493c36768027298914cb0eb99a50abfb996d2e3c826180eac0e75560ab3"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-16.736863",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789767900",
+    "ts": 1789767922,
+    "tx": "0x271b04882110a59afec0f5ea83779a0b2f5964b637781f22116df2018be25e05"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-103.014334",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789767900",
+    "ts": 1789767922,
+    "tx": "0xa212515001147ca9c5e1ff56f0f8275c8ba5b64f1de6cde36f94df56626e0365"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-17.15",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789767900",
+    "ts": 1789767922,
+    "tx": "0xb2e79bed67aea6e693d7f68785b03a0e05bbef5225a721d025b53f20e0fc5adc"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.575758",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789770600",
+    "ts": 1789770787,
+    "tx": "0xf954c44cd61bce2d47e1c944755d255e0f6c103226aaabd1cb5cfe1d0aada609"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-68.25",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789771500",
+    "ts": 1789771723,
+    "tx": "0x6c3e7d73ca33abe393639eed434ba45dea2f855b38e14b2122209f90fc9abe2e"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-13.53",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789776000",
+    "ts": 1789776022,
+    "tx": "0x571715f2968f2b1c811ff9e35ddf14b374dead9d3fbdbc6cb12ed51c305792df"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-8.352882",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789776000",
+    "ts": 1789776022,
+    "tx": "0x618ce5945a3f8c9a1364d4610d70cb1684c987ce696813052c1707e25c0f4e33"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.990702",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789776900",
+    "ts": 1789776925,
+    "tx": "0x40b5a4d26c2149e12641453073ac6a0c4d4e3429549f7d490771843a1391809d"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "30.82",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789781400",
+    "ts": 1789781601,
+    "tx": "0xcaa41926ca7640cc03f3164a5e88ca73c35933fef3e43d5175a49e4fec4a49b7"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-18.461539",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789803900",
+    "ts": 1789803904,
+    "tx": "0x346afcf42d2bc95f5e1105d70945c73edacd87de5b93aa3bd18a9e4910695012"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "7.15512",
+    "role": "taker",
+    "slug": "btc-updown-15m-1789815600",
+    "ts": 1789815935,
+    "tx": "0xbd1c7626306c617b1197b6454338e8a539d1224bc807cfed5066dffbed6dc811"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-45.6918",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789817400",
+    "ts": 1789818015,
+    "tx": "0xe7d5ad43ee66e0c1b3318c3a4f5e08a7e6ab77f5c3c707c1c591ce828cdb290f"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-64.5",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789821000",
+    "ts": 1789821018,
+    "tx": "0x86c6de0e12be2aabbe208dc9aba78a0e6d089f0cb1943b52d2c961b3fb5155ac"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.000000",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789821900",
+    "ts": 1789822068,
+    "tx": "0x886e42ebf46815af123885c32ef961db5bdd70db6c560c5111ac0d7150f253d0"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "-2.305",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789825500",
+    "ts": 1789826151,
+    "tx": "0xce1bb546317b7d5f0adab3b06807b2f486d458a0caf78761ae4d0f0248a72eb9"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.673334",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789828200",
+    "ts": 1789828203,
+    "tx": "0x882d3d1ca36369e50044764ac7c49452d60e4556166c8bb7fd60882aca84126b"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-5.416667",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789845300",
+    "ts": 1789845311,
+    "tx": "0xcfd7a82580f0efceb0dc3c0a0db9e0e83a9f0a7636982d79af0281a3f5f572a6"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "11.680000",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789846200",
+    "ts": 1789848086,
+    "tx": "0x44d82e137cfca543b68117db7350bff4be715995115e49b2de9ea42a2162ebd5"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "5.2164",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789846200",
+    "ts": 1789848086,
+    "tx": "0xbc6d3042bc15dbccaba2394b007ef3c6eb195bf71de5a3c187f54ed66484e65a"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-23.478261",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789849800",
+    "ts": 1789849803,
+    "tx": "0xfadc3980988359a11d886614dfb291631e7353f8e48f06d57faadab5b78b3c13"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "23.118800",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789851600",
+    "ts": 1789851671,
+    "tx": "0x5779a28a1e98ebbf802101a23beada704b31c846c1d197a0b01458f21f8a18fd"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.48",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789851600",
+    "ts": 1789851671,
+    "tx": "0x9df9bfd22c9b2751188deb19bb97473de4f2463ae3c42904b5c1d396ae6c6cca"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.48",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789851600",
+    "ts": 1789851671,
+    "tx": "0xa25106bcdd7986ea47c2a38261d26fe1e2504b794a2b302b783976cb7d0b9d0f"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.56",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789851600",
+    "ts": 1789851671,
+    "tx": "0xa4c91f662f4a961b719e69c75b57d5ca8c688a941d4b03cf1247b776ba6f3037"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "-10.304",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789853400",
+    "ts": 1789853843,
+    "tx": "0x7ad36e1ca7040f9655832a07aeb32025f5c3fe3d2aeea00aeae4899c1199d9b6"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "11.34",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789855200",
+    "ts": 1789855266,
+    "tx": "0x7a37878d1127464d08cdb20083f5d580b42fcca921617e74f62243d65252d8a6"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "10",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789855200",
+    "ts": 1789855266,
+    "tx": "0x7d4255bb8234054eb23cf005e15506adc2b4d809ee47b1217049db9ceddba2ac"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.5",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789855200",
+    "ts": 1789855266,
+    "tx": "0x94a427d868a1d0a264948f5741732f22a44629a605134b16e98b24fc66602f64"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "-9.7005",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789857900",
+    "ts": 1789858725,
+    "tx": "0x0c68ed7ceea08cdb4b2103efeef05a47664ab8cd369b64502279550606fd4be1"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-23.4328",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789858800",
+    "ts": 1789859514,
+    "tx": "0x214a6b0b1c0d213342a8e4a41fe12fa18ffa94dd655339d857d22b43406d8bce"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "30",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789865100",
+    "ts": 1789865316,
+    "tx": "0x9469964ea26b01a342b571af0feb59c4f528d71395b7f1ca444c2c1af6f28c80"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "52.2",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789866000",
+    "ts": 1789866211,
+    "tx": "0x85ee919c88a0d7d2715dba84b9f4f36453c0fde039c2120bde522c9c4b2746a4"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-19.796597",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789876800",
+    "ts": 1789876857,
+    "tx": "0xf4573dae550fb08e364bbf415bae59009cdd79d81cd0bb74a00e11810d3606c7"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-12.133334",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789878600",
+    "ts": 1789878648,
+    "tx": "0x29b49ceddfd8202e34b029c5a86a2287952724cc0b490c37e22626f60a531d6e"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-5.416667",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789878600",
+    "ts": 1789878648,
+    "tx": "0x2dd22adb8478d16ab5c326586905999bf69ef017c075d158c8180fd3eaa7c605"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.000000",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789886700",
+    "ts": 1789886715,
+    "tx": "0x35d980eaa8f3f2468fd2e35739863148acb1fe4eba42ecfff8c651fb66672f9e"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.8",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789892100",
+    "ts": 1789892275,
+    "tx": "0x32c90c7883de474da5d20c0c1c012fa54d5ccaa702c05a7167dcbaeb0468be26"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.8",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789892100",
+    "ts": 1789892275,
+    "tx": "0xa9e2e95f1b91d846eda2d17a11243d40f34bcb0049d7caf249b8b5e8d02c36c7"
+  },
+  {
+    "group": "btc_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.195823",
+    "role": "maker",
+    "slug": "btc-updown-15m-1789893900",
+    "ts": 1789893906,
+    "tx": "0xf2b8860602b10e25cb188fa2f1be25669f5377a842c68a0eb52f2289f61439d0"
+  },
+  {
+    "group": "btc_4h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.05",
+    "role": "maker",
+    "slug": "btc-updown-4h-1789358400",
+    "ts": 1789365240,
+    "tx": "0xebeb067a85aa79cd650ea382e040af26e3b6e7dd32d91bb096fd19e0ea9591e4"
+  },
+  {
+    "group": "btc_4h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.65",
+    "role": "maker",
+    "slug": "btc-updown-4h-1789372800",
+    "ts": 1789376388,
+    "tx": "0x7dfcdc31fdc43a3c2e44c26ad6ecef4370310addc725275bd3fa1472fa37152f"
+  },
+  {
+    "group": "doge_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "5",
+    "role": "maker",
+    "slug": "doge-updown-15m-1789273800",
+    "ts": 1789274223,
+    "tx": "0xb318d43f455f64d173ce055ba00ffe7bc9a1a6b6f09c7f1c6997589013ae63c0"
+  },
+  {
+    "group": "doge_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-5.4",
+    "role": "maker",
+    "slug": "doge-updown-15m-1789366500",
+    "ts": 1789367319,
+    "tx": "0xcfbf57ddacda2d6524c7b9f47b208e853f9888dd8a0f7ffb7a4f241b695f6478"
+  },
+  {
+    "group": "doge_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "5.600000",
+    "role": "maker",
+    "slug": "doge-updown-15m-1789427700",
+    "ts": 1789428447,
+    "tx": "0xc94d494587ef49aaeb63428d0db5fdaf65f0cb947d2d5b7a1ab6c78e500c2db5"
+  },
+  {
+    "group": "doge_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.6979",
+    "role": "maker",
+    "slug": "doge-updown-15m-1789709400",
+    "ts": 1789710081,
+    "tx": "0xd8e5c31d4bdaaf0dd57e0211b8b599e68afcd972e4c16cd67aeae614da579850"
+  },
+  {
+    "group": "doge_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.4",
+    "role": "maker",
+    "slug": "doge-updown-15m-1789866000",
+    "ts": 1789866348,
+    "tx": "0xac8ea4e5462c3258422727cd01387f7eb19daef7e0d2f1e49460b8ff22bb83c2"
+  },
+  {
+    "group": "doge_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.950000",
+    "role": "maker",
+    "slug": "doge-updown-15m-1789920900",
+    "ts": 1789920964,
+    "tx": "0x55119083c294e22f942ff581b6c735216e0e27ca911fa9a9bfd2c3c23ed26bc1"
+  },
+  {
+    "group": "doge_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.65",
+    "role": "maker",
+    "slug": "doge-updown-15m-1789958700",
+    "ts": 1789959460,
+    "tx": "0x9b09ec7210f51dce73d7e0244bdf2570184d66bad91d2760f6b4dc38e16564ef"
+  },
+  {
+    "group": "doge_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.98",
+    "role": "maker",
+    "slug": "doge-updown-15m-1789958700",
+    "ts": 1789959460,
+    "tx": "0xa82a76574cb66397e9bf68c65ef7d9162621c829bbbb6a587bc2246e7f277dfb"
+  },
+  {
+    "group": "doge_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.6468",
+    "role": "maker",
+    "slug": "doge-updown-15m-1789958700",
+    "ts": 1789959460,
+    "tx": "0xee6d71e59da15146d4d10238fd26df66d977810ab82c455c72a04498848d10ee"
+  },
+  {
+    "group": "doge_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-5.595224",
+    "role": "maker",
+    "slug": "doge-updown-15m-1789958700",
+    "ts": 1789959460,
+    "tx": "0xf811eff0b4485482d8e719df614382d0b239b0e96f4a1db35659dbcbafed2c46"
+  },
+  {
+    "group": "doge_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.500000",
+    "role": "maker",
+    "slug": "doge-updown-15m-1789960500",
+    "ts": 1789960604,
+    "tx": "0x711f9f8edb4b9cc6ccd7c7b7f413ac1927107300bf8cfaf532de10c953726382"
+  },
+  {
+    "group": "doge_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.927",
+    "role": "maker",
+    "slug": "doge-updown-5m-1789526400",
+    "ts": 1789526572,
+    "tx": "0x76c758b2a6d0cdfa3ecfb5790d341e083ff565a938e04feb095ef4726d8221e0"
+  },
+  {
+    "group": "doge_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.85",
+    "role": "maker",
+    "slug": "doge-updown-5m-1789560900",
+    "ts": 1789561170,
+    "tx": "0x623cc5d01edbb4a3a71156e583e4154360f1f794ad209ea1f49695801db76149"
+  },
+  {
+    "group": "doge_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.02",
+    "role": "maker",
+    "slug": "doge-updown-5m-1789649700",
+    "ts": 1789650001,
+    "tx": "0xfd37d16fcd5b35c8918daff2ef36a0deac0656614af773219c20fdb4e1329664"
+  },
+  {
+    "group": "doge_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.999999",
+    "role": "maker",
+    "slug": "doge-updown-5m-1789818000",
+    "ts": 1789818300,
+    "tx": "0xe3d9dcca5dc0de2218cb22deb1d1e70deea7b5b792cc4a71888cfaac5013c13f"
+  },
+  {
+    "group": "doge_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.1",
+    "role": "maker",
+    "slug": "doge-updown-5m-1789982700",
+    "ts": 1789982810,
+    "tx": "0x90eb18373144e20ad96a521e42df3dc49c27f452604fd781eca9065e12764f12"
+  },
+  {
+    "group": "doge_1d",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.629623",
+    "role": "maker",
+    "slug": "dogecoin-up-or-down-on-september-19-2026",
+    "ts": 1789781833,
+    "tx": "0x182c85befc67a14a381a52890facc4c86fcb1876e5ff1f3054224b67c271dbdb"
+  },
+  {
+    "group": "eth_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "11.31",
+    "role": "maker",
+    "slug": "eth-updown-15m-1789269300",
+    "ts": 1789269421,
+    "tx": "0xdee5bfad1f63fcbdcf1accaf4adb970dd53a2f1bad4a5c7f00f970b316830560"
+  },
+  {
+    "group": "eth_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.42",
+    "role": "maker",
+    "slug": "eth-updown-15m-1789279200",
+    "ts": 1789279461,
+    "tx": "0x58fcd6b66b58969edbf264458c44dbbce6cc9419752b014ece92e998a2945016"
+  },
+  {
+    "group": "eth_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.8037",
+    "role": "maker",
+    "slug": "eth-updown-15m-1789314300",
+    "ts": 1789315174,
+    "tx": "0xe9dca1767a35626f20c832393b712522641ca58f76c35f5f0117134bcd192136"
+  },
+  {
+    "group": "eth_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.88",
+    "role": "maker",
+    "slug": "eth-updown-15m-1789319700",
+    "ts": 1789319704,
+    "tx": "0xfda3d7c96419207e8a5d5ff488102c3bba03f3931554b9da2e0eb2bf1b9307fd"
+  },
+  {
+    "group": "eth_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.2",
+    "role": "maker",
+    "slug": "eth-updown-15m-1789335000",
+    "ts": 1789335426,
+    "tx": "0xc46806d4e2e171704a98f89bf29e08425f6759c2d23b007cf6e2a5e2b3487e6b"
+  },
+  {
+    "group": "eth_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.2",
+    "role": "maker",
+    "slug": "eth-updown-15m-1789335000",
+    "ts": 1789335426,
+    "tx": "0xf559df1eea6d0eeb85cd97863e2ce19e0db46c90da98f298674a2c410fe1a533"
+  },
+  {
+    "group": "eth_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.65",
+    "role": "maker",
+    "slug": "eth-updown-15m-1789352100",
+    "ts": 1789352104,
+    "tx": "0x419fe5e44107b52776012df810cbeb04e562f0a14e350b22a7f4fdd112c87132"
+  },
+  {
+    "group": "eth_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.9965",
+    "role": "maker",
+    "slug": "eth-updown-15m-1789484400",
+    "ts": 1789485007,
+    "tx": "0x442f8588126f20869b6322be1315de63330ad0090ebc1b136691ac3a6ae22c06"
+  },
+  {
+    "group": "eth_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.9",
+    "role": "maker",
+    "slug": "eth-updown-15m-1789504200",
+    "ts": 1789504807,
+    "tx": "0x3bd90b47c18f339f75792b9b7614ce2e3c4c4bc4ae4865ef0198085cc56679c7"
+  },
+  {
+    "group": "eth_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.9",
+    "role": "maker",
+    "slug": "eth-updown-15m-1789504200",
+    "ts": 1789504807,
+    "tx": "0xe63cc46e7073f190e7994f97d7c2aabbd758d62238a3fb3ed61fefcf09d48fa9"
+  },
+  {
+    "group": "eth_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-4.1232",
+    "role": "maker",
+    "slug": "eth-updown-15m-1789538400",
+    "ts": 1789539007,
+    "tx": "0xe1f4935ba2913cdf7a0d2750be75d5f87aef580e272dda279e13b1b41194e2fa"
+  },
+  {
+    "group": "eth_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-13.5",
+    "role": "maker",
+    "slug": "eth-updown-15m-1789648200",
+    "ts": 1789648248,
+    "tx": "0xf541a2079875662161e3e0a2a1014ac849c1f7e9d361853bdfb1f622e7b1b80d"
+  },
+  {
+    "group": "eth_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.950000",
+    "role": "maker",
+    "slug": "eth-updown-15m-1789671600",
+    "ts": 1789671606,
+    "tx": "0xae18857e18a47b57cd2407b28a356eac02774244a70584e6b8de47665671261c"
+  },
+  {
+    "group": "eth_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.089085",
+    "role": "maker",
+    "slug": "eth-updown-15m-1789950600",
+    "ts": 1789951445,
+    "tx": "0xd0c1a974f1ce8c6e77af9266a11b72fd2570be445999b742868e0191e9aca72a"
+  },
+  {
+    "group": "eth_4h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.3",
+    "role": "maker",
+    "slug": "eth-updown-4h-1789286400",
+    "ts": 1789287882,
+    "tx": "0xf08af89acc693d1e302a0423f5f463013f5e41b299e3b7e22b9fa640bea171e9"
+  },
+  {
+    "group": "eth_4h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.549995",
+    "role": "maker",
+    "slug": "eth-updown-4h-1789416000",
+    "ts": 1789416775,
+    "tx": "0x8517f46f9bbefc27d492bbc24616e88928427827dd4c1d0e5a8668d141d949b0"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.15",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789264500",
+    "ts": 1789264773,
+    "tx": "0xe62a7c7977702dec921b00c08d0e1a1284ce6304491f360da7d9c9043170ae74"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.012",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789265700",
+    "ts": 1789265959,
+    "tx": "0xdb9c097fb2d44221139053e4ea9737dbfedefaddb5a115ebe1a88e16364d8305"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.000000",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789266000",
+    "ts": 1789266028,
+    "tx": "0xa0ff7d85d0dfa5f0433c3f3a3ce33eb8909defe6b74ff7ed2dd86758f087c9f6"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "6.8",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789271100",
+    "ts": 1789271190,
+    "tx": "0xbbbfb150de2bf6cd429f5b201fc9952ce250866b750e0755b88c4d2b1e7eefd9"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.15",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789274700",
+    "ts": 1789274977,
+    "tx": "0x969ed5a8e52a300b489084f11bf0ee68b8c538a3dfacf6a73ed5452be88dfbfe"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.15",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789274700",
+    "ts": 1789274977,
+    "tx": "0xaf0cbe79dc9df9e06f198bdc3d23ba8f4af33db78bb5b78dca5cc9654c3debeb"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.125",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789276200",
+    "ts": 1789276414,
+    "tx": "0xea3faa750270b61b14243a218c7091abdcc13be7e8476dd5b681ead5b6004013"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "28.8325",
+    "role": "taker",
+    "slug": "eth-updown-5m-1789288500",
+    "ts": 1789288516,
+    "tx": "0xf2dcd1d7e05bcee86eec320155e7bbdfd85370e578c7c969a118deddf97679e2"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.3",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789288800",
+    "ts": 1789288803,
+    "tx": "0xac7aafc3520436067d0132c67b7c5a84084125e0d583d0371bb753efc2843c17"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.120000",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789288800",
+    "ts": 1789288803,
+    "tx": "0xcdf2b15a0d727e19ddbdfb5d6feb7c5ce84fe49ae98ebaf49a5ca138b9d04702"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.16",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789290900",
+    "ts": 1789290978,
+    "tx": "0xa8b9b43f6145e6d92f71df5d7aec699e576313a82b2d4db841af2133f3002157"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.36",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789291800",
+    "ts": 1789291872,
+    "tx": "0xe57e5eb38bacc952611c56063476ac2d982da9935c88a7f5b22ca177ff94c29d"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.3",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789297200",
+    "ts": 1789297353,
+    "tx": "0x73dffac25fff795764475f24baa4f33a49b849b9f511186e76188620284d57b4"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.3",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789297200",
+    "ts": 1789297353,
+    "tx": "0x8899ba26277a762846f361b731ed723f49c78875f1858b0f99f267a20613ee9d"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.3",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789297200",
+    "ts": 1789297353,
+    "tx": "0x8c067a6ddd639a904ba482cd65a1b8bd583daa00096e805ccd163e62d1c44988"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.3",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789297200",
+    "ts": 1789297353,
+    "tx": "0x8e7be1e4f01f81c4020a7ea9fa4442693ab4baa3140eb83a4f503f43e6d88d0c"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.3",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789297200",
+    "ts": 1789297353,
+    "tx": "0xc3e5b989752c42f5aa03d170362c3a90cd1f98e5220d0909b799142a0e5696e6"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.219512",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789304700",
+    "ts": 1789304959,
+    "tx": "0xca537c50d93d3a8126987ee09ef2e041b80d704e7406980d6f913fe0e530f21e"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.000000",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789306200",
+    "ts": 1789306329,
+    "tx": "0xfc2b2c726633a78c949510f3f2d377e2b3a31de34bd5142d25ced0cd4c19c822"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-5.6",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789322400",
+    "ts": 1789322653,
+    "tx": "0xe997b65f78dda62edaf7747689ceb6a047440ea80d1ff6360fce2c5413eaa790"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.340909",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789331700",
+    "ts": 1789331782,
+    "tx": "0xf182124bf391a1d1dd03d386718131534a645d67eca466a086ccf37785aacd09"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.7375",
+    "role": "taker",
+    "slug": "eth-updown-5m-1789335900",
+    "ts": 1789336012,
+    "tx": "0xd56e3d3cc5d8ba8ec4b6f211636627206dc26d84b8c12ca113e4d638739bbf9a"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.500000",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789337700",
+    "ts": 1789337706,
+    "tx": "0x3ae07497c1c6da978d868aeffd68aef65b76a2b06bb09d333ea99d60391c4b38"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.48",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789340400",
+    "ts": 1789340568,
+    "tx": "0xd93208f66dffb3dccbfe2a224f998c1bab4806f6aaaacbadeb24ee57a5af91c1"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.08",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789340400",
+    "ts": 1789340568,
+    "tx": "0xf6ed9b981541fdba37b73dad907e162ad71ef279b7f1f601662bc93853e1203a"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.52",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789344600",
+    "ts": 1789344619,
+    "tx": "0xb17ac7b3c81cf8dd2327c897b566723752e3e217e8ebc931eda589177123ff3e"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.876191",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789347600",
+    "ts": 1789347850,
+    "tx": "0xbd285079b323ec279f22d35153be2f6956bae2cdb6710200f8b86c1de55aa5ee"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.36",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789351800",
+    "ts": 1789351827,
+    "tx": "0xe1fd2a098dfd916313a1cb5e11512dc66fd54d93f3762fbc11d2515ee0ad39e4"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.457215",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789352700",
+    "ts": 1789352965,
+    "tx": "0xd90ea940690d383dac6c4fbd8a39a96867fae082954d2b6c840a498d21fca1d8"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-9.130909",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789354500",
+    "ts": 1789354515,
+    "tx": "0x55bc9f7498b831bf27c7f6c84c3cd83101a3da3f4130ceec81a8746c49778881"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-6.562",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789361700",
+    "ts": 1789361829,
+    "tx": "0xbe6feee147545109f7a290a44548eddd3dc99fc99fc48c5a45c8640b65e365f6"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.7",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789373100",
+    "ts": 1789373145,
+    "tx": "0x753fb19f63bc0a5052dcd10e1bd6593c23845cf046b044904f161bcfdf704a37"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.7",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789373100",
+    "ts": 1789373145,
+    "tx": "0xf7f06e9e4d6fd951362d2f8fbad7a3da18fd613e2c7c752ec7425a76acbebd10"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-8.08",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789374300",
+    "ts": 1789374331,
+    "tx": "0x6a488f4aa563da4746d4c246383c45f737aa4561da707af8d2cb604c67194fbf"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "6.500000",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789381800",
+    "ts": 1789382023,
+    "tx": "0xd03522fab77847ef60ca86cd72a0e31fcbcc5b806f938d9f8e93e4d0b23b18e0"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.12",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789403400",
+    "ts": 1789403505,
+    "tx": "0x8a31aef62e6087505187641a5c927b3beeab514244b59b347f755d5e65ba3ed6"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "15.4",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789403700",
+    "ts": 1789403998,
+    "tx": "0xd0c1d53e1141f0d5da53a9deb788e8020adb075f2bbdff2a80c55c3c2304c6f7"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "8.2005",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789403700",
+    "ts": 1789403998,
+    "tx": "0xd2eae9d6e9d14da96222fb07bc8b72e8ba7fd1dd20ffbd53299c2096899197b6"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.999999",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789403700",
+    "ts": 1789403998,
+    "tx": "0xde3adb646df4b04aebc2e172369d51d7a81d8b13a356a87dab5872727ec263c0"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.614458",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789422600",
+    "ts": 1789422853,
+    "tx": "0x7e13f8e696f8e47ce2c6cd7d24ab2e49c19da7a43776d1ddfcc72e7fdd83616c"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.7",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789422600",
+    "ts": 1789422853,
+    "tx": "0x998eefdaed6bceac74a5294976d99edc254dee3fb88f058c19960712eec287e3"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.030000",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789449300",
+    "ts": 1789449483,
+    "tx": "0xd11f19bf6716424c4077181397f193cea45bd408723784749b3776fb15483226"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.35",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789461000",
+    "ts": 1789461273,
+    "tx": "0x398932d2dffb67606e84e10633982ed243da5fb7b878c7191590215daffb1b36"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.192688",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789461000",
+    "ts": 1789461273,
+    "tx": "0x78fa08c9425be0855d82759e3993f62df8edac18c0ca7cc36e1704d61409a0a8"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.489659",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789461000",
+    "ts": 1789461273,
+    "tx": "0x93acbc1867c67bb4451710795014b4c2eef71550574fbb79552f8bec7b1ae996"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.200000",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789466100",
+    "ts": 1789466107,
+    "tx": "0x94ce8ace5c2109f27c2df1f62be436b9266937ea014684eee50bdde7ed32d1cd"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.9",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789466100",
+    "ts": 1789466107,
+    "tx": "0xfc1fb961d915d94e8a3b6a96945955a068ed146cd20e8675f87a4f11682250c9"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.098901",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789467900",
+    "ts": 1789468093,
+    "tx": "0xbe0d8c47a657f972dfc3b114d9ffacfd542b187e4f556831681fcfe620771d5e"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.283643",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789470000",
+    "ts": 1789470214,
+    "tx": "0xdbba7f7302b0a1b9d8c9b08bec3b413ea611ef87afa742de2652a61c7d6c3cae"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.392381",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789470900",
+    "ts": 1789471105,
+    "tx": "0xe353b311c5532250f8ce7d6fde1f6d71e53945a94edb247818ac701003c28524"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.6",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789473900",
+    "ts": 1789473934,
+    "tx": "0x4bae76c54d285848202d9225e0d5535a6dbe7ffb62616f544695c364445c9ac2"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.6",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789473900",
+    "ts": 1789473934,
+    "tx": "0x8b632a8d278324b71623924d1b7caa3f912d1680921928243272a2d4690bf1aa"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.4251",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789485000",
+    "ts": 1789485295,
+    "tx": "0x94bfa09fde5ad305966bb36e643f82bbaf305cca88dad0de2e8b21a9fed0092c"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.2",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789486800",
+    "ts": 1789487073,
+    "tx": "0x6a6d1fbe1b889df93802556979722c1df7de195b8b0879bf5824d2b36599c0eb"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.45",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789497300",
+    "ts": 1789497454,
+    "tx": "0x58f43806e67588f1fa27d7b5dc729f3afd825f3d26aa495efaf75df76518aa33"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.99",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789497300",
+    "ts": 1789497454,
+    "tx": "0xf441c972bc404229b2866af7ba0c9462117eca36c425b8b13b55aa6c752d365f"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.35",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789505700",
+    "ts": 1789505886,
+    "tx": "0xbadf7251e8d5f922738a7a43ac7a2d5b59a95f268de832fc6377c5b4016ceb44"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.4",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789509300",
+    "ts": 1789509310,
+    "tx": "0x70bbf80d9e945974b1d4bc60afa3863d6c8335bb1b59cfd079f6cc6709a033cc"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.5",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789512900",
+    "ts": 1789512982,
+    "tx": "0x841665ffb450394b7e781b5a3e091a1bcc7823decb64ae2a35b187dbd5be0131"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789514100",
+    "ts": 1789514197,
+    "tx": "0xc4f04d7c3f3188c9ba34ca5467d53f83796cda402b2cbbf98e3808e27fb5bd1c"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789514100",
+    "ts": 1789514197,
+    "tx": "0xcccbb37236d202d98f7b294db20b516869e449b5bb62ea6b83eb489c549fafb5"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.345679",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789516200",
+    "ts": 1789516264,
+    "tx": "0xb6aaf73915ff6f9154985df5879110a6a48e0c3858e09556c12a10ef2fe4ede7"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.075268",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789533900",
+    "ts": 1789534155,
+    "tx": "0x7740c5ca20b219e0182134fd67625898f810f1332b76a27977506826086efcda"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.013157",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789533900",
+    "ts": 1789534155,
+    "tx": "0xf00fe37ad1cb6f3ee88e28832ffc8d8ecc86573f06b24a12d06a7901ae7c0e29"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-7.8",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789536900",
+    "ts": 1789537021,
+    "tx": "0x308d0a3727263fb98b2226055b86e9d8f554ee3da9e127996c9c1c0d0529c1e1"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.4934",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789536900",
+    "ts": 1789537021,
+    "tx": "0xc868dbb766c743b58e9891c286519557fa88123ced16222436bb1ba51a27e5c6"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.15",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789557600",
+    "ts": 1789557844,
+    "tx": "0xd2f1562d7f90f5d44a3895e7229eca9847d6f5c511f3f680e77a45371bb961d5"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.39",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789557600",
+    "ts": 1789557844,
+    "tx": "0xeed1edca5be1a5b34d13ac5cc9bcc527fbd6e1d102813c3ab8fce98a64b7954f"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.31435",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789566600",
+    "ts": 1789566852,
+    "tx": "0xb5c401618e8022423f248722aa488f37477c825f57ca4f4c560ba1cee3e31657"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.680000",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789579200",
+    "ts": 1789579438,
+    "tx": "0xc794ff33593196f743d0ef3e216b19fb0aea4cba65277da017677fba160a1a21"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "13.89122",
+    "role": "taker",
+    "slug": "eth-updown-5m-1789581600",
+    "ts": 1789581612,
+    "tx": "0xf9267afa5c32acc827353c769d6aff4f45bac5b901ed2b39e5969267c05b3183"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.160000",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789582500",
+    "ts": 1789582777,
+    "tx": "0xf97efb8f14f4579b90db984eef182355ad7d3107dedb5a03982885498c3ff4ba"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.333333",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789591800",
+    "ts": 1789591966,
+    "tx": "0xe3c5c92608946fca220b245cb526fdfa27d445d6a1b5d54dbbb0df066668a754"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.309278",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789592700",
+    "ts": 1789592980,
+    "tx": "0xba5d36720856249955bc06d7e1f81ba8e4a75d3465554d995fc3c06f8163ca6a"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "7.28",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789593900",
+    "ts": 1789594021,
+    "tx": "0x526dbea8e7f37b79b3601cc80b96aed41b0ed7c1aa1aa5ffefd1ac5335ef2e12"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.999999",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789593900",
+    "ts": 1789594021,
+    "tx": "0x835dc47c92282150c851b7c6c4bf84595d9c622e34a83e8342fa9bafad213c26"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.21",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789595100",
+    "ts": 1789595376,
+    "tx": "0x4e386d1d750a41dd2537104a060bd20e930f1e1f381c6bc19db2978f25fc87c2"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.020375",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789595100",
+    "ts": 1789595376,
+    "tx": "0x5ea0d09bb5b10441f24f385c682de7578d40f67021387f84bab57a262f2d5c8c"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.15",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789595100",
+    "ts": 1789595376,
+    "tx": "0xbf89038371fd5ca1507f893639619d38c4720597a3020eb7223266d2965ad7e3"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.15",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789595100",
+    "ts": 1789595376,
+    "tx": "0xebe9815ff1d7db8b066d25547e3d643df06df569612e371f1c65d9151e497ce3"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.2580",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789607400",
+    "ts": 1789607692,
+    "tx": "0xd5ee695c8ce2f35b803dc919e19cf2a6fe0c4636c50b9b7911849c840a65c6bb"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-7.847895",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789619400",
+    "ts": 1789619404,
+    "tx": "0xfc6e842b656a1d43af0b6c543ace059c08391c536abd9693ff5e66c527103195"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.313793",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789625400",
+    "ts": 1789625665,
+    "tx": "0x41346d8c2fb50c07ff055cb263f7d2fd079f166455b8613670ca78973e5e2eab"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.65",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789625400",
+    "ts": 1789625665,
+    "tx": "0x80e20e8785d503a85ffbfe7311e5504dc9711bb5ce9d444cd08c230d533447e0"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.111139",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789643700",
+    "ts": 1789643779,
+    "tx": "0x8b9984a00c75e53b4ec0d3aa27cc286751034e486766e1c4d1ed119b33bcb5b6"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.14",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789652100",
+    "ts": 1789652146,
+    "tx": "0xe840fb804f70572ad0a8c9376d8066ad826cb0baccb74437659a2bdf12fc7095"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.466949",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789670100",
+    "ts": 1789670190,
+    "tx": "0xd7956f8ce3ca880a173c1a31871eb6acb7293dce50cd31149874f60ae0d1a291"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.818182",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789670700",
+    "ts": 1789670806,
+    "tx": "0x2aee83cb0877d741e5edce43ec8979d1e8934baed15f772ee802f733891a9ce6"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-20.5065",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789670700",
+    "ts": 1789670806,
+    "tx": "0x2e8a7faa8e7c62dc13f876563f2c919b4fe1c1311be307edc67b39ddb98e0854"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "7.2",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789672500",
+    "ts": 1789672504,
+    "tx": "0x815007c16f2da801cab147a6c0a76db2056dc9d110a96c9c099d2ac23fa96caa"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-7.484210",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789678200",
+    "ts": 1789678351,
+    "tx": "0x56730bd107a7e06cc823f14bcd64bee0557462732470273a08a99607779ce0c6"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.647368",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789678200",
+    "ts": 1789678351,
+    "tx": "0x5e0ab5e6acafe4561561636646abcc7f792c6478b049b1844bb8fdc617ebedca"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.647368",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789678200",
+    "ts": 1789678351,
+    "tx": "0x92f6531950c4cb1923eec5fd0e8c0096f80872fd3495cdc1953dea7784151544"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-9.3504",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789678200",
+    "ts": 1789678351,
+    "tx": "0xd8e26e9b18a80b289518a8e5ebc44b7568f53b1990b475cedf0d73b534d36574"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-7.484210",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789678200",
+    "ts": 1789678351,
+    "tx": "0xf2536097900e9fab4e364bc3a4d59e3cde66c600a5942e611e6a6346755f19cc"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.83",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789679700",
+    "ts": 1789679944,
+    "tx": "0xc60a8f1ddd476479dbccf3b496370495cd10670e400955075281df36adb63411"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-11.9",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789680900",
+    "ts": 1789680981,
+    "tx": "0xfe393b00b0317d8603244201f7376ff0b0077f44777afcd6c445ed503f683030"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.9",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789683000",
+    "ts": 1789683226,
+    "tx": "0xc14d8a5d3716553966268fc433838c1e1fa6a69c643d6d90d9fe7fffc2d444f3"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-11.6",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789683600",
+    "ts": 1789683840,
+    "tx": "0xecac39766fca6bc496e07c26020393716d3ac27fa4c7fe950e3c9809f61adc83"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.555555",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789684800",
+    "ts": 1789685074,
+    "tx": "0xfd46b681868a7288fceed1589013b446831b35ef81584e877b366c1dd3dae1e2"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-4.736842",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789697400",
+    "ts": 1789697493,
+    "tx": "0xdb95065606611e71855995c1fc2b80fedf355b5d7ac8da2b31cacb242683388a"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.80",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789713900",
+    "ts": 1789714198,
+    "tx": "0x94397ae1f0cb723c07ebba478120fb2a5699aa7f95d6fb2e4432a330a1343361"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.8",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789713900",
+    "ts": 1789714198,
+    "tx": "0xc93baab43269073dd0147e576460162c6e6beca4a70899daa7a8efbc1b833d78"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.315789",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789732500",
+    "ts": 1789732572,
+    "tx": "0x94490a20ac98df8367b51f218ac4080da5bfd9f2fabc707db90863f25848799b"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.48",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789732500",
+    "ts": 1789732572,
+    "tx": "0xc6e26b0092225602cecd13d90e2dfe2d0e0331780e6d7e63c9103fa79dc4f9ab"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.7",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789734900",
+    "ts": 1789735128,
+    "tx": "0x4d91f50ecbb6a467d87c51689c8c135147a599f07638b49dc50aa9395886a369"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.376344",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789734900",
+    "ts": 1789735128,
+    "tx": "0x9b7b95dd0d6d0f1512f941f45f0a4e40f997b1bed2cd98f25dd36749a36d64df"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.232700",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789737000",
+    "ts": 1789737255,
+    "tx": "0xe3de6847b51890feae2bcc1b09847e1a0c0a2c0603bea065b8a8b0540ef90c8a"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.08",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789738200",
+    "ts": 1789738265,
+    "tx": "0x607f55c031e726c5efc4daa341a029b677e54ee66ae89ea32b1bcf579b0bdd69"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.08",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789738200",
+    "ts": 1789738265,
+    "tx": "0x728b187c8fd618d750826b9f794e977fbf77be82cd798250899837be1f57f090"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.08",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789738200",
+    "ts": 1789738265,
+    "tx": "0xb033a7a118ccc13da19c96f6816df17ad3c500f50a0053aa8c02d549637d16b6"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.08",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789738200",
+    "ts": 1789738265,
+    "tx": "0xb47ee6cccda96bf7cb4f82f0ab0cdca346c59c1e02f2eeebb02e91c4ab3683ce"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.38",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789738200",
+    "ts": 1789738265,
+    "tx": "0xb90183f9962bae98b68a1e86734a5e3546455299d633c0eb17754b04924d69d1"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.14",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789739700",
+    "ts": 1789739708,
+    "tx": "0x6ac35c8d74ba2113de76adfd8bf2f44d3be71024905360dcfc6e37dff201dcd9"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-4.2",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789740300",
+    "ts": 1789740338,
+    "tx": "0x36f82388bb379cb50821a08ebe0457898769548cfd4b465551d8e9604b138609"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-4.2",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789740300",
+    "ts": 1789740338,
+    "tx": "0x83e49a6279c98302356f5fb8a2f33c1d49b51a62e2795b6b40ed50b20b0e5fd1"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-4.2",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789740300",
+    "ts": 1789740338,
+    "tx": "0xbb337494eb42f65c428d445be2ba4b2575675fb8e4e897fd11ddd38b1ea2f12f"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-4.2",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789740300",
+    "ts": 1789740338,
+    "tx": "0xc3bbb07d624d9ff19143eaf6a4cc8670ebcaa3818dceea70c42a8ad74458d7b6"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-4.2",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789740300",
+    "ts": 1789740338,
+    "tx": "0xf2724014504810193da05d7596e310338e1ab42e09fa34ac9728f02aefdd08f4"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.588735",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789746300",
+    "ts": 1789746490,
+    "tx": "0xd6313d4561b81bfd9e4f39ba68bdde37f70ed8e12577fe3bda288007a892eef0"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.370000",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789747800",
+    "ts": 1789747806,
+    "tx": "0x5bace9468dc78533d518b9f44214da07b0ffa9d92a9acb6b0551719a72769715"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.92",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789753800",
+    "ts": 1789753806,
+    "tx": "0xa2ae857c69343a967ab9828363bf0c7698eca9b125df77f514995bc906b4a7f1"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.0611",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789761300",
+    "ts": 1789761598,
+    "tx": "0x93dbf8c7b073c8bd669f26b65b57a48da7266f865e8998e78c31620e92fd2ef9"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.782716",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789763700",
+    "ts": 1789763973,
+    "tx": "0x3fe56aa1720fc720f18563b699455e73e99291b28a6a05ea40a90520e32868d0"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.801481",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789763700",
+    "ts": 1789763973,
+    "tx": "0x9d69636a72b30826199f837aff614e7657b2df1b9383617f99255713e3c529dc"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.801481",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789763700",
+    "ts": 1789763973,
+    "tx": "0xc15955590e94b7cd7560ebad92bca405c3ebd8e43f9d0784526d56101e63f808"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-6.6663",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789770300",
+    "ts": 1789770420,
+    "tx": "0x35a07ce2c862c41a91516a97f9ae741bac0d17fb0f88241c9920d73906465d2c"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-5.7132",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789770300",
+    "ts": 1789770420,
+    "tx": "0x38012c25a3a583031440831363cc5ae7b65cc4d401cc77ee8a3ab13d979a26f7"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.8529",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789770300",
+    "ts": 1789770420,
+    "tx": "0x40c928e9f188dd1359c4caff4d745ea0b625908878fb5e279d3a1f7505862094"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-5.7132",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789770300",
+    "ts": 1789770420,
+    "tx": "0xafca229029b12988f79205fd5402a856cd436b66c1ea28db40cc5844c3f809f8"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-5.7132",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789770300",
+    "ts": 1789770420,
+    "tx": "0xd5b23a90941ef096e5de6cba3fd3baa4fc8e85569a27ae520b700821539c8e00"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.106",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789770300",
+    "ts": 1789770420,
+    "tx": "0xea4d3cd9c057bdc57107bcbbb240cf8eafe7c5965f0cf9161341644daf7bba7e"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.5457",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789771500",
+    "ts": 1789771503,
+    "tx": "0xdf2dc7013488a85f9c8b2e2977f2b1fe25f714dfff013a855ec124b78bb93670"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "23.07",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789774800",
+    "ts": 1789774893,
+    "tx": "0x2ef0cae8c8608c084d6c9a20076496221d00261dd4abbc327e37e1ae2057a34e"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.3684",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789775100",
+    "ts": 1789775112,
+    "tx": "0x7d89f480616ae62e9d433e2b8938f2e7bad728811946ad79407cc10299cc26c7"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.6",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789775400",
+    "ts": 1789775574,
+    "tx": "0xac68721736b4b04feb218b82e8605c48b9673000ad914c9e97bd9d60da95bf09"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.3832",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789775400",
+    "ts": 1789775574,
+    "tx": "0xad275749213f5797392f28e0c29ad0a5fd340ca1d3f4b4201262a7d88c466044"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-13.635364",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789775700",
+    "ts": 1789775757,
+    "tx": "0x9bc49dcfe8dbf5b9a8b3615aa5aa91e4d40b9b3c2b4ed1133719d3aa80f40ef1"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.3117",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789776000",
+    "ts": 1789776045,
+    "tx": "0x5c11174a90be2bfd9b907e4bf58c8ddea13f803da89510e287708b88bab389c6"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-6.6278",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789776300",
+    "ts": 1789776312,
+    "tx": "0xc2827ff03d483f48e997fd10404c267de6d0e0a51a96d821f511aa1b2e1d8e13"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "12.9224",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789776600",
+    "ts": 1789776622,
+    "tx": "0xd5e7a197c8d692ac921e99c59c898acf15214e39054976dc8196ac06305d031a"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.6725",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789779900",
+    "ts": 1789779933,
+    "tx": "0x4d60eb794a46f5243c0c38f4c23ea054da81c0bd6d5d30cd58826a128c3d1d3d"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-12.4575",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789779900",
+    "ts": 1789779933,
+    "tx": "0x57134528a481032b644931e1a19eda9ec444d40e0d67f0906946b47cd7d23961"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.496666",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789779900",
+    "ts": 1789779933,
+    "tx": "0xcb2e4f077cc3cbd55ad01fb5a635d8e9409c8bdcfcfc9552fc7bd665d72ca8a3"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.25",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789779900",
+    "ts": 1789779933,
+    "tx": "0xeba3149c3bdfe861a401a7eb3e60f43dfbe3ce4b05b1f9d2565a19ba36a43ca0"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.25",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789779900",
+    "ts": 1789779933,
+    "tx": "0xf59505779fdd75c559f143b2b558d0b0fff9e4c4f63ca7f4da6cb838d6dbf41a"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.200000",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789825500",
+    "ts": 1789825794,
+    "tx": "0x7b3b8e49d2ca314c06ef36b2d0409bd6d11392ac4af48620d7d92d8682228aa8"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.742381",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789849500",
+    "ts": 1789849503,
+    "tx": "0x7e39398b14af28285ed90ba96c2c83a3684491865370660d34e7187c511e16cc"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.000000",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789852500",
+    "ts": 1789852512,
+    "tx": "0x8d9544cbfedf0658d54930f3fa2f390f7b058bdd3dd202a2ae6186e094bd2cb9"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.526315",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789859100",
+    "ts": 1789859347,
+    "tx": "0xd4396caae608f5b3f9432a239419a9d271c36d52376998ff127fcb9deb3737fe"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.004",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789867800",
+    "ts": 1789867803,
+    "tx": "0xea85e9fb0039c34ad8e92e4f32671b481fd336b9a9fd9dcfecee201a81ac0070"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.15",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789870500",
+    "ts": 1789870629,
+    "tx": "0xff351fbbffa52a6bc2a0f1de9017a2e502df40c4341c2eaf084d233b4c35d7bc"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.3",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789875600",
+    "ts": 1789875883,
+    "tx": "0x06bd98cd2a759ff9540b706c69a147f546c64a54ae14e0750387862808119298"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.3",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789875600",
+    "ts": 1789875883,
+    "tx": "0x0cdae59981dc2b18bc9d0253d8e6a54d7d3402b00849a0edc31c0cdcfa56af71"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.3",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789875600",
+    "ts": 1789875883,
+    "tx": "0xb53499c9d94ddc82218a63e4d7be9674a37110e15241cadd233d3e016f74970a"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.3",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789875600",
+    "ts": 1789875883,
+    "tx": "0xe84581e26fbd9edec573e6491196977fe8ebc55af96edc415a242a85a1195772"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.3",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789875600",
+    "ts": 1789875883,
+    "tx": "0xf6f0f2b8e3bdc2f37c2887d4fb4543daf061be910ae8e39c798838cc5613dd75"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.5",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789919700",
+    "ts": 1789919883,
+    "tx": "0x8f8491c6ae5e62e684430d2596c7e08f770040a8f142761fd62c8eafb06e60db"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789919700",
+    "ts": 1789919883,
+    "tx": "0xbf5a796ab4dbe8da93e115deed647c977c5074717b10f60eec9ae4f1b5cd2444"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-85",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789923900",
+    "ts": 1789923903,
+    "tx": "0x388aa3968a9bfda4988481825612ad3b4da741411d2416cffd156253f01b3440"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.479",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789939200",
+    "ts": 1789939250,
+    "tx": "0x81d2ba518b8c0d09378f5468f330103950d682e01a42071f212fb0e85cc41eb3"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-5.938096",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789945500",
+    "ts": 1789945736,
+    "tx": "0x37ee24025c25396ee1f2a64d5935a1c5a396b2d3db834642dada07421b5bee65"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-6.076191",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789945500",
+    "ts": 1789945736,
+    "tx": "0xebd03984e12d3426c528ec1640e64d88fdc15711198474442a7c27511298094c"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "8.4282",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789951200",
+    "ts": 1789951441,
+    "tx": "0x450ee8a77f83d09cc30fd0d03ee5a204e041cb19de523af55205be6444e8ab6d"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.5243",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789951200",
+    "ts": 1789951441,
+    "tx": "0x4ce9db830dc216eeb6811c48aa3325a0331a2e74128adbd14d673fadd4e8e831"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "15.000000",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789951200",
+    "ts": 1789951441,
+    "tx": "0xab6c7b3df47800ba5ae486e639ceebc0b2d84b1c4c2ab823ed0034dcddac6c08"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "9.9",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789951200",
+    "ts": 1789951441,
+    "tx": "0xe0aefabf94167255585b20705162f424b342173e18223cc2e6ac07b6dfd5a511"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.5012",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789959900",
+    "ts": 1789960033,
+    "tx": "0xfa2521daaf8f210c8b25210c216af21cbe1737aa99d38c04ef4f587f3a405539"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.709770",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789966800",
+    "ts": 1789967046,
+    "tx": "0xd54c60dd8fcd0f7ea1d5d199e3870c1dc3e0e93a44badcd8e899900f81fe4228"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.9",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789966800",
+    "ts": 1789967046,
+    "tx": "0xd5e399bd0a112af3cf1baa09955c92acdad9e58deb79846aef7c322f5613e63d"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.8",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789967400",
+    "ts": 1789967442,
+    "tx": "0xf83bed5d78127b4a4300a2576d6ca7483950bfd8404f78ecfbc57ec02ae86fed"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "8.6",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789975200",
+    "ts": 1789975484,
+    "tx": "0x1bf232cf75673c9f619b79d980984c565eebcf7ac37b945f005ac016fee5b655"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.3",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789975200",
+    "ts": 1789975484,
+    "tx": "0x8eea8d084d08a80e2c3e04f5b08c409c9a522c08adceedccbf61b6f69aa498c9"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.032877",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789977600",
+    "ts": 1789977603,
+    "tx": "0x69228be11c920db71adf381c903c54c0e2d577eb21e28468c465600c0cd87d27"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.5",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789983600",
+    "ts": 1789983890,
+    "tx": "0x63eb8cbb2aaf7246214d0e7d669c8cb77e7f21b0b6260769b8c54e163dd04c25"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "13.5",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789983600",
+    "ts": 1789983890,
+    "tx": "0xf5642ac9e3398416f0ea0ac24ad7d64f3777a7741ba6094ab6b0e54993b0c4a8"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.61",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789988700",
+    "ts": 1789988799,
+    "tx": "0x6adf493796100732cac1621542657da590dd59a2107416e7f7fd3af1431aa52b"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.68",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789988700",
+    "ts": 1789988799,
+    "tx": "0x866ef8df194e1fa09e8fd636198c2916136a8d71db196779a288f6ed621f9bc7"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.61",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789988700",
+    "ts": 1789988799,
+    "tx": "0x871b88d7784a5e6c0951466667e71345bdb51f48b18b103ca4ab94747f2e0603"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.25",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789989300",
+    "ts": 1789989461,
+    "tx": "0x72c1bebddf6aee61368f92d886e5c7b42b3523ff7eef2bd8205579d7cca97984"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.25",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789989300",
+    "ts": 1789989461,
+    "tx": "0x847e2926913e051b5c617a9135a9598038597398de0427154fb4a34e7630b0ab"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.521428",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789991100",
+    "ts": 1789991109,
+    "tx": "0x58ef1c3128985a1a050e74c95473009507d72344a73cc1db8a78c61b4aa82eeb"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.5",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789991100",
+    "ts": 1789991109,
+    "tx": "0x95311c551ce8d4a534880d43bc0c58091b3d9fc2a3ffb89a4811d19dfc71ee6f"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.5",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789991100",
+    "ts": 1789991109,
+    "tx": "0x9f16f7661753c701339b8c3133205ed53df7def00da5129a666130faad223bba"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.521428",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789991100",
+    "ts": 1789991109,
+    "tx": "0xc7f3856393cbe3872fa18bf017bc061de06619a054630f4a1a69be53a9ecbce1"
+  },
+  {
+    "group": "eth_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.1",
+    "role": "maker",
+    "slug": "eth-updown-5m-1789991100",
+    "ts": 1789991109,
+    "tx": "0xca1f79d64b3bc6bccbeca36f8c2e845c84717d4418c2d43d90655fa2ed287c04"
+  },
+  {
+    "group": "eth_1d",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "6.1722",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-on-september-17-2026",
+    "ts": 1789627756,
+    "tx": "0xeb98a40b3de2040d7b6811e366ebcfec00f741fc7b1a468d38000ed0d3c20073"
+  },
+  {
+    "group": "eth_1d",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.492537",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-on-september-20-2026",
+    "ts": 1789852265,
+    "tx": "0xbdb9f935afbcb2f19cda2ae9968377ff3ff294a89c3d1a7f7d4249870c7da956"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.65",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-13-2026-6am-et",
+    "ts": 1789293610,
+    "tx": "0x8503b3f34f1aa669c554478b30b2716c28c3a12f456317f87fba7a7172b53c04"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.908148",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-13-2026-7am-et",
+    "ts": 1789297215,
+    "tx": "0x8073f0b84921868372df6e42d856bc26f103de4f63ce9f8613780bb4730436f8"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.480393",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-13-2026-9am-et",
+    "ts": 1789304413,
+    "tx": "0xc6e63ad74c39519020456e2442d4205813ba199d74f8934a75036d94573a39a1"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.65",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-14-2026-1am-et",
+    "ts": 1789362010,
+    "tx": "0x79249c3db5c29003f773e1bb3bc3e8fc4da80faf76e6b30d8b008e13b471a427"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "12.8101",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-14-2026-4pm-et",
+    "ts": 1789416013,
+    "tx": "0x6ff430fcee8df04915b212a215120fbe52368a550e6effa734ef65c5a011504e"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.6192",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-14-2026-8pm-et",
+    "ts": 1789430773,
+    "tx": "0x38a799a798ea946d5e47786a66427117ce62913c193b956449aa3f53118b408b"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-4.996079",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-15-2026-6pm-et",
+    "ts": 1789509615,
+    "tx": "0xdfdebbb713f411a933c3248f732f4f1f78f5276c92def1b6bd298b4fe9218473"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.15",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-17-2026-10pm-et",
+    "ts": 1789696929,
+    "tx": "0x79e4a32a124e37489bc4718b5b56daa01910b2a74238597811333fe6a736cc9d"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.05",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-18-2026-1am-et",
+    "ts": 1789708153,
+    "tx": "0x3213220fd3e52e692015ec724ee48c36db96904906daac192ecf8afacdd2416b"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.05",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-18-2026-1am-et",
+    "ts": 1789708153,
+    "tx": "0x854793ff1fc83e68262067a8c9d1be520d4864113f390e3f5be06d9314971750"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.05",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-18-2026-1am-et",
+    "ts": 1789708153,
+    "tx": "0x9ccb917a8d2fa1eda1250ef3288b1f562f18ec0f9e90bb3aaff74bee27aadb0d"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.45",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-18-2026-2am-et",
+    "ts": 1789711455,
+    "tx": "0xb8725b3831bd34a6a304cd56d5dbf3d9e9316af5dec3c267ad686984b7dd4c40"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "1.45715",
+    "role": "taker",
+    "slug": "ethereum-up-or-down-september-18-2026-7pm-et",
+    "ts": 1789774594,
+    "tx": "0x7d6b3924a8e3138b2ef858a060ede12452165e7db79320518960ba6d343314b5"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-20-2026-11am-et",
+    "ts": 1789916526,
+    "tx": "0x14f9169b8630626c96795f9a8b4bf3f91c41f45efaa937dd27c482e36343fc0e"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-20-2026-11am-et",
+    "ts": 1789916526,
+    "tx": "0xca356d58b652e9f7e3866be85b7e9998d2370098b6220fba268c7ec2133d35aa"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-20-2026-11am-et",
+    "ts": 1789916526,
+    "tx": "0xcb1c2574cfd328147670c9e455ba0dde4527ef480aa0ad685866e58f45eb383d"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-20-2026-11am-et",
+    "ts": 1789916526,
+    "tx": "0xd76b2cf3d235954bc851718749ad65b918a7ef3b98bc811810af2a46319d1b18"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-20-2026-11am-et",
+    "ts": 1789916526,
+    "tx": "0xf5142f3a472ace53582b4a5633d0c9a78273d5bfc48a5eb7ae2eaf275324c41c"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.7",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-20-2026-1pm-et",
+    "ts": 1789923868,
+    "tx": "0x7219698050dfc9a769ed0560c229759f8b5d5fe07cfca84c8e3ebc61ee65eae4"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.7",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-20-2026-1pm-et",
+    "ts": 1789923868,
+    "tx": "0xafb76db0e9afda1f340fdc72a1f36b517134bf819c182f0001a3e417f5595ce3"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.7",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-20-2026-1pm-et",
+    "ts": 1789923868,
+    "tx": "0xb931b7df915153032d71d3625f365e0bc01cf250c76d00275a899358fe5dfc2f"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.7",
+    "role": "maker",
+    "slug": "ethereum-up-or-down-september-20-2026-1pm-et",
+    "ts": 1789923868,
+    "tx": "0xf54ad07d7be558434585ab545275cec4be9e99168489e19fdd39c4d3433f59aa"
+  },
+  {
+    "group": "eth_1h",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "-3.19268",
+    "role": "taker",
+    "slug": "ethereum-up-or-down-september-21-2026-5am-et",
+    "ts": 1789982220,
+    "tx": "0x3ccf0a43530aebe4837f0694cc08d4bd3ba1c50c3f66fb969b1b1ad7fd9b505e"
+  },
+  {
+    "group": "sol_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.660000",
+    "role": "maker",
+    "slug": "sol-updown-15m-1789311600",
+    "ts": 1789311820,
+    "tx": "0xf583ebdc3e362214373c7671df8272ed516bb220b425e48f056c6e35b70e7b6f"
+  },
+  {
+    "group": "sol_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.3",
+    "role": "maker",
+    "slug": "sol-updown-15m-1789349400",
+    "ts": 1789349782,
+    "tx": "0xc1552259470da94386d1fdef75fd1bcd86bc7a124eb03764a75d936d41757fd5"
+  },
+  {
+    "group": "sol_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.19",
+    "role": "maker",
+    "slug": "sol-updown-15m-1789355700",
+    "ts": 1789355971,
+    "tx": "0x9ba46b51a1ace2774a6d497ad53ab8bf75321e288c8f6894f0f3ff9c9b821c0a"
+  },
+  {
+    "group": "sol_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.1",
+    "role": "maker",
+    "slug": "sol-updown-15m-1789665300",
+    "ts": 1789665583,
+    "tx": "0xaeb21c91b8e11357ce60f60209f4baa64492152dc8d225391fda9b6170fdf6f2"
+  },
+  {
+    "group": "sol_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.657471",
+    "role": "maker",
+    "slug": "sol-updown-15m-1789677900",
+    "ts": 1789678315,
+    "tx": "0x52a0d7de9eb443ce119062e9cc6b6cd79295819b5e07ee877e2be62d595f95eb"
+  },
+  {
+    "group": "sol_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-2.0449",
+    "role": "maker",
+    "slug": "sol-updown-15m-1789677900",
+    "ts": 1789678315,
+    "tx": "0x6ae7cdc6a959eb6845f0f6208ce66dfe8cd70283ac3f631458a5811da0300408"
+  },
+  {
+    "group": "sol_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.3548",
+    "role": "maker",
+    "slug": "sol-updown-15m-1789706700",
+    "ts": 1789706721,
+    "tx": "0x9a1ea9f4ddfdae9ff7bdb1f9132e8826d1adcd7bd2923e8153aff98caf458111"
+  },
+  {
+    "group": "sol_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.94",
+    "role": "maker",
+    "slug": "sol-updown-15m-1789872300",
+    "ts": 1789872303,
+    "tx": "0x84792cf011902d13e68fb6fb245e4b8ac0a175218527349fa5b994380a004c82"
+  },
+  {
+    "group": "sol_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.0974",
+    "role": "maker",
+    "slug": "sol-updown-15m-1789873200",
+    "ts": 1789873267,
+    "tx": "0x8e5acf2d5f8f06c74563fa455e4d7edc55d3f6d559eb85553128c00055cae2b2"
+  },
+  {
+    "group": "sol_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-21.7404",
+    "role": "maker",
+    "slug": "sol-updown-15m-1789912800",
+    "ts": 1789912942,
+    "tx": "0xefb11ce8f102b1468a744798e6ee88b763be7b193c668add9dd4cf6a083aff7d"
+  },
+  {
+    "group": "sol_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.480000",
+    "role": "maker",
+    "slug": "sol-updown-15m-1789922700",
+    "ts": 1789922796,
+    "tx": "0xb5a8b42c040b5ee76b62453c7340dfef8a793bb9c1b03ae4375e11230d8f419d"
+  },
+  {
+    "group": "sol_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.3592",
+    "role": "maker",
+    "slug": "sol-updown-15m-1789930800",
+    "ts": 1789931105,
+    "tx": "0xdc5bef9967d1cd99d16cbe95141e1ad1b39198f7b0f514c309f48a640c3b70e1"
+  },
+  {
+    "group": "sol_15m",
+    "old_phase": "mixed",
+    "phase": "completion",
+    "pnl": "2.40643",
+    "role": "taker",
+    "slug": "sol-updown-15m-1789937100",
+    "ts": 1789937264,
+    "tx": "0xc42a55748284a355afb2abb656c956099a6aea7dd429bf943c46f028868c212f"
+  },
+  {
+    "group": "sol_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-12.342",
+    "role": "maker",
+    "slug": "sol-updown-15m-1789939800",
+    "ts": 1789940015,
+    "tx": "0xe1175ae1bf410d3ae5d48a2bd2dca4e9519c6be230154b03a4344aa7c5449b59"
+  },
+  {
+    "group": "sol_15m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.7",
+    "role": "maker",
+    "slug": "sol-updown-15m-1789971300",
+    "ts": 1789971389,
+    "tx": "0xcc7d81f205bf1006717535558167540a6a61caf4495029c5590597ab2bb15469"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.371500",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789291500",
+    "ts": 1789291509,
+    "tx": "0xf189335266c9ab52f43be65e4819ed7cc1e80e178c54e891f7a07562fa5bc4fd"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.2493",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789311600",
+    "ts": 1789311630,
+    "tx": "0xeecd600a227e93536980e52e492a3935846c807d4e3e4d5baad99acfcd4b1f75"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "4.0494",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789315800",
+    "ts": 1789315804,
+    "tx": "0xe2acde461648652ec854fe299af08090fba6525ed63fb417120756a40a5c97d7"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.3044",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789344300",
+    "ts": 1789344339,
+    "tx": "0xfaec553c7708b8fd11c2ac9558350631cb9608e6f0ec047d6fb2090d6b665ec0"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.2",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789347000",
+    "ts": 1789347283,
+    "tx": "0xf8c426ddea78b2f0fcd242d9a6401c1ecf1d570b962180b1a9e63a29c076d4d9"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.15875",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789374300",
+    "ts": 1789374330,
+    "tx": "0x67b122627754323c3141a79dba3dbc8beec5d6b96f6ea1f84e3260f962d95ac9"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.999999",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789381200",
+    "ts": 1789381456,
+    "tx": "0xee1e096ef0069a7ab02fc4eb3afbd89da4f08abb1e0fe931309c65fc9c8b8d73"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.440000",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789381200",
+    "ts": 1789381456,
+    "tx": "0xf4d9397b9ada7194f8f9871367a5d14db1ae77e7616b9fa7617d4b169c69b903"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.010000",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789396200",
+    "ts": 1789396246,
+    "tx": "0xc107aff09fffb9062f182e240fd56d516f754fea222df5e76a9d7d09336d025d"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "5.00000",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789481100",
+    "ts": 1789481107,
+    "tx": "0xe08b8df16c2702cb7411ede1b6ce442516e04a54b7339a3cc706e7dcbaa7a34b"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.100000",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789485900",
+    "ts": 1789485907,
+    "tx": "0xca32471674316adcf86fad23b0debf27c9b3dbc3a08f752287351499dedf006c"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.050000",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789500000",
+    "ts": 1789500040,
+    "tx": "0xff26c2d42ed621d19f67ed9ba62454d4914251c29f031a1450580e7f1e1cccf5"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.56",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789530300",
+    "ts": 1789530573,
+    "tx": "0x6f04d54597e2d17dc1c62d5044f9c11d55ac40847e5f609d86bac7b6ab4531d1"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.1197",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789530300",
+    "ts": 1789530573,
+    "tx": "0xa5173245ade0cd09754eae4cb7615a36054c155f43b9e5e52cc73f2088fecf56"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.56",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789530300",
+    "ts": 1789530573,
+    "tx": "0xe499e051f5275711894e24fa0134ffcc6be93cb756403ea495939d935fdaea88"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.56",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789530300",
+    "ts": 1789530573,
+    "tx": "0xfe00d664daa183fc1387faa21ebc5744d732f75d661935d57bef89ed2cfd9f37"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.5",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789538400",
+    "ts": 1789538694,
+    "tx": "0x937c1521205b63c6d0da2d3435d279a7cfdf666953316e144a87524eda0bb6f6"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.5",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789538400",
+    "ts": 1789538694,
+    "tx": "0x98ad5abeb2ba653a70bf018b8dfe6f9825a0da9b6e8c4a1e292372f161d1d21d"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.98",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789538400",
+    "ts": 1789538694,
+    "tx": "0xf4e987a1f50ccfbef29670916b67166bf222acaae8150e4edc189d582a114c3d"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-9.5114",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789553400",
+    "ts": 1789553481,
+    "tx": "0x58a7b9e37009d2299d34cddb74295479475360e677c957c539cb3e72cd7ba6cf"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.020370",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789553400",
+    "ts": 1789553481,
+    "tx": "0x870a7e88757a5373f0ea2229ac812478b081978543e8efee650db7af47799d31"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-4.75",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789553400",
+    "ts": 1789553481,
+    "tx": "0x87d439dcadf1e951a45d2a5623f73ceea684c2c04bca39cc721f2888976b27d3"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.38",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789553400",
+    "ts": 1789553481,
+    "tx": "0xc542366321b8b414fcf0a9ea334a15765a282cffe7b785ea515f79bfb1a222c9"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "13.68",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789585800",
+    "ts": 1789585860,
+    "tx": "0x732ada2b46ceba3d8f6810a5a20a3287072b9bf5aa14995d4f69c423d276c3d7"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.3",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789611300",
+    "ts": 1789611544,
+    "tx": "0x9ed6478febed2dfde80adc6e1ac43cf4ce219edffd10554af481850859391f09"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.06",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789611300",
+    "ts": 1789611544,
+    "tx": "0xb553240297d73872a8914f29e1e3ef83650bd42cb96b0e0d7050c2a22a0c90ee"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.700000",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789644300",
+    "ts": 1789644550,
+    "tx": "0xa473f396fe592cc8ff455bf91a9801bd9288be6489a415784926934aac7db4bc"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-4.25",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789653600",
+    "ts": 1789653622,
+    "tx": "0xe1d21e7a0cf07cd64e3a73522bb9771212cce6af49682f5a9cd83eca5852fd77"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.289756",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789677900",
+    "ts": 1789677952,
+    "tx": "0xe8a5ae31f1678620b895421f587989a21e9a384ddc3079d800ddc950bec8ca2a"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.02",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789739400",
+    "ts": 1789739427,
+    "tx": "0x37f487a808b5ed4c7d235ff28c06c2050bcd89192423847eab743e0b236d5ffb"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.2",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789740000",
+    "ts": 1789740021,
+    "tx": "0xb7de865e838dd3643fcdf0c0b03118ecb1742875fc883fe4d0019592952a1996"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789740000",
+    "ts": 1789740021,
+    "tx": "0xc63cb6364f5a6364a7eeea45e2bc9240961ff3e6c593fc349fe8c0ce75968b7e"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-37.35",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789745100",
+    "ts": 1789745115,
+    "tx": "0xc1701227cb14d3d9a70e35fc01a7f77466fa640804a012ec937d6397e4dbe2d6"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.307100",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789853700",
+    "ts": 1789853708,
+    "tx": "0xd5a2dbef344389a9f3dcbdb9ca1a484e75fb7a17f33323f70682e02ead712ef2"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-8.1",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789956000",
+    "ts": 1789956067,
+    "tx": "0x4bf8c135cc577b58592c228aba981bab7292c72026e5b871c37d996309e5e376"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.76",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789977900",
+    "ts": 1789978068,
+    "tx": "0xd13c1fd3725ea6de87756c39881fa2a7984d43231faca9231aec29388ff3800f"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "8.1",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789980000",
+    "ts": 1789980047,
+    "tx": "0xc93a162eb4b309a610ef3791ddcd33608496f1160a3109d5c1ad92d55bed04d3"
+  },
+  {
+    "group": "sol_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "5",
+    "role": "maker",
+    "slug": "sol-updown-5m-1789982400",
+    "ts": 1789982412,
+    "tx": "0xcb24102f81bfbfa9c45ebbc1e0497928a38bfadc5c0b995753e147036c347165"
+  },
+  {
+    "group": "sol_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-7.857143",
+    "role": "maker",
+    "slug": "solana-up-or-down-september-13-2026-7am-et",
+    "ts": 1789297215,
+    "tx": "0xf5d8f4b70e8047149e22896cf8f0bc5193a6a8ec75a10bb34ead350f2e4ea3d6"
+  },
+  {
+    "group": "sol_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.9603",
+    "role": "maker",
+    "slug": "solana-up-or-down-september-16-2026-5pm-et",
+    "ts": 1789592412,
+    "tx": "0xdba8ff5c0a74abff6da0e19c9df7fd8cf799047d967f3ce6e1d57e463184eae5"
+  },
+  {
+    "group": "sol_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.0664",
+    "role": "maker",
+    "slug": "solana-up-or-down-september-16-2026-7pm-et",
+    "ts": 1789600551,
+    "tx": "0xb7fa0891a41d522e3d29d96bfb02b3069e8383c9ebb918fcfca649b4d88411c8"
+  },
+  {
+    "group": "sol_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.999999",
+    "role": "maker",
+    "slug": "solana-up-or-down-september-18-2026-1pm-et",
+    "ts": 1789750815,
+    "tx": "0xecbb8783da84b30255061e7f84d32d209239e68db7538a7fb2cac5c492013cda"
+  },
+  {
+    "group": "sol_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.000000",
+    "role": "maker",
+    "slug": "solana-up-or-down-september-18-2026-9am-et",
+    "ts": 1789738578,
+    "tx": "0x9c666dd121999f9f1d2e7dd0fcb0fe3566e7adf299f16189d19b312468edec6c"
+  },
+  {
+    "group": "sol_1h",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.089300",
+    "role": "maker",
+    "slug": "solana-up-or-down-september-18-2026-9am-et",
+    "ts": 1789738578,
+    "tx": "0xb9720f9e87eebcc43203fbb577bd270b6de3ab3ff6c6fc16c505f5c41d0dafe9"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.25",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789344000",
+    "ts": 1789344246,
+    "tx": "0x28b57fe7835973a63389e3780cdf6f572d431e26547b6632c72a3c67d94a4bf6"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "5.4578",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789352700",
+    "ts": 1789352718,
+    "tx": "0xa32f24a56f63473ca12432929dc05a261c3c87cf69c6b164b4ca8697c5d1ec73"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.3",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789392000",
+    "ts": 1789392235,
+    "tx": "0x9a85580f0c07039cb36f85e9b09aab3605b68106bde9adae391e3f154938ed1b"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.000000",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789392000",
+    "ts": 1789392235,
+    "tx": "0xc2a999c71b7b0648500529a455cd11df472029ba0135b60b394855175ff35a52"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.049999",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789392000",
+    "ts": 1789392235,
+    "tx": "0xffa370f714abcefd234061c76f68143ffb1ae6a767d5427d06cf63489850fd57"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.30",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789398300",
+    "ts": 1789398514,
+    "tx": "0xdba8d809e9ad3cdc640a5b1f141b06562b619c382d445f7c6b6912be40c23f3f"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.24",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789412400",
+    "ts": 1789412425,
+    "tx": "0xed001f6ad2e98e568e502f2f5bbae31266b32fdf09ae8e9ab615713de8e2db88"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.001546",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789433100",
+    "ts": 1789433374,
+    "tx": "0x88473b94684588a2518cfd553d7a35a1ed48054f064187f4709428068e9e340b"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.1088",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789463100",
+    "ts": 1789463373,
+    "tx": "0x475c209d1076839d8fe3ff84c95f53f575d9d389f1248636c5917ad03486d872"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.780000",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789463100",
+    "ts": 1789463373,
+    "tx": "0x81a13f98541d6ac9a35c9b338d39e36dbd0e22a6d78a89d409d4ec9c5e3820d9"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.68",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789463100",
+    "ts": 1789463373,
+    "tx": "0xbbeb60ce196aeed165fd38147ea73eaf6603502ffadde329bb7f22409ecbcffd"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.234568",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789472700",
+    "ts": 1789472838,
+    "tx": "0x48a4744ab6843e07c27cb707aef1caf1ab2750011e297553c02a5d73e3ab1110"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.48",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789475100",
+    "ts": 1789475373,
+    "tx": "0x80a97bac6b7c510c33eea6c49fb91e9f0beb1c63a6cb2e9ead79fd770985f25f"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.48",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789475100",
+    "ts": 1789475373,
+    "tx": "0xb39a60d58775c7358b2422e15e62ad8b87d9573d10f3f45ede51605d8b22aa71"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.366619",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789475100",
+    "ts": 1789475373,
+    "tx": "0xe4c46e12fd1c98467e67ca4cfbd1c3e2be87b06857155e38c2dacfacf45d131f"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789479300",
+    "ts": 1789479343,
+    "tx": "0xbc428c9a236179955316372446395a6093019468657d6b27408b8d7983e7d50a"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "3.4496",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789535700",
+    "ts": 1789535704,
+    "tx": "0x03cb3c043fd4ca194b7734c77e4aa4dc49f7bbe15306928ca8da236541225b5d"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "11.287500",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789537200",
+    "ts": 1789537465,
+    "tx": "0xeebc8b9f50d6ef6fe03c906546fdd94d82bde1a792109b5a5578e33d0dc2e648"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.88",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789562400",
+    "ts": 1789562673,
+    "tx": "0x6fdc9b25752352e90b1b7656640b1b8f85219748e6abca8732f7377a7a43d6f5"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.889887",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789562400",
+    "ts": 1789562673,
+    "tx": "0x72fe67acc85dff0444514da7730e79b59fa74d623ea00e18f3240e0d6994a517"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.88",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789562400",
+    "ts": 1789562673,
+    "tx": "0x82a991a3df794c67e2ec7eacf68b41170742b5e12e0d56418a029ac3e0ac4f12"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-3.35",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789667700",
+    "ts": 1789667827,
+    "tx": "0x38631e7148ec4ef74d7a19651f21855eb32570aa2beeb589d386cebc0c2d20ce"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-0.282051",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789682700",
+    "ts": 1789682931,
+    "tx": "0xd21efcde6fa389614926dd5f37e5ff3f1cb974d7efb4bb8fc9e2539b5cbe8fe7"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "0.446500",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789683600",
+    "ts": 1789683891,
+    "tx": "0x6301b7fa55a20c248623b0a728c0c60f919f8759ea2fc87513d979e2367bebdb"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.924000",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789683600",
+    "ts": 1789683891,
+    "tx": "0x76db4c648f8bd85bda8f410cfb7f4c27b10a74dd87c3bb5463216daa9600ec06"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "2.3856",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789683600",
+    "ts": 1789683891,
+    "tx": "0xce106e799f3d0b49725646b12a8c6b5b57699c6a0caf55b9c4f859bc04a60a92"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "1.65",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789798200",
+    "ts": 1789798444,
+    "tx": "0xe2b3be8a70ee2166f63f34977ffa8ac6ba59347eae195d8100af1a62f1475ded"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-5.481",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789931100",
+    "ts": 1789931327,
+    "tx": "0xd8546181f7ac584dc62d4779c75677682ad239e48a31da234372926452fda196"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.62",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789954800",
+    "ts": 1789955072,
+    "tx": "0x3fa0308b27b784548b38c523548e5505f62b86093947f6b92a2dfb5f0ddde3c7"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.62",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789954800",
+    "ts": 1789955072,
+    "tx": "0x7165bacb8245dacbaf295bbb242fdc4970d14b3be3da28ac766948d3a276c80d"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.62",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789954800",
+    "ts": 1789955072,
+    "tx": "0x74e3ddcce89e8b3bc6fca1b01711dfed1f671724e9faa573f777b9988cde72f9"
+  },
+  {
+    "group": "xrp_5m",
+    "old_phase": "add",
+    "phase": "first",
+    "pnl": "-1.62",
+    "role": "maker",
+    "slug": "xrp-updown-5m-1789954800",
+    "ts": 1789955072,
+    "tx": "0xe0a52f5d85f0561af344db4db81f925f1254e1743f0ec8f82839d05f74bf4da4"
+  }
+]
