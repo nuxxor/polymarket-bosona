@@ -1711,7 +1711,7 @@ istedi. STOP_G normal duruşu yetkilidir; G5 aktivasyonu yetkili değildir.
       iki döngü testleri; emirsiz kamu akışı ve lint/hash teyidi.
 - [x] Aynı repo altında paket/protokol/okunabilir kaynak, PARKED_READY
       kanıtı. Yeni bütçe yaratma, G5 başlatma veya otomatik devam yok.
-- [ ] Operatörün ek talebi: doğrulanmış G5 kaynak/kanıtını gizli ve ham
+- [x] Operatörün ek talebi: doğrulanmış G5 kaynak/kanıtını gizli ve ham
       özel kayıtları dışarıda tutarak normal commit/push; uzak SHA teyidi.
 
 Sonuç: lanes/g_continuous/staging/g5/README.md ve READY.json. Kaynak
@@ -1732,3 +1732,12 @@ Kapsam seçilimli,temizholdout yok;G5'e fiyatfarkı kuralı eklenmedi.
 yerelkatkı−6,55USD;sonrakiişlemlerkarşıolgusalenvanteretaşınmadı.
 889gözlenenpendingaralığı±10içinde;+1/+5sn tamderinlikbuçıkarımdan
 gelmedi,null korundu. Ayrıntı data/analysis/g4_execution_20260922/GAP_CAPACITY.md.
+
+G5 yayın doğrulaması: f5fd7e750e0558ff5b1f2d825cccead9951cf3fa normal
+push ile origin/main oldu; uzak SHA birebir teyit edildi. Yayın kopyasında
+27 Python compile, Ruff F/E9, G5 gerçek döngü ve geçiş testleri geçti;
+16 kaynak ve 14 kanıt hash'i eşleşti. Yeni secret bulgusu yok; eski
+plan476 genel metni değişmeden korundu. Donmuş ab.py içindeki iki eski
+trailing-space satırı kaynak hash'ini korumak için bırakıldı. Ham özel
+hesap akışları, STATE/RUN/BUDGET ve anahtar dosyaları yayımlanmadı.
+G5 hâlâ parkta; canlı aktivasyon ve yeni gerçek bütçe oluşturulmadı.
