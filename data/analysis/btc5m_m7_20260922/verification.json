@@ -1,0 +1,35 @@
+{
+  "session": "2691bf1972654509927b0ae814d8de01",
+  "transport_ok": false,
+  "rollover_observed": true,
+  "elapsed_seconds": 360.020184935,
+  "rows": 217180,
+  "counts": {
+    "user": {
+      "subscription_sent": 1,
+      "pong": 36,
+      "connection_end": 1
+    },
+    "market": {
+      "subscription_sent": 2,
+      "data": 217100,
+      "book": 2842,
+      "pong": 37,
+      "price_change": 212837,
+      "last_trade_price": 1413,
+      "tick_size_change": 8,
+      "gap": 1,
+      "connection_end": 2
+    }
+  },
+  "current_window_activity": {
+    "1790031600": 128832,
+    "1790031900": 80457
+  },
+  "max_write_delay_ms": 3.191305,
+  "p99_write_delay_ms": 1.288356,
+  "utc_minus_monotonic_spread_ms": 0.024256,
+  "raw_sha256": "726c5ccb81d71ccdebf6e816cf1211380fc9843da352fba5bd5e879e7501e8b6",
+  "user_events_observed": false,
+  "full_calibration": false
+}

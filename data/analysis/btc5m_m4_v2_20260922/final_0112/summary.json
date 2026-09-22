@@ -1,0 +1,33 @@
+{
+  "stopped": true,
+  "stop_reason": "sure",
+  "open_orders": 0,
+  "accepted": 12,
+  "filled_orders": 4,
+  "filled_shares": 20,
+  "pairs": [
+    {
+      "start": 1790028000,
+      "up": 5.0,
+      "down": 5.0,
+      "cost": 4.9,
+      "terminal_pnl_before_other_costs": 0.09999999999999964
+    },
+    {
+      "start": 1790028600,
+      "up": 5.0,
+      "down": 5.0,
+      "cost": 4.9,
+      "terminal_pnl_before_other_costs": 0.09999999999999964
+    }
+  ],
+  "settled_delta": 0.10000600000000048,
+  "pending_windows": 1,
+  "telemetry_requests": 309,
+  "websocket_errors": 5,
+  "sdk_median_ms": {
+    "post_batch": 48.165402,
+    "cancel": 23.746376,
+    "get_order": 16.597076
+  }
+}

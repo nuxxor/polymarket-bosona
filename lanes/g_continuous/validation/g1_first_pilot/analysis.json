@@ -1,0 +1,130 @@
+{
+  "windows": [
+    {
+      "key": "btc|1790069400",
+      "winner": 0,
+      "quantity": [
+        "25.0",
+        "20.0"
+      ],
+      "cash": "19.850",
+      "pnl": "5.150",
+      "final_inventory_floor": "0.150",
+      "payout_above_floor": "5.000"
+    },
+    {
+      "key": "btc|1790069700",
+      "winner": 0,
+      "quantity": [
+        "20.0",
+        "15.0"
+      ],
+      "cash": "16.900",
+      "pnl": "3.100",
+      "final_inventory_floor": "-1.900",
+      "payout_above_floor": "5.000"
+    },
+    {
+      "key": "btc|1790070000",
+      "winner": 0,
+      "quantity": [
+        "20.0",
+        "20.0"
+      ],
+      "cash": "19.250",
+      "pnl": "0.750",
+      "final_inventory_floor": "0.750",
+      "payout_above_floor": "0.000"
+    },
+    {
+      "key": "btc|1790070300",
+      "winner": 1,
+      "quantity": [
+        "4.995715",
+        "5.0"
+      ],
+      "cash": "5.19811460",
+      "pnl": "-0.19811460",
+      "final_inventory_floor": "-0.20239960",
+      "payout_above_floor": "0.00428500"
+    },
+    {
+      "key": "btc|1790070600",
+      "winner": 0,
+      "quantity": [
+        "5.0",
+        "9.990371"
+      ],
+      "cash": "7.34557066",
+      "pnl": "-2.34557066",
+      "final_inventory_floor": "-2.34557066",
+      "payout_above_floor": "0E-8"
+    },
+    {
+      "key": "btc|1790070900",
+      "winner": 0,
+      "quantity": [
+        "20.0",
+        "15.0"
+      ],
+      "cash": "17.250",
+      "pnl": "2.750",
+      "final_inventory_floor": "-2.250",
+      "payout_above_floor": "5.000"
+    }
+  ],
+  "totals": {
+    "cash": "85.79368526",
+    "pnl": "9.20631474",
+    "final_inventory_floor": "-5.79797026",
+    "payout_above_floor": "15.00428500"
+  },
+  "streams": {
+    "A": {
+      "unique_trade_parent_pairs": 40,
+      "filled_parents": 36,
+      "all_accepted_parents_reconciled": 63,
+      "statuses": {
+        "MATCHED": 40,
+        "MINED": 40,
+        "CONFIRMED": 40
+      },
+      "rejected_messages": 6,
+      "total_shares": "179.986086"
+    },
+    "B": {
+      "unique_trade_parent_pairs": 40,
+      "filled_parents": 36,
+      "all_accepted_parents_reconciled": 63,
+      "statuses": {
+        "MATCHED": 40,
+        "MINED": 40,
+        "CONFIRMED": 40
+      },
+      "rejected_messages": 6,
+      "total_shares": "179.986086"
+    }
+  },
+  "accepted_parent_count": 63,
+  "filled_parent_count": 36,
+  "sdk_fill_observations": 37,
+  "successful_post_median_ms": 43.569160499999995,
+  "polling_vs_first_private_receipt_ms": {
+    "median": 132.279446,
+    "min": -46.724887,
+    "max": 785.945789
+  },
+  "limitations": [
+    "Fixed final inventory payoff floor is not a counterfactual trading policy or FIFO attribution.",
+    "Private order-hash matches establish maker fills, not queue priority or Bosona policy equality.",
+    "Six rejected messages per recorder remain unidentified; event completeness is not established.",
+    "Six markets, five Up outcomes; no durable profitability inference."
+  ],
+  "sources": {
+    "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/validation/final_20260922/complete/result.json": "87851002b2b35eec2faf6319207e3794578695895a93f05a0b2e31ea2f4a3bc4",
+    "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/validation/final_20260922/complete/reconciled_state.json": "e782c8756663a9da1d95d3401018b681495022d44ae205ff1d2496c56325690a",
+    "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/validation/final_20260922/original/LOG_g_emir_iz.jsonl": "dc9ee905bd75af7cb18ef2759995cf38408418133770115682776bf48fc9d4d7",
+    "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g_continuous/validation/g1_first_pilot/A_private.jsonl": "50c368b44ef1690f0547654f55ae52345e512419aec0c394d4940c1d8519e015",
+    "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g_continuous/validation/g1_first_pilot/B_private.jsonl": "9f2f67ca0ddcd6b1343ff3c004884b7932d23e6256fa40f3897b5b3c95f19949"
+  }
+}

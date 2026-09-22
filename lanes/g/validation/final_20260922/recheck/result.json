@@ -1,0 +1,107 @@
+{
+  "at_ms": 1790071576497,
+  "status": "official_resolution_pending",
+  "live_writers": [],
+  "open_orders": 0,
+  "windows": [
+    {
+      "key": "btc|1790069400",
+      "resolved": true,
+      "winner": 0,
+      "quantity": [
+        25.0,
+        20.0
+      ],
+      "cost": 19.85,
+      "pnl": 5.149999999999999,
+      "if_up": 5.149999999999999,
+      "if_down": 0.14999999999999858,
+      "accepted": 11,
+      "filled_orders": 9
+    },
+    {
+      "key": "btc|1790069700",
+      "resolved": true,
+      "winner": 0,
+      "quantity": [
+        20.0,
+        15.0
+      ],
+      "cost": 16.900000000000002,
+      "pnl": 3.099999999999998,
+      "if_up": 3.099999999999998,
+      "if_down": -1.9000000000000021,
+      "accepted": 14,
+      "filled_orders": 7
+    },
+    {
+      "key": "btc|1790070000",
+      "resolved": true,
+      "winner": 0,
+      "quantity": [
+        20.0,
+        20.0
+      ],
+      "cost": 19.25,
+      "pnl": 0.75,
+      "if_up": 0.75,
+      "if_down": 0.75,
+      "accepted": 16,
+      "filled_orders": 8
+    },
+    {
+      "key": "btc|1790070300",
+      "resolved": true,
+      "winner": 1,
+      "quantity": [
+        4.995715,
+        5.0
+      ],
+      "cost": 5.1981146,
+      "pnl": -0.19811460000000025,
+      "if_up": -0.20239960000000057,
+      "if_down": -0.19811460000000025,
+      "accepted": 3,
+      "filled_orders": 2
+    },
+    {
+      "key": "btc|1790070600",
+      "resolved": true,
+      "winner": 0,
+      "quantity": [
+        5.0,
+        9.990371
+      ],
+      "cost": 7.34557066,
+      "pnl": -2.34557066,
+      "if_up": -2.34557066,
+      "if_down": 2.6448003399999997,
+      "accepted": 7,
+      "filled_orders": 3
+    },
+    {
+      "key": "btc|1790070900",
+      "resolved": false,
+      "winner": null,
+      "quantity": [
+        20.0,
+        15.0
+      ],
+      "cost": 17.25,
+      "pnl": null,
+      "if_up": 2.75,
+      "if_down": -2.25,
+      "accepted": 12,
+      "filled_orders": 7
+    }
+  ],
+  "settled_pilot_pnl": 6.456314739999996,
+  "pending": 1,
+  "terminal_range": [
+    4.206314739999996,
+    9.206314739999996
+  ],
+  "baseline_pnl": -15.234894,
+  "reconciled_total": -8.77858,
+  "proof": null
+}

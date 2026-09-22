@@ -1,0 +1,12 @@
+{
+  "A": {
+    "source": "/home/ubuntu/polymarket-bosona-g-v2/bot/measurement/run1/A/079311ba6c154497aa1249cc1983916d.jsonl",
+    "source_bytes": 1345460599,
+    "extracted_sha": "50c368b44ef1690f0547654f55ae52345e512419aec0c394d4940c1d8519e015"
+  },
+  "B": {
+    "source": "/home/ubuntu/polymarket-bosona-g-v2/bot/measurement/run1/B/b0d7ff58c871451e801939a2b34073d2.jsonl",
+    "source_bytes": 1344664400,
+    "extracted_sha": "9f2f67ca0ddcd6b1343ff3c004884b7932d23e6256fa40f3897b5b3c95f19949"
+  }
+}

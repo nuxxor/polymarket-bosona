@@ -1,0 +1,178 @@
+{
+  "integrity": [
+    {
+      "session": "10ab384678a747e6b58f10841f3c5476",
+      "transport_ok": false,
+      "rollover_observed": true,
+      "elapsed_seconds": 900.02229812,
+      "rows": 575328,
+      "counts": {
+        "user": {
+          "subscription_sent": 1,
+          "pong": 90,
+          "connection_end": 1
+        },
+        "market": {
+          "subscription_sent": 4,
+          "data": 575133,
+          "book": 11143,
+          "pong": 92,
+          "price_change": 558410,
+          "last_trade_price": 5568,
+          "gap": 3,
+          "connection_end": 4,
+          "tick_size_change": 12
+        }
+      },
+      "current_window_activity": {
+        "1790035200": 3080,
+        "1790035500": 178862,
+        "1790035800": 143086,
+        "1790036100": 223029
+      },
+      "max_write_delay_ms": 9.782397,
+      "p99_write_delay_ms": 1.886191,
+      "utc_minus_monotonic_spread_ms": 0.066873,
+      "raw_sha256": "14126d1ea468051bd8fae7f931f2f6f7c313221f00c0b4eab572755336ac5629",
+      "user_events_observed": false,
+      "full_calibration": false
+    },
+    {
+      "session": "003a4394f46e435da058a391a4cdbb81",
+      "transport_ok": false,
+      "rollover_observed": true,
+      "elapsed_seconds": 900.025174023,
+      "rows": 576650,
+      "counts": {
+        "user": {
+          "subscription_sent": 1,
+          "pong": 90,
+          "connection_end": 1
+        },
+        "market": {
+          "subscription_sent": 3,
+          "data": 576459,
+          "book": 11194,
+          "pong": 91,
+          "price_change": 559648,
+          "last_trade_price": 5605,
+          "tick_size_change": 12,
+          "gap": 2,
+          "connection_end": 3
+        }
+      },
+      "current_window_activity": {
+        "1790035200": 3080,
+        "1790035500": 181735,
+        "1790035800": 143087,
+        "1790036100": 221441
+      },
+      "max_write_delay_ms": 8.798597,
+      "p99_write_delay_ms": 2.201681,
+      "utc_minus_monotonic_spread_ms": 0.10761,
+      "raw_sha256": "d4a4284f1e21f5a0c5646ede3ea01e296d5d14e60e11d89b9def09f116d75354",
+      "user_events_observed": false,
+      "full_calibration": false
+    }
+  ],
+  "overlap_seconds": 900.019929689,
+  "checkpoints": {
+    "neither_fresh": 1,
+    "both_fresh": 8972,
+    "B_only": 15,
+    "A_only": 13
+  },
+  "grid_ms": 100,
+  "active_windows": {
+    "1790035200": 166,
+    "1790035500": 3000,
+    "1790035800": 3000,
+    "1790036100": 2835
+  },
+  "issues": {
+    "A": {
+      "out_of_order_book": 22
+    },
+    "B": {
+      "out_of_order_book": 76
+    }
+  },
+  "gaps": [
+    {
+      "lane": "A",
+      "detected": 179408707491115,
+      "uncertain_from": 179408617200491,
+      "recovered": 179409297564741,
+      "code": 1013,
+      "sampled": 5,
+      "peer_stale": 0,
+      "conservative_samples": 6,
+      "conservative_peer_stale": 0,
+      "peer_ltp": 6,
+      "peer_ltp_absent_from_affected_log": 6
+    },
+    {
+      "lane": "A",
+      "detected": 179425030069417,
+      "uncertain_from": 179424959749679,
+      "recovered": 179425597564741,
+      "code": 1013,
+      "sampled": 5,
+      "peer_stale": 0,
+      "conservative_samples": 6,
+      "conservative_peer_stale": 0,
+      "peer_ltp": 4,
+      "peer_ltp_absent_from_affected_log": 4
+    },
+    {
+      "lane": "A",
+      "detected": 180146850246379,
+      "uncertain_from": 180146784327805,
+      "recovered": 180147397564741,
+      "code": 1013,
+      "sampled": 5,
+      "peer_stale": 0,
+      "conservative_samples": 6,
+      "conservative_peer_stale": 0,
+      "peer_ltp": 34,
+      "peer_ltp_absent_from_affected_log": 34
+    },
+    {
+      "lane": "B",
+      "detected": 180051237211309,
+      "uncertain_from": 180051208886386,
+      "recovered": 180051997564741,
+      "code": 1013,
+      "sampled": 7,
+      "peer_stale": 0,
+      "conservative_samples": 7,
+      "conservative_peer_stale": 0,
+      "peer_ltp": 12,
+      "peer_ltp_absent_from_affected_log": 11
+    },
+    {
+      "lane": "B",
+      "detected": 180155544507952,
+      "uncertain_from": 180155543751246,
+      "recovered": 180156197564741,
+      "code": 1013,
+      "sampled": 6,
+      "peer_stale": 0,
+      "conservative_samples": 6,
+      "conservative_peer_stale": 0,
+      "peer_ltp": 16,
+      "peer_ltp_absent_from_affected_log": 11
+    }
+  ],
+  "ltp_multiset": {
+    "A": 5568,
+    "B": 5605,
+    "common_occurrences": 5528,
+    "A_unmatched": 40,
+    "B_unmatched": 77
+  },
+  "coverage_gate": true,
+  "full_calibration": false,
+  "live_failover_deployed": false,
+  "economic_fills_merged": false
+}

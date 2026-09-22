@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-09-21T19:09:23.978483+00:00",
+  "files": {
+    "protocol.json": "8d66e7d65ccb34a05eaeb32cbee0246d22769daa76119266002a0f1d1d8b7e47",
+    "markets.json": "562d9ca4434efc0327979605f56b8d42ff9893582b56e31e80091f8f80473a90",
+    "events.jsonl.gz": "2416982997a38c1e3c4b90a30a4f0f7cbfca66c287898d8772f508cd90a1cd38",
+    "transactions.json": "8754a6bf0dfcc3387fb9b66cdccba1a45dd2b6f47420dc6a190a1a7ca00b9d7a",
+    "extraction.json": "664a116adb468b2d88c3d4caf06b7816a85ffd775280a7a2e7b5a01aa17625d8"
+  }
+}

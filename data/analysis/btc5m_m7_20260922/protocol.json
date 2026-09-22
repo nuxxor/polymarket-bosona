@@ -1,0 +1,14 @@
+{
+  "mode": "READ_ONLY_NO_ORDERS",
+  "seconds": 360,
+  "channels": [
+    "market",
+    "user"
+  ],
+  "clock": "emir_iz.saat UTC+monotonic; receive before parsing; separate write clock; host boot id",
+  "markets": "BTC5m previous/current through capture deadline, frozen before connection",
+  "fields": "typed allowlist; no owner/auth/signature/free-text error",
+  "accept": "same-source local/London checks, both PONG, real book/delta/LTP, market rollover, no reject/gap/overflow; no own events means routing/calibration pending",
+  "stop": "deadline or STOP_M7; no automatic trading restart or budget",
+  "missing": "disconnect is a gap; no claim of user-event replay or reconstructed queue rank"
+}

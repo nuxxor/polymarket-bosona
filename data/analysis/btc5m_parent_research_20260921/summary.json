@@ -1,0 +1,279 @@
+{
+  "cohorts": {
+    "representative": {
+      "markets": 64,
+      "complete_markets": 64,
+      "records": 629,
+      "matched_records": 629,
+      "shares": 28727.424996,
+      "matched_shares": 28727.424996,
+      "exchange_fills": 629,
+      "parents": 305,
+      "split_orders": 131,
+      "mixed_role_orders": 6,
+      "maker_share_ratio": {
+        "ratio": 0.8657272623447074,
+        "day_cluster_ci95": [
+          0.8034285359332185,
+          0.9292990484846525
+        ],
+        "days": 8,
+        "inference": "Exploratory historical day bootstrap; not clean prospective validation."
+      },
+      "maker_fill_ratio": {
+        "ratio": 0.9300476947535771,
+        "day_cluster_ci95": [
+          0.9050847457627119,
+          0.9536152796725784
+        ],
+        "days": 8,
+        "inference": "Exploratory historical day bootstrap; not clean prospective validation."
+      },
+      "first_reduction_status": {
+        "valid": 32,
+        "no_reduction": 23,
+        "ambiguous_first_reduction_multiple_parents": 7,
+        "ambiguous_first_reduction_both_sides": 1,
+        "ambiguous_overshoot_allocation": 1
+      },
+      "first_reduction_local": {
+        "records": 55,
+        "windows": 55,
+        "shares": 3167.411921,
+        "pnl": 165.37045216000004,
+        "positive_windows": 17,
+        "days": {
+          "2026-09-13": -9.232904999999988,
+          "2026-09-14": -102.55331999999997,
+          "2026-09-15": 66.82520399999996,
+          "2026-09-16": 0.0,
+          "2026-09-17": 25.367477000000008,
+          "2026-09-18": 70.76771,
+          "2026-09-19": -9.244274840000001,
+          "2026-09-20": 123.440561
+        },
+        "excluding_top3": -153.78977783999997,
+        "top1": 133.83151999999998,
+        "day_bootstrap_ci95": [
+          -208.57698183999992,
+          512.8226751599999
+        ],
+        "window_bootstrap_ci95": [
+          -323.222824,
+          676.02319532
+        ]
+      },
+      "local_delta_per_evaluable_market": 3.0067354938181827,
+      "first_reduction_by_role": {
+        "maker": {
+          "markets": 16,
+          "shares": 1877.101921,
+          "local_delta": -117.85556783999998,
+          "robust_over_one_markets": 5
+        },
+        "maker,taker": {
+          "markets": 1,
+          "shares": 10.48,
+          "local_delta": 9.3135,
+          "robust_over_one_markets": 0
+        },
+        "taker": {
+          "markets": 15,
+          "shares": 1279.83,
+          "local_delta": 273.91252000000003,
+          "robust_over_one_markets": 10
+        }
+      },
+      "robust_over_one_markets": 15,
+      "robust_over_one_shares": 1459.243332,
+      "first_reduction_shares": 3167.411921
+    },
+    "late20": {
+      "markets": 66,
+      "complete_markets": 66,
+      "records": 1352,
+      "matched_records": 1352,
+      "shares": 63437.619271,
+      "matched_shares": 63437.619271,
+      "exchange_fills": 1352,
+      "parents": 644,
+      "split_orders": 293,
+      "mixed_role_orders": 24,
+      "maker_share_ratio": {
+        "ratio": 0.8138623401115244,
+        "day_cluster_ci95": [
+          0.7896708071602174,
+          0.8419681770664741
+        ],
+        "days": 8,
+        "inference": "Exploratory historical day bootstrap; not clean prospective validation."
+      },
+      "maker_fill_ratio": {
+        "ratio": 0.9245562130177515,
+        "day_cluster_ci95": [
+          0.9062801932367149,
+          0.9360587002096437
+        ],
+        "days": 8,
+        "inference": "Exploratory historical day bootstrap; not clean prospective validation."
+      },
+      "first_reduction_status": {
+        "valid": 56,
+        "no_reduction": 5,
+        "ambiguous_first_reduction_multiple_parents": 3,
+        "ambiguous_first_reduction_after_public_end": 2
+      },
+      "first_reduction_local": {
+        "records": 61,
+        "windows": 61,
+        "shares": 5277.073042,
+        "pnl": -736.362118,
+        "positive_windows": 26,
+        "days": {
+          "2026-09-13": 5.523254000000001,
+          "2026-09-14": -334.966173,
+          "2026-09-15": -188.83433399999998,
+          "2026-09-16": -77.21728000000002,
+          "2026-09-17": -349.93874400000004,
+          "2026-09-18": -42.305948,
+          "2026-09-19": 182.94117000000003,
+          "2026-09-20": 68.435937
+        },
+        "excluding_top3": -1139.473028,
+        "top1": 173.20117000000002,
+        "day_bootstrap_ci95": [
+          -1740.8907270000002,
+          201.14993100000004
+        ],
+        "window_bootstrap_ci95": [
+          -2044.27251,
+          434.18736
+        ]
+      },
+      "local_delta_per_evaluable_market": -12.07151013114754,
+      "first_reduction_by_role": {
+        "maker": {
+          "markets": 27,
+          "shares": 1834.893042,
+          "local_delta": -327.291498,
+          "robust_over_one_markets": 11
+        },
+        "maker,taker": {
+          "markets": 4,
+          "shares": 361.79,
+          "local_delta": 23.120549999999994,
+          "robust_over_one_markets": 2
+        },
+        "taker": {
+          "markets": 25,
+          "shares": 3080.39,
+          "local_delta": -432.19116999999994,
+          "robust_over_one_markets": 12
+        }
+      },
+      "robust_over_one_markets": 25,
+      "robust_over_one_shares": 2780.992981,
+      "first_reduction_shares": 5277.073042
+    },
+    "diagnostic": {
+      "markets": 14,
+      "complete_markets": 14,
+      "records": 196,
+      "matched_records": 196,
+      "shares": 10773.012356,
+      "matched_shares": 10773.012356,
+      "exchange_fills": 196,
+      "parents": 98,
+      "split_orders": 36,
+      "mixed_role_orders": 4,
+      "maker_share_ratio": {
+        "ratio": 0.9136332560240871,
+        "day_cluster_ci95": [
+          0.8618207977903878,
+          0.9796099900084435
+        ],
+        "days": 7,
+        "inference": "Exploratory historical day bootstrap; not clean prospective validation."
+      },
+      "maker_fill_ratio": {
+        "ratio": 0.9438775510204082,
+        "day_cluster_ci95": [
+          0.9074074074074074,
+          0.978494623655914
+        ],
+        "days": 7,
+        "inference": "Exploratory historical day bootstrap; not clean prospective validation."
+      },
+      "first_reduction_status": {
+        "ambiguous_first_reduction_multiple_parents": 5,
+        "valid": 6,
+        "no_reduction": 3
+      },
+      "first_reduction_local": {
+        "records": 9,
+        "windows": 9,
+        "shares": 737.79,
+        "pnl": 130.72913,
+        "positive_windows": 5,
+        "days": {
+          "2026-09-13": 3.6056899999999996,
+          "2026-09-14": 0.0,
+          "2026-09-16": 102.65907,
+          "2026-09-17": -26.625200000000003,
+          "2026-09-19": 51.08957000000001
+        },
+        "excluding_top3": -21.429940000000016,
+        "top1": 102.65907,
+        "day_bootstrap_ci95": [
+          -49.64471,
+          358.58685
+        ],
+        "window_bootstrap_ci95": [
+          -33.750400000000006,
+          350.15635
+        ]
+      },
+      "local_delta_per_evaluable_market": 14.525458888888888,
+      "first_reduction_by_role": {
+        "maker": {
+          "markets": 4,
+          "shares": 466.45,
+          "local_delta": 24.464370000000006,
+          "robust_over_one_markets": 2
+        },
+        "taker": {
+          "markets": 2,
+          "shares": 271.34000000000003,
+          "local_delta": 106.26476,
+          "robust_over_one_markets": 2
+        }
+      },
+      "robust_over_one_markets": 4,
+      "robust_over_one_shares": 497.61,
+      "first_reduction_shares": 737.79
+    }
+  },
+  "late20": {
+    "records": 271,
+    "mapped": 271,
+    "earlier_second_records": 51,
+    "earlier_second_shares": 1754.9609619999999,
+    "same_second_only_records": 156,
+    "total_shares": 11889.227392,
+    "mapped_shares": 11889.227392,
+    "parents": 120,
+    "clock_free_continuation_bounds": {
+      "records": [
+        151,
+        165
+      ],
+      "shares": [
+        2473.5231180000005,
+        6297.035280999998
+      ],
+      "note": "Order identity alone; any ordering allowed. Which same-second fill came first remains unknown."
+    }
+  },
+  "receipt_failures": 0,
+  "market_failures": {}
+}

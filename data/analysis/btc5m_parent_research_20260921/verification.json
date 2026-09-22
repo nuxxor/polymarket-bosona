@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": "first-reduction/lot/clock guards, four corrupt receipt rejections, actual cohort invariants",
+  "report_sha256": "c85cbc1d23b42c6a8d5db41aa2db9ba9c80d651b01e2ca1d2d01940e5df38ca4",
+  "check_sha256": "20bb00fdf00e70e4bf86c92f67b1bb6cdada206cfb4a8319568c7cf834604998",
+  "cached_rerun_equal": true,
+  "lint": "ruff PASS",
+  "syntax": "py_compile PASS",
+  "input_manifest_sha256": "70ac576a3164042364085853b262c0cb7106a8217c3143c745fb7d37032279d9"
+}

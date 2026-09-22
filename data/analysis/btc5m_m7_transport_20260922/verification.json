@@ -1,0 +1,23 @@
+{
+  "code_sha256": {
+    "probe.py": "9b198433d798ade73d53c7aa9de49573bf5fd82c10c30da7e36c0b7dce1ad1ec",
+    "check.py": "d66c495fffc9a948816b21291a37cb8001c0a25837528a6a2f18b8ebd314777e",
+    "async_control.py": "97d3e6e343bb5fc609db97f6f0d14eba8c828a6997fba953661d810c8ab10a27"
+  },
+  "result_sha256": "4e9edeb27aaa91199739250790bdc25df89db59c1f641e0f2f9ae0f2befa8f3d",
+  "transport_gate": false,
+  "full_calibration": false,
+  "source_runtime_matches": true,
+  "real_replay_equal": true,
+  "negative_meter_checks": true,
+  "probe_self_tests": true,
+  "lint": true,
+  "syntax": true,
+  "financial_state_unchanged": true,
+  "observer_pids": [],
+  "open_orders": 0,
+  "times_tr": [
+    "2026-09-22T02:37:54.627322+03:00",
+    "2026-09-22T02:52:54.643950+03:00"
+  ]
+}

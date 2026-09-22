@@ -1,0 +1,442 @@
+{
+  "summary": {
+    "status": "NOT_CALIBRATED_CLOCK_AND_QUEUE_MISMATCH",
+    "accepted": 12,
+    "own_chain_shares": 20.0,
+    "own_chain_fills": 5,
+    "cancel_calls": 9,
+    "confirmed_cancel_calls": 8,
+    "usable_orders": 11,
+    "missing_reasons": {
+      "own_fill_clock_outside_sdk_bounds": 1
+    },
+    "actual_usable": 15.0,
+    "static_usable": [
+      10.0,
+      15.0
+    ],
+    "front_usable": [
+      25.0,
+      35.0
+    ],
+    "actual_outside_static": 4,
+    "post_median_ms": 57.401672000000005,
+    "cancel_median_ms": 23.746376,
+    "lifetime_median_ms": 3631.44091796875,
+    "methodology": "SDK clocks are scenario endpoints, not proven exchange activation/cancel bounds; static pre-send queue, unchanged 100ms guards; no economic strategy claim",
+    "clock_qualification": {
+      "correction": "The initial protocol wording 'SDK send/ack bound activation' is too strong. No exchange activation timestamp is present.",
+      "interpretation": "Send/ack/cancel/status are observed application clocks. M1 replay uses them as diagnostic scenario endpoints, not guaranteed exchange lifetime bounds.",
+      "discovery": "One own onchain fill has an LTP timestamp 141.54ms after the local terminal-status response. The original 100ms clock guard is unchanged; this order stays null.",
+      "decision": "No full calibration or independent strategy validation. Per-order errors matter even when aggregate simulated shares happen to match."
+    }
+  },
+  "rows": [
+    {
+      "oid": "0xc9d704cd4616d31d059eb5238d9707c16d3fb600db6229407ba937cf77d06cd2",
+      "S": 1790027400,
+      "actual": 0.0,
+      "status": "CANCELED",
+      "ahead": 0.0,
+      "eligible_volume": [
+        15.0,
+        15.0
+      ],
+      "static_queue": [
+        5.0,
+        5.0
+      ],
+      "front_queue": [
+        5.0,
+        5.0
+      ],
+      "errors": [],
+      "max_gap_ms": 84,
+      "bounds": {
+        "send_to_terminal_ms": 1010.092041015625,
+        "post_ms": 122.072765,
+        "cancel_ms": 42.478444
+      },
+      "own_fills": []
+    },
+    {
+      "oid": "0x6f7d477d2c9edb792a6c637fc3cf2ad39ff557617c603cbf6dff0551e31b2b80",
+      "S": 1790027400,
+      "actual": 0.0,
+      "status": "CANCELED",
+      "ahead": 273.78,
+      "eligible_volume": [
+        0.0,
+        0.0
+      ],
+      "static_queue": [
+        0.0,
+        0.0
+      ],
+      "front_queue": [
+        0.0,
+        0.0
+      ],
+      "errors": [],
+      "max_gap_ms": 27,
+      "bounds": {
+        "send_to_terminal_ms": 2340.54345703125,
+        "post_ms": 69.151979,
+        "cancel_ms": 22.898578
+      },
+      "own_fills": []
+    },
+    {
+      "oid": "0x3d24e0916091e2b6a6aeda9c57a33aed61055fdfcfd8c62adf60ac295f717aaf",
+      "S": 1790027400,
+      "actual": 0.0,
+      "status": "CANCELED",
+      "ahead": 0.0,
+      "eligible_volume": [
+        18.692308,
+        18.692308
+      ],
+      "static_queue": [
+        5.0,
+        5.0
+      ],
+      "front_queue": [
+        5.0,
+        5.0
+      ],
+      "errors": [],
+      "max_gap_ms": 61,
+      "bounds": {
+        "send_to_terminal_ms": 4922.33837890625,
+        "post_ms": 43.978882,
+        "cancel_ms": 23.746376
+      },
+      "own_fills": []
+    },
+    {
+      "oid": "0xdd363cfc29142228905610501b04bb41ca7194ffcc75315a8a35fd0a8aae44be",
+      "S": 1790027400,
+      "actual": 0.0,
+      "status": "CANCELED",
+      "ahead": 63.74,
+      "eligible_volume": [
+        0.0,
+        22.222223
+      ],
+      "static_queue": [
+        0.0,
+        0.0
+      ],
+      "front_queue": [
+        0.0,
+        5.0
+      ],
+      "errors": [],
+      "max_gap_ms": 422,
+      "bounds": {
+        "send_to_terminal_ms": 1798.78955078125,
+        "post_ms": 39.724486,
+        "cancel_ms": 45.783495
+      },
+      "own_fills": []
+    },
+    {
+      "oid": "0x6c5a8728795fb308fbd4b129eee7dce429d2de34a432ffa448d984c0de9d838d",
+      "S": 1790028000,
+      "actual": 5.0,
+      "status": "MATCHED",
+      "ahead": 450.0,
+      "eligible_volume": [
+        211.527069,
+        496.37862
+      ],
+      "static_queue": [
+        0.0,
+        5.0
+      ],
+      "front_queue": [
+        5.0,
+        5.0
+      ],
+      "errors": [],
+      "max_gap_ms": 52,
+      "bounds": {
+        "send_to_terminal_ms": 810.11376953125,
+        "post_ms": 125.20961,
+        "cancel_ms": null
+      },
+      "own_fills": [
+        {
+          "tx": "0x6845dd851f0678174d31ab6fa49f99a708374538c3791d907f084e2b0a7f88fe",
+          "log_index": 685,
+          "quantity": 5.0,
+          "fee": 0.0,
+          "role": "maker"
+        }
+      ]
+    },
+    {
+      "oid": "0x3925b5c57af0320c637118ed04a94c2f3218ab36b8735fb542a6b8d0b56aa2ca",
+      "S": 1790028000,
+      "actual": 5.0,
+      "status": "MATCHED",
+      "ahead": 663.0,
+      "eligible_volume": [
+        11.34,
+        26.196079
+      ],
+      "static_queue": [
+        0.0,
+        0.0
+      ],
+      "front_queue": [
+        5.0,
+        5.0
+      ],
+      "errors": [],
+      "max_gap_ms": 115,
+      "bounds": {
+        "send_to_terminal_ms": 20812.460205078125,
+        "post_ms": 28.086073,
+        "cancel_ms": null
+      },
+      "own_fills": [
+        {
+          "tx": "0xbd6a821b129ae08f7b7aa8a22a2a32d56457aed199e476a1a8cfaa17cd542bcc",
+          "log_index": 359,
+          "quantity": 1.34,
+          "fee": 0.0,
+          "role": "maker"
+        },
+        {
+          "tx": "0x113166cf8eac9f5b5e8cc0d408e7db7e2e4db9ff667c199a053893bf0e8b8a74",
+          "log_index": 381,
+          "quantity": 3.66,
+          "fee": 0.0,
+          "role": "maker"
+        }
+      ]
+    },
+    {
+      "oid": "0xb4b9a2019a606aec653528a730bfa41a7568cdfaad20b1f97d2750f7cccba503",
+      "S": 1790028000,
+      "actual": 0.0,
+      "status": "CANCELED",
+      "ahead": 44.0,
+      "eligible_volume": [
+        0.0,
+        8.0
+      ],
+      "static_queue": [
+        0.0,
+        0.0
+      ],
+      "front_queue": [
+        0.0,
+        5.0
+      ],
+      "errors": [],
+      "max_gap_ms": 77,
+      "bounds": {
+        "send_to_terminal_ms": 1143.851318359375,
+        "post_ms": 62.451422,
+        "cancel_ms": 29.876533
+      },
+      "own_fills": []
+    },
+    {
+      "oid": "0xc1217c5693bf3e33cf2590fa8b67a8902d885cb55e9132362bca944c39036970",
+      "S": 1790028600,
+      "actual": 5.0,
+      "status": "MATCHED",
+      "ahead": 204.53,
+      "eligible_volume": [
+        0.0,
+        200.0
+      ],
+      "static_queue": null,
+      "front_queue": null,
+      "errors": [
+        "own_fill_clock_outside_sdk_bounds"
+      ],
+      "max_gap_ms": 304.458740234375,
+      "bounds": {
+        "send_to_terminal_ms": 512.047607421875,
+        "post_ms": 29.862076,
+        "cancel_ms": null
+      },
+      "own_fills": [
+        {
+          "tx": "0x7f2d2c503a465b78eb84e85dffc6d4f7d29aaa1e1617a2cde42e5a227f1381e4",
+          "log_index": 240,
+          "quantity": 5.0,
+          "fee": 0.0,
+          "role": "maker"
+        }
+      ]
+    },
+    {
+      "oid": "0x1892011dd38aff9372451d3d4cfa6a1724a07fea2e181d61c1a5ef0efae2977a",
+      "S": 1790028600,
+      "actual": 0.0,
+      "status": "CANCELED",
+      "ahead": 369.44,
+      "eligible_volume": [
+        0.0,
+        0.0
+      ],
+      "static_queue": [
+        0.0,
+        0.0
+      ],
+      "front_queue": [
+        0.0,
+        0.0
+      ],
+      "errors": [],
+      "max_gap_ms": 303,
+      "bounds": {
+        "send_to_terminal_ms": 14240.640380859375,
+        "post_ms": 71.446674,
+        "cancel_ms": 74.704255
+      },
+      "own_fills": []
+    },
+    {
+      "oid": "0xa7b347cd764aed1f46ad16e7e88396a938ae77a7da5d558a5e35cf5a1121994f",
+      "S": 1790028600,
+      "actual": 0.0,
+      "status": "CANCELED",
+      "ahead": 453.4,
+      "eligible_volume": [
+        0.0,
+        0.0
+      ],
+      "static_queue": [
+        0.0,
+        0.0
+      ],
+      "front_queue": [
+        0.0,
+        0.0
+      ],
+      "errors": [],
+      "max_gap_ms": 174,
+      "bounds": {
+        "send_to_terminal_ms": 9548.381103515625,
+        "post_ms": 52.351922,
+        "cancel_ms": 20.389315
+      },
+      "own_fills": []
+    },
+    {
+      "oid": "0x6bd44cce0104845e4611f0965d681d0d69af74e0851110235132f8077841e746",
+      "S": 1790028600,
+      "actual": 0.0,
+      "status": "CANCELED",
+      "ahead": 418.4,
+      "eligible_volume": [
+        0.0,
+        0.0
+      ],
+      "static_queue": [
+        0.0,
+        0.0
+      ],
+      "front_queue": [
+        0.0,
+        0.0
+      ],
+      "errors": [],
+      "max_gap_ms": 362,
+      "bounds": {
+        "send_to_terminal_ms": 21614.076904296875,
+        "post_ms": 64.221347,
+        "cancel_ms": 21.8874
+      },
+      "own_fills": []
+    },
+    {
+      "oid": "0xf158b17e313e08577548bb65f297d6bd46cc0b169571039b95144e2123c207e9",
+      "S": 1790028600,
+      "actual": 5.0,
+      "status": "MATCHED",
+      "ahead": 518.4,
+      "eligible_volume": [
+        11.923077,
+        31.923077
+      ],
+      "static_queue": [
+        0.0,
+        0.0
+      ],
+      "front_queue": [
+        5.0,
+        5.0
+      ],
+      "errors": [],
+      "max_gap_ms": 65,
+      "bounds": {
+        "send_to_terminal_ms": 9340.412353515625,
+        "post_ms": 33.55941,
+        "cancel_ms": 20.240867
+      },
+      "own_fills": [
+        {
+          "tx": "0xdf3154ada376c6a75632e1ebb426c407ed547fce78b26e822f6a00e184ca92c4",
+          "log_index": 566,
+          "quantity": 5.0,
+          "fee": 0.0,
+          "role": "maker"
+        }
+      ]
+    }
+  ],
+  "own_fill_clocks": [
+    {
+      "oid": "0xc1217c5693bf3e33cf2590fa8b67a8902d885cb55e9132362bca944c39036970",
+      "quantity": 5.0,
+      "source_ms": 1790028640943,
+      "clock_unique": true,
+      "receipt_delay_ms": 37,
+      "after_send_ms": 653.5888671875
+    },
+    {
+      "oid": "0x6c5a8728795fb308fbd4b129eee7dce429d2de34a432ffa448d984c0de9d838d",
+      "quantity": 5.0,
+      "source_ms": 1790028013705,
+      "clock_unique": true,
+      "receipt_delay_ms": 560,
+      "after_send_ms": 171.303955078125
+    },
+    {
+      "oid": "0x3925b5c57af0320c637118ed04a94c2f3218ab36b8735fb542a6b8d0b56aa2ca",
+      "quantity": 1.34,
+      "source_ms": 1790028041481,
+      "clock_unique": true,
+      "receipt_delay_ms": 103,
+      "after_send_ms": 20698.59375
+    },
+    {
+      "oid": "0x3925b5c57af0320c637118ed04a94c2f3218ab36b8735fb542a6b8d0b56aa2ca",
+      "quantity": 3.66,
+      "source_ms": 1790028041556,
+      "clock_unique": true,
+      "receipt_delay_ms": 95,
+      "after_send_ms": 20773.59375
+    },
+    {
+      "oid": "0xf158b17e313e08577548bb65f297d6bd46cc0b169571039b95144e2123c207e9",
+      "quantity": 5.0,
+      "source_ms": 1790028706952,
+      "clock_unique": true,
+      "receipt_delay_ms": 228,
+      "after_send_ms": 9246.1494140625
+    }
+  ],
+  "source_sha256": {
+    "btc5m_m5_20260922/analyze.py": "16ad067c0e8b856a0ee23261351f09f5eb2121076c8539aeef88d69839d2e9c3",
+    "btc5m_m5_20260922/prepare.py": "9bc168f4924c9947041f8af21a47a3e66424615fbbcdcf10b23acdd481fb7a2e",
+    "btc5m_maker_feasibility_20260921/replay.py": "f8e42f83a4ca06dddba61136c37647cadd87fa00d49a224c76bcc0812b058023"
+  }
+}

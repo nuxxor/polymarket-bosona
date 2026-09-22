@@ -1,0 +1,10 @@
+{
+  "selection": "All 12 accepted M4v2 orders, including all 8 nonfills",
+  "role": "Execution calibration diagnostic; no strategy PnL or threshold tuning",
+  "clock_guard_ms": 100,
+  "max_book_age_ms": 3000,
+  "max_event_delay_ms": 1000,
+  "execution": "SDK send/ack bound activation; cancel send/response plus status bounds exit",
+  "model": "Reuse M1 static queue; front/back sensitivity; observed lifetime, not future policy",
+  "missing": "Missing stream/receipt/clock produces null, never a zero fill"
+}

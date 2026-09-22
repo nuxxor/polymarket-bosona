@@ -1,0 +1,13 @@
+{
+  "phase": "M4_EXECUTION_MEASUREMENT",
+  "minutes": 30,
+  "loss_limit": 10,
+  "clip": 5,
+  "policy": "existing F unchanged; measurement only; no demonstrated profit edge",
+  "source_bot": "/home/ubuntu/polymarket-bosona-m4/bot",
+  "source_state_sha": "6bf62397c0979be74dbd0b46276102b89c3861ba2d13ce32f3b916a7bf686c5e",
+  "operator_activation_required": true,
+  "restarts_allowed": false,
+  "quote_feed": "/home/ubuntu/polymarket-bosona-f/data/d_olcum",
+  "revision": "M4v2 SQLite closure; operator authorized fresh $10; old loss preserved"
+}

@@ -2,8 +2,10 @@
 
 Bu depo, Polymarket BTC 5 dakikalık Up/Down pazarında en kârlı cüzdanlardan `bosona`
 (`0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed`) üzerine yapılan çalışmanın ve ona göre
-kurulan canlı botun **tam** kopyasıdır (19-20 Eylül 2026 oturumu). Kimlik dosyaları hariç
-hiçbir şey atlanmadı.
+kurulan botun kaynak kodlarını, araştırma raporlarını ve seçilmiş verilerini içerir.
+22 Eylül 2026 yayını; G/G1 kaynakları, ölçüm araçları, testler ve güncel raporları ekler.
+Kimlik dosyaları, yeni özel hesap kayıtları ve ham çalışma arşivleri yayına dahil değildir.
+Bazı yeniden üretme betikleri yerelde tutulan verilere ve mutlak dosya yollarına ihtiyaç duyar.
 
 **20 Eylül muhasebe kontrolü:** 96 atanmış pencerenin kamu işlemleri ve resmî
 sonuçlarla toplamı **−15,19 USD**, C'nin 15 penceresi **−2,56 USD** (ücret/iadeler
@@ -49,9 +51,18 @@ ve yeniden üretme komutunu kullanın. Altı tarihsel yerel kayıt farkı korunu
 - `FILL_PARTY_LEDGER/{maker,taker}.parquet` (1,1 GB, 14 Ağu–1 Eyl zincir-kesin dolumlar) —
   `polymarket/data/analysis/btc5m_top_actor_hunt_20260902_v1/`.
 
-## Canlı durum (20 Eyl 2026 kontrolü)
+## Tarihsel canlı durum (20 Eyl 2026 kontrolü)
 Operatöre göre bot bilerek durdurulmuş durumda. Bu depodaki muhasebe yaması
 canlıya dağıtılmadı; kaynak doğrulaması kuru koşu ve sahte borsa testleriyle yapıldı.
 Depodaki state 71, son log 96 pencere içeriyor; eski state ile canlı başlangıç
 engelleniyor. Sunucunun güncel state'i bu incelemede alınmadı.
 Kural: aynı hesapta iki canlı bot asla aynı anda çalışmaz.
+
+## Public yayın (22 Eylül 2026)
+
+Bu güncelleme kaynakların yayınlanmasıdır; canlı süreç başlatmaz veya değiştirmez.
+Güncel deney belgeleri `docs/BOSONA_G_HAZIRLIK_20260922.md`,
+`docs/BOSONA_G_ILK_CANLI_OKUMA_20260922.md` ve `lanes/g_continuous/README.md` altındadır.
+`.env*`, anahtar/oturum dosyaları, yeni ham özel emir kayıtları ve çalışma arşivleri
+yayından dışlanır. Daha önce commit edilmiş tarihsel veri ve kayıtlar korunmuştur;
+`.gitignore` kuralları bunları Git geçmişinden silmez.

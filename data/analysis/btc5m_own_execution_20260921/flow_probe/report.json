@@ -1,0 +1,1061 @@
+{
+  "scope": "Exploratory diagnostic within original hash sample. Filled orders with matched clocks only; not a confusion matrix or strategy. End selected from actual last fill, intentionally grants all needed lifetime; diagnose static ahead model false negatives only.",
+  "assigned": 14,
+  "reconciled": 14,
+  "actual": 69.982214,
+  "static_predicted": 35.0,
+  "missed_entirely": 7,
+  "underpredicted": 7,
+  "overpredicted": 2,
+  "rows": [
+    {
+      "oid": "0x03721645a0dfcddedd633f28f63e5f3cd93a07ccc35b121cb09e51fd5b2f0c1d",
+      "lane": "D",
+      "S": 1789920900,
+      "price": 0.45,
+      "actual": 5.0,
+      "ahead": 189.0,
+      "eligible_flow": 20.0,
+      "predicted": 0.0,
+      "errors": [],
+      "late_flow_reports": 0,
+      "metrics": {
+        "ws_messages": 6,
+        "ws_quantity_units": 37643914,
+        "mapped_messages": 6,
+        "mapped_message_units": 37643914,
+        "matches": 6,
+        "ws_price_not_vwap": 1,
+        "matched_taker_units": 37643914,
+        "repeat_messages": 0
+      },
+      "clock_interval_ms": 534,
+      "backing": [
+        {
+          "tx": "0x1cb72672804fe5b9a22ac8f95da6fb6689366dcb0c4bc5222684bf1b469d66e3",
+          "log_index": 1925,
+          "qty": 5.0,
+          "price": 0.45
+        },
+        {
+          "tx": "0x793fc89278701e0064cfa2a655ca2fa1f6be1750d539cf116552a56aec2819b4",
+          "log_index": 1650,
+          "qty": 5.0,
+          "price": 0.45
+        },
+        {
+          "tx": "0x20d38a6886d5f0f789879cf3a0a0face393927e9781e607482cfa94d969acc7a",
+          "log_index": 224,
+          "qty": 4.0,
+          "price": 0.45
+        },
+        {
+          "tx": "0x20d38a6886d5f0f789879cf3a0a0face393927e9781e607482cfa94d969acc7a",
+          "log_index": 226,
+          "qty": 1.0,
+          "price": 0.45
+        },
+        {
+          "tx": "0xe3edbfbe76cfa03f1e59363eae1b3a783bffeeef551c7108979a90d7149f475b",
+          "log_index": 1865,
+          "qty": 4.0,
+          "price": 0.45
+        },
+        {
+          "tx": "0xe3edbfbe76cfa03f1e59363eae1b3a783bffeeef551c7108979a90d7149f475b",
+          "log_index": 1867,
+          "qty": 1.0,
+          "price": 0.44
+        }
+      ]
+    },
+    {
+      "oid": "0x82301cb952bb47b7a513ae38610eb70504f43b0bb878e7df294c2308bf3ecb01",
+      "lane": "D",
+      "S": 1789925100,
+      "price": 0.3,
+      "actual": 5.0,
+      "ahead": 0.0,
+      "eligible_flow": 292.249041,
+      "predicted": 5.0,
+      "errors": [],
+      "late_flow_reports": 0,
+      "metrics": {
+        "ws_messages": 30,
+        "ws_quantity_units": 489173143,
+        "mapped_messages": 30,
+        "mapped_message_units": 489173143,
+        "matches": 30,
+        "ws_price_not_vwap": 6,
+        "matched_taker_units": 489173143,
+        "repeat_messages": 0
+      },
+      "clock_interval_ms": 2113,
+      "backing": [
+        {
+          "tx": "0x62df71eddd1dc47282d411c604bce90cb9d627e7044ea88f02715560cb7f8e24",
+          "log_index": 441,
+          "qty": 7.83,
+          "price": 0.29
+        },
+        {
+          "tx": "0x9d46d6be48b535dfc40d75ef7371c5067f81583ee14db6d5ac08d8a6ab77408f",
+          "log_index": 845,
+          "qty": 24.185713,
+          "price": 0.3000000041346724
+        },
+        {
+          "tx": "0xb254fccfe9cdc62ec62568c957f67212d03fe07fb7b461ec17ea027acf36a54d",
+          "log_index": 865,
+          "qty": 9.0,
+          "price": 0.3
+        },
+        {
+          "tx": "0x84ad245db8d142666084fd63111d56ba4018cc2f40060fd5d9a98547c9b581c7",
+          "log_index": 151,
+          "qty": 20.81,
+          "price": 0.29
+        },
+        {
+          "tx": "0x84ad245db8d142666084fd63111d56ba4018cc2f40060fd5d9a98547c9b581c7",
+          "log_index": 153,
+          "qty": 9.0,
+          "price": 0.29
+        },
+        {
+          "tx": "0x84ad245db8d142666084fd63111d56ba4018cc2f40060fd5d9a98547c9b581c7",
+          "log_index": 155,
+          "qty": 15.0,
+          "price": 0.29000000000000004
+        },
+        {
+          "tx": "0x84ad245db8d142666084fd63111d56ba4018cc2f40060fd5d9a98547c9b581c7",
+          "log_index": 157,
+          "qty": 15.0,
+          "price": 0.29000000000000004
+        },
+        {
+          "tx": "0x84ad245db8d142666084fd63111d56ba4018cc2f40060fd5d9a98547c9b581c7",
+          "log_index": 159,
+          "qty": 10.0,
+          "price": 0.29
+        },
+        {
+          "tx": "0x4101ec768ef53fb518b577fba3fff94a623d8b9c98d8c764f83ae090e04d4bb5",
+          "log_index": 203,
+          "qty": 16.81,
+          "price": 0.3
+        },
+        {
+          "tx": "0x4101ec768ef53fb518b577fba3fff94a623d8b9c98d8c764f83ae090e04d4bb5",
+          "log_index": 205,
+          "qty": 20.0,
+          "price": 0.3
+        },
+        {
+          "tx": "0x4101ec768ef53fb518b577fba3fff94a623d8b9c98d8c764f83ae090e04d4bb5",
+          "log_index": 207,
+          "qty": 5.0,
+          "price": 0.30000000000000004
+        },
+        {
+          "tx": "0x4101ec768ef53fb518b577fba3fff94a623d8b9c98d8c764f83ae090e04d4bb5",
+          "log_index": 209,
+          "qty": 10.0,
+          "price": 0.3
+        },
+        {
+          "tx": "0x4101ec768ef53fb518b577fba3fff94a623d8b9c98d8c764f83ae090e04d4bb5",
+          "log_index": 211,
+          "qty": 5.0,
+          "price": 0.3
+        },
+        {
+          "tx": "0x4101ec768ef53fb518b577fba3fff94a623d8b9c98d8c764f83ae090e04d4bb5",
+          "log_index": 213,
+          "qty": 10.0,
+          "price": 0.29
+        },
+        {
+          "tx": "0x4101ec768ef53fb518b577fba3fff94a623d8b9c98d8c764f83ae090e04d4bb5",
+          "log_index": 215,
+          "qty": 9.19,
+          "price": 0.29
+        },
+        {
+          "tx": "0x9c0942e3a72230a1d24c0537978eba53b16676723e04fa0e01c4f4c6f5c66c53",
+          "log_index": 987,
+          "qty": 5.0,
+          "price": 0.28
+        },
+        {
+          "tx": "0x9c0942e3a72230a1d24c0537978eba53b16676723e04fa0e01c4f4c6f5c66c53",
+          "log_index": 989,
+          "qty": 9.0,
+          "price": 0.28
+        },
+        {
+          "tx": "0x9c0942e3a72230a1d24c0537978eba53b16676723e04fa0e01c4f4c6f5c66c53",
+          "log_index": 991,
+          "qty": 7.14,
+          "price": 0.28
+        },
+        {
+          "tx": "0x85bcf8fca8f629d8d4b610f199bcf74be4d32dcdfe96715a3cd21e25367daf0e",
+          "log_index": 1000,
+          "qty": 9.0,
+          "price": 0.27
+        },
+        {
+          "tx": "0x267bea704bc413e2461b6749ed17e4078a8d83e88d36e9173f9117e240ea284c",
+          "log_index": 1039,
+          "qty": 9.0,
+          "price": 0.25
+        },
+        {
+          "tx": "0x267bea704bc413e2461b6749ed17e4078a8d83e88d36e9173f9117e240ea284c",
+          "log_index": 1041,
+          "qty": 13.346664,
+          "price": 0.25
+        },
+        {
+          "tx": "0xb31ff14fed0cafd6a2610549cb3bde572e7ed9e0277f6d7b084062958ec31071",
+          "log_index": 1061,
+          "qty": 7.08,
+          "price": 0.25
+        },
+        {
+          "tx": "0xcc6e6fef43b5059b3e99da6fe75c320fadcb8f10d467ef18f8e6938d7ac804d9",
+          "log_index": 1670,
+          "qty": 13.0,
+          "price": 0.25
+        },
+        {
+          "tx": "0xe5ff36bad5b3c4759f2babeee0d8d63c04174e4bbdb408a55e97d44576d33f41",
+          "log_index": 1081,
+          "qty": 6.19,
+          "price": 0.25
+        },
+        {
+          "tx": "0x396ebaf25df6aadf5dee1e03d602b43ec5b33c0e9132b013a6906cde58661903",
+          "log_index": 1101,
+          "qty": 26.666664,
+          "price": 0.25
+        }
+      ]
+    },
+    {
+      "oid": "0x6051c66114f856c0ae097cfeedbd9196634d1b521eee871933ea5ce6c53b4003",
+      "lane": "E",
+      "S": 1789929900,
+      "price": 0.19,
+      "actual": 5.0,
+      "ahead": 110.0,
+      "eligible_flow": 104.991726,
+      "predicted": 0.0,
+      "errors": [],
+      "late_flow_reports": 0,
+      "metrics": {
+        "ws_messages": 3,
+        "ws_quantity_units": 109991726,
+        "mapped_messages": 3,
+        "mapped_message_units": 109991726,
+        "matches": 3,
+        "ws_price_not_vwap": 1,
+        "matched_taker_units": 109991726,
+        "repeat_messages": 0
+      },
+      "clock_interval_ms": 408,
+      "backing": [
+        {
+          "tx": "0x41a3cda15d1d99d24aeedd0db68fb4c0bc506cdd4dbd239ffeb7406369f04725",
+          "log_index": 216,
+          "qty": 45.061726,
+          "price": 0.1900000013315069
+        },
+        {
+          "tx": "0x8b395ad33d8811ab7aa88e1b4a4554654d75f50b6f6937bc6c7cef57ba99752f",
+          "log_index": 323,
+          "qty": 4.93,
+          "price": 0.19
+        },
+        {
+          "tx": "0x8b395ad33d8811ab7aa88e1b4a4554654d75f50b6f6937bc6c7cef57ba99752f",
+          "log_index": 325,
+          "qty": 30.07,
+          "price": 0.19
+        },
+        {
+          "tx": "0x9c95197c8146f9f5046490639ba80d8799ac5d9f6fb428da80ac6547ab3feb78",
+          "log_index": 368,
+          "qty": 19.93,
+          "price": 0.19
+        },
+        {
+          "tx": "0x9c95197c8146f9f5046490639ba80d8799ac5d9f6fb428da80ac6547ab3feb78",
+          "log_index": 370,
+          "qty": 5.0,
+          "price": 0.19
+        }
+      ]
+    },
+    {
+      "oid": "0x3c19e228bbc2086e8e90f4b4ce196ea6d01fa6e6778e5bd6c701911c6bef1e59",
+      "lane": "E",
+      "S": 1789929900,
+      "price": 0.22,
+      "actual": 5.0,
+      "ahead": 95.0,
+      "eligible_flow": 16.28205,
+      "predicted": 0.0,
+      "errors": [],
+      "late_flow_reports": 0,
+      "metrics": {
+        "ws_messages": 3,
+        "ws_quantity_units": 41922050,
+        "mapped_messages": 3,
+        "mapped_message_units": 41922050,
+        "matches": 3,
+        "ws_price_not_vwap": 0,
+        "matched_taker_units": 41922050,
+        "repeat_messages": 0
+      },
+      "clock_interval_ms": 650,
+      "backing": [
+        {
+          "tx": "0xef9df6d91f5a6bdaced2fec7decbc0afda78a65e1c0c953b5a09c7a801b6d236",
+          "log_index": 793,
+          "qty": 1.28205,
+          "price": 0.22
+        },
+        {
+          "tx": "0x82b9c63ab5e3d2954d85c8ca37937d71749645d48666a31e2465821d62f89414",
+          "log_index": 824,
+          "qty": 5.0,
+          "price": 0.22
+        },
+        {
+          "tx": "0x82b9c63ab5e3d2954d85c8ca37937d71749645d48666a31e2465821d62f89414",
+          "log_index": 827,
+          "qty": 5.0,
+          "price": 0.22
+        },
+        {
+          "tx": "0x82b9c63ab5e3d2954d85c8ca37937d71749645d48666a31e2465821d62f89414",
+          "log_index": 830,
+          "qty": 5.0,
+          "price": 0.22
+        }
+      ]
+    },
+    {
+      "oid": "0xf8dc7ecd121f7e1d7c6ff58b3eec34e1fb43a38edf65cff67ced82d6c8a20251",
+      "lane": "E",
+      "S": 1789930500,
+      "price": 0.4,
+      "actual": 5.0,
+      "ahead": 55.0,
+      "eligible_flow": 20.0,
+      "predicted": 0.0,
+      "errors": [],
+      "late_flow_reports": 0,
+      "metrics": {
+        "ws_messages": 1,
+        "ws_quantity_units": 20000000,
+        "mapped_messages": 1,
+        "mapped_message_units": 20000000,
+        "matches": 1,
+        "ws_price_not_vwap": 0,
+        "matched_taker_units": 20000000,
+        "repeat_messages": 0
+      },
+      "clock_interval_ms": 324,
+      "backing": [
+        {
+          "tx": "0xb3fec4fb443172b6a0d6ed7dce4e410a75bdbded7ae699b7f2216f03c127bf2a",
+          "log_index": 790,
+          "qty": 5.0,
+          "price": 0.4
+        },
+        {
+          "tx": "0xb3fec4fb443172b6a0d6ed7dce4e410a75bdbded7ae699b7f2216f03c127bf2a",
+          "log_index": 792,
+          "qty": 5.0,
+          "price": 0.4
+        },
+        {
+          "tx": "0xb3fec4fb443172b6a0d6ed7dce4e410a75bdbded7ae699b7f2216f03c127bf2a",
+          "log_index": 794,
+          "qty": 5.0,
+          "price": 0.4
+        },
+        {
+          "tx": "0xb3fec4fb443172b6a0d6ed7dce4e410a75bdbded7ae699b7f2216f03c127bf2a",
+          "log_index": 796,
+          "qty": 5.0,
+          "price": 0.4
+        }
+      ]
+    },
+    {
+      "oid": "0x71739f696fbde86b684ba7f2cb46e2a36bdbe09003ab552744e42c774222b163",
+      "lane": "E",
+      "S": 1789930500,
+      "price": 0.49,
+      "actual": 4.990785,
+      "ahead": 0.0,
+      "eligible_flow": 24.61157,
+      "predicted": 5.0,
+      "errors": [],
+      "late_flow_reports": 0,
+      "metrics": {
+        "ws_messages": 49,
+        "ws_quantity_units": 935766256,
+        "mapped_messages": 49,
+        "mapped_message_units": 935766256,
+        "matches": 49,
+        "ws_price_not_vwap": 4,
+        "matched_taker_units": 935766256,
+        "repeat_messages": 0
+      },
+      "clock_interval_ms": 8078,
+      "backing": [
+        {
+          "tx": "0xf2469a631668e2f73b8230e9c1f419647430eabd28d41cc55a64de5e34446d7f",
+          "log_index": 749,
+          "qty": 6.66,
+          "price": 0.49
+        },
+        {
+          "tx": "0x037c7e859791df158f73590f8333fa6bca6146f84d8768cab8cd9bb2f45b82b6",
+          "log_index": 959,
+          "qty": 1.960785,
+          "price": 0.49000017849993754
+        },
+        {
+          "tx": "0x6ffbe340e40fe69afd9cde34b5dd6993741d6ccc43e9440a3096cca7571ec8e3",
+          "log_index": 503,
+          "qty": 6.0,
+          "price": 0.49
+        },
+        {
+          "tx": "0x7fd87f054836a3d7bf1299c67838b8b7242151433ec6dd6b2dd51ce406506e8c",
+          "log_index": 90,
+          "qty": 1.960785,
+          "price": 0.49000017849993754
+        },
+        {
+          "tx": "0xb972059885fe7e424aaed43203ce2eaa67e99bd364623c3b38c8c49545f0a6fc",
+          "log_index": 601,
+          "qty": 3.03,
+          "price": 0.49
+        },
+        {
+          "tx": "0x6e1ea193797bda54a987d177ea4eb80f017d29060fd321c5def9f28a1fed5255",
+          "log_index": 123,
+          "qty": 5.0,
+          "price": 0.49
+        }
+      ]
+    },
+    {
+      "oid": "0x311e85c4b7a5e795ba03045545986c37596b3ca5dbbfed96e3bffa1c6ca1a7cb",
+      "lane": "E",
+      "S": 1789931100,
+      "price": 0.31,
+      "actual": 5.0,
+      "ahead": 0.0,
+      "eligible_flow": 38.083164,
+      "predicted": 5.0,
+      "errors": [],
+      "late_flow_reports": 0,
+      "metrics": {
+        "ws_messages": 10,
+        "ws_quantity_units": 430631347,
+        "mapped_messages": 10,
+        "mapped_message_units": 430631347,
+        "matches": 10,
+        "ws_price_not_vwap": 4,
+        "matched_taker_units": 430631347,
+        "repeat_messages": 0
+      },
+      "clock_interval_ms": 392,
+      "backing": [
+        {
+          "tx": "0xe09b4862693a7335293dab0a9f2f12f89d3aa04ed3001e31db8b26ba669e1350",
+          "log_index": 392,
+          "qty": 3.56,
+          "price": 0.31000000000000005
+        },
+        {
+          "tx": "0xe09b4862693a7335293dab0a9f2f12f89d3aa04ed3001e31db8b26ba669e1350",
+          "log_index": 394,
+          "qty": 5.44,
+          "price": 0.27
+        },
+        {
+          "tx": "0xe98220479f0bfeebb1cbad200dabb2835c639e538e3e35fae0a8ce5bd14f124e",
+          "log_index": 887,
+          "qty": 6.434783,
+          "price": 0.31000004195945696
+        },
+        {
+          "tx": "0x973690e8a34c21ba29903d16d10cb03c86209567f7695221fafbf43ab177dc74",
+          "log_index": 542,
+          "qty": 4.681158,
+          "price": 0.3100000042724471
+        },
+        {
+          "tx": "0xc96a105a00976f7449a1571d34ef849e8888de47fe4d03fa462959f42fed4f39",
+          "log_index": 718,
+          "qty": 5.31,
+          "price": 0.31
+        },
+        {
+          "tx": "0xc96a105a00976f7449a1571d34ef849e8888de47fe4d03fa462959f42fed4f39",
+          "log_index": 721,
+          "qty": 2.19,
+          "price": 0.31
+        },
+        {
+          "tx": "0x6bca832feec53233f6b50b565314ef6c30de15dedf40332a7164e2c6f79e5d31",
+          "log_index": 243,
+          "qty": 2.81,
+          "price": 0.31
+        },
+        {
+          "tx": "0x6bca832feec53233f6b50b565314ef6c30de15dedf40332a7164e2c6f79e5d31",
+          "log_index": 245,
+          "qty": 5.21,
+          "price": 0.29
+        },
+        {
+          "tx": "0x6bca832feec53233f6b50b565314ef6c30de15dedf40332a7164e2c6f79e5d31",
+          "log_index": 247,
+          "qty": 2.447223,
+          "price": 0.28000022883080133
+        }
+      ]
+    },
+    {
+      "oid": "0xf14bf720fa7e29ba1da15178090c5577fdf5a1e25b887901838c609175c3da05",
+      "lane": "E",
+      "S": 1789931100,
+      "price": 0.27,
+      "actual": 5.0,
+      "ahead": 59.0,
+      "eligible_flow": 7.15,
+      "predicted": 0.0,
+      "errors": [],
+      "late_flow_reports": 0,
+      "metrics": {
+        "ws_messages": 3,
+        "ws_quantity_units": 13400000,
+        "mapped_messages": 3,
+        "mapped_message_units": 13400000,
+        "matches": 3,
+        "ws_price_not_vwap": 0,
+        "matched_taker_units": 13400000,
+        "repeat_messages": 0
+      },
+      "clock_interval_ms": 351,
+      "backing": [
+        {
+          "tx": "0xabd1569e3571687e95748d24c69a4dc370a3d585fa6bccc820e796e0daf2daf4",
+          "log_index": 693,
+          "qty": 2.15,
+          "price": 0.27
+        },
+        {
+          "tx": "0xabd1569e3571687e95748d24c69a4dc370a3d585fa6bccc820e796e0daf2daf4",
+          "log_index": 696,
+          "qty": 2.85,
+          "price": 0.27
+        },
+        {
+          "tx": "0x23232a3cb53487a680680c834fff585cb63fa75c16ca963334fc41a9f84cdcf5",
+          "log_index": 592,
+          "qty": 2.15,
+          "price": 0.27
+        }
+      ]
+    },
+    {
+      "oid": "0xcf9a2d457a4ceb6342633a382cca41c1eae7ead961e3a757ac75839988bbfda1",
+      "lane": "E",
+      "S": 1789933200,
+      "price": 0.53,
+      "actual": 5.0,
+      "ahead": 59.52,
+      "eligible_flow": 97.91,
+      "predicted": 5.0,
+      "errors": [],
+      "late_flow_reports": 0,
+      "metrics": {
+        "ws_messages": 7,
+        "ws_quantity_units": 97910000,
+        "mapped_messages": 7,
+        "mapped_message_units": 97910000,
+        "matches": 7,
+        "ws_price_not_vwap": 1,
+        "matched_taker_units": 97910000,
+        "repeat_messages": 0
+      },
+      "clock_interval_ms": 389,
+      "backing": [
+        {
+          "tx": "0xb053df84e9430af3dcae28e2bffad19d035300ee92d3e709a7734d2154a8c6c1",
+          "log_index": 715,
+          "qty": 2.09,
+          "price": 0.53
+        },
+        {
+          "tx": "0x1c80de9fff1fc57d476920516cf3ceedd592adda50be697dd9c30b2b3e8f7bab",
+          "log_index": 845,
+          "qty": 5.0,
+          "price": 0.53
+        },
+        {
+          "tx": "0x1c80de9fff1fc57d476920516cf3ceedd592adda50be697dd9c30b2b3e8f7bab",
+          "log_index": 847,
+          "qty": 5.0,
+          "price": 0.53
+        },
+        {
+          "tx": "0x0bc273eaccf66c72ae88f268151748b6da61199965beaaca4a1a70c2332b8afd",
+          "log_index": 411,
+          "qty": 9.0,
+          "price": 0.51
+        },
+        {
+          "tx": "0x0bc273eaccf66c72ae88f268151748b6da61199965beaaca4a1a70c2332b8afd",
+          "log_index": 413,
+          "qty": 9.0,
+          "price": 0.51
+        },
+        {
+          "tx": "0x0bc273eaccf66c72ae88f268151748b6da61199965beaaca4a1a70c2332b8afd",
+          "log_index": 415,
+          "qty": 2.0,
+          "price": 0.5
+        },
+        {
+          "tx": "0x48123f01a17193a2411248b00a37061c8facd1e392bd41595ae83b55dd73e41e",
+          "log_index": 799,
+          "qty": 8.0,
+          "price": 0.5
+        },
+        {
+          "tx": "0x48123f01a17193a2411248b00a37061c8facd1e392bd41595ae83b55dd73e41e",
+          "log_index": 801,
+          "qty": 12.0,
+          "price": 0.5
+        },
+        {
+          "tx": "0x3a17468ea7e5b2943304094579b4848f3a5349c57139e7ff31145562a3c389fc",
+          "log_index": 822,
+          "qty": 28.0,
+          "price": 0.5
+        },
+        {
+          "tx": "0x3a17468ea7e5b2943304094579b4848f3a5349c57139e7ff31145562a3c389fc",
+          "log_index": 824,
+          "qty": 2.0,
+          "price": 0.5
+        },
+        {
+          "tx": "0x144deeecd64834f5b6db083753950217c9dcb65fdf78f0365da5e4e92513e579",
+          "log_index": 867,
+          "qty": 5.82,
+          "price": 0.5
+        },
+        {
+          "tx": "0x8367473c6bfa3c6393d75748d54edcbcf838368e29460d689b412b96297fc2fe",
+          "log_index": 436,
+          "qty": 3.0,
+          "price": 0.5
+        },
+        {
+          "tx": "0x8367473c6bfa3c6393d75748d54edcbcf838368e29460d689b412b96297fc2fe",
+          "log_index": 438,
+          "qty": 7.0,
+          "price": 0.5
+        }
+      ]
+    },
+    {
+      "oid": "0x67170678f236b9031481ddae3f82a6701a2f64b3205e1ec0a221ee1e1ac5dd77",
+      "lane": "E",
+      "S": 1789933200,
+      "price": 0.45,
+      "actual": 5.0,
+      "ahead": 325.0,
+      "eligible_flow": 43.0,
+      "predicted": 0.0,
+      "errors": [],
+      "late_flow_reports": 26,
+      "metrics": {
+        "ws_messages": 410,
+        "ws_quantity_units": 7969976136,
+        "mapped_messages": 410,
+        "mapped_message_units": 7969976136,
+        "matches": 410,
+        "ws_price_not_vwap": 44,
+        "matched_taker_units": 7969976136,
+        "repeat_messages": 0
+      },
+      "clock_interval_ms": 91652,
+      "backing": [
+        {
+          "tx": "0xb949b4f3a61b9f11a59c57040d32a2abea625cda357d62ed8aec89838d042fca",
+          "log_index": 599,
+          "qty": 2.0,
+          "price": 0.45
+        },
+        {
+          "tx": "0xb949b4f3a61b9f11a59c57040d32a2abea625cda357d62ed8aec89838d042fca",
+          "log_index": 601,
+          "qty": 8.0,
+          "price": 0.44
+        },
+        {
+          "tx": "0xd86198b5e47efeb8a5fc5f081b67d8400c9f3c1fe9d18d546d7740881da9952d",
+          "log_index": 1131,
+          "qty": 15.0,
+          "price": 0.44999999999999996
+        },
+        {
+          "tx": "0xd86198b5e47efeb8a5fc5f081b67d8400c9f3c1fe9d18d546d7740881da9952d",
+          "log_index": 1133,
+          "qty": 15.0,
+          "price": 0.44999999999999996
+        },
+        {
+          "tx": "0xd86198b5e47efeb8a5fc5f081b67d8400c9f3c1fe9d18d546d7740881da9952d",
+          "log_index": 1135,
+          "qty": 3.0,
+          "price": 0.45
+        }
+      ]
+    },
+    {
+      "oid": "0x784edfdf9172df9b7cb57bf9aee16593a1576faa66f23ee7868dbb695b21df14",
+      "lane": "E",
+      "S": 1789933500,
+      "price": 0.44,
+      "actual": 4.991429,
+      "ahead": 12.35,
+      "eligible_flow": 20.735001,
+      "predicted": 5.0,
+      "errors": [],
+      "late_flow_reports": 0,
+      "metrics": {
+        "ws_messages": 3,
+        "ws_quantity_units": 20735001,
+        "mapped_messages": 3,
+        "mapped_message_units": 20735001,
+        "matches": 3,
+        "ws_price_not_vwap": 0,
+        "matched_taker_units": 20735001,
+        "repeat_messages": 0
+      },
+      "clock_interval_ms": 833,
+      "backing": [
+        {
+          "tx": "0x70f79cff05ef25026a96e5516947729e3fd56581a96498fb0b65220d713df941",
+          "log_index": 533,
+          "qty": 6.35,
+          "price": 0.44
+        },
+        {
+          "tx": "0x70f79cff05ef25026a96e5516947729e3fd56581a96498fb0b65220d713df941",
+          "log_index": 535,
+          "qty": 1.453572,
+          "price": 0.4400002201473336
+        },
+        {
+          "tx": "0x59fde3d2d7f76f86d75cae3161356f125f99f03a67ada97c166983a764732989",
+          "log_index": 909,
+          "qty": 4.54,
+          "price": 0.44
+        },
+        {
+          "tx": "0x59fde3d2d7f76f86d75cae3161356f125f99f03a67ada97c166983a764732989",
+          "log_index": 911,
+          "qty": 3.031429,
+          "price": 0.4400000791705826
+        },
+        {
+          "tx": "0xeadb4827be0ab7653d0d597bf02162cebdf543961e1ef76a967cb903c484eeaa",
+          "log_index": 710,
+          "qty": 1.96,
+          "price": 0.44
+        },
+        {
+          "tx": "0xeadb4827be0ab7653d0d597bf02162cebdf543961e1ef76a967cb903c484eeaa",
+          "log_index": 712,
+          "qty": 3.4,
+          "price": 0.44
+        }
+      ]
+    },
+    {
+      "oid": "0x5367d9644f60077491ee7bbf72bcee055c139fbe5ce3a59ff008cd91a08088a3",
+      "lane": "E",
+      "S": 1789935000,
+      "price": 0.47,
+      "actual": 5.0,
+      "ahead": 55.01,
+      "eligible_flow": 73.498605,
+      "predicted": 5.0,
+      "errors": [],
+      "late_flow_reports": 0,
+      "metrics": {
+        "ws_messages": 6,
+        "ws_quantity_units": 75548605,
+        "mapped_messages": 6,
+        "mapped_message_units": 75548605,
+        "matches": 6,
+        "ws_price_not_vwap": 1,
+        "matched_taker_units": 75548605,
+        "repeat_messages": 0
+      },
+      "clock_interval_ms": 864,
+      "backing": [
+        {
+          "tx": "0x653b3adf0672ecdfa9e47843c0abe77059454466d110e919bfd806a0ad702ccf",
+          "log_index": 328,
+          "qty": 5.96,
+          "price": 0.47
+        },
+        {
+          "tx": "0x653b3adf0672ecdfa9e47843c0abe77059454466d110e919bfd806a0ad702ccf",
+          "log_index": 330,
+          "qty": 30.0,
+          "price": 0.47
+        },
+        {
+          "tx": "0x653b3adf0672ecdfa9e47843c0abe77059454466d110e919bfd806a0ad702ccf",
+          "log_index": 332,
+          "qty": 14.983397,
+          "price": 0.47000002736362123
+        },
+        {
+          "tx": "0xa65c81a57f29aa959b33bd6dd26a168152dbcfeb3d51e7c9f1a5c3bd68963918",
+          "log_index": 459,
+          "qty": 6.886793,
+          "price": 0.4700000421095857
+        },
+        {
+          "tx": "0xfea0b362efa71158880ba7f1d84ff514ba0cd45fd20b5f97a3ac6db493b79949",
+          "log_index": 586,
+          "qty": 5.09434,
+          "price": 0.4700000392592564
+        },
+        {
+          "tx": "0x5217499155ecbdc611710b71e8eec1cb654830abf297f2b93e818a1e78370f87",
+          "log_index": 544,
+          "qty": 5.0,
+          "price": 0.47
+        },
+        {
+          "tx": "0x5217499155ecbdc611710b71e8eec1cb654830abf297f2b93e818a1e78370f87",
+          "log_index": 546,
+          "qty": 0.092593,
+          "price": 0.46000237598954563
+        },
+        {
+          "tx": "0x02d7787c384ab4c1f49d766b3765beecfb855550f97a134fb86a08bc08f050be",
+          "log_index": 664,
+          "qty": 5.481482,
+          "price": 0.4600000510810762
+        }
+      ]
+    },
+    {
+      "oid": "0x6fb07c5e59b5c740e4132e923381d66aeed3b207d8d77ba1517275e262b05fcc",
+      "lane": "F",
+      "S": 1789941000,
+      "price": 0.73,
+      "actual": 5.0,
+      "ahead": 134.0,
+      "eligible_flow": 19.993704,
+      "predicted": 0.0,
+      "errors": [],
+      "late_flow_reports": 0,
+      "metrics": {
+        "ws_messages": 3,
+        "ws_quantity_units": 19993704,
+        "mapped_messages": 3,
+        "mapped_message_units": 19993704,
+        "matches": 3,
+        "ws_price_not_vwap": 0,
+        "matched_taker_units": 19993704,
+        "repeat_messages": 0
+      },
+      "clock_interval_ms": 336,
+      "backing": [
+        {
+          "tx": "0xcc93836a081a4a95342f4768a1fe406f2ad8cb45e838e5678c2d2eaccd8d242f",
+          "log_index": 1065,
+          "qty": 5.0,
+          "price": 0.73
+        },
+        {
+          "tx": "0xb916ce5a8961500cf457f4d9e8059155b07b0a0969d9e194767c3758b2d1039e",
+          "log_index": 246,
+          "qty": 3.703704,
+          "price": 0.7300000215999982
+        },
+        {
+          "tx": "0x5c78156285599a849e030dfb14591fed0d21931b98ba160e358d0561a14278d4",
+          "log_index": 846,
+          "qty": 1.29,
+          "price": 0.73
+        },
+        {
+          "tx": "0x5c78156285599a849e030dfb14591fed0d21931b98ba160e358d0561a14278d4",
+          "log_index": 848,
+          "qty": 5.0,
+          "price": 0.73
+        },
+        {
+          "tx": "0x5c78156285599a849e030dfb14591fed0d21931b98ba160e358d0561a14278d4",
+          "log_index": 850,
+          "qty": 5.0,
+          "price": 0.73
+        }
+      ]
+    },
+    {
+      "oid": "0xd231b6569e7dc029c212961eff7f3e0b7d51eeed05eb846a6a81e3dd462da817",
+      "lane": "F",
+      "S": 1789941300,
+      "price": 0.8,
+      "actual": 5.0,
+      "ahead": 0.0,
+      "eligible_flow": 158.89,
+      "predicted": 5.0,
+      "errors": [],
+      "late_flow_reports": 0,
+      "metrics": {
+        "ws_messages": 14,
+        "ws_quantity_units": 274331725,
+        "mapped_messages": 14,
+        "mapped_message_units": 274331725,
+        "matches": 14,
+        "ws_price_not_vwap": 1,
+        "matched_taker_units": 274331725,
+        "repeat_messages": 0
+      },
+      "clock_interval_ms": 5768,
+      "backing": [
+        {
+          "tx": "0x35f2120cf64bb54378415a5c76e903c0e493319df26142fdf1ea40f78a3d0b7f",
+          "log_index": 406,
+          "qty": 5.0,
+          "price": 0.8
+        },
+        {
+          "tx": "0x21660433d9a4b178051f04b3857f24232ee4e073e07b213a404c201fa322f8c3",
+          "log_index": 493,
+          "qty": 8.75,
+          "price": 0.8
+        },
+        {
+          "tx": "0x05a4f39f99e4db3b757954a9d52142a59a538af17ff546f982a893317967f5e5",
+          "log_index": 281,
+          "qty": 5.0,
+          "price": 0.8
+        },
+        {
+          "tx": "0x7109c0b6dbfa63937cccb85d73b04dad591e442a0d17a5de14c5ed37a0def7f4",
+          "log_index": 815,
+          "qty": 10.0,
+          "price": 0.8
+        },
+        {
+          "tx": "0x7109c0b6dbfa63937cccb85d73b04dad591e442a0d17a5de14c5ed37a0def7f4",
+          "log_index": 817,
+          "qty": 10.0,
+          "price": 0.8
+        },
+        {
+          "tx": "0x7109c0b6dbfa63937cccb85d73b04dad591e442a0d17a5de14c5ed37a0def7f4",
+          "log_index": 819,
+          "qty": 10.0,
+          "price": 0.8
+        },
+        {
+          "tx": "0x7109c0b6dbfa63937cccb85d73b04dad591e442a0d17a5de14c5ed37a0def7f4",
+          "log_index": 821,
+          "qty": 30.0,
+          "price": 0.8
+        },
+        {
+          "tx": "0x7109c0b6dbfa63937cccb85d73b04dad591e442a0d17a5de14c5ed37a0def7f4",
+          "log_index": 823,
+          "qty": 3.29,
+          "price": 0.8
+        },
+        {
+          "tx": "0xd876879e087a5280f9e7e90b4fa57ad0ac950d59c3a811338a41586e897cb2b5",
+          "log_index": 461,
+          "qty": 6.71,
+          "price": 0.8
+        },
+        {
+          "tx": "0xd876879e087a5280f9e7e90b4fa57ad0ac950d59c3a811338a41586e897cb2b5",
+          "log_index": 463,
+          "qty": 2.14,
+          "price": 0.8
+        },
+        {
+          "tx": "0xc3169f7e5e4a52d1957513b93a7c9b8f41e60e728113a0559fe9e5e600d8c162",
+          "log_index": 541,
+          "qty": 5.0,
+          "price": 0.8
+        },
+        {
+          "tx": "0xc3169f7e5e4a52d1957513b93a7c9b8f41e60e728113a0559fe9e5e600d8c162",
+          "log_index": 543,
+          "qty": 5.0,
+          "price": 0.8
+        },
+        {
+          "tx": "0xc3169f7e5e4a52d1957513b93a7c9b8f41e60e728113a0559fe9e5e600d8c162",
+          "log_index": 545,
+          "qty": 12.0,
+          "price": 0.8
+        },
+        {
+          "tx": "0x4ad03dc04f1a87bac896a52f26776e763418d567cd2f9de3d97a135cbfeffe40",
+          "log_index": 681,
+          "qty": 11.0,
+          "price": 0.8
+        },
+        {
+          "tx": "0x49bb66c57349c10f455a62bd0a54fe9693d7e1bae3cab2d6818fd72fb5579180",
+          "log_index": 701,
+          "qty": 30.0,
+          "price": 0.8
+        },
+        {
+          "tx": "0x0f11ca4efc44aef295c63641cad21c3935f6a5b96f28f0ecf5e5b9fc26c4f4af",
+          "log_index": 657,
+          "qty": 5.0,
+          "price": 0.79
+        }
+      ]
+    }
+  ],
+  "source_sha256": "64433fd084b97ce39fb87c4b1f1863c5300b2e09473c6e3c2a9d4b44c61e7073",
+  "inputs": {
+    "protocol.json": "365947b6b513635675a577bdd0e317971a4960afd7f1a0cd5ea057ac7c7a1409",
+    "events.jsonl.gz": "f38f533fae9b1fbe71d6cde9a590cdf7f3444d65e06642c5b15e181fdd1a310a",
+    "quality.json": "2b00bb80d35aae0ce190c823721883838e17d2606aa563d408f082a717155e1d",
+    "source_report.json": "ac8a23af635a06dc148db3af14601202d026c44941edf30cc803d75697087a57",
+    "transactions.json": "62e301502c5d7b7dc6d6c6653135cb16faee007e1d2ae64c4a36bb40f44a2dfe",
+    "fetch_manifest.json": "fb004c8d6ea6c0509da776f23c0cfe405e89a05862cf7b189cc55d6ca614cb6c"
+  }
+}

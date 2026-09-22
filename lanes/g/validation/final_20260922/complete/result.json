@@ -1,0 +1,146 @@
+{
+  "at_ms": 1790071735226,
+  "status": "complete",
+  "live_writers": [],
+  "open_orders": 0,
+  "windows": [
+    {
+      "key": "btc|1790069400",
+      "resolved": true,
+      "winner": 0,
+      "quantity": [
+        25.0,
+        20.0
+      ],
+      "cost": 19.85,
+      "pnl": 5.149999999999999,
+      "if_up": 5.149999999999999,
+      "if_down": 0.14999999999999858,
+      "accepted": 11,
+      "filled_orders": 9
+    },
+    {
+      "key": "btc|1790069700",
+      "resolved": true,
+      "winner": 0,
+      "quantity": [
+        20.0,
+        15.0
+      ],
+      "cost": 16.900000000000002,
+      "pnl": 3.099999999999998,
+      "if_up": 3.099999999999998,
+      "if_down": -1.9000000000000021,
+      "accepted": 14,
+      "filled_orders": 7
+    },
+    {
+      "key": "btc|1790070000",
+      "resolved": true,
+      "winner": 0,
+      "quantity": [
+        20.0,
+        20.0
+      ],
+      "cost": 19.25,
+      "pnl": 0.75,
+      "if_up": 0.75,
+      "if_down": 0.75,
+      "accepted": 16,
+      "filled_orders": 8
+    },
+    {
+      "key": "btc|1790070300",
+      "resolved": true,
+      "winner": 1,
+      "quantity": [
+        4.995715,
+        5.0
+      ],
+      "cost": 5.1981146,
+      "pnl": -0.19811460000000025,
+      "if_up": -0.20239960000000057,
+      "if_down": -0.19811460000000025,
+      "accepted": 3,
+      "filled_orders": 2
+    },
+    {
+      "key": "btc|1790070600",
+      "resolved": true,
+      "winner": 0,
+      "quantity": [
+        5.0,
+        9.990371
+      ],
+      "cost": 7.34557066,
+      "pnl": -2.34557066,
+      "if_up": -2.34557066,
+      "if_down": 2.6448003399999997,
+      "accepted": 7,
+      "filled_orders": 3
+    },
+    {
+      "key": "btc|1790070900",
+      "resolved": true,
+      "winner": 0,
+      "quantity": [
+        20.0,
+        15.0
+      ],
+      "cost": 17.25,
+      "pnl": 2.75,
+      "if_up": 2.75,
+      "if_down": -2.25,
+      "accepted": 12,
+      "filled_orders": 7
+    }
+  ],
+  "settled_pilot_pnl": 9.206314739999996,
+  "pending": 0,
+  "terminal_range": [
+    9.206314739999996,
+    9.206314739999996
+  ],
+  "baseline_pnl": -15.234894,
+  "reconciled_total": -6.02858,
+  "proof": {
+    "checked_ms": 1790071735200,
+    "previous_pnl": -6.433009,
+    "pnl": -6.02858,
+    "windows": 85,
+    "orders": 701,
+    "open_orders": 0,
+    "risk": 0,
+    "prices_ages_ms": {},
+    "events": [
+      {
+        "event": "state_yuklendi",
+        "pnl": -6.43
+      },
+      {
+        "event": "D_ARSIV_TEYIT",
+        "S": 1790070600
+      },
+      {
+        "event": "COZULDU",
+        "S": 1790070600,
+        "pay": 14.990371,
+        "maliyet": 7.34557066,
+        "pnl": -2.34557066,
+        "duzeltme": false
+      },
+      {
+        "event": "COZULDU",
+        "S": 1790070900,
+        "pay": 35.0,
+        "maliyet": 17.25,
+        "pnl": 2.75,
+        "duzeltme": false
+      },
+      {
+        "event": "maruziyet"
+      }
+    ],
+    "source_state_sha": "953c5a28e746f74be0f6bee8b4bcc676766f5d800cf445ba0295cec117de7a48"
+  }
+}

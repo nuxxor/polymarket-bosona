@@ -1,0 +1,14 @@
+{
+  "preparation_passed": true,
+  "financial_started": false,
+  "operator_action_remaining": "londra_g_baslat.sh",
+  "frozen_source": "d45ee6731e35b1b189770fe308f7ab8f0cb6814bfb18667f6aa7606c2c4bdd1a",
+  "g_bundle_sha256": "3f67f94c3fba5555849b2bc700cf9a7102f29f217f59094a4ae6e1e0d91e3ff7",
+  "launcher_sha256": "d433d2121af2ea5079fab12bb27db4f4d1f9d60c865b9e962ad20edb070d8943",
+  "limitations": [
+    "profitability unproven",
+    "real own-fill calibration remains",
+    "upstream completeness unknown",
+    "1013 root cause unresolved"
+  ]
+}

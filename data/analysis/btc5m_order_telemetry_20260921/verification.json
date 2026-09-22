@@ -1,0 +1,116 @@
+[
+  {
+    "check": "main_ab",
+    "exit_code": 0,
+    "last_lines": [
+      "  GECTI  C v1.2: websocket okuyucu ayri is parcacigi, kilitli, REST cagrisi yok  (deger=kaynakta var)",
+      "SONUC: 121/121  TUMU GECTI"
+    ]
+  },
+  {
+    "check": "main_test_muhasebe",
+    "exit_code": 1,
+    "last_lines": [
+      "    b.cozumle(k, w, tekrar=True)",
+      "TypeError: cozumle() got an unexpected keyword argument 'tekrar'"
+    ]
+  },
+  {
+    "check": "main_lint_before",
+    "issues": [
+      {
+        "code": "F821",
+        "message": "Undefined name `collections`"
+      }
+    ]
+  },
+  {
+    "check": "main_lint_after",
+    "issues": [
+      {
+        "code": "F821",
+        "message": "Undefined name `collections`"
+      }
+    ]
+  },
+  {
+    "check": "main_test_muhasebe_baseline",
+    "exit_code": 1,
+    "last_lines": [
+      "    b.cozumle(k, w, tekrar=True)",
+      "TypeError: cozumle() got an unexpected keyword argument 'tekrar'"
+    ]
+  },
+  {
+    "check": "f_ab",
+    "exit_code": 0,
+    "last_lines": [
+      "  GECTI  C v1.2: websocket okuyucu ayri is parcacigi, kilitli, REST cagrisi yok  (deger=kaynakta var)",
+      "SONUC: 121/121  TUMU GECTI"
+    ]
+  },
+  {
+    "check": "f_test_muhasebe",
+    "exit_code": 0,
+    "last_lines": [
+      "KURU MOD: log/state -> /tmp/emir-iz-final-cnz6iewa/f/bot/LOG_ab_kuru.jsonl",
+      "Muhasebe regresyonlari: GECTI (gec/tekrarli/eksik dolum, restart, rezerv, sayfalama)."
+    ]
+  },
+  {
+    "check": "f_test_d",
+    "exit_code": 0,
+    "last_lines": [
+      "KURU MOD: log/state -> /tmp/emir-iz-final-cnz6iewa/f/bot/LOG_d_kuru.jsonl",
+      "D GECTI: yazici ayrimi, bant, FIFO, kismi dolum, rezerv, $10/restart, gec POST/STOP, yabanci emir, olcum zamanlari."
+    ]
+  },
+  {
+    "check": "f_test_d_arsiv",
+    "exit_code": 0,
+    "last_lines": [
+      "KURU MOD: log/state -> /tmp/emir-iz-final-cnz6iewa/f/bot/LOG_d_kuru.jsonl",
+      "D ARSIV GECTI: gercek cagri yollari, kismi/tekrar dolum, 16 eksik kanitta rezerv korundu."
+    ]
+  },
+  {
+    "check": "f_test_e",
+    "exit_code": 0,
+    "last_lines": [
+      "  [20:32:04] E_NIYET: S=1",
+      "E GECTI: 19 WS senaryosu; D/E farki, guvenlik iptalleri, lane ayrimi ve erken STOP_E parki."
+    ]
+  },
+  {
+    "check": "f_test_f",
+    "exit_code": 0,
+    "last_lines": [
+      "KURU MOD: log/state -> /tmp/emir-iz-final-cnz6iewa/f/bot/LOG_f_kuru.jsonl",
+      "F WS GECTI: 9 senaryo; tamamlamayi tutma, bayatlik/kalite/mutabakat iptali."
+    ]
+  },
+  {
+    "check": "f_test_f_budget",
+    "exit_code": 0,
+    "last_lines": [
+      "KURU MOD: log/state -> /tmp/emir-iz-final-cnz6iewa/f/bot/LOG_f_kuru.jsonl",
+      "F BUTCE GECTI: 10 ret, tek kullanim, eski muhasebe, yedek, hash, sure, kimlik, $10 kesici."
+    ]
+  },
+  {
+    "check": "f_test_f_gecis",
+    "exit_code": 0,
+    "last_lines": [
+      "KURU MOD: log/state -> /tmp/emir-iz-final-cnz6iewa/f/bot/LOG_f_kuru.jsonl",
+      "F DEVIR GECTI: 9 ret, byte byte D/E gecmisi, tek kullanim, 120dk, hash, ortak $10."
+    ]
+  },
+  {
+    "check": "f_lint_before",
+    "issues": []
+  },
+  {
+    "check": "f_lint_after",
+    "issues": []
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "mode": "PREPARED_NOT_DEPLOYED",
+  "real_orders_sent": 0,
+  "calibration_status": "NOT_CALIBRATED_MISSING_CANCEL_CLOCKS",
+  "smoke": {
+    "main": {
+      "events": 79,
+      "attempts": 37,
+      "fills_observed": 3,
+      "mode": "MOCK",
+      "sources": {
+        "ab.py": "b4c7f27bdd7e980a831e797dacf6e05ac7f7f1e755c3a9b84e980e9050493783",
+        "emir_iz.py": "5ca621cdfc99a7d1897e9cab6392bdd8ff276d2070580a0218c35001b15d8270"
+      }
+    },
+    "f": {
+      "events": 79,
+      "attempts": 37,
+      "fills_observed": 3,
+      "mode": "MOCK",
+      "sources": {
+        "ab.py": "1e907b6c50cfab9859d17b87889e15e10c84e6ba5c530b060af3380f85f85568",
+        "emir_iz.py": "5ca621cdfc99a7d1897e9cab6392bdd8ff276d2070580a0218c35001b15d8270"
+      }
+    }
+  },
+  "new_module_lint": "PASS",
+  "f_targeted_lint": "PASS",
+  "syntax": "PASS",
+  "f_release_hashes": "PASS",
+  "known_main_baseline_issues": [
+    "test_muhasebe: cozumle does not accept tekrar",
+    "self-test F821: collections conditional name"
+  ]
+}

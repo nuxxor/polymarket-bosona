@@ -1,0 +1,38 @@
+{
+  "captured_ms": 1790019229117,
+  "source_files": {
+    "/home/ubuntu/polymarket-bosona-d/bot/LOG_d.jsonl": {
+      "sha256": "afa1fdb091e2ba590f7205f028a29e1d11ab3fecc907292c4e3c781e5804bfea",
+      "size": 22941401
+    },
+    "/home/ubuntu/polymarket-bosona-d/bot/STATE_d.json": {
+      "sha256": "e942d3e4ad716c9d46e82f33c06c3305b850b6a7541b17d3527d7049399ea173",
+      "size": 339384
+    },
+    "/home/ubuntu/polymarket-bosona-d/bot/ab.py": {
+      "sha256": "897ee572831df22c529f58614c72d2cde598e033259b5ba28753c8ccabad0ea0"
+    },
+    "/home/ubuntu/polymarket-bosona-e/bot/LOG_e.jsonl": {
+      "sha256": "a5a391bb32a42abc117ffb29c0735c9136c67ccdd822e183f9ef52938d496b3a",
+      "size": 14663749
+    },
+    "/home/ubuntu/polymarket-bosona-e/bot/STATE_e.json": {
+      "sha256": "72e6a58d66dadfa0662e7864e983d03155c2926e220dcd45a8251abd246365e6",
+      "size": 425460
+    },
+    "/home/ubuntu/polymarket-bosona-e/bot/ab.py": {
+      "sha256": "cfead3d59475ec76fe2bc4c5d67cf4d18d0fb04e8a281d07934727ff5326a9ee"
+    },
+    "/home/ubuntu/polymarket-bosona-f/bot/LOG_f.jsonl": {
+      "sha256": "e0219b402fc4889d5c252674e7ec05a08a98aa13758d9ad91fa56ec1856b3e52",
+      "size": 17893146
+    },
+    "/home/ubuntu/polymarket-bosona-f/bot/STATE_f.json": {
+      "sha256": "351287f4107727c01cceaaacfa86a9a22d83088ee4d978c54099d1a095440cc4",
+      "size": 463973
+    },
+    "/home/ubuntu/polymarket-bosona-f/bot/ab.py": {
+      "sha256": "1f606a1457b2cc6b766f53208a33c6e4aaf057fddeed6638760536a72240eae2"
+    }
+  }
+}

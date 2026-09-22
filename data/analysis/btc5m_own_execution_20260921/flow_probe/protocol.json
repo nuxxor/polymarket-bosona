@@ -1,0 +1,108 @@
+{
+  "scope": "Exploratory diagnostic within original hash sample. Filled orders with matched clocks only; not a confusion matrix or strategy. End selected from actual last fill, intentionally grants all needed lifetime; diagnose static ahead model false negatives only.",
+  "queue": "pre-intent -100ms visible level; no cancel queue credit; actual limit/quantity",
+  "begin": "intent -100ms",
+  "end": "last own matched WS fill +100ms",
+  "cash_rounding_tolerance_micro": 2,
+  "probes": [
+    {
+      "oid": "0x03721645a0dfcddedd633f28f63e5f3cd93a07ccc35b121cb09e51fd5b2f0c1d",
+      "S": 1789920900,
+      "lo": 1789920957873,
+      "hi": 1789920958407,
+      "actual_filled": 5.0
+    },
+    {
+      "oid": "0x82301cb952bb47b7a513ae38610eb70504f43b0bb878e7df294c2308bf3ecb01",
+      "S": 1789925100,
+      "lo": 1789925106081,
+      "hi": 1789925108194,
+      "actual_filled": 5.0
+    },
+    {
+      "oid": "0x6051c66114f856c0ae097cfeedbd9196634d1b521eee871933ea5ce6c53b4003",
+      "S": 1789929900,
+      "lo": 1789930030312,
+      "hi": 1789930030720,
+      "actual_filled": 5.0
+    },
+    {
+      "oid": "0x3c19e228bbc2086e8e90f4b4ce196ea6d01fa6e6778e5bd6c701911c6bef1e59",
+      "S": 1789929900,
+      "lo": 1789930039660,
+      "hi": 1789930040310,
+      "actual_filled": 5.0
+    },
+    {
+      "oid": "0xf8dc7ecd121f7e1d7c6ff58b3eec34e1fb43a38edf65cff67ced82d6c8a20251",
+      "S": 1789930500,
+      "lo": 1789930545667,
+      "hi": 1789930545991,
+      "actual_filled": 5.0
+    },
+    {
+      "oid": "0x71739f696fbde86b684ba7f2cb46e2a36bdbe09003ab552744e42c774222b163",
+      "S": 1789930500,
+      "lo": 1789930557178,
+      "hi": 1789930565256,
+      "actual_filled": 4.990785
+    },
+    {
+      "oid": "0x311e85c4b7a5e795ba03045545986c37596b3ca5dbbfed96e3bffa1c6ca1a7cb",
+      "S": 1789931100,
+      "lo": 1789931228316,
+      "hi": 1789931228708,
+      "actual_filled": 5.0
+    },
+    {
+      "oid": "0xf14bf720fa7e29ba1da15178090c5577fdf5a1e25b887901838c609175c3da05",
+      "S": 1789931100,
+      "lo": 1789931239522,
+      "hi": 1789931239873,
+      "actual_filled": 5.0
+    },
+    {
+      "oid": "0xcf9a2d457a4ceb6342633a382cca41c1eae7ead961e3a757ac75839988bbfda1",
+      "S": 1789933200,
+      "lo": 1789933206466,
+      "hi": 1789933206855,
+      "actual_filled": 5.0
+    },
+    {
+      "oid": "0x67170678f236b9031481ddae3f82a6701a2f64b3205e1ec0a221ee1e1ac5dd77",
+      "S": 1789933200,
+      "lo": 1789933208657,
+      "hi": 1789933300309,
+      "actual_filled": 5.0
+    },
+    {
+      "oid": "0x784edfdf9172df9b7cb57bf9aee16593a1576faa66f23ee7868dbb695b21df14",
+      "S": 1789933500,
+      "lo": 1789933515852,
+      "hi": 1789933516685,
+      "actual_filled": 4.991429
+    },
+    {
+      "oid": "0x5367d9644f60077491ee7bbf72bcee055c139fbe5ce3a59ff008cd91a08088a3",
+      "S": 1789935000,
+      "lo": 1789935005786,
+      "hi": 1789935006650,
+      "actual_filled": 5.0
+    },
+    {
+      "oid": "0x6fb07c5e59b5c740e4132e923381d66aeed3b207d8d77ba1517275e262b05fcc",
+      "S": 1789941000,
+      "lo": 1789941073286,
+      "hi": 1789941073622,
+      "actual_filled": 5.0
+    },
+    {
+      "oid": "0xd231b6569e7dc029c212961eff7f3e0b7d51eeed05eb846a6a81e3dd462da817",
+      "S": 1789941300,
+      "lo": 1789941372608,
+      "hi": 1789941378376,
+      "actual_filled": 5.0
+    }
+  ],
+  "source_report_sha256": "ac8a23af635a06dc148db3af14601202d026c44941edf30cc803d75697087a57"
+}

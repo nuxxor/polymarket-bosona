@@ -1,0 +1,12 @@
+{
+  "phase": "M4_EXECUTION_MEASUREMENT",
+  "minutes": 30,
+  "loss_limit": 10,
+  "clip": 5,
+  "policy": "existing F unchanged; measurement only; no demonstrated profit edge",
+  "source_bot": "/home/ubuntu/polymarket-bosona-f/bot",
+  "source_state_sha": "351287f4107727c01cceaaacfa86a9a22d83088ee4d978c54099d1a095440cc4",
+  "operator_activation_required": true,
+  "restarts_allowed": false,
+  "quote_feed": "/home/ubuntu/polymarket-bosona-f/data/d_olcum"
+}

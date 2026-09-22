@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Operator starts unchanged G1, unlimited time, 5 shares, one new $10 budget.
+set -euo pipefail
+ssh -T -o BatchMode=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o ConnectTimeout=8 -i "/home/taygun/İndirilenler/polymarket-test-key2.pem" ubuntu@18.135.99.14 "tmux new-session -d -s bosona-g-continuous 'if test -f /home/ubuntu/polymarket-bosona-g-continuous/bot/RUN_G.json; then exec /home/ubuntu/polymarket/venv/bin/python -u /home/ubuntu/polymarket-bosona-g-continuous/bot/pilot.py --live --resume >> /home/ubuntu/polymarket-bosona-g-continuous/bot/console.log 2>&1; else exec /home/ubuntu/polymarket/venv/bin/python -u /home/ubuntu/polymarket-bosona-g-continuous/bot/pilot.py --live >> /home/ubuntu/polymarket-bosona-g-continuous/bot/console.log 2>&1; fi'"
+printf '%s\n' 'G1 baslatma/devam istendi: sinirsiz sure / 5 pay. Mevcut $10 butcesi aynen korunur; yoksa ilk butce acilir.' 'Hesap ve iki kayitci kontrolunden sonra LIVE baslar; tekrar komut butceyi sifirlamaz.' 'Kayit: /home/ubuntu/polymarket-bosona-g-continuous/bot/console.log; LIVE basladi ayrica teyit edilmeli.'

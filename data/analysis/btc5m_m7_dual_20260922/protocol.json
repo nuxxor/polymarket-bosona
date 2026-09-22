@@ -1,0 +1,12 @@
+{
+  "experiment": "M7 dual full recorder; read-only transport observation",
+  "seconds_per_recorder": 900,
+  "freshness_ms": 3000,
+  "grid_ms": 100,
+  "scope": "Two independent processes on London, identical frozen public roster and unchanged M7 v3 source. Private read-only channel is retained by reusing capture; no own orders are created.",
+  "primary_question": "During a detected public disconnect until both active-token snapshots are recovered, does the other full recorder retain valid fresh two-token book state and actual LTP records?",
+  "causal_clock": "Local receive monotonic clock; shared boot identity required. At each 100ms checkpoint use only already received messages. Source timestamps must be no more than 3000ms old and not over 100ms in the future. Snapshots required again after disconnect. Rollover requires new active-market snapshots.",
+  "coverage_gate": "At least two active market transitions, no rejects/overflow/writer loss, at least one observed disconnect; every sampled disconnect/recovery checkpoint must have a fresh peer book. Zero observed disconnects makes redundancy untested. Gaps in both and stale in both are explicit, not success.",
+  "trade_audit": "Preserve both raw logs. Compare LTP payload fingerprints as multisets, retaining repeated identical rows. Common occurrences are stream overlap, not two economic fills. Per-gap peer events missing from the affected whole log are diagnostic preserved messages; no unique exchange-fill or completeness claim without event identity. Never sum A+B trading volume/PnL.",
+  "limits": "Same host/network/server failure domain. No queue fill simulation, no live failover deployed, no future-message selection, no own-fill calibration or financial budget change. No observed loss does not prove upstream completeness. Last pre-gap message through fresh recovery is also reported as a conservative uncertainty interval."
+}

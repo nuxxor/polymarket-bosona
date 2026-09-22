@@ -1,0 +1,25 @@
+{
+  "seconds": 900,
+  "source_sha256": {
+    "stream_iz.py": "4ae34533bf793bb5cf45f2f7af7d697d383775dd03841b21c97e81fef1a78dff",
+    "emir_iz.py": "5ca621cdfc99a7d1897e9cab6392bdd8ff276d2070580a0218c35001b15d8270"
+  },
+  "websockets_version": "17.1",
+  "controls": [
+    "unchanged M7-v3 recorder + Meter",
+    "separate-process public drain + same Meter"
+  ],
+  "universe": "same frozen BTC5m previous/current/next through deadline roster, all token ids",
+  "no_orders": true,
+  "no_budget_change": true,
+  "full_calibration": false,
+  "measures": [
+    "per-second receive queue high-water and paused samples",
+    "caller work between recv calls",
+    "recv duration",
+    "safe close code/class",
+    "original capture integrity and per-window data"
+  ],
+  "pass_criteria": "capture integrity; 900 seconds; >=3 active windows; no gaps/reject/overflow/writer failure; both PONG streams; no financial changes",
+  "limitation": "queue sampling is not continuous; same-host parallel controls share network/server environment; one clean run cannot prove permanent fix; no own order events expected"
+}

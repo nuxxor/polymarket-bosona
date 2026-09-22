@@ -1,0 +1,16 @@
+{
+  "report_byte_identical_repeat": true,
+  "f_release_hashes": true,
+  "live_writers": [],
+  "frozen_runtime_verified": true,
+  "new_files_syntax": true,
+  "files": {
+    "report.json": "d6c27f9de168191cd9261ffc151c7ffb48f03249dc5737518056f883732d38e5",
+    "final_account.jsonl": "ba1ae2e18a3ca500abe2d766b81e8cfe9bd3c549a13e25ce45a9bb143d6a8e89",
+    "ws_smoke.json": "2ea5c36515d5a89e72ac2cc48a2f2a06d2cfe2b730293f825141a46f17f3bdc8",
+    "runtime_final.json": "6ae00adc0261d1f82f1895138fef59065c5803f607e87b11d200287fbbf6442d",
+    "selftests.json": "beaca1660e3f8439aba70b662baba47db681fe1e6d59588c97d8f952a7e10a93",
+    "regression_before.json": "d27eaf4ed4c1456d4647abdb9db611b454b355e6abe92f67ab80fa0d1e93fd07",
+    "lint_baseline.json": "297a30b6c1f459172ddaf09003ce4c2514b29ab41989c254e568d337a03a7544"
+  }
+}

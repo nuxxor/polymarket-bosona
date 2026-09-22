@@ -1,0 +1,98 @@
+[
+  {
+    "command": [
+      "/home/taygun/Masa\u00fcst\u00fc/KararAtlas/base1/bin/python3",
+      "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot/test_g.py"
+    ],
+    "returncode": 0,
+    "stdout": "KURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot/LOG_g_kuru.jsonl\nG checks passed: policy, real reservation/risk, partial/repeated fill, STOP, unknown cancel, multiset reconciliation\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/taygun/Masa\u00fcst\u00fc/KararAtlas/base1/bin/python3",
+      "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot/test_g_pilot.py"
+    ],
+    "returncode": 0,
+    "stdout": "{\"checked_ms\": 1000000, \"pnl\": -12.30001}\nG PARKTA: kontrol gecti; emir gonderilmedi, yeni butce acilmadi.\nG GECTI: salt-okunur SDK, varsayilan emir yok, hash, tek kullanim, 30dk/$10, eski muhasebe.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/taygun/Masa\u00fcst\u00fc/KararAtlas/base1/bin/python3",
+      "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot/test_g_stream.py"
+    ],
+    "returncode": 0,
+    "stdout": "KURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot/LOG_g_kuru.jsonl\nKURU MOD: log/state -> /home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot/LOG_g_kuru.jsonl\nWS reader: burst, mixed frame, old snapshot, initial delta, reconnect, heartbeat and stop checks passed\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/taygun/Masa\u00fcst\u00fc/KararAtlas/base1/bin/python3",
+      "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/validation/check_release.py"
+    ],
+    "returncode": 0,
+    "stdout": "{\"passed\": true, \"source_files\": 14, \"live_activated\": false, \"checks\": [\"source manifest\", \"required files\", \"budget expiry/mismatch\", \"source tamper\", \"missing/corrupt observer metadata\", \"launcher syntax\", \"launcher fake SSH\"]}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/taygun/Masa\u00fcst\u00fc/KararAtlas/base1/bin/python3",
+      "-m",
+      "ruff",
+      "check",
+      "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/validation/check_release.py",
+      "--select",
+      "F,E9"
+    ],
+    "returncode": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/taygun/Masa\u00fcst\u00fc/KararAtlas/base1/bin/python3",
+      "-m",
+      "ruff",
+      "check",
+      "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot/g.py",
+      "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot/g_policy.py",
+      "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot/g_guard.py",
+      "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot/pilot.py",
+      "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot/observer.py",
+      "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot/test_g.py",
+      "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot/test_g_pilot.py",
+      "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot/test_g_stream.py"
+    ],
+    "returncode": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/taygun/Masa\u00fcst\u00fc/KararAtlas/base1/bin/python3",
+      "-m",
+      "ruff",
+      "check",
+      "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot/ab.py",
+      "--select",
+      "F,E9"
+    ],
+    "returncode": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/taygun/Masa\u00fcst\u00fc/KararAtlas/base1/bin/python3",
+      "-m",
+      "compileall",
+      "-q",
+      "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/bot",
+      "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/lanes/g/validation/check_release.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

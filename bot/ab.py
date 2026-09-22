@@ -81,6 +81,10 @@ fail-closed acilis, borsadan mutabakat, STOP dosyasi, tek-yazici kilidi.
 import os, sys, json, time, re, glob, urllib.request
 import threading   # 09-19: KOL C websocket is parcacigi
 import math
+if __package__:
+    from . import emir_iz
+else:
+    import emir_iz
 
 LIVE='--live' in sys.argv; TEST='--test' in sys.argv
 RED_TEST='--red-test' in sys.argv     # kuru modda tek-taraf reddini taklit et
@@ -416,6 +420,7 @@ if LIVE:
     client=ClobClient(env.get('PM_CLOB_HOST','https://clob.polymarket.com'),chain_id=137,
                       key=env['PM_PRIVATE_KEY'],signature_type=2,funder=env['PM_FUNDER'])
     client.set_api_creds(client.derive_api_key())
+    emir_iz.baslat(LOG[:-6]+'_emir_iz.jsonl','LIVE',__file__)
 
 def adres():
     a=getattr(client,'funder','') if client else ''
@@ -547,9 +552,26 @@ def acilis_maruziyeti():
     global DIS_RISK
     if not LIVE: DIS_RISK=0.0; return 0.0
     try:
-        ps=jget(f"https://data-api.polymarket.com/positions?user={adres()}&limit=500",20) or []
+        ps=[]; gorulen=set()
+        for offset in range(0,10001,500):
+            sayfa=jget(f"https://data-api.polymarket.com/positions?user={adres()}&limit=500&offset={offset}&sizeThreshold=0&includeArchived=true",20)
+            if not isinstance(sayfa,list) or len(sayfa)>500:
+                raise ValueError('pozisyon sayfasi gecersiz')
+            for x in sayfa:
+                if (not isinstance(x,dict) or not x.get('asset') or not x.get('conditionId')
+                        or not x.get('slug') or type(x.get('redeemable')) is not bool):
+                    raise ValueError('pozisyon kimligi/durumu eksik')
+                if x['asset'] in gorulen:
+                    raise ValueError('pozisyon sayfasi tekrari')
+                if any(not math.isfinite(float(x[k])) or float(x[k])<0 for k in ('size','avgPrice')):
+                    raise ValueError('pozisyon miktari/maliyeti gecersiz')
+                gorulen.add(x['asset'])
+            ps.extend(sayfa)
+            if len(sayfa)<500: break
+        else:
+            raise ValueError('pozisyon sayfalama siniri')
     except Exception as ex:
-        log('acilis_maruziyeti_OKUNAMADI',err=str(ex)[:80],karar='FAIL_CLOSED'); return None
+        log('acilis_maruziyeti_OKUNAMADI',err=type(ex).__name__,karar='FAIL_CLOSED'); return None
     # CIFT SAYIM DUZELTMESI (dis denetim 09-18): pen[] icinde TAKIP ETTIGIMIZ
     # pencerelerin dolumlari borsada da acik pozisyon olarak gorunuyor ve
     # toplam_risk() = DIS_RISK + sum(pencere_risk) onlari IKI KEZ sayiyordu.
@@ -645,7 +667,8 @@ def koy_toplu(istek):
         args.append(PostOrdersV2Args(order=od,orderType=OrderType.GTC)); sira.append(i)
     if not args: return out
     try:
-        res=client.post_orders(args,post_only=True)
+        res=emir_iz.cagir('post_batch',{'orders':[emir_iz.emir(*istek[i]) for i in sira],
+                                     'post_only':True,'type':'GTC'},client.post_orders,args,post_only=True)
     except Exception as ex:
         m=str(ex).lower()
         kesin=('post only','post-only','would cross','marketable','crossing',
@@ -680,7 +703,7 @@ def koy_toplu(istek):
 def acik_emirler():
     if not LIVE: return []
     try:
-        a=client.get_open_orders()
+        a=emir_iz.cagir('open_orders',{},client.get_open_orders)
         return a if isinstance(a,list) else []
     except Exception as ex:
         log('acik_emir_okunamadi',err=str(ex)[:60]); return None
@@ -699,14 +722,14 @@ def bilinmeyen_coz(tid,p):
 def dolum_oku(oid):
     if not LIVE or not oid or oid.startswith('KURU'): return 0.0,'KURU'
     try:
-        o=client.get_order(oid) or {}
+        o=emir_iz.cagir('get_order',{'oid':emir_iz.kimlik(oid)},client.get_order,oid) or {}
         return float(o.get('size_matched',0) or 0),(o.get('status') or '').upper()
     except Exception: return None,''
 
 def iptal(oid):
     """(iptal_oldu, sebep). Yanitin ICERIGINE bakar; eskiden korlemesine True donuyordu."""
     if not LIVE or not oid or oid.startswith('KURU'): return True,'kuru'
-    try: r=client.cancel_order(OrderPayload(orderID=oid))
+    try: r=emir_iz.cagir('cancel',{'oids':[emir_iz.kimlik(oid)]},client.cancel_order,OrderPayload(orderID=oid))
     except Exception as ex:
         m=str(ex).lower()
         if any(x in m for x in ('not found','does not exist','already')): return True,'zaten_yok'
@@ -717,7 +740,7 @@ def iptal_toplu(oidler):
     """{oid: (iptal_oldu, sebep)} — tek istekte, yanitin ICERIGINE bakarak."""
     ger=[o for o in oidler if o and not str(o).startswith('KURU')]
     if not LIVE or not ger: return {o:(True,'kuru') for o in oidler}
-    try: r=client.cancel_orders(ger)
+    try: r=emir_iz.cagir('cancel_batch',{'oids':[emir_iz.kimlik(o) for o in ger]},client.cancel_orders,ger)
     except Exception as ex:
         m=str(ex).lower()
         t=(True,'zaten_yok') if any(x in m for x in ('not found','does not exist','already')) else (False,str(ex)[:60])
@@ -741,6 +764,7 @@ def _pay_ekle(r,d,kaynak,k=None):
         oi=r['oi'],p=r['p'],ofset=r.get('ofset',r['p']),
         yeni=round(yeni,3),toplam=round(d,3),kaynak=kaynak,
         gecen_sn=(round(time.time()-k[1],1) if k else None))
+    emir_iz.dolum(r.get('oid'),yeni,d,kaynak)
     r['pay']=d
     if d>=KLIP-0.01 and r.get('durum')=='acik': r['durum']='dolu'   # v4.1: tam dolan emir aktif teklif sayilmaz
     return True
@@ -1027,6 +1051,7 @@ def taze_izle(k,w,tk):
     ask={0:None,1:None}
     kilit=threading.Lock()                           # v1.2: okuyucu ayri is parcacigi
     son_defter={}                                    # v4: oi -> son defter guncelleme zamani (bayatlik)
+    son_kaynak={}; hazir=set()                       # Snapshot alinmadan deltadan defter kurulmaz.
     son={0:0.0,1:0.0}; n_koy=0; n_iptal=0; ws_hata=0; durdur=False
     def bb_of(oi):
         with kilit:
@@ -1035,10 +1060,14 @@ def taze_izle(k,w,tk):
             b=max(pz); return b,lv[oi][b],ask[oi]
     def guncelle(m):
         et=m.get('event_type') or m.get('type')
+        tn=time.time()
+        try: kaynak=float(m.get('timestamp',tn*1000))/1000
+        except (TypeError,ValueError): return
+        if not math.isfinite(kaynak) or kaynak>tn+1.0: return
         if et=='book':
             oi=tid2oi.get(str(m.get('asset_id')))
-            if oi is None: return
-            son_defter[oi]=time.time()
+            if oi is None or kaynak<son_kaynak.get(oi,0): return
+            son_kaynak[oi]=kaynak; son_defter[oi]=min(tn,kaynak); hazir.add(oi)
             lv[oi]={}
             for x in m.get('bids') or []:
                 try: lv[oi][round(float(x['price']),3)]=float(x['size'])
@@ -1048,8 +1077,8 @@ def taze_izle(k,w,tk):
         elif et=='price_change':
             for c in m.get('price_changes') or []:
                 oi=tid2oi.get(str(c.get('asset_id')))
-                if oi is None: continue
-                son_defter[oi]=time.time()
+                if oi not in hazir or kaynak<son_kaynak.get(oi,0): continue
+                son_kaynak[oi]=kaynak; son_defter[oi]=min(tn,kaynak)
                 try: p=round(float(c['price']),3); q=float(c['size'])
                 except Exception: continue
                 if (c.get('side') or '').upper()=='BUY': lv[oi][p]=q
@@ -1134,20 +1163,18 @@ def taze_izle(k,w,tk):
         # v1.2 (kuru kosu 2): karar mantigi recv dongusundeyken sunucu "1013 slow consumer"
         # verdi. Okuyucu YALNIZ okur ve kilitle defteri gunceller; REST cagrilari burada YOK.
         nonlocal ws_hata
-        while time.time()<bitis and not w.get('cozuldu') and not durdur and ws_hata<5:
+        while time.time()<bitis and not w.get('cozuldu') and not durdur and not DURDUR and ws_hata<5:
             try:
                 with connect(C_WS,open_timeout=8,close_timeout=2,max_queue=4096) as ws:
-                    ws.send(json.dumps({"type":"subscribe","channel":"market","assets_ids":[str(tk[0]),str(tk[1])]}))
+                    ws.send(json.dumps({"type":"market","assets_ids":[str(tk[0]),str(tk[1])]}))
+                    son_ping=time.monotonic()
                     while time.time()<bitis and not w.get('cozuldu') and not durdur and not DURDUR:
+                        if time.monotonic()-son_ping>=10:
+                            ws.send("PING"); son_ping=time.monotonic()
                         try: raw=ws.recv(timeout=1.0)
                         except TimeoutError: continue
-                        # v3: 'book' anlik goruntuleri asset basina en fazla 1/sn islenir (sunucu 15 sn'de 100+ basiyor;
-                        # her birini cozmek okuyucuyu geride birakip "1013 slow consumer" kopmasi yaratiyordu).
-                        if '"event_type":"book"' in raw or '"event_type": "book"' in raw:
-                            aid=taze_book_aid(raw)            # v3.2: saglam ayristirma (eski dilimleme IndexError veriyordu)
-                            tn=time.time()
-                            if tn-son_book.get(aid,0)<1.0: continue
-                            son_book[aid]=tn
+                        # Her snapshot/delta sirayla islenir; karma mesajin tamami atlanmaz.
+                        if raw=="PONG": continue
                         try: d=json.loads(raw)
                         except Exception: continue
                         ms=[m for m in (d if isinstance(d,list) else [d]) if isinstance(m,dict)]
@@ -1155,9 +1182,8 @@ def taze_izle(k,w,tk):
                             for m in ms: guncelle(m)
             except Exception as ex:
                 ws_hata+=1; log('taze_ws_hata',S=S,err=str(ex)[:80],deneme=ws_hata)
-                with kilit: lv[0]={}; lv[1]={}; ask[0]=None; ask[1]=None; son_defter.clear()   # v4: bayat defterle emir yok
+                with kilit: lv[0]={}; lv[1]={}; ask[0]=None; ask[1]=None; son_defter.clear(); son_kaynak.clear(); hazir.clear()   # v4: bayat defterle emir yok
                 time.sleep(1.0)
-    son_book={}
     okur=threading.Thread(target=okuyucu,daemon=True,name=f"taze-ws-{S}"); okur.start()
     while time.time()<bitis and not w.get('cozuldu') and not durdur and not DURDUR:
         if not okur.is_alive() and ws_hata>=5: break
@@ -1504,7 +1530,8 @@ def tamamla(k,w):
         w['tamamlandi']='kuru'; state_kaydet(); return
     try:
         od=client.create_order(OrderArgs(token_id=tk[eks],price=px,size=eksik,side=BUY))
-        resp=client.post_order(od,OrderType.FAK) or {}
+        resp=emir_iz.cagir('post',{'orders':[emir_iz.emir(eks,tk[eks],px,eksik)],
+                                  'post_only':False,'type':'FAK'},client.post_order,od,OrderType.FAK) or {}
     except Exception as ex:
         log('tamamla_HATA',sym=k[0],S=k[1],err=str(ex)[:120]); w['tamamlandi']='hata'
         state_kaydet(); return
@@ -1513,6 +1540,7 @@ def tamamla(k,w):
     alinan=alinan or 0.0
     ucret=FEE_TAKER*px*(1.0-px)*alinan
     if alinan>0:
+        emir_iz.dolum(oid,alinan,alinan,'tamamla_fak')
         w['emir'].append({'oi':eks,'p':px,'ofset':None,'hedef_ofset':None,'bb':None,
                           'oid':oid,'pay':alinan,'durum':'kapali','tamamlama':True,
                           'ucret':round(ucret,5),'ack_ms':round(time.time()*1000),
@@ -1636,7 +1664,10 @@ def main():
         for k,w in list(pen.items()):
             if not w.get('cozuldu'): pencere_bakim(k,w)
         if time.time()-son_mut>MUTABAKAT_ARA:
-            son_mut=time.time(); acilis_maruziyeti(); rr=mutabakat()
+            son_mut=time.time()
+            if acilis_maruziyeti() is None:
+                sebep='maruziyet_teyitsiz'; break
+            rr=mutabakat()
             if rr is not None:
                 log('mutabakat',pnl=round(rr,2),yerel=round(st['pnl_yerel'],2),
                     etkin=round(etkin_pnl(),2),pencere=st.get('mutabakat_pencere',0),
@@ -1919,7 +1950,6 @@ if TEST:
     ok.append(('v4.1 tavan: eslesmemis maliyet (ort() FIFO) + hedef None olsa da kontrol', "eslesen=min(dolan(0),dolan(1))" in _src and "tav=round(math.floor((C_CIFT_TAVAN-od)" in _src, 'kaynakta var'))
     ok.append(('C v3.2: book asset_id ayristirma (bosluklu/bosluksuz/yok)', taze_book_aid('{"event_type":"book","asset_id":"123abc","bids":[]}')=='123abc' and taze_book_aid('{"event_type": "book", "asset_id": "77x", "bids": []}')=='77x' and taze_book_aid('{"event_type":"book"}')=='' and taze_book_aid('')=='', 'ok'))
     ok.append(('C v3.1: hedefle ayni fiyattaki acik emir yerinde kalir (tavanli emir iptal dongusu yok)', "if hedef is not None and abs(p-hedef)<1e-9: return" in _src, 'kaynakta var'))
-    ok.append(('C v3: okuyucu book anlik goruntusunu 1/sn sinirlar, JSON kilit disinda', "son_book[aid]=tn" in _src and "ms=[m for m in (d if isinstance(d,list) else [d]) if isinstance(m,dict)]" in _src, 'kaynakta var'))
     ok.append(('C hedef: defter bos -> yok', taze_hedef(None,0.47,0.01,0,0,0) is None and taze_hedef(0.45,None,0.01,0,0,0) is None, 'None'))
     ok.append(('C hedef: 0,001 tik yuvarlama', taze_hedef(0.451,0.455,0.001,10,0,0)==0.452, taze_hedef(0.451,0.455,0.001,10,0,0)))
     _c=collections.Counter(kol_ata('btc',1789800000+300*i) for i in range(3000)) if 'collections' in globals() else None

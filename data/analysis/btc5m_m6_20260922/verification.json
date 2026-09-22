@@ -1,0 +1,20 @@
+{
+  "cached_repeat_identical": true,
+  "report_sha256": "2a2479001e84bd1303d13749f655cbe20fe55a7f94e6e12338e66d4ec0d2922c",
+  "checks": [
+    {
+      "script": "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/data/analysis/btc5m_m6_20260922/check.py",
+      "output": "M6: causal levels, mirror rejection, ambiguous clocks, 12 controls and frozen hashes passed"
+    },
+    {
+      "script": "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/data/analysis/btc5m_m5_20260922/check.py",
+      "output": "M5: telemetry, money, role, clock-null and per-order mismatch checks passed"
+    },
+    {
+      "script": "/home/taygun/Masa\u00fcst\u00fc/polymarket-bosona/data/analysis/btc5m_maker_feasibility_20260921/check.py",
+      "output": "PASS: real receipt + corrupt log, queue, causal clock, complementary book, duplicate WS, old-snapshot/new-delta guards"
+    }
+  ],
+  "syntax": "passed",
+  "lint": "All checks passed!"
+}

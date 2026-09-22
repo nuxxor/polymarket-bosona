@@ -1,0 +1,63 @@
+{
+  "created_s": 1790075072,
+  "forward_start": 1790075100,
+  "forward_end": 1790082300,
+  "watch_end": 1790083200,
+  "historical": [
+    1790069400,
+    1790069700,
+    1790070000,
+    1790070300,
+    1790070600,
+    1790070900,
+    1790073300,
+    1790073600,
+    1790074800
+  ],
+  "forward_slots": [
+    1790075100,
+    1790075400,
+    1790075700,
+    1790076000,
+    1790076300,
+    1790076600,
+    1790076900,
+    1790077200,
+    1790077500,
+    1790077800,
+    1790078100,
+    1790078400,
+    1790078700,
+    1790079000,
+    1790079300,
+    1790079600,
+    1790079900,
+    1790080200,
+    1790080500,
+    1790080800,
+    1790081100,
+    1790081400,
+    1790081700,
+    1790082000
+  ],
+  "wallets": {
+    "G": "0xfcdc8dba317545de64ffe202a13b2fb96608fcc7",
+    "Bosona": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed"
+  },
+  "bot": "/home/ubuntu/polymarket-bosona-g-continuous/bot",
+  "source_sha": "1c46c9bb8070b8e48a2b3d88cf6e27146c01ae8f33a2ae1e18530c4b39f2c40a",
+  "policy_sha": "fbac759df25cecf10ea01bbf9db9da5e07dd90f3b33e844125c51e434eaf2f61",
+  "health_period_seconds": 30,
+  "analysis_period_seconds": 300,
+  "limits": [
+    "Public snapshots preserve every row; snapshots are not concatenated as distinct trades.",
+    "Matched public fill clocks do not identify original decision or placement times.",
+    "No quote policy, wallet action, budget change or restart. Missing coverage is never zero activity.",
+    "Actor receipts identify only filled orders; cancels and unfilled intentions remain unknown.",
+    "Zero initial condition inventory assumed only when full public condition history reconciles."
+  ],
+  "inherited_source_sha": {
+    "public_data.py": "c0a40bd43c0d756a8997f98b029837dd7dd48eb808ab226212b9724469697e37",
+    "identity.py": "bbabe1303f37ee1bd7cd34bcca266f0ea276dd6d81bfafff20cbe4ed227a58cd"
+  }
+}

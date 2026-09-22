@@ -1,0 +1,263 @@
+{
+  "capture": {
+    "session": "e74f9ef15576409dbf7d8c028184cf2e",
+    "transport_ok": false,
+    "rollover_observed": true,
+    "elapsed_seconds": 900.016628149,
+    "rows": 603978,
+    "counts": {
+      "user": {
+        "subscription_sent": 1,
+        "pong": 90,
+        "connection_end": 1
+      },
+      "market": {
+        "subscription_sent": 4,
+        "data": 603783,
+        "book": 13176,
+        "pong": 92,
+        "price_change": 584026,
+        "last_trade_price": 6573,
+        "gap": 3,
+        "connection_end": 4,
+        "tick_size_change": 8
+      }
+    },
+    "current_window_activity": {
+      "1790033700": 141420,
+      "1790034000": 100372,
+      "1790034300": 235590,
+      "1790034600": 102909
+    },
+    "max_write_delay_ms": 9.576804,
+    "p99_write_delay_ms": 1.698789,
+    "utc_minus_monotonic_spread_ms": 0.111186,
+    "raw_sha256": "74455fcba64b09a42e13fa261106e07c9500e285e04459932831cee02aecf750",
+    "user_events_observed": false,
+    "full_calibration": false
+  },
+  "meters": {
+    "drain_market": {
+      "frames": 601344,
+      "samples": 902,
+      "connections": 6,
+      "closes": [
+        {
+          "event": "close",
+          "utc_ns": 1790033892198186347,
+          "channel": "market",
+          "connection": 1,
+          "code": 1013,
+          "error_type": "ConnectionClosedError",
+          "slow_consumer": true,
+          "reason_length": 31,
+          "prior_30s_queue_max": 81,
+          "prior_30s_paused_samples": 0
+        },
+        {
+          "event": "close",
+          "utc_ns": 1790034149263528425,
+          "channel": "market",
+          "connection": 2,
+          "code": 1013,
+          "error_type": "ConnectionClosedError",
+          "slow_consumer": true,
+          "reason_length": 31,
+          "prior_30s_queue_max": 56,
+          "prior_30s_paused_samples": 0
+        },
+        {
+          "event": "close",
+          "utc_ns": 1790034542619169752,
+          "channel": "market",
+          "connection": 3,
+          "code": 1013,
+          "error_type": "ConnectionClosedError",
+          "slow_consumer": true,
+          "reason_length": 31,
+          "prior_30s_queue_max": 79,
+          "prior_30s_paused_samples": 0
+        },
+        {
+          "event": "close",
+          "utc_ns": 1790034557453174555,
+          "channel": "market",
+          "connection": 4,
+          "code": 1013,
+          "error_type": "ConnectionClosedError",
+          "slow_consumer": true,
+          "reason_length": 31,
+          "prior_30s_queue_max": 37,
+          "prior_30s_paused_samples": 0
+        },
+        {
+          "event": "close",
+          "utc_ns": 1790034679254407793,
+          "channel": "market",
+          "connection": 5,
+          "code": 1013,
+          "error_type": "ConnectionClosedError",
+          "slow_consumer": true,
+          "reason_length": 31,
+          "prior_30s_queue_max": 39,
+          "prior_30s_paused_samples": 0
+        }
+      ],
+      "queue_highs": [
+        4096
+      ],
+      "queue_max": 98,
+      "paused_samples": 0,
+      "caller_max_ms": 1.437276,
+      "p99_secondly_caller_max_ms": 0.655074
+    },
+    "recorder_market": {
+      "frames": 603843,
+      "samples": 901,
+      "connections": 4,
+      "closes": [
+        {
+          "event": "close",
+          "utc_ns": 1790034062323281818,
+          "channel": "market",
+          "connection": 1,
+          "code": 1013,
+          "error_type": "ConnectionClosedError",
+          "slow_consumer": true,
+          "reason_length": 31,
+          "prior_30s_queue_max": 27,
+          "prior_30s_paused_samples": 0
+        },
+        {
+          "event": "close",
+          "utc_ns": 1790034316167487421,
+          "channel": "market",
+          "connection": 2,
+          "code": 1013,
+          "error_type": "ConnectionClosedError",
+          "slow_consumer": true,
+          "reason_length": 31,
+          "prior_30s_queue_max": 32,
+          "prior_30s_paused_samples": 0
+        },
+        {
+          "event": "close",
+          "utc_ns": 1790034409412220456,
+          "channel": "market",
+          "connection": 3,
+          "code": 1013,
+          "error_type": "ConnectionClosedError",
+          "slow_consumer": true,
+          "reason_length": 31,
+          "prior_30s_queue_max": 147,
+          "prior_30s_paused_samples": 0
+        }
+      ],
+      "queue_highs": [
+        4096
+      ],
+      "queue_max": 150,
+      "paused_samples": 0,
+      "caller_max_ms": 9.150729,
+      "p99_secondly_caller_max_ms": 0.726368
+    },
+    "recorder_user": {
+      "frames": 90,
+      "samples": 900,
+      "connections": 1,
+      "closes": [],
+      "queue_highs": [
+        4096
+      ],
+      "queue_max": 0,
+      "paused_samples": 0,
+      "caller_max_ms": 0.597458,
+      "p99_secondly_caller_max_ms": 0.09667
+    }
+  },
+  "drain": {
+    "frames": 601251,
+    "bytes": 405733725,
+    "pong": 93,
+    "connections": 6,
+    "gaps": 5,
+    "cpu_seconds": 33.891548,
+    "elapsed": 899.9820190499886
+  },
+  "recorder_cpu_seconds": 78.887172,
+  "price_change_publication_age_ms": {
+    "median": 5.741455078125,
+    "p99": 214.68798828125,
+    "max": 676.66552734375
+  },
+  "transport_gate_passed": false,
+  "permanent_disconnect_fix_proven": false,
+  "full_calibration": false,
+  "probe_sha256": "9b198433d798ade73d53c7aa9de49573bf5fd82c10c30da7e36c0b7dce1ad1ec",
+  "async_control": {
+    "started_utc_ns": 1790034368147508781,
+    "seconds": 240,
+    "roster_sha256": "e57f7d10cfefb6ab343c9c97628be6d33288448bf67615c37845639a4d6d745a",
+    "connections": 2,
+    "frames": 207157,
+    "bytes": 141459174,
+    "pong": 25,
+    "closes": [
+      {
+        "utc_ns": 1790034571702567393,
+        "code": 1013,
+        "error_type": "ConnectionClosedError",
+        "slow_consumer": true
+      }
+    ],
+    "ended_utc_ns": 1790034608163196011,
+    "elapsed": 240.0155472640181,
+    "cpu_seconds": 10.011622000000001
+  },
+  "connection_overlap": {
+    "intervals": {
+      "recorder_market": [
+        [
+          1790034062323281818,
+          1790034062848328375
+        ],
+        [
+          1790034316167487421,
+          1790034316692564774
+        ],
+        [
+          1790034409412220456,
+          1790034409944609107
+        ]
+      ],
+      "drain_market": [
+        [
+          1790033892198186347,
+          1790033892724915246
+        ],
+        [
+          1790034149263528425,
+          1790034149788630543
+        ],
+        [
+          1790034542619169752,
+          1790034543150017762
+        ],
+        [
+          1790034557453174555,
+          1790034557981475007
+        ],
+        [
+          1790034679254407793,
+          1790034679784940620
+        ]
+      ]
+    },
+    "overlaps": [],
+    "definition": "close receipt to next socket open; not data freshness/completeness interval",
+    "independent_backup_effectiveness_proven": false
+  },
+  "financial_state_unchanged": true,
+  "observers_stopped": true,
+  "open_orders": 0
+}
